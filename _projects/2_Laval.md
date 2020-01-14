@@ -5,7 +5,7 @@ title: Creativity in VR
 excerpt: Research and Design for Virtual Reality, at Arts et Metiers Laval, France.
 duration: Summer 2019
 header:
-    teaser: /media/thumbnails/vrcreate.png
+    teaser: /media/thumbnails/laval.jpg
 permalink: /creativityvr/
 
 ---

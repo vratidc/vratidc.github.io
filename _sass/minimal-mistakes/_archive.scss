@@ -242,12 +242,22 @@
   }
 
   .archive__item-teaser {
+      
+              height: 40vh;
+
+      
     @include breakpoint($small) {
-      max-height: 200px;
+        
+        height: 200px;
+        
+//      min-height: 200px;
+//      max-height: 200px;
     }
 
     @include breakpoint($medium) {
-      max-height: 280px;
+        height: 250px;
+//        min-height: 200px;
+//      max-height: 280px;
     }
       
       

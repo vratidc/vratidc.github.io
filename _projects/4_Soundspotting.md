@@ -5,7 +5,7 @@ title: Soundspotting
 excerpt: Connecting Communities through Interactive Social Soundscapes
 duration: Winter 2018
 header: 
-    teaser: /media/thumbnails/ssthumbnail.png
+    teaser: /media/thumbnails/soundspotting-compressor.jpg
 permalink: /soundspotting/
 
 ---

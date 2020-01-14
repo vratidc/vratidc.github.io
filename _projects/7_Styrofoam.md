@@ -5,7 +5,7 @@ title: The Styrofoam Podcast
 excerpt: An instructional podcast on the Common Entrance Examination for Design (CEED) 
 duration: Spring 2019
 header:
-    teaser: /media/thumbnails/styrothumbnail2.png
+    teaser: /media/thumbnails/styrofoam-compressor.jpg
 permalink: /styrofoam/
 
 ---
