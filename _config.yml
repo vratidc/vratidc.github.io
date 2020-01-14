@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "en-GB"
+title                    : "Rishi Vanukuru"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Rishi Vanukuru"
+description              : "Rishi's home on the web."
+url                      : "https://rishivanukuru.com"
+baseurl                  : #
+repository               : "vanukuru/minimal"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Rishi Vanukuru"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Rishi Vanukuru"
+  avatar           : "/assets/img/prof3.png"
+  bio              : "Master's in Interaction Design, <br> IDC School of Design, IIT Bombay <br> Will write songs for Cornettos"
+  location         : "Mumbai, India"
+  email            : "rishivanukuru@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -289,7 +289,44 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
+# _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      
+      # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      
+      # _music
+  - scope:
+      path: ""
+      type: music
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  notes:
+    output: true
+    permalink: /:collection/:path/
+  music:
+    output: true
+    permalink: /:collection/:path/

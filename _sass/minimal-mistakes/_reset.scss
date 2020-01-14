@@ -8,7 +8,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  //font-size: 16px;
 
   @include breakpoint($medium) {
     font-size: 18px;
@@ -76,6 +76,8 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+    text-decoration: none;
+    
 }
 
 /* Apply focus state */
@@ -89,6 +91,8 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+        text-decoration: underline;
+
 }
 
 /* Prevent sub and sup affecting line-height in all browsers */
@@ -114,12 +118,30 @@ sub {
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
   max-width: 100%; /* part 1: Set a maximum relative to the parent*/
-  width: auto\9; /* IE7-8 need help adjusting responsive images*/
+        
+  width: auto; /* IE7-8 need help adjusting responsive images*/
   height: auto; /* part 2: Scale the height according to the width, otherwise you get stretching*/
 
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
+
+
+.archive__item-teaser{
+    
+    img{
+        
+        //height: 100%;
+        
+        //width: auto;
+        
+        //max-width: 100%;
+        
+        object-fit:cover; 
+        
+    }
+    
 }
 
 /* Prevent max-width from affecting Google Maps */
