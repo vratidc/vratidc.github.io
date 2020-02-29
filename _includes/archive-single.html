@@ -21,16 +21,17 @@
           {% endif %}); background-size: cover;background-position: center;'>
           
           
+
 <!--
         <img src=
-          {% if teaser contains "://" %}
+          {% if teaser contains "/media" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | relative_url }}"
           {% endif %}
           alt="">
--->
           
+-->
           
       </div>
     {% endif %}
@@ -39,6 +40,11 @@
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        
+        {% if post.isdate %}
+        <div style = "font-size: 12px; ">{{ post.date | date: '%B %d, %Y' }}</div>
+        {% endif %}
+        
       {% endif %}
     </h2>
     {% if post.read_time %}

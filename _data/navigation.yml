@@ -4,10 +4,11 @@ main:
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Projects"
      url: /projects
-#   - title: "Notes"
-#     url: /notes
+   - title: "Blog"
+     url: /blog
    - title: "Music"
      url: /music
    - title: "CV"
      url: /media/RishiVanukuru_CV.pdf
+     
  
