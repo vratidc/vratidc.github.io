@@ -5,7 +5,11 @@ layout: single
 author_profile: true
 ---
 
-## Introduction
+## What this is about
+
+The CHI SRC Paper is linked [here](/media/RishiVanukuru_SRC.pdf), and the poster is linked [here](/media/Rishi_SRC_Poster.pdf).
+
+## The (more specific) Question
 
 Listening to headings, but two at a time:
 
@@ -74,7 +78,6 @@ A sample audio file for each of the 5 configurations of variables can be found b
     - Headline 2: **Will make efforts to simplify GST to improve biz ranking: Finance Minister**
     - Headline 3: **CPI-M to launch 100 years celebration programme on Thursday**
 
----
 
 ## Crafting the Task Prompt
 
@@ -122,7 +125,6 @@ A sample audio file for each of the 5 configurations of variables can be found b
         Sorry but it seems that your browser does not support the audio element.
     </audio>
     
----
 
 ## Concurrent Speech
 
@@ -173,7 +175,7 @@ For the final experiment, in addition to the base voice, two other American acce
         <source src="../media/torchaudio/18_SalliSample.mp3" type="audio/mpeg">
         Sorry but it seems that your browser does not support the audio element.
     </audio>
----
+
 
 ## Curated Task Lists and Prompts
 
@@ -431,3 +433,5 @@ For the final experiment, in addition to the base voice, two other American acce
 10. Europol launches campaign to catch Europe's 'most wanted women'
 11. Singer Miley Cyrus undergoes vocal cord surgery: Reports
 12. Ranveer Singh recreates Kapil's iconic Natraj shot, shares pic
+
+## That's all for now
