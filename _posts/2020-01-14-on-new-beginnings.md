@@ -1,7 +1,7 @@
 ---
 title:  "On new beginnings"
-isdate: 1
 excerpt: Initial attempts at starting a blog
+isnotes: "no"
 header:
     teaser: /media/thumbnails/accessible-compressor.jpg
 ---
