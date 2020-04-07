@@ -2,11 +2,11 @@
 layout: single
 author_profile: true
 title: Bio-inspired Network Design
-excerpt: Transportation Network Design based on biological modelling of the Slime Mould
+excerpt: Transportation Network Design based on biological modelling of the Slime Mould.
 duration: Autumn 2017
 header:
     teaser: /media/thumbnails/multimodal.jpg
-permalink: /multimodaltransport/
+permalink: /projects/multimodaltransport/
 
 ---
 

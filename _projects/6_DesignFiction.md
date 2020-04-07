@@ -2,11 +2,11 @@
 layout: single
 author_profile: true
 title: ReVoice - Design Fiction
-excerpt: Speculative Design artefacts and prototypes, from a future where all speech is suspect
+excerpt: Speculative Design artefacts and prototypes, from a future where all speech is suspect.
 duration: Spring 2019
 header:
     teaser: /media/thumbnails/dfthumbnail2.png
-permalink: /designfiction/
+permalink: /projects/designfiction/
 
 ---
 
@@ -18,7 +18,7 @@ An excerpt from "ReVoice: Assistive Speech Synthesis through Semi-Autonomous Art
 
 <p align = "center">
 
-<iframe class = "book" src="https://drive.google.com/file/d/1nCZpmYDq0A50NYJ5ySxXuzTxS5vff5am/preview"></iframe>
+<iframe class = "book" src="https://drive.google.com/file/d/1nCZpmYDq0A50NYJ5ySxXuzTxS5vff5am/preview" width="640" height="480"></iframe>
 
 </p>
 
