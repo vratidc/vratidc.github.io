@@ -168,7 +168,9 @@
      Priority plus navigation
      ========================================================================== */
 
+
 .greedy-nav {
+
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,30 +179,46 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
-
-  a {
+  background-color: #f5f5f5;
+ 
+    
+    a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0rem;
     color: $masthead-link-color;
     text-decoration: none;
-
+      padding: 1em 1em;
     &:hover {
-      color: $masthead-link-color;
-
+      color: $primary-color;
+    background: mix(#fff, $secondary-color, 50%);
     }
 
     &.site-logo {
       margin-left: 0;
-      margin-right: 0.5rem;
+      margin-right: 5rem;
+      width: 40%;
+      padding-right: 0px;
+        &:hover {
+      //color: $primary-color;
+        background: #f5f5f5;
+    }
+        
+        @include breakpoint(max-width $medium-wide)
+        {
+            &.site-logo{
+                      margin-right: 10rem;
+
+            }
+        }
+        
     }
 
     &.site-title {
       
         padding-left: 20px;
         margin-left: 0;
-      margin-right: 20px;
-    padding-right: 60px; 
+        margin-right: 20px;
+        padding-right: 80px; 
         
         &:hover {
       color: #FF2800;  //SITE TITLE COLOR
@@ -226,49 +244,93 @@
     display: flex;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
-    justify-content: flex-start;
+    justify-content: flex-end;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    overflow: hidden;
+    //overflow: hidden;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    min-height: 90px;
+
 
     li {
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
+      margin: 0px 0px;
+
     }
 
     a {
-      position: relative;
+      
+        position: relative;
+        font-size: $type-size-7;
+        margin: 0px 0px;
+      //padding: 10px 10px;
+        min-height: 90px;  
+        vertical-align: sub; 
+        padding: 3em 1em 1em 1em;
 
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: $primary-color;
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-        transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
+      
+      //START SUBLINK ADD
+      
+      
+      .dropdown {
+      float: left;
+      width: auto;
+      //max-height: 30px;
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
-      }
     }
+
+    .dropdown-content {
+        padding-top: 0px;
+      display: none;
+      position: absolute;
+      background-color: darken($background-color, 0%);
+      min-width: 40px;
+      box-shadow: $box-shadow;
+      z-index: 1;
+        margin: 0;
+                min-height: 0px;
+
+    }
+
+    .dropdown-content a {
+      padding: 10px 10px;
+        margin: 0px;
+        min-height: 0px;
+        
+        &:hover {
+      color: $text-color;
+      background: $secondary-color;
+    }
+        
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      //background-color: darken($secondary-color, 3%); 
+    }
+
+    .dropdown-content a:not(:last-child){
+      border-bottom: none; 
+    }
+      
+      //END SUBLINK ADD
+      
+      
   }
 
+    
+    
   .hidden-links {
     position: absolute;
     top: 100%;
     right: 0;
     margin-top: 15px;
-    padding: 5px;
+    padding: 2px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: $background-color;
@@ -286,8 +348,8 @@
       font-size: $type-size-5;
 
       &:hover {
-        color: $masthead-link-color-hover;
-        background: $navicon-link-color-hover;
+        color: $primary-color;
+        background: mix(#fff, $secondary-color, 50%);
       }
     }
 

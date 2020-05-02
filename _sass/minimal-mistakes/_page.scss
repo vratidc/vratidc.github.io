@@ -4,18 +4,23 @@
 
 #main {
   @include clearfix;
+        margin-top: 80px;
+
+    .home{
+        margin-top: 0px;
+    }
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 100%;
+  max-width: $medium-wide;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    max-width: $medium-wide;
   }
 }
 
@@ -38,13 +43,14 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    //width: $medium-wide;  
+    //width: calc(100% - #{$right-sidebar-width-narrow});
+    //padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    //width: calc(100% - #{$right-sidebar-width});
+    //padding-right: $right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -178,9 +184,12 @@ body {
   animation-delay: 0.25s;
 
   &--overlay {
+    height: 300px;
+
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+      margin-top: 80px;
+    margin-bottom: 0em;
+    padding: 3em 0 0 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;

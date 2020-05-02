@@ -1,12 +1,11 @@
 ---
-layout: single
-title: Hello there
-author_profile: true
+layout: singlehome
+title: IMXD Lab
+author_profile: false
+header:
+  overlay_color: "#d2d5d6"
 ---
 
-I'm a second year Master's student in Interaction Design at the IDC School of Design, IIT Bombay.
+# IMXD Lab
 
-My research interests are in the areas of Accessibility and HCI [[1]](/projects/nonvisualinterfaces), and Design for Augmented and Virtual Reality experiences [[2]](/projects/creativityvr) [[3]](/projects/musicvr). You can read more about my work in the [Projects](/projects/) section.
-
-Before joining the IDC, I was an undergraduate student at IIT Bombay (2014 - 2018), where I majored in Civil Engineering with a minor degree in Design.
-
+IMXD Lab brings together efforts made by students, scholars, researchers, and faculty of IDC School of Design, IIT Bombay in the domain of Virtual Reality, Augmented Reality, Mixed Reality, 360° filmmaking and several allied and emergent fields. Primarily it brings together students' projects done within the academic framework and opens up space for further engagement.

@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects
+title: About
+permalink: /about
 layout: single
 ---
 

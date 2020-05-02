@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects
+title: People
+permalink: /people
 layout: single
 ---
 

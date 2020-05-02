@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects
+title: Contact
+permalink: /contact
 layout: single
 ---
 

@@ -2,13 +2,15 @@
 main:
   #- title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "Projects"
-     url: /projects
-#   - title: "Blog"
-#     url: /blog
-   - title: "Music"
-     url: /music
-   - title: "CV"
-     url: /media/RishiVanukuru_CV.pdf
-     
- 
+   - title: "Works"
+     sublinks:
+      - title: Projects
+        url: /projects
+      - title: Publications & Activities
+        url: /publications
+   - title: "People"
+     url: /people
+   - title: "About"
+     url: /about
+   - title: "Contact"
+     url: /contact

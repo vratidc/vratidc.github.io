@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects
+title: Publications
+permalink: /publications
 layout: single
 ---
 

@@ -4,7 +4,7 @@
 
 .page__footer {
   @include clearfix;
-  float: left;
+  float: none;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -50,6 +50,16 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+     text-align: center;
+    color: rgba(255,255,255,0.5);
+}
+
+.page__footer-links {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+     text-align: center;
+    color: $secondary-color;
+    //word-spacing: 2em;
 }
 
 .page__footer-follow {
