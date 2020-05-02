@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IMXD Lab"
 description              : "IMXD's home on the web."
-url                      : "https://rishivanukuru.com/minimalimxd"
+url                      : "https://rishivanukuru.com/"
 baseurl                  : #
 repository               : "vanukuru/minimalimxd"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
