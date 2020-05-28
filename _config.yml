@@ -330,3 +330,7 @@ collections:
   music:
     output: true
     permalink: /:collection/:path/
+  people:
+    output: true
+    permalink: /:collection/:path/
+

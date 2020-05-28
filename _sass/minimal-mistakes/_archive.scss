@@ -3,18 +3,19 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
+
+    margin-top: 120px;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    //float: right;
+    //width: calc(100% - #{$right-sidebar-width-narrow});
+    //padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    //width: calc(100% - #{$right-sidebar-width});
+    //padding-right: $right-sidebar-width;
   }
 }
 
@@ -24,6 +25,12 @@
   a {
     position: relative;
     z-index: 10;
+    color: $text-color;
+      font-weight: bold;
+      
+      &:hover{
+          text-decoration: none;
+      }
   }
 
   a[rel="permalink"] {
@@ -50,6 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
@@ -57,6 +65,7 @@
     top: 0;
     right: 0;
     bottom: 0;
+      color: $secondary-color;
   }
 
   a + a {
@@ -67,12 +76,14 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 2em;
     border-bottom: none;
       
       a{
           text-decoration: none;
       }
+      
+      
       
   }
 }
@@ -92,7 +103,7 @@
 
 .archive__item-teaser {
   position: relative;
-  border-radius: $border-radius*3;
+  //border-radius: $border-radius*3;
   overflow: hidden;
 }
 
@@ -153,7 +164,22 @@
 .grid__item {
     
     
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+      
+        float: left;
+    width: span(5 of 10);
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-left: 0;
+        
+    }
+
+    &:nth-child(2n + 2) {
+      clear: none;
+      margin-left: gutter(of 10);
+      
+    }
 
   @include breakpoint($small) {
     float: left;
@@ -178,44 +204,44 @@
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
           
-    width: span(5 of 10);
+    width: span(2 of 8);
 
-&:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-    padding-right: 1em;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-          padding-left: 1em;
-
-    }
-  
 //    &:nth-child(2n + 1) {
-//      clear: none;
-//    }
-//
-//    &:nth-child(4n + 1) {
 //      clear: both;
+//      margin-left: 0;
+//    padding-right: 1em;
+//        
 //    }
 //
-//    &:nth-child(4n + 2) {
+//    &:nth-child(2n + 2) {
 //      clear: none;
-//      margin-left: gutter(1 of 12);
-//    }
+//      margin-left: gutter(of 10);
+//          padding-left: 1em;
 //
-//    &:nth-child(4n + 3) {
-//      clear: none;
-//      margin-left: gutter(1 of 12);
 //    }
-//
-//    &:nth-child(4n + 4) {
-//      clear: none;
-//      margin-left: gutter(1 of 12);
-//    }
+  
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(4n + 1) {
+      clear: both;
+    }
+
+    &:nth-child(4n + 2) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+    &:nth-child(4n + 3) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+    &:nth-child(4n + 4) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
       
       
 
@@ -229,39 +255,43 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-7;
   }
 
   .archive__item-excerpt {
     //display: none;
-
+      font-size: $type-size-8;
+      
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-8;
     }
   }
 
   .archive__item-teaser {
       
-              height: 40vh;
+             height: 20vh;
 
       
     @include breakpoint($small) {
         
-        height: 200px;
+        height: 250px;
         
 //      min-height: 200px;
 //      max-height: 200px;
     }
 
     @include breakpoint($medium) {
-        height: 250px;
+        height: 200px;
 //        min-height: 200px;
 //      max-height: 280px;
     }
       
       
   }
+    
+    
+    
 }
 
 /*

@@ -4,7 +4,7 @@
 
 #main {
   @include clearfix;
-        margin-top: 80px;
+        margin-top: 100px;
 
     .home{
         margin-top: 0px;
@@ -42,7 +42,7 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: right;
+    //float: right;
     //width: $medium-wide;  
     //width: calc(100% - #{$right-sidebar-width-narrow});
     //padding-right: $right-sidebar-width-narrow;
@@ -78,6 +78,8 @@ body {
   margin-top: 0;
   line-height: 1;
 
+    font-weight: bold;
+    
   & + .page__meta {
     margin-top: -0.5em;
   }
@@ -99,6 +101,8 @@ body {
             padding-bottom: 0.5em;
 
             border-bottom: 1px solid $border-color;
+        
+        font-weight: bold;
 
     }
     
@@ -570,4 +574,46 @@ body {
       padding-right: 0;
     }
   }
+}
+
+/*
+People Page
+========================================================================== */
+
+.people_container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+
+.people_person{
+    
+    flex-grow: 1;
+    width: 22%;
+    //min-width: 15%;
+
+    margin-right: 10px;
+    
+}
+
+.person_image{
+    
+}
+
+.person_name{
+    
+}
+
+.person_title{
+    
+}
+
+.person_contact{
+    
+    
 }
