@@ -2,6 +2,8 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+
+
 #main {
   @include clearfix;
         margin-top: 100px;
@@ -615,5 +617,18 @@ People Page
 
 .person_contact{
     
+    
+}
+
+/*
+Home AR 360 images
+========================================================================== */
+
+.ar_home{
+    
+    height: 400px;
+    margin-top: 80px;
+    
+    background: #d2d5d6;
     
 }

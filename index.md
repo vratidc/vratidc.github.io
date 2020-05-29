@@ -3,7 +3,7 @@ layout: singlehome
 title: IMXD Lab
 author_profile: false
 header:
-  overlay_color: "#d2d5d6"
+  #overlay_color: "#d2d5d6"
 ---
 
 # IMXD Lab
