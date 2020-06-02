@@ -1,7 +1,10 @@
 ---
 title: Projects
 permalink: projects
-layout: single
+layout: projectcollection
+collection: projects
+entries_layout: grid
+
 ---
 
 

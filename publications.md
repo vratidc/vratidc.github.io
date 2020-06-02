@@ -1,8 +1,9 @@
 ---
-title: Publications
+title: Publications & Activities
 permalink: /publications
-layout: collectionLooper
+layout: publicationcollection
 collection: publications
+entries_layout: grid
 ---
 
 

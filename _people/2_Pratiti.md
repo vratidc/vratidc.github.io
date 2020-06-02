@@ -1,7 +1,8 @@
 ---
 layout: single
 title:  Pratiti Sarkar
-excerpt: PhD Scholar
+position: PhD Scholar
+role: "team"
 header:
     teaser: /assets/img/placeholder_png.png
 permalink: /people/pratiti

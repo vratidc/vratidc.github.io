@@ -6,7 +6,3 @@ collection: people
 entries_layout: grid
 
 ---
-
-<br>
-
-# Team

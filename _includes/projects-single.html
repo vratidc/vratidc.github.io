@@ -10,10 +10,10 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<div class="project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
+  <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser" style = 'background-image: 
+      <div class="projects__item-teaser" style = 'background-image: 
         url({% if teaser contains "://" %}
             {{ teaser }}
           {% else %}
@@ -22,7 +22,7 @@
           
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="projects__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -34,9 +34,12 @@
         
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.position %}<p class="archive__item-excerpt" itemprop="description">{{ post.position | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+   {% if post.excerpt %}<p class="projects__item-excerpt" itemprop="description" style = "margin-bottom: 0px;">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      <p class="projects__item-excerpt-tags">
+         {% for tag in post.tags %}
+  			 <a class="tag tagbox">{{ tag }}</a>
+  		 {% endfor %}
+      </p>
   </article>
 </div>

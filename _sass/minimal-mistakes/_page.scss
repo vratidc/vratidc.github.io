@@ -5,6 +5,11 @@
 
 
 #main {
+    
+    
+  
+    
+    
   @include clearfix;
         margin-top: 100px;
 
@@ -91,6 +96,32 @@ body {
   font-family: $global-font-family;
   font-size: $type-size-4;
 }
+
+
+
+    
+    .home-button{
+        a{
+            font-weight: bold;
+            color: $primary-color;
+            font-size: $type-size-6;
+            padding: 0.5em 1em;
+            border-style: solid;
+            border-width: medium;
+            border-color: $primary-color;
+            border-radius: 0.2em;
+        }
+        
+        a:hover{
+                       color: $background-color;
+ background: $primary-color;
+            text-decoration: none;
+            
+        }
+        
+    }
+    
+
 
 .page__content {
   h2 {
@@ -628,7 +659,14 @@ Home AR 360 images
     
     height: 400px;
     margin-top: 80px;
-    
-    background: #d2d5d6;
+    width: 100%
+    //background: #d2d5d6;
     
 }
+
+
+
+ #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }

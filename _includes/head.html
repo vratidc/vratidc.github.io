@@ -43,7 +43,7 @@
     {% if script contains "://" %}
       {% capture script_path %}{{ script }}{% endcapture %}
     {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+      {% capture script_path %}{{ script }}{% endcapture %}
     {% endif %}
     <script src="{{ script_path }}"></script>
   {% endfor %}

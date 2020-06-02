@@ -288,7 +288,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: # true
       share: false
@@ -299,7 +299,7 @@ defaults:
       type: projects
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
       
       # _notes
@@ -308,7 +308,7 @@ defaults:
       type: notes
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
       
       # _music
@@ -317,7 +317,7 @@ defaults:
       type: music
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
       
 collections:
@@ -337,3 +337,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+#Head Scripts
+head_scripts:
+  - https://code.jquery.com/jquery-3.3.1.min.js
+#  - /assets/js/plugins/isotope.js
+  - https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js
+  - https://aframe.io/releases/1.0.4/aframe.min.js

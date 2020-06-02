@@ -1,7 +1,8 @@
 ---
 layout: single
 title:  Amarnath Murugan
-excerpt: Research Scholar
+position: Research Scholar
+role: "team"
 header:
     teaser: /assets/img/placeholder_png.png
 permalink: /people/goodboy

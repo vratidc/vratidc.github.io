@@ -1,9 +1,13 @@
 ---
-title:  "Test Publication Title 3"
+title:  "Collaborative Approaches to Problem-Solving on Lines and Angles Using Augmented Reality"
+type: "Full Paper"
+authors: "Pratiti Sarkar, Kapil Kadam and Jayesh Pillai"
+year: "2019"
+venue: "Technology for Education (T4E 2019), Goa, India"
 excerpt: Test Publication Excerpt
 header:
-#    teaser: /media/<insert image link here>
-layout: single    
+    teaser: /assets/img/placeholder_png.png
+layout: publications    
 ---
 
 Placeholder Content

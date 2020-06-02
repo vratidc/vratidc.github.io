@@ -5,8 +5,10 @@
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #121617 !default;
+$secondary-text-color: mix(#fff, $text-color, 30%) !default;
 $secondary-color: #FFD650 !default;
 $primary-color: #008055 !default;
+$secondary-highlight: #ffeaa7 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;

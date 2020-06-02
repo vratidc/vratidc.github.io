@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  Jayesh Pillai
-position: Assistant Professor
-role: "team"
+title:  Raaghavi
+position: Master's Student
+role: "student"
 header:
     teaser: /assets/img/placeholder_png.png
-permalink: /people/jayesh
+permalink: /people/raaghavi
 type: people
 ---
 
