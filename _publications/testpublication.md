@@ -7,7 +7,7 @@ venue: "The 16th ACM SIGGRAPH European Conference on Visual Media Production, 20
 excerpt: Test Publication Excerpt
 homepage: "true"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/placeholder_person.jpg
 layout: publications   
 ---
 

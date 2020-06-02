@@ -7,7 +7,7 @@ venue: "17th ACM SIGGRAPH International Conference on Virtual Reality Continuum 
 excerpt: Test Publication Excerpt
 homepage: "true"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/placeholder_person.jpg
 layout: publications    
 ---
 

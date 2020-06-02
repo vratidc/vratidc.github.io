@@ -6,7 +6,7 @@ year: "2019"
 venue: "Technology for Education (T4E 2019), Goa, India"
 excerpt: Test Publication Excerpt
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/placeholder_person.jpg
 layout: publications    
 ---
 

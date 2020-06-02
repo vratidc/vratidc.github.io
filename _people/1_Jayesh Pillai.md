@@ -4,7 +4,7 @@ title:  Jayesh Pillai
 position: Assistant Professor
 role: "team"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/people/jayeshpillai.jpg
 permalink: /people/jayesh
 type: people
 ---

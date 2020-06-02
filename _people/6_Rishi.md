@@ -4,7 +4,7 @@ title:  Rishi Vanukuru
 position: Master's Student
 role: "student"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/people/rishi_profile.jpg
 permalink: /people/rishi
 type: people
 ---

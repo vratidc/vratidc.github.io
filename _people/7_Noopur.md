@@ -4,7 +4,7 @@ title:  Noopur
 position: Master's Student
 role: "student"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/people/noopur.jpg
 permalink: /people/noopur
 type: people
 ---

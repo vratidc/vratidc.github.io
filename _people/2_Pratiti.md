@@ -4,7 +4,7 @@ title:  Pratiti Sarkar
 position: PhD Scholar
 role: "team"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/people/pratiti.jpg
 permalink: /people/pratiti
 type: people
 ---
