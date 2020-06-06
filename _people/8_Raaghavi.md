@@ -4,11 +4,9 @@ title:  Raaghavi
 position: Master's Student
 role: "student"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/people/raaghavi.jpg
 permalink: /people/raaghavi
 type: people
 ---
 
 Text Here
-
-

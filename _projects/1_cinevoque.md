@@ -14,7 +14,7 @@ tags: VR-Film Storytelling
 banner_image1: /assets/img/gray.png
 banner_image1_caption:
 
-team_members: "Raghavi | Noopur | Ayush | Pooja "
+team_members: "abc | xxx | wwww | fff "
 team_members_align: "text-left"
 
 
