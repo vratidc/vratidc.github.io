@@ -8,7 +8,7 @@ header:
     teaser: /assets/img/projects/ARCastle.png
 tags: AR Games
 
-banner_image1: /assets/img/projects/ARCastle.png
+banner_image1: /minimalimxd/assets/img/projects/ARCastle.png
 banner_image1_caption:
 
 team_members: "Ankit Bansod | Rahul Wasnik | Anshul Patle | Akash Gupta "
