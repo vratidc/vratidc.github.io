@@ -2,8 +2,8 @@
 title:  "Connecting the Realms"
 excerpt: AR Interface
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/Connectingrealms.png
 tags: AR
