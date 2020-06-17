@@ -2,8 +2,8 @@
 title:  "V-Room"
 excerpt: VR
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/Vroom.png
 tags: VR

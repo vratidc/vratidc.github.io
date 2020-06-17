@@ -2,7 +2,8 @@
 title:  "History of IDC through AR"
 excerpt: Something goes here
 layout: projects   
-selected: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/HistoryofIDC.png
 tags: AR

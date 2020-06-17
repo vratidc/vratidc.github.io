@@ -2,8 +2,8 @@
 title:  "ARCastle"
 excerpt: Marker based AR Game
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/ARCastle.png
 tags: AR Games

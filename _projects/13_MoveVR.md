@@ -2,8 +2,8 @@
 title:  "Move VR"
 excerpt: VR
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/MoveVR.png
 tags: VR

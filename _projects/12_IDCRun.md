@@ -2,8 +2,8 @@
 title:  "IDC Run"
 excerpt: VR Obstacle Runner Game
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/IDCRun.png
 tags: VR

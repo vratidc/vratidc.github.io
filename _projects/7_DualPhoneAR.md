@@ -1,8 +1,9 @@
 ---
-title:  "Dual Phone AR"
-excerpt: Using 2 AR Phones
+title:  "AR-TWO"
+excerpt: AR Interactions Using 2 Phones
 layout: projects   
-selected: "false"
+selected: "true"
+homepage: "true"
 header:
     teaser: /assets/img/placeholder_png.png
 tags: AR XR Research  

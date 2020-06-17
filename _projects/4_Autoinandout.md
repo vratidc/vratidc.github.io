@@ -2,7 +2,8 @@
 title:  "Auto In and Out"
 excerpt: VR experience of a car
 layout: projects  
-selected: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/Autoinandout.png
 tags: VR

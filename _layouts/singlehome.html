@@ -31,12 +31,14 @@ layout: default
   <a-assets>
 
     <!-- Images. -->
-    <img id="city" src="{{ site.baseurl }}/assets/img/360/360_Students.jpg">
+    <img id="city" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
     
   </a-assets>
 
   <!-- 360-degree image. -->
+  <a-entity rotation="0 -90 0">
   <a-sky id="image-360" radius="100" src="#city"></a-sky>
+ </a-entity>
 
   
   <!-- Camera + Cursor. -->

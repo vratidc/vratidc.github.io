@@ -2,7 +2,8 @@
 title:  "The New IDC Building"
 excerpt: VR Walkthrough
 layout: projects   
-selected: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/placeholder_png.png
 tags: VR  

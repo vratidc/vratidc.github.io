@@ -2,8 +2,8 @@
 title:  "Horocrux Hunt"
 excerpt: VR Game
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 header:
     teaser: /assets/img/projects/Horcruxhunt.png
 tags: VR
