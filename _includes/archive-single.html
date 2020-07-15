@@ -11,18 +11,41 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+    {% if post.modal == "yes" %}
+    
+    
+    <article class="archive__item" style="cursor: pointer;" id="{{ post.modalname }}modal-trigger" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser" style = 'background-image: 
+      <div  class="archive__item-teaser" style = 'background-image: 
         url({% if teaser contains "://" %}
             {{ teaser }}
           {% else %}
             {{ teaser | relative_url }}
           {% endif %}); background-size: cover;background-position: center;'>
-          
+            
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
+     
+     {%if post.modal == "yes" %}
+        
+        <a>{{ title }}</a>
+
+        
+        
+        
+     {% else %}
+    
+        <a >{{ title }}</a>
+                
+     {% endif %}
+
+        <!--
+        
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -33,10 +56,193 @@
         {% endif %}
         
       {% endif %}
+
+-->
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.position %}<p class="archive__item-excerpt" itemprop="description">{{ post.position | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.position %}<p style="margin-bottom: 0px;" class="archive__item-excerpt" itemprop="description">{{ post.position | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      
+      
+      
   </article>
+        {% if post.links %}
+      {% for link in post.links %}
+        {% if link.label and link.url %}
+          <a class="people__icon" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    
+    <div id= "{{ post.modalname }}" class="people-modal">
+
+        <!-- Modal content -->
+                <div class="people-modal-content" id= "{{ post.modalname }}">
+                    
+                
+                    
+                    <div class="modal-left">
+                    
+                    <img src="{% if teaser contains "://" %}
+                    {{ teaser }}
+                    {% else %}
+                    {{ teaser | relative_url }}
+                    {% endif %}">
+                    
+                    </div>
+                    
+                    <div class = "modal-right">
+                    
+                    <h1>{{ post.title }}</h1>
+                    <p>{{post.modaltext}}</p>
+                    
+                    {% if post.links %}
+
+                    <p>Social Links: 
+                    {% for link in post.links %}
+                    {% if link.label and link.url %}
+                        <a class="people__icon" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+                    {% endif %}    
+                    {% endfor %}
+                    </p>
+                    {% endif %}
+                    
+                    
+                    
+                    </div>
+                    
+                        <div>
+                    
+                    <span class="people-close" id="{{ post.modalname }}people-close">&times;</span>
+                    
+                    </div>
+            
+                </div>
+
+        </div>
+        
+        <script>
+
+// Get the modal
+var {{ post.modalname }}modal = document.getElementById("{{ post.modalname }}");
+     
+var allmodal = document.getElementsByClassName("people-modal");
+// Get the button that opens the modal
+var {{ post.modalname }}btn = document.getElementById("{{ post.modalname }}modal-trigger");
+
+// Get the <span> element that closes the modal
+var {{ post.modalname }}span = document.getElementById("{{ post.modalname }}people-close");
+
+// When the user clicks on the button, open the modal
+{{ post.modalname }}btn.onclick = function() {
+  {{ post.modalname }}modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+{{ post.modalname }}span.onclick = function(event) {
+     
+     
+     for(var i = 0; i<allmodal.length ; i++)
+     {
+    
+        
+        allmodal[i].style.display = "none";
+        console.log("isthisworking");
+     
+        }
+     
+     
+  
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+     
+     
+     for(var i = 0; i<allmodal.length ; i++)
+     {
+    
+        if (event.target == allmodal[i]) {
+        allmodal[i].style.display = "none";
+        }
+     
+        }
+     
+     
+  
+}
+
+</script>
+    
+    
+    {% else %}
+    
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div  class="archive__item-teaser" style = 'background-image: 
+        url({% if teaser contains "://" %}
+            {{ teaser }}
+          {% else %}
+            {{ teaser | relative_url }}
+          {% endif %}); background-size: cover;background-position: center;'>
+            
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+        
+        
+      {% if post.fullpage == "yes" %}
+            
+        {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        
+        {% endif %}
+        
+     {% else %}
+    
+        <a >{{ title }}</a>
+                
+     {% endif %}
+
+        <!--
+        
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        
+        {% if post.isdate %}
+        <div style = "font-size: 12px; ">{{ post.date | date: '%B %d, %Y' }}</div>
+        {% endif %}
+        
+      {% endif %}
+
+-->
+    </h2>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    {% if post.position %}<p style="margin-bottom: 0px;" class="archive__item-excerpt" itemprop="description">{{ post.position | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      
+
+      
+      
+  </article>
+        {% if post.links %}
+      {% for link in post.links %}
+        {% if link.label and link.url %}
+          <a class="people__icon" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    {% endif %}
+    
+    
+  
 </div>
+

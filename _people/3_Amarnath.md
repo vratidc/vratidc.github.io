@@ -7,6 +7,21 @@ header:
     teaser: /assets/img/people/imxd_people_amarnathmurugan.jpg
 permalink: /people/goodboy
 type: people
+fullpage: "no"
+links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      #url: mailto:entermailhere
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://amarnathmurugan.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      #url: "https://github.com/vanukuru"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      #url: ""
+      
 ---
 
 Text Here
