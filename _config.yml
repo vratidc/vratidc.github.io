@@ -21,11 +21,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IMXD Lab"
 description              : "IMXD's home on the web."
-url                      : "https://rishivanukuru.com/minimalimxd"
-baseurl                  : "/minimalimxd"
-repository               : "vanukuru/minimalimxd"
+url                      : "https://vratidc.github.io"
+baseurl                  : ""
+repository               : "vratidc/vratidc.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "https://rishivanukuru.com/minimalimxd/assets/img/imxd-logo-nb.png"
+logo                     : "https://vratidc.github.io/assets/img/imxd-logo-nb.png"
 masthead_title           : "IMXD Lab"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
