@@ -6,7 +6,7 @@ activity: "yes"
 authors: "Pratiti Sarkar and Jayesh Pillai"
 year: "2020"
 venue: "ISMAR 2020 - 19th IEEE International Symposium on Mixed and Augmented Reality, Porto de Galinhas, Brazil"
-excerpt: Excerpt to be added
+excerpt: Workshop at ISMAR 2020
 homepage: "true"
 fullpage: "yes"
 header:
