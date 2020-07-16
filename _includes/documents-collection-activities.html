@@ -15,7 +15,7 @@
 {% endif %}
 
 {%- for post in entries -%}
-{% if post.publication == "yes" %}
+{% if post.activity == "yes" %}
   {% include publications-single.html %}
 {% endif %}
 {%- endfor -%}
