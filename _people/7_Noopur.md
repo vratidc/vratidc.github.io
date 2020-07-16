@@ -13,7 +13,7 @@ fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:entermailhere
+      #url: mailto:entermailhere
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: ""
@@ -22,7 +22,7 @@ links:
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://www.linkedin.com/in/noopur-kumari-kashyap-334692143/"
       
 ---
 

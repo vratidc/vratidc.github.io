@@ -8,6 +8,8 @@ header:
 permalink: /people/jayesh
 type: people
 fullpage: "yes"
+modal: "no"
+modalname: "jayesh"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

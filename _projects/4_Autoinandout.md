@@ -4,6 +4,8 @@ excerpt: VR experience of a car
 layout: projects  
 selected: "false"
 homepage: "false"
+fullpage: "no, but change to yes when content is added"
+
 header:
     teaser: /assets/img/projects/Autoinandout.png
 tags: VR

@@ -4,6 +4,7 @@ excerpt: Responsive VR Films
 layout: projects
 selected: "true"
 homepage: "true"
+fullpage: "no"
 header:
     teaser: /assets/img/placeholder_png.png
 tags: VR-Film Storytelling

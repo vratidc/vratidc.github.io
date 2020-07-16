@@ -9,6 +9,7 @@ permalink: /people/rajandeep
 type: people
 fullpage: "no"
 modal: "no"
+modalname: "rajan"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -21,7 +22,7 @@ links:
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://www.linkedin.com/in/rajandeepsingh13/"
       
 ---
 

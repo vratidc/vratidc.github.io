@@ -8,6 +8,8 @@ header:
 permalink: /people/pratiti
 type: people
 fullpage: "yes"
+modal: "no"
+modalname: "pratiti"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -20,7 +22,7 @@ links:
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://www.linkedin.com/in/pratitisarkar/"
       
 ---
 

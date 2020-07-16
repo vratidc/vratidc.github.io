@@ -4,6 +4,8 @@ excerpt: Marker based AR Game
 layout: projects
 selected: "false"
 homepage: "false"
+fullpage: "no, but change to yes when content is added"
+
 header:
     teaser: /assets/img/projects/ARCastle.png
 tags: AR Games

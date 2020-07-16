@@ -8,6 +8,9 @@ header:
 permalink: /people/goodboy
 type: people
 fullpage: "no"
+modal: "yes"
+modalname: "amarnath"
+modaltext: "This is Amarnath."
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

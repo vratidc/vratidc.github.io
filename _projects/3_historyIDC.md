@@ -4,6 +4,8 @@ excerpt: Something goes here
 layout: projects   
 selected: "false"
 homepage: "false"
+fullpage: "no, but change to yes when content is added"
+
 header:
     teaser: /assets/img/projects/HistoryofIDC.png
 tags: AR

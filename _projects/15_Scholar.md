@@ -4,6 +4,8 @@ excerpt: AR Learning Environment
 layout: projects
 selected: "true"
 homepage: "true"
+fullpage: "yes"
+
 header:
     teaser: /assets/img/placeholder_png.png
 tags: AR Research

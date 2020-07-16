@@ -8,6 +8,8 @@ header:
 permalink: /people/amal
 type: people
 fullpage: "no"
+modal: "no"
+modalname: "amal"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -20,7 +22,7 @@ links:
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://www.linkedin.com/in/amal-dev-66ab24115/"
       
 ---
 
