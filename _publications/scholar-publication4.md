@@ -5,8 +5,10 @@ publication: "yes"
 activity: "no"
 authors: "Pratiti Sarkar, Kapil Kadam and Jayesh Pillai"
 year: "2019"
-venue: "Technology for Education (T4E 2019), Goa, India"
-excerpt: Test Publication Excerpt
+venue: "T4E 2019 (9th IEEE International Conference on Technology for Education), Goa, India"
+excerpt: Excerpt to be added
+homepage: "false"
+fullpage: "no"
 header:
     teaser: /assets/img/placeholder_person.jpg
 layout: publications    

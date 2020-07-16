@@ -5,9 +5,10 @@ publication: "yes"
 activity: "no"
 authors: "Jayesh Pillai, Amarnath Murugan, and Amal Dev"
 year: "2019"
-venue: "17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia."
-excerpt: Test Publication Excerpt
-homepage: "true"
+venue: "17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia"
+excerpt: Excerpt to be added
+homepage: "false"
+fullpage: "no"
 header:
     teaser: /assets/img/placeholder_person.jpg
 layout: publications    

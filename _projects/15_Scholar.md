@@ -4,7 +4,7 @@ excerpt: AR Learning Environment
 layout: projects
 selected: "true"
 homepage: "true"
-fullpage: "yes"
+fullpage: "no"
 
 header:
     teaser: /assets/img/placeholder_png.png
