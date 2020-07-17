@@ -7,7 +7,7 @@ header:
     teaser: /assets/img/people/imxd_people_jayeshpillai.jpg
 permalink: /people/jayesh
 type: people
-fullpage: "yes"
+fullpage: "no"
 modal: "no"
 modalname: "jayesh"
 links:
@@ -16,10 +16,10 @@ links:
       #url: mailto:entermailhere
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      #url: ""
+      url: "http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: "https://github.com/vanukuru"
+      #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jayesh-s-pillai-aa83105b/"

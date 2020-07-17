@@ -8,7 +8,7 @@ header:
 permalink: /people/goodboy
 type: people
 fullpage: "no"
-modal: "yes"
+modal: "no"
 modalname: "amarnath"
 modaltext: "This is Amarnath."
 links:
@@ -23,7 +23,7 @@ links:
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://in.linkedin.com/in/amarnathmurugan"
       
 ---
 

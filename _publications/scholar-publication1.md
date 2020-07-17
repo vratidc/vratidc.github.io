@@ -1,5 +1,5 @@
 ---
-title:  "cholAR: A Collaborative Learning Experience for Rural Schools Using Augmented Reality Application"
+title:  "ScholAR: A Collaborative Learning Experience for Rural Schools Using Augmented Reality Application"
 type: "Full Paper"
 publication: "yes"
 activity: "no"
@@ -10,7 +10,7 @@ excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"
 header:
-    teaser: /assets/img/placeholder_person.jpg
+    teaser: /assets/img/publications/icon-pub-placeholder.jpg
 layout: publications    
 ---
 

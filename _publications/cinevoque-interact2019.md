@@ -10,7 +10,7 @@ excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"
 header:
-    teaser: /assets/img/placeholder_person.jpg
+    teaser: /assets/img/publications/icon-pub-interact2019.jpg
 layout: publications    
 ---
 

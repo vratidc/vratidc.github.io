@@ -10,7 +10,7 @@ excerpt: Workshop at ISMAR 2020
 homepage: "true"
 fullpage: "yes"
 header:
-    teaser: /assets/img/publications/ismar-workshop-thumbnail.png
+    teaser: /assets/img/publications/icon-pub-ismar2020.jpg
 layout: publications    
 ---
 

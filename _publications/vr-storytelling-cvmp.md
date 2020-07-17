@@ -1,5 +1,5 @@
 ---
-title:  "Grammar of VR storytelling: Analysis of perceptual cues in VR cinema"
+title:  "Grammar of VR storytelling: Analysis of Perceptual Cues in VR Cinema"
 type: "Short Paper"
 publication: "yes"
 activity: "no"
@@ -10,7 +10,7 @@ excerpt: Excerpt to be added
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/placeholder_person.jpg
+    teaser: /assets/img/publications/icon-pub-cvmp2019.jpg
 layout: publications   
 ---
 

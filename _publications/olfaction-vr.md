@@ -1,5 +1,5 @@
 ---
-title:  "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies"
+title:  "Exploring Effect Of Different External Stimuli On Body Association In VR"
 type: "Poster Presentation"
 publication: "yes"
 activity: "no"
@@ -10,7 +10,7 @@ excerpt: Excerpt to be added
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/placeholder_person.jpg
+    teaser: /assets/img/publications/icon-pub-ieeevr2020.jpg
 layout: publications    
 ---
 

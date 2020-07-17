@@ -1,6 +1,6 @@
 ---
-title:  "AR-TWO"
-excerpt: AR Interactions Using 2 Phones
+title:  "ARTWO"
+excerpt: Dual Phone Augmented Reality
 layout: projects   
 selected: "true"
 homepage: "true"

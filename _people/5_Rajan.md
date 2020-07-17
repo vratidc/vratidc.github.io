@@ -19,7 +19,7 @@ links:
       #url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: "https://github.com/vanukuru"
+      #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/rajandeepsingh13/"
