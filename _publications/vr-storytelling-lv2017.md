@@ -4,7 +4,9 @@ type: "Short Paper"
 publication: "yes"
 activity: "no"
 authors: "Jayesh Pillai, Azif Ismail and Herold P. Charles"
-year: "2019"
+year: "2017"
+date: 2017-04-30
+
 venue: "Virtual Reality International Conference 2017, Laval, France"
 excerpt: Excerpt to be added
 homepage: "false"

@@ -14,6 +14,8 @@
   {% endif %}
 {% endif %}
 
+{% assign entries = entries | sort: 'date' | reverse %}
+
 {%- for post in entries -%}
 {% if post.activity == "yes" %}
   {% include publications-single.html %}
