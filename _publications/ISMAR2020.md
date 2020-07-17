@@ -10,9 +10,10 @@ venue: "ISMAR 2020 - 19th IEEE International Symposium on Mixed and Augmented Re
 excerpt: Workshop at ISMAR 2020
 homepage: "true"
 fullpage: "yes"
+permalink: /workshops/ISMAR2020/
 header:
     teaser: /assets/img/publications/icon-pub-ismar2020.jpg
-layout: publications    
+layout: publications
 ---
 
 
