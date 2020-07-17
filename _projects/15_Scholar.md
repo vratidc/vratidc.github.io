@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "no"
 
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/projects/icon-scholar.jpg
 tags: AR Research
 
 banner_image1: /assets/img/gray.png

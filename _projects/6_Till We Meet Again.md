@@ -1,13 +1,13 @@
 ---
 title:  "Till We Meet Again"
-excerpt: VR Storytelling
+excerpt: A Cinévoqué Experience
 layout: projects   
 selected: "true"
 homepage: "true"
 fullpage: "no, but change to yes when content is added"
 
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/projects/icon-twma.jpg
 tags: VR-Film Storytelling  
 
 ---

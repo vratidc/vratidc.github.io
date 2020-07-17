@@ -1,12 +1,12 @@
 ---
 title:  "Cinévoqué"
-excerpt: Responsive VR Films
+excerpt: Responsive VR Cinema Framework
 layout: projects
 selected: "true"
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/placeholder_png.png
+    teaser: /assets/img/projects/icon-cinevoque.jpg
 tags: VR-Film Storytelling
 
 
