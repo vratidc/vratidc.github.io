@@ -58,7 +58,7 @@ The workshop's papers will be published in <a href="https://ismar20.org/" target
 Paper Length: Anonymized 2-6 pages (excluding references) 
 Paper Format: 
 
-- <a href="http://ismar20.org/wp-content/uploads/2020/03/vgtc_word.zip" target="_blank">GTC Word Template.zip</a>
+- <a href="http://ismar20.org/wp-content/uploads/2020/03/vgtc_word.zip" target="_blank">VGTC Word Template.zip</a>
 - <a href="http://ismar20.org/wp-content/uploads/2020/03/vgtc_latex.zip" target="_blank">VGTC LaTeX Template.zip</a>
 - <a href="http://ismar20.org/wp-content/uploads/2020/03/vgtc_sample.pdf" target="_blank">VGTC Sample PDF Paper.pdf</a>
 
