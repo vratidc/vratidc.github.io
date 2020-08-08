@@ -105,7 +105,7 @@
 
 .archive__item-teaser {
   position: relative;
-  //border-radius: $border-radius*3;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -554,7 +554,7 @@ position: absolute;
   background-color: #fefefe;
   //margin: 20% 20%; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border-radius: 5px;
   width: 40%;
     min-width: 480px;  
 

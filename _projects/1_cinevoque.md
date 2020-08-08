@@ -1,6 +1,6 @@
 ---
 title:  "Cinévoqué"
-excerpt: Responsive VR Cinema Framework
+excerpt: Responsive VR Cinema
 layout: projects
 selected: "true"
 homepage: "true"
