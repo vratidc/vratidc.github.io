@@ -1,0 +1,31 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Manvi Verma"
+     url: /people
+     photo: /assets/img/people/imxd_people_manviverma.jpg
+   - title: "Prabodh Sakhardande"
+     url: /people
+     photo: /assets/img/people/imxd_people_prabodhsakhardande.jpg
+   - title: "Utsav Oza"
+     url: /people
+     photo: /assets/img/people/imxd_people_utsavoza.jpg
+   - title: "Subaru Ouchi"
+     url: /people
+     photo: /assets/img/people/imxd_people_subaruouchi.jpg
+   - title: "Angela Simon"
+     url: /people
+     photo: /assets/img/people/imxd_people_angelasimon.jpg
+   - title: "Jonathan Mathew"
+     url: /people
+     photo: /assets/img/people/imxd_people_jonathanmathew.jpg
+   - title: "Sanofer H."
+     url: /people
+     photo: /assets/img/people/imxd_people_sanoferh.jpg
+   - title: "Azif Ismail"
+     url: /people
+     photo: /assets/img/people/imxd_people_azifismail.jpg
+   - title: "Nazreen Nizam"
+     url: /people
+     photo: /assets/img/people/imxd_people_nazreennizam.jpg

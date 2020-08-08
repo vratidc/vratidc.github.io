@@ -1,0 +1,18 @@
+
+            {%- for link in site.data.pastmembers.main -%}
+                <div style="width: 140px; height: 180px; float: left; font-size: medium;">
+                {% if page.url contains link.url %}
+                <div style="width: 100px;">
+                    <a href="{{ site.baseurl }}{{ link.url }}">
+                    		<img style="max-width: 100px" src="{{ site.baseurl }}{{ link.photo }}">
+                        	<p style="color: #121617; text-decoration: none; font-weight: bold;">{{ link.title }}</p>
+                    </a>
+                </div>
+                 {% else %}
+                <div style="width: 100px;">
+                            <img style="max-width: 100px" src="{{ site.baseurl }}{{ link.photo }}">
+                            <p style="color: #121617; text-decoration: none; font-weight: bold;">{{ link.title }}</p>
+                </div>
+                 {% endif %}
+                </div>
+            {% endfor %}
