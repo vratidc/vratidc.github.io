@@ -2,6 +2,9 @@
 main:
   #- title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Rajandeep Singh"
+     url: https://www.linkedin.com/in/rajandeepsingh13/
+     photo: /assets/img/people/imxd_people_rajandeepsingh.jpg
    - title: "Manvi Verma"
      url: https://in.linkedin.com/in/manvi-verma-a9646212
      photo: /assets/img/people/imxd_people_manviverma.jpg
@@ -15,7 +18,7 @@ main:
      url: https://hci-lab.jp/members/
      photo: /assets/img/people/imxd_people_subaruouchi.jpg
    - title: "Angela Simon"
-     url: /people
+     url: https://in.linkedin.com/in/angelaixd
      photo: /assets/img/people/imxd_people_angelasimon.jpg
    - title: "Jonathan Mathew"
      url: https://in.linkedin.com/in/jonathan-mathew-b09b11b4
