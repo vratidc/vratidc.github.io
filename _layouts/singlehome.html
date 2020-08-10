@@ -34,7 +34,8 @@ layout: default
     <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
     <img id="students" src="{{ site.baseurl }}/assets/img/360/360_Students.jpg">  
     <img id="works" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg">           
-    <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg">           
+    <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg"> 
+    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">          
 
   </a-assets>
 
@@ -42,7 +43,9 @@ layout: default
     <a-entity rotation="0 -90 0">
         <a-sky class = "ARcarousel" id="image-360" radius="100" src="#main"></a-sky>
     </a-entity>
-
+    <a-entity id="labels" position="0 2 -5">
+         <a-image src="#label1" width="8" height="2"></a-image>
+   </a-entity>
 </a-scene>
     
     
@@ -193,13 +196,12 @@ function ARcarousel() {
 
         }
 
-  setTimeout(ARcarousel, 5000); // Change image every 2 seconds
+  setTimeout(ARcarousel, 7000); // Change image every few seconds
 }
 
 
 
 </script>
-    
     
 
   
