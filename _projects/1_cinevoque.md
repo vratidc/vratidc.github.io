@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "no"
 header:
     teaser: /assets/img/projects/icon-cinevoque.jpg
-tags: VR-Film Storytelling
+tags: VR-Film Storytelling Research
 
 
 
@@ -15,9 +15,9 @@ tags: VR-Film Storytelling
 banner_image1: /assets/img/gray.png
 banner_image1_caption:
 
-team_members: "abc | xxx | wwww | fff "
+team_members: "Amarnath Murugan | Amal Dev | Jayesh Pillai"
 team_members_align: "text-left"
-
+permalink: projects/cinevoque
 
 content_one1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
 content_one1_align: "text-left"
