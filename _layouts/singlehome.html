@@ -47,13 +47,10 @@ layout: default
   </a-assets>
 
   <!-- 360-degree image. -->
-    <a-entity>
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
         <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dragonfly"></a-sky>
          <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label" ></a-image>
     </a-entity>
-    <a-entity position="0 -1 0" rotation="-90 0 0">
-         <a-image src="#commonlabel" width="1" height="1"></a-image>
-   </a-entity>
 </a-scene>
     
     
@@ -223,8 +220,6 @@ function ARcarousel() {
 
 
 </script>
-    
-
   
     
 
