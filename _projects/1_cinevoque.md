@@ -6,220 +6,60 @@ selected: "true"
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/projects/icon-cinevoque.jpg
-tags: VR-Film Storytelling
+    teaser: /assets/img/projects/Cinevoque/icon.png
+tags: VR-Film Storytelling Research
 
-
-
-
-banner_image1: /assets/img/gray.png
+banner_image1: /assets/img/projects/Cinevoque/banner.png
 banner_image1_caption:
 
-team_members: "abc | xxx | wwww | fff "
+team_members: "Amarnath Murugan | Amal Dev | Jayesh Pillai"
 team_members_align: "text-left"
 
-
-content_one1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_one1_align: "text-left"
-content_two1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_two1_align: "text-left"
-
-image_wrap_right1: /assets/img/test_img.jpg
-content_three1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_three1_align: "text-left"
-content_four1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_four1_align: "text-left"
-
-image_wrap_left1: /assets/img/test_img.jpg
-content_five1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_five1_align: "text-left"
-content_six1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_six1_align: "text-left"
-
-image_gallery_one_col1:
-- url: /assets/img/gray.png
-  image_path: /assets/img/gray.png
-  alt: "placeholder image 1"
-  title: "Image 1 title caption"
-- url: /assets/img/gray.png
-  image_path: /assets/img/gray.png
-  alt: "placeholder image 2"
-  title: "Image 2 title caption"
-- url: /assets/img/gray.png
-  image_path: /assets/img/gray.png
-  alt: "placeholder image 3"
-  title: "Image 3 title caption"
-- url: /assets/img/gray.png
-  image_path: /assets/img/gray.png
-  alt: "placeholder image 4"
-  title: "Image 4 title caption"
-image_gallery_one_col1_caption: gallery caption
-
-content_seven1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_seven1_align: "text-left"
-content_eight1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_eight1_align: "text-left"
-
-image_gallery_two_col1:
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 1"
-  title: "Image 1 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 2"
-  title: "Image 2 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 3"
-  title: "Image 3 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 4"
-  title: "Image 4 title caption"
-image_gallery_two_col1_caption: "gallery caption"
-
-content_nine1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_nine1_align: "text-left"
-content_ten1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_ten1_align: "text-left"
-
-image_gallery_three_col1:
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 1"
-  title: "Image 1 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 2"
-  title: "Image 2 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 3"
-  title: "Image 3 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 4"
-  title: "Image 4 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 5"
-  title: "Image 4 title caption"
-- url: /assets/img/testimg.jpg
-  image_path: /assets/img/testimg.jpg
-  alt: "placeholder image 6"
-  title: "Image 4 title caption"
-image_gallery_three_col1_caption: gallery caption
-
-content_eleven1: And for giggles one more gallery just to make sure this works. To fill page content container add class="full"
-content_eleven1_align: "text-left"
-content_twelve1: abcfjjhgk
-content_twelve1_align: "text-left"
-
-
-content_one2:
-content_one2_align:
-content_two2:
-content_two2_align:
-
-image_wrap_right2:
-content_three2:
-content_three2_align:
-content_four2:
-content_four2_align:
-
-image_wrap_left2:
-content_five2:
-content_five2_align:
-content_six2:
-content_six2_align:
-
-image_gallery_one_col2:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_one_col2_caption:
-
-content_seven2:
-content_seven2_align:
-content_eight2:
-content_eight2_align:
-
-image_gallery_two_col2:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_two_col2_caption:
-
-content_nine2:
-content_nine2_align:
-content_ten2:
-content_ten2_align:
-
-image_gallery_three_col2:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_three_col2_caption:
-content_eleven2:
-content_eleven2_align:
-content_twelve2:
-content_twelve2_align:
-
-
-content_one3:
-content_one3_align:
-content_two3:
-content_two3_align:
-
-image_wrap_right3:
-content_three3:
-content_three3_align:
-content_four3:
-content_four3_align:
-
-image_wrap_left3:
-content_five3:
-content_five3_align:
-content_six3:
-content_six3_align:
-
-image_gallery_one_col3:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_one_col3_caption:
-
-content_seven3:
-content_seven3_align:
-content_eight3:
-content_eight3_align:
-
-image_gallery_two_col3:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_two_col3_caption:
-
-content_nine3:
-content_nine3_align:
-content_ten3:
-content_ten3_align:
-
-image_gallery_three_col3:
-- url:
-  image_path:
-  alt:
-  title:
-image_gallery_three_col3_caption:
-content_eleven3:
-content_eleven3_align:
-content_twelve3:
-content_twelve3_align:
+permalink: projects/cinevoque
 
 ---
+
+This is an ongoing work that started out as Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
+
+
+## Abstract
+
+The grammar of storytelling in Cinematic Virtual Reality (CVR) is still evolving and is not as established as traditional movies due to its immersive nature. Unlike traditional films where the director decides the framing of the visuals shown, in CVR, the viewers have control over the point of view (POV). As a result, they are likely to miss important events in the narrative by focusing elsewhere in the virtual environment. In our framework, Cinévoqué,  we take advantage of this feature to present an experience that tries to maintain consistency in the narrative seen by the viewer. It achieves this by following the viewer's gaze and the events in the film that it intersects with; if they miss an event that's pertinent to the rest of the storyline, the framework shifts to an alternate storyline that does not have said event as a presupposition. The transition takes place unbeknownst to the viewer so as not to interrupt the flow of the experience.
+
+![Narrative Structure]({{ site.baseurl }}/assets/img/projects/Cinevoque/storyline.jpg)
+
+Cinévoqué is built for live-action CVR since real-time 3D experiences have the affordance of the framework implicitly. The novelty of this work lies in its intent to bring passive interactivity to an experience composed of live-action videos that are mostly immutable in real-time. Furthermore, adding a layer of real-time changes to live-action VR films allows for new use cases that were not previously possible.  For example, the experiences "Schrödinger's Vada-Pav" and  "Till We Meet Again" that was built with Cinévoqué have a virtual body that rotates to align with the user's physical body using 6DOF controller data.  Similarly, other data can be used to influence the visuals and audio in the experience. 
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/16j7A_M15lY0TIRJ0muV34p5XB7YugqVP/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+## Outcomes
+This project yielded three films and publications. We also presented our work at five conferences in total. 
+
+### ***Films***
+
+![Film Titles]({{ site.baseurl }}/assets/img/projects/Cinevoque/titles.jpg)
+
+**Schrödinger's Vada-Pav** was the first film made with Cinévoqué. It had the simplest narrative structure for a multi-storyline film, with two possible endings. The story goes as follows: Schrödinger(viewer) is in his office watching a video on Schrödinger's cat, and he orders a Vada-Pav (a local Indian snack), when the waiter brings the order he knocks on the office door and peeks in. Depending on the viewer turning back to look at him, the Vada-pav is delivered or isn't. This exploration made the challenges involved in shooting such a film apparent and also helped us think of improvements and changes to the initial framework.
+
+**Shapeshifter** is a relatively complex film built to test the limitations of the framework post Schrödinger's Vada-Pav. The experience had four possible storylines. The film's setting was that three people (including the viewer) were stuck in an office during an invasion by a shape-shifting alien species. Depending on the details the viewer sees, the ending could reveal one of the three as an alien or show an alien entering the office. The framework version used for this had many limitations; it did not support stereo video and spatial audio, and it also needed improvements in handling transitions. 
+
+[**Till We Meet Again**]({{ site.baseurl }}/projects/twma) was our first attempt at creating a film meant for public viewing. It is a stereoscopic 3D film that has eight possible storylines with different genres.  It incorporated the learnings from the previous films and built with improvements to the frameworks. This film was presented as a demo at VRCAI 2019 in Brisbane, Australia. 
+
+### ***Publications***
+
+- Pillai, Jayesh S., Amal Dev, and Amarnath Murugan. "Till We Meet Again: A Cinévoqué Experience." The 17th International Conference on Virtual-Reality Continuum and its Applications in Industry. ACM, 2019.
+
+- Murugan, Amarnath, Jayesh S. Pillai, and Amal Dev. "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies." 25th ACM Symposium on Virtual Reality Software and Technology. ACM, 2019.
+
+- Pillai, Jayesh S., Amarnath Murugan, and Amal Dev. "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies." IFIP Conference on Human-Computer Interaction. Springer, Cham, 2019.
+
+### ***Talks***
+
+We were invited to speak about Cinévoqué at Unite India 2018, third ACM SIGCHI Asian Symposium and IndiaHCI 2019.
+
+![Conference Talks]({{ site.baseurl }}/assets/img/projects/Cinevoque/talks.jpg)
+
+
+
