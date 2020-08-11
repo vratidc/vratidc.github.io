@@ -32,11 +32,17 @@ layout: default
   <a-assets>
     <!-- Images. -->
     <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
-    <img id="students" src="{{ site.baseurl }}/assets/img/360/360_Students.jpg">  
-    <img id="works" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg">           
-    <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg"> 
+    <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/3360_Dragonfly_Label.png"> 
 
-    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">   
+    <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">  
+    <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png"> 
+
+    <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">   
+    <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png"> 
+
+    <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg"> 
+
+    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">   
 
 
     <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">        
@@ -50,7 +56,7 @@ layout: default
          <a-image src="#label1" width="8" height="2"></a-image>
         </a-entity>
     </a-entity>
-    <a-entity position="0 -2 0" rotation="-90 0 0">
+    <a-entity position="0 -1 0" rotation="-90 0 0">
          <a-image src="#commonlabel" width="1" height="1"></a-image>
    </a-entity>
 </a-scene>
@@ -189,7 +195,7 @@ function ARcarousel() {
     else
     if(slideIndex == 2)
         {
-            p.setAttribute('src','#students');
+            p.setAttribute('src','#course');
             //z.src="#works";
             //y.src="{{ site.baseurl }}/assets/img/360/360_Students.jpg";
 
@@ -197,7 +203,7 @@ function ARcarousel() {
     else
     if(slideIndex == 3)
         {
-            p.setAttribute('src','#works');
+            p.setAttribute('src','#illustration');
             //z.src="#students";
             //y.src = "{{ site.baseurl }}/assets/img/360/360_Works.jpg";
 
