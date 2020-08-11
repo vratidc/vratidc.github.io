@@ -35,16 +35,23 @@ layout: default
     <img id="students" src="{{ site.baseurl }}/assets/img/360/360_Students.jpg">  
     <img id="works" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg">           
     <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Works.jpg"> 
-    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">          
+
+    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">   
+
+
+    <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">        
 
   </a-assets>
 
   <!-- 360-degree image. -->
     <a-entity rotation="0 -90 0">
         <a-sky class = "ARcarousel" id="image-360" radius="100" src="#main"></a-sky>
-    </a-entity>
-    <a-entity id="labels" position="0 2 -5">
+        <a-entity id="labels" position="-5 2 0" rotation="0 90 0">
          <a-image src="#label1" width="8" height="2"></a-image>
+        </a-entity>
+    </a-entity>
+    <a-entity position="0 -2 0" rotation="-90 0 0">
+         <a-image src="#commonlabel" width="1" height="1"></a-image>
    </a-entity>
 </a-scene>
     
