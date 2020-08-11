@@ -32,7 +32,7 @@ layout: default
   <a-assets>
     <!-- Images. -->
     <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
-    <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/3360_Dragonfly_Label.png"> 
+    <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png"> 
 
     <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">  
     <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png"> 
@@ -40,21 +40,16 @@ layout: default
     <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">   
     <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png"> 
 
-    <img id="main" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg"> 
-
     <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">   
-
 
     <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">        
 
   </a-assets>
 
   <!-- 360-degree image. -->
-    <a-entity rotation="0 -90 0">
-        <a-sky class = "ARcarousel" id="image-360" radius="100" src="#main"></a-sky>
-        <a-entity id="labels" position="-5 2 0" rotation="0 90 0">
-         <a-image src="#label1" width="8" height="2"></a-image>
-        </a-entity>
+    <a-entity>
+        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dragonfly"></a-sky>
+         <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label" ></a-image>
     </a-entity>
     <a-entity position="0 -1 0" rotation="-90 0 0">
          <a-image src="#commonlabel" width="1" height="1"></a-image>
@@ -174,6 +169,7 @@ function ARcarousel() {
     var z = document.getElementById("image-360");
 
     var p = document.querySelector('a-sky');
+    var q = document.querySelector('a-image');
     
     //image-360
     
@@ -187,6 +183,10 @@ function ARcarousel() {
     if(slideIndex == 1)
         {
             p.setAttribute('src','#dragonfly');
+            q.setAttribute('src','#dragonfly_label');
+            q.setAttribute('width','17.72');
+            q.setAttribute('height','10.36');
+            q.setAttribute('position','0 9 -12');
             //z.src="#dragonfly";
             //y.src = "{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg";
             
@@ -196,6 +196,10 @@ function ARcarousel() {
     if(slideIndex == 2)
         {
             p.setAttribute('src','#course');
+            q.setAttribute('src','#course_label');
+            q.setAttribute('width','14.40');
+            q.setAttribute('height','4');
+            q.setAttribute('position','0 2.5 -12.8');
             //z.src="#works";
             //y.src="{{ site.baseurl }}/assets/img/360/360_Students.jpg";
 
@@ -204,6 +208,10 @@ function ARcarousel() {
     if(slideIndex == 3)
         {
             p.setAttribute('src','#illustration');
+            q.setAttribute('src','#illustration_label');
+            q.setAttribute('width','16.80');
+            q.setAttribute('height','4');
+            q.setAttribute('position','0 3.5 -12');
             //z.src="#students";
             //y.src = "{{ site.baseurl }}/assets/img/360/360_Works.jpg";
 
