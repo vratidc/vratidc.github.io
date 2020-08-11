@@ -13,7 +13,7 @@ tags: VR-Film Storytelling
 banner_image1: /assets/img/projects/twma/banner.jpg
 banner_image1_caption:
 
-team_members: " Amal Dev | Amarnath Murugan |Jayesh Pillai"
+team_members: " Amal Dev | Amarnath Murugan | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/twma
@@ -29,11 +29,11 @@ This film presents an emotional journey of a small family, as seen from the fath
 
 Each storyline has a different genre and the storylines are completely unlike each other. 
 
-![Narrative Structure]({{ site.baseurl }}/assets/img/projects/twma/endings.jpg)
+![Possible Endings]({{ site.baseurl }}/assets/img/projects/twma/endings.jpg)
 
 
 ## Outcomes
 
 This work was presented as a demo at VRCAI 2019 in Brisbane, Australia. 
 
-![Narrative Structure]({{ site.baseurl }}/assets/img/projects/twma/vrcai.jpg)
+![VRCAI Demo]({{ site.baseurl }}/assets/img/projects/twma/vrcai.jpg)
