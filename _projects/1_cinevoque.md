@@ -6,7 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/projects/icon-cinevoque.jpg
+    teaser: /assets/img/projects/Cinevoque/icon.png
 tags: VR-Film Storytelling Research
 
 banner_image1: /assets/img/projects/Cinevoque/banner.png
@@ -30,8 +30,8 @@ The grammar of storytelling in Cinematic Virtual Reality (CVR) is still evolving
 
 Cinévoqué is built for live-action CVR since real-time 3D experiences have the affordance of the framework implicitly. The novelty of this work lies in its intent to bring passive interactivity to an experience composed of live-action videos that are mostly immutable in real-time. Furthermore, adding a layer of real-time changes to live-action VR films allows for new use cases that were not previously possible.  For example, the experiences "Schrödinger's Vada-Pav" and  "Till We Meet Again" that was built with Cinévoqué have a virtual body that rotates to align with the user's physical body using 6DOF controller data.  Similarly, other data can be used to influence the visuals and audio in the experience. 
 
+<iframe width="560" height="315" src="https://drive.google.com/file/d/16j7A_M15lY0TIRJ0muV34p5XB7YugqVP/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://drive.google.com/file/d/16j7A_M15lY0TIRJ0muV34p5XB7YugqVP/preview" controls width="auto" frameborder="0" allowfullscreen></iframe>
 
 
 ## Outcomes
@@ -39,7 +39,7 @@ This project yielded three films and publications. We also presented our work at
 
 ### ***Films***
 
-![Narrative Structure]({{ site.baseurl }}/assets/img/projects/Cinevoque/titles.jpg)
+![Film Titles]({{ site.baseurl }}/assets/img/projects/Cinevoque/titles.jpg)
 
 **Schrödinger's Vada-Pav** was the first film made with Cinévoqué. It had the simplest narrative structure for a multi-storyline film, with two possible endings. The story goes as follows: Schrödinger(viewer) is in his office watching a video on Schrödinger's cat, and he orders a Vada-Pav (a local Indian snack), when the waiter brings the order he knocks on the office door and peeks in. Depending on the viewer turning back to look at him, the Vada-pav is delivered or isn't. This exploration made the challenges involved in shooting such a film apparent and also helped us think of improvements and changes to the initial framework.
 
@@ -59,7 +59,7 @@ This project yielded three films and publications. We also presented our work at
 
 We were invited to speak about Cinévoqué at Unite India 2018, third ACM SIGCHI Asian Symposium and IndiaHCI 2019.
 
-![Narrative Structure]({{ site.baseurl }}/assets/img/projects/Cinevoque/talks.jpg)
+![Conference Talks]({{ site.baseurl }}/assets/img/projects/Cinevoque/talks.jpg)
 
 
 
