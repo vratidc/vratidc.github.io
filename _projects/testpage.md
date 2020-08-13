@@ -1,9 +1,9 @@
 ---
-title:  "Cinévoqué"
-excerpt: Responsive VR Cinema
+title:  "Test Page"
+excerpt: Testing few things here
 layout: projects
-selected: "true"
-homepage: "true"
+selected: "false"
+homepage: "false"
 fullpage: "no"
 header:
     teaser: /assets/img/projects/Cinevoque/icon.png
@@ -15,7 +15,35 @@ banner_image1_caption:
 team_members: "Amarnath Murugan | Amal Dev | Jayesh Pillai"
 team_members_align: "text-left"
 
-permalink: projects/cinevoque
+permalink: projects/testpage
+
+gallery1:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: /assets/img/projects/Cinevoque/icon.png
+    alt: "Image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/img/projects/Cinevoque/icon.png
+    alt: "Image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: /assets/img/projects/Cinevoque/icon.png
+    alt: "Image 3"
+    title: "Image 3 title caption"
+
+feature_row:
+  - image_path: /assets/img/projects/Cinevoque/banner.png
+    alt: "Image 1"
+    title: "Image 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/img/projects/Cinevoque/banner.png
+    alt: "Image 2"
+    title: "Image 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/img/projects/Cinevoque/banner.png
+    alt: "Image 3"
+    title: "Image 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 ---
 
@@ -45,6 +73,9 @@ This project yielded three films and publications. We also presented our work at
 
 ![Film Titles]({{ site.baseurl }}/assets/img/projects/Cinevoque/titles.jpg)
 
+{% include gallery id="gallery1" caption="This is a sample gallery with **Markdown support**." %}
+
+{% include feature_row %}
 
 **Schrödinger's Vada-Pav** was the first film made with Cinévoqué. It had the simplest narrative structure for a multi-storyline film, with two possible endings. The story goes as follows: Schrödinger(viewer) is in his office watching a video on Schrödinger's cat, and he orders a Vada-Pav (a local Indian snack), when the waiter brings the order he knocks on the office door and peeks in. Depending on the viewer turning back to look at him, the Vada-pav is delivered or isn't. This exploration made the challenges involved in shooting such a film apparent and also helped us think of improvements and changes to the initial framework.
 
