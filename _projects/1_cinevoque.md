@@ -41,6 +41,18 @@ gallery2:
     alt: "Talk at ACM SIGCHI Asian Symposium 2018"
     title: "Talk at ACM SIGCHI Asian Symposium 2018"
 
+flexgallery1:
+  - aspect: "1.48"
+    url:
+    image_path: /assets/img/projects/Cinevoque/cinevoque_talk_unite.jpg
+    alt: "Talk at Unite 2018"
+    title: "Talk at Unite 2018"
+  - aspect: "0.69"
+    url:
+    image_path: /assets/img/projects/Cinevoque/cinevoque_talk_sigchi.jpg
+    alt: "Talk at ACM SIGCHI Asian Symposium 2018"
+    title: "Talk at ACM SIGCHI Asian Symposium 2018"
+
 ---
 
 <figure class="align-center" style="width:100%;">
@@ -88,6 +100,6 @@ This project yielded three films and publications. We also presented our work at
 
 We were invited to speak about Cinévoqué at Unite India 2018, third ACM SIGCHI Asian Symposium and IndiaHCI 2019.
 
-{% include gallery id="gallery2" caption="Invited Talks on Cinévoqué" %}
+{% include flexgallery id="flexgallery1" caption="Invited Talks on Cinévoqué" %}
 
 

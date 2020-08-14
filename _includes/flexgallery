@@ -1,0 +1,56 @@
+{% assign imagefolder = page.imagefolder | default: site.imagefolder | default: "" %}
+
+{% if include.id %}
+  {% assign flexgallery = page[include.id] %}
+{% else %}
+  {% assign flexgallery = page.flexgallery %}
+{% endif %}
+
+<figure>
+  <div class = "flex_row" style="display:flex">
+  {% assign imgCount = 1 %}
+  {% for img in flexgallery %}
+    {% if imgCount >= flexgallery.size or img.end_row == "true" %}
+      <div class = "flex_single_image" style="flex:{{ img.aspect }}">
+    {% else %}
+      <div class = "flex_single_image" style="flex:{{ img.aspect }}; padding:0 2% 0 0">
+    {% endif %}
+    {% if img.url %}
+      <a href=
+        {% if img.url contains "://" %}
+          "{{ img.url }}"
+        {% else %}
+          "{{ img.url | prepend: imagefolder | relative_url }}"
+        {% endif %}
+        {% if img.title %}title="{{ img.title }}"{% endif %}
+      >
+        <img src=
+          {% if img.image_path contains "://" %}
+            "{{ img.image_path }}"
+          {% else %}
+            "{{ img.image_path | prepend: imagefolder | relative_url }}"
+          {% endif %}
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      </a>
+    {% else %}
+      <img src=
+        {% if img.image_path contains "://" %}
+          "{{ img.image_path }}"
+        {% else %}
+          "{{ img.image_path | prepend: imagefolder | relative_url }}"
+        {% endif %}
+        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
+      </div>
+      <div class = "flex_row_break" ></div>
+    {% if img.end_row == "true" %}
+      </div>
+      <div class = "flex_row" style="display:flex">
+    {% endif %}
+    {% assign imgCount = imgCount | plus: 1 %}
+  {% endfor %}
+  </div>
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>
