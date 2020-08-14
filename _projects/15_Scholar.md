@@ -55,6 +55,11 @@ flexgallery2:
     title: "scholar_presentation3"
 
 flexgallery3:
+  - aspect: "1.38302"
+    url:
+    image_path: /assets/img/projects/Scholar/scholar_school3.jpg
+    alt: "scholar_school3"
+    title: "scholar_school3"
   - aspect: "2.491"
     url:
     image_path: /assets/img/projects/Scholar/scholar_tata1.jpg
@@ -62,9 +67,10 @@ flexgallery3:
     title: "scholar_tata1"
   - aspect: "1.38302"
     url:
-    image_path: /assets/img/projects/Scholar/scholar_school3.jpg
-    alt: "scholar_school3"
-    title: "scholar_school3"
+    image_path: /assets/img/projects/Scholar/scholar_school4.jpg
+    alt: "scholar_school4"
+    title: "scholar_school4"
+
 
 ---
 
