@@ -90,11 +90,11 @@ This project yielded three films and publications. We also presented our work at
 
 ### ***Publications***
 
-- Pillai, Jayesh S., Amal Dev, and Amarnath Murugan. "Till We Meet Again: A Cinévoqué Experience." The 17th International Conference on Virtual-Reality Continuum and its Applications in Industry. ACM, 2019.
+- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
 
-- Murugan, Amarnath, Jayesh S. Pillai, and Amal Dev. "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies." 25th ACM Symposium on Virtual Reality Software and Technology. ACM, 2019.
+- Murugan A., Dev A., and Pillai J.S. (2019). "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: The 25th ACM Symposium on Virtual Reality Software and Technology, Sydney, Australia.
 
-- Pillai, Jayesh S., Amarnath Murugan, and Amal Dev. "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies." IFIP Conference on Human-Computer Interaction. Springer, Cham, 2019.
+- Pillai J.S., Murugan A. and Dev A. (2019). "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: 17th IFIP TC.13 International Conference on Human-Computer Interaction – INTERACT 2019, Paphos, Cyprus. 
 
 ### ***Invited Talks***
 
