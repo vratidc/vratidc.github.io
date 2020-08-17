@@ -22,7 +22,7 @@ links:
       #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jayesh-s-pillai-aa83105b/"
+      url: "https://www.linkedin.com/in/jayesh-s-pillai"
       
 ---
 

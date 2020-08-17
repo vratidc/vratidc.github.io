@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "no, but change to yes when content is added"
 
 header:
-    teaser: /assets/img/projects/icon-twma.jpg
+    teaser: /assets/img/projects/twma/twma-thumbnail.jpg
 tags: VR-Film Storytelling  
 
 banner_image1:

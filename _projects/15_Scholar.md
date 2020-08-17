@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "no"
 
 header:
-    teaser: /assets/img/projects/icon-scholar.jpg
+    teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
 tags: AR Research
 
 banner_image1: 
@@ -119,7 +119,6 @@ Our work has generated interest in the annual TATA conference held at IITB every
 
 
 ## Publications
-
 
 - Sarkar P., Murugan A. and Pillai J.S. (2020). Towards Designing a Mobile Augmented Reality Learning Experience, in: 19th IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2020), Porto de Galinhas, Brazil.
 

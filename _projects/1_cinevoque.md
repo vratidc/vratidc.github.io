@@ -6,7 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "no"
 header:
-    teaser: /assets/img/projects/Cinevoque/icon.png
+    teaser: /assets/img/projects/Cinevoque/cinevoque_thumbnail.jpg
 tags: VR-Film Storytelling Research
 
 banner_image1:
@@ -59,7 +59,8 @@ flexgallery1:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Cinevoque/cinevoque_banner.png" alt="cinevoque_banner">
 </figure> 
 
-This is an ongoing work that started out as Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
+
+This project started out as a narrative concept in 2017, as an extension to the research work on grammar of VR storytelling by Prof. Jayesh Pillai. The project took its shape with Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
 
 
 ## Abstract
