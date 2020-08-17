@@ -15,8 +15,8 @@ team_members: "Rishi Vanukuru | Amarnath M | Jayesh Pillai"
 team_members_align: "text-left"
    
    
-banner_image1: /assets/img/projects/ARTWO/ARTWOBANNER.png
-banner_image1_caption: "ARTWO Banner Image"  
+banner_image1: 
+banner_image1_caption:
 
 permalink: projects/dualphonear
 
@@ -39,7 +39,7 @@ flexgallery2:
     image_path: /assets/img/projects/ARTWO/artwo_apps1.jpg
     alt: "Flex Image 1"
     title: "Flex Image 1"
-  - aspect: "0.6339"
+  - aspect: "0.615"
     url: 
     image_path: /assets/img/projects/ARTWO/artwo_apps2.jpg
     alt: "Flex Image 2"
@@ -57,6 +57,10 @@ gallery1:
 
 ---
 
+<figure class="align-center" style="width:100%;">
+  <img style="max-width: 500px;" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ARTWO/artwo_banner.png" alt="cinevoque_banner">
+</figure> 
+
 This project began as an M.Des P3 in the year 2020, by Rishi Vanukuru. 
 
 The project report can be [found here](https://drive.google.com/file/d/19AMNX5uhxPhIJDMlCdowURxoJ3n5Gnps/view?usp=sharing).
@@ -67,7 +71,12 @@ Mobile Augmented Reality applications have become increasingly popular, however 
 
 {% include flexgallery id="flexgallery1" caption="Dual Phone AR" %}
 
+## Teaser Video
+
 {% include video id="tGxPzaMrzkY" provider="youtube" %}
+
+<br/>
+
 
 ## Outcomes
 
@@ -77,10 +86,12 @@ This is an Android application that showcases the interaction possibilities of D
 
 {% include flexgallery id="flexgallery2" caption="App Screens of ARTWO" %}
 
-
 To find out more and to download the application, please visit the app homepage:
 
 > **[ARTWO - Home Page](https://rishivanukuru.com/artwo/)**
+
+<br/>
+
 
 ## Further Links
 
