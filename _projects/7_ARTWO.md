@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "yes"
 
 header:
-    teaser: /assets/img/projects/ARTWO/artwo_thumbnail.png
+    teaser: /assets/img/projects/ARTWO/artwo_thumbnail.jpg
 tags: AR Research  
    
 
