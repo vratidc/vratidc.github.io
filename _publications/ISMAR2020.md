@@ -44,7 +44,7 @@ The workshop's papers will be published in <a href="https://ismar20.org/" target
 <br>
 
 ## Important Dates
-**• 17th August 2020 (23:59 AoE):** Paper submission deadline
+**• 31st August 2020 (23:59 AoE):** Paper submission deadline
 
 **• 4th September 2020:** Notification of paper acceptance to authors
 
