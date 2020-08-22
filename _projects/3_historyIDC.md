@@ -1,5 +1,5 @@
 ---
-title:  "History of IDC through AR"
+title:  "History of IDC AR"
 excerpt: Something goes here
 layout: projects   
 selected: "false"

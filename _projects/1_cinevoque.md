@@ -4,7 +4,7 @@ excerpt: Responsive VR Cinema
 layout: projects
 selected: "true"
 homepage: "true"
-fullpage: "no"
+fullpage: "yes"
 header:
     teaser: /assets/img/projects/Cinevoque/cinevoque_thumbnail.jpg
 tags: VR-Film Storytelling Research
@@ -60,7 +60,7 @@ flexgallery1:
 </figure> 
 
 
-This project started out as a narrative concept in 2017, as an extension to the research work on grammar of VR storytelling by Prof. Jayesh Pillai. The project took its shape with Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
+This project started out as a storytelling concept in 2017, as an extension to the research work on grammar of VR storytelling by Prof. Jayesh Pillai. The project took its shape with Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
 
 
 ## Abstract
@@ -69,18 +69,20 @@ The grammar of storytelling in Cinematic Virtual Reality (CVR) is still evolving
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Cinevoque/cinevoque_storyline.jpg" alt="cinevoque_storyline">
+  <figcaption>Branching narrative structure of Cinévoqué</figcaption>
 </figure> 
 
 Cinévoqué is built for live-action CVR since real-time 3D experiences have the affordance of the framework implicitly. The novelty of this work lies in its intent to bring passive interactivity to an experience composed of live-action videos that are mostly immutable in real-time. Furthermore, adding a layer of real-time changes to live-action VR films allows for new use cases that were not previously possible.  For example, the experiences "Schrödinger's Vada-Pav" and  "Till We Meet Again" that was built with Cinévoqué have a virtual body that rotates to align with the user's physical body using 6DOF controller data.  Similarly, other data can be used to influence the visuals and audio in the experience. 
 
 {% include video id="16j7A_M15lY0TIRJ0muV34p5XB7YugqVP" provider="google-drive" %}
+<figcaption>Explainer video for Cinévoqué</figcaption>
 
 ## Outcomes
 This project yielded three films and publications. We also presented our work at five conferences in total. 
 
 ### ***Films / Narratives***
 
-{% include gallery id="gallery1" caption="Cinévoqué Experiences" %}
+{% include gallery id="gallery1" caption="Cinévoqué Experience Prototypes" %}
 
 
 **Schrödinger's Vada-Pav** was the first film made with Cinévoqué. It had the simplest narrative structure for a multi-storyline film, with two possible endings. The story goes as follows: Schrödinger(viewer) is in his office watching a video on Schrödinger's cat, and he orders a Vada-Pav (a local Indian snack), when the waiter brings the order he knocks on the office door and peeks in. Depending on the viewer turning back to look at him, the Vada-pav is delivered or isn't. This exploration made the challenges involved in shooting such a film apparent and also helped us think of improvements and changes to the initial framework.

@@ -58,7 +58,7 @@ gallery1:
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img style="max-width: 500px;" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ARTWO/artwo_banner.png" alt="cinevoque_banner">
+  <img style="max-width: 500px;" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ARTWO/artwo_banner.png" alt="ARTWO Banner">
 </figure> 
 
 This project began as an M.Des P3 in the year 2020, by Rishi Vanukuru. 
