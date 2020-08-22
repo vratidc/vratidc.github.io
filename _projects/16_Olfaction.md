@@ -67,7 +67,7 @@ Additionally, we also explore the effect of olfactory stimuli on body associatio
 
 ## Outcomes
 
-This work was presented as a [poster](https://ieeexplore.ieee.org/document/9090609) in IEEEVR 2020, which was conducted virtually. The results of the experiment showed no statistical difference between the individual effects of visual, tactile, visuomotor and olfaction stimuli on body association. Additionally, it showed that users found the olfactory stimulus in VR to be most immersive compared to the rest.
+This work was presented as a [poster](https://ieeexplore.ieee.org/document/9090609){:target="_blank"} in IEEEVR 2020, which was conducted virtually. The results of the experiment showed no statistical difference between the individual effects of visual, tactile, visuomotor and olfaction stimuli on body association. Additionally, it showed that users found the olfactory stimulus in VR to be most immersive compared to the rest.
 
 {% include gallery id="gallery3" caption="Poster presentation at IEEEVR 2020" %}
 

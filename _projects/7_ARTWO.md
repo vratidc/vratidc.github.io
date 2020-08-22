@@ -63,7 +63,7 @@ gallery1:
 
 This project began as an M.Des P3 in the year 2020, by Rishi Vanukuru. 
 
-The project report can be [found here](https://drive.google.com/file/d/19AMNX5uhxPhIJDMlCdowURxoJ3n5Gnps/view?usp=sharing).
+The project report can be [found here](https://drive.google.com/file/d/19AMNX5uhxPhIJDMlCdowURxoJ3n5Gnps/view?usp=sharing){:target="_blank"}.
 
 ## Abstract
 
@@ -88,14 +88,14 @@ This is an Android application that showcases the interaction possibilities of D
 
 To find out more and to download the application, please visit the app homepage:
 
-> **[ARTWO - Home Page](https://rishivanukuru.com/artwo/)**
+> **[ARTWO - Home Page](https://rishivanukuru.com/artwo/){:target="_blank"}**
 
 <br/>
 
 
 ## Further Links
 
-Do check [Rishi's website](https://rishivanukuru.com/projects/artwo/) for further information on this, and other projects.
+Do check [Rishi's website](https://rishivanukuru.com/projects/artwo/){:target="_blank"} for further information on this, and other projects.
 
 
 {% include gallery id="gallery1" caption="User-testing with ARTWO" %}

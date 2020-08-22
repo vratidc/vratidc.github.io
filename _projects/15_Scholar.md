@@ -95,7 +95,7 @@ The AR activities are based on the topic of Lines and Angles from the CBSE board
 
 {% include flexgallery id="flexgallery1" caption="Lines and Angles in AR" %}
 
-More details can be found in the [journal paper](https://rdcu.be/b53sU) and [conference paper](https://ieeexplore.ieee.org/abstract/document/8983716).
+More details can be found in the [journal paper](https://rdcu.be/b53sU){:target="_blank"} and [conference paper](https://ieeexplore.ieee.org/abstract/document/8983716){:target="_blank"}.
 
 ## ScholAR’s module - Visualising Solid Shapes in AR (Version 1)
 
