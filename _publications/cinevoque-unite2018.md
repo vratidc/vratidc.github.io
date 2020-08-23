@@ -1,6 +1,6 @@
 ---
 title:  "Cinévoqué : Cinema Evoked - Interest Driven Live-Action Cinema in Virtual Reality"
-type: "Poster Presentation"
+type: "Invited talk"
 publication: "no"
 activity: "yes"
 authors: "Jayesh Pillai and Amarnath Murugan"
