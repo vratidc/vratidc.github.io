@@ -14,18 +14,24 @@
   <article class="publications__item" itemscope itemtype="https://schema.org/CreativeWork">
     <div class = "publication_holder">
     {% if include.type == "grid" or teaser %}
-      <div class="publications__item-teaser" style = 'background-image: 
-        url({% if teaser contains "://" %}
-            {{ teaser }}
-          {% else %}
-            {{ teaser | relative_url }}
-          {% endif %}); background-size: cover; background-position: center; 
-          {% if post.fullpage == "yes" %}
-            filter: grayscale(0);
-          {% else %}
-            filter: grayscale(0.9);
-          {% endif %};'>
-      </div>
+      {% if post.fullpage == "yes" %}
+        <div class="publications__item-teaser teaser_linked" style = 'background-image: 
+          url({% if teaser contains "://" %}
+              {{ teaser }}
+            {% else %}
+              {{ teaser | relative_url }}
+            {% endif %}); background-size: cover; background-position: center; filter: grayscale(0);'>
+        </div>
+       {% else %}
+        <div class="publications__item-teaser" style = 'background-image: 
+          url({% if teaser contains "://" %}
+              {{ teaser }}
+            {% else %}
+              {{ teaser | relative_url }}
+            {% endif %}); background-size: cover; background-position: center; filter: grayscale(0.9);'>
+        </div>
+       {% endif %}
+
     {% endif %}
 
         <div class = "publication_text">

@@ -138,6 +138,11 @@ a.publication_linked {
     color: $primary-color;
   }
 
+.publication_holder:hover .teaser_linked
+{
+box-shadow: 0px 0px 5px gray;
+}  
+
 
 /*
    List view
