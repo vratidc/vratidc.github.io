@@ -670,7 +670,6 @@ Single VR 360 image
 ========================================================================== */
 
 .vr_single{
-    
     height: 400px;
     width: 100%;
     margin-bottom: 20px;
@@ -693,9 +692,12 @@ Media Query
 @media only screen and (max-width: 720px) {  
 
 .vr_home{
-
     height: 300px;
     margin-top: 54px;
+}
+
+.vr_single{
+    height: 300px;
 }
 
 .flex_row {

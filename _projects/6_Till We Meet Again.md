@@ -38,7 +38,7 @@ This film presents an emotional journey of a small family, as seen from the fath
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
-<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui=" enabled: true" style="margin:0px; padding:0px;">
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
         <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma.jpg"></a-sky>
