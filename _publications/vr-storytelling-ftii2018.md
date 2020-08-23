@@ -11,6 +11,7 @@ venue: "Art Direction & Production Design (Workshop) & Film Appriciation course 
 excerpt: Excerpt to be added
 homepage: "no"
 fullpage: "yes"
+permalink: workshops/FTII2018/
 header:
     teaser: /assets/img/publications/icon-pub-ftii2018.jpg
 layout: publications  

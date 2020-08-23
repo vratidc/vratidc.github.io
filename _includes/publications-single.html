@@ -19,8 +19,12 @@
             {{ teaser }}
           {% else %}
             {{ teaser | relative_url }}
-          {% endif %}); background-size: cover;background-position: center;'>
-          
+          {% endif %}); background-size: cover; background-position: center;  filter: 
+          grayscale({% if post.fullpage == "yes" %}
+            0
+          {% else %}
+            0.9
+          {% endif %});'>
       </div>
     {% endif %}
 
@@ -29,9 +33,9 @@
     {% if post.fullpage == "yes" %}
     <h2 class="publications__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a class="publication_linked" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>      
+        <a class="publication_linked"href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>      
     {% endif %}
     </h2>
         
