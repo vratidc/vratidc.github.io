@@ -1,5 +1,5 @@
 ---
-title:  "Towards Guidlines for VR storytelling"
+title:  "Towards Guidelines for VR storytelling"
 type: "Invited Talk"
 publication: "no"
 activity: "yes"
