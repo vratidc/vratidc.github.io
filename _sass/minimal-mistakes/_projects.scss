@@ -135,16 +135,23 @@
   }
 }
 
-.projects__item-teaser
+.projects__item-teaser-container
 {
-  transition: filter 0.4s, background-size 0.4s;
+  border-radius: $border-radius*1.5;
+  position:relative; 
+  overflow:hidden;
 }
 
+.projects__item-teaser
+{
+  transition: filter 0.4s, transform 0.4s;
+}
 
 .projects__item:hover .projects__item-teaser
 {
       -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
       filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
+      transform: scale(1.05);
 }
 
 
