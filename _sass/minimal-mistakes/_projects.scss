@@ -105,6 +105,9 @@
   position: relative;
   border-radius: $border-radius*1.5;
   overflow: hidden;
+  background-size: cover; 
+  background-position: center;
+  background-repeat:no-repeat;
 }
 
 .projects__item-caption {
@@ -132,6 +135,19 @@
   }
 }
 
+.projects__item-teaser
+{
+  transition: filter 0.4s, background-size 0.4s;
+}
+
+
+.projects__item:hover .projects__item-teaser
+{
+      -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
+      filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
+}
+
+
 /*
    List view
    ========================================================================== */
@@ -142,6 +158,7 @@
     font-size: 0.6em;
   }
 }
+
 
 /*
    project_grid view

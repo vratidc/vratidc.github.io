@@ -103,10 +103,9 @@
 
 .publications__item-teaser {
   position: relative;
-  //border-radius: $border-radius*3;
-  border-radius: 7px;
+  border-radius: $border-radius*1.5;
   overflow: hidden;
-  filter: grayscale(0.9);
+  filter: grayscale(1);
   background-size: cover; 
   background-position: center;
   background-repeat:no-repeat;
@@ -142,14 +141,15 @@ a.publication_linked {
     color: $primary-color;
   }
 
-.teaser_linked
+.publication_teaser_linked
 {
+  filter: grayscale(0.5);
   background-size: 100%;
   transition: filter .4s, background-size .4s; 
 }
 
 
-.publication_holder:hover .teaser_linked
+.publication_holder:hover .publication_teaser_linked
 {
 filter: grayscale(0);
 background-size: 120%;
@@ -234,8 +234,7 @@ background-size: 120%;
       
       height: 80px;
       width: 80px;
-      float: left;
-      overflow: hidden;    
+      float: left;  
   }
     
     .publication_text{

@@ -15,7 +15,7 @@
     <div class = "publication_holder">
     {% if include.type == "grid" or teaser %}
       {% if post.fullpage == "yes" %}
-        <div class="publications__item-teaser teaser_linked" style = 'background-image: 
+        <div class="publications__item-teaser publication_teaser_linked" style = 'background-image: 
           url({% if teaser contains "://" %}
               {{ teaser }}
             {% else %}
