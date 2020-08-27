@@ -13,7 +13,8 @@ homepage: "true"
 fullpage: "no"
 header:
     teaser: /assets/img/publications/icon-pub-cvmp2019.jpg
-layout: publications   
+layout: publications 
+
 ---
 
 Placeholder Content
