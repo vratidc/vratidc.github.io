@@ -8,7 +8,7 @@ fullpage: "no"
 
 header:
     teaser: /assets/img/projects/Dragonfly/dragonfly_thumbnail.jpg
-tags: VR Research  
+tags: VR-Film Storytelling Research  
 
 banner_image1:
 
