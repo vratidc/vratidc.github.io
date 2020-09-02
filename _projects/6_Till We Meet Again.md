@@ -46,7 +46,7 @@ This film presents an emotional journey of a small family, as seen from the fath
     <img id="twma4" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_4.jpg">
 
   <!-- 360-degree image. -->
-  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 500000; easing: linear">
         <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#twma1"></a-sky>
     </a-entity>
 </a-scene>
