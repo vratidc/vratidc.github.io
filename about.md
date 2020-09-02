@@ -15,11 +15,18 @@ gallery1:
 
 ---
 
+{% include video id="sS-8flMIidU" provider="youtube" caption="Showreel 2020" %}
+
+IMXD Lab brings together efforts made by students, scholars, researchers, and faculty of IDC School of Design, IIT Bombay in the domain of Virtual Reality, Augmented Reality, Mixed Reality, 360° filmmaking and several allied and emergent fields.
+It brings together students' projects done within the academic framework and opens up space for further engagement.
+
 {% include gallery id="gallery1" caption="" %}
 
-IMXD Lab brings together efforts made by students, scholars, researchers, and faculty of IDC School of Design, IIT Bombay in the domain of Virtual Reality, Augmented Reality, Mixed Reality, 360° filmmaking and several allied and emergent fields. Primarily it brings together students' projects done within the academic framework and opens up space for further engagement.
+<br>
 
+## Design for XR
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/about3.jpg" alt="about_banner">
+    <figcaption>Unity Workshop by IMXD Team</figcaption>
 </figure> 
