@@ -71,11 +71,19 @@ layout: projectspage
           itemSelector: '.project_grid__item',
           percentPosition: true,
 
-        masonry: {
-    columnWidth: '.project_grid__item',
-    gutter: 10
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+            }
 
-  }
+
+        
+//        masonry: {
+//            columnWidth: '.project_grid__item',
+//            gutter: 10  
+//            }
+        
+        
 
 	});
 	// filter items on button click

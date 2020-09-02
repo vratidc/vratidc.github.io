@@ -39,7 +39,8 @@
     {% if post.fullpage == "yes" %}
     <h2 class="publications__item-title" itemprop="headline">
       {% if post.link %}
-        <a class="publication_linked" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a class="publication_linked" href="{{ post.link }}">{{ title }}</a> 
+<!--        <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>-->
       {% else %}
         <a class="publication_linked"href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>      
     {% endif %}
@@ -61,8 +62,27 @@
     <h2 class="publications__item-venue" itemprop="headline">
             {{ post.venue }}     
     </h2>
-
+    
+            
+    <h2 class="publications__item-links" itemprop="headline">
         
+        {% if post.PDF %}
+        <a href={{post.PDF}} target="_blank">PDF</a> 
+        {% endif %}
+        
+        {% if post.PDF %}
+        {% if post.website %}
+        •
+        {% endif %}
+        {% endif %}
+        
+        {% if post.website %}
+        <a href = {{post.website}} target="_blank">Website</a> 
+        {% endif %}
+        
+    </h2>
+    
+
         </div>
 
         </div>
