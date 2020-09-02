@@ -38,14 +38,20 @@ This film presents an emotional journey of a small family, as seen from the fath
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
-<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui=" enabled: true" style="margin:0px; padding:0px;">
+<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui=" enabled: false" style="margin:0px; padding:0px;">
+    <!-- Images. -->
+    <img id="twma1" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_1.jpg">
+    <img id="twma3" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_3.jpg">
+    <img id="twma2" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_2.jpg">
+    <img id="twma4" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_4.jpg">
+
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma.jpg"></a-sky>
+        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#twma1"></a-sky>
     </a-entity>
 </a-scene>
 </div>
-  <figcaption>A 360° screenshot of Till We Meet Again</figcaption>
+  <figcaption>360° screenshots of Till We Meet Again</figcaption>
 
 <br>
 Each storyline has a different genre and the storylines are completely unlike each other. 
@@ -69,3 +75,57 @@ This work was presented as a demo at VRCAI 2019 in Brisbane, Australia.
 - Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
 
 
+<script>
+
+    var slideIndex = 0;
+    ARcarousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "inline";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+    
+function ARcarousel() {
+  var i;
+    var x = document.getElementsByClassName("ARcarousel");
+    var p = document.querySelector('a-sky');
+    
+  slideIndex++;
+    
+  if (slideIndex > 4) 
+  {
+      slideIndex = 1;
+  }
+    
+    if(slideIndex == 1)
+        {
+            p.setAttribute('src','#twma1');
+        }
+    else
+    if(slideIndex == 2)
+        {
+            p.setAttribute('src','#twma3');
+        }
+    else
+    if(slideIndex == 3)
+        {
+            p.setAttribute('src','#twma2');
+        }
+    else
+    if(slideIndex == 4)
+        {
+            p.setAttribute('src','#twma4');
+        }
+
+  setTimeout(ARcarousel, 7000); // Change image every few seconds
+}
+
+</script>
+  
