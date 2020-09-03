@@ -676,6 +676,51 @@ Single VR 360 image
 }
 
 /*
+Single Updates
+========================================================================== */
+
+.single-home-updates-holder{
+    background: $primary-color;
+    padding: 0.35em;
+    
+    border-radius: 0.75em;
+    
+}
+
+.single-home-updates{
+    
+    background: $background-color;
+    padding: 1em;
+    
+    border-radius: 0.5em;
+    //border: 0.5em;
+    //border-color: $primary-color;
+    //border-style: solid;
+    
+    h1{
+        padding-bottom: 1em;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    
+    p{
+        
+    }
+    
+    a{
+        font-weight: bold;
+        color: $primary-color;
+        
+        :hover{
+            
+            color: $secondary-color;
+            
+        }
+    }
+    
+}
+
+/*
 MAP - contact
 ========================================================================== */
 
