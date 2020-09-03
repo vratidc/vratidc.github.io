@@ -21,9 +21,10 @@ The IMXD Lab is a design and research lab exploring the domains of Virtual Reali
 
 {% include gallery id="gallery1" caption="" %}
 
-<br>
+## Design & Development for XR
 
-## Design for XR
+You can check out all our projects, which are documented [here](/projects).
+All our publications and activities are documented [here](/publications). 
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/about3.jpg" alt="about_banner">

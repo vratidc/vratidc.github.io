@@ -8,7 +8,7 @@ fullpage: "no, but change to yes when content is added"
 
 header:
     teaser: /assets/img/projects/archdeck_thumbnail.jpg
-tags: XR AR  
+tags: MR AR
 
 ---
 

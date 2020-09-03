@@ -1,6 +1,6 @@
 ---
 title:  "Move VR"
-excerpt: VR
+excerpt: VR Showroom
 layout: projects
 selected: "false"
 homepage: "false"

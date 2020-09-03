@@ -1,6 +1,6 @@
 ---
 title:  "Horocrux Hunt"
-excerpt: VR Game
+excerpt: Mobile VR Game
 layout: projects
 selected: "false"
 homepage: "false"

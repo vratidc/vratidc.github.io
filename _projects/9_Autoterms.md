@@ -1,6 +1,6 @@
 ---
 title:  "AutoTerms"
-excerpt: AR Game
+excerpt: Mobile AR - Automobile Terms
 layout: projects
 selected: "false"
 homepage: "false"

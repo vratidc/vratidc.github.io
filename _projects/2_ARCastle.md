@@ -1,6 +1,6 @@
 ---
 title:  "ARCastle"
-excerpt: Marker based AR Game
+excerpt: Marker Based AR Game
 layout: projects
 selected: "false"
 homepage: "false"

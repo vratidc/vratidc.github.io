@@ -1,6 +1,6 @@
 ---
 title:  "V-Room"
-excerpt: VR
+excerpt: Mobile VR Vehicle Presentation
 layout: projects
 selected: "false"
 homepage: "false"

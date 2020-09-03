@@ -1,6 +1,6 @@
 ---
 title:  "Connecting the Realms"
-excerpt: AR Interface
+excerpt: AR IoT Interface
 layout: projects
 selected: "false"
 homepage: "false"
@@ -8,7 +8,7 @@ fullpage: "no, but change to yes when content is added"
 
 header:
     teaser: /assets/img/projects/Connectingrealms.png
-tags: AR
+tags: AR MR
 
 banner_image1: /assets/img/projects/Connectingrealms.png
 banner_image1_caption:

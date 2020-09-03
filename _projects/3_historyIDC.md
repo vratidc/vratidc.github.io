@@ -1,6 +1,6 @@
 ---
-title:  "History of IDC AR"
-excerpt: Something goes here
+title:  "IDC History"
+excerpt: Location Based Photo Overlay
 layout: projects   
 selected: "false"
 homepage: "false"

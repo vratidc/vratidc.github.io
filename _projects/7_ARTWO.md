@@ -8,7 +8,7 @@ fullpage: "yes"
 
 header:
     teaser: /assets/img/projects/ARTWO/artwo_thumbnail.jpg
-tags: AR Research  
+tags: AR MR Research  
    
 
 team_members: "Rishi Vanukuru | Amarnath M | Jayesh Pillai"

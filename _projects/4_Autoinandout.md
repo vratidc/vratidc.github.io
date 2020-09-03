@@ -1,6 +1,6 @@
 ---
 title:  "Auto In and Out"
-excerpt: VR experience of a car
+excerpt: Mobile VR - Automobile Terms
 layout: projects  
 selected: "false"
 homepage: "false"
