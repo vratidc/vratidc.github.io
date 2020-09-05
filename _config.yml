@@ -20,7 +20,7 @@ title                    : "IMXD Lab"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "IMXD"
-description              : "The Immersive Media Experience Design Lab, IITB"
+description              : "Immersive Media Experience Design Lab, IDC, IITB"
 url                      : "https://imxd.in"
 baseurl                  : ""
 repository               : "vratidc/vratidc.github.io"
