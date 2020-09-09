@@ -11,7 +11,7 @@ excerpt: Excerpt to be added
 homepage: "no"
 fullpage: "no"
 header:
-    teaser: /assets/img/publications/icon-pub-placeholder.jpg
+    teaser: /assets/img/publications/icon-pub-vrst2020.jpg
 layout: publications    
 ---
 
