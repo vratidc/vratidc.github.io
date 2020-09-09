@@ -10,6 +10,9 @@ header:
     teaser: /assets/img/projects/archdeck_thumbnail.jpg
 tags: MR AR
 
+team_members: "Vineet Kamboj"
+team_members_align: "text-left"
+
 ---
 
 Placeholder Content
