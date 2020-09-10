@@ -35,9 +35,14 @@
 
         
     </h2>
+        
+    {% if post.excerpt %}<p class="blog__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+        
+<!--
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
+-->
    
       
 

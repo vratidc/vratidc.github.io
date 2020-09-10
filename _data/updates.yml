@@ -1,16 +1,23 @@
 # main links
 main:
-   - title: "Call for Participation"
+   - title: "Call for Participation - ScholAR Remote Study"
      date: "10/09/2020"
      active: "yes"
-     content: "ScholAR"
-     link: /publications
-     teaser: /assets/img/publications/icon-pub-uist2020.jpg
+     content: "We're looking for teachers and schools interested to participate in a study on Remote AR Classrooms. Read this to find out more."
+     link: /scholar-remote-study
+     teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
      fullpage: "yes"
-   - title: "We're presenting at VRST 2020!"
+   - title: "Tester Update"
      date: "10/09/2020"
      active: "yes"
-     content: "Our demo on ARTWO and Dual Phone AR has been selected."
+     content: "This is a test post with no teaser image and an external link."
+     link: http://www.idc.iitb.ac.in/
+     #teaser: 
+     fullpage: "yes"
+   - title: "We've started a blog!"
+     date: "10/09/2020"
+     active: "yes"
+     content: "The IMXD Blog is finally up and running. Check it out now!"
      link: /publications
-     teaser: /assets/img/publications/icon-pub-uist2020.jpg
+     teaser: /assets/img/favicons/IMXD_Favicon_1.png
      fullpage: "yes"
