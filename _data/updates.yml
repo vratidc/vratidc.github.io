@@ -1,0 +1,16 @@
+# main links
+main:
+   - title: "Call for Participation"
+     date: "10/09/2020"
+     active: "yes"
+     content: "ScholAR"
+     link: /publications
+     teaser: /assets/img/publications/icon-pub-uist2020.jpg
+     fullpage: "yes"
+   - title: "We're presenting at VRST 2020!"
+     date: "10/09/2020"
+     active: "yes"
+     content: "Our demo on ARTWO and Dual Phone AR has been selected."
+     link: /publications
+     teaser: /assets/img/publications/icon-pub-uist2020.jpg
+     fullpage: "yes"

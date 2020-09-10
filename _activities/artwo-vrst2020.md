@@ -1,5 +1,5 @@
 ---
-title:  "Dual Phone AR: Exploring the use of Phones as Controllers for Mobile Augmented Reality"
+title:  "Dual Phone AR: Using a Second Phone as a Controller for Mobile Augmented Reality"
 type: "[Accepted] Poster Presentation"
 publication: "yes"
 activity: "no"

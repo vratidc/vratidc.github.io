@@ -15,8 +15,9 @@
 {% endif %}
 
 {%- for post in entries -%}
-{% if(post.role == "student") %}
-  {% include students-single.html %}
+{% if(post.role == "team") %}
+  {% include people-single.html %}
 {% endif %}
 {%- endfor -%}
+
 

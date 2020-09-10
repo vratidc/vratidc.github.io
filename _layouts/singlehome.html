@@ -126,6 +126,8 @@ layout: default
     <div class="selected-publications">
         {% include documents-collection-publications-homepage.html collection="publications" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}        
     </div>
+        
+
 
         
     </div>
@@ -135,7 +137,7 @@ layout: default
     <div class = "home-button">
         
         <a href="{{ site.baseurl }}/publications" >All Publications ></a> 
-        <a href="{{ site.baseurl }}/publications#activities" >All Activities ></a>
+        <a href="{{ site.baseurl }}/activities" >All Activities ></a>
         
     </div>
     
@@ -145,6 +147,12 @@ layout: default
 
 <script>
 
+    /*
+    <div class="selected-updates" style="margin-top: 0px;">
+        {% include updates-homepage.html %}        
+    </div>
+    */
+    
     var slideIndex = 0;
     ARcarousel();
 

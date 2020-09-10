@@ -1,7 +1,7 @@
 ---
 title: People
 permalink: /people
-layout: collection
+layout: peoplecollection
 collection: people
 entries_layout: grid
 ---

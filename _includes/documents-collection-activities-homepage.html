@@ -14,9 +14,10 @@
   {% endif %}
 {% endif %}
 
+{% assign entries = entries | sort: 'date' | reverse %}
+
 {%- for post in entries -%}
-{% if(post.role == "student") %}
-  {% include students-single.html %}
+{% if post.homepage == "true" %}
+  {% include activities-single-homepage.html %}
 {% endif %}
 {%- endfor -%}
-

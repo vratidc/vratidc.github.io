@@ -6,8 +6,12 @@ main:
      sublinks:
       - title: Projects
         url: /projects
-      - title: Publications & Activities
+      - title: Publications
         url: /publications
+      - title: Activities
+        url: /activities        
+#   - title: "Blog"
+#     url: /blog
    - title: "People"
      url: /people
    - title: "About"
