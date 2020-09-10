@@ -3,232 +3,198 @@ layout: default
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
+{% include page__hero_video.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
 {% endif %}
 
-<div class = "vr_home">
+<div class="vr_home">
 
-<!-- AR 360 images go here -->
-<!--
-<a-scene embedded style="margin:0px; padding:0px;">
-              <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-              <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-              <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-              <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-              <a-sky color="#d2d5d6"></a-sky>
-        </a-scene>
--->
+    <!-- AR 360 images go here -->
 
-    
-<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
-  <a-assets>
-    <!-- Images. -->
-    <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
-    <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png"> 
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+        <a-assets>
+            <!-- Images. -->
+            <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
+            <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">
 
-    <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">  
-    <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png"> 
+            <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">
+            <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png">
 
-    <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">   
-    <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png"> 
+            <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">
+            <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
 
-    <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">   
+            <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
 
-    <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">        
+            <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
 
-  </a-assets>
+        </a-assets>
 
-  <!-- 360-degree image. -->
-  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dragonfly"></a-sky>
-         <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label" ></a-image>
-    </a-entity>
-</a-scene>
-    
-    
+        <!-- 360-degree image. -->
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+            <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dragonfly"></a-sky>
+            <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image>
+        </a-entity>
+    </a-scene>
+
+
 </div>
 
-<div id="main" role="main" style="margin-top: 0px;" > 
-    
-  {% include sidebar.html %}
+<div id="main" role="main" style="margin-top: 0px;">
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+    {% include sidebar.html %}
 
-    <div class="page__inner-wrap">        
-      <section class="page__content" itemprop="text">
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-      </footer>   
-    </div>
-  </article>  
-  
-    </div>
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if page.title %}
+        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}
+        <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}
+        <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+        {% if page.last_modified_at %}
+        <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-   
+        <div class="page__inner-wrap">
+            <section class="page__content" itemprop="text">
+                {{ content }}
+                {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+            </section>
+            <footer class="page__meta">
+                {% if site.data.ui-text[site.locale].meta_label %}
+                <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+                {% endif %}
+                {% include page__taxonomy.html %}
+            </footer>
+        </div>
+    </article>
+
+</div>
+
+
 <div style="background: #f5f5f5; padding-top: 20px;">
 
-    <div id="main" role="main" style="margin: 0px auto;"> 
-     <div class = "projects" style="margin-top: 10px;"> 
-            <h1 id = "page-title" class = "page__title" >Featured Projects</h1>
-     </div>
-        
-        <div class="selected-projects" style="width:100%;" >
-        
-  {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-    
+    <div id="main" role="main" style="margin: 0px auto;">
+        <div class="projects" style="margin-top: 10px;">
+            <h1 id="page-title" class="page__title">Featured Projects</h1>
+        </div>
+
+        <div class="selected-projects" style="width:100%;">
+
+            {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+
+        </div>
+
+
+
+
+    </div>
+
+    <div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;">
+
+        <div class="home-button">
+
+            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects ></a>
+
+        </div>
+
+
+    </div>
+
+
+
 </div>
-        
-
-        
-    
-    </div>
-    
-    <div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;"> 
-    
-    <div class = "home-button">
-        
-        <a class = "home-button" href="{{ site.baseurl }}/projects">All Projects ></a>
-        
-    </div>
-    
-    
-    </div>
-    
-    
-    
-   </div>
 
 
-    <div id="main" role="main" style="margin-top: 0px; margin-bottom: 20px;" > 
-    <div class = "publications" style="margin-top: 30px;"> 
-    <h1 id = "page-title" class = "page__title" >Publications & Activities</h1>
+<div id="main" role="main" style="margin-top: 0px; margin-bottom: 20px;">
+    <div class="publications" style="margin-top: 30px;">
+        <h1 id="page-title" class="page__title">Publications & Activities</h1>
     </div>
 
-    
+
     <div class="selected-publications">
-        {% include documents-collection-publications-homepage.html collection="publications" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}        
+        {% include documents-collection-publications-homepage.html collection="publications" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
     </div>
-        
 
 
-        
+
+
+</div>
+
+<div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;">
+
+    <div class="home-button">
+
+        <a href="{{ site.baseurl }}/publications">All Publications ></a>
+        <a href="{{ site.baseurl }}/activities">All Activities ></a>
+
     </div>
-    
-    <div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;"> 
-    
-    <div class = "home-button">
-        
-        <a href="{{ site.baseurl }}/publications" >All Publications ></a> 
-        <a href="{{ site.baseurl }}/activities" >All Activities ></a>
-        
-    </div>
-    
-    
-    </div>
-    
+
+
+</div>
+
 
 <script>
-
-    /*
-    <div class="selected-updates" style="margin-top: 0px;">
-        {% include updates-homepage.html %}        
-    </div>
-    */
-    
     var slideIndex = 0;
     ARcarousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "inline";
-  setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-    
-function ARcarousel() {
-  var i;
-    var x = document.getElementsByClassName("ARcarousel");
-    var y = document.getElementById("main");
-    var z = document.getElementById("image-360");
-
-    var p = document.querySelector('a-sky');
-    var q = document.querySelector('a-image');
-    
-    //image-360
-    
-  slideIndex++;
-    
-  if (slideIndex > 3) 
-  {
-      slideIndex = 1;
-  }
-    
-    if(slideIndex == 1)
-        {
-            p.setAttribute('src','#dragonfly');
-            q.setAttribute('src','#dragonfly_label');
-            q.setAttribute('width','13.26');
-            q.setAttribute('height','7.14');
-            q.setAttribute('position','0 8 -12');
-            //z.src="#dragonfly";
-            //y.src = "{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg";
-            
-  
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
         }
-    else
-    if(slideIndex == 2)
-        {
-            p.setAttribute('src','#course');
-            q.setAttribute('src','#course_label');
-            q.setAttribute('width','10.80');
-            q.setAttribute('height','3');
-            q.setAttribute('position','0 2.5 -12');
-            //z.src="#works";
-            //y.src="{{ site.baseurl }}/assets/img/360/360_Students.jpg";
-
+        slideIndex++;
+        if (slideIndex > x.length) {
+            slideIndex = 1
         }
-    else
-    if(slideIndex == 3)
-        {
-            p.setAttribute('src','#illustration');
-            q.setAttribute('src','#illustration_label');
-            q.setAttribute('width','12.60');
-            q.setAttribute('height','3');
-            q.setAttribute('position','0 3.5 -12');
-            //z.src="#students";
-            //y.src = "{{ site.baseurl }}/assets/img/360/360_Works.jpg";
+        x[slideIndex - 1].style.display = "inline";
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
 
+    function ARcarousel() {
+        var i;
+        var x = document.getElementsByClassName("ARcarousel");
+        var y = document.getElementById("main");
+        var z = document.getElementById("image-360");
+
+        var p = document.querySelector('a-sky');
+        var q = document.querySelector('a-image');
+
+        slideIndex++;
+
+        if (slideIndex > 3) {
+            slideIndex = 1;
         }
 
-  setTimeout(ARcarousel, 7000); // Change image every few seconds
-}
+        if (slideIndex == 1) {
+            p.setAttribute('src', '#dragonfly');
+            q.setAttribute('src', '#dragonfly_label');
+            q.setAttribute('width', '13.26');
+            q.setAttribute('height', '7.14');
+            q.setAttribute('position', '0 8 -12');
+        } else
+        if (slideIndex == 2) {
+            p.setAttribute('src', '#course');
+            q.setAttribute('src', '#course_label');
+            q.setAttribute('width', '10.80');
+            q.setAttribute('height', '3');
+            q.setAttribute('position', '0 2.5 -12');
+        } else
+        if (slideIndex == 3) {
+            p.setAttribute('src', '#illustration');
+            q.setAttribute('src', '#illustration_label');
+            q.setAttribute('width', '12.60');
+            q.setAttribute('height', '3');
+            q.setAttribute('position', '0 3.5 -12');
+        }
 
-
+        setTimeout(ARcarousel, 7000); // Change image every few seconds
+    }
 
 </script>
-  
-    
-

@@ -1,93 +1,68 @@
-<div class = "updates">
-{%- for link in site.data.updates.main -%}
+<div class="updates">
+    {%- for link in site.data.updates.main -%}
 
 
-{% if link.active == "yes" %}
+    {% if link.active == "yes" %}
 
-    
     <div class="updates_grid__item">
-    <article class="updates__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <div class = "updates_holder">
-    
-        
-    {% if link.teaser %}    
+        <article class="updates__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <div class="updates_holder">
 
-        <div class="updates__item-teaser updates_teaser_linked" style = 'background-image: 
+
+                {% if link.teaser %}
+
+                <div class="updates__item-teaser updates_teaser_linked" style='background-image: 
           url({% if link.teaser contains "://" %}
               {{ link.teaser }}
             {% else %}
               {{ link.teaser | relative_url }}
             {% endif %});'>
-        </div>
+                </div>
 
-       {% else %}
-        
-        
- 
-        <div class="updates__item-teaser updates_teaser_linked" style = 'background-image: 
+                {% else %}
+
+                <div class="updates__item-teaser updates_teaser_linked" style='background-image: 
           url( /assets/img/publications/icon-pub-placeholder.jpg);'>
-        </div>
-  
-        
-    {% endif %}
-          
+                </div>
 
 
-    <div class = "updates_text">
-            
-    {% if link.fullpage == "yes" %}
-    <h1 class="updates__item-title" itemprop="headline">
-      {% if link.link %}
-        <a class="updates_linked" href="{{ link.link }}">{{ link.title }}</a> 
-<!--        <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>-->
-      {% else %}
-        <a class="updates_linked" href="{{ link.url | relative_url }}" rel="permalink">{{ link.title }}</a>      
-    {% endif %}
-    </h1>
-        
-    {% else %}
-      <h1 class="updates__item-title" itemprop="headline"> 
-      
-      <a>{{ link.title }}</a>  
-      
-      </h1>
-      
-    {% endif %}
-       
-    <h2 class="updates__item-subtitle" itemprop="headline">
-    {{ link.date }}   
-    </h2>
-            
- 
-        <h1 class="updates__item-title">
-        {{ link.content }}
-        </h1>
-        
+                {% endif %}
 
-        </div>
+                <div class="updates_text">
 
-        </div>
-  </article>
-</div>
-    
-    
-    
-{% endif %}
+                    {% if link.fullpage == "yes" %}
+                    <h1 class="updates__item-title" itemprop="headline">
+                        {% if link.link %}
+                        <a class="updates_linked" href="{{ link.link }}">{{ link.title }}</a>
 
+                        {% else %}
+                        <a class="updates_linked" href="{{ link.url | relative_url }}" rel="permalink">{{ link.title }}</a>
+                        {% endif %}
+                    </h1>
 
+                    {% else %}
+                    <h1 class="updates__item-title" itemprop="headline">
 
-<!--
-    <div style="width: 140px; height: 180px; float: left; font-size: medium;">
-        <div style="width: 100px;">
-                <a href="{{ link.url }}" target="_blank">
-                    <img style="max-width: 100px; border-radius: 5px;" src="{{ site.baseurl }}{{ link.photo }}">
-                    <p style="color: #121617; text-decoration: none; font-weight: bold;">{{ link.title }}</p>
-                </a>
-        </div>
+                        <a>{{ link.title }}</a>
+
+                    </h1>
+
+                    {% endif %}
+
+                    <h2 class="updates__item-subtitle" itemprop="headline">
+                        {{ link.date }}
+                    </h2>
+
+                    <h1 class="updates__item-title">
+                        {{ link.content }}
+                    </h1>
+
+                </div>
+
+            </div>
+        </article>
     </div>
--->
 
-
-
-{% endfor %}
+    {% endif %}
+    {% endfor %}
 </div>

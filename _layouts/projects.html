@@ -3,300 +3,375 @@ layout: default
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
+{% include page__hero_video.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
 {% endif %}
 
-<div id="main" role="main" class = "{% if page.header.overlay.color %}home{% endif %}">
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title  %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-
-          {% if page.title and page.hidetitle != "true"%}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-
-<!--            <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>-->
-
-        </header>
-      {% endunless %}
-
-      <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-            </nav>
-          </aside>
-        {% endif %}
-
-        {% if page.team_members %}
-        <div class={{team_members_align}}><p style="font-size: $type-size-7;">{{page.team_members}}</p></div>
-        {% endif %}
-
-        {% if page.banner_image1 %}
-         <img src="{{site.baseurl}}{{page.banner_image1}}" alt="banner_image1">
-        {% endif %}
-
-        {{ content }}  
-          
-          
-        {% if page.content_one1 %}
-        <br />
-        <br />
-        <div class={{page.content_one1_align}}><p>{{page.content_one1}}</p></div>
-        {% endif %}
-
-        {% if page.content_two1 %}
-        <br />
-        <div class={{page.content_two1_align}}><p>{{page.content_two1}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_right1 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right1}}"  class="align-right">
-        {% endif %}
-
-        {% if page.content_three1 %}
-        <div class={{page.content_three1_align}}><p>{{page.content_three1}}</p></div>
-        {% endif %}
-
-        {% if page.content_four1 %}
-        <div class={{page.content_four1_align}}><p>{{page.content_four1}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_left1 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left1}}"  class="align-left">
-        {% endif %}
-
-        {% if page.content_five1 %}
-        <div class={{page.content_five1_align}}><p>{{page.content_five1}}</p></div>
-        {% endif %}
-
-        {% if page.content_six1 %}
-        <div class={{page.content_six1_align}}><p>{{page.content_six1}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_one_col1 %}
-        <br />
-        <div> {% include gallery  id="image_gallery_one_col1"  layout="full" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_seven1 %}
-        <div class={{page.content_seven1_align}}><p>{{page.content_seven1}}</p></div>
-        {% endif %}
-
-        {% if page.content_eight1 %}
-        <div class={{page.content_eight1_align}}><p>{{page.content_eight1}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_two_col1 %}
-        <br />
-        <div> {% include gallery id="image_gallery_two_col1" layout="half" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_nine1 %}
-        <div class={{page.content_nine1_align}}><p>{{page.content_nine1}}</p></div>
-        {% endif %}
-
-        {% if page.content_ten1 %}
-        <div class={{page.content_ten1_align}}><p>{{page.content_ten1}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_three_col1 %}
-        <div> {% include gallery id="image_gallery_three_col1" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_eleven1 %}
-        <div class={{page.content_eleven1_align}}><p>{{page.content_eleven1}}</p></div>
-        {% endif %}
-
-        {% if page.content_twelve1 %}
-        <div class={{page.content_twelve1_align}}><p>{{page.content_twelve1}}</p></div>
-        {% endif %}
-
-
-        {% if page.content_one2 %}
-        <br />
-        <div class={{page.content_one2_align}}><p>{{page.content_one2}}</p></div>
-        {% endif %}
-
-        {% if page.content_two2 %}
-        <br />
-        <div class={{page.content_two2_align}}><p>{{page.content_two2}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_right2 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right2}}"  class="align-right">
-        {% endif %}
-
-        {% if page.content_three2 %}
-        <div class={{page.content_three2_align}}><p>{{page.content_three2}}</p></div>
-        {% endif %}
-
-        {% if page.content_four2 %}
-        <div class={{page.content_four2_align}}><p>{{page.content_four2}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_left2 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left2}}"  class="align-left">
-        {% endif %}
-
-        {% if page.content_five2 %}
-        <div class={{page.content_five2_align}}><p>{{page.content_five2}}</p></div>
-        {% endif %}
-
-        {% if page.content_six2 %}
-        <div class={{page.content_six2_align}}><p>{{page.content_six2}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_one_col2 %}
-        <br />
-        <div> {% include gallery  id="image_gallery_one_col2"  layout="full" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_seven2 %}
-        <div class={{page.content_seven2_align}}><p>{{page.content_seven2}}</p></div>
-        {% endif %}
-
-        {% if page.content_eight2 %}
-        <div class={{page.content_eight2_align}}><p>{{page.content_eight2}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_two_col2 %}
-        <br />
-        <div> {% include gallery id="image_gallery_two_col2" layout="half" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_nine2 %}
-        <div class={{page.content_nine2_align}}><p>{{page.content_nine2}}</p></div>
-        {% endif %}
-
-        {% if page.content_ten2 %}
-        <div class={{page.content_ten2_align}}><p>{{page.content_ten2}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_three_col2 %}
-        <div> {% include gallery id="image_gallery_three_col2" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_eleven2 %}
-        <div class={{page.content_eleven2_align}}><p>{{page.content_eleven2}}</p></div>
-        {% endif %}
-
-        {% if page.content_twelve2 %}
-        <div class={{page.content_twelve2_align}}><p>{{page.content_twelve2}}</p></div>
-        {% endif %}
-
-
-        {% if page.content_one3 %}
-        <br />
-        <div class={{page.content_one3_align}}><p>{{page.content_one3}}</p></div>
-        {% endif %}
-
-        {% if page.content_two3 %}
-        <br />
-        <div class={{page.content_two3_align}}><p>{{page.content_two3}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_right3 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right3}}"  class="align-right">
-        {% endif %}
-
-        {% if page.content_three3 %}
-        <div class={{page.content_three3_align}}><p>{{page.content_three3}}</p></div>
-        {% endif %}
-
-        {% if page.content_four3 %}
-        <div class={{page.content_four3_align}}><p>{{page.content_four3}}</p></div>
-        {% endif %}
-
-        {% if page.image_wrap_left3 %}
-        <br />
-        <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left3}}"  class="align-left">
-        {% endif %}
-
-        {% if page.content_five3 %}
-        <div class={{page.content_five3_align}}><p>{{page.content_five3}}</p></div>
-        {% endif %}
-
-        {% if page.content_six3 %}
-        <div class={{page.content_six3_align}}><p>{{page.content_six3}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_one_col3 %}
-        <br />
-        <div> {% include gallery  id="image_gallery_one_col3"  layout="full" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_seven3 %}
-        <div class={{page.content_seven3_align}}><p>{{page.content_seven3}}</p></div>
-        {% endif %}
-
-        {% if page.content_eight3 %}
-        <div class={{page.content_eight3_align}}><p>{{page.content_eight3}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_two_col3 %}
-        <br />
-        <div> {% include gallery id="image_gallery_two_col3" layout="half" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_nine3 %}
-        <div class={{page.content_nine3_align}}><p>{{page.content_nine3}}</p></div>
-        {% endif %}
-
-        {% if page.content_ten3 %}
-        <div class={{page.content_ten3_align}}><p>{{page.content_ten3}}</p></div>
-        {% endif %}
-
-        {% if page.image_gallery_three_col3 %}
-        <div> {% include gallery id="image_gallery_three_col3" caption="" %}</div>
-        {% endif %}
-
-        {% if page.content_eleven3 %}
-        <div class={{page.content_eleven3_align}}><p>{{page.content_eleven3}}</p></div>
-        {% endif %}
-
-        {% if page.content_twelve3 %}
-        <div class={{page.content_twelve3_align}}><p>{{page.content_twelve}}</p></div>
-        {% endif %}
-
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
-
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-
-
-<!--        {% include page__taxonomy.html %}-->
-
-      </footer>
-
-
-
-    </div>
-
-
-  </article>
+<div id="main" role="main" class="{% if page.header.overlay.color %}home{% endif %}">
+
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if page.title  %}
+        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}
+        <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}
+        <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+
+        <div class="page__inner-wrap">
+            {% unless page.header.overlay_color or page.header.overlay_image %}
+            <header>
+
+                {% if page.title and page.hidetitle != "true"%}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+
+
+            </header>
+            {% endunless %}
+
+            <section class="page__content" itemprop="text">
+                {% if page.toc %}
+                <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+                    <nav class="toc">
+                        <header>
+                            <h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
+                        </header>
+                        {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+                    </nav>
+                </aside>
+                {% endif %}
+
+                {% if page.team_members %}
+                <div class={{team_members_align}}>
+                    <p style="font-size: $type-size-7;">{{page.team_members}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.banner_image1 %}
+                <img src="{{site.baseurl}}{{page.banner_image1}}" alt="banner_image1">
+                {% endif %}
+
+                {{ content }}
+
+
+                {% if page.content_one1 %}
+                <br />
+                <br />
+                <div class={{page.content_one1_align}}>
+                    <p>{{page.content_one1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_two1 %}
+                <br />
+                <div class={{page.content_two1_align}}>
+                    <p>{{page.content_two1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_right1 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right1}}" class="align-right">
+                {% endif %}
+
+                {% if page.content_three1 %}
+                <div class={{page.content_three1_align}}>
+                    <p>{{page.content_three1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_four1 %}
+                <div class={{page.content_four1_align}}>
+                    <p>{{page.content_four1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_left1 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left1}}" class="align-left">
+                {% endif %}
+
+                {% if page.content_five1 %}
+                <div class={{page.content_five1_align}}>
+                    <p>{{page.content_five1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_six1 %}
+                <div class={{page.content_six1_align}}>
+                    <p>{{page.content_six1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_one_col1 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col1"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_seven1 %}
+                <div class={{page.content_seven1_align}}>
+                    <p>{{page.content_seven1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_eight1 %}
+                <div class={{page.content_eight1_align}}>
+                    <p>{{page.content_eight1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col1 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col1" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_nine1 %}
+                <div class={{page.content_nine1_align}}>
+                    <p>{{page.content_nine1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_ten1 %}
+                <div class={{page.content_ten1_align}}>
+                    <p>{{page.content_ten1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col1 %}
+                <div> {% include gallery id="image_gallery_three_col1" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_eleven1 %}
+                <div class={{page.content_eleven1_align}}>
+                    <p>{{page.content_eleven1}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_twelve1 %}
+                <div class={{page.content_twelve1_align}}>
+                    <p>{{page.content_twelve1}}</p>
+                </div>
+                {% endif %}
+
+
+                {% if page.content_one2 %}
+                <br />
+                <div class={{page.content_one2_align}}>
+                    <p>{{page.content_one2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_two2 %}
+                <br />
+                <div class={{page.content_two2_align}}>
+                    <p>{{page.content_two2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_right2 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right2}}" class="align-right">
+                {% endif %}
+
+                {% if page.content_three2 %}
+                <div class={{page.content_three2_align}}>
+                    <p>{{page.content_three2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_four2 %}
+                <div class={{page.content_four2_align}}>
+                    <p>{{page.content_four2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_left2 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left2}}" class="align-left">
+                {% endif %}
+
+                {% if page.content_five2 %}
+                <div class={{page.content_five2_align}}>
+                    <p>{{page.content_five2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_six2 %}
+                <div class={{page.content_six2_align}}>
+                    <p>{{page.content_six2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_one_col2 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col2"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_seven2 %}
+                <div class={{page.content_seven2_align}}>
+                    <p>{{page.content_seven2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_eight2 %}
+                <div class={{page.content_eight2_align}}>
+                    <p>{{page.content_eight2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col2 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col2" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_nine2 %}
+                <div class={{page.content_nine2_align}}>
+                    <p>{{page.content_nine2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_ten2 %}
+                <div class={{page.content_ten2_align}}>
+                    <p>{{page.content_ten2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col2 %}
+                <div> {% include gallery id="image_gallery_three_col2" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_eleven2 %}
+                <div class={{page.content_eleven2_align}}>
+                    <p>{{page.content_eleven2}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_twelve2 %}
+                <div class={{page.content_twelve2_align}}>
+                    <p>{{page.content_twelve2}}</p>
+                </div>
+                {% endif %}
+
+
+                {% if page.content_one3 %}
+                <br />
+                <div class={{page.content_one3_align}}>
+                    <p>{{page.content_one3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_two3 %}
+                <br />
+                <div class={{page.content_two3_align}}>
+                    <p>{{page.content_two3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_right3 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_right3}}" class="align-right">
+                {% endif %}
+
+                {% if page.content_three3 %}
+                <div class={{page.content_three3_align}}>
+                    <p>{{page.content_three3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_four3 %}
+                <div class={{page.content_four3_align}}>
+                    <p>{{page.content_four3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_wrap_left3 %}
+                <br />
+                <img src="{{ site.url }}{{ site.baseurl }}{{page.image_wrap_left3}}" class="align-left">
+                {% endif %}
+
+                {% if page.content_five3 %}
+                <div class={{page.content_five3_align}}>
+                    <p>{{page.content_five3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_six3 %}
+                <div class={{page.content_six3_align}}>
+                    <p>{{page.content_six3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_one_col3 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col3"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_seven3 %}
+                <div class={{page.content_seven3_align}}>
+                    <p>{{page.content_seven3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_eight3 %}
+                <div class={{page.content_eight3_align}}>
+                    <p>{{page.content_eight3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col3 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col3" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_nine3 %}
+                <div class={{page.content_nine3_align}}>
+                    <p>{{page.content_nine3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_ten3 %}
+                <div class={{page.content_ten3_align}}>
+                    <p>{{page.content_ten3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col3 %}
+                <div> {% include gallery id="image_gallery_three_col3" caption="" %}</div>
+                {% endif %}
+
+                {% if page.content_eleven3 %}
+                <div class={{page.content_eleven3_align}}>
+                    <p>{{page.content_eleven3}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.content_twelve3 %}
+                <div class={{page.content_twelve3_align}}>
+                    <p>{{page.content_twelve}}</p>
+                </div>
+                {% endif %}
+
+                {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+            </section>
+
+            <footer class="page__meta">
+                {% if site.data.ui-text[site.locale].meta_label %}
+                <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+                {% endif %}
+
+            </footer>
+
+
+
+        </div>
+
+
+    </article>
 
 
 </div>

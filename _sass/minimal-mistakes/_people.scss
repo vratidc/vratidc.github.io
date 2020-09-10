@@ -4,134 +4,126 @@
 
 .people {
 
-  margin-top: 120px;
-  margin-bottom: 2em;
+    margin-top: 120px;
+    margin-bottom: 2em;
 
-  @include breakpoint($large) {
-    //float: right;
-    //width: calc(100% - #{$right-sidebar-width-narrow});
-    //padding-right: $right-sidebar-width-narrow;
-  }
+    @include breakpoint($large) {}
 
-  @include breakpoint($x-large) {
-    //width: calc(100% - #{$right-sidebar-width});
-    //padding-right: $right-sidebar-width;
-  }
+    @include breakpoint($x-large) {}
 }
 
 .people__item {
-  position: relative;
-
-  a {
     position: relative;
-    z-index: 10;
-    color: $text-color;
-      font-weight: bold;
-      
-      &:hover{
-          text-decoration: none;
-      }
-      
-      
-  }
 
-  a[rel="permalink"] {
-    position: static;
-  }
+    a {
+        position: relative;
+        z-index: 10;
+        color: $text-color;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+
+    }
+
+    a[rel="permalink"] {
+        position: static;
+    }
 }
 
 .people__subtitle {
-  margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: $type-size-5;
+    color: $muted-text-color;
+    border-bottom: 1px solid $border-color;
 
-  + .list__item .people__item-title {
-    margin-top: 0.5em;
-  }
+    + .list__item .people__item-title {
+        margin-top: 0.5em;
+    }
 }
 
 .people__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
-  line-height: initial;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    margin-bottom: 0.25em;
+    font-family: $sans-serif-narrow;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 
-  a[rel="permalink"]::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-      color: $secondary-color;
-  }
+    a[rel="permalink"]::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: $secondary-color;
+    }
 
-  a + a {
-    opacity: 0.5;
-  }
+    a + a {
+        opacity: 0.5;
+    }
 }
 
-/* remove border*/
 .page__content {
-  .people__item-title {
-    margin-top: 2em;
-    border-bottom: none;
-      
-      a{
-          text-decoration: none;
-      }
-      
-      
-      
-  }
+    .people__item-title {
+        margin-top: 2em;
+        border-bottom: none;
+
+        a {
+            text-decoration: none;
+        }
+
+
+
+    }
 }
 
 .people__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+    margin-top: 0;
+    font-size: $type-size-6;
 
-  & + p {
-    text-indent: 0;
-  }
+    & + p {
+        text-indent: 0;
+    }
 
-  a {
-    position: relative;
-  }
+    a {
+        position: relative;
+    }
 }
 
 .people__item-teaser {
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .people__item-caption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 2px 5px;
-  color: #fff;
-  font-family: $caption-font-family;
-  font-size: $type-size-8;
-  background: #000;
-  text-align: right;
-  z-index: 5;
-  opacity: 0.5;
-  border-radius: $border-radius 0 0 0;
-
-  @include breakpoint($large) {
-    padding: 5px 10px;
-  }
-
-  a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 5px;
     color: #fff;
-    text-decoration: none;
-  }
+    font-family: $caption-font-family;
+    font-size: $type-size-8;
+    background: #000;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: $border-radius 0 0 0;
+
+    @include breakpoint($large) {
+        padding: 5px 10px;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 /*
@@ -139,10 +131,10 @@
    ========================================================================== */
 
 .list__item {
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
 }
 
 /*
@@ -150,251 +142,238 @@
    ========================================================================== */
 
 .people {
-  .people_grid__wrapper {
-    /* extend people_grid elements to the right */
+    .people_grid__wrapper {
+        /* extend people_grid elements to the right */
 
-    @include breakpoint($large) {
-      margin-right: -1 * $right-sidebar-width-narrow;
-    }
+        @include breakpoint($large) {
+            margin-right: -1 * $right-sidebar-width-narrow;
+        }
 
-    @include breakpoint($x-large) {
-      margin-right: -1 * $right-sidebar-width;
+        @include breakpoint($x-large) {
+            margin-right: -1 * $right-sidebar-width;
+        }
     }
-  }
 }
 
 .people_grid__item_4 {
-    
-    
-   
-  margin-bottom: 1em;
-      
+
+
+
+    margin-bottom: 1em;
+
     float: left;
     width: span(5 of 10);
 
     &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
+        clear: both;
+        margin-left: 0;
+
     }
 
     &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
+        clear: none;
+        margin-left: gutter(of 10);
+
     }
 
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-  }
-
-    /* GRID ITEM HERE */
-    
-  @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-          
-    width: span(2 of 8);
-
-  
-    &:nth-child(2n + 1) {
-      clear: none;
-    }
-
-    &:nth-child(4n + 1) {
-      clear: both;
-    }
-
-    &:nth-child(4n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-      
-      
-
-
-  }
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .people__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-7;
-  }
-
-  .people__item-excerpt {
-    //display: none;
-      font-size: $type-size-8;
-      
-    @include breakpoint($medium) {
-      display: block;
-      font-size: $type-size-8;
-    }
-  }
-
-  .people__item-teaser {
-      
-             height: 20vh;
-
-      
     @include breakpoint($small) {
-        
-        height: 250px;
-        
-//      min-height: 200px;
-//      max-height: 200px;
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
     }
 
+
     @include breakpoint($medium) {
-        height: 200px;
-//        min-height: 200px;
-//      max-height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 8);
+
+
+        &:nth-child(2n + 1) {
+            clear: none;
+        }
+
+        &:nth-child(4n + 1) {
+            clear: both;
+        }
+
+        &:nth-child(4n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 4) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+
+
+
     }
-      
-      
-  }
-    
-    
-    
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .people__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
+    }
+
+    .people__item-excerpt {
+        font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
+    }
+
+    .people__item-teaser {
+
+        height: 20vh;
+
+
+        @include breakpoint($small) {
+
+            height: 250px;
+        }
+
+        @include breakpoint($medium) {
+            height: 200px;
+        }
+
+
+    }
+
+
+
 }
 
 .people_grid__item_3 {
-    
-    
-   
-  margin-bottom: 1em;
-      
+
+
+
+    margin-bottom: 1em;
+
     float: left;
     width: span(5 of 10);
 
     &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-  }
-
-    /* project_people_grid ITEM HERE */
-    
-  @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-          
-    width: span(2 of 6);
-
-    &:nth-child(3n + 1) {
-      clear: none;
+        clear: both;
         margin-left: 0;
+
     }
 
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
+    &:nth-child(2n + 2) {
+        clear: none;
+        margin-left: gutter(of 10);
+
     }
 
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-        margin-right: 0;
-    }
-      
-      
-
-
-  }
-
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .people__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-7;
-  }
-
-  .people__item-excerpt {
-    //display: none;
-      font-size: $type-size-8;
-      
-    @include breakpoint($medium) {
-      display: block;
-      font-size: $type-size-8;
-    }
-  }
-
-  .people__item-teaser {
-      
-    height: 30vh;
-
-      
     @include breakpoint($small) {
-        
-        height: 300px;
-        
-//      min-height: 200px;
-//      max-height: 200px;
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
     }
 
     @include breakpoint($medium) {
-        height: 250px;
-//        min-height: 200px;
-//      max-height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 6);
+
+        &:nth-child(3n + 1) {
+            clear: none;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+            margin-right: 0;
+        }
+
+
+
+
     }
-      
-      
-  }
-    
-    
-    
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .people__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
+    }
+
+    .people__item-excerpt {
+        font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
+    }
+
+    .people__item-teaser {
+
+        height: 30vh;
+
+
+        @include breakpoint($small) {
+
+            height: 300px;
+
+        }
+
+        @include breakpoint($medium) {
+            height: 250px;
+        }
+
+
+    }
+
+
+
 }
 
 /*
@@ -402,325 +381,355 @@
    ========================================================================== */
 
 .feature__wrapper {
-  @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+    @include clearfix();
+    margin-bottom: 2em;
+    border-bottom: 1px solid $border-color;
 
-  .people__item-title {
-    margin-bottom: 0;
-  }
+    .people__item-title {
+        margin-bottom: 0;
+    }
 }
 
 .feature__item {
-  position: relative;
-  margin-bottom: 2em;
-  font-size: 1.125em;
-
-  @include breakpoint($small) {
-    float: left;
-    margin-bottom: 0;
-    width: span(4 of 12);
-
-    &:nth-child(3n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(of 12);
-    }
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(of 12);
-    }
-
-    .feature__item-teaser {
-      max-height: 200px;
-      overflow: hidden;
-    }
-  }
-
-  .people__item-body {
-    padding-left: gutter(1 of 12);
-    padding-right: gutter(1 of 12);
-  }
-
-  a.btn::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  &--left {
     position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
+    margin-bottom: 2em;
     font-size: 1.125em;
 
-    .people__item {
-      float: left;
-    }
-
-    .people__item-teaser {
-      margin-bottom: 2em;
-    }
-
-    a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
-
     @include breakpoint($small) {
-      .people__item-teaser {
         float: left;
-        width: span(5 of 12);
-      }
+        margin-bottom: 0;
+        width: span(4 of 12);
 
-      .people__item-body {
-        float: right;
-        padding-left: gutter(0.5 of 12);
+        &:nth-child(3n + 1) {
+            clear: both;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        .feature__item-teaser {
+            max-height: 200px;
+            overflow: hidden;
+        }
+    }
+
+    .people__item-body {
+        padding-left: gutter(1 of 12);
         padding-right: gutter(1 of 12);
-        width: span(7 of 12);
-      }
-    }
-  }
-
-  &--right {
-    position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
-    font-size: 1.125em;
-
-    .people__item {
-      float: left;
-    }
-
-    .people__item-teaser {
-      margin-bottom: 2em;
     }
 
     a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
     }
 
-    @include breakpoint($small) {
-      text-align: right;
-
-      .people__item-teaser {
-        float: right;
-        width: span(5 of 12);
-      }
-
-      .people__item-body {
+    &--left {
+        position: relative;
         float: left;
-        width: span(7 of 12);
-        padding-left: gutter(0.5 of 12);
-        padding-right: gutter(1 of 12);
-      }
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .people__item {
+            float: left;
+        }
+
+        .people__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            .people__item-teaser {
+                float: left;
+                width: span(5 of 12);
+            }
+
+            .people__item-body {
+                float: right;
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+                width: span(7 of 12);
+            }
+        }
     }
-  }
 
-  &--center {
-    position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
-    font-size: 1.125em;
+    &--right {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
 
-    .people__item {
-      float: left;
-      width: 100%;
-        
+        .people__item {
+            float: left;
+        }
+
+        .people__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: right;
+
+            .people__item-teaser {
+                float: right;
+                width: span(5 of 12);
+            }
+
+            .people__item-body {
+                float: left;
+                width: span(7 of 12);
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+            }
+        }
     }
 
-    .people__item-teaser {
-      margin-bottom: 2em;
+    &--center {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .people__item {
+            float: left;
+            width: 100%;
+
+        }
+
+        .people__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: center;
+
+            .people__item-teaser {
+                margin: 0 auto;
+                width: span(5 of 12);
+            }
+
+            .people__item-body {
+                margin: 0 auto;
+                width: span(7 of 12);
+            }
+        }
     }
-
-    a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
-
-    @include breakpoint($small) {
-      text-align: center;
-
-      .people__item-teaser {
-        margin: 0 auto;
-        width: span(5 of 12);
-      }
-
-      .people__item-body {
-        margin: 0 auto;
-        width: span(7 of 12);
-      }
-    }
-  }
 }
 
-/* Place inside an people layout */
-
 .people {
-  .feature__wrapper {
-    .people__item-title {
-      margin-top: 0.25em;
-      font-size: 1em;
+    .feature__wrapper {
+        .people__item-title {
+            margin-top: 0.25em;
+            font-size: 1em;
+        }
     }
-  }
 
-  .feature__item,
-  .feature__item--left,
-  .feature__item--center,
-  .feature__item--right {
-    font-size: 1em;
-  }
+    .feature__item,
+    .feature__item--left,
+    .feature__item--center,
+    .feature__item--right {
+        font-size: 1em;
+    }
 }
 
 /*
    Wide Pages
    ========================================================================== */
 
-  .wide {
-  .people {
-    @include breakpoint($large) {
-      padding-right: 0;
-    }
+.wide {
+    .people {
+        @include breakpoint($large) {
+            padding-right: 0;
+        }
 
-    @include breakpoint($x-large) {
-      padding-right: 0;
+        @include breakpoint($x-large) {
+            padding-right: 0;
+        }
     }
-  }
 }
 
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+    .feature__wrapper {
+        display: inline-block;
+    }
 }
 
 
-/***********************
 /* The Modal (background) */
 .people-modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 10000; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .people-modal-content {
-    
-position: absolute;
-      z-index: 10000; /* Sit on top */
 
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fefefe;
-  //margin: 20% 20%; /* 15% from the top and centered */
-  padding: 20px;
-  border-radius: 5px;
-  width: 40%;
-    min-width: 480px;  
+    position: absolute;
+    z-index: 10000;
+    /* Sit on top */
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    //margin: 20% 20%; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+    min-width: 480px;
 
     //height: 40vh;
     display: flex;
     flex-direction: row;
-      justify-content: space-between;
+    justify-content: space-between;
 
-
-    
- 
-  //width: 40%; /* Could be more or less, depending on screen size */
+    //width: 40%; /* Could be more or less, depending on screen size */
 }
 
-.modal-left{
+.modal-left {
     position: relative;
-  //border-radius: $border-radius*3;
-  overflow: hidden;
+    overflow: hidden;
     width: 100%;
-   padding-bottom: 0px;
+    padding-bottom: 0px;
     padding-right: 20px;
-    
+
 }
 
-.modal-right{
-    
+.modal-right {
+
     width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
-    
+
     .people-modal-content {
-        
+
         width: 80%;
         flex-direction: column;
-            min-width: 120px;  
+        min-width: 120px;
 
     }
-    
-    .modal-left{
-    
+
+    .modal-left {
+
         padding-right: 0px;
         padding-bottom: 10px;
-    
+
     }
-    
-    
+
+
 }
 
 /* The Close Button */
 .people-close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .people-close:hover,
 .people-close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.people__icon{
-    
+.people__icon {
+
     color: #665252;
-    
+
+}
+
+/* Custom CSS for Past Members */
+
+.pastmemberholder {
+
+    width: 140px;
+    height: 180px;
+    float: left;
+    font-size: medium;
+}
+
+.pastmemberitem {
+
+    width: 100px;
+
+    img {
+        max-width: 100px;
+        border-radius: 5px;
+    }
+
+    p {
+        color: #121617;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
 }

@@ -5,13 +5,11 @@ layout: projectspage
 {{ content }}
 
 
-    <div class = "activities"> 
-    <h1 id = "activities" class = "page__title" >Activities</h1>
-    </div>
-
-    
-    <div class="selected-activities">
-        {% include documents-collection-activities.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<div class="activities">
+    <h1 id="activities" class="page__title">Activities</h1>
 </div>
-  
 
+
+<div class="selected-activities">
+    {% include documents-collection-activities.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>

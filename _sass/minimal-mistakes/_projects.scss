@@ -5,153 +5,140 @@
 .projects {
 
     margin-top: 120px;
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 
-  @include breakpoint($large) {
-    //float: right;
-    //width: calc(100% - #{$right-sidebar-width-narrow});
-    //padding-right: $right-sidebar-width-narrow;
-  }
-
-  @include breakpoint($x-large) {
-    //width: calc(100% - #{$right-sidebar-width});
-    //padding-right: $right-sidebar-width;
-  }
 }
 
 .projects__item {
-  position: relative;
-
-  a {
     position: relative;
-    z-index: 10;
-    color: $text-color;
-      font-weight: bold;
-      
-      &:hover{
-          text-decoration: none;
-      }
-  }
 
-  a[rel="permalink"] {
-    position: static;
-  }
+    a {
+        position: relative;
+        z-index: 10;
+        color: $text-color;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    a[rel="permalink"] {
+        position: static;
+    }
 }
 
 .projects__subtitle {
-  margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: $type-size-5;
+    color: $muted-text-color;
+    border-bottom: 1px solid $border-color;
 
-  + .list__item .projects__item-title {
-    margin-top: 0.5em;
-  }
+    + .list__item .projects__item-title {
+        margin-top: 0.5em;
+    }
 }
 
 .projects__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
-  line-height: initial;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    margin-bottom: 0.25em;
+    font-family: $sans-serif-narrow;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 
-  a[rel="permalink"]::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-      color: $secondary-color;
-  }
+    a[rel="permalink"]::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: $secondary-color;
+    }
 
-  a + a {
-    opacity: 0.5;
-  }
+    a + a {
+        opacity: 0.5;
+    }
 }
 
-/* remove border*/
+
 .page__content {
-  .projects__item-title {
-    margin-top: 2em;
-    border-bottom: none;
-      
-      a{
-          text-decoration: none;
-      }
-      
-      
-      
-  }
+    .projects__item-title {
+        margin-top: 2em;
+        border-bottom: none;
+
+        a {
+            text-decoration: none;
+        }
+
+
+
+    }
 }
 
 .projects__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+    margin-top: 0;
+    font-size: $type-size-6;
 
-  & + p {
-    text-indent: 0;
-  }
+    & + p {
+        text-indent: 0;
+    }
 
-  a {
-    position: relative;
-  }
+    a {
+        position: relative;
+    }
 }
 
 .projects__item-teaser {
-  position: relative;
-  border-radius: $border-radius*1.5;
-  overflow: hidden;
-  background-size: cover; 
-  background-position: center;
-  background-repeat:no-repeat;
+    position: relative;
+    border-radius: $border-radius*1.5;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .projects__item-caption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 2px 5px;
-  color: #fff;
-  font-family: $caption-font-family;
-  font-size: $type-size-8;
-  background: #000;
-  text-align: right;
-  z-index: 5;
-  opacity: 0.5;
-  border-radius: $border-radius 0 0 0;
-
-  @include breakpoint($large) {
-    padding: 5px 10px;
-  }
-
-  a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 5px;
     color: #fff;
-    text-decoration: none;
-  }
+    font-family: $caption-font-family;
+    font-size: $type-size-8;
+    background: #000;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: $border-radius 0 0 0;
+
+    @include breakpoint($large) {
+        padding: 5px 10px;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
-.projects__item-teaser-container
-{
-  border-radius: $border-radius*1.5;
-  position:relative; 
-  overflow:hidden;
+.projects__item-teaser-container {
+    border-radius: $border-radius*1.5;
+    position: relative;
+    overflow: hidden;
 }
 
-.projects__item-teaser
-{
-  transition: filter 0.4s, transform 0.4s;
+.projects__item-teaser {
+    transition: filter 0.4s, transform 0.4s;
 }
 
-.projects__item:hover .projects__item-teaser
-{
-      -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
-      filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
-      transform: scale(1.05);
+.projects__item:hover .projects__item-teaser {
+    -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
+    filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
+    transform: scale(1.05);
 }
 
 
@@ -160,10 +147,10 @@
    ========================================================================== */
 
 .list__item {
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
 }
 
 
@@ -172,51 +159,51 @@
    ========================================================================== */
 
 .projects {
-  .project_grid__wrapper {
-    /* extend project_grid elements to the right */
+    .project_grid__wrapper {
+        /* extend project_grid elements to the right */
 
-    @include breakpoint($large) {
-      margin-right: -1 * $right-sidebar-width-narrow;
-    }
+        @include breakpoint($large) {
+            margin-right: -1 * $right-sidebar-width-narrow;
+        }
 
-    @include breakpoint($x-large) {
-      margin-right: -1 * $right-sidebar-width;
+        @include breakpoint($x-large) {
+            margin-right: -1 * $right-sidebar-width;
+        }
     }
-  }
 }
 
-.all-projects{
+.all-projects {
 
-    width: 100%;    
+    width: 100%;
     height: 80%;
 
 }
-    
-.tagbox{
-    
+
+.tagbox {
+
     margin-top: 0.5em;
     padding: 0.2em 1em;
     background: #e5e5e5;
     border-radius: 0.5em;
     font-size: $type-size-6;
     cursor: default;
-    
-}  
 
-.tagbox:first-child{
-        background: $secondary-highlight;
-  
 }
 
-.projects__item-excerpt-tags{
-    
- margin-top: 0.4em;   
+.tagbox:first-child {
+    background: $secondary-highlight;
+
+}
+
+.projects__item-excerpt-tags {
+
+    margin-top: 0.4em;
     line-height: 1.7em;
 }
 
 
 
-.filter-button{
+.filter-button {
     font-weight: bold;
     font-size: $type-size-6;
     padding: 0.2em 0.4em;
@@ -226,499 +213,307 @@
     border-width: 2px;
     border-color: $primary-color;
     color: $primary-color;
-    border-radius: 0.3em;  
+    border-radius: 0.3em;
 }
 
-.filter-button-active{
+.filter-button-active {
     color: $background-color;
     background: $primary-color;
 
 }
 
-.filter-button:hover{
+.filter-button:hover {
     text-decoration: none;
-   color: $background-color;
+    color: $background-color;
     background: $primary-color;
-     cursor:pointer;
+    cursor: pointer;
 
 }
 
 .project_grid__item {
-    
+
     float: center;
     margin-bottom: 0.5em;
     width: 24%;
-    //min-height: 200px;
-    
-   // float: left;
-   // width: span(5 of 10);
-/*
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
 
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-*/
-    
-        @include breakpoint(200px){
-                  width: 48%;
+    @include breakpoint(200px) {
+        width: 48%;
 
     }
-    
-        @include breakpoint(400px){
-                  width: 48%;
+
+    @include breakpoint(400px) {
+        width: 48%;
 
     }
-    
-  @include breakpoint(600px) {
-      
-          width: 48%;
-    
-      
-    //float: left;
- //   width: span(5 of 10);
 
-//    &:nth-child(2n + 1) {
-//      clear: both;
-//      margin-left: 0;
-//        
-//    }
-//
-//    &:nth-child(2n + 2) {
-//      clear: none;
-//      margin-left: gutter(of 10);
-//      
-//    }
-  }
+    @include breakpoint(600px) {
 
-    
-    @include breakpoint(800px){
-                  width: 24%;
-
-    }
-    
-  @include breakpoint(800px) {
-      
-          width: 24%;
-
-    //margin-left: 0; /* override margin*/
-    //margin-right: 0; /* override margin*/
-          
-  //  width: span(2 of 8);
-
-//    &:nth-child(2n + 1) {
-//      clear: both;
-//      margin-left: 0;
-//    padding-right: 1em;
-//        
-//    }
-//
-//    &:nth-child(2n + 2) {
-//      clear: none;
-//      margin-left: gutter(of 10);
-//          padding-left: 1em;
-//
-//    }
-  
-    /*  
-    &:nth-child(2n + 1) {
-      clear: none;
+        width: 48%;
     }
 
-    &:nth-child(4n + 1) {
-      clear: both;
+
+    @include breakpoint(800px) {
+        width: 24%;
+
     }
 
-    &:nth-child(4n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 16);
+    @include breakpoint(800px) {
+
+        width: 24%;
     }
 
-    &:nth-child(4n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 16);
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
     }
 
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 16);
-    }
-      
-      */
-
-
-  }
-
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .projects__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-7;
-  }
-
-  .projects__item-excerpt {
-    //display: none;
-      font-size: $type-size-8;
-      
-    @include breakpoint($medium) {
-     // display: block;
-     // font-size: $type-size-8;
-    }
-  }
-
-  .projects__item-teaser {
-      
-             height: 20vh;
-
-      
-    @include breakpoint($small) {
-        
-      //  height: 250px;
-        
-//      min-height: 200px;
-//      max-height: 200px;
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
     }
 
-    @include breakpoint($medium) {
-      //  height: 200px;
-//        min-height: 200px;
-//      max-height: 280px;
+    .projects__item-excerpt {
+        font-size: $type-size-8;
     }
-      
-      
-  }
-    
-    
-    
+
+    .projects__item-teaser {
+
+        height: 20vh;
+
+
+        @include breakpoint($small) {}
+
+        @include breakpoint($medium) {}
+
+
+    }
+
+
+
 }
-
-////////////////////////////
-
 
 
 .project_grid__item-selected-homepage {
-    
-    
-  margin-bottom: 1em;
-      
+
+
+    margin-bottom: 1em;
+
     float: left;
     width: span(5 of 10);
 
     &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-  }
-
-    /* project_grid ITEM HERE */
-    
-  @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-          
-    width: span(2 of 6);
-
-    &:nth-child(3n + 1) {
-      clear: none;
+        clear: both;
         margin-left: 0;
+
     }
 
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
+    &:nth-child(2n + 2) {
+        clear: none;
+        margin-left: gutter(of 10);
+
     }
 
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-        margin-right: 0;
-    }
-      
-      
-
-
-  }
-    
-    
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .projects__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-7;
-  }
-
-  .projects__item-excerpt {
-    //display: none;
-      font-size: $type-size-8;
-      
-    @include breakpoint($medium) {
-      display: block;
-      font-size: $type-size-8;
-    }
-  }
-
-  .projects__item-teaser {
-      
-             height: 20vh;
-
-      
     @include breakpoint($small) {
-        
-        height: 250px;
-        
-//      min-height: 200px;
-//      max-height: 200px;
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
     }
 
     @include breakpoint($medium) {
-        height: 200px;
-//        min-height: 200px;
-//      max-height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 6);
+
+        &:nth-child(3n + 1) {
+            clear: none;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+            margin-right: 0;
+        }
+
+
+
+
     }
-      
-      
-  }
-    
-    
-    
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
+    }
+
+    .projects__item-teaser {
+
+        height: 20vh;
+
+
+        @include breakpoint($small) {
+
+            height: 250px;
+
+        }
+
+        @include breakpoint($medium) {
+            height: 200px;
+
+        }
+
+
+    }
+
+
+
 }
 
 .project_grid__item-selected {
-    
-    
-  margin-bottom: 1em;
-      
-//    float: left;
-//    width: span(5 of 10);
-//
-//    &:nth-child(2n + 1) {
-//      clear: both;
-//      margin-left: 0;
-//        
-//    }
-//
-//    &:nth-child(2n + 2) {
-//      clear: none;
-//      margin-left: gutter(of 10);
-//      
-//    }
-//
-//  @include breakpoint($small) {
-//    float: left;
-//    width: span(5 of 10);
-//
-//    &:nth-child(2n + 1) {
-//      clear: both;
-//      margin-left: 0;
-//        
-//    }
-//
-//    &:nth-child(2n + 2) {
-//      clear: none;
-//      margin-left: gutter(of 10);
-//      
-//    }
-//  }
-//
-//    /* project_grid ITEM HERE */
-//    
-//  @include breakpoint($medium) {
-//    margin-left: 0; /* override margin*/
-//    margin-right: 0; /* override margin*/
-//          
-//    width: span(2 of 6);
-//
-//    &:nth-child(3n + 1) {
-//      clear: none;
-//        margin-left: 0;
-//    }
-//
-//    &:nth-child(3n + 2) {
-//      clear: none;
-//      margin-left: gutter(1 of 12);
-//    }
-//
-//
-//    &:nth-child(3n + 3) {
-//      clear: none;
-//      margin-left: gutter(1 of 12);
-//        margin-right: 0;
-//    }
-//      
-//      
-//
-//
-//  }
-//    
-    
-       
-        float: left;
-    width: span(5 of 10);
 
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
-    }
 
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
-    }
-
-  @include breakpoint($small) {
+    margin-bottom: 1em;
     float: left;
     width: span(5 of 10);
 
     &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-        
+        clear: both;
+        margin-left: 0;
+
     }
 
     &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-      
+        clear: none;
+        margin-left: gutter(of 10);
+
     }
-  }
+
+    @include breakpoint($small) {
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
+    }
 
     /* GRID ITEM HERE */
-    
-  @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-          
-    width: span(2 of 8);
-
-//    &:nth-child(2n + 1) {
-//      clear: both;
-//      margin-left: 0;
-//    padding-right: 1em;
-//        
-//    }
-//
-//    &:nth-child(2n + 2) {
-//      clear: none;
-//      margin-left: gutter(of 10);
-//          padding-left: 1em;
-//
-//    }
-  
-    &:nth-child(2n + 1) {
-      clear: none;
-    }
-
-    &:nth-child(4n + 1) {
-      clear: both;
-    }
-
-    &:nth-child(4n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-      
-      
-
-
-  }
-    
-    
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .projects__item-title {
-    margin-top: 0.5em;
-    font-size: $type-size-7;
-  }
-
-  .projects__item-excerpt {
-    //display: none;
-      font-size: $type-size-8;
-      
-    @include breakpoint($medium) {
-      display: block;
-      font-size: $type-size-8;
-    }
-  }
-
-  .projects__item-teaser {
-      
-             height: 20vh;
-
-      
-    @include breakpoint($small) {
-        
-        height: 250px;
-        
-//      min-height: 200px;
-//      max-height: 200px;
-    }
 
     @include breakpoint($medium) {
-        height: 200px;
-//        min-height: 200px;
-//      max-height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 8);
+
+
+        &:nth-child(2n + 1) {
+            clear: none;
+        }
+
+        &:nth-child(4n + 1) {
+            clear: both;
+        }
+
+        &:nth-child(4n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 4) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
     }
-      
-      
-  }
-    
-    
-    
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
+    }
+
+    .projects__item-teaser {
+
+        height: 20vh;
+
+
+        @include breakpoint($small) {
+
+            height: 250px;
+
+        }
+
+        @include breakpoint($medium) {
+            height: 200px;
+        }
+
+
+    }
+
+
+
 }
-
-
-
 
 
 /*
@@ -726,226 +521,226 @@
    ========================================================================== */
 
 .feature__wrapper {
-  @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+    @include clearfix();
+    margin-bottom: 2em;
+    border-bottom: 1px solid $border-color;
 
-  .projects__item-title {
-    margin-bottom: 0;
-  }
+    .projects__item-title {
+        margin-bottom: 0;
+    }
 }
 
 .feature__item {
-  position: relative;
-  margin-bottom: 2em;
-  font-size: 1.125em;
-
-  @include breakpoint($small) {
-    float: left;
-    margin-bottom: 0;
-    width: span(4 of 12);
-
-    &:nth-child(3n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(of 12);
-    }
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(of 12);
-    }
-
-    .feature__item-teaser {
-      max-height: 200px;
-      overflow: hidden;
-    }
-  }
-
-  .projects__item-body {
-    padding-left: gutter(1 of 12);
-    padding-right: gutter(1 of 12);
-  }
-
-  a.btn::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  &--left {
     position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
+    margin-bottom: 2em;
     font-size: 1.125em;
 
-    .projects__item {
-      float: left;
-    }
-
-    .projects__item-teaser {
-      margin-bottom: 2em;
-    }
-
-    a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
-
     @include breakpoint($small) {
-      .projects__item-teaser {
         float: left;
-        width: span(5 of 12);
-      }
+        margin-bottom: 0;
+        width: span(4 of 12);
 
-      .projects__item-body {
-        float: right;
-        padding-left: gutter(0.5 of 12);
+        &:nth-child(3n + 1) {
+            clear: both;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        .feature__item-teaser {
+            max-height: 200px;
+            overflow: hidden;
+        }
+    }
+
+    .projects__item-body {
+        padding-left: gutter(1 of 12);
         padding-right: gutter(1 of 12);
-        width: span(7 of 12);
-      }
-    }
-  }
-
-  &--right {
-    position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
-    font-size: 1.125em;
-
-    .projects__item {
-      float: left;
-    }
-
-    .projects__item-teaser {
-      margin-bottom: 2em;
     }
 
     a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
     }
 
-    @include breakpoint($small) {
-      text-align: right;
-
-      .projects__item-teaser {
-        float: right;
-        width: span(5 of 12);
-      }
-
-      .projects__item-body {
+    &--left {
+        position: relative;
         float: left;
-        width: span(7 of 12);
-        padding-left: gutter(0.5 of 12);
-        padding-right: gutter(1 of 12);
-      }
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .projects__item {
+            float: left;
+        }
+
+        .projects__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            .projects__item-teaser {
+                float: left;
+                width: span(5 of 12);
+            }
+
+            .projects__item-body {
+                float: right;
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+                width: span(7 of 12);
+            }
+        }
     }
-  }
 
-  &--center {
-    position: relative;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
-    font-size: 1.125em;
+    &--right {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
 
-    .projects__item {
-      float: left;
-      width: 100%;
-        
+        .projects__item {
+            float: left;
+        }
+
+        .projects__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: right;
+
+            .projects__item-teaser {
+                float: right;
+                width: span(5 of 12);
+            }
+
+            .projects__item-body {
+                float: left;
+                width: span(7 of 12);
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+            }
+        }
     }
 
-    .projects__item-teaser {
-      margin-bottom: 2em;
+    &--center {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .projects__item {
+            float: left;
+            width: 100%;
+
+        }
+
+        .projects__item-teaser {
+            margin-bottom: 2em;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: center;
+
+            .projects__item-teaser {
+                margin: 0 auto;
+                width: span(5 of 12);
+            }
+
+            .projects__item-body {
+                margin: 0 auto;
+                width: span(7 of 12);
+            }
+        }
     }
-
-    a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
-
-    @include breakpoint($small) {
-      text-align: center;
-
-      .projects__item-teaser {
-        margin: 0 auto;
-        width: span(5 of 12);
-      }
-
-      .projects__item-body {
-        margin: 0 auto;
-        width: span(7 of 12);
-      }
-    }
-  }
 }
 
 /* Place inside an projects layout */
 
 .projects {
-  .feature__wrapper {
-    .projects__item-title {
-      margin-top: 0.25em;
-      font-size: 1em;
+    .feature__wrapper {
+        .projects__item-title {
+            margin-top: 0.25em;
+            font-size: 1em;
+        }
     }
-  }
 
-  .feature__item,
-  .feature__item--left,
-  .feature__item--center,
-  .feature__item--right {
-    font-size: 1em;
-  }
+    .feature__item,
+    .feature__item--left,
+    .feature__item--center,
+    .feature__item--right {
+        font-size: 1em;
+    }
 }
 
 /*
    Wide Pages
    ========================================================================== */
 
-  .wide {
-  .projects {
-    @include breakpoint($large) {
-      padding-right: 0;
-    }
+.wide {
+    .projects {
+        @include breakpoint($large) {
+            padding-right: 0;
+        }
 
-    @include breakpoint($x-large) {
-      padding-right: 0;
+        @include breakpoint($x-large) {
+            padding-right: 0;
+        }
     }
-  }
 }
 
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+    .feature__wrapper {
+        display: inline-block;
+    }
 }

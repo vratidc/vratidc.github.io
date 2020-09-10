@@ -5,12 +5,11 @@ layout: projectspage
 {{ content }}
 
 
-    <div class = "publications"> 
-    <h1 id = "publications" class = "page__title" >Publications</h1>
-    </div>
-
-    
-    <div class="selected-publications">
-        {% include documents-collection-publications.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<div class="publications">
+    <h1 id="publications" class="page__title">Publications</h1>
 </div>
-  
+
+
+<div class="selected-publications">
+    {% include documents-collection-publications.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>

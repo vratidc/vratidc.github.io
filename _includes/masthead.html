@@ -1,202 +1,117 @@
 {% if site.logo contains "://" %}
-  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% else %}
-  {% capture logo_path %}{{ site.logo | relative_url }}{% endcapture %}
+{% capture logo_path %}{{ site.logo | relative_url }}{% endcapture %}
 {% endif %}
 
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="new-nav">
 
-        
-        
-<!--
-        <nav id="site-nav" class="greedy-nav">
+                {% unless logo_path == empty %}
 
-          {% unless logo_path == empty %}
-          
-          
-            {% if logo_path contains "://" %}
-                    <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }}" alt=""></a>
-            {% else %}
-                    <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }} | relative_url" alt=""></a>
-            {% endif %}
-          
-          
-           {% endunless %}
 
-          
-          <ul class="visible-links">
-                {%- for link in site.data.navigation.main -%}
-                {% if page.url contains link.url %}
-                    {% assign class = 'active' %}
+                {% if logo_path contains "://" %}
+                <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }}" alt=""></a>
+                {% else %}
+                <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }} | relative_url" alt=""></a>
                 {% endif %}
-                {% if link.sublinks %}
+
+
+                {% endunless %}
+
+
+                <ul class="visible-links">
+                    {%- for link in site.data.navigation.main -%}
+                    {% if page.url contains link.url %}
+                    {% assign class = 'active' %}
+                    {% endif %}
+                    {% if link.sublinks %}
                     <li class="dropdown {{ class }}">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                         <ul class="dropdown-content">
                             {% for sublink in link.sublinks %}
-                                <li>
-                                    <a href="{{ site.baseurl }}{{ sublink.url }}">    {{ sublink.title }}</a>
-                                </li>
+                            <li>
+                                <a href="{{ site.baseurl }}{{ sublink.url }}"> {{ sublink.title }}</a>
+                            </li>
                             {% endfor %}
                         </ul>
                     </li>
-                {% else %}
+                    {% else %}
                     <li class="masthead__menu-item">
                         <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                     </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-          
-               
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-        
-        
--->
-        
-    <nav id="site-nav" class="new-nav">
+                    {% endif %}
+                    {% endfor %}
+                </ul>
 
-          {% unless logo_path == empty %}
-          
-          
-            {% if logo_path contains "://" %}
-                    <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }}" alt=""></a>
-            {% else %}
-                    <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path }} | relative_url" alt=""></a>
-            {% endif %}
-          
-          
-           {% endunless %}
-
-          
-          <ul class="visible-links">
-                {%- for link in site.data.navigation.main -%}
-                {% if page.url contains link.url %}
+                <ul class="hidden-links hidden" id="dropdown-links">
+                    {%- for link in site.data.navigation.main -%}
+                    {% if page.url contains link.url %}
                     {% assign class = 'active' %}
-                {% endif %}
-                {% if link.sublinks %}
+                    {% endif %}
+                    {% if link.sublinks %}
                     <li class="dropdown {{ class }}">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                         <ul class="dropdown-content">
                             {% for sublink in link.sublinks %}
-                                <li>
-                                    <a href="{{ site.baseurl }}{{ sublink.url }}">    {{ sublink.title }}</a>
-                                </li>
+                            <li>
+                                <a href="{{ site.baseurl }}{{ sublink.url }}"> {{ sublink.title }}</a>
+                            </li>
                             {% endfor %}
                         </ul>
                     </li>
-                {% else %}
+                    {% else %}
                     <li class="masthead__menu-item">
                         <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                     </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-         
-        <ul class="hidden-links hidden" id = "dropdown-links">
-                {%- for link in site.data.navigation.main -%}
-                {% if page.url contains link.url %}
-                    {% assign class = 'active' %}
-                {% endif %}
-                {% if link.sublinks %}
-                    <li class="dropdown {{ class }}">
-<!--                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>-->
-                        <ul class="dropdown-content">
-                            {% for sublink in link.sublinks %}
-                                <li>
-                                    <a href="{{ site.baseurl }}{{ sublink.url }}">    {{ sublink.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                {% else %}
-                    <li class="masthead__menu-item">
-                        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-               
+                    {% endif %}
+                    {% endfor %}
+                </ul>
 
-        <button class="new-nav__toggle" id = "dropdown-button" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon" id = "dropdown-button-logo" type = "button-logo"></div>
-        </button>
-      </nav>
-        
-      
-        
-        
-        
-        
-        
-        
+
+                <button class="new-nav__toggle" id="dropdown-button" type="button">
+                    <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+                    <div class="navicon" id="dropdown-button-logo" type="button-logo"></div>
+                </button>
+            </nav>
+        </div>
     </div>
-  </div>
 </div>
 
 
 <script>
+    var dropdown = document.getElementById("dropdown-links");
+    var button = document.getElementById("dropdown-button");
+    var buttonlogo = document.getElementById("dropdown-button-logo");
+    button.onclick = function() {
 
-    
-var dropdown = document.getElementById("dropdown-links");
-var button = document.getElementById("dropdown-button");
-var buttonlogo = document.getElementById("dropdown-button-logo");    
-button.onclick = function(){
-    
-    if(dropdown.className === "hidden-links hidden")
-        {
+        if (dropdown.className === "hidden-links hidden") {
             dropdown.className = "hidden-links visible";
-        }
-    else
-        {
+        } else {
             dropdown.className = "hidden-links hidden";
         }
-    
-    console.log("Dropped");
-}    
 
-buttonlogo.onclick = function(){
-    
-    if(dropdown.className === "hidden-links hidden")
-        {
-            //dropdown.className = "hidden-links visible";
+        console.log("Dropped");
+    }
+
+    buttonlogo.onclick = function() {
+
+        if (dropdown.className === "hidden-links hidden") {} else {}
+
+    }
+
+
+
+    window.onclick = function(event) {
+
+        if (event.target != dropdown && event.target != button && event.target != buttonlogo) {
+            console.log("Window Click");
+
+            if (dropdown.className === "hidden-links visible") {
+                dropdown.className = "hidden-links hidden";
+            }
         }
-    else
-        {
-            //dropdown.className = "hidden-links hidden";
-        }
-    
-    //console.log("Dropped");
-}    
-
-
-
-window.onclick = function(event) {
-     
-
-    
-    if (event.target != dropdown && event.target != button && event.target != buttonlogo)
-        {
-                   console.log("Window Click");
-     
-     if(dropdown.className === "hidden-links visible")
-         {
-             dropdown.className = "hidden-links hidden";
-         }
-        }
-
-     
-     
-  
-}
-
+    }
 
 </script>

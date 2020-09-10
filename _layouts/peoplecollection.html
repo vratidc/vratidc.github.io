@@ -3,51 +3,49 @@ layout: people
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/people/team2.jpg" alt="">
-</figure> 
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/people/team2.jpg" alt="">
+</figure>
 
 
-<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0;"> 
+<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0;">
 
-<div class = "projects" style="margin-top: 0px;"> 
-            <h1 id = "page-title" class = "page__title" >Team</h1>
-</div>
-
-</div>
-
-<div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection-people.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
-
-
-<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px"> 
-
-    <div class = "projects" style="margin-top: 0px;"> 
-            <h1 id = "page-title" class = "page__title" >Students</h1>
-     </div>
+    <div class="projects" style="margin-top: 0px;">
+        <h1 id="page-title" class="page__title">Team</h1>
+    </div>
 
 </div>
 
 <div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection-students.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-people.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 
 
-<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px"> 
+<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
 
-    <div class = "projects" style="margin-top: 0px;"> 
-            <h1 id = "page-title" class = "page__title" >Past Members</h1>
-
-  </div>
+    <div class="projects" style="margin-top: 0px;">
+        <h1 id="page-title" class="page__title">Students</h1>
+    </div>
 
 </div>
 
 <div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection-pastmembers.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
- </div>
+    {% include documents-collection-students.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+
+
+<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
+
+    <div class="projects" style="margin-top: 0px;">
+        <h1 id="page-title" class="page__title">Past Members</h1>
+
+    </div>
+
+</div>
+
+<div class="entries-{{ page.entries_layout }}">
+    {% include documents-collection-pastmembers.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
 
 
 
 {{ content }}
-
-

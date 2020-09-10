@@ -1,90 +1,89 @@
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+{% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %}
+{% assign title = post.title %}
 {% endif %}
 
 <div class="publication_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
-  <article class="publications__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <div class = "publication_holder">
-    {% if include.type == "grid" or teaser %}
-      {% if post.fullpage == "yes" %}
-        <div class="publications__item-teaser publication_teaser_linked" style = 'background-image: 
+    <article class="publications__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <div class="publication_holder">
+            {% if include.type == "grid" or teaser %}
+            {% if post.fullpage == "yes" %}
+            <div class="publications__item-teaser publication_teaser_linked" style='background-image: 
           url({% if teaser contains "://" %}
               {{ teaser }}
             {% else %}
               {{ teaser | relative_url }}
             {% endif %});'>
-        </div>
-       {% else %}
-        <div class="publications__item-teaser" style = 'background-image: 
+            </div>
+            {% else %}
+            <div class="publications__item-teaser" style='background-image: 
           url({% if teaser contains "://" %}
               {{ teaser }}
             {% else %}
               {{ teaser | relative_url }}
             {% endif %});'>
+            </div>
+            {% endif %}
+
+            {% endif %}
+
+            <div class="publication_text">
+
+                {% if post.fullpage == "yes" %}
+                <h2 class="publications__item-title" itemprop="headline">
+                    {% if post.link %}
+                    <a class="publication_linked" href="{{ post.link }}">{{ title }}</a>
+                    {% else %}
+                    <a class="publication_linked" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+                    {% endif %}
+                </h2>
+
+                {% else %}
+                <h2 class="publications__item-title" itemprop="headline">
+
+                    <a>{{ title }}</a>
+
+                </h2>
+
+                {% endif %}
+
+                <h2 class="publications__item-subtitle" itemprop="headline">
+                    {{ post.type }} • {{ post.authors }} ({{ post.year }})
+                </h2>
+
+                <h2 class="publications__item-venue" itemprop="headline">
+                    {{ post.venue }}
+                </h2>
+
+
+                <h2 class="publications__item-links" itemprop="headline">
+
+                    {% if post.PDF %}
+                    <a href={{post.PDF}} target="_blank">PDF</a>
+                    {% endif %}
+
+                    {% if post.PDF %}
+                    {% if post.website %}
+                    •
+                    {% endif %}
+                    {% endif %}
+
+                    {% if post.website %}
+                    <a href={{post.website}} target="_blank">Website</a>
+                    {% endif %}
+
+                </h2>
+
+
+            </div>
+
         </div>
-       {% endif %}
-
-    {% endif %}
-
-        <div class = "publication_text">
-            
-    {% if post.fullpage == "yes" %}
-    <h2 class="publications__item-title" itemprop="headline">
-      {% if post.link %}
-        <a class="publication_linked" href="{{ post.link }}">{{ title }}</a> 
-<!--        <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>-->
-      {% else %}
-        <a class="publication_linked"href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>      
-    {% endif %}
-    </h2>
-        
-    {% else %}
-      <h2 class="publications__item-title" itemprop="headline"> 
-      
-      <a>{{ title }}</a>  
-      
-      </h2>
-      
-    {% endif %}
-       
-    <h2 class="publications__item-subtitle" itemprop="headline">
-        {{ post.type }} •  {{ post.authors }} ({{ post.year }})     
-    </h2>
-            
-    <h2 class="publications__item-venue" itemprop="headline">
-            {{ post.venue }}     
-    </h2>
-    
-            
-    <h2 class="publications__item-links" itemprop="headline">
-        
-        {% if post.PDF %}
-        <a href={{post.PDF}} target="_blank">PDF</a> 
-        {% endif %}
-        
-        {% if post.PDF %}
-        {% if post.website %}
-        •
-        {% endif %}
-        {% endif %}
-        
-        {% if post.website %}
-        <a href = {{post.website}} target="_blank">Website</a> 
-        {% endif %}
-        
-    </h2>
-    
-
-        </div>
-
-        </div>
-  </article>
+    </article>
 </div>

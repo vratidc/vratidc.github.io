@@ -5,94 +5,62 @@ layout: projectspage
 {{ content }}
 
 
-    <div class = "projects"> 
-    <h1 id = "page-title" class = "page__title" >Selected Projects</h1>
-    </div>
+<div class="projects">
+    <h1 id="page-title" class="page__title">Selected Projects</h1>
+</div>
 
 <div class="selected-projects">
-    
-    
-  {% include documents-collection-projects-selected.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-    
+
+
+    {% include documents-collection-projects-selected.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+
 </div>
 
-<div id = "main" style = "margin-top: 0px;"></div>
+<div id="main" style="margin-top: 0px;"></div>
 
-<div> 
-    <h1 id = "page-title" class = "page__title" style="margin-bottom: 40px;"> All Projects</h1>
+<div>
+    <h1 id="page-title" class="page__title" style="margin-bottom: 40px;"> All Projects</h1>
 
-<div class="button-group filter-button-group">
- 		    <a class="filter-button filter-button-active" data-filter="*">All</a>
-    		<a class="filter-button" data-filter=".AR">AR</a>
-    		<a class="filter-button" data-filter=".MR">MR</a>
-    		<a class="filter-button" data-filter=".VR">VR</a>
-    		<a class="filter-button" data-filter=".VR-Film">VR Film</a>
+    <div class="button-group filter-button-group">
+        <a class="filter-button filter-button-active" data-filter="*">All</a>
+        <a class="filter-button" data-filter=".AR">AR</a>
+        <a class="filter-button" data-filter=".MR">MR</a>
+        <a class="filter-button" data-filter=".VR">VR</a>
+        <a class="filter-button" data-filter=".VR-Film">VR Film</a>
 
     </div>
 
-    </div>
-
-    <br>
-
-<div class="all-projects">   
-  {% include documents-collection-projects.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 
-<!--Testing Looping-->
+<br>
 
-
-
-
-<!--
-<div class="grid">
-	{% for post in site.posts %}
-     <div class="element-item {% for tag in post.tags %} {{ tag }} {% endfor %}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <p>
-          {{ post.excerpt }}
-        </p>
-     </div>
-    {% endfor %}
+<div class="all-projects">
+    {% include documents-collection-projects.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
--->
 
-<!--
-<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
--->
+
 <script>
-	// init Isotope
-	var $grid = $('.all-projects').isotope({
-          itemSelector: '.project_grid__item',
-          percentPosition: true,
+    // init Isotope
+    var $grid = $('.all-projects').isotope({
+        itemSelector: '.project_grid__item',
+        percentPosition: true,
 
         layoutMode: 'fitRows',
         fitRows: {
             gutter: 10
-            }
+        }
 
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
 
-        
-//        masonry: {
-//            columnWidth: '.project_grid__item',
-//            gutter: 10  
-//            }
-        
-        
-
-	});
-	// filter items on button click
-	$('.filter-button-group').on( 'click', 'a', function() {
-	  var filterValue = $(this).attr('data-filter');
-	  $grid.isotope({ filter: filterValue });
-	});
-	$('.button-group a.filter-button').on('click', function(){
-		$('.button-group a.filter-button').removeClass('filter-button-active');
-		$(this).addClass('filter-button-active');
-	});
 </script>

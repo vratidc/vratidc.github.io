@@ -1,13 +1,12 @@
-
-
 {%- for link in site.data.pastmembers.main -%}
-    <div style="width: 140px; height: 180px; float: left; font-size: medium;">
-        <div style="width: 100px;">
-                <a href="{{ link.url }}" target="_blank">
-                    <img style="max-width: 100px; border-radius: 5px;" src="{{ site.baseurl }}{{ link.photo }}">
-                    <p style="color: #121617; text-decoration: none; font-weight: bold;">{{ link.title }}</p>
-                </a>
-        </div>
-    </div>
-{% endfor %}
 
+<div class="pastmemberholder">
+    <div class="pastmemberitem">
+        <a href="{{ link.url }}" target="_blank">
+            <img src="{{ site.baseurl }}{{ link.photo }}">
+            <p>{{ link.title }}</p>
+        </a>
+    </div>
+</div>
+
+{% endfor %}
