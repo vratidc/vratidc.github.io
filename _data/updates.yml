@@ -18,6 +18,6 @@ main:
      date: "10/09/2020"
      active: "yes"
      content: "The IMXD Blog is finally up and running. Check it out now!"
-     link: /publications
+     link: /hello-world
      teaser: /assets/img/favicons/IMXD_Favicon_1.png
      fullpage: "yes"
