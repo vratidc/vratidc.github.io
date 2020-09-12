@@ -1,6 +1,6 @@
 ---
 title:  "Memory Palace"
-excerpt: Mobile VR - IDC Visit
+excerpt: IDC Visit - Mobile VR
 layout: projects   
 selected: "false"
 homepage: "false"

@@ -7,10 +7,10 @@ homepage: "false"
 fullpage: "no, but change to yes when content is added"
 
 header:
-    teaser: /assets/img/projects/IDCRun.png
+    teaser: /assets/img/projects/IDCRun.jpg
 tags: VR
 
-banner_image1: /assets/img/projects/IDCRun.png
+banner_image1: /assets/img/projects/IDCRun.jpg
 banner_image1_caption:
 
 team_members: "Arka Majhi | Dibyendu Khan | Rajarshi Halder "

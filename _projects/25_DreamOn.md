@@ -1,18 +1,18 @@
 ---
-title:  "Potion Room"
-excerpt: Escape Game - Mobile VR
+title:  "Dream On"
+excerpt: Exploratory Game - Mobile VR
 layout: projects   
 selected: "false"
 homepage: "false"
 fullpage: "no"
 
 header:
-    teaser: /assets/img/projects/PotionRoom.jpg
+    teaser: /assets/img/projects/Dreamon.jpg
 tags: VR Game
 
 banner_image1:
 
-team_members: "Mansi Mankad"
+team_members: "Nazreen | Saloni"
 team_members_align: "text-left"
 
 ---

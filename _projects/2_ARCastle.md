@@ -8,7 +8,7 @@ fullpage: "no, but change to yes when content is added"
 
 header:
     teaser: /assets/img/projects/ARCastle.png
-tags: AR Games
+tags: AR Game
 
 banner_image1: /assets/img/projects/ARCastle.png
 banner_image1_caption:
