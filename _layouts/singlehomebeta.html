@@ -16,8 +16,18 @@ layout: default
 
 <div class="vr_home">
 
-    <!-- AR 360 images go here -->
-    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+    <!-- VR 360 images go here -->
+
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
+
         <a-assets>
             <!-- Images. -->
             <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
@@ -41,7 +51,10 @@ layout: default
             <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image>
         </a-entity>
     </a-scene>
-
+    
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
 
 </div>
 

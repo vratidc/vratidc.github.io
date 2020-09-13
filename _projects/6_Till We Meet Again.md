@@ -38,19 +38,31 @@ This film presents an emotional journey of a small family, as seen from the fath
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
-<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui=" enabled: false" style="margin:0px; padding:0px;">
-    <!-- Images. -->
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
+  <a-assets>
+            <!-- Images. -->
     <img id="twma1" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_1.jpg">
     <img id="twma3" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_3.jpg">
     <img id="twma2" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_2.jpg">
     <img id="twma4" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_4.jpg">
-
+  </a-assets>
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 500000; easing: linear">
         <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#twma1"></a-sky>
     </a-entity>
-</a-scene>
+  </a-scene>
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
 </div>
+
   <figcaption>360° screenshots of Till We Meet Again</figcaption>
 
 <br>
