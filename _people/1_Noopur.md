@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Noopur
+title:  Noopur Kashyap
 position: Master's Student
 role: "student"
 header:

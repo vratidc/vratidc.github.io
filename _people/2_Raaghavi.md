@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Raaghavi
+title:  Raaghavi Sundaram
 position: Master's Student
 role: "student"
 header:
