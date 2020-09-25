@@ -7,9 +7,9 @@ categories: updates
 
 We're starting an IMXD Blog!
 
-We will be posting all our updates and calls here.
+We will be posting our updates, calls, events and explorations here.
 
-You can visit this blog section from time to time to know about our ongoing explorations and activities.
+You can visit this blog section from time to time to know about our ongoing activities.
 
 See ya!
 

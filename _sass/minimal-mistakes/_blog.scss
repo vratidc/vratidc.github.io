@@ -43,24 +43,30 @@
 }
 
 
-.blog_item_teaser {
-
+.blog_item_teaser-container {
     border-radius: $border-radius*1.5;
+    position: relative;
+    overflow: hidden;
     height: 200px;
-    margin-bottom: 1em;
-
-    background-size: 100%;
-    transition: filter .4s, background-size .4s;
-    background-position: center;
-
 }
+
+.blog_item_teaser {
+    height: 200px;
+    position: relative;
+    border-radius: $border-radius*1.5;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: filter 0.4s, transform 0.4s;
+}
+
 
 .blog_item_teaser:hover {
 //     -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
 //    filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%);
     background-position: center;
-    background-size: 110%;
-
+    transform: scale(1.1);
 }
 
 .blog_item_content {
