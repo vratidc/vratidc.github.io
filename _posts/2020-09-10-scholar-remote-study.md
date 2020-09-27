@@ -12,6 +12,11 @@ If you are a mathematics teacher who would like to be a part of this study along
 
 Thanks!
 
+
 {% include video id="JoWq2eIltpY" provider="youtube" %}
 <figcaption>Explainer video - Remote collaboration in AR - Teacher & student interaction</figcaption>
+<br>
+
+{% include video id="FhA2svVtDHk" provider="youtube" %}
+<figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
 <br>
