@@ -14,7 +14,7 @@
 
 
     
-
+<div class="blog_item_teaser-container">
     {% if teaser %}
     <div class="blog_item_teaser" style='background-image: 
         url({% if teaser contains "://" %}
@@ -25,13 +25,14 @@
     </div>
 
     {% else %}
-    <div class="blog_item_teaser-container">
+    
     <div class="blog_item_teaser" style='background-image: 
         url(/assets/img/publications/icon-pub-placeholder.jpg);'>
     </div>
-    </div>
+   
     {% endif %}
-
+</div>
+    
     <div class="blog_item_content">
 
         <h2>
