@@ -1,23 +1,30 @@
 # main links
 main:
+   - title: "Recent Publications - Autumn 2020"
+     date: "25/09/2020"
+     active: "yes"
+     content: "This autumn, team IMXD will be presenting at UIST, VRST, ISS, and ISMAR!"
+     link: /updates/recently-accepted-publications
+     teaser: 
+     fullpage: "yes"
    - title: "Call for Participation - ScholAR Remote Study"
      date: "10/09/2020"
      active: "yes"
      content: "We're looking for teachers and schools interested to participate in a study on Remote AR Classrooms. Read this to find out more."
-     link: /scholar-remote-study
+     link: /calls/scholar-remote-study
      teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
-     fullpage: "yes"
-   - title: "Tester Update"
-     date: "10/09/2020"
-     active: "yes"
-     content: "This is a test post with no teaser image and an external link."
-     link: http://www.idc.iitb.ac.in/
-     #teaser: 
      fullpage: "yes"
    - title: "We've started a blog!"
      date: "10/09/2020"
      active: "yes"
      content: "The IMXD Blog is finally up and running. Check it out now!"
-     link: /hello-world
+     link: /updates/hello-world
      teaser: /assets/img/favicons/IMXD_Favicon_1.png
+     fullpage: "yes"
+   - title: "Tester Update"
+     date: "10/09/2020"
+     active: "no"
+     content: "This is a test post with no teaser image and an external link."
+     link: http://www.idc.iitb.ac.in/
+     #teaser: 
      fullpage: "yes"

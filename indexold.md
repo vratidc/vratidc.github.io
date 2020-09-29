@@ -1,8 +1,8 @@
 ---
-layout: singlehomebeta
+layout: singlehome
 title: IMXD Lab
 author_profile: false
-permalink: /indexbeta
+permalink: /indexold
 ---
 
 # IMXD Lab
@@ -10,7 +10,6 @@ permalink: /indexbeta
 The IMXD Lab is a design and research lab exploring the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and several allied and emerging fields. The portfolio of works ranges from design and development projects, experiemental studies, research projects, exploratory works, workshops and academic publications.
 <br><br>
 
-<!--
 <div class="single-home-updates">
     <h2>
         Updates
@@ -25,4 +24,3 @@ The IMXD Lab is a design and research lab exploring the domains of Virtual Reali
         or know teachers or schools who might be interested in participating, please fill this form - <a href="https://forms.gle/h5u2yWw6EVGbp11G8" target="_blank">ScholAR Call for Participants</a> - and we'll get in touch with you to discuss further. Thanks!
     </p>
 </div>
--->

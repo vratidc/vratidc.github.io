@@ -15,6 +15,10 @@
 
     
 <div class="blog_item_teaser-container">
+    {% if post.link %}
+            <a href="{{ post.link }}">
+            {% else %}
+            <a href="{{ post.url | relative_url }}" rel="permalink"> {% endif %}
     {% if teaser %}
     <div class="blog_item_teaser" style='background-image: 
         url({% if teaser contains "://" %}
@@ -31,6 +35,7 @@
     </div>
    
     {% endif %}
+    </a>
 </div>
     
     <div class="blog_item_content">
