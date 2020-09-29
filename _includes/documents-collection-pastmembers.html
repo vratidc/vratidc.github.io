@@ -1,12 +1,18 @@
+
+<div class = "pastmembergrid">
 {%- for link in site.data.pastmembers.main -%}
 
 <div class="pastmemberholder">
     <div class="pastmemberitem">
         <a href="{{ link.url }}" target="_blank">
-            <img src="{{ site.baseurl }}{{ link.photo }}">
-            <p>{{ link.title }}</p>
+            <div class="people__item-teaser" style='background-image: 
+        url({{ site.baseurl }}{{ link.photo }}); background-size: cover;background-position: center;'></div>
+    
+<!--            <img src="{{ site.baseurl }}{{ link.photo }}">-->
+            <h2>{{ link.title }}</h2>
         </a>
     </div>
 </div>
 
 {% endfor %}
+</div>

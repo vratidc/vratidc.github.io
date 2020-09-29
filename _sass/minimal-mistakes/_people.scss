@@ -356,19 +356,17 @@
 
     .people__item-teaser {
 
-        height: 30vh;
+       height: 30vh;
 
 
         @include breakpoint($small) {
 
-            height: 300px;
-
-        }
-
-        @include breakpoint($medium) {
             height: 250px;
         }
 
+        @include breakpoint($medium) {
+            height: 200px;
+        }
 
     }
 
@@ -708,28 +706,85 @@
 
 /* Custom CSS for Past Members */
 
+.pastmembergrid{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap: 1em;
+}
+
 .pastmemberholder {
 
-    width: 140px;
-    height: 180px;
-    float: left;
-    font-size: medium;
+    //width: 140px;
+    //height: 180px;
+//    float: left;
+//    font-size: medium;
+    
+    
+    
 }
 
 .pastmemberitem {
 
-    width: 100px;
+    //width: 100px;
 
     img {
-        max-width: 100px;
+        //max-width: 100px;
         border-radius: 5px;
+        max-height: 150px;
     }
 
-    p {
-        color: #121617;
+    h2 {
+        color: $text-color;
         text-decoration: none;
         font-weight: bold;
+        font-size: $type-size-6;   
+    
+    
+        &:hover{
+            color: $primary-color;
+        }
+    
+    }
+    
+    
+    a{
+        color: $primary-color;
+    }
+    
+    .people__item-teaser {
+
+        height: 20vh;
+
+
+        @include breakpoint($small) {
+
+            height: 10vh;
+        }
+
+        @include breakpoint($medium) {
+            height: 150px;
+        }
+
     }
 
 
+
+}
+
+
+.people-header{
+    
+    height: 30vh;
+
+
+        @include breakpoint($small) {
+
+            height: 250px;
+        }
+
+        @include breakpoint($medium) {
+            height: 200px;
+        }
+    
 }

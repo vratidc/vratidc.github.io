@@ -1,7 +1,8 @@
 ---
 title:  "ScholAR Remote Study - Call for Participants"
 excerpt: Would you like to participate in a study on Remote AR Classrooms? Read this post to find out more, and get in touch!
-teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
+header:
+    teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
 categories: calls
 tags: education ar
 ---

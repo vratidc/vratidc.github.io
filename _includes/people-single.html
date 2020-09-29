@@ -10,7 +10,7 @@
 {% assign title = post.title %}
 {% endif %}
 
-<div class="people_{{ include.type | default: "list" }}__item_3">
+<div class="people_{{ include.type | default: "list" }}__item_4">
 
 
     {% if post.modal == "yes" %}
@@ -105,11 +105,7 @@
 
     <script>
         // Get the modal
-        var {
-            {
-                post.modalname
-            }
-        }
+        var {{post.modalname}}
         modal = document.getElementById("{{ post.modalname }}");
 
         var allmodal = document.getElementsByClassName("people-modal");
@@ -122,34 +118,18 @@
         btn = document.getElementById("{{ post.modalname }}modal-trigger");
 
         // Get the <span> element that closes the modal
-        var {
-            {
-                post.modalname
-            }
-        }
+        var {{post.modalname}}
         span = document.getElementById("{{ post.modalname }}people-close");
 
         // When the user clicks on the button, open the modal
-        {
-            {
-                post.modalname
-            }
-        }
+        {{post.modalname}}
         btn.onclick = function() {
-            {
-                {
-                    post.modalname
-                }
-            }
+            {{post.modalname}}
             modal.style.display = "block";
         }
 
         // When the user clicks on <span> (x), close the modal
-        {
-            {
-                post.modalname
-            }
-        }
+        {{post.modalname}}
         span.onclick = function(event) {
 
 

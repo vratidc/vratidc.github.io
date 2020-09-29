@@ -14,13 +14,17 @@
 
 
     
+<<<<<<< Updated upstream
     {% if post.teaser %}
     <div class="blog_item_teaser-container">
+=======
+    {% if teaser %}
+>>>>>>> Stashed changes
     <div class="blog_item_teaser" style='background-image: 
-        url({% if post.teaser contains "://" %}
-            {{ post.teaser }}
+        url({% if teaser contains "://" %}
+            {{ teaser }}
           {% else %}
-            {{ post.teaser | relative_url }}
+            {{ teaser | relative_url }}
           {% endif %});'>
     </div>
     </div>
