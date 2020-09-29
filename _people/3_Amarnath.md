@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Amarnath Murugan
-position: Research Scholar
+position: Research Associate
 role: "team"
 header:
     teaser: /assets/img/people/imxd_people_amarnathmurugan.jpg

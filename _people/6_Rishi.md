@@ -1,13 +1,13 @@
 ---
 layout: single
 title:  Rishi Vanukuru
-position: Research Scholar
+position: Research Associate
 role: "team"
 header:
     teaser: /assets/img/people/imxd_people_rishivanukuru.jpg
 permalink: /people/rishi
 type: people
-modal: "yes"
+modal: "no"
 modalname: "rishi"
 modaltext: "Will write songs for Cornettos."
 fullpage: "no"
