@@ -134,14 +134,24 @@ a.updates_linked {
 
 .updates_teaser_linked {
     filter: grayscale(0.5);
+    transform: scale(1.0);
     background-size: 100%;
-    transition: filter .4s, background-size .4s;
+    transition: filter .4s, background-size .4s, transform .4s;
 }
 
 
 .updates_holder:hover .updates_teaser_linked {
     filter: grayscale(0);
     background-size: 120%;
+    //transform: scale(1.2);
+
+}
+
+.updates_teaser_holder{
+    border-radius: $border-radius*1.5;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
 }
 
 /*
