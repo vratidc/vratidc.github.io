@@ -6,12 +6,14 @@ header:
 categories: updates
 ---
 
-We're starting an IMXD Blog!
+Hey there! Welcome to the IMXD blog. 
 
-We will be posting our updates, calls, events and explorations here.
+We will be updating this section with posts about our ongoing projects, calls for participating in our studies, explorations by our students and team members, as well as news & updates about our work.
 
-You can visit this blog section from time to time to know about our ongoing activities.
+While we're starting this in September 2020, the IMXD lab has been active and doing a lot of work for a few years now. We'll be documenting those projects through archive posts that will be appearing over the coming months.
 
-See ya!
+You can also view posts sorted by category and tags by clicking on the relevant links.
 
--- IMXD Team
+Please do keep checking this space for future posts and updates.
+
+-- Team IMXD

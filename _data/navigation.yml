@@ -10,8 +10,8 @@ main:
         url: /publications
       - title: Activities
         url: /activities        
-#   - title: "Blog"
-#     url: /blog
+   - title: "Blog"
+     url: /blog
    - title: "People"
      url: /people
    - title: "About"
