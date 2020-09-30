@@ -9,7 +9,7 @@ tags: publications
 
 This autumn, team IMXD will be represented (virtually) at four conferences - UIST, VRST, ISMAR, and ISS!
 
-The ScholAR team led by Prof. Jayesh and Pratiti will be organising a workshop titled **"Towards Designing a Mobile Augmented Reality Learning Experience"** at [ISMAR 2020](http://ismar20.org/). The workshop page is linked here - [ISMAR workshop 2020](/workshops/ISMAR2020). 
+The ScholAR team members Pratiti and Amarnath, along with Prof. Jayesh, will be organising a workshop titled **"Towards Designing a Mobile Augmented Reality Learning Experience"** at [ISMAR 2020](http://ismar20.org/). The workshop page is linked here - [ISMAR workshop 2020](/workshops/ISMAR2020). 
 
 Richa's final B.Des project on designing a mobile AR application for vocational skill training will be presented as a poster at [ISS 2020](https://iss.acm.org/2020/).
 

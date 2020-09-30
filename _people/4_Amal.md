@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Amal Dev
-position: Research Scholar
+position: Research Associate
 role: "team"
 header:
     teaser: /assets/img/people/imxd_people_amaldev.jpg

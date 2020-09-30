@@ -2,7 +2,7 @@
 title:  "Hello World!"
 excerpt: We're finally starting an IMXD Blog!
 header:
-    teaser: /assets/img/IMXD_logo.png
+    teaser: /assets/img/IMXD_logo_1.png
 categories: updates
 ---
 
