@@ -100,6 +100,8 @@ Do check [Rishi's website](https://rishivanukuru.com/projects/artwo/){:target="_
 
 {% include gallery id="gallery1" caption="User-testing with ARTWO" %}
 
-## Publication
+## Publications
 
-- Vanukuru R., Murugan A. and Pillai J.S., "Dual Phone AR: Using a Second Phone as a Controller for Mobile Augmented Reality", in UIST 2020 - 33rd ACM User Interface Software and Technology Symposium, Virtual (previously Minneapolis, Minnesota, USA)
+- **Rishi Vanukuru**, Amarnath Murugan, and Jayesh Pillai. 2020. **Dual Phone AR: Exploring the use of Phones as Controllers for Mobile Augmented Reality**. In 26th ACM Symposium on Virtual Reality Software and Technology (VRST ’20).  
+
+- **Rishi Vanukuru**, Amarnath Murugan, and Jayesh Pillai. 2020. **Dual Phone AR: Using a Second Phone as a Controller for Mobile Augmented Reality**. In Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST’20 Adjunct).  
