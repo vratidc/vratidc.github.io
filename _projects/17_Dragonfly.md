@@ -5,7 +5,7 @@ layout: projects
 selected: "true"
 homepage: "true"
 fullpage: "yes"
-active: "yes"
+active: "no"
 
 header:
     teaser: /assets/img/projects/Dragonfly/dragonfly_thumbnail.jpg
