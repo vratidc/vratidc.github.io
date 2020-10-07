@@ -1,5 +1,5 @@
 ---
-title:  "Memory Palace"
+title:  "Yeri Oram"
 excerpt: 360° Music Video
 layout: projects   
 selected: "false"
