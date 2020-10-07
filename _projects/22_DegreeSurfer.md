@@ -5,6 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "no"
+active: "no"
 
 header:
     teaser: /assets/img/projects/Degreesurfer.jpg

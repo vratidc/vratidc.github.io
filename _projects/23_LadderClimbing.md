@@ -5,6 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "no"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/ladderclimbing.jpg

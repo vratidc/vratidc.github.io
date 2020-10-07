@@ -5,6 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "no, but change to yes when content is added"
+active: "no"
 
 header:
     teaser: /assets/img/projects/Horcruxhunt.png

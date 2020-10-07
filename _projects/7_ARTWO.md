@@ -5,6 +5,7 @@ layout: projects
 selected: "true"
 homepage: "true"
 fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/ARTWO/artwo_thumbnail.jpg

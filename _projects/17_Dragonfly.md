@@ -4,7 +4,8 @@ excerpt: Making of a Stereo 3D Ambisonic VR Film
 layout: projects   
 selected: "true"
 homepage: "true"
-fullpage: "no"
+fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/Dragonfly/dragonfly_thumbnail.jpg
@@ -12,7 +13,7 @@ tags: VR-Film Storytelling Research
 
 banner_image1:
 
-team_members: " Prabodh Sakhardande | Amarnath Murugan | Jayesh Pillai"
+team_members: "Amal Dev | Amarnath Murugan | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/dragonfly
@@ -25,6 +26,7 @@ permalink: projects/dragonfly
 </figure> 
 
 
+<!--
 This project's details will be posted here soon.
 
 ## Abstract
@@ -35,6 +37,7 @@ Will be added
 ## Outcomes
 
 Will be added
+-->
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
@@ -59,6 +62,8 @@ Will be added
 
 <br>
 
+<!--
 ## Publication
 
 - Will be added
+-->

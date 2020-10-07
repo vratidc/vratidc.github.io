@@ -5,6 +5,7 @@ layout: projects
 selected: "true"
 homepage: "true"
 fullpage: "yes"
+active: "yes"
 header:
     teaser: /assets/img/projects/Cinevoque/cinevoque_thumbnail.jpg
 tags: VR-Film Storytelling Research

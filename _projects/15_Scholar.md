@@ -5,6 +5,7 @@ layout: projects
 selected: "true"
 homepage: "true"
 fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
