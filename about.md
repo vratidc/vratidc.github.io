@@ -17,7 +17,7 @@ gallery1:
 
 {% include video id="sS-8flMIidU" provider="youtube" caption="Showreel 2020" %}
 
-The IMXD Lab is a design and research lab exploring the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and several allied and emerging fields. The portfolio of works ranges from design and development projects, experiemental studies, research projects, exploratory works, workshops and academic publications.
+IMXD Lab is a design and research lab exploring the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and several allied and emerging fields. The portfolio of works ranges from design and development projects, experiemental studies, research projects, exploratory works, workshops and academic publications.
 
 {% include gallery id="gallery1" caption="" %}
 
