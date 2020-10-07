@@ -4,7 +4,7 @@ main:
      date: "25/09/2020"
      active: "yes"
      content: "This autumn, team IMXD will be presenting at UIST, VRST, ISS, and ISMAR!"
-     link: /updates/recently-accepted-publications
+     link: /updates/accepted-publications-autumn20
      teaser: /assets/img/projects/arweldingsquare.jpg
      fullpage: "yes"
    - title: "Call for Participation - ScholAR Remote Study"
