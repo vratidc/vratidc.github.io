@@ -14,8 +14,8 @@ tags: AR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Pratiti Sarkar | Jayesh Pillai | Amarnath Murugan | Amal Dev | Rajandeep Singh <br> 
-               <strong>Previous Members</strong> :  Rishi Vanukuru | Utsav Oza | Prabodh Sakhardande | Ankita Gupta <br>
+team_members: "<strong>Current Members</strong> : Pratiti Sarkar | Jayesh Pillai | Amarnath Murugan | Amal Dev | Rishi Vanukuru <br> 
+               <strong>Previous Members</strong> :  Rajandeep Singh | Utsav Oza | Prabodh Sakhardande | Ankita Gupta <br>
                <strong>Acknowledgment</strong> : Dr. Kapil Kadam | Shraddha Dhodi | Suraj Kendre | Madhuri S. | Angela Simon | Jonathon Mathew"
 team_members_align: "text-left"
 

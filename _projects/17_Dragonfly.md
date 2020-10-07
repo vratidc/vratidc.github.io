@@ -13,7 +13,7 @@ tags: VR-Film Storytelling Research
 
 banner_image1:
 
-team_members: "Amal Dev | Amarnath Murugan | Jayesh Pillai"
+team_members: "Jayesh Pillai | Azif Ismail"
 team_members_align: "text-left"
 
 permalink: projects/dragonfly
@@ -23,7 +23,8 @@ permalink: projects/dragonfly
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Dragonfly/dragonfly_poster.jpg" alt="dragonfly_poster">
-</figure> 
+  <figcaption>Dragonfly Poster</figcaption>
+</figure>
 
 
 <!--
@@ -38,6 +39,19 @@ Will be added
 
 Will be added
 -->
+
+Official Website: [dragonflymovie.in](https://dragonflymovie.in/){:target="_blank"}
+
+Cast & Crew Details: [Dragonfly](https://www.jayeshpillai.com/2018/03/dragonfly360.html){:target="_blank"}
+
+<br>
+
+## Trailer
+   {% include video id="oGD7U2uLTCI" provider="youtube" %}
+   <figcaption>Dragonfly Trailer (2D)</figcaption>
+
+Links : [Trailer (2D)](https://youtu.be/oGD7U2uLTCI){:target="_blank"}, [Trailer (3D)](https://youtu.be/G0Farj8T1j8){:target="_blank"}
+
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
