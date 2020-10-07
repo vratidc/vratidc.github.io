@@ -10,7 +10,7 @@ author_profile: false
 
 IMXD Lab is a design and research lab exploring the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and several allied and emerging fields. The portfolio of works ranges from design and development projects, experiemental studies, research projects, exploratory works, workshops and academic publications.
 
-IMXD Lab is part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}
+IMXD Lab is a part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}
 , IIT Bombay.
 
 

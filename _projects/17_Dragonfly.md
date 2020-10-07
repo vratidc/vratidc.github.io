@@ -4,7 +4,7 @@ excerpt: Making of a Stereo 3D Ambisonic VR Film
 layout: projects   
 selected: "true"
 homepage: "true"
-fullpage: "yes"
+fullpage: "no"
 active: "no"
 
 header:
