@@ -3,7 +3,7 @@ title:  "Towards Designing a Mobile Augmented Reality Learning Experience"
 type: "[Upcoming] Workshop"
 publication: "no"
 activity: "yes"
-authors: "Pratiti Sarkar and Jayesh Pillai"
+authors: "Pratiti Sarkar, Jayesh Pillai and Amarnath Murugan"
 year: "2020"
 date: 2020-11-08
 venue: "ISMAR 2020 - 19th IEEE International Symposium on Mixed and Augmented Reality, Porto de Galinhas, Brazil"
