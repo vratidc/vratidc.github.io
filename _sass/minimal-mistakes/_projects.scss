@@ -294,6 +294,8 @@
 }
 
 
+
+
 .project_grid__item-selected-homepage {
 
 
@@ -516,6 +518,46 @@
 
 }
 
+//CHANGE PROJECT TITLE TEXT FOR PHONES HERE
+
+@media only screen and (max-width: 600px) {
+    .project_grid__item-selected {
+        .projects__item-title {
+            font-size: $type-size-6;
+
+        }
+
+        .projects__item-excerpt {
+            font-size: $type-size-6;
+
+        }
+    }
+    
+    .project_grid__item-selected-homepage {
+        .projects__item-title {
+            font-size: $type-size-6;
+
+        }
+
+        .projects__item-excerpt {
+            font-size: $type-size-6;
+
+        }
+    }
+    
+    .project_grid__item {
+        .projects__item-title {
+            font-size: $type-size-6;
+
+        }
+
+        .projects__item-excerpt {
+            font-size: $type-size-6;
+
+        }
+    }
+
+}
 
 /*
    Features
