@@ -77,7 +77,7 @@ Presentation of the submitted papers and analyzing the strategies, guidelines, m
 - 45 mins - Collaborative Activity 1: <br> 
 Participants are given a context. They collaborate and work in groups to generate the design briefs around the given context.
 - 10 mins: Break
-45 mins - Discussion: 
+- 45 mins - Discussion: 
 The design briefs generated based on the scenario and discussions are discussed for each group.
 - 30 mins - Presentation (Round 2): <br>
 Presentation of the submitted papers and analyzing the strategies, guidelines, methods, and/or decisions involved in the work.
