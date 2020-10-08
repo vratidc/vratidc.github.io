@@ -182,10 +182,11 @@
 .tagbox {
 
     margin-top: 0.5em;
-    padding: 0.2em 1em;
-    background: #e5e5e5;
+    padding: 0.2em 0.7em;
+    background: #eeeeee;
     border-radius: 0.5em;
-    font-size: $type-size-6;
+    font-weight: normal !important;
+    font-size: $type-size-7;
     cursor: default;
 
 }
