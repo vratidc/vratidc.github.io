@@ -8,7 +8,7 @@ year: "2018"
 date: 2018-05-31
 
 venue: "Art Direction & Production Design (Workshop) & Film Appriciation course (Talk) - Film and Television Institute of India (FTII) Pune"
-excerpt: Excerpt to be added
+excerpt: Workshop & Invited Talk at FTII
 homepage: "no"
 fullpage: "yes"
 permalink: workshops/FTII2018/

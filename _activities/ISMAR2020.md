@@ -5,7 +5,8 @@ publication: "no"
 activity: "yes"
 authors: "Pratiti Sarkar, Jayesh Pillai and Amarnath Murugan"
 year: "2020"
-date: 2020-11-08
+date: 2020-10-09
+
 venue: "ISMAR 2020 - 19th IEEE International Symposium on Mixed and Augmented Reality, Porto de Galinhas, Brazil"
 excerpt: Workshop at ISMAR 2020
 homepage: "true"
@@ -14,6 +15,7 @@ permalink: workshops/ISMAR2020/
 header:
     teaser: /assets/img/publications/icon-pub-ismar2020.jpg
 layout: publications
+
 ---
 
 
@@ -68,18 +70,20 @@ Please email your submission to <a href="mailto:workshop.marle.k12@gmail.com?sub
 <br>
 
 # Workshop Agenda
+
 The workshop will be held online. The one-day workshop will involve paper presentations, demonstrations, and hands-on sessions. The participants are expected to present their work involving the outlook, and/or approaches taken in providing an AR learning experience in K12 classrooms. The videos demonstrating the different types of applications or solutions can be shown and discussed. The participants will also be encouraged to ideate and create a paper prototype in designing such an experience based on certain given scenarios.
 
+## Schedule &nbsp; | &nbsp; 9 Nov 2020
 
 <table>
 
 <tbody>
  <tr>
-    <th colspan="3">SESSION-1  |  8AM - 11AM Recife Time  (11AM - 2PM UTC) (4:30PM - 7:30PM IST)</th>
+    <th colspan="3">SESSION-1 &nbsp; &nbsp;|&nbsp; &nbsp; 8AM - 11AM Recife Time <span style="font-weight: normal;"> &nbsp; (11AM - 2PM UTC) &nbsp; (4:30PM - 7:30PM IST)</span></th>
   </tr>
   <tr>
-    <td>30 mins</td>
-    <td>Introductions</td>
+    <td style="width: 6em">30 mins</td>
+    <td style="width: 10em">Introductions</td>
     <td>Organiser and participant introductions</td>
   </tr>
   <tr>
@@ -90,9 +94,9 @@ The workshop will be held online. The one-day workshop will involve paper presen
   <tr>
     <td>45 mins</td>
     <td>Activity</td>
-    <td>Participants work in groups to generate design briefs based on a given context</td>
+    <td>Participants work in groups to generate design briefs based on a given context.</td>
   </tr>
-  <tr>
+  <tr style="background-color: #eeeeee">
     <td>10 mins</td>
     <td colspan="2" align="middle">BREAK</td>
   </tr>
@@ -101,18 +105,23 @@ The workshop will be held online. The one-day workshop will involve paper presen
     <td>Discussion</td>
     <td>Each team presents their initial design brief, which is followed by a Q&amp;A session.</td>
   </tr>
+</tbody>
+</table>
+
+<br>
+
+<table>
+
+<tbody>
   <tr>
-    <td colspan="3"><br></td>
+    <th colspan="3">SESSION-2 &nbsp; &nbsp;|&nbsp; &nbsp; 4PM - 7PM Recife Time <span style="font-weight: normal;"> &nbsp; (7PM - 10PM UTC) &nbsp; (12:30PM - 3:30AM IST)</span></th>
   </tr>
   <tr>
-    <th colspan="3">SESSION-2  |  4PM - 7PM Recife Time  (7PM - 10PM UTC) (12:30PM - 3:30AM IST)</th>
-  </tr>
-  <tr>
-    <td>45 mins</td>
-    <td>Activity </td>
+    <td style="width: 6em">45 mins</td>
+    <td style="width: 10em">Activity </td>
     <td>The teams define the strategies, guidelines and design decisions based on the final design brief.</td>
   </tr>
-  <tr>
+  <tr style="background-color: #eeeeee">
     <td>10 mins</td>
     <td colspan="2" align="middle">BREAK</td>
   </tr>
@@ -129,12 +138,12 @@ The workshop will be held online. The one-day workshop will involve paper presen
   <tr>
     <td>30 mins</td>
     <td>ScholAR Project presentation</td>
-    <td>Organisers present their work in AR for K12, which is followed by a discussion session</td>
+    <td>Organisers present their work in AR for K12, which is followed by a discussion session.</td>
   </tr>
   <tr>
     <td>35 mins</td>
     <td>Conclusion</td>
-    <td>Participants provide feedback and discuss future steps for their work</td>
+    <td>Participants provide feedback and discuss future steps for their work.</td>
   </tr>
 </tbody>
 </table>
