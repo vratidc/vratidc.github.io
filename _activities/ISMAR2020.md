@@ -70,25 +70,74 @@ Please email your submission to <a href="mailto:workshop.marle.k12@gmail.com?sub
 # Workshop Agenda
 The workshop will be held online. The one-day workshop will involve paper presentations, demonstrations, and hands-on sessions. The participants are expected to present their work involving the outlook, and/or approaches taken in providing an AR learning experience in K12 classrooms. The videos demonstrating the different types of applications or solutions can be shown and discussed. The participants will also be encouraged to ideate and create a paper prototype in designing such an experience based on certain given scenarios.
 
-- 20 mins - Ice-Breaker: 
-The participants and the organizers do a quick round of introduction
-- 30 mins - Presentation (Round 1): <br> 
-Presentation of the submitted papers and analyzing the strategies, guidelines, methods, and/or decisions involved in the work.
-- 45 mins - Collaborative Activity 1: <br> 
-Participants are given a context. They collaborate and work in groups to generate the design briefs around the given context.
-- 10 mins: Break
-- 45 mins - Discussion: 
-The design briefs generated based on the scenario and discussions are discussed for each group.
-- 30 mins - Presentation (Round 2): <br>
-Presentation of the submitted papers and analyzing the strategies, guidelines, methods, and/or decisions involved in the work.
-- 1 hour - Break 
-- 45 mins - Collaborative Activity 2: <br>
-Based on the design briefs generated, the groups continue to work on discussing and generating the strategies, design decisions, and/or guidelines for designing a mobile-based AR learning experience for K12 classrooms. 
-- 15 mins - Break
-- 1 hour - Presentation and Discussion: <br>
-The groups present, discuss, argue, and reflect upon the strategies, design decisions, and methods adopted.
-- Remaining Time - Reflections: 
-Summary and concluding notes on identifying the design patterns.
+
+<table>
+
+<tbody>
+ <tr>
+    <th colspan="3">SESSION-1  |  8AM - 11AM Recife Time  (11AM - 2PM UTC) (4:30PM - 7:30PM IST)</th>
+  </tr>
+  <tr>
+    <td>30 mins</td>
+    <td>Introductions</td>
+    <td>Organiser and participant introductions</td>
+  </tr>
+  <tr>
+    <td>45 mins</td>
+    <td>Presentations</td>
+    <td>Paper presentations by participants</td>
+  </tr>
+  <tr>
+    <td>45 mins</td>
+    <td>Activity</td>
+    <td>Participants work in groups to generate design briefs based on a given context</td>
+  </tr>
+  <tr>
+    <td>10 mins</td>
+    <td colspan="2" align="middle">BREAK</td>
+  </tr>
+  <tr>
+    <td>45 mins</td>
+    <td>Discussion</td>
+    <td>Each team presents their initial design brief, which is followed by a Q&amp;A session.</td>
+  </tr>
+  <tr>
+    <td colspan="3"><br></td>
+  </tr>
+  <tr>
+    <th colspan="3">SESSION-2  |  4PM - 7PM Recife Time  (7PM - 10PM UTC) (12:30PM - 3:30AM IST)</th>
+  </tr>
+  <tr>
+    <td>45 mins</td>
+    <td>Activity </td>
+    <td>The teams define the strategies, guidelines and design decisions based on the final design brief.</td>
+  </tr>
+  <tr>
+    <td>10 mins</td>
+    <td colspan="2" align="middle">BREAK</td>
+  </tr>
+  <tr>
+    <td>40 mins</td>
+    <td>Discussion</td>
+    <td>The teams give a final presentation of their design, which is followed by a Q&amp;A session.</td>
+  </tr>
+  <tr>
+    <td>20 mins</td>
+    <td>Meta - Discussion</td>
+    <td>Reflection on design patterns and approaches</td>
+  </tr>
+  <tr>
+    <td>30 mins</td>
+    <td>ScholAR Project presentation</td>
+    <td>Organisers present their work in AR for K12, which is followed by a discussion session</td>
+  </tr>
+  <tr>
+    <td>35 mins</td>
+    <td>Conclusion</td>
+    <td>Participants provide feedback and discuss future steps for their work</td>
+  </tr>
+</tbody>
+</table>
 
 <br>
 
