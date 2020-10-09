@@ -70,27 +70,7 @@ Please email your submission to <a href="mailto:workshop.marle.k12@gmail.com?sub
 # Workshop Agenda
 The workshop will be held online. The one-day workshop will involve paper presentations, demonstrations, and hands-on sessions. The participants are expected to present their work involving the outlook, and/or approaches taken in providing an AR learning experience in K12 classrooms. The videos demonstrating the different types of applications or solutions can be shown and discussed. The participants will also be encouraged to ideate and create a paper prototype in designing such an experience based on certain given scenarios.
 
-- 20 mins - Ice-Breaker: 
-The participants and the organizers do a quick round of introduction
-- 30 mins - Presentation (Round 1): <br> 
-Presentation of the submitted papers and analyzing the strategies, guidelines, methods, and/or decisions involved in the work.
-- 45 mins - Collaborative Activity 1: <br> 
-Participants are given a context. They collaborate and work in groups to generate the design briefs around the given context.
-- 10 mins: Break
-- 45 mins - Discussion: 
-The design briefs generated based on the scenario and discussions are discussed for each group.
-- 30 mins - Presentation (Round 2): <br>
-Presentation of the submitted papers and analyzing the strategies, guidelines, methods, and/or decisions involved in the work.
-- 1 hour - Break 
-- 45 mins - Collaborative Activity 2: <br>
-Based on the design briefs generated, the groups continue to work on discussing and generating the strategies, design decisions, and/or guidelines for designing a mobile-based AR learning experience for K12 classrooms. 
-- 15 mins - Break
-- 1 hour - Presentation and Discussion: <br>
-The groups present, discuss, argue, and reflect upon the strategies, design decisions, and methods adopted.
-- Remaining Time - Reflections: 
-Summary and concluding notes on identifying the design patterns.
 
-<br>
 <table>
 
 <tbody>
