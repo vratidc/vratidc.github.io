@@ -75,66 +75,66 @@ The workshop will be held online. The one-day workshop will involve paper presen
 
 <tbody>
  <tr>
-    <th colspan="5">SESSION-1  |  8AM - 11AM Recife Time  (11AM - 2PM UTC) (4:30PM - 7:30PM IST)</th>
+    <th colspan="3">SESSION-1  |  8AM - 11AM Recife Time  (11AM - 2PM UTC) (4:30PM - 7:30PM IST)</th>
   </tr>
   <tr>
     <td>30 mins</td>
     <td>Introductions</td>
-    <td colspan="3">Organiser and participant introductions</td>
+    <td>Organiser and participant introductions</td>
   </tr>
   <tr>
     <td>45 mins</td>
     <td>Presentations</td>
-    <td colspan="3">Paper presentations by participants</td>
+    <td>Paper presentations by participants</td>
   </tr>
   <tr>
     <td>45 mins</td>
     <td>Activity</td>
-    <td colspan="3">Participants work in groups to generate design briefs based on a given context</td>
+    <td>Participants work in groups to generate design briefs based on a given context</td>
   </tr>
   <tr>
     <td>10 mins</td>
-    <td colspan="4" align="middle">BREAK</td>
+    <td colspan="2" align="middle">BREAK</td>
   </tr>
   <tr>
     <td>45 mins</td>
     <td>Discussion</td>
-    <td colspan="3">Each team presents their initial design brief, which is followed by a Q&amp;A session.</td>
+    <td>Each team presents their initial design brief, which is followed by a Q&amp;A session.</td>
   </tr>
   <tr>
-    <td colspan="5"><br></td>
+    <td colspan="3"><br></td>
   </tr>
   <tr>
-    <th colspan="5">SESSION-2  |  4PM - 7PM Recife Time  (7PM - 10PM UTC) (12:30PM - 3:30AM IST)</th>
+    <th colspan="3">SESSION-2  |  4PM - 7PM Recife Time  (7PM - 10PM UTC) (12:30PM - 3:30AM IST)</th>
   </tr>
   <tr>
     <td>45 mins</td>
     <td>Activity </td>
-    <td colspan="3">The teams define the strategies, guidelines and design <br>decisions based on the final design brief.</td>
+    <td>The teams define the strategies, guidelines and design decisions based on the final design brief.</td>
   </tr>
   <tr>
     <td>10 mins</td>
-    <td colspan="4" align="middle">BREAK</td>
+    <td colspan="2" align="middle">BREAK</td>
   </tr>
   <tr>
     <td>40 mins</td>
     <td>Discussion</td>
-    <td colspan="3">The teams give a final presentation of their design, which is followed by a Q&amp;A session.</td>
+    <td>The teams give a final presentation of their design, which is followed by a Q&amp;A session.</td>
   </tr>
   <tr>
     <td>20 mins</td>
     <td>Meta - Discussion</td>
-    <td colspan="3">Reflection on design patterns and approaches</td>
+    <td>Reflection on design patterns and approaches</td>
   </tr>
   <tr>
     <td>30 mins</td>
     <td>ScholAR Project presentation</td>
-    <td colspan="3">Organisers present their work in AR for K12, which is followed by a discussion session</td>
+    <td>Organisers present their work in AR for K12, which is followed by a discussion session</td>
   </tr>
   <tr>
     <td>35 mins</td>
     <td>Conclusion</td>
-    <td colspan="3">Participants provide feedback and discuss future steps for their work</td>
+    <td>Participants provide feedback and discuss future steps for their work</td>
   </tr>
 </tbody>
 </table>
