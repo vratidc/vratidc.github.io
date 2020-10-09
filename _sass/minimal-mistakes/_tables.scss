@@ -3,7 +3,7 @@
    ========================================================================== */
 
 table {
-  display: block;
+  display: table;
   margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
@@ -40,3 +40,9 @@ td,
 th {
   vertical-align: middle;
 }
+
+tbody{
+  width: 100%;
+}
+
+tr:hover { background: mix(#fff, $primary-color, 90%)} 

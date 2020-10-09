@@ -84,7 +84,7 @@ The workshop will be held online. The one-day workshop will involve paper presen
   <tr>
     <td style="width: 6em">30 mins</td>
     <td style="width: 10em">Introductions</td>
-    <td>Organiser and participant introductions</td>
+    <td >Organiser and participant introductions</td>
   </tr>
   <tr>
     <td>45 mins</td>
@@ -96,9 +96,10 @@ The workshop will be held online. The one-day workshop will involve paper presen
     <td>Activity</td>
     <td>Participants work in groups to generate design briefs based on a given context.</td>
   </tr>
-  <tr style="background-color: #eeeeee">
+  <tr style="background-color: #eeeeee; color: #999999">
     <td>10 mins</td>
-    <td colspan="2" align="middle">BREAK</td>
+    <td></td>
+    <td>Break</td>
   </tr>
   <tr>
     <td>45 mins</td>
@@ -121,9 +122,10 @@ The workshop will be held online. The one-day workshop will involve paper presen
     <td style="width: 10em">Activity </td>
     <td>The teams define the strategies, guidelines and design decisions based on the final design brief.</td>
   </tr>
-  <tr style="background-color: #eeeeee">
+  <tr style="background-color: #eeeeee; color: #999999">
     <td>10 mins</td>
-    <td colspan="2" align="middle">BREAK</td>
+    <td></td>
+    <td>Break</td>
   </tr>
   <tr>
     <td>40 mins</td>
