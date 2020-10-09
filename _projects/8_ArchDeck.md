@@ -4,7 +4,7 @@ excerpt: Architectural Collaboration in Mixed Reality
 layout: projects
 selected: "false"
 homepage: "false"  
-fullpage: "no, but change to yes when content is added"
+fullpage: "no"
 active: "yes"
 
 header:
@@ -16,4 +16,3 @@ team_members_align: "text-left"
 
 ---
 
-Placeholder Content
