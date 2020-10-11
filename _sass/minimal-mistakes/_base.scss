@@ -214,6 +214,13 @@ li ol {
 
 /* Figures and images */
 
+
+img {
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+}
+
 figure {
     display: -webkit-box;
     display: flex;
@@ -222,7 +229,7 @@ figure {
     -webkit-box-align: start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 2em 0;
+    margin: 1em 0;
 
     img,
     iframe,
@@ -268,12 +275,28 @@ figure {
             width: 100%;
         }
     }
+
+    &.fourth {
+
+        > a,
+        > img {
+            @include breakpoint($small) {
+                width: calc(25% - 0.5em);
+            }
+        }
+
+        figcaption {
+            width: 100%;
+        }
+    }
+
 }
 
 /* Figure captions */
 
 figcaption {
     margin-bottom: 0.5em;
+    padding-bottom: 1em;
     color: $muted-text-color;
     font-family: $caption-font-family;
     font-size: $type-size-6;

@@ -19,20 +19,22 @@ permalink: /projects/yerioram
 
 ---
 
-Yeri Oram is a 360 degree Music Video about the experience of the Powai lake view near IIT Bombay's Hostel 13. This was created as part of the Virtual Reality module in 2016.
+Yeri Oram is a 360 degree Music Video about the experience of the Powai lake view near IIT Bombay. This was created as part of the Virtual Reality module in 2016.
 
-- Written, Composed and Rendered by : Herold P. C .
-- Editing : Azif Ismail
-- Audiography : Sam Santhosh
-- Cast : Herold P.C.
-- 360 Video Crew : Nupur Agarwal, Vicky Chandaliya
+- Written, Composed and Rendered by: Herold P. C.
+- Editing: Azif Ismail
+- Audiography: Sam Santhosh
+- Cast: Herold P.C.
+- 360 Video Crew: Nupur Agarwal, Vicky Chandaliya
 
-# The Music Video
+<br>
+
+## The Music Video
 _Best Viewed in VR_
 
 {% include video id="i45eftBsqK4" provider="youtube" %}
+<figcaption>Yeri Oram - 360° Music Video</figcaption>
 
----
 
 
 

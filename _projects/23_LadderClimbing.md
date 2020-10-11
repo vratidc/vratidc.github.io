@@ -30,8 +30,8 @@ In VR experiences, movement in the virtual space is accomplished using walking, 
 The system used tracking data of both hands and both feet. The hand position data was collected using a leap motion module mounted on the headset. HTC Vive hand controllers were tied to each foot to collect position data.
 
 Natural hands gestures of grabbing and releasing were used to grab and release the rungs. Lifting the leg in place was used to climb up a rung and back kick gesture was used to climb down the rung. Rings were highlighted around the rungs to help users to learn the pattern initially.
+<br><br>
 
-# Publication
+## Publication
 
-Vineet Kamboj, Tuhin Bhuyan, and Jayesh S. Pillai. 2019. Vertical Locomotion in VR Using Full Body Gestures. In 25th ACM Symposium on Virtual Reality Software and Technology (VRST '19). Association for Computing Machinery, New York, NY, USA, Article 98, 1–2.   
-DOI: [https://doi.org/10.1145/3359996.3364770](https://doi.org/10.1145/3359996.3364770)
+<small>Vineet Kamboj, Tuhin Bhuyan, and Jayesh S. Pillai. 2019. Vertical Locomotion in VR Using Full Body Gestures. In 25th ACM Symposium on Virtual Reality Software and Technology (VRST '19). Association for Computing Machinery, New York, NY, USA, Article 98, 1–2.   <br> DOI: [https://doi.org/10.1145/3359996.3364770](https://doi.org/10.1145/3359996.3364770)</small>
