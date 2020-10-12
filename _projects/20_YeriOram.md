@@ -38,7 +38,7 @@ _Best Viewed in VR_
 <br>
 
 ## Experimental Study
-As part of the larger research work on "Understanding the Grammar of VR Storytelling", a study was conducted, focusing of the visual cues in 360 narratives. The Points-of-views and Cenre-of-Interests of 20 participants watching the 360 video were analysed, to gathers insights on visual cues, and propose guidelines for VR film-makers. 
+As part of the larger research work on "Understanding the Grammar of VR Storytelling", a study was conducted, focusing of the visual cues in 360 narratives. The Points-of-views and Cenre-of-Interests of 20 participants watching the 360 video were analysed, to gather insights regarding visual cues, and accordingly propose guidelines for VR film-makers. 
 
 <br>
 
