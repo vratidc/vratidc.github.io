@@ -280,6 +280,8 @@ figure {
 
         > a,
         > img {
+            width: calc(50% - 0.5em);
+
             @include breakpoint($small) {
                 width: calc(25% - 0.5em);
             }
