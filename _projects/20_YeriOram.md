@@ -21,10 +21,10 @@ permalink: /projects/yerioram
 
 Yeri Oram is a 360 degree Music Video about the experience of the Powai lake view near IIT Bombay. This was created as part of the Virtual Reality module in 2016.
 
-- Written, Composed and Rendered by: Herold P. C.
+- Written, Composed and Rendered by: Herold P. Charles
 - Editing: Azif Ismail
 - Sound: Sam Santhosh
-- Cast: Herold P.C.
+- Cast: Herold P. Charles
 - Crew Members: Nupur Agarwal, Vicky Chandaliya
 
 <br>
@@ -38,6 +38,9 @@ _Best Viewed in VR_
 <br>
 
 ## Experimental Study
+
+<p class="project_team_members">Jayesh Pillai &#124; Azif Ismail &#124; Herold P. Charles</p>
+
 As part of the larger research work on "Understanding the Grammar of VR Storytelling", a study was conducted, focusing of the visual cues in 360 narratives. The Points-of-views and Cenre-of-Interests of 20 participants watching the 360 video were analysed, to gather insights regarding visual cues, and accordingly propose guidelines for VR film-makers. 
 
 <br>
