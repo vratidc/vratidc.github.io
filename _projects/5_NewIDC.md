@@ -75,7 +75,7 @@ Mutliple interactions and navigational elements were integrated in this project 
 
 **Compass:** At the corner of the map, a compass was attached to help them stay aware of their orientation.
 
-**Guiding Arrows:** After teleporting using the map, arrows are spawned in appropriate directions, to show the virtual entrance of the room one had selected.
+**Guiding Arrows:** After teleporting using the map, arrows are spawned in appropriate directions, to show the virtual entrance of the room one had selected (as seen above).
 
 **Signages:** The building was also provided with signages to assist navigating the space.
 
