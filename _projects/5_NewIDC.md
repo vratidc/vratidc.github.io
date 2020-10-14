@@ -4,7 +4,7 @@ excerpt: Architecture VR Walkthrough
 layout: projects   
 selected: "false"
 homepage: "false"
-fullpage: "no, but change to yes when content is added"
+fullpage: "yes"
 active: "yes"
 
 header:
