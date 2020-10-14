@@ -71,5 +71,5 @@ Here are some fo the UI related explorations, which led to the design decisions 
 
 The prototype aplication was tested with users from Architecture background, to understand the interactions and further iterate on the interface and experience.
 
-{% include gallery id="gallery2" caption="ArchDeck - Interface Mockups" %}
+{% include gallery id="gallery2" caption="ArchDeck - User Testing" %}
 
