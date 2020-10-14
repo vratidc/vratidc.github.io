@@ -14,13 +14,13 @@ modaltext: "This is Amarnath."
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:entermailhere
+      url: mailto:amarnath2105@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://amarnathmurugan.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: "https://github.com/vanukuru"
+      url: "https://github.com/AmarnathMurugan"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://in.linkedin.com/in/amarnathmurugan"
