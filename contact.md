@@ -20,3 +20,5 @@ IIT Bombay, Powai,
 Mumbai - 400076, India  
 
 Mail: <a href="mailto:hello@imxd.in?subject=Hello IMXD team!">hello@imxd.in</a>
+
+Follus us at: <a href="https://twitter.com/ImxdLab">twitter.com/ImxdLab</a>

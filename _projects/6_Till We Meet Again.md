@@ -24,8 +24,9 @@ permalink: projects/twma
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/twma/twma_poster.jpg" alt="twma_banner">
 </figure> 
 
-
 Till We Meet Again is a multi-storyline live-action VR film that was built with [Cinévoqué]({{ site.baseurl }}/projects/Cinevoque).
+
+<br>
 
 ## Abstract
 
@@ -74,6 +75,8 @@ Each storyline has a different genre and the storylines are completely unlike ea
   <figcaption>Possible storylines of Till We Meet Again</figcaption>
 </figure> 
 
+<br>
+
 ## Outcomes
 
 This work was presented as a demo at VRCAI 2019 in Brisbane, Australia. 
@@ -82,6 +85,8 @@ This work was presented as a demo at VRCAI 2019 in Brisbane, Australia.
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/twma/twma_vrcai.jpg" alt="twma_vrcai">
   <figcaption>Demo at VRCAI 2019</figcaption>
 </figure> 
+
+<br>
 
 ### **Publication**
 

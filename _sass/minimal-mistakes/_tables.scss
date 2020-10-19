@@ -3,7 +3,7 @@
    ========================================================================== */
 
 table {
-  display: block;
+  display: table;
   margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
@@ -17,7 +17,7 @@ table {
 }
 
 thead {
-  background-color: $border-color;
+  background-color: $border-color; 
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
@@ -25,6 +25,9 @@ th {
   padding: 0.5em;
   font-weight: bold;
   text-align: left;
+  background-color: mix(#fff, $primary-color, 60%);
+  //border-top: 1px solid mix(#000, $table-border-color, 25%);  
+  //border-bottom: 1px solid mix(#000, $table-border-color, 25%);
 }
 
 td {
@@ -37,3 +40,9 @@ td,
 th {
   vertical-align: middle;
 }
+
+tbody{
+  width: 100%;
+}
+
+tr:hover { background: mix(#fff, $primary-color, 90%)} 

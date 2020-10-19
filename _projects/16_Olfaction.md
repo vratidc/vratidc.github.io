@@ -52,8 +52,9 @@ gallery3:
 ---
 
 {% include gallery id="gallery1" caption="Body association in VR" %}
-
 This project was independently taken up by Prabodh and Amarnath under the guidance of Prof. Jayesh Pillai. The project explores the effect of different stimuli on body association in VR.
+
+<br>
 
 ## Abstract
 

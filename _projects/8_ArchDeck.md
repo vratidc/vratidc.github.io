@@ -20,10 +20,27 @@ gallery1:
     alt: "Sectioning in Archdeck"
     title: "Archdeck - Cross Section Tool"
   - url: 
-    image_path: /assets/img/projects/archdeck/peoplegif.gif
-    alt: "Archdeck - Collaboration"
-    title: "Archdeck - Collaboration"
+    image_path: /assets/img/projects/archdeck/uigif.gif
+    alt: "Archdeck - UI"
+    title: "Archdeck - UI"
+  - url: 
+    image_path: /assets/img/projects/archdeck/persongif.gif
+    alt: "Archdeck - Layers"
+    title: "Archdeck - Layers"
 
+gallery2:
+  - url: 
+    image_path: /assets/img/projects/archdeck/archdecktesting1.jpg
+    alt: "Testing Archdeck"
+    title: "Testing Archdeck"
+  - url: 
+    image_path: /assets/img/projects/archdeck/archdecktesting2.jpg
+    alt: "Testing Archdeck"
+    title: "Testing Archdeck"
+  - url: 
+    image_path: /assets/img/projects/archdeck/archdecktesting3.jpg
+    alt: "Testing Archdeck"
+    title: "Testing Archdeck"
 
 permalink: /projects/archdeck
 ---
@@ -32,16 +49,27 @@ ArchDeck is a collaborative ecosystem consisting of a Hololens and a desktop app
 
 Archdeck was developed by Vineet Kamboj as part of his M.Des final project in 2018.
 
-# Video Overview
+<br>
+
+## Video Overview
 
 {% include video id="HccgVHslyc4" provider="youtube" %}
+<figcaption>Demonstration of ArchDeck</figcaption>
 
-# User Interface Mockups
+<br>
+
+## User Interface Mockups
+
+Here are some fo the UI related explorations, which led to the design decisions behind ArchDeck interactions. These were translated to the final working prototype for testing. 
 
 ![Archdeck overview](/assets/img/projects/archdeck/archdeckoverview.jpg)
+<figcaption>Archdeck overview</figcaption>
 
-![Archdeck sectioning tool](/assets/img/projects/archdeck/sectiongif.gif)
+{% include gallery id="gallery1" caption="ArchDeck - UI Mockups" %}
 
-![Archdeck sectioning tool](/assets/img/projects/archdeck/uigif.gif)
+## User Testing
 
-![Archdeck collaboration tool](/assets/img/projects/archdeck/persongif.gif)
+The prototype aplication was tested with users from Architecture background, to understand the interactions and further iterate on the interface and experience.
+
+{% include gallery id="gallery2" caption="ArchDeck - User Testing" %}
+

@@ -56,13 +56,11 @@ flexgallery1:
 
 ---
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Cinevoque/cinevoque_banner.png" alt="cinevoque_banner">
-</figure> 
-
+![Cinevoque Banner](/assets/img/projects/Cinevoque/cinevoque_banner.png)
 
 This project started out as a storytelling concept in 2017, as an extension to the research work on grammar of VR storytelling by Prof. Jayesh Pillai. The project took its shape with Amarnath and Amal's summer internship project in 2018. The framework and the experiences built with it has been presented at multiple national and international conferences, which are listed below.
 
+<br>
 
 ## Abstract
 
@@ -77,6 +75,8 @@ Cinévoqué is built for live-action CVR since real-time 3D experiences have the
 
 {% include video id="16j7A_M15lY0TIRJ0muV34p5XB7YugqVP" provider="google-drive" %}
 <figcaption>Explainer video for Cinévoqué</figcaption>
+
+<br>
 
 ## Outcomes
 This project yielded three films and publications. We also presented our work at five conferences in total. 
