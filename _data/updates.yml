@@ -19,7 +19,7 @@ main:
      active: "yes"
      content: "The IMXD Blog is finally up and running. Check it out now!"
      link: /updates/hello-world
-     teaser: /assets/img/favicons/IMXD_Favicon_1.png
+     teaser: /assets/img/IMXD_logo_1.png
      fullpage: "yes"
    - title: "Tester Update"
      date: "10/09/2020"
