@@ -1,6 +1,6 @@
 ---
 title:  "AR Arc Welding App"
-excerpt: Responsive VR Cinema
+excerpt: Welding Training for Vocational Education
 layout: projects
 selected: "false"
 homepage: "false"
@@ -8,7 +8,7 @@ fullpage: "yes"
 active: "yes"
 header:
     teaser: /assets/img/projects/arwelding/ar-welding-teaser.jpg
-tags: VR-Film Storytelling Research
+tags: AR Training Design
 
 banner_image1:
 banner_image1_caption:
