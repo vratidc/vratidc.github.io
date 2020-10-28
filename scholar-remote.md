@@ -11,6 +11,11 @@ The idea is to see if we can use AR to recreate the social and physical dynamics
         
 If you are a mathematics teacher who would like to be a part of this study along with your class, or know teachers or schools who might be interested in participating, please fill this form - [ScholAR Call for Participants](https://forms.gle/h5u2yWw6EVGbp11G8) - and we'll get in touch with you to discuss further.
 
+Please download our "AR Check" application on your Android Device from the Google Play Store to check whether your device can support our experiments - 
+
+<a href='https://play.google.com/store/apps/details?id=com.imxdlab.archeck&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' ><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style ="Width:250px"/></a>
+
+
 Thanks!
 
 ---
