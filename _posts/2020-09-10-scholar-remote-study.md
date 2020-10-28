@@ -7,6 +7,7 @@ categories: calls
 tags: education ar
 redirect_from:
     - /scholar-remote
+    - /scholar-remote/
 ---
 
 We're conducting a study on using **Mobile Augmented Reality for Remote Learning**, as part of the [ScholAR Project](/projects/scholar), where we are testing a **Collaborative AR Classroom** that we've developed, focusing on **Mathematics for classes 6 to 8**. 
