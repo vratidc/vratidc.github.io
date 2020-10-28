@@ -2,7 +2,7 @@
 title:  "ScholAR Remote Study - Call for Participants"
 excerpt: Would you like to participate in a study on Remote AR Classrooms? Read this post to find out more, and get in touch!
 layout: single
-permalink: /scholar-remote/
+permalink: /scholar-remote-old/
 ---
 
 We're conducting a study on using **Mobile Augmented Reality for Remote Learning**, as part of the [ScholAR Project](/projects/scholar), where we are testing a **Collaborative AR Classroom** that we've developed, focusing on **Mathematics for classes 6 to 8**. 
