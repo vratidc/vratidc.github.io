@@ -18,7 +18,9 @@ If you are a mathematics teacher who would like to be a part of this study along
 
 Please download our "AR Check" application on your Android Device from the Google Play Store to check whether your device can support our experiments - 
 
-<a href='https://play.google.com/store/apps/details?id=com.imxdlab.archeck&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' ><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style ="Width:250px"/></a>
+
+<a href='https://play.google.com/store/apps/details?id=com.imxdlab.archeck&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' ><img alt='Get it on Google Play' src='{{ site.url }}{{ site.baseurl }}/assets/img/projects/Scholar/archeck-googleplay.png' style ="Width:250px"/></a>
+
 
 Thanks!
 
