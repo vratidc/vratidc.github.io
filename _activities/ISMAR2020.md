@@ -52,7 +52,7 @@ The workshop's papers will be published in <a href="https://ismar20.org/" target
 
 **• 21st September 2020:** Camera-ready manuscripts of accepted papers due
 
-**• 10th November 2020:** Workshop date
+**• 9th November 2020:** Workshop date
 
 <br>
 
