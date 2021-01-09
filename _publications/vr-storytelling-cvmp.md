@@ -9,7 +9,7 @@ date: 2019-12-17
 
 venue: "CVMP 2019 - 16th ACM SIGGRAPH European Conference on Visual Media Production, London, UK"
 excerpt: Excerpt to be added
-homepage: "true"
+homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3359998.3369402"
 PDF: /assets/documents/Pillai_GrammarOfVR_CVMP2019.pdf
