@@ -56,12 +56,22 @@ The talk was part of the yearly Film Appricaition Course conducted by FTII.
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
-<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class = "" embedded vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
         <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="{{ site.baseurl }}/assets/img/publications/workshops/ftii2018/360_ftii_facourse.jpg"></a-sky>
     </a-entity>
 </a-scene>
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
 </div>
   <figcaption>Participants at the Talk</figcaption>
 
