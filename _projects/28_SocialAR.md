@@ -5,10 +5,10 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 
 header:
-    teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
+    teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
 tags: AR Research
 
 banner_image1: 
@@ -19,56 +19,16 @@ team_members_align: "text-left"
 
 permalink: projects/mobilesocialar
 
-flexgallery1:
-  - aspect: "0.7218"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_lines1.jpg
-    alt: "scholar_lines1"
-    title: "scholar_lines1"
-  - aspect: "0.9557"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_lines2.jpg
-    alt: "scholar_lines2"
-    title: "scholar_lines2"
-  - aspect: "1.4668"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_lines3.jpg
-    alt: "scholar_lines3"
-    title: "scholar_lines3"
 
-flexgallery2:
-  - aspect: "1.1441"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_presentation1.jpg
-    alt: "scholar_presentation1"
-    title: "scholar_presentation1"
-  - aspect: "0.8661"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_presentation2.jpg
-    alt: "scholar_presentation2"
-    title: "scholar_presentation2"
-  - aspect: "0.8603"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_presentation3.jpg
-    alt: "scholar_presentation3"
-    title: "scholar_presentation3"
-
-flexgallery3:
-  - aspect: "1.38302"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_school3.jpg
-    alt: "scholar_school3"
-    title: "scholar_school3"
-  - aspect: "2.491"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_tata1.jpg
-    alt: "scholar_tata1"
-    title: "scholar_tata1"
-  - aspect: "1.38302"
-    url:
-    image_path: /assets/img/projects/Scholar/scholar_school4.jpg
-    alt: "scholar_school4"
-    title: "scholar_school4"
+gallery1:
+  - url: 
+    image_path: /assets/img/projects/socialAR/socialAR_screen1.gif
+    alt: "association_olfaction1"
+    title: "association_olfaction1"
+  - url: 
+    image_path: /assets/img/projects/socialAR/socialAR_screen2.gif
+    alt: "association_olfaction2"
+    title: "association_olfaction2"
 
 
 ---
@@ -85,12 +45,13 @@ This project was the result of us bridging the work done through [ScholAR](/proj
 
 The COVID-19 pandemic has essentially forced all communication to happen through virtual media. While video conferencing has improved considerably over the course of the lockdown and is the primary tool for synchronous remote activities, it lacks the spatial dyanmics of physical interactions and the social dynamics brought about by the same. Telepresence systems are thereby a desirable alternative, but the requirement of specialized & expensive hardware (HMDs) has made the high end options unscalable for the time being. Through this project we explore the use of mobile social AR as a relatively more accessible telepresence system. With more devices supporting ARCore/ARKit, their spatial movement and orientation obtained from tracking could be used to create shared spaces for multiple people. 
 
-As an offshoot from the ScholAR project, our first prototype focused on creating a virtual calssroom where the teacher is able to display a shared artefact and teach concepts to students who are spatially present in the virtual space. Spatial audio and visual cues were added to give a better sense of the relative position of other users. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges in this space. 
+{% include gallery id="gallery1" caption="IDC Students using our first prototype" %}
 
+As an offshoot from the ScholAR project, our first prototype focused on creating a virtual calssroom where the teacher is able to display a shared artefact and teach concepts to students who are spatially present in the virtual space. Spatial audio and visual cues were added to give a better sense of the relative position of other users. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges in this space. 
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_prototype.jpg" alt="Students in our first prototype">
-  <figcaption>IDC Students using our first prototype</figcaption>
+  <figcaption>Teacher and students collaborating remotely</figcaption>
 </figure> 
 
 ## Research Directions
