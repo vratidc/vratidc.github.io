@@ -1,6 +1,6 @@
 ---
 title:  "Towards Designing a Mobile Augmented Reality Learning Experience"
-type: "[Upcoming] Workshop"
+type: "Workshop"
 publication: "no"
 activity: "yes"
 authors: "Pratiti Sarkar, Jayesh Pillai and Amarnath Murugan"
