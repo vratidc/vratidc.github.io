@@ -4,7 +4,7 @@ excerpt: Remote AR Environment
 layout: projects
 selected: "false"
 homepage: "false"
-fullpage: "no"
+fullpage: "yes"
 active: "no"
 
 header:
