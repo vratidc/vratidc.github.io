@@ -74,7 +74,7 @@ flexgallery3:
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/banner.jpg" alt="A remote AR session">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_banner.jpg" alt="A remote AR session">
 </figure> 
 
 This project was the result of us bridging the work done through [ScholAR](/projects/scholar){:target="_blank"} for physical calssrooms to remote learning; hoping to address some of the challenges imposed by the pandemic on teaching. With relatively less exploration in remote handheld AR, we were also presented with intersting design challenges that extend beyond educational use cases.
@@ -89,7 +89,7 @@ As an offshoot from the ScholAR project, our first prototype focused on creating
 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/banner.jpg" alt="Students in our first prototype">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_prototype.jpg" alt="Students in our first prototype">
   <figcaption>IDC Students using our first prototype</figcaption>
 </figure> 
 
@@ -109,6 +109,7 @@ While there's a huge body of work on collaboration and remote communication in m
 ## Publications
 
 - Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press)
+
 
 
 
