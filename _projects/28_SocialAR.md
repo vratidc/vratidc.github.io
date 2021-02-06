@@ -57,6 +57,7 @@ As an offshoot from the ScholAR project, our first prototype focused on creating
 
 While there's a huge body of work on collaboration and remote communication in mixed and virtual reality, but they may not be entirely applicable to mobile AR due its lower level of immersion and the affordances of the tech itself. Furthermore, from our tests we have identified the following directions to focus on to establish guidelines for creating better mobile social AR experience.
 
+<div class="ulist" markdown="1">
 - **Social Presence:** It is the extent to which an user feels that the other person is actually there in a shared virtual space. Higher social presence is important for the involved parties to establish rapport and communicate effectively. We would be comparing the level of social presence in mobile AR and other mediums of communication.
 
 - **Representation:** The characteristics of the avatar used in a virtual space also influences the interatctions in that space. The challenge in accurate avatar representation is that the only information available to gague to user's pose is the handheld device's position and orientation, as opposed to their head's position & orientation of HMDs (which might also have individual controllers for each hand). We explore an avatar space that compares avatars that vary both in visual and behavioural fidelity, to understand how they affect perception.
@@ -70,6 +71,7 @@ While there's a huge body of work on collaboration and remote communication in m
 
 - **Education:** The goal of recreating a classroom through AR is central to this project, so we'd be investigating the efficacy of this medium in education and will attempt to identify topics and scenarios suited for this platform.
 
+</div>
 
 ## Publications
 
