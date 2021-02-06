@@ -49,10 +49,9 @@ The COVID-19 pandemic has essentially forced all communication to happen through
 
 As an offshoot from the ScholAR project, our first prototype focused on creating a virtual calssroom where the teacher is able to display a shared artefact and teach concepts to students who are spatially present in the virtual space. Spatial audio and visual cues were added to give a better sense of the relative position of other users. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges in this space. 
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_prototype.jpg" alt="Students in our first prototype">
-  <figcaption>Teacher and students collaborating remotely</figcaption>
-</figure> 
+{% include video id="FhA2svVtDHk" provider="youtube" %}
+<figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
+<br> 
 
 ## Research Directions
 
@@ -61,6 +60,11 @@ While there's a huge body of work on collaboration and remote communication in m
 - **Social Presence:** It is the extent to which an user feels that the other person is actually there in a shared virtual space. Higher social presence is important for the involved parties to establish rapport and communicate effectively. We would be comparing the level of social presence in mobile AR and other mediums of communication.
 
 - **Representation:** The characteristics of the avatar used in a virtual space also influences the interatctions in that space. The challenge in accurate avatar representation is that the only information available to gague to user's pose is the handheld device's position and orientation, as opposed to their head's position & orientation of HMDs (which might also have individual controllers for each hand). We explore an avatar space that compares avatars that vary both in visual and behavioural fidelity, to understand how they affect perception.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\socialAR\avatarspacereduced.png" alt="ScholAR School">
+  <figcaption>Proposed avatar space</figcaption>
+</figure> 
 
 - **Interaction techniques:** Having a shared virtual space in mobile AR, brings up new challenges in handling interactions. For example, identifying metaphors for concepts such as disabling video & breakrooms. Whilst also trying to recreate the dynamics and interactions of a physcial space. 
 
