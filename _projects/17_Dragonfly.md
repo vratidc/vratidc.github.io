@@ -3,7 +3,7 @@ title:  "Dragonfly"
 excerpt: Making of a Stereo 3D Ambisonic VR Film
 layout: projects   
 selected: "true"
-homepage: "true"
+homepage: "false"
 fullpage: "no"
 active: "no"
 

@@ -3,7 +3,7 @@ title:  "Till We Meet Again"
 excerpt: A Cinévoqué Experience
 layout: projects   
 selected: "true"
-homepage: "false"
+homepage: "true"
 fullpage: "yes"
 active: "yes"
 
