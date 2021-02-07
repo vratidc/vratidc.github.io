@@ -3,7 +3,7 @@ title:  "Dual Phone AR"
 excerpt: Augmented Reality Interaction Methods
 layout: projects   
 selected: "true"
-homepage: "false"
+homepage: "true"
 fullpage: "yes"
 active: "yes"
 
