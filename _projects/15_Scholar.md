@@ -1,6 +1,6 @@
 ---
 title:  "ScholAR"
-excerpt: AR Learning Environment
+excerpt: AR Learning Environments
 layout: projects
 selected: "true"
 homepage: "true"

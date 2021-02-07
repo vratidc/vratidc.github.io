@@ -1,9 +1,9 @@
 ---
-title:  "Mobile Social AR (Updated)"
-excerpt: Remote AR Environment
+title:  "Mobile Social AR"
+excerpt: Remote AR Collaboration
 layout: projects
-selected: "false"
-homepage: "false"
+selected: "true"
+homepage: "true"
 fullpage: "yes"
 active: "yes"
 
