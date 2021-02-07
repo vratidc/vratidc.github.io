@@ -1,18 +1,18 @@
 # main links
 main:
+   - title: "Call for Participation - ScholAR Remote Study"
+     date: "07/02/2021"
+     active: "yes"
+     content: "We're looking for teachers and schools interested to participate in a study on Remote AR Classrooms. Read this to find out more."
+     link: /calls/scholar-remote-study
+     teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
+     fullpage: "yes"
    - title: "Recent Publications - Autumn 2020"
      date: "25/09/2020"
      active: "yes"
      content: "This autumn, team IMXD will be presenting at UIST, VRST, ISS, and ISMAR!"
      link: /updates/accepted-publications-autumn20
      teaser: /assets/img/projects/arweldingsquare.jpg
-     fullpage: "yes"
-   - title: "Call for Participation - ScholAR Remote Study"
-     date: "10/09/2020"
-     active: "yes"
-     content: "We're looking for teachers and schools interested to participate in a study on Remote AR Classrooms. Read this to find out more."
-     link: /calls/scholar-remote-study
-     teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
      fullpage: "yes"
    - title: "We've started a blog!"
      date: "10/09/2020"

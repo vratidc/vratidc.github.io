@@ -14,7 +14,7 @@ We're conducting a study on using **Mobile Augmented Reality for Remote Learning
 
 The idea is to see if we can use AR to recreate the social and physical dynamics of real classrooms - aspects that cannot be communicated through mere video calls. You can watch video demonstrations of our prototypes below.  
         
-If you are an educator who would like to be a part of this study along with your class, or know teachers,schools or colleges who might be interested in participating, please fill this form - [ScholAR Call for Participants](https://forms.gle/h5u2yWw6EVGbp11G8) - and we'll get in touch with you to discuss further.
+If you are an educator who would like to be a part of this study along with your class, or know teachers, schools, or colleges who might be interested in participating, please fill this form - [ScholAR Call for Participants](https://forms.gle/h5u2yWw6EVGbp11G8) - and we'll get in touch with you to discuss further.
 
 Please download our "AR Check" application on your Android Device from the Google Play Store to check whether your device can support our experiments - 
 
