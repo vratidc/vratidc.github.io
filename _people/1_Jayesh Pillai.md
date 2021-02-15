@@ -19,7 +19,7 @@ links:
       url: "http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh"
     - label: "Website"
       icon: "fab fa-fw fa-link"
-      #url: "https://www.jayeshpillai.com"
+      url: "https://www.jayeshpillai.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jayesh-s-pillai"
