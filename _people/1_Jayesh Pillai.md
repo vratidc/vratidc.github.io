@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Jayesh Pillai
-position: Assistant Professor
+position: Assistant Professor, IIT Bombay
 role: "team"
 header:
     teaser: /assets/img/people/imxd_people_jayeshpillai.jpg
@@ -17,9 +17,9 @@ links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      #url: ""
+    - label: "Website"
+      icon: "fab fa-fw fa-link"
+      #url: "https://www.jayeshpillai.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jayesh-s-pillai"
