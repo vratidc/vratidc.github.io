@@ -92,7 +92,7 @@ This project yielded three films and publications. We also presented our work at
 
 [**Till We Meet Again**]({{ site.baseurl }}/projects/twma) was our first attempt at creating a film meant for public viewing. It is a stereoscopic 3D film that has eight possible storylines with different genres.  It incorporated the learnings from the previous films and built with improvements to the frameworks. This film was presented as a demo at VRCAI 2019 in Brisbane, Australia. 
 
-### ***Publications***
+### Publications
 
 - Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
 
