@@ -31,24 +31,24 @@ flexgallery1:
     title: "Temporal narrative structure of Dragonfly"
 
 gallery2:
-  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig1.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig1.jpg
+  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_1.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_1.jpg
     alt: "Camera rig designed for the VR Film"
     title: "Camera rig designed for the VR Film"
-  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig2.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig2.jpg
+  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_2.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_2.jpg
     alt: "The rig with the cameras attached"
     title: "The rig with the cameras attached"
 
 flexgallery2:
   - aspect: "2"
-    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal1.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal1.jpg
+    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal_1.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal_1.jpg
     alt: "Rehearsal using a regular 360 camera"
     title: "Rehearsal using a regular 360 camera"
   - aspect: "1.5"
-    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal2.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal2.jpg
+    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal_2.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal_2.jpg
     alt: "Rehearsal using the camera rig setup"
     title: "Rehearsal using the camera rig setup"
 
