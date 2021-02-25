@@ -1,11 +1,11 @@
 ---
 title:  "Dragonfly"
-excerpt: Making of a VR Film (with stereoscopic 3D & spatial audio)
+excerpt: Making of a VR Film
 layout: projects   
 selected: "true"
-homepage: "false"
-fullpage: "no"
-active: "no"
+homepage: "true"
+fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/Dragonfly/dragonfly_thumbnail.jpg
