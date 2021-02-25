@@ -13,94 +13,66 @@ tags: VR-Film Storytelling Research
 
 banner_image1:
 
-team_members: "Jayesh Pillai | Azif Ismail | Manasi Mankad"
+team_members: "Jayesh Pillai | Azif Ismail | Manvi Verma"
 team_members_align: "text-left"
 
 permalink: projects/dragonfly
 
-gallery1:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-
-gallery2:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-
-
-gallery3:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-
-gallery4:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-
 flexgallery1:
   - aspect: "2"
-    url: /assets/img/projects/Dragonfly/Dragonfly_equirectangular.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_equirectangular.jpg
-    alt: "Dragonfly equirectangular frame"
-    title: "Dragonfly equirectangular frame"
-  - aspect: "1"
-    url: /assets/img/projects/Dragonfly/Dragonfly_equirectangular_stereo.jpg
-    image_path: /assets/img/projects/Dragonfly/Dragonfly_equirectangular_stereo.jpg
-    alt: "Dragonfly equirectangular pair"
-    title: "Dragonfly equirectangular pair"
+    url: /assets/img/projects/Dragonfly/Dragonfly_Narrative Structure1.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Narrative Structure1.jpg
+    alt: "Plot-points in Dragonfly for Scene 1 and Scene 2"
+    title: "Plot-points in Dragonfly for Scene 1 and Scene 2"
+  - aspect: "3"
+    url: /assets/img/projects/Dragonfly/Dragonfly_Narrative Structure2.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Narrative Structure2.jpg
+    alt: "Temporal narrative structure of Dragonfly"
+    title: "Temporal narrative structure of Dragonfly"
+
+gallery2:
+  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig1.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig1.jpg
+    alt: "Camera rig designed for the VR Film"
+    title: "Camera rig designed for the VR Film"
+  - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig2.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig2.jpg
+    alt: "The rig with the cameras attached"
+    title: "The rig with the cameras attached"
+
+flexgallery2:
+  - aspect: "2"
+    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal1.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal1.jpg
+    alt: "Rehearsal using a regular 360 camera"
+    title: "Rehearsal using a regular 360 camera"
+  - aspect: "1.5"
+    url: /assets/img/projects/Dragonfly/Dragonfly_rehearsal2.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_rehearsal2.jpg
+    alt: "Rehearsal using the camera rig setup"
+    title: "Rehearsal using the camera rig setup"
+
+gallery3:
+  - url: /assets/img/projects/Dragonfly/Dragonfly_Shooting.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Shooting.jpg
+    alt: "Actors performing on one side of the camera"
+    title: "Actors performing on one side of the camera"
+  - url: /assets/img/projects/Dragonfly/Dragonfly_Shooting_Monitoring.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Shooting_Monitoring.jpg
+    alt: "Director and crew members monitoring the performance"
+    title: "Director and crew members monitoring the performance"
 
 
-gallery5:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
+gallery4:
+  - url: /assets/img/projects/Dragonfly/Dragonfly_Experience.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Experience.jpg
+    alt: "A participant experiencing Dragonfly"
+    title: "A participant experiencing Dragonfly"
+  - url: /assets/img/projects/Dragonfly/Dragonfly_Experience_Data.jpg
+    image_path: /assets/img/projects/Dragonfly/Dragonfly_Experience_Data.jpg
+    alt: "Participant's eye-tracking data and POV"
+    title: "Participant's eye-tracking data and POV"
 
-gallery6:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-
-gallery7:
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
-  - url: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    image_path: /assets/img/projects/Dragonfly/dragonfly_placeholder.jpg
-    alt: "Image"
-    title: "Image"
 ---
 
 Dragonfly is a VR Film with stereoscopic 3D and spatial audio.
@@ -141,14 +113,13 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Time - Cuts & Transitions :*** In order to plan the narrative with parallel plot-points in a temporal manner, the narrative was visualised as a timeline. The two scenes, the starting and ending credits, along with potential visual and audio cues to prompt attention shifts from one plot-point to another can be seen in the image below.
 
-{% include gallery id="gallery1" caption="The Narrative Structure of Dragonfly" %}
+{% include flexgallery id="flexgallery1" caption="The narrative structure of Dragonfly - spatial representation with plot-points (left) and temporal representation with audio and visual cues (right)" %}
 
 ### 1.3. Equipment Selection
 
 ***Camera & Audio Equipment :*** As the VR film was to have stereoscopic  3D, it was decided to use hi-resolution GoPro cameras for recording the videos, which would later be stitched into equirectangular images. For this purpose, a camera rig was designed and fabricated at IDC School of Design to hold ten cameras (see images below). For recording the dialogues during the permormance, a wireless microphone system was chosen for remote monitoring.
 
 {% include gallery id="gallery2" caption="The rig designed to hold 10 GoPro cameras" %}
-
 
 ### 1.4. Planning the Production
 
@@ -158,7 +129,7 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Rehearsals, Tests & Shooting Logistics :*** The actions were choreographed to be filmed in one-take. To better prepare for the shooting, rehearsals with the actors were conducted on the set (see images below). 
 
-{% include gallery id="gallery3" caption="Location scouting and rehearsals" %}
+{% include flexgallery id="flexgallery2" caption="Rehearsals for planning out the actions and testing the camera rig setup" %}
 
 ## 2. Production
 
@@ -166,14 +137,13 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Static vs Moving Gear :*** As mentioned above, the scenes were planned to be static. However, the story required a section of the first scene to have an interior view of a moving vehicle, which required certain moving shots to be filmed. These shots were recorded using the same rig on a moving bike, which were later composited accordingly to make the vehicle appear to be moving.
 
-
 ### 2.2. Monitoring the Performance
 
 ***No “Behind the camera” :*** As the video records the entire 360° space, the concept of directing from behind the camera is not the same anymore. 
 
 ***Live Feed :*** The director and crew members ideally would have to be outside the visual field of the camera, monitoring the performances remotely through a live video feed. However, the narrative structure of this film provided us with opportunities to monitor performances in-person, without the requirement of a live feed.
 
-{% include gallery id="gallery4" caption="Actor and crew members on the opposite sides of the camera" %}
+{% include gallery id="gallery3" caption="Actors performing (left) and the crew members (right) on the opposite sides of the camera" %}
 
 ### 2.3. Reference Images
 
@@ -196,7 +166,10 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Spatial Audio :*** The sounds were edited using FB360 Spatial Workstation to enable interactive head-tracked spatial sound. The entire audio content was then converted to a first-order ambisonic format to accompany the 360° video.
 
-{% include flexgallery id="flexgallery1" caption="An equirectangular frame from the film and an example of equirectangular pair for stereo 3D" %}
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Dragonfly/Dragonfly_equirectangular_stereo.jpg" alt="Equirectangular pair from the film">
+  <figcaption>An equirectangular pair from a frame of the film (left) that corresponds to the left and right eye when viewed using a VR headset (right)</figcaption>
+</figure>
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
@@ -217,7 +190,7 @@ Here’s a brief description of the process followed for creating this VR film.
     <img src="/assets/img/360/360_icon.png">
     </div>
 </div>
-  <figcaption>The 360° view of the single equirectangular image shown above</figcaption>
+  <figcaption>The 360° view of the equirectangular image shown above</figcaption>
 
 ### 3.3. VFX & Additional Graphics
 
@@ -226,8 +199,6 @@ With respect to the narrative, visual effects, wherever required was added. CGI 
 ### 3.4. Visual Identity Design
 
 For creating an identity for the film and connected materials a set of visual elements were designed. Accordingly, this identity was incorporated in all promotional materials like the Dragonfly website, trailers and music video.
-
-{% include gallery id="gallery5" caption="Elements from visual identity design of Dragonfly" %}
 
 ## 4. Publishing
 
@@ -239,7 +210,7 @@ The VR film was planned to be made available on YouTube 360 open platform due to
 
 For the research experiments as well as for general screenings, participants were invited. The film was presented on high-end VR headsets such as HTC Vive and Oculus Quest. The film experience on mobile VR headsets was also tested.
 
-{% include gallery id="gallery6" caption="Participant experiencing the VR film and the corresponding frame with eye-tracking details" %}
+{% include gallery id="gallery4" caption="Participant experiencing the VR film and the corresponding equirectangular image with eye-tracking and POV details" %}
 
 
 ## The VR Film - Dragonfly
@@ -252,13 +223,22 @@ For the best experience, use a VR headset and headphones.
 
 We conducted experiments to understand how visual and audio cues work in VR narratives. Our learnings, insights and propositions have been presented at VRCAI 2019 and CVMP 2019. Additionally, a few of the insights were presented during an invited talk at SIGGRAPH Asia 2019 (Narrative Visualisation - Birds of a Feather), titled “Towards Guidelines for VR storytelling”.
 
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Dragonfly/Dragonfly_Eye-tracking_heatmap.gif" alt="Heatmap of  eye-tracking data">
+  <figcaption>Heatmap of eye-tracking data for the analysis of audio-visual cues</figcaption>
+</figure>
+
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Dragonfly/Dragonfly_Eye-tracking_POV.gif" alt="Eye-tracking and POV">
+  <figcaption>Data from 99 participants for the analysis of audio-visual cues
+  <small><br> Eye-tracking data <span style="color:red;">●</span>
+  <br> Point of View (POV) <span style="color:lightgreen;"><b>□</b></span>
+  <br> Intended Experience <span style="color:cyan;">●</span></small>  </figcaption>
+</figure>
+
 ### ***Publications***
 
 - Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Analysis of Perceptual Cues in VR Cinema", in: The 16th ACM SIGGRAPH European Conference on Visual Media Production, 2019, London, UK.
 
 - Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
-
-{% include gallery id="gallery7" caption="Eye-tracking and POV data superimaposed on the frames for analysis" %}
-
-
-
