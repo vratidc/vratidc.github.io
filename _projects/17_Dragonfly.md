@@ -82,7 +82,7 @@ Dragonfly is a VR Film with stereoscopic 3D and spatial audio.
   <figcaption>“As Aisha waits for Priya, the flutters guide her.  She follows the Dragonfly.”</figcaption>
 </figure>
 
-**Synopsis:** The film is this tale of waiting. Aisha longs for the return of her lover, who has undergone a grievous incident. While she holds onto a glimmer of hope, her patience begins to test her. 'Dragonfly' wishes to immerse the viewer in an experience that fluctuates between Aisha’s reality, memories and hopes.
+**Synopsis:** The film is a tale of waiting. Aisha longs for the return of her lover, who has undergone a grievous incident. While she holds onto a glimmer of hope, her patience begins to test her. 'Dragonfly' wishes to immerse the viewer in an experience that fluctuates between Aisha’s reality, memories and hopes.
 
 Official Website : [dragonflymovie.in](https://dragonflymovie.in/){:target="_blank"}
 <br>
