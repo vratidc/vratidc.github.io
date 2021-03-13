@@ -10,7 +10,7 @@ venue: "VRCAI 2019 - 17th ACM SIGGRAPH International Conference on Virtual Reali
 excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "yes"
-link: "https://dl.acm.org/doi/10.1145/3359997.3365726"
+link: "https://dl.acm.org/doi/10.1145/3359997.3365680"
 PDF: /assets/documents/Pillai_GrammarOfVR_VRCAI2019.pdf
 website: "https://dl.acm.org/doi/10.1145/3359997.3365680"
 header:
