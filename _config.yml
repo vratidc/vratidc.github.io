@@ -98,9 +98,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-4VL1KV3F9J
     anonymize_ip         : # true, false (default)
 
 
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "IMXD Lab"
   avatar           : "/assets/img/prof6.png"
-  bio              : "IMXD Stuff"
+  bio              : "Immersive Media Experience Design Lab, IDC School of Design, IIT Bombay"
   location         : "Mumbai, India"
   email            : "imxdlab@gmail.com"
   links:
