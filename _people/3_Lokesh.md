@@ -19,7 +19,7 @@ links:
       url: "https://lokysportfolio.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: ""
+      url: "https://github.com/lokeshkumar1996/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://in.linkedin.com/in/lokesh-kumar-451494124"
