@@ -11,7 +11,7 @@ permalink: /socialxrparty
 
 ## Help and Instructions
 
-Coming soon...
+{% include video id="PRw98cj8rTA" provider="youtube" %}
 
 For any further questions, please contact us at [hello@imxd.in](mailto:hello@imxd.in)
 
