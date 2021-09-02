@@ -298,7 +298,41 @@
 
 }
 
+.course_project_grid__item {
 
+    float: center;
+    margin-bottom: 0.5em;
+    width: 100%;
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-5;
+    }
+
+    .projects__item-excerpt {
+        font-size: $type-size-8;
+    }
+
+    .projects__item-teaser {
+
+        height: 60vh;
+
+
+        @include breakpoint($small) {}
+
+        @include breakpoint($medium) {}
+
+
+    }
+
+
+
+}
 
 
 .project_grid__item-selected-homepage {

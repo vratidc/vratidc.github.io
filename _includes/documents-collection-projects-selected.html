@@ -15,7 +15,7 @@
 {% endif %}
 
 {%- for post in entries -%}
-{% if post.selected == "true" %}
+{% if post.selected == "true" and post.type != "course" %}
   {% include projects-single-selected.html %}
 {% endif %}
 {%- endfor -%}

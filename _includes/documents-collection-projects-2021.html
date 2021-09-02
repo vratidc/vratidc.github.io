@@ -16,8 +16,9 @@
 
 {%- for post in entries -%}
 {%- if post.active == "yes" -%}
-{%- if post.type != "course" -%}
-  {% include projects-single.html %}
+{%- if post.type == "course" -%}
+{%- if post.year == "2021" -%}
+  {% include course-projects-single.html %}
 {%- endif -%}
-{%- endif -%}
+{%- endif -%}{%- endif -%}
 {%- endfor -%}

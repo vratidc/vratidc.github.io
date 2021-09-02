@@ -1,0 +1,60 @@
+---
+layout: showcasepage
+---
+
+{{ content }}
+
+<div id="main" style="margin-top: 0px;"></div>
+
+<div>
+    <h1 id="page-title" class="page__title" style="margin-bottom: 10px;">Design for VR 2021 - Project Showcase</h1>
+    <p style = "margin-top:0px;padding-top: 1em;"><i>More details coming soon...</i></p>
+    <p>Immersive Media Experience Design (IMXD) Lab conducts design and research explorations in the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and connected emerging fields. The portfolio of works ranges from design and development projects, experimental studies, research projects, exploratory works, workshops and academic publications.
+
+    </p>
+
+    <h2>Browse Projects:</h2>
+
+    <div class="button-group filter-button-group">
+        <a class="filter-button filter-button-active" data-filter="*">All</a>
+        <a class="filter-button" data-filter=".AR">AR</a>
+        <a class="filter-button" data-filter=".VR">VR</a>
+        <a class="filter-button" data-filter=".Unity">Unity</a>
+        <a class="filter-button" data-filter=".WebXR">WebXR</a>
+
+    </div>
+
+</div>
+
+<br>
+
+<div class="all-projects">
+    {% include documents-collection-projects-2021.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+
+
+<script>
+    // init Isotope
+    var $grid = $('.all-projects').isotope({
+        itemSelector: '.course_project_grid__item',
+        percentPosition: true,
+
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        }
+
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+
+</script>

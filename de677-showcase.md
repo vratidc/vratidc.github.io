@@ -1,6 +1,8 @@
 ---
 title:  "Design for VR - Project Showcase 2021"
 excerpt: Project Showcase for DE677 - Design for Virtual Reality
-layout: single
+layout: showcase
 permalink: /de677-showcase
+collection: projects
+entries_layout: grid
 ---

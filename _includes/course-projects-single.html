@@ -1,0 +1,97 @@
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="course_project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
+    <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">
+
+
+        <h2 class="projects__item-title" itemprop="headline">
+
+            {{ title }}
+
+            {% for tag in post.tags %}
+            <a class="tag tagbox">{{ tag }}</a>
+            {% endfor %}
+
+        </h2>
+
+        
+                <p>
+                    <em>Team: {{ post.team }}</em>
+                </p>
+
+
+                {% if include.type == "grid" and teaser %}
+                <div class = "projects__item-teaser-container">
+                  <div class="projects__item-teaser" style='background-image: 
+                  url({% if teaser contains "://" %}
+                      {{ teaser }}
+                    {% else %}
+                      {{ teaser | relative_url }}
+                    {% endif %});'>
+                      </div>
+                </div>
+
+                {% endif %}
+
+                <p>
+                  {{ post.overview }}
+
+                </p>
+
+                <p> <a href="{{post.link}}">Click here to try the application.</a> </p>
+
+        <!-- <p class="projects__item-excerpt-tags">
+            {% for tag in post.tags %}
+            <a class="tag tagbox">{{ tag }}</a>
+            {% endfor %}
+        </p> -->
+
+
+
+        <div class = "main-content">
+
+
+            <div class = "content-item">
+                
+            </div>
+
+
+
+        </div>
+
+
+
+
+        {% if post.excerpt %}<p class="projects__item-excerpt" itemprop="description" >{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+
+
+
+
+
+    </article>
+
+    <div class="responsive-video-container">
+        {% if post.video_provider == "vimeo" %}
+          <iframe src="https://player.vimeo.com/video/{{ post.video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        {% elsif post.video_provider == "youtube" %}
+          <iframe src="https://www.youtube-nocookie.com/embed/{{ post.video_id }}" frameborder="0" allowfullscreen></iframe>
+        {% elsif post.video_provider == "google-drive" %}
+          <iframe src="https://drive.google.com/file/d/{{ post.video_id }}/preview" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+        </div>
+
+        <hr>
+</div>
+
+

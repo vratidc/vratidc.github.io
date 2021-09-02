@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+<div class="vr_home">
+
+    <!-- VR 360 images go here -->
+
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
+
+        <a-assets>
+            <!-- Images. -->
+
+            <img id="vr2021" src="{{ site.baseurl }}/assets/img/360/VR_Single.jpg">
+
+            <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
+            <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">
+
+            <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">
+            <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png">
+
+            <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">
+            <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
+
+            <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
+
+            <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
+
+        </a-assets>
+
+        <!-- 360-degree image. -->
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+            <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#vr2021"></a-sky>
+            <!-- <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image> -->
+        </a-entity>
+    </a-scene>
+    
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
+
+</div>
+
+<div id="main" role="main" style="margin-top: 0px;">
+
+    <div class="projects" style="margin-top: 3em;">
+        {{ content }}
+    </div>
+
+</div>
