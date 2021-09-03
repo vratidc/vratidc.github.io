@@ -1,10 +1,10 @@
 ---
 title:  "VR Navigation through Jamini Roy Village"
 team: "Birendra Sing | Samadrita Sarkar | Soumyoprabho Mukherjee | Stuti Prakashkumar"
-tags: AR WebXR
+tags: VR WebXR
 
 video_provider: "youtube"
-video_id: gArph2JC5p8
+video_id: E6jc3g5xLyg
 
 header:
     teaser: /assets/img/projects/2021/project_banner_placeholder.jpg
