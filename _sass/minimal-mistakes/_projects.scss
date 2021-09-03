@@ -294,8 +294,6 @@
 
     }
 
-
-
 }
 
 .course_project_grid__item {
@@ -318,19 +316,15 @@
         font-size: $type-size-8;
     }
 
-    .projects__item-teaser {
+    .course__item-teaser {
 
-        height: 60vh;
-
+        height: 30vh;
 
         @include breakpoint($small) {}
 
         @include breakpoint($medium) {}
 
-
     }
-
-
 
 }
 
