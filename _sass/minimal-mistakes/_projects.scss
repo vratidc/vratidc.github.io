@@ -147,6 +147,95 @@
 }
 
 
+/* ==========================================================================
+   course
+   ========================================================================== */
+
+.course__item {
+    position: relative;
+
+    a {
+        position: relative;
+        z-index: 10;
+        color: $text-color;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    a[rel="permalink"] {
+        position: static;
+    }
+}
+
+
+.course__item-title {
+    margin-bottom: 0.25em;
+    font-family: $sans-serif-narrow;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+    a[rel="permalink"]::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: $secondary-color;
+    }
+
+    a + a {
+        opacity: 0.5;
+    }
+}
+
+
+.course__item-excerpt {
+    margin-top: 0;
+    font-size: $type-size-6;
+
+    & + p {
+        text-indent: 0;
+    }
+
+    a {
+        position: relative;
+    }
+}
+
+.course__item-teaser {
+    position: relative;
+    border-radius: $border-radius*1.5;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.course__item-teaser-container {
+    border-radius: $border-radius*1.5;
+    position: relative;
+    overflow: hidden;
+}
+
+.course__item-teaser {
+    transition: filter 0.4s, transform 0.4s;
+}
+
+.course__item:hover .course__item-teaser {
+    -webkit-filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(100deg) saturate(200%);
+    filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(100deg) saturate(200%);
+    transform: scale(1.05);
+}
+
+
+
 /*
    List view
    ========================================================================== */
@@ -307,12 +396,12 @@
         font-size: 0.6em;
     }
 
-    .projects__item-title {
+    .course__item-title {
         margin-top: 0.5em;
         font-size: $type-size-5;
     }
 
-    .projects__item-excerpt {
+    .course__item-excerpt {
         font-size: $type-size-8;
     }
 

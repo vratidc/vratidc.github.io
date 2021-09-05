@@ -11,10 +11,10 @@
 {% endif %}
 
 <div class="course_project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
-    <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <article class="course__item" itemscope itemtype="https://schema.org/CreativeWork">
 
 
-        <h2 class="projects__item-title" itemprop="headline">
+        <h2 class="course__item-title" itemprop="headline">
 
             {{ title }}
 
@@ -31,7 +31,7 @@
 
 
                 {% if include.type == "grid" and teaser %}
-                <div class = "projects__item-teaser-container">
+                <div class = "course__item-teaser-container">
                   <div class="course__item-teaser" style='background-image: 
                   url({% if teaser contains "://" %}
                       {{ teaser }}
@@ -72,7 +72,7 @@
 
 
 
-        {% if post.excerpt %}<p class="projects__item-excerpt" itemprop="description" >{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+        {% if post.excerpt %}<p class="course__item-excerpt" itemprop="description" >{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
 
 
