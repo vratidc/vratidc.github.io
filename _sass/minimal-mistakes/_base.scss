@@ -230,6 +230,8 @@ figure {
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 1em 0;
+    width: 100%;
+    height: auto;
 
     img,
     iframe,
@@ -246,6 +248,20 @@ figure {
 
     > a {
         display: block;
+    }
+
+    &.single {
+
+        > a,
+        > img {
+            @include breakpoint($small) {
+                width: calc(100% - 0.5em);
+            }
+        }
+
+        figcaption {
+            width: 100%;
+        }
     }
 
     &.half {
@@ -312,6 +328,7 @@ figcaption {
         }
     }
 }
+
 
 /* Fix IE9 SVG bug */
 

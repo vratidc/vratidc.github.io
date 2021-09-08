@@ -19,7 +19,7 @@ type: "course"
 year: "2021"
 
 
-gallery1:
+gallery:
   - url: /assets/img/projects/2021/jagat_jamini_1.jpg
     image_path: /assets/img/projects/2021/jagat_jamini_1.jpg
     alt: "A screenshot from the VR application"
@@ -34,7 +34,3 @@ gallery1:
     title: "A screenshot from the VR application"
 
 ---
-
-
-{% include gallery id="gallery1" caption="Screenshots from Jagat Jamini VR application" %}
-

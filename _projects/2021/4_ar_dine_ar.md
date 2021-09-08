@@ -11,7 +11,7 @@ header:
 
 overview: We are using Augmented Reality to help customers better visualise the quantity of the food that is going to be ordered from a menu. The users will be able to see the food items in 3D kept on a table in front of them.
 
-project-link: "https://github.com/anurag27k/DineAR"
+project-link: https://dinear.github.io
 
 active: "yes"
 type: "course"

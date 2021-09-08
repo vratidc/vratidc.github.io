@@ -29,7 +29,6 @@
                     <em>Team: {{ post.team }}</em>
                 </p>
 
-
                 {% if include.type == "grid" and teaser %}
                 <div class = "course__item-teaser-container">
                   <div class="course__item-teaser" style='background-image: 
@@ -49,79 +48,61 @@
                 </p>
 
             {% if post.project-link %}
-                <p> <a href="{{project-link}}">Project Link</a> </p>
+                <p> For more information, visit the <a href="{{post.project-link}}" style = "color: #008055;">Project Link</a> </p>
             {% endif %}
-        <!-- <p class="projects__item-excerpt-tags">
-            {% for tag in post.tags %}
-            <a class="tag tagbox">{{ tag }}</a>
-            {% endfor %}
-        </p> -->
-
-
-
-        <div class = "main-content">
-
-
-            <div class = "content-item">
-                
-            </div>
-
-
-
-        </div>
-
-
-
-
-        {% if post.excerpt %}<p class="course__item-excerpt" itemprop="description" >{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-
-
-                {% if page.image_gallery_one_col1 %}
-                <br />
-                <div> {% include gallery  id="image_gallery_one_col1"  layout="full" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_two_col1 %}
-                <br />
-                <div> {% include gallery id="image_gallery_two_col1" layout="half" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_three_col1 %}
-                <div> {% include gallery id="image_gallery_three_col1" caption="" %}</div>
-                {% endif %}
-
-
-                {% if page.image_gallery_one_col2 %}
-                <br />
-                <div> {% include gallery  id="image_gallery_one_col2"  layout="full" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_two_col2 %}
-                <br />
-                <div> {% include gallery id="image_gallery_two_col2" layout="half" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_three_col2 %}
-                <div> {% include gallery id="image_gallery_three_col2" caption="" %}</div>
-                {% endif %}
-                
-
-                {% if page.image_gallery_one_col3 %}
-                <br />
-                <div> {% include gallery  id="image_gallery_one_col3"  layout="full" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_two_col3 %}
-                <br />
-                <div> {% include gallery id="image_gallery_two_col3" layout="half" caption="" %}</div>
-                {% endif %}
-
-                {% if page.image_gallery_three_col3 %}
-                <div> {% include gallery id="image_gallery_three_col3" caption="" %}</div>
-                {% endif %}
-
 
     </article>
+
+
+    {% if post.gallery%}
+
+
+      {% if post.gallery.size == 1 %}
+      {% assign gallery_layout = 'span_1_of_1' %}
+      {% elsif post.gallery.size == 2 %}
+      {% assign gallery_layout = 'span_1_of_2' %}
+      {% elsif post.gallery.size >= 3 %}
+      {% assign gallery_layout = 'span_1_of_3' %}
+      {% else %}
+      {% assign gallery_layout = '' %}
+      {% endif %}
+
+      <div class="section group">
+
+        {% for img in post.gallery %}
+        <div class = "col {{gallery_layout}}">
+
+          <a href=
+          {% if img.url contains "://" %}
+            "{{ img.url }}"
+          {% else %}
+            "{{ img.url | relative_url }}"
+          {% endif %}
+          {% if img.title %}title="{{ img.title }}"{% endif %}>
+          <div class = "gallery-image" style='background-image: url({% if img.image_path contains "://" %}
+          "{{ img.image_path }}"
+        {% else %}
+          "{{ img.image_path | relative_url }}"
+        {% endif %});'>
+
+          </div>
+        </a>
+
+        </div>
+      {% endfor %}
+        
+      </div>
+
+      
+
+
+
+    {% endif %}
+
+
+
+    
+    
 
       {% if post.video_id %}
     <div class="responsive-video-container">
@@ -135,10 +116,54 @@
         </div>
         {% endif %}
 
-
-
-
         <hr>
 </div>
 
 
+<!--
+
+{% assign gallery = post.gallery %}
+
+    {% if post.gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+    {% elsif post.gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+    {% else %}
+    {% assign gallery_layout = '' %}
+    {% endif %}
+
+    <figure class="{{ gallery_layout }}">
+      {% for img in post.gallery %}
+        {% if img.url %}
+          <a href=
+            {% if img.url contains "://" %}
+              "{{ img.url }}"
+            {% else %}
+              "{{ img.url | relative_url }}"
+            {% endif %}
+            {% if img.title %}title="{{ img.title }}"{% endif %}
+          >
+            <img src=
+              {% if img.image_path contains "://" %}
+                "{{ img.image_path }}"
+              {% else %}
+                "{{ img.image_path | relative_url }}"
+              {% endif %}
+              alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+          </a>
+        {% else %}
+          <img src=
+            {% if img.image_path contains "://" %}
+              "{{ img.image_path }}"
+            {% else %}
+              "{{ img.image_path | relative_url }}"
+            {% endif %}
+            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        {% endif %}
+      {% endfor %}
+      {% if post.caption %}
+        <figcaption>{{ post.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+      {% endif %}
+    </figure>
+
+-->
