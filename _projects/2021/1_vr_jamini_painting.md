@@ -3,7 +3,7 @@ title:  "Jagat Jamini: A VR Experience"
 team: "Birendra Sing | Samadrita Sarkar | Soumyoprabho Mukherjee | Stuti Prakashkumar"
 tags: VR Unity
 
-video_provider:
+video_provider: "youtube"
 video_id:
 
 header:

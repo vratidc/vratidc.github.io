@@ -48,8 +48,9 @@
 
                 </p>
 
+            {% if post.project-link %}
                 <p> <a href="{{project.link}}">Click here to try the application.</a> </p>
-
+            {% endif %}
         <!-- <p class="projects__item-excerpt-tags">
             {% for tag in post.tags %}
             <a class="tag tagbox">{{ tag }}</a>
@@ -75,12 +76,54 @@
         {% if post.excerpt %}<p class="course__item-excerpt" itemprop="description" >{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
 
+                {% if page.image_gallery_one_col1 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col1"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col1 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col1" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col1 %}
+                <div> {% include gallery id="image_gallery_three_col1" caption="" %}</div>
+                {% endif %}
 
 
+                {% if page.image_gallery_one_col2 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col2"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col2 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col2" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col2 %}
+                <div> {% include gallery id="image_gallery_three_col2" caption="" %}</div>
+                {% endif %}
+                
+
+                {% if page.image_gallery_one_col3 %}
+                <br />
+                <div> {% include gallery  id="image_gallery_one_col3"  layout="full" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_two_col3 %}
+                <br />
+                <div> {% include gallery id="image_gallery_two_col3" layout="half" caption="" %}</div>
+                {% endif %}
+
+                {% if page.image_gallery_three_col3 %}
+                <div> {% include gallery id="image_gallery_three_col3" caption="" %}</div>
+                {% endif %}
 
 
     </article>
 
+      {% if post.video_id %}
     <div class="responsive-video-container">
         {% if post.video_provider == "vimeo" %}
           <iframe src="https://player.vimeo.com/video/{{ post.video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -90,6 +133,10 @@
           <iframe src="https://drive.google.com/file/d/{{ post.video_id }}/preview" frameborder="0" allowfullscreen></iframe>
         {% endif %}
         </div>
+        {% endif %}
+
+
+
 
         <hr>
 </div>
