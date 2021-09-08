@@ -33,4 +33,5 @@ gallery:
     alt: "A screenshot from the VR application"
     title: "A screenshot from the VR application"
 
+gallery-caption: "Screenshots from Jagat Jamini VR application"
 ---
