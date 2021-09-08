@@ -4,7 +4,7 @@ team: "V M Lokesh Kumar | Neha Balasundaram | Suchitra Swain"
 tags: AR Unity
 
 video_provider: "youtube"
-video_id: gArph2JC5p8
+video_id:
 
 header:
     teaser: /assets/img/projects/2021/ar_treasure_hunt_banner.png
@@ -13,7 +13,7 @@ overview: This is a location based treasure hunt game, where the clues are displ
 
 
 
-project-link: "https://rishivanukuru.com/projects/musicvr/" 
+project-link:
 
 active: "yes"
 type: "course"
