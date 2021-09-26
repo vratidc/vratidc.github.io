@@ -14,9 +14,10 @@
     
     <!-- Enter the width and height of the image in the line below-->
     <div id="360-image-wrapper" style="height:600px; width:600px">
-        <a-scene embedded style="margin:0px; padding:0px;">
+        <a-scene vr-mode-ui="enterARButton: #myEnterARButton" embedded style="margin:0px; padding:0px;">
             <!-- Replace the img src with the local file, if using one. -->
             <a-sky src="https://manholecollective.com/assets/img/360/360_manhole.jpg" rotation="0 -90 0"></a-sky>
+            <a id="myEnterARButton" href="#" style="visibility: hidden;"></a>
         </a-scene>
     </div>
 
