@@ -1,0 +1,64 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+
+    {% include head.html %}
+    {% include head/custom.html %}
+
+  </head>
+
+  <body>
+
+
+    <div style="padding: 0px; margin: 0px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+        <!-- VR 360 images go here -->
+    
+        <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enabled: false" >
+    
+            <a id="myEnterARButton" href="#" style="visibility: hidden;"></a> -->
+
+
+              <!-- <a id="myEnterVRButton" href="#" style=" z-index: 999; position: absolute;
+              margin: 5px;
+              padding: 5px;
+              text-align: right;
+              width: 50px;
+              height: 50px; 
+              bottom: 0;
+              right: 0;
+              font-size:10px; 
+              color: rgba(255,250,250,1);">
+                <div>
+
+                    Enter VR
+                  <i class="fas fa-expand" ></i>
+                
+                </div>
+              </a>
+
+    
+            <!-- 360-degree image. -->
+            <a-entity rotation="0 -90 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+                <a-sky src="https://manholecollective.com/assets/img/360/360_manhole.jpg"></a-sky>
+            </a-entity>
+        </a-scene>
+        
+        <div class = "vr_overlay">  
+        <img src="/assets/img/360/360_icon.png">
+        </div>
+    
+    </div>
+
+  </body>
+
+
+
+</html>
+
+
+
+
