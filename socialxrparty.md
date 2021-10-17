@@ -7,7 +7,7 @@ permalink: /socialxrparty
 
 ## Teaser Video
 
-{% include video id="fROhfHoqhts" provider="youtube" %}
+{% include video id="iSjjtxQlp08" provider="youtube" %}
 
 ## Help and Instructions
 
