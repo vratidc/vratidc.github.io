@@ -10,7 +10,7 @@ date: 2021-10-18
 venue: "CSCW 2021 - 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing, Virtual"
 excerpt: Excerpt to be added
 PDF: "https://www.researchgate.net/publication/355404242"
-website: "hhttps://dl.acm.org/doi/10.1145/3479605"
+website: "https://dl.acm.org/doi/10.1145/3479605"
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3479605"
