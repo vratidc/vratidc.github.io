@@ -1,6 +1,6 @@
 ---
 title:  "Towards Avatars for Remote Communication using Mobile Augmented Reality"
-type: "[Accepted] Workshop Paper"
+type: "Workshop Paper"
 publication: "yes"
 activity: "no"
 authors: "Amarnath Murugan, Rishi Vanukuru and Jayesh Pillai"
