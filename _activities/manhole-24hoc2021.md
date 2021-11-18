@@ -6,7 +6,7 @@ activity: "yes"
 authors: "Amarnath Murugan"
 year: "2021"
 date: 2021-09-09
-venue: "24 Hours of Chaos - 2021 by Chaos Group"
+venue: "24 Hours of Chaos 2021 by Chaos Group (virtual)"
 excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"

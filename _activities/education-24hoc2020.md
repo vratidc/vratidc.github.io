@@ -6,7 +6,7 @@ activity: "yes"
 authors: "Jayesh Pillai"
 year: "2020"
 date: 2020-09-02
-venue: "24 Hours of Chaos - 2020 by Chaos Group"
+venue: "24 Hours of Chaos 2020 by Chaos Group (virtual)"
 excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"
