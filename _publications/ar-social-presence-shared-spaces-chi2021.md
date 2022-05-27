@@ -8,10 +8,10 @@ year: "2022"
 date: 2022-05-1
 venue: "ACM CHI 2022, Workshop - Social Presence in Virtual Event Spaces, Virtual (New Orleans, LA)"
 excerpt: Excerpt to be added
-PDF: "https://dl.acm.org/doi/10.1145/3479605"
+PDF: "https://drive.google.com/file/d/1hfgy_sagcSLS5qm-zWCnxsUmQ2nf5r2V/view"
 website: "https://sites.google.com/uci.edu/socialpresence-chi22workshop/program"
 homepage: "false"
-fullpage: "no"
+fullpage: "yes"
 link: "https://drive.google.com/file/d/1hfgy_sagcSLS5qm-zWCnxsUmQ2nf5r2V/view"
 header:
     teaser: /assets/img/publications/icon-pub-chi2022.jpg
