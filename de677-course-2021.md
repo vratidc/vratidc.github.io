@@ -1,11 +1,12 @@
 ---
-title:  "DE677 - Design for VR (2021)"
+title:  "DE677 - Design for VR"
 excerpt: Homepage for DE677 - Design for Virtual Reality - Basic
 layout: single
-permalink: /de677
+permalink: /de677-course-2021
 ---
+Autumn 2021
 
-Welcome to the course homepage for **DE677: Design for Virtual Reality - Basic**.
+Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic**.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\de677-schedule-autumn2021.png" alt="DE677 Course Schedule - Autumn 2021">
