@@ -1,5 +1,5 @@
 ---
-title:  "DE677 - Design for VR"
+title:  "DE677 - Design for VR (2021)"
 excerpt: Homepage for DE677 - Design for Virtual Reality - Basic
 layout: single
 permalink: /de677
