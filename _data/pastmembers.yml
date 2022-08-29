@@ -2,6 +2,9 @@
 main:
   #- title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Samadrita Sarkar"
+     url: https://www.linkedin.com/in/samadrita-sarkar-b169b9194/
+     photo: /assets/img/people/imxd_people_samadrita.jpg
    - title: "Suchitra Swain"
      url: https://www.linkedin.com/in/suchitra-swain-47562ab7/
      photo: /assets/img/people/imxd_people_suchitra.jpg
