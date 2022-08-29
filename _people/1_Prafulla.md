@@ -16,7 +16,7 @@ links:
       url: "mailto:praffi2000@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "www.prafullags.com"
+      url: "https://www.prafullags.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/praffi2000"
