@@ -2,6 +2,18 @@
 main:
   #- title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Neha Balasundaram"
+     url: https://www.linkedin.com/in/neha-balasundaram-16b72715a/
+     photo: /assets/img/people/imxd_people_nehabala.jpg
+   - title: "Lokesh Kumar"
+     url: https://in.linkedin.com/in/lokesh-kumar-451494124
+     photo: /assets/img/people/imxd_people_lokeshkumar.jpg 
+   - title: "Raaghavi Sundaram"
+     url: https://www.linkedin.com/in/raaghavishan/
+     photo: /assets/img/people/imxd_people_raaghavisundaram.jpg
+   - title: "Noopur Kashyap"
+     url: https://www.linkedin.com/in/noopur-kumari-kashyap-334692143/
+     photo: /assets/img/people/imxd_people_noopurkashyap.jpg       
    - title: "Rajandeep Singh"
      url: https://www.linkedin.com/in/rajandeepsingh13/
      photo: /assets/img/people/imxd_people_rajandeepsingh.jpg
