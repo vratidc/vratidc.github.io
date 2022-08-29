@@ -2,6 +2,9 @@
 main:
   #- title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Suchitra Swain"
+     url: https://www.linkedin.com/in/suchitra-swain-47562ab7/
+     photo: /assets/img/people/imxd_people_suchitra.jpg
    - title: "Neha Balasundaram"
      url: https://www.linkedin.com/in/neha-balasundaram-16b72715a/
      photo: /assets/img/people/imxd_people_nehabala.jpg
