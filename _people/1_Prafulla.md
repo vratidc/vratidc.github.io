@@ -13,7 +13,7 @@ fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:entermailhere
+      #url: "mailto:praffi2000@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: "www.prafullags.com"
