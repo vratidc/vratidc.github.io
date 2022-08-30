@@ -13,7 +13,7 @@ fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "vinaydhomne96@gmail.com"
+      url: "mailto:vinaydhomne96@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: ""
