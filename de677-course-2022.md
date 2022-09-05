@@ -10,16 +10,16 @@ Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic*
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}\assets\img\course\de677-schedule-autumn2022.png" alt="DE677 Course Schedule - Autumn 2022">
-  <figcaption>DE677 Course Schedule - Autumn 2022 (Tentative)</figcaption>
+  <figcaption>DE677 Course Schedule (Tentative)</figcaption>
 </figure>
 
 ## Updates
 
-**28/08/2022:** Visit the [Companion Page](https://rishivanukuru.notion.site/Intro-to-XR-Dev-3c20ec201dc545a8a4ea1f644f0134db){:target="_blank"} created by [Rishi Vanukuru](https://rishivanukuru.com/){:target="_blank"} to find instructions on how to set up your systems for XR development.
+**28/08/2022:** A [Companion Page](#) will be soon added by [Rishi Vanukuru](https://rishivanukuru.com/){:target="_blank"}, where you will find instructions on how to set up your systems for XR development.
 
-**29/08/2022:** The outcomes from 2021 can be found here: [Project Showcase for Design for VR 2021](https://imxd.in/de677-showcase-2021){:target="_blank"}.
+**1/09/2022:** The outcomes from this course (2022) will be updated here: [Project Showcase for Design for VR 2022](https://imxd.in/de677-showcase-2022){:target="_blank"}.
 
-**30/08/2022:** The outcomes from this course (2022) will be updated here: [Project Showcase for Design for VR 2022](https://imxd.in/de677-showcase-2022){:target="_blank"}.
+**1/09/2022:** The outcomes from Autumn 2021 can be found here: [Project Showcase for Design for VR 2021](https://imxd.in/de677-showcase-2021){:target="_blank"}.
 
 <br>
 ## Lecture Outline

@@ -10,7 +10,7 @@ Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic*
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}\assets\img\course\de677-schedule-autumn2021.png" alt="DE677 Course Schedule - Autumn 2021">
-  <figcaption>DE677 Course Schedule - Autumn 2021</figcaption>
+  <figcaption>DE677 Course Schedule</figcaption>
 </figure>
 
 ## Updates
