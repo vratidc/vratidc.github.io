@@ -4,7 +4,7 @@ excerpt: Homepage for DE677 - Design for Virtual Reality - Basic
 layout: single
 permalink: /de677-course-2021
 ---
-Autumn 2021
+Autumn 2021 (23 Aug - 3 Sep 2021)
 
 Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic**.
 
