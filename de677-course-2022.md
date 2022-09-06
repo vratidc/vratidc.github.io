@@ -6,7 +6,7 @@ permalink: /de677-course-2022
 ---
 Autumn 2022 (12 Sep - 23 Sep 2022)
 
-Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic**.
+Welcome to the course homepage of DE677 - Design for Virtual Reality.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}\assets\img\course\de677-schedule-autumn2022.png" alt="DE677 Course Schedule - Autumn 2022">
