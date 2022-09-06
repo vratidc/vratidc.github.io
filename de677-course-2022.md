@@ -15,7 +15,7 @@ Welcome to the course homepage for **DE677 - Design for Virtual Reality - Basic*
 
 ## Updates
 
-**28/08/2022:** A [Companion Page](#) will be soon added by [Rishi Vanukuru](https://rishivanukuru.com/){:target="_blank"}, where you will find instructions on how to set up your systems for XR development.
+**28/08/2022:** Visit the [Companion Page](https://rishivanukuru.notion.site/Intro-to-XR-Dev-3c20ec201dc545a8a4ea1f644f0134db){:target="_blank"} added by [Rishi Vanukuru](https://rishivanukuru.com/){:target="_blank"}, where you will find instructions on how to set up your systems for XR development.
 
 **1/09/2022:** The outcomes from this course (2022) will be updated here: [Project Showcase for Design for VR 2022](https://imxd.in/de677-showcase-2022){:target="_blank"}.
 
