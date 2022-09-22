@@ -1,7 +1,7 @@
 ---
 title:  "AR Tool for Visualizing Solids"
 team: "Mugdha Dengle | Susovan Gupta"
-tags: VR Quest Unity
+tags: AR Mobile Unity
 
 video_provider: "youtube"
 video_id:
@@ -14,7 +14,7 @@ overview: Details Coming Soon...
 
 project-link: 
 
-active: "no"
+active: "yes"
 type: "course"
 year: "2022"
 
