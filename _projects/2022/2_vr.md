@@ -7,7 +7,7 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2021/course_image_placeholder.png
+    teaser: /assets/img/projects/2022/course_image_placeholder.png
 
 overview: Details coming soon ... 
 
