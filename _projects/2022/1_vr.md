@@ -1,7 +1,7 @@
 ---
 title:  "Project-1 Title"
 team: "Student Name | Student Name | Student Name | Student Name"
-tags: VR1 Unity
+tags: VR Mobile Unity
 
 video_provider: "youtube"
 video_id:
