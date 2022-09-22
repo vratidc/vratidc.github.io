@@ -1,0 +1,228 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+
+<div class="vr_home">
+
+    <!-- VR 360 images go here -->
+
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
+
+        <a-assets>
+            <!-- Images. -->
+
+            <img id="vr2021" src="{{ site.baseurl }}/assets/img/360/DE677_Autumn2021_L.jpg">
+
+            <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
+            <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">
+
+            <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">
+            <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png">
+
+            <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">
+            <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
+
+            <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
+
+            <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
+
+        </a-assets>
+
+        <!-- 360-degree image. -->
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+            <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#vr2021"></a-sky>
+            <!-- <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image> -->
+        </a-entity>
+    </a-scene>
+    
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
+
+</div>
+
+
+<div id="main" role="main" style="margin-top: 0.5em;">
+
+    <div id = "stereo360" style="float: right; margin-top: 0em; margin-bottom: 1em;"></div>
+
+    <div class="projects" style="margin-top: 1em;">
+
+        {{ content }}
+    </div>
+
+</div>
+
+<!-- WebXR stuff -->
+
+<script type="module" defer>
+    import {WebXRButton} from '../assets/js/util/webxr-button.js';
+    import {Scene, WebXRView} from '../assets/js/render/scenes/scene.js';
+    import {Renderer, createWebGLContext} from '../assets/js/render/core/renderer.js';
+    import {Gltf2Node} from '../assets/js/render/nodes/gltf2.js';
+    import {SkyboxNode} from '../assets/js/render/nodes/skybox.js';
+    import {InlineViewerHelper} from '../assets/js/util/inline-viewer-helper.js';
+    import {QueryArgs} from '../assets/js/util/query-args.js';
+
+    // If requested, use the polyfill to provide support for mobile devices
+    // and devices which only support WebVR.
+      import WebXRPolyfill from '../assets/js/third-party/webxr-polyfill/build/webxr-polyfill.module.js';
+      if (QueryArgs.getBool('usePolyfill', true)) {
+        let polyfill = new WebXRPolyfill();
+      }
+
+    // XR globals.
+    let xrButton = null;
+    let xrImmersiveRefSpace = null;
+    let inlineViewerHelper = null;
+
+    // WebGL scene globals.
+    let gl = null;
+    let renderer = null;
+    let scene = new Scene();
+    scene.enableStats(false);
+    scene.addNode(new SkyboxNode({
+      url: '../assets/img/360/DE677_Autumn2021_LR.jpg',
+      displayMode: 'stereoTopBottom'
+    }));
+
+    function initXR() {
+      xrButton = new WebXRButton({
+        onRequestSession: onRequestSession,
+        onEndSession: onEndSession
+      });
+      document.getElementById("stereo360").appendChild(xrButton.domElement);
+
+      if (navigator.xr) {
+        navigator.xr.isSessionSupported('immersive-vr').then((supported) => {
+          xrButton.enabled = supported;
+        });
+
+        navigator.xr.requestSession('inline').then(onSessionStarted);
+      }
+    }
+
+    function initGL() {
+      if (gl)
+        return;
+
+      gl = createWebGLContext({
+        xrCompatible: true
+      });
+      //document.body.appendChild(gl.canvas);
+
+      function onResize() {
+        gl.canvas.width = gl.canvas.clientWidth * window.devicePixelRatio;
+        gl.canvas.height = gl.canvas.clientHeight * window.devicePixelRatio;
+      }
+      window.addEventListener('resize', onResize);
+      onResize();
+
+      renderer = new Renderer(gl);
+      scene.setRenderer(renderer);
+    }
+
+    function onRequestSession() {
+      return navigator.xr.requestSession('immersive-vr').then((session) => {
+        xrButton.setSession(session);
+        session.isImmersive = true;
+        onSessionStarted(session);
+      });
+    }
+
+    function onSessionStarted(session) {
+      session.addEventListener('end', onSessionEnded);
+
+      initGL();
+      scene.inputRenderer.useProfileControllerMeshes(session);
+
+      let glLayer = new XRWebGLLayer(session, gl);
+      session.updateRenderState({ baseLayer: glLayer });
+
+      // When rendering 360 photos/videos you want to ensure that the user's
+      // head is always at the center of the rendered media. Otherwise users
+      // with 6DoF hardware could walk towards the edges and see a very skewed
+      // or outright broken view of the image. To prevent that, we request a
+      // 'position-disabled' reference space, which suppresses any positional
+      // information from the headset. (As an added bonus this mode may be
+      // more power efficient on some hardware!)
+      let refSpaceType = session.isImmersive ? 'local' : 'viewer';
+      session.requestReferenceSpace(refSpaceType).then((refSpace) => {
+        if (session.isImmersive) {
+          xrImmersiveRefSpace = refSpace;
+        } else {
+          inlineViewerHelper = new InlineViewerHelper(gl.canvas, refSpace);
+        }
+        session.requestAnimationFrame(onXRFrame);
+      });
+    }
+
+    function onEndSession(session) {
+      session.end();
+    }
+
+    function onSessionEnded(event) {
+      if (event.session.isImmersive) {
+        xrButton.setSession(null);
+      }
+    }
+
+    function onXRFrame(t, frame) {
+      let session = frame.session;
+      let refSpace = session.isImmersive ?
+                       xrImmersiveRefSpace :
+                       inlineViewerHelper.referenceSpace;
+      let pose = frame.getViewerPose(refSpace);
+
+      scene.startFrame();
+
+      session.requestAnimationFrame(onXRFrame);
+
+      let glLayer = session.renderState.baseLayer;
+      gl.bindFramebuffer(gl.FRAMEBUFFER, glLayer.framebuffer);
+      gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+
+      if (pose) {
+        let views = [];
+        for (let view of pose.views) {
+          let renderView = new WebXRView(view, glLayer);
+
+          // It's important to take into account which eye the view is
+          // associated with in cases like this, since it informs which half
+          // of the stereo image should be used when rendering the view.
+          renderView.eye = view.eye
+          views.push(renderView);
+        }
+
+        scene.updateInputSources(frame, refSpace);
+
+        scene.drawViewArray(views);
+      }
+
+      scene.endFrame();
+    }
+
+    // Start the XR application.
+    initXR();
+  </script>
