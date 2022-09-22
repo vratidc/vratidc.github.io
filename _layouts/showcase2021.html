@@ -4,6 +4,38 @@ layout: showcasepage
 
 {{ content }}
 
+<div class="vr_home">
+
+    <!-- VR 360 images go here -->
+
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+
+          <a id="myEnterVRButton" href="#">
+            <div id="VRButton">
+              <i class="fas fa-expand"></i>
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+          </a>
+          <a id="myEnterARButton" href="#"></a>
+
+        <a-assets>
+            <!-- Images. -->
+            <img id="vr2021" src="{{ site.baseurl }}/assets/img/360/DE677_Autumn2021_L.jpg">
+        </a-assets>
+
+        <!-- 360-degree image. -->
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+            <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#vr2021"></a-sky>
+            <!-- <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image> -->
+        </a-entity>
+    </a-scene>
+    
+    <div class = "vr_overlay">  
+    <img src="/assets/img/360/360_icon.png">
+    </div>
+
+</div>
+
 <div id="main" style="margin-top: 0px;"></div>
 
 <div>
