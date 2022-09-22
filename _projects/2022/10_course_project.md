@@ -1,15 +1,15 @@
 ---
-title:  "Vaango"
-team: "Nidhi Chauhan | Nidhin Joseph | Shweta Ratanpura | Vedang P"
+title:  "Olinda"
+team: "Sanskruti Landage |  Snehal Gaikwad |  Prateek Pagore | Pratik Bansode"
 tags: VR Mobile Unity
 
 video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2022/course_project_image1.png
+    teaser: /assets/img/projects/2022/course_project_image10.png
 
-overview: “Vaango” is a VR game which uses spatial audio, directing you to collectable artifacts, ending in a celebration of life and culture - an analogy for going back to your roots. The Narrative is inspired from the song ‘Enjoy Enjammi’ by Dhee & Arivu, which also acts as the guiding soundtrack for the player.
+overview: Details Coming Soon...
 
 
 project-link: 
