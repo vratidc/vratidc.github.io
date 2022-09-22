@@ -1,0 +1,58 @@
+---
+layout: showcasepage
+---
+
+{{ content }}
+
+<div id="main" style="margin-top: 0px;"></div>
+
+<div>
+    <h1 id="page-title" class="page__title" style="margin-bottom: 10px;">Design for VR - Project Showcase 2021</h1>
+    <p>Here presented are the outcomes from the course DE677: Design for Virtual Reality (Autumn Semester 2021)
+    </p>
+
+    <h2>Browse Projects:</h2>
+
+    <div class="button-group filter-button-group">
+        <a class="filter-button filter-button-active" data-filter="*">All</a>
+        <a class="filter-button" data-filter=".AR">AR</a>
+        <a class="filter-button" data-filter=".VR">VR</a>
+        <a class="filter-button" data-filter=".Unity">Unity</a>
+        <a class="filter-button" data-filter=".WebXR">WebXR</a>
+
+    </div>
+
+</div>
+
+<br>
+
+<div class="all-projects">
+    {% include documents-collection-projects-2021.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+
+
+<script>
+    // init Isotope
+    var $grid = $('.all-projects').isotope({
+        itemSelector: '.course_project_grid__item',
+        percentPosition: true,
+
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        }
+
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+
+</script>
