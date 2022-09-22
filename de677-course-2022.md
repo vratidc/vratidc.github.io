@@ -35,7 +35,7 @@ Welcome to the course homepage of DE677 - Design for Virtual Reality.
     * Evolution of Virtual Reality
 2.  Present
     * VR & Technology
-    * How VR Works
+    * How & Why VR Works
     * Design Process: <br>
       a. Interactive Experiences <br>
       b. 360 Narratives
