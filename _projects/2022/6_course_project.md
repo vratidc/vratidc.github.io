@@ -1,17 +1,16 @@
 ---
-title:  "fina : File Management Interactions"
-team: "Apoorv Anurag | Atish Waghwase | Cherian J Iype | Prafulla Chandra"
-tags: VR Quest Unity
+title:  "Glimmer"
+team: "Akshata Khare | Indubhusan Roy | Kunal Khawaskar | Shreyas Vernekar"
+tags: VR Mobile Unity
 
 video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2022/course_project_image2.png
+    teaser: /assets/img/projects/2022/course_project_image6.jpg
 
-overview: This project deals with novel hand gesture interactions for file management in a VR environment. Most current file management interactions use ray-casting either using a controller or a hand controlled pointer. We looked at different metaphors for interactions like selecting, copying, moving and deleting files. The interactions were
-designed around hand gestures like grabbing, hovering, poking, pinching and releasing. We prototyped our interactions into a scene based on the existing file explorer in the Oculus Quest 2. The final interactions we designed are single
-selection, multiple selection, range selection, copy to clipboard, move to clipboard and delete. The prototype is in the form of a tutorial guiding the user through each of the interactions.
+overview: The world of Glimmer is post-apocalyptic. This is a globe that has endured the horrors of humanity, and as a result of nuclear wars and global warming, it has turned into a place that is unfit for human habitation. This game
+provokes thought and is a satire on the status of humanity today. A quest to collect plants and save your family who have lost their resources. Your chances of survival are slim, but will you be able to collect plants and survive, or will you perish from dehydration in the toxic environment?
 
 
 project-link: 
