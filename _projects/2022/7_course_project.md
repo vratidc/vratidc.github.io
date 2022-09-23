@@ -7,7 +7,7 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2022/course_project_image7.png
+    teaser: /assets/img/projects/2022/course_project_image7.jpg
 
 overview: Cross the road in rush hour traffic to reach the campus gate. If you make it without getting run over, this day will go down in history. See you on the other side. Good luck!
 
