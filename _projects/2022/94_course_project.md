@@ -7,9 +7,9 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2022/course_project_image13.png
+    teaser: /assets/img/projects/2022/course_project_image13.jpg
 
-overview: Details Coming Soon...
+overview: AR Tool for visualizing solids.
 
 
 project-link: 

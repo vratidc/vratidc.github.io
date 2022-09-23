@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2022/course_project_image12.png
 
-overview: Details Coming Soon...
+overview: An AR Based shooting game.
 
 
 project-link: 
