@@ -20,7 +20,8 @@ layout: default
     <!-- VR 360 images go here -->
 
     <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
-
+       
+        <!-- VR Button -->     
           <a id="myEnterVRButton" href="#">
             <div id="VRButton">
               <i class="fas fa-expand"></i>
@@ -29,17 +30,9 @@ layout: default
           </a>
           <a id="myEnterARButton" href="#"></a>
 
-        <a-assets>
-            <!-- Images. -->
-
-            <img id="vr2021" src="{{ site.baseurl }}/assets/img/projects/2021/design4vr_2021.jpg">
-
-        </a-assets>
-
         <!-- 360-degree image. -->
         <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-            <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#vr2021"></a-sky>
-            <!-- <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image> -->
+          <a-sky src="https://imxd.in/assets/img/projects/2021/design4vr_2021.jpg"></a-sky>
         </a-entity>
     </a-scene>
     

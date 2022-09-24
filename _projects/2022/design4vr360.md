@@ -1,5 +1,5 @@
 ---
-layout: 360fullscreen2022
+layout: panofullscreen2022
 title: Manhole VR Film
 author_profile: false
 
