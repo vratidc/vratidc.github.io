@@ -15,6 +15,8 @@ Welcome to the course homepage of DE677 - Design for Virtual Reality.
 
 ## Updates
 
+**24/09/2022:** Here's a 360 degree image of the demo session: [Demo Session 2022](https://imxd.in/de677-panorama-2022){:target="_blank"}.
+
 **23/09/2022:** The outcomes from this course (2022) are updated here: [Project Showcase for Design for VR 2022](https://imxd.in/de677-showcase-2022){:target="_blank"}.
 
 **11/09/2022:** The invited speakers this time are:
