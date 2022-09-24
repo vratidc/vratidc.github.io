@@ -1,6 +1,6 @@
 ---
 layout: panofullscreen2022
-title: Manhole VR Film
+title: "Design for VR - 2022"
 author_profile: false
 
 permalink: de677-panorama-2022
