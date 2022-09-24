@@ -1,16 +1,20 @@
 ---
+layout: default
 ---
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
 
-    {% include head.html %}
-    {% include head/custom.html %}
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
 
-  </head>
 
-  <body>
     <div style="padding: 0px; margin: 0px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 
         <!-- VR 360 images go here -->
@@ -39,9 +43,8 @@
   
     </div>
 
-  </body>
 
-</html>
+
 
 
 
