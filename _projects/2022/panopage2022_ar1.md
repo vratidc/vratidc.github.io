@@ -1,5 +1,5 @@
 ---
-layout: panofullscreen2022_ar1
+layout: panofullscreen2022_1
 title: "Design for VR - 2022"
 author_profile: false
 
