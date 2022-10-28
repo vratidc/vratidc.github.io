@@ -1,20 +1,19 @@
 ---
-title:  "Dream On"
-excerpt: Exploratory Game - Mobile VR
+title:  "Circle Of Life"
+excerpt: 360° Music Video
 layout: projects   
 selected: "false"
 homepage: "false"
 fullpage: "no"
 active: "no"
 
-
 header:
-    teaser: /assets/img/projects/Dreamon.jpg
-tags: VR Game
+    teaser: /assets/img/projects/circleoflife.jpg
+tags: VR-Film
 
 banner_image1:
 
-team_members: "Nazreen | Saloni"
+team_members: "Student Name"
 team_members_align: "text-left"
 
 ---

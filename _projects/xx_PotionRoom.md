@@ -7,7 +7,6 @@ homepage: "false"
 fullpage: "no"
 active: "no"
 
-
 header:
     teaser: /assets/img/projects/PotionRoom.jpg
 tags: VR Game

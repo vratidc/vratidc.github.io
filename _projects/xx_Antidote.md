@@ -7,7 +7,6 @@ homepage: "false"
 fullpage: "no"
 active: "no"
 
-
 header:
     teaser: /assets/img/projects/Antidote2apathy.jpg
 tags: VR MR Storytelling
