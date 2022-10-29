@@ -18,7 +18,7 @@ layout: people
 </div>
 
 <div class="entries-{{ page.entries_layout }}">
-    {% include documents-collection-people.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-people.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
 </div>
 
 
@@ -31,7 +31,7 @@ layout: people
 </div>
 
 <div class="entries-{{ page.entries_layout }}">
-    {% include documents-collection-students.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-students.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
 </div>
 
 
@@ -45,7 +45,7 @@ layout: people
 </div>
 
 <div class="entries-{{ page.entries_layout }}">
-    {% include documents-collection-pastmembers.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-pastmembers.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
 </div>
 
 

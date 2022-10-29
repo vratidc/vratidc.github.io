@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"  
 fullpage: "yes"
 active: "yes"
+date: 20180105
 
 header:
     teaser: /assets/img/projects/archdeck_thumbnail.jpg

@@ -6,6 +6,8 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 20210105s
+
 header:
     teaser: /assets/img/projects/arwelding/ar-welding-teaser.jpg
 tags: AR Training Design

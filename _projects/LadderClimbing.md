@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 20180101
 
 header:
     teaser: /assets/img/projects/ladderclimbing.jpg

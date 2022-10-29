@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "no, but change to yes when content is added"
 active: "no"
+date: 20170101
 
 header:
     teaser: /assets/img/projects/Vroom.png

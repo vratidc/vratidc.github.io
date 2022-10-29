@@ -6,7 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
-
+date: 20200101
 header:
     teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
 tags: AR Research

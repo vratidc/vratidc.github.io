@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 20180103
 
 header:
     teaser: /assets/img/projects/YeriOram.jpg

@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 20190801
 
 header:
     teaser: /assets/img/projects/MusicExpression.jpg

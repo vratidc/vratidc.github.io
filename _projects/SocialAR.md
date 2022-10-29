@@ -6,7 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
-
+date: 20200901
 header:
     teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
 tags: AR Research

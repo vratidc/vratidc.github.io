@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 20200101
 
 header:
     teaser: /assets/img/projects/newidc_thumbnail.jpg

@@ -6,6 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
+date: 20190101
 
 header:
     teaser: /assets/img/projects/Dragonfly/dragonfly_thumbnail.jpg

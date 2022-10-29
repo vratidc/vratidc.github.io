@@ -17,7 +17,7 @@ project-link:
 active: "yes"
 type: "course"
 year: "2021"
-
+date: 20210109
 
 gallery:
   - url: /assets/img/projects/2021/jagat_jamini_1.jpg

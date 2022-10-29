@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "no"
 active: "no"
+date: 20170101
 
 header:
     teaser: /assets/img/projects/Degreesurfer.jpg

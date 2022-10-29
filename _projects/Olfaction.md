@@ -6,6 +6,8 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
+date: 20200102
+
 
 header:
     teaser: /assets/img/projects/association/association_thumbnail.jpg

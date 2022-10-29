@@ -6,7 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
-
+date: 20200501
 header:
     teaser: /assets/img/projects/ARTWO/artwo_thumbnail.jpg
 tags: AR MR Research  

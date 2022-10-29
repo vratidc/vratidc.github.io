@@ -6,6 +6,7 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
+date: 20200902
 
 header:
     teaser: /assets/img/projects/twma/twma-thumbnail.jpg
