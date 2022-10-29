@@ -3,6 +3,7 @@ layout: single
 title:  Amarnath Murugan
 position: Research Associate
 role: "team"
+date: 20220402
 header:
     teaser: /assets/img/people/imxd_people_amarnathmurugan.jpg
 permalink: /people/goodboy

@@ -3,6 +3,7 @@ layout: single
 title:  Rishi Vanukuru
 position: Research Associate
 role: "team"
+date: 20210401
 header:
     teaser: /assets/img/people/imxd_people_rishivanukuru.jpg
 permalink: /people/rishi

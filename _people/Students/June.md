@@ -1,19 +1,20 @@
 ---
 layout: single
-title:  Vinay Kumar
+title:  June Sardar
 position: Master's Student (Interaction Design)
 role: "student"
+date: 20220104
 header:
-    teaser: /assets/img/people/imxd_people_vinaykumar.jpg
-permalink: /people/vinay
+    teaser: /assets/img/people/imxd_people_junesardar.jpg
+permalink: /people/june
 type: people
 modal : "no"
-modalname: "vinay"
+modalname: "june"
 fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:vinaydhomne96@gmail.com"
+      #url: ""
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: ""
@@ -22,10 +23,10 @@ links:
       #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/vinay-kumar-dhomne-aab910106/"
+      url: "https://www.linkedin.com/in/june-sardar-2a367a180/"
       
 ---
 
-## Vinay Kumar
+## June Sardar
 Master's Student - Interaction Design
 
