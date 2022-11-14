@@ -8,12 +8,12 @@ header:
 permalink: /people/anjanesh
 type: people
 modal : "no"
-modalname: "vinay"
+modalname: "anjanesh"
 fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:vinaydhomne96@gmail.com"
+      url: "mailto:22m2248@iitb.ac.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: ""
@@ -22,10 +22,10 @@ links:
       #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/vinay-kumar-dhomne-aab910106/"
+      url: "https://www.linkedin.com/in/anjanesh-indranil/"
       
 ---
 
-## Vinay Kumar
+## Anjanesh Indranil
 Master's Student - Interaction Design
 
