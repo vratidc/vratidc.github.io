@@ -36,9 +36,12 @@ layout: default
             <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">
             <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png">
 
-            <img id="illustration" src="{{ site.baseurl }}/assets/img/360/360_Illustration.jpg">
-            <img id="illustration_label" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
+            <img id="illustration1" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Navaneeth.jpg">
+            <img id="illustration_label1" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
 
+            <img id="illustration2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Muskan.jpg">
+            <img id="illustration_label2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label.png">
+            
             <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
 
             <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
@@ -84,18 +87,7 @@ layout: default
                 {% include page__taxonomy.html %}
             </footer>
         </div>
-
     </article>
-
-</div>
-
-<div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;">
-
-    <div class="home-button">
-
-        <a class="home-button" href="{{ site.baseurl }}/about">About the Lab ></a>
-
-    </div>
 
 </div>
 
@@ -109,7 +101,7 @@ layout: default
 
         <div class="selected-projects" style="width:100%;">
 
-            {% include documents-collection-projects-homepage.html collection="projects" type=page.entries_layout %}
+            {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 
         </div>
 
@@ -189,31 +181,39 @@ layout: default
 
         slideIndex++;
 
-        if (slideIndex > 3) {
+        if (slideIndex > 4) {
             slideIndex = 1;
         }
 
         if (slideIndex == 1) {
-            p.setAttribute('src', '#dragonfly');
-            q.setAttribute('src', '#dragonfly_label');
-            q.setAttribute('width', '13.26');
-            q.setAttribute('height', '7.14');
-            q.setAttribute('position', '0 8 -12');
+            p.setAttribute('src', '#illustration2');
+            q.setAttribute('src', '#illustration_label2');
+            q.setAttribute('width', '8.40');
+            q.setAttribute('height', '2');
+            q.setAttribute('position', '0 3 -12');
         } else
         if (slideIndex == 2) {
             p.setAttribute('src', '#course');
             q.setAttribute('src', '#course_label');
-            q.setAttribute('width', '10.80');
-            q.setAttribute('height', '3');
+            q.setAttribute('width', '9');
+            q.setAttribute('height', '2.5');
             q.setAttribute('position', '0 2.5 -12');
         } else
         if (slideIndex == 3) {
-            p.setAttribute('src', '#illustration');
-            q.setAttribute('src', '#illustration_label');
-            q.setAttribute('width', '12.60');
-            q.setAttribute('height', '3');
-            q.setAttribute('position', '0 3.5 -12');
+            p.setAttribute('src', '#dragonfly');
+            q.setAttribute('src', '#dragonfly_label');
+            q.setAttribute('width', '11.14');
+            q.setAttribute('height', '6');
+            q.setAttribute('position', '0 7 -12');               
+        } else
+        if (slideIndex == 4) {
+            p.setAttribute('src', '#illustration1');
+            q.setAttribute('src', '#illustration_label1');
+            q.setAttribute('width', '8.40');
+            q.setAttribute('height', '2');
+            q.setAttribute('position', '0 3.5 -12');        
         }
+        
 
         setTimeout(ARcarousel, 7000); // Change image every few seconds
     }
