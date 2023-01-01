@@ -1,32 +1,20 @@
 ---
 title:  "Introduction to VR Filmmaking"
-type: "Workshop & Invited Talk"
+type: "Workshop"
 publication: "no"
 activity: "yes"
-authors: "Jayesh Pillai, Azif Ismail and Amal Dev"
-year: "2018"
-date: 2018-05-31
+authors: "Jayesh Pillai and Amal Dev"
+year: "2022"
+date: 2022-12-17
 
-venue: "Art Direction & Production Design (Workshop) & Film Appriciation course (Talk) - Film and Television Institute of India (FTII) Pune"
-excerpt: Workshop & Invited Talk at FTII
+venue: "Art Direction & Production Design, Film and Television Institute of India (FTII) Pune"
+excerpt: Workshop & Invited Talk at FTII Pune
 homepage: "no"
-fullpage: "yes"
-permalink: workshops/FTII2018/
+fullpage: "no"
+permalink: workshops/FTII2022/
 header:
     teaser: /assets/img/activities/icon-pub-ftii.jpg
 layout: publications  
-
-flexgallery1:
-  - aspect: "0.7069"
-    url: assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg
-    image_path: /assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg
-    alt: "Film Appriciation course, FTII"
-    title: "Film Appriciation course, FTII"
-  - aspect: "2.0"
-    url: /assets/img/publications/workshops/ftii2018/ftii_workshop.jpg
-    image_path: /assets/img/publications/workshops/ftii2018/ftii_workshop.jpg
-    alt: "Students of Art Direction & Production Design, FTII"
-    title: "Students of Art Direction & Production Design, FTII"
 
 gallery1:
   - url: /assets/img/publications/workshops/ftii2018/ftii_workshop1.jpg
@@ -47,12 +35,6 @@ gallery1:
     title: "FTII Workshop"
 
 ---
-
-{% include flexgallery id="flexgallery1" caption="" %}
-
-## Invited Talk
-
-The talk was part of the yearly Film Appricaition Course conducted by FTII.
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
