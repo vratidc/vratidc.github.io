@@ -12,7 +12,7 @@ homepage: "false"
 fullpage: "no"
 permalink:
 header:
-    teaser: /assets/img/publications/icon-pub-sigchi-asia2018.jpg
+    teaser: /assets/img/activities/icon-pub-sigchi-asia2018.jpg
 layout: publications    
 ---
 

@@ -13,7 +13,7 @@ homepage: "true"
 fullpage: "yes"
 permalink: workshops/ISMAR2020/
 header:
-    teaser: /assets/img/publications/icon-pub-ismar2020.jpg
+    teaser: /assets/img/activities/icon-pub-ismar2020.jpg
 layout: publications
 
 ---

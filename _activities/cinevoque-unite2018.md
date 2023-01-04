@@ -11,7 +11,7 @@ excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"
 header:
-    teaser: /assets/img/publications/icon-pub-uniteindia2018.jpg
+    teaser: /assets/img/activities/icon-pub-uniteindia2018.jpg
 layout: publications    
 ---
 

@@ -12,7 +12,7 @@ excerpt: Excerpt to be added
 homepage: "no"
 fullpage: "no"
 header:
-    teaser: /assets/img/publications/icon-pub-siggraphasia2019.jpg
+    teaser: /assets/img/activities/icon-pub-siggraphasia2019.jpg
 layout: publications   
 ---
 
