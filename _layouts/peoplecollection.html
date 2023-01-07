@@ -21,6 +21,18 @@ layout: people
     {% include documents-collection-people.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
 </div>
 
+<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
+
+    <div class="projects" style="margin-top: 0px;">
+        <h1 id="page-title" class="page__title">Associated Faculty</h1>
+    </div>
+
+</div>
+
+<div class="entries-{{ page.entries_layout }}">
+    {% include documents-collection-faculty.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
+</div>
+
 
 <div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
 
@@ -34,11 +46,23 @@ layout: people
     {% include documents-collection-students.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
 </div>
 
+<div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
+
+    <div class="projects" style="margin-top: 0px;">
+        <h1 id="page-title" class="page__title">Past Researchers</h1>
+
+    </div>
+
+</div>
+
+<div class="entries-{{ page.entries_layout }}">
+    {% include documents-collection-pastresearchers.html collection=page.collection sort_by='date' sort_order='reverse' type=page.entries_layout %}
+</div>
 
 <div id="main" role="main" style="margin-top: 40px; padding-bottom: 0px; padding-right: 0;padding-left: 0; padding-top: 40px">
 
     <div class="projects" style="margin-top: 0px;">
-        <h1 id="page-title" class="page__title">Past Members</h1>
+        <h1 id="page-title" class="page__title">Past Students</h1>
 
     </div>
 

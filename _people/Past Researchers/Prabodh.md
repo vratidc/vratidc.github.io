@@ -1,34 +1,32 @@
 ---
 layout: single
-title:  Rishi Vanukuru
+title:  Prabodh Sakhardande
 position: Research Associate
-role: "team"
-date: 20210401
+role: "pastresearcher"
+date: 20180101
 header:
-    teaser: /assets/img/people/imxd_people_rishivanukuru.jpg
-permalink: /people/rishi
+    teaser: /assets/img/people/imxd_people_prabodhsakhardande.jpg
+permalink: /people/prabodh
 type: people
-modal: "no"
-modalname: "rishi"
-modaltext: "Will write songs for Cornettos."
 fullpage: "no"
+modal: "no"
+modalname: "prabodh"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:rishivanukuru@gmail.com
+      url: mailto:peaboard.mail@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://rishivanukuru.com"
+      url: "https://thisis.prabodhs.site/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       #url: "https://github.com/vanukuru"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rishivanukuru/"
+      url: "https://www.linkedin.com/in/prabodhs/"
       
 ---
 
-## Rishi Vanukuru
+## Prabodh Sakhardande
 Research Associate
-
 

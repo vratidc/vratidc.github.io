@@ -1,7 +1,5 @@
 # main links
 main:
-  #- title: "Quick-Start Guide"
-  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Samadrita Sarkar"
      url: https://www.linkedin.com/in/samadrita-sarkar-b169b9194/
      photo: /assets/img/people/imxd_people_samadrita.jpg
@@ -32,9 +30,6 @@ main:
    - title: "Vineet Kamboj"
      url: https://www.vineetkamboj.com/
      photo: /assets/img/people/imxd_people_vineetkamboj.jpg
-   - title: "Prabodh Sakhardande"
-     url: https://thisis.prabodhs.site/
-     photo: /assets/img/people/imxd_people_prabodhsakhardande.jpg
    - title: "Utsav Oza"
      url: https://www.linkedin.com/in/utsav-oza-0931b6110/
      photo: /assets/img/people/imxd_people_utsavoza.jpg
@@ -50,9 +45,6 @@ main:
    - title: "Sanofer H."
      url: https://in.linkedin.com/in/sanofer-h-60542b47
      photo: /assets/img/people/imxd_people_sanoferh.jpg
-   - title: "Azif Ismail"
-     url: https://www.imdb.com/name/nm10587214/
-     photo: /assets/img/people/imxd_people_azifismail.jpg
    - title: "Nazreen Nizam"
      url: https://www.linkedin.com/in/nazreen-nizam-22863711a
      photo: /assets/img/people/imxd_people_nazreennizam.jpg

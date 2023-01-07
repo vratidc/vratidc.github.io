@@ -1,0 +1,9 @@
+{% assign entries = site[include.collection] %}
+
+{% assign entries = entries | sort: 'date' | reverse %}
+
+{%- for post in entries -%}
+{% if(post.role == "pastresearcher") %}
+  {% include students-single.html %}
+{% endif %}
+{%- endfor -%}
