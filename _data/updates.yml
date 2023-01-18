@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Workshop on VR Filmmaking"
+     date: "24/12/2022"
+     active: "yes"
+     content: "We conducted a workshop on “Introduction to VR Filmmaking” for the students of the Film and Television Institute of India (FTII Pune)."
+     link: /updates/workshop-ftii
+     teaser: /assets/img/updates/icon-pub-ftii-2022.jpg
+     fullpage: "yes"
    - title: "Call for Participation - ScholAR Remote Study"
      date: "07/02/2021"
      active: "yes"
