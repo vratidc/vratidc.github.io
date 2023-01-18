@@ -113,4 +113,12 @@ The workshop concluded with students creating two 360° film narratives (Replace
 </div>
   <figcaption>360° Poster of 'Vrida'</figcaption>
 
+<br><br>
+
+<div style="  display: flex; justify-content: center;">
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Dr. Jayesh Pillai, an Assistant Professor from IIT Mumbai&#39;s IDC conducted a 4-day workshop for the students of Art, Direction and Production Design batch on VR in Film Making. The 2 movies-&#39;Replaced&#39; &amp; &#39;Vrida&#39; are a result of what the students learnt at this workshop. <a href="https://twitter.com/hashtag/VRWorkshop?src=hash&amp;ref_src=twsrc%5Etfw">#VRWorkshop</a> <a href="https://t.co/E6mQzPlvFC">pic.twitter.com/E6mQzPlvFC</a></p>&mdash; FTII (@FTIIOfficial) <a href="https://twitter.com/FTIIOfficial/status/1003592271407865856?ref_src=twsrc%5Etfw">June 4, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<figcaption>Update from FTII Official</figcaption>
+
+
 <br>

@@ -95,4 +95,12 @@ The workshop concluded with students creating two 360° film narratives (Replace
 </div>
   <figcaption>360° Poster of 'Vrida'</figcaption>
 
+<br><br>
+
+<div style="  display: flex; justify-content: center;">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Glimpses from the workshop on Virtual Reality Filmmaking for students of Art Direction and Production Design.<br><br>Students made two films during the workshop and presented it in a unique way to students on campus.<br><br>Jayesh Pillai led the workshop. <a href="https://t.co/CmEi32XaUA">pic.twitter.com/CmEi32XaUA</a></p>&mdash; FTII (@FTIIOfficial) <a href="https://twitter.com/FTIIOfficial/status/1610118729823834112?ref_src=twsrc%5Etfw">January 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<figcaption>Update from FTII Official</figcaption>
+
+
 <br>
