@@ -7,6 +7,20 @@ main:
      link: /updates/workshop-ftii
      teaser: /assets/img/updates/icon-pub-ftii-2022.jpg
      fullpage: "yes"
+   - title: "DE677 - Design for VR"
+     date: "12/09/2022"
+     active: "yes"
+     content: "Course - Autumn 2022 (12 Sep - 23 Sep 2022)"
+     link: /de677-course-2022
+     teaser: /assets/img/updates/icon_placeholder.jpg
+     fullpage: "yes"
+   - title: "DE677 - Design for VR"
+     date: "23/08/2021"
+     active: "yes"
+     content: "Course - Autumn 2021 (23 Aug - 3 Sep 2021)"
+     link: /de677-course-2021
+     teaser: /assets/img/updates/icon_placeholder.jpg
+     fullpage: "yes"
    - title: "Call for Participation - ScholAR Remote Study"
      date: "07/02/2021"
      active: "yes"
