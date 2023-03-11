@@ -1,11 +1,18 @@
 # main links
 main:
-   - title: "Workshop on VR Filmmaking"
+   - title: "Workshop on VR Filmmaking - NID"
+     date: "9/03/2023"
+     active: "yes"
+     content: "We conducted a workshop on “Introduction to VR Filmmaking” for the students of the Film & Video Discipline of NID Ahmedabad."
+     link: /nid-pano-2023
+     teaser: /assets/img/updates/icon-update-nid-2023.jpg
+     fullpage: "yes"
+   - title: "Workshop on VR Filmmaking - FTII"
      date: "24/12/2022"
      active: "yes"
      content: "We conducted a workshop on “Introduction to VR Filmmaking” for the students of the Film and Television Institute of India (FTII Pune)."
      link: /updates/workshop-ftii
-     teaser: /assets/img/updates/icon-pub-ftii-2022.jpg
+     teaser: /assets/img/updates/icon-update-ftii-2022.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR"
      date: "12/09/2022"
