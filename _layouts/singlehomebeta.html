@@ -18,15 +18,16 @@ layout: default
 
     <!-- VR 360 images go here -->
 
-    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton" >
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded
+        style="margin:0px; padding:0px;" vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton">
 
-          <a id="myEnterVRButton" href="#">
+        <a id="myEnterVRButton" href="#">
             <div id="VRButton">
-              <i class="fas fa-expand"></i>
-              <i class="fas fa-vr-cardboard"></i>
+                <i class="fas fa-expand"></i>
+                <i class="fas fa-vr-cardboard"></i>
             </div>
-          </a>
-          <a id="myEnterARButton" href="#"></a>
+        </a>
+        <a id="myEnterARButton" href="#"></a>
 
         <a-assets>
             <!-- Images. -->
@@ -41,7 +42,7 @@ layout: default
 
             <img id="illustration2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Muskan.jpg">
             <img id="illustration_label2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label2.png">
-            
+
             <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
 
             <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
@@ -54,9 +55,19 @@ layout: default
             <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image>
         </a-entity>
     </a-scene>
-    
-    <div class = "vr_overlay">  
-    <img src="/assets/img/360/360_icon.png">
+
+    <div class="vr_overlay">
+        <i class='fas fa-angle-left'
+            style='position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.3); top: -425%; transition: color 0.2s;'
+            onmouseover="style='cursor:pointer; opacity:0.8; position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.8); top: -425%; transition: color 0.2s;'"
+            onmouseout="style='opacity:0.8; position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.3); top: -425%; transition: color 0.2s;'"
+            onmousedown="GoLeft()"></i>
+        <i class='fas fa-angle-right'
+            style='position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.3); top: -425%; right: 3px; transition: color 0.2s;'
+            onmouseover="style='cursor:pointer; opacity:0.8; position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.8); top: -425%; right: 3px; transition: color 0.2s;'"
+            onmouseout="style='opacity:0.8; position:absolute; font-size:48px; color:rgba(255, 255, 255, 0.3); top: -425%; right: 3px; transition: color 0.2s;'"
+            onmousedown="GoRight()"></i>
+        <img src="/assets/img/360/360_icon.png">
     </div>
 
 </div>
@@ -67,9 +78,11 @@ layout: default
 
     <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
         {% if page.title %}
-        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+        {% endif %}
         {% if page.excerpt %}
-        <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <meta itemprop="description"
+            content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         {% if page.date %}
         <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
         {% if page.last_modified_at %}
@@ -78,7 +91,8 @@ layout: default
         <div class="page__inner-wrap">
             <section class="page__content" itemprop="text">
                 {{ content }}
-                {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+                {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{
+                        site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
             </section>
             <footer class="page__meta">
                 {% if site.data.ui-text[site.locale].meta_label %}
@@ -101,7 +115,8 @@ layout: default
 
         <div class="selected-projects" style="width:100%;">
 
-            {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+            {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by
+            sort_order=page.sort_order type=page.entries_layout %}
 
         </div>
 
@@ -156,26 +171,7 @@ layout: default
     var slideIndex = 0;
     ARcarousel();
 
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > x.length) {
-            slideIndex = 1
-        }
-        x[slideIndex - 1].style.display = "inline";
-        setTimeout(carousel, 5000); // Change image every 5 seconds
-    }
-
     function ARcarousel() {
-        var i;
-        var x = document.getElementsByClassName("ARcarousel");
-        var y = document.getElementById("main");
-        var z = document.getElementById("image-360");
-
         var p = document.querySelector('a-sky');
         var q = document.querySelector('a-image');
 
@@ -185,6 +181,35 @@ layout: default
             slideIndex = 1;
         }
 
+        setUpCarousel();
+
+        setTimeout(ARcarousel, 7000); // Change image every few seconds
+    }
+
+    function GoLeft() {
+        slideIndex--;
+
+        if (slideIndex < 1) {
+            slideIndex = 4;
+        }
+
+        setUpCarousel();
+    }
+
+    function GoRight() {
+        slideIndex++;
+
+        if (slideIndex > 4) {
+            slideIndex = 1;
+        }
+
+        setUpCarousel();
+    }
+
+    function setUpCarousel() {
+        var p = document.querySelector('a-sky');
+        var q = document.querySelector('a-image');
+
         if (slideIndex == 1) {
             p.setAttribute('src', '#illustration2');
             q.setAttribute('src', '#illustration_label2');
@@ -192,30 +217,27 @@ layout: default
             q.setAttribute('height', '2');
             q.setAttribute('position', '0 3 -12');
         } else
-        if (slideIndex == 2) {
-            p.setAttribute('src', '#course');
-            q.setAttribute('src', '#course_label');
-            q.setAttribute('width', '9');
-            q.setAttribute('height', '2.5');
-            q.setAttribute('position', '0 2.5 -12');
-        } else
-        if (slideIndex == 3) {
-            p.setAttribute('src', '#dragonfly');
-            q.setAttribute('src', '#dragonfly_label');
-            q.setAttribute('width', '11.14');
-            q.setAttribute('height', '6');
-            q.setAttribute('position', '0 7 -12');               
-        } else
-        if (slideIndex == 4) {
-            p.setAttribute('src', '#illustration1');
-            q.setAttribute('src', '#illustration_label1');
-            q.setAttribute('width', '8.40');
-            q.setAttribute('height', '2');
-            q.setAttribute('position', '0 3.5 -12');        
-        }
-        
-
-        setTimeout(ARcarousel, 7000); // Change image every few seconds
+            if (slideIndex == 2) {
+                p.setAttribute('src', '#course');
+                q.setAttribute('src', '#course_label');
+                q.setAttribute('width', '9');
+                q.setAttribute('height', '2.5');
+                q.setAttribute('position', '0 2.5 -12');
+            } else
+                if (slideIndex == 3) {
+                    p.setAttribute('src', '#dragonfly');
+                    q.setAttribute('src', '#dragonfly_label');
+                    q.setAttribute('width', '11.14');
+                    q.setAttribute('height', '6');
+                    q.setAttribute('position', '0 7 -12');
+                } else
+                    if (slideIndex == 4) {
+                        p.setAttribute('src', '#illustration1');
+                        q.setAttribute('src', '#illustration_label1');
+                        q.setAttribute('width', '8.40');
+                        q.setAttribute('height', '2');
+                        q.setAttribute('position', '0 3.5 -12');
+                    }
     }
 
 </script>
