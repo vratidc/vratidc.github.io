@@ -27,7 +27,7 @@ links:
       
 ---
 
-## Pratiti Sarkar
+
 PhD Scholar
 
 

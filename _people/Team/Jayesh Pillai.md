@@ -31,7 +31,7 @@ links:
       
 ---
 
-## Jayesh Pillai
+
 Associate Professor, IIT Bombay
 
 

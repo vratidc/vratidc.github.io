@@ -6,7 +6,7 @@ role: "team"
 date: 20230424
 header:
     teaser: /assets/img/people/imxd_people_khyatipriya.jpg
-permalink:
+permalink: /people/khyati
 type: people
 fullpage: "no"
 modal: "no"
@@ -27,7 +27,7 @@ links:
       
 ---
 
-## Khyati Priya
+
 PhD Scholar
 
 

@@ -28,7 +28,7 @@ links:
       
 ---
 
-## Amarnath Murugan
+
 Research Associate
 
 
