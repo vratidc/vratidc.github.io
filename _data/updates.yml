@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Student Project 'Fina' showcased at Laval Virtual 2023"
+     date: "12/04/2023"
+     active: "yes"
+     content: "The project was adjudged a finalist in the student competition."
+     link: /updates/fina-lv2023
+     teaser: /assets/img/updates/lv2023/icon-update-lv2023.jpg
+     fullpage: "yes"
    - title: "Workshop on VR Filmmaking - NID"
      date: "9/03/2023"
      active: "yes"
