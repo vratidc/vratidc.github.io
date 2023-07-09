@@ -1,32 +1,33 @@
 ---
 layout: single
-title:  Khyati Priya
+title:  Pratiti Sarkar
 position: PhD Scholar
-role: "team"
-date: 20230731
+role: "pastresearcher"
+date: 20220801
 header:
-    teaser: /assets/img/people/imxd_people_khyatipriya.jpg
-permalink: /people/khyati
+    teaser: /assets/img/people/imxd_people_pratitisarkar.jpg
+permalink: /people/pratiti
 type: people
 fullpage: "no"
 modal: "no"
-modalname: "khyati"
+modalname: "pratiti"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:khyatipriya@iitb.ac.in"
+      #url: "mailto:entermailhere"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "#"
+      url: "https://pratitisarkar.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       #url: ""
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #url: ""
+      url: "https://www.linkedin.com/in/pratitisarkar/"
       
 ---
 
-## Khyati Priya
+
 PhD Scholar
+
 
