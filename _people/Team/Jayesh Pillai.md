@@ -21,7 +21,7 @@ links:
       url: "http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.jayeshpillai.com"
+      url: "https://www.jayeshpillai.in"
     - label: "IMDb"
       icon: "fab fa-fw fa-imdb"
       url: "https://www.imdb.com/name/nm4755734/"         
