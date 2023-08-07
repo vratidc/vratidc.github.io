@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "[Upcoming] DE677 - Design for VR - Autumn 2023"
+     date: "07/07/2023"
+     active: "yes"
+     content: "Course - Autumn 2022 (28 Aug - 08 Sep 2023)"
+     link: /de677-course-2023
+     teaser: /assets/img/updates/icon_placeholder.jpg
+     fullpage: "yes"
    - title: "Student Project 'Fina' showcased at Laval Virtual 2023"
      date: "12/04/2023"
      active: "yes"
@@ -21,14 +28,14 @@ main:
      link: /updates/workshop-ftii
      teaser: /assets/img/updates/icon-update-ftii-2022.jpg
      fullpage: "yes"
-   - title: "DE677 - Design for VR"
+   - title: "DE677 - Design for VR - Autumn 2022"
      date: "12/09/2022"
      active: "yes"
      content: "Course - Autumn 2022 (12 Sep - 23 Sep 2022)"
      link: /de677-course-2022
      teaser: /assets/img/updates/icon_placeholder.jpg
      fullpage: "yes"
-   - title: "DE677 - Design for VR"
+   - title: "DE677 - Design for VR - Autumn 2021"
      date: "23/08/2021"
      active: "yes"
      content: "Course - Autumn 2021 (23 Aug - 3 Sep 2021)"
