@@ -2,7 +2,7 @@
 title:  "Workshop on VR Filmmaking"
 excerpt: Workshop on VR Filmmaking - FTII Pune
 header:
-    teaser: /assets/img/updates/icon-pub-ftii-2022.jpg
+    teaser: /assets/img/updates/icon-update-ftii-2022.jpg
 categories: updates
 tags: workshop vr
 ---
