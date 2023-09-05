@@ -1,0 +1,55 @@
+---
+layout: showcase2023pano
+---
+
+{{ content }}
+
+
+<div>
+    <h1 id="page-title" class="page__title" style="margin-bottom: 10px;">Design for VR - Project Showcase 2023</h1>
+    <p>Here presented are the outcomes from the course DE677: Design for Virtual Reality (Autumn Semester 2023)
+    </p>
+
+    <h2>Browse Projects:</h2>
+
+    <div class="button-group filter-button-group">
+        <a class="filter-button filter-button-active" data-filter="*">All</a>
+        <a class="filter-button" data-filter=".AR">AR</a>
+        <a class="filter-button" data-filter=".VR">VR</a>
+        <a class="filter-button" data-filter=".VR-Film">VR Film</a>
+    </div>
+
+</div>
+
+<br>
+
+<div class="all-projects">
+    {% include documents-collection-projects-2023.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+
+
+<script>
+    // init Isotope
+    var $grid = $('.all-projects').isotope({
+        itemSelector: '.course_project_grid__item',
+        percentPosition: true,
+
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        }
+
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+
+</script>

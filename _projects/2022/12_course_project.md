@@ -1,5 +1,5 @@
 ---
-title:  "AR Based Game"
+title:  "Kill Pill"
 team: "Rahul R. | Praveen Kuma | Vaibhav Watile | Uppili Nithin Soorya"
 tags: AR Mobile Unity
 
