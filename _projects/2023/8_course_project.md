@@ -1,5 +1,5 @@
 ---
-title: "VR SAFE - Exploring interactions for passwords in VR"
+title: "VR SAFE - Exploring password interactions in VR"
 team: "Shivani verma | Anisha Verma | Anjanesh Indranil | Yash H. Bharani"
 tags: VR Quest Unity
 

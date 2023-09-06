@@ -1,5 +1,5 @@
 ---
-title: "Fusion - Universal interactions for immersive and physical devices"
+title: "Fusion - Universal interactions for XR"
 team: "Vinay Kumar | Karan Tanna | Ankit Saroha | Abhinav S"
 tags: VR Quest Unity
 

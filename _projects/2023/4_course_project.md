@@ -1,5 +1,5 @@
 ---
-title: "Out of Stock - AR marker-based customization of motorcycles"
+title: "Out of Stock - Bike customization using AR"
 team: "Sarthak Sridhar Rao | Rajdeep Sutradhar | Kulkarni Vedang Uday | Paresh Baliram Bhandarkar"
 tags: AR Mobile Unity
 

@@ -1,5 +1,5 @@
 ---
-title: "Sea Turtle - VR application"
+title: "Sea Turtles"
 team: "Puja Saha | Muskan Bagaria | Pallavi Soni | Girish Kishore"
 tags: VR Quest Unity
 

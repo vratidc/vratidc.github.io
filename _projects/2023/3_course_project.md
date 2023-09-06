@@ -1,5 +1,5 @@
 ---
-title: "EyeScape - VR experience simulating visual challenges"
+title: "EyeScape - Simulating visual challenges"
 team: "Priyadarshi Satyam | Elvira Mishra | Rani Panit | Dhanraj Singh"
 tags: VR Quest Unity
 

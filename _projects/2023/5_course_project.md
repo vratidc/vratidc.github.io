@@ -1,5 +1,5 @@
 ---
-title: "NexOS - Spatial computing interactions"
+title: "NexOS - Novel spatial interactions"
 team: "Sparsh Gupta | Prince Agarwal | Tarun Pahadiya | Karani Harsh Yogesh Meena"
 tags: VR Quest Unity
 
