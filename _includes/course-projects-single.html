@@ -11,114 +11,109 @@
 {% endif %}
 
 <div class="course_project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
-    <article class="course__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="course__item" itemscope itemtype="https://schema.org/CreativeWork">
 
 
-        <h2 class="course__item-title" itemprop="headline">
+    <h2 class="course__item-title" itemprop="headline">
+      {{ title }}
+    </h2>
+    <p>
+      {% for tag in post.tags %}
+      <a class="tag tagbox">{{ tag }}</a>
+      {% endfor %}
+    </p>
 
-            {{ title }}&nbsp; 
+    <p>
+      <em>Team: {{ post.team }}</em>
+    </p>
 
-            {% for tag in post.tags %}
-            <a class="tag tagbox">{{ tag }}</a>
-            {% endfor %}
-
-        </h2>
-
-        
-                <p>
-                    <em>Team: {{ post.team }}</em>
-                </p>
-
-                {% if include.type == "grid" and teaser %}
-                <div class = "course__item-teaser-container">
-                  <div class="course__item-teaser" style='background-image: 
+    {% if include.type == "grid" and teaser %}
+    <div class="course__item-teaser-container">
+      <div class="course__item-teaser" style='background-image: 
                   url({% if teaser contains "://" %}
                       {{ teaser }}
                     {% else %}
                       {{ teaser | relative_url }}
                     {% endif %});'>
-                      </div>
-                </div>
+      </div>
+    </div>
 
-                {% endif %}
+    {% endif %}
 
-                <p>
-                  {{ post.overview }}
+    <p>
+      {{ post.overview }}
 
-                </p>
+    </p>
 
-            {% if post.project-link %}
-                <p> For more information, visit the <a href="{{post.project-link}}" target="_blank" style = "color: #008055;">Project Link</a>.</p>
-            {% endif %}
+    {% if post.project-link %}
+    <p> For more information, visit the <a href="{{post.project-link}}" target="_blank" style="color: #008055;">Project
+        Link</a>.</p>
+    {% endif %}
 
-    </article>
-
-
-    {% if post.gallery%}
+  </article>
 
 
-      {% if post.gallery.size == 1 %}
-      {% assign gallery_layout = 'span_1_of_1' %}
-      {% elsif post.gallery.size == 2 %}
-      {% assign gallery_layout = 'span_1_of_2' %}
-      {% elsif post.gallery.size >= 3 %}
-      {% assign gallery_layout = 'span_1_of_3' %}
-      {% else %}
-      {% assign gallery_layout = '' %}
-      {% endif %}
+  {% if post.gallery%}
 
-      <div class="section group">
 
-        {% for img in post.gallery %}
-        <div class = "col {{gallery_layout}}">
+  {% if post.gallery.size == 1 %}
+  {% assign gallery_layout = 'span_1_of_1' %}
+  {% elsif post.gallery.size == 2 %}
+  {% assign gallery_layout = 'span_1_of_2' %}
+  {% elsif post.gallery.size >= 3 %}
+  {% assign gallery_layout = 'span_1_of_3' %}
+  {% else %}
+  {% assign gallery_layout = '' %}
+  {% endif %}
 
-          <a href=
-          {% if img.url contains "://" %}
-            "{{ img.url }}"
-          {% else %}
-            "{{ img.url | relative_url }}"
-          {% endif %}
-          {% if img.title %}title="{{ img.title }}"{% endif %}>
-          <div class = "gallery-image" style='background-image: url({% if img.image_path contains "://" %}
+  <div class="section group">
+
+    {% for img in post.gallery %}
+    <div class="col {{gallery_layout}}">
+
+      <a href={% if img.url contains "://" %} "{{ img.url }}" {% else %} "{{ img.url | relative_url }}" {% endif %} {%
+        if img.title %}title="{{ img.title }}" {% endif %}>
+        <div class="gallery-image" style='background-image: url({% if img.image_path contains "://" %}
           "{{ img.image_path }}"
         {% else %}
           "{{ img.image_path | relative_url }}"
         {% endif %});'>
 
-          </div>
-        </a>
-
         </div>
-      {% endfor %}
+      </a>
 
-     <small>{{post.gallery-caption}}</small>
-        
-      </div>
+    </div>
+    {% endfor %}
 
-      
+    <small>{{post.gallery-caption}}</small>
+
+  </div>
 
 
 
+
+
+  {% endif %}
+
+
+
+
+
+
+  {% if post.video_id %}
+  <div class="responsive-video-container">
+    {% if post.video_provider == "vimeo" %}
+    <iframe src="https://player.vimeo.com/video/{{ post.video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen
+      mozallowfullscreen allowFullScreen></iframe>
+    {% elsif post.video_provider == "youtube" %}
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ post.video_id }}" frameborder="0" allowfullscreen></iframe>
+    {% elsif post.video_provider == "google-drive" %}
+    <iframe src="https://drive.google.com/file/d/{{ post.video_id }}/preview" frameborder="0" allowfullscreen></iframe>
     {% endif %}
+  </div>
+  {% endif %}
 
-
-
-    
-    
-
-      {% if post.video_id %}
-    <div class="responsive-video-container">
-        {% if post.video_provider == "vimeo" %}
-          <iframe src="https://player.vimeo.com/video/{{ post.video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        {% elsif post.video_provider == "youtube" %}
-          <iframe src="https://www.youtube-nocookie.com/embed/{{ post.video_id }}" frameborder="0" allowfullscreen></iframe>
-        {% elsif post.video_provider == "google-drive" %}
-          <iframe src="https://drive.google.com/file/d/{{ post.video_id }}/preview" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
-        </div>
-        {% endif %}
-
-        <hr>
+  <hr>
 </div>
 
 
