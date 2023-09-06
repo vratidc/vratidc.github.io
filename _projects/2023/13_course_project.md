@@ -1,7 +1,7 @@
 ---
 title: "One Man’s Trash"
 team: "Arhan Sarkar | Sumeet Shridhar Birje | Abhishek Purushottam Kushwaha | Abhishek Yadav"
-tags: VR-Film
+tags: VR-Film Quest Mobile
 
 video_provider: "youtube"
 video_id:
