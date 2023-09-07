@@ -1,7 +1,7 @@
 ---
 title: "Ocean SOS"
 team: "Puja Saha | Muskan Bagaria | Pallavi Soni | Girish Kishore"
-tags: VR Quest Unity
+tags: AR Mobile Unity
 
 video_provider: "youtube"
 video_id:
