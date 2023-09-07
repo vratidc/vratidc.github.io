@@ -1,5 +1,5 @@
 ---
-title: "Interactions for Memories in VR"
+title: "Jar - Novel interactions for memories (data) in VR"
 team: "Muddu Venkata Deva Harsha Reddy | Anmol Kashyap | Vasa Padmanabham Sreenivasa Rao Padmaja Rani | Biswajit Das"
 tags: VR Quest Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_12.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: Jar is an immersive virtual reality (VR) experience. It's an attempt to explore a radicalized workspace layout moving away from the conventional 2D digital desktops and moving towards a physical desktop metaphor. The exploration involves new ways of visualizing and interacting with data. Jar can be thought of a space with containers having information inside. The goal is to provide its user the freedom to utilize the virtual space in personalizing data or their memories.
 
 
 project-link:

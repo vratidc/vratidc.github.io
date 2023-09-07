@@ -1,5 +1,5 @@
 ---
-title: "Sea Turtles"
+title: "Ocean SOS"
 team: "Puja Saha | Muskan Bagaria | Pallavi Soni | Girish Kishore"
 tags: VR Quest Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_10.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: OceanSOS is an augmented reality (AR) experience designed to bring awareness about the pressing issue of plastic pollution in our oceans. This project aims to engage and motivate people to actively support marine conservation and reduce plastic waste.
 
 
 project-link:

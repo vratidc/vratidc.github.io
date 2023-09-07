@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_7.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: Introducing We-Are-BnB, revolutionising property booking with immersive virtual tours. Prospective guests can explore the property's layout, design, and ambience from anywhere and can virtually visit multiple properties in a short amount of time. We-Are-BnB allows users to experience properties in their own way, exploring rooms, details, and amenities that matter most to them and reduces the likelihood of guests being disappointed upon arrival.
 
 
 project-link:

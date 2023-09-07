@@ -1,5 +1,5 @@
 ---
-title: "NexOS - Novel spatial interactions"
+title: "PopOS - Playful spatial interactions"
 team: "Sparsh Gupta | Prince Agarwal | Tarun Pahadiya | Karani Harsh Yogesh Meena"
 tags: VR Quest Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_5.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: PopOS is an attempt to explore amusing and playful interactions and apply them to basic functions of OS, like opening & closing applications/windows, accessing control panel settings and resizing of windows in a virtual space. The interactions are metaphorically drawn from pop culture, like Pokemon balls, Spiderman web shooting and Ironman’s left arm virtual control.
 
 
 project-link:

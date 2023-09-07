@@ -1,5 +1,5 @@
 ---
-title: "AR Mystery Game"
+title: "Gem Quest"
 team: "Pandit Shubham Pravin Sneha | Siladitya Samir | Aaron Chen Lepcha | Banasmita Das"
 tags: AR Mobile Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_16.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: Gem Quest is a mystery puzzle solving game using AR. More details coming soon ...
 
 
 project-link:

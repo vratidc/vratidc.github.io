@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_1.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: Fusion is an exploration of universal interactions that connect virtual and physical worlds. Fusion stands for file transfer and universal sync for immersive and other networks. More details coming soon ...
 
 
 project-link:

@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_3.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: EyeScape is an immersive VR experience of visual challenges. The user will be transported to spaces that force them to view the world through the lens of someone visually differently-abled. This experience is meant to evoke empathy as well as understanding for the people with these conditions. This experience will be helpful for those who care for individuals with these conditions as well as people who would like to understand their daily struggles.
 
 
 project-link:

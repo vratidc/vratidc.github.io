@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_8.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: VR SAFE is a virtual reality experience, in which users create and input passwords to unlock various elements. This project aims to explore the usability of password entry within a 3D virtual environment, utilising innovative interaction methods. The deliverable will include the analysis, focusing on usability, memorability, and feasibility.
 
 
 project-link:

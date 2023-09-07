@@ -1,5 +1,5 @@
 ---
-title: "AR Artwork"
+title: "CatLeap"
 team: "Pabboju Vaishnavi | Agnes Dora R | Khedekar Mansi Santosh | Pooja Kumari"
 tags: AR Mobile Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_6.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: Catleap is an augmented reality (AR) experiential artwork that immerses users in the vast and fascinating realm of interactive art. Midnight, a mysterious black cat who serves as your devoted friend and guide across the ages, is at the centre of this one-of-a-kind odyssey. It leaps its way across artworks inspired by great movements throughout history. When users activate the app and enter this captivating realm of augmented reality, they leave with an unforgettable experience.
 
 
 project-link:

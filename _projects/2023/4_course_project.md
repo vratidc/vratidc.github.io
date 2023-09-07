@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_4.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: ‘Go out of Stock’ is an AR visualisation project for bike enthusiasts who want to go beyond stock offerings. Using a network of tangible AR markers, users can toggle through and modify individual parts of a bike as it takes shape. The application uses the proximity of markers and their relative orientation with each other, to help toggle between and select different parts of a bike.
 
 
 project-link:

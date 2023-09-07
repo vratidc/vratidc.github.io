@@ -1,5 +1,5 @@
 ---
-title: "AR Accessories Try-on"
+title: "Virtual Try-on"
 team: "Pratyush Balaram | Shubham | Koyyana Sai Krishna | Sudhanshu Ranjan"
 tags: AR Mobile Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_9.jpg
 
-overview: Add a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: In the fast-evolving world of fashion and beauty, the AR Virtual Try-On App emerges as a groundbreaking solution, revolutionising the way consumers shop for clothing, accessories, and cosmetics. This innovation harnesses the power of Augmented Reality (AR) technology to create a seamless and immersive virtual shopping experience.
 
 
 project-link:

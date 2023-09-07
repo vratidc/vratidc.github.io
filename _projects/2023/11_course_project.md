@@ -1,5 +1,5 @@
 ---
-title: "Video Editing in MR"
+title: "EASE - Enhancing Application-Space Experience"
 team: "Sukesha Ghosh | Singh Suraj Dharmendra Kiran | Siva M U | Kumavat Sukhadev Taradevi"
 tags: VR Quest Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_11.jpg
 
-overview: AAdd a short description of your project here. Here, you can mention the type of application or game you have created. You may also mention the objectives of your project and the intent behind the concept. You can add specific details about the outcome, such as what the user will experience, in what medium and using what devices.
+overview: EASE is a prototype that aims to enhance the workspace of applications by providing access to tabs and other essential options in mixed reality (MR). It seamlessly syncs with real-time software, ensuring that your work is continuously saved on the real-world screen. This feature allows you to continue your work even after removing a headset.
 
 
 project-link:
