@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_16.jpg
 
-overview: Gem Quest is a mystery puzzle solving game using AR. More details coming soon ...
+overview: Gemquest reimagines the charm of traditional board games through AR. Designed as a single-player game (though shareable with friends), this is a mystery puzzle, requiring the player to solve clues. Drawing inspiration from jigsaw puzzles and mystery games, Gemquest presents a unique quest where players must unravel three clues to obtain a priceless ancient gem. This AR adventure employs physical map pieces as tangible markers, which the player will have to interact with. The player is tasked with selecting the correct combination of three map pieces. This selection unlocks a cryptic passcode, the key to unveiling the concealed gem, and signals the triumphant end of the game.
 
 
 project-link:
