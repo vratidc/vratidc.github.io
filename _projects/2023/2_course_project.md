@@ -1,7 +1,7 @@
 ---
 title: "शहAR: Town Builder"
 team: "Saloni Shetye | Mann Merchant | Lakshya Ranwan | Sharvil Survase | Sanat Prasad"
-tags: VR Quest Unity
+tags: AR Quest Unity
 
 video_provider: "youtube"
 video_id:

@@ -1,7 +1,7 @@
 ---
 title: "Fusion - Universal interactions for XR"
 team: "Vinay Kumar | Karan Tanna | Ankit Saroha | Abhinav S"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

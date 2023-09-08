@@ -1,7 +1,7 @@
 ---
 title: "EASE - Enhancing Application-Space Experience"
 team: "Sukesha Ghosh | Singh Suraj Dharmendra Kiran | Siva M U | Kumavat Sukhadev Taradevi"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

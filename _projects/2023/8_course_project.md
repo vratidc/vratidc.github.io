@@ -1,7 +1,7 @@
 ---
 title: "VR SAFE - Exploring password interactions in VR"
 team: "Shivani verma | Anisha Verma | Anjanesh Indranil | Yash H. Bharani"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

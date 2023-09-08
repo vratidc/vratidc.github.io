@@ -1,7 +1,7 @@
 ---
 title: "PopOS - Playful spatial interactions"
 team: "Sparsh Gupta | Prince Agarwal | Tarun Pahadiya | Karani Harsh Yogesh Meena"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:
