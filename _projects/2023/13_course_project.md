@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2023/course_project_13.jpg
 
-overview: Rags to Riches is a VR Film. Details coming soon ...
+overview: The story follows Babul, a young poet who, in a fit of frustration, discards his diary of poems. One day, his poems mysteriously resurface in an unexpected way. Babul grapples with regret as he witnesses his own work becoming famous.
 
 
 project-link:
