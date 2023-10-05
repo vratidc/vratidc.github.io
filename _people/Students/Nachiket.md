@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Nachiket Nanoty
-position: Master's Student (Interaction Design)
+position: Master's Student (Industrial Design)
 role: "student"
 date: 20231001
 header:
@@ -28,5 +28,5 @@ links:
 ---
 
 ## Nachiket Nanoty
-Master's Student - Interaction Design
+Master's Student - Industrial Design
 
