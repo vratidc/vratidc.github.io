@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "no"
 active: "no"
-date: 20220101
+date: 20231005
 
 header:
     teaser: /assets/img/projects/twma/twma-thumbnail.jpg
@@ -19,25 +19,44 @@ team_members: "Sanat Prasad | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/deathinthesuburbs
+
+gallery1:
+  - aspect: "16/9"
+    url:
+    image_path: /assets/img/projects/dits/image_1.png
+    alt: "Information card inside the AR story"
+    title: "Information card inside the AR story"
+  - aspect: "16/9"
+    url:
+    image_path: /assets/img/projects/dits/image_2.png
+    alt: "Final conclusion of the investigation"
+    title: "Final conclusion of the investigation"
+
+gallery2:
+  - aspect: "4/3"
+    url:
+    image_path: /assets/img/projects/dits/user_testing_gif_1.gif
+    alt: "Information card inside the AR story"
+    title: "Information card inside the AR story"
+  - aspect: "4/3"
+    url:
+    image_path: /assets/img/projects/dits/user_testing_gif_2.gif
+    alt: "Final conclusion of the investigation"
+    title: "Final conclusion of the investigation"
+
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/twma/twma_poster.jpg" alt="twma_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/dits/thumbnail.png" alt="twma_banner">
 </figure> 
 
-Till We Meet Again is a multi-storyline live-action VR film that was built with [Cinévoqué]({{ site.baseurl }}/projects/Cinevoque).
+## Introduction
 
-<br>
+‘Death in the Suburbs’ is an interactive 360° detective story, designed to place the user at the centre and make them feel like the detective conducting the investigation, rather than merely observing it as a bystander.
 
-## Abstract
+## Outcomes
 
-This film presents an emotional journey of a small family, as seen from the father's perspective. The user would be immersed in a space that is dear to the character, who is waiting for something or someone. Based on the users' point of view and attention to specific details within that space, the story unfolds. In addition to the 360° narrative, this film presents the user with a stereo 3D and spatial audio experience. The experience has six possible endings and eight storylines. 
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/twma/twma_narrative.jpg" alt="twma_narrative">
-  <figcaption>Branching structure of Till We Meet Again</figcaption>
-</figure> 
-
+The experience was prototyped on Wonda VR, and can be [accessed here](https://wvr.li/1ltg21){:target="_blank"}
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
@@ -51,100 +70,78 @@ This film presents an emotional journey of a small family, as seen from the fath
           <a id="myEnterARButton" href="#"></a>
   <a-assets>
             <!-- Images. -->
-    <img id="twma1" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_1.jpg">
-    <img id="twma3" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_3.jpg">
-    <img id="twma2" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_2.jpg">
-    <img id="twma4" src="{{ site.baseurl }}/assets/img/projects/twma/360_twma_4.jpg">
+    <img id="dits1" src="{{ site.baseurl }}/assets/img/projects/dits/360_dits_1.jpg">
+    <img id="dits2" src="{{ site.baseurl }}/assets/img/projects/dits/360_dits_2.jpg">
+    <img id="dits3" src="{{ site.baseurl }}/assets/img/projects/dits/360_dits_3.jpg">
+    <img id="dits4" src="{{ site.baseurl }}/assets/img/projects/dits/360_dits_4.jpg">
   </a-assets>
   <!-- 360-degree image. -->
-  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#twma1"></a-sky>
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 50000; easing: linear">
+        <a-sky class = "ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dits1"></a-sky>
     </a-entity>
   </a-scene>
     <div class = "vr_overlay">  
     <img src="/assets/img/360/360_icon.png">
     </div>
 </div>
+<figcaption>The 360° view of the rooms in Abhishek's apartment</figcaption>
 
-  <figcaption>360° screenshots of Till We Meet Again</figcaption>
+Abhishek, 24, is found dead in his apartment from an unusual neck wound. A private investigator, Sanjay Sharma, is called in to investigate the death. Sharma searches all the rooms of the apartment while questioning all three others who lived there with Abhishek. Each of them could potentially be the killer, and the user embodies Sharma as he combs through all the evidence to figure out who it was, and why.
 
-<br>
-Each storyline has a different genre and the storylines are completely unlike each other. 
+{% include video id="1kn5x9rbCha343ma_hktVl8U7pbJd2S2d" provider="google-drive" %}
+<figcaption>Prototype video - user interacting with the 360° detective story</figcaption>
+<br> 
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.baseurl }}/assets/img/projects/twma/endings.jpg" alt="twma_endings">
-  <figcaption>Possible storylines of Till We Meet Again</figcaption>
-</figure> 
+{% include gallery id="gallery1" caption="Clue card & final investigation conclusion" %}
 
-<br>
+## User testing
 
-## Outcomes
+{% include gallery id="gallery2" caption="User-testing with WondaVR" %}
 
-This work was presented as a demo at VRCAI 2019 in Brisbane, Australia. 
+The experience takes place within a virtual house, and the user has freedom to enter all the rooms and look around. The environment also contains hotspots that users can press to receive information through clue cards and audio. As with any investigation, the real clues are within a pool of irrelevant clues and red herrings, and the user has to decipher which ones are the real clues. They get to select which character they suspect before the truth is revealed.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/twma/twma_vrcai.jpg" alt="twma_vrcai">
-  <figcaption>Demo at VRCAI 2019</figcaption>
-</figure> 
+## Experience Structure
 
-<br>
-
-### **Publication**
-
-- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
-
+<img src="{{ site.baseurl }}/assets/img/projects/dits/experience_structure.png">
 
 <script>
 
     var slideIndex = 0;
     ARcarousel();
+    
+    function ARcarousel() {
+      var i;
+        var x = document.getElementsByClassName("ARcarousel");
+        var p = document.querySelector('a-sky');
+        
+      slideIndex++;
+        
+      if (slideIndex > 4) 
+      {
+          slideIndex = 1;
+      }
+        
+        if(slideIndex == 1)
+            {
+                p.setAttribute('src','#dits1');
+            }
+        else
+        if(slideIndex == 2)
+            {
+                p.setAttribute('src','#dits2');
+            }
+        else
+        if(slideIndex == 3)
+            {
+                p.setAttribute('src','#dits3');
+            }
+        else
+        if(slideIndex == 4)
+            {
+                p.setAttribute('src','#dits4');
+            }
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "inline";
-  setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-    
-function ARcarousel() {
-  var i;
-    var x = document.getElementsByClassName("ARcarousel");
-    var p = document.querySelector('a-sky');
-    
-  slideIndex++;
-    
-  if (slideIndex > 4) 
-  {
-      slideIndex = 1;
-  }
-    
-    if(slideIndex == 1)
-        {
-            p.setAttribute('src','#twma1');
-        }
-    else
-    if(slideIndex == 2)
-        {
-            p.setAttribute('src','#twma3');
-        }
-    else
-    if(slideIndex == 3)
-        {
-            p.setAttribute('src','#twma2');
-        }
-    else
-    if(slideIndex == 4)
-        {
-            p.setAttribute('src','#twma4');
-        }
-
-  setTimeout(ARcarousel, 7000); // Change image every few seconds
-}
+      setTimeout(ARcarousel, 7000); // Change image every 7 seconds
+    }
 
 </script>
-  
