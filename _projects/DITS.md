@@ -4,13 +4,13 @@ excerpt: Interactive 360° Immersive Mystery Story
 layout: projects   
 selected: "false"
 homepage: "false"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
 date: 20231005
 
 header:
-    teaser: /assets/img/projects/twma/twma-thumbnail.jpg
-tags: VR-Film Storytelling  
+    teaser: /assets/img/projects/dits/dits_thumbnail.jpg
+tags: VR-Film Storytelling
 
 banner_image1:
 banner_image1_caption:
@@ -22,41 +22,40 @@ permalink: projects/deathinthesuburbs
 
 gallery1:
   - aspect: "16/9"
-    url:
+    url: /assets/img/projects/dits/image_1.png
     image_path: /assets/img/projects/dits/image_1.png
-    alt: "Information card inside the AR story"
-    title: "Information card inside the AR story"
+    alt: "Information card inside the story"
+    title: "Information card inside the story"
   - aspect: "16/9"
-    url:
+    url: /assets/img/projects/dits/image_2.png
     image_path: /assets/img/projects/dits/image_2.png
-    alt: "Final conclusion of the investigation"
-    title: "Final conclusion of the investigation"
+    alt: "Conclusion of the investigation"
+    title: "Conclusion of the investigation"
 
 gallery2:
   - aspect: "4/3"
     url:
-    image_path: /assets/img/projects/dits/user_testing_gif_1.gif
-    alt: "Information card inside the AR story"
-    title: "Information card inside the AR story"
+    image_path: /assets/img/projects/dits/user_testing_1.gif
+    alt: "user testing"
+    title: "user testing"
   - aspect: "4/3"
     url:
-    image_path: /assets/img/projects/dits/user_testing_gif_2.gif
-    alt: "Final conclusion of the investigation"
-    title: "Final conclusion of the investigation"
+    image_path: /assets/img/projects/dits/user_testing_2.gif
+    alt: "user testing"
+    title: "user testing"
 
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/dits/thumbnail.png" alt="twma_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/dits/dits_banner.jpg" alt="twma_banner">
 </figure> 
 
-## Introduction
+‘Death in the Suburbs’ is an interactive 360° detective story, designed to place the user at the centre of the crime scene and make them feel like the detective conducting the investigation, rather than merely observing the events as a bystander.
+<br><br>
 
-‘Death in the Suburbs’ is an interactive 360° detective story, designed to place the user at the centre and make them feel like the detective conducting the investigation, rather than merely observing it as a bystander.
+## Premise
 
-## Outcomes
-
-The experience was prototyped on Wonda VR, and can be [accessed here](https://wvr.li/1ltg21){:target="_blank"}
+Abhishek, 24, is found dead in his apartment from an unusual neck wound. A private investigator, Sanjay Sharma, is called in to investigate the death. Sharma searches all the rooms of the apartment while questioning all three others who lived there with Abhishek. Each of them could potentially be the killer, and the user embodies Sharma as he combs through all the evidence to figure out who it was, and why.
 
 <!-- 360-degree image embed. -->
 <div class = "vr_single">
@@ -85,24 +84,33 @@ The experience was prototyped on Wonda VR, and can be [accessed here](https://wv
     </div>
 </div>
 <figcaption>The 360° view of the rooms in Abhishek's apartment</figcaption>
+<br>
 
-Abhishek, 24, is found dead in his apartment from an unusual neck wound. A private investigator, Sanjay Sharma, is called in to investigate the death. Sharma searches all the rooms of the apartment while questioning all three others who lived there with Abhishek. Each of them could potentially be the killer, and the user embodies Sharma as he combs through all the evidence to figure out who it was, and why.
+## Experience
+
+The experience of the narrative was prototyped on Wonda VR, and can be accessed here:
+<br><br>
+<span style="background-color:#FEEAA7; padding:10px; border-radius:15px;"><b><a href="https://wvr.li/1ltg21" target="_blank" style="color:#008054;">Death in the Suburbs <i class="fas fa-link"></i></a></b></span>
+<br><br>
 
 {% include video id="1kn5x9rbCha343ma_hktVl8U7pbJd2S2d" provider="google-drive" %}
 <figcaption>Prototype video - user interacting with the 360° detective story</figcaption>
 <br> 
 
-{% include gallery id="gallery1" caption="Clue card & final investigation conclusion" %}
+The experience takes place within a virtual house, and the user has freedom to enter all the rooms and look around. The environment also contains hotspots that users can press to receive information through clue cards and audio. As with any investigation, the real clues are within a pool of irrelevant clues and red herrings, and the user has to decipher which ones are the real clues. They get to select which character they suspect before the truth is revealed.
+
+{% include gallery id="gallery1" caption="Screenshots from the experience" %}
+
+
+## Narrative Structure
+
+<img src="{{ site.baseurl }}/assets/img/projects/dits/experience_structure.png">
+
 
 ## User testing
 
 {% include gallery id="gallery2" caption="User-testing with WondaVR" %}
 
-The experience takes place within a virtual house, and the user has freedom to enter all the rooms and look around. The environment also contains hotspots that users can press to receive information through clue cards and audio. As with any investigation, the real clues are within a pool of irrelevant clues and red herrings, and the user has to decipher which ones are the real clues. They get to select which character they suspect before the truth is revealed.
-
-## Experience Structure
-
-<img src="{{ site.baseurl }}/assets/img/projects/dits/experience_structure.png">
 
 <script>
 
@@ -123,22 +131,17 @@ The experience takes place within a virtual house, and the user has freedom to e
         
         if(slideIndex == 1)
             {
-                p.setAttribute('src','#dits1');
+                p.setAttribute('src','#dits4');
             }
         else
         if(slideIndex == 2)
             {
-                p.setAttribute('src','#dits2');
+                p.setAttribute('src','#dits3');
             }
         else
         if(slideIndex == 3)
             {
-                p.setAttribute('src','#dits3');
-            }
-        else
-        if(slideIndex == 4)
-            {
-                p.setAttribute('src','#dits4');
+                p.setAttribute('src','#dits2');
             }
 
       setTimeout(ARcarousel, 7000); // Change image every 7 seconds
