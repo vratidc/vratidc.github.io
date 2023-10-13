@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Exploring AI Tools for Visual Narratives"
+     date: "22/09/2023"
+     active: "yes"
+     content: "Outcomes of the course 'Media Technology' - Autumn 2023"
+     link: /de621-course-2023
+     teaser: /assets/img/updates/icon_media-tech.jpg
+     fullpage: "yes"
    - title: "Project Showcase 2023 - Design for VR"
      date: "08/09/2023"
      active: "yes"
