@@ -34,8 +34,7 @@ gallery1:
 ---
 
 <figure class="align-center" style="width:100%;">
-  {% include video id="FhA2svVtDHk" provider="youtube" %}
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_banner.jpg" alt="A remote AR session">
+  {% include video id="_9cq1qVikcU" provider="youtube" %}
 </figure> 
 
 Hoping to address some of the challenges imposed by the pandemic on education, we have been adapting our work on the [ScholAR](/projects/scholar){:target="_blank"} project (that focused on physical classrooms) to better support remote learning. While doing so, we have also been presented with interesting design challenges that extend beyond educational use cases, as not much research has explored the use of mobile AR to enable remote collaboration.
