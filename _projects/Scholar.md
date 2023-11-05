@@ -147,7 +147,7 @@ Our work has generated interest in the annual TATA conference held at IITB every
 
 - Sarkar P., Sakhardande P., Oza U. and Pillai, J.S. (2019). Study of Augmented Reality Interaction Mediums towards Collaboratively Solving Open-Ended Problems, in: 27th International Conference on Computers in Education (ICCE2019), Dec2019, Kenting, Taiwan.
 
-- Sarkar P. and Pillai, J.S. (2019). User Expectations of Augmented Reality Experience in Indian School Education, in: International Conference on Research into Design (ICoRD) 2019, IISc Bangalore, India.
+- Sarkar P. and Pillai J.S. (2019). User Expectations of Augmented Reality Experience in Indian School Education, in: International Conference on Research into Design (ICoRD) 2019, IISc Bangalore, India.
 
 - Sarkar P., Pillai J.S. and Gupta A., (2018). ScholAR: A Collaborative Learning Experience for Rural Schools Using Augmented Reality Application, in: Technology for Education (T4E 2018), IIT Madras, India.
 
