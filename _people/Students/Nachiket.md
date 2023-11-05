@@ -17,7 +17,7 @@ links:
       url: "mailto:23m2236@iitb.ac.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://nachiketnanoty.webflow.io"
+      url: "https://nachiketnanoty.com"
     - label: "Portfolio"
       icon: "fab fa-fw fa-behance"
       url: "https://www.behance.net/nachiketnanoty"
