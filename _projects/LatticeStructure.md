@@ -1,5 +1,5 @@
 ---
-title:  "Lattice Structure"
+title:  "Lattice Structure in AR"
 excerpt: Tangible AR Application
 layout: projects
 selected: "false"
