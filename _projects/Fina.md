@@ -14,7 +14,7 @@ tags: AR VR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Amarnath Murugan | Rishi Vanukuru | Amal Dev | Pratiti Sarkar | Jayesh Pillai"
+team_members: "<strong>Current Members</strong> : Atish Waghwase | Prafulla Chandra GS | Cherian Jeremiah Iype | Apoorv Anurag"
 team_members_align: "text-left"
 
 permalink: projects/fina
@@ -22,13 +22,13 @@ permalink: projects/fina
 
 gallery1:
   - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen1.gif
-    alt: "Social AR 1"
-    title: "Social AR 1"
+    image_path: /assets/img/projects/socialAR/Hand Tracking Possiblities Fina.gif
+    alt: "Fina 1"
+    title: "Fina 1"
   - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen2.gif
-    alt: "Social AR 2"
-    title: "Social AR 2"
+    image_path: /assets/img/projects/socialAR/Ray Casting Kebab Fina.gif
+    alt: "Fina 2"
+    title: "Fina 2"
 
 
 ---
@@ -37,17 +37,15 @@ gallery1:
   {% include video id="_9cq1qVikcU" provider="youtube" %}
 </figure> 
 
-Hoping to address some of the challenges imposed by the pandemic on education, we have been adapting our work on the [ScholAR](/projects/scholar){:target="_blank"} project (that focused on physical classrooms) to better support remote learning. While doing so, we have also been presented with interesting design challenges that extend beyond educational use cases, as not much research has explored the use of mobile AR to enable remote collaboration.
+Given that UI in popular VR headsests still uses raycasting as the default interaction method, we imagine, prototype and showcase how interactions can be made more tangible and literal by utilising full hand tracking by designing a file management scenario.
 
 <br>
 
 ## Introduction
 
-The COVID-19 pandemic has forced all communication online, and video conferencing is currently the primary tool for synchronous remote activities. While the medium has improved considerably over the course of the lockdown, video calls sorely lack the spatial and social dynamics of physical, in-person interactions. This problem is addressed to some extent by more immersive alternatives that make use of head-mounted Virtual and Augmented Reality displays, but such options are still quite inaccessible and unscalable at present.
+As technology is improving, hand-tracking is getting more robust and reliable enough to be implemented on mobile standalone devices with sparse sensors such as the Meta Quest 2. Hand-tracking is a huge leap in immersion and interaction as it breaks extra layer of controller mapping; instead of the user interacting with the controller and the controller affecting the visuals, we can now directly interact and affect the visuals directly using our hands.
 
-Mobile Augmented Reality could serve as an ideal midpoint--a medium that can support some of the spatial, immersive interactions in more high fidelity XR experiences, while also being available to many more people, given the increasing number of mobile devices that are capable of markerless AR.
-
-Through this project, we are exploring the use of mobile social AR experiences to support remote learning and collaboration. 
+Raycasting is the most common UI interaction technique in virtual reality in 2022. It resembles real-life pointing with a laser pointer - the user points a ray of light at the target and confirms its selection by pressing a button on the controller - not unlike a traditional computer mouse. Mouse interactions are bound by physical and technical constraints, but VR interactions don’t have to be.
 
 {% include gallery id="gallery1" caption="IDC Students using our first prototype" %}
 
