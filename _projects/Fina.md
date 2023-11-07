@@ -22,11 +22,11 @@ permalink: projects/fina
 
 gallery1:
   - url: 
-    image_path: /assets/img/projects/socialAR/Hand Tracking Possiblities Fina.gif
+    image_path: /assets/img/projects/socialAR/Hand_Tracking_Possiblities_Fina.gif
     alt: "Fina 1"
     title: "Fina 1"
   - url: 
-    image_path: /assets/img/projects/socialAR/Ray Casting Kebab Fina.gif
+    image_path: /assets/img/projects/socialAR/Ray_Casting_Kebab_Fina.gif
     alt: "Fina 2"
     title: "Fina 2"
 
