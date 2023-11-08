@@ -32,13 +32,9 @@ gallery1:
 
 gallery2:
   - url: 
-    image_path: /assets/img/projects/fina/fina8
+    image_path: /assets/img/projects/fina/fina8.svg
     alt: "Fina 10"
     title: "Fina 10"
-  - url: 
-    image_path: /assets/img/projects/fina/fina9
-    alt: "Fina 11"
-    title: "Fina 11"
 
 ---
 
@@ -49,7 +45,7 @@ gallery2:
 Given that UI in popular VR headsests still uses raycasting as the default interaction method, we imagine, prototype and showcase how interactions can be made more tangible and literal by utilising full hand tracking by designing a file management scenario.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina11.png" alt="fina13">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina11.jpg" alt="fina13">
   <figcaption> </figcaption>
 </figure>
 
@@ -98,13 +94,13 @@ When displaying text-based interfaces, a rectilinear layout is the most practica
 Pinch an item and pull it towards you to select it. To select multiple files, pinch and pull each file that you want to select. All selected files will stay on the Active Plane.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina2.png" alt="fina4">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina2.gif" alt="fina4">
 </figure>
 
 Grabbing the selection on the Active Plane will collate the into a stack. You can move this stack to a new location.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina3.png" alt="fina5">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina3.gif" alt="fina5">
 </figure>
 
 ### Selecting a range
@@ -112,7 +108,7 @@ Grabbing the selection on the Active Plane will collate the into a stack. You ca
 Pinch and pull the first file of the range to be selected. Without letting go, pinch and pull the last file of the range to select all the files in between the two.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina4.png" alt="fina6">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina4.gif" alt="fina6">
 </figure>
 
 ### Moving files to clipboard
@@ -120,7 +116,7 @@ Pinch and pull the first file of the range to be selected. Without letting go, p
 You can move the stack near the Clipboard and release to move the files to the clipboard. The files will no longer remain in the parent folder.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina5.png" alt="fina7">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina5.gif" alt="fina7">
 </figure>
 
 ### Copying files to clipboard
@@ -128,7 +124,7 @@ You can move the stack near the Clipboard and release to move the files to the c
 While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack. You can drop the copied stack onto the Clipboard and release the original stack.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina6.png" alt="fina8">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina6.gif" alt="fina8">
 </figure>
 
 ### Deleting a selection
@@ -136,7 +132,7 @@ While grabbing the stack with one hand, grab the newly created Duplicate prompt 
 WLook down to open the Delete Portal. If you hover a file or a stack directly above it and let go, it will get sucked into the portal and get deleted.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina7.png" alt="fina9">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina7.gif" alt="fina9">
 </figure>
 
 <br>
@@ -164,7 +160,7 @@ Deleting files should require confirmation from the user such as a ‘Are you su
 We designed an early proof of concept to experience interactions in 3D using Gravity Sketch — a VR 3D modelling tool. This was used to get initial feedback on the interactions.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.png" alt="fina12">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.gif" alt="fina12">
   <figcaption>Exhibition at IDC School of Design, September 2022.</figcaption>
 </figure>
 
