@@ -93,26 +93,6 @@ When displaying text-based interfaces, a rectilinear layout is the most practica
 
 ## Interactions
 
-<!-- <div class="ulist" markdown="1">
-- **Selecting individual files:** Pinch an item and pull it towards you to select it. To select multiple files, pinch and pull each file that you want to select. All selected files will stay on the Active Plane.
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina2.png" alt="fina4">
-</figure>
-
-- Grabbing the selection on the Active Plane will collate the into a stack. You can move this stack to a new location.
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina3.png" alt="fina5">
-</figure>
-
-- **Selecting a range:** Pinch and pull the first file of the range to be selected. Without letting go, pinch and pull the last file of the range to select all the files in between the two.
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina4.png" alt="fina6">
-</figure>
-</div> -->
-
 ### Selecting individual files
 
 Pinch an item and pull it towards you to select it. To select multiple files, pinch and pull each file that you want to select. All selected files will stay on the Active Plane.
@@ -187,8 +167,6 @@ We designed an early proof of concept to experience interactions in 3D using Gra
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.png" alt="fina12">
   <figcaption>Exhibition at IDC School of Design, September 2022.</figcaption>
 </figure>
-
-<!-- - Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press) -->
 
 
 
