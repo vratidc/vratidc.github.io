@@ -22,11 +22,11 @@ permalink: projects/fina
 
 gallery1:
   - url: 
-    image_path: /assets/img/projects/socialAR/Hand_Tracking_Possiblities_Fina.gif
+    image_path: /assets/img/projects/fina/Hand_Tracking_Possiblities_Fina.gif
     alt: "Fina 1"
     title: "Fina 1"
   - url: 
-    image_path: /assets/img/projects/socialAR/Ray_Casting_Kebab_Fina.gif
+    image_path: /assets/img/projects/fina/Ray_Casting_Kebab_Fina.gif
     alt: "Fina 2"
     title: "Fina 2"
 
@@ -47,37 +47,47 @@ As technology is improving, hand-tracking is getting more robust and reliable en
 
 Raycasting is the most common UI interaction technique in virtual reality in 2022. It resembles real-life pointing with a laser pointer - the user points a ray of light at the target and confirms its selection by pressing a button on the controller - not unlike a traditional computer mouse. Mouse interactions are bound by physical and technical constraints, but VR interactions don’t have to be.
 
-{% include gallery id="gallery1" caption="IDC Students using our first prototype" %}
+<br>
 
-As an offshoot from the ScholAR project, our first prototype focused on creating a virtual classroom where the teacher is able to control a shared AR artefact and teach concepts to students who are spatially present in the virtual space. Visual cues & spatial audio were added to give a better sense of other users' relative position. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges that arise as a consequence. 
+### Raycasting in File Management
 
-{% include video id="FhA2svVtDHk" provider="youtube" %}
-<figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
-<br> 
+File management in the Meta Quest 2 is currently almost exactly the way it would be on a 2D touchscreen device. Notice the presence of kebab menus for basic tasks like delete and the lack of basic tasks like move or copy.
 
-## Research Directions
+{% include gallery id="gallery1" caption="The Raycasting interaction method. Source: Meta.com" %}
 
-While there is a huge body of work on collaboration and remote communication in mixed and virtual reality, their design ideas and findings may not be directly applicable to mobile AR, due to its lower level of immersion, and the affordances of the technology itself. From our initial tests, we have identified the following directions to focus on, in order to establish guidelines for creating better mobile social AR experiences.
 
-<div class="ulist" markdown="1">
-- **Social Presence:** This refers to the extent to which a user feels that another person is actually 'present' in a shared virtual space. Higher social presence is important for the participants to establish a rapport and communicate effectively. We plan to compare the level of social presence in mobile AR and other mediums of communication.
+## File Management
 
-- **Representation:** The characteristics of the avatar used in a virtual space also influence the possible interactions in that space. The challenge in the case of mobile AR is that the only information available to gauge a user's pose is the handheld device's position and orientation, as opposed to their head's position & orientation when using Head Mounted Displays (which might also have individual controllers for each hand). We explore an avatar space that compares avatars that vary both in visual and behavioural fidelity to understand how they affect perception and presence.
+### Let's not reinvent the wheel
+
+When displaying text-based interfaces, a rectilinear layout is the most practical and efficient way to organise elements. So, if we are to design a truly immersive experience that remains usable and efficient, we need to follow some guidelines of 2D design. A 3 dimensional, 6 degrees of freedom interface would be fun to conceptualize but would also probably be extremely unusable with larger organizational systems.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\socialAR\avatarspacereduced.png" alt="ScholAR School">
-  <figcaption>Proposed avatar space</figcaption>
-</figure> 
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina1.png" alt="fina3">
+  <figcaption>We designed a 2.5D interface — two-dimensional UI with an additional interactive plane on top</figcaption>
+</figure>
 
-- **Interaction techniques:** Having a shared virtual space in mobile AR brings up new challenges in handling interactions. For example, identifying metaphors for disabling audio and video, personal chat, among breakout rooms among others.
+### Our two core interactions are —
 
-- **Applications to Education:** The goal of recreating a classroom through AR is central to this project, so we will be investigating the efficacy of this medium in comparison to the status quo of group video calls, and attempt to identify topics and scenarios best suited for such an AR platform.
+<div class="ulist" markdown="1">
+- **Pinching:** Pinching is the act of picking a single object — making a precise choice — so we used it as a metaphor for selecting and manipulating individual items.
 
+- **Grabbing:** Grabbing is done to grasp larger objects, maybe to command objects to compress or fall together. Thus, we used grabbing as a metaphor to manipulate a group of multiple files.
 </div>
 
-## Publications
+<br>
 
-- Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press)
+## Interactions
+
+### Selecting individual files
+
+Pinch an item and pull it towards you to select it. To select multiple files, pinch and pull each file that you want to select. All selected files will stay on the Active Plane.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina2.png" alt="fina4">
+</figure>
+
+<!-- - Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press) -->
 
 
 
