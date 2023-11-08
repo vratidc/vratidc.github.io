@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
+    teaser: /assets/img/projects/fina/fina1.png
 tags: AR VR Research
 
 banner_image1: 
@@ -48,8 +48,6 @@ Given that UI in popular VR headsests still uses raycasting as the default inter
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina11.jpg" alt="fina13">
   <figcaption> </figcaption>
 </figure>
-
-<br>
 
 ## Introduction
 
