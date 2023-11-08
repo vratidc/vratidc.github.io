@@ -164,6 +164,25 @@ The interaction for creating a copy was inspired from Mitosis — the process of
 
 However, as this Interaction A wasn’t immediatly evident to users, we iteratively arrived at Interaction B which spawns a copy of the file when you grab the Copy prompt. This had the essence of the first interaction but gave a clear prompt and can also be implemented for other contextual menu options.
 
+### Clipboard Semantics
+
+A traditional clipboard works by referencing the location of files. When you press Paste, it either moves or duplicates the file depending on the initial action. The conceptual model we wanted to build was more like a temporary folder — the action of dropping a file onto the clipboard moves the actual file to it. The user can choose to duplicate the file before moving it to the clipboard.  We believe this will generate a clearer mental model and work with our interactions better.
+
+### Delete Mechanism
+
+Deleting files should require confirmation from the user such as a ‘Are you sure you want to delete?’ prompt. It should essentially be a two-step process to avoid accidental deletion of files. We added an extra step to the process — the Delete Portal doesn’t open unless it is in your view, unless you actively look down — so files won’t get deleted if you accidently let go of them above the portal.
+
+<br>
+
+## Exhibition
+
+We designed an early proof of concept to experience interactions in 3D using Gravity Sketch — a VR 3D modelling tool. This was used to get initial feedback on the interactions.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.png" alt="fina12">
+  <figcaption>Exhibition at IDC School of Design, September 2022.</figcaption>
+</figure>
+
 <!-- - Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press) -->
 
 
