@@ -48,6 +48,11 @@ gallery2:
 
 Given that UI in popular VR headsests still uses raycasting as the default interaction method, we imagine, prototype and showcase how interactions can be made more tangible and literal by utilising full hand tracking by designing a file management scenario.
 
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina11.png" alt="fina13">
+  <figcaption> </figcaption>
+</figure>
+
 <br>
 
 ## Introduction
