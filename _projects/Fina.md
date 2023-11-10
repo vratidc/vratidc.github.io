@@ -14,7 +14,7 @@ tags: AR VR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Atish Waghwase | Prafulla Chandra GS | Cherian Jeremiah Iype | Apoorv Anurag"
+team_members: "Atish Waghwase | Prafulla Chandra GS | Cherian Jeremiah Iype | Apoorv Anurag"
 team_members_align: "text-left"
 
 permalink: projects/fina

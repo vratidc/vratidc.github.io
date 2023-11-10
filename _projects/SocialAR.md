@@ -14,7 +14,7 @@ tags: AR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Amarnath Murugan | Rishi Vanukuru | Amal Dev | Pratiti Sarkar | Jayesh Pillai"
+team_members: "Amarnath Murugan | Rishi Vanukuru | Amal Dev | Pratiti Sarkar | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/mobilesocialar
