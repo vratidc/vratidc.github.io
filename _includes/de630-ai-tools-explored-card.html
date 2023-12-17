@@ -28,11 +28,17 @@
     justify-content: center;
     align-items: center;
   }
-  .ai-tools-explored .tags {
+  .ai-tools-explored .tags-slot {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  .ai-tools-explored .tag {
     padding: 8px 16px;
+    margin: 8px 8px 0 0;
     background: lightgrey;
-    font-weight: 800;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 12px;
     border-radius: 8px;
     color: rgba(0, 0, 0, 0.75); /* 75% opacity */
   }
@@ -54,6 +60,11 @@
 <div onclick="window.open('{{ include.toolLink }}', '_blank');"  class="ai-tools-explored-card">
     <div class="card-link-icon"><i class="fas fa-external-link-alt"></i></div>
     <h4 class="ai-tools-explored-slot1">{{ include.toolName }}</h4>
-    <span class="tags"> {{ include.toolTags }} </span>
+    <div class="tags-slot">
+      {% assign toolTagsArray = include.toolTags | split: ',' %}
+      {% for tag in toolTagsArray %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
     <a class="ai-tools-explored-slot3" target="_blank" onclick="event.stopPropagation();" href="{{ include.explorationsLink }}" > Explorations by {{ include.authorName }} <i class="fas fa-link"></i></a>
 </div>
