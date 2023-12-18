@@ -1,3 +1,17 @@
+<!--
+parameters
+- topic
+- authors
+- tools
+- banner
+- description
+- gallery [optional]
+- gallerycaption [optional]
+- productlink
+- productlink2 [optional]
+- docslink [optional]
+- omitfinalhr [optional][default: false]
+-->
 <style>
   .project-authors {
     padding: 0px 0px 4px 0px; 
@@ -48,8 +62,20 @@
 
 {{include.description}}
 
-{% if include.gallery && include.gallerycaption%}
-  {% include flexgallery id=include.gallery caption=include.gallerycaption %}
+{% if include.gallery %}
+  {% if include.caption %}
+    {% assign captionText = include.caption %}
+  {% else %}
+    {% assign captionText = "Images from the project" %}
+  {% endif %}
+  {% include flexgallery id=include.gallery caption=captionText %}
+{% endif %}
+
+{% if include.figure %}
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}{{ include.figure }}" alt="Banner Image" style="object-fit: cover;">
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
 {% endif %}
 
 <!-- links -->
