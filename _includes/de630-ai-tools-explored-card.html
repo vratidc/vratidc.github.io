@@ -2,9 +2,12 @@
     .ai-tools-explored-card {
     transition: all 0.3s;
     margin: 10px;
-    padding: 8px 12px 16px 12px;
+    padding: 12px;
     border-radius: 10px;
     border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .ai-tools-explored-card:hover {
     background-color: #f5f5f5;
@@ -34,7 +37,7 @@
     margin-top: 8px;
   }
   .ai-tools-explored .tag {
-    padding: 8px 16px;
+    padding: 8px 12px;
     margin: 8px 8px 0 0;
     background: lightgrey;
     font-weight: bold;
@@ -54,10 +57,10 @@
     margin-top: 16px;
     font-size: 18px;
     text-decoration: none;
-    z-index: 20;
   }
 </style>
 <div onclick="window.open('{{ include.toolLink }}', '_blank');"  class="ai-tools-explored-card">
+  <div>
     <div class="card-link-icon"><i class="fas fa-external-link-alt"></i></div>
     <h4 class="ai-tools-explored-slot1">{{ include.toolName }}</h4>
     <div class="tags-slot">
@@ -66,5 +69,6 @@
         <span class="tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    <a class="ai-tools-explored-slot3" target="_blank" onclick="event.stopPropagation();" href="{{ include.explorationsLink }}" > Explorations by {{ include.authorName }} <i class="fas fa-link"></i></a>
+  </div>
+  <a class="ai-tools-explored-slot3" target="_blank" onclick="event.stopPropagation();" href="{{ include.explorationsLink }}" > Explorations by {{ include.authorName }} <i class="fas fa-link"></i></a>
 </div>
