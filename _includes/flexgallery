@@ -6,8 +6,8 @@
   {% assign flexgallery = page.flexgallery %}
 {% endif %}
 
-<figure>
-  <div class = "flex_row" style="display:flex">
+<figure style="justify-content: center;">
+  <div class = "flex_row" style="display:flex;">
   {% assign imgCount = 1 %}
   {% for img in flexgallery %}
     {% if imgCount >= flexgallery.size or img.end_row == "true" %}

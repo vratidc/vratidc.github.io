@@ -12,7 +12,7 @@ header:
 overview: Catleap is an augmented reality (AR) experiential artwork that immerses users in the vast and fascinating realm of interactive art. Midnight, a mysterious black cat who serves as your devoted friend and guide across the ages, is at the centre of this one-of-a-kind odyssey. It leaps its way across artworks inspired by great movements throughout history. When users activate the app and enter this captivating realm of augmented reality, they leave with an unforgettable experience.
 
 
-project-link:
+project-link: https://www.behance.net/gallery/184462633/Art-Exhibit-enhanced-with-AR
 
 active: "yes"
 type: "course"

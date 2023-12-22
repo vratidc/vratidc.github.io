@@ -1,0 +1,117 @@
+<!--
+parameters
+- topic
+- authors
+- tools
+- banner
+- description
+- gallery [optional]
+- gallerycaption [optional]
+- productlink
+- productlink2 [optional]
+- docslink [optional]
+- omitfinalhr [optional][default: false]
+-->
+<style>
+  .project-authors {
+    padding: 0px 0px 4px 0px; 
+    background-color: #eeeeee; 
+    color: #444444; 
+    border-radius: 7px;
+  }
+  .project-tools {
+    color: #999999; 
+    border-radius: 7px;
+  }
+  .project-links {
+    display: flex;
+    font-size:17px;
+  }
+  .project-links .primary-link {
+    background-color:#008054; 
+    padding:10px 16px; 
+    border-radius:15px;
+  }
+  .project-links .secondary-link {
+    background-color:#FEEAA7; 
+    padding:10px 16px; 
+    margin-left: 10px; 
+    border-radius:15px;
+  }
+</style>
+
+## {{ include.topic }}
+
+<!-- project authors -->
+
+<p style="margin: 0px">
+  <span class="project-authors"> 
+    <small>&nbsp;&nbsp;{{include.authors}}&nbsp;&nbsp;</small>
+  </span>
+</p>
+
+<span class="project-tools"> <small>+ {{include.tools}}</small> </span>
+
+<!-- project banner -->
+
+<figure class="align-center" style="width:100%;">
+<img src="{{ site.url }}{{ site.baseurl }}{{ include.banner }}" alt="Banner Image">
+</figure>
+
+<!-- description -->
+
+{{include.description}}
+
+{% if include.gallery %}
+  {% if include.caption %}
+    {% assign captionText = include.caption %}
+  {% else %}
+    {% assign captionText = "Images from the project" %}
+  {% endif %}
+  {% include flexgallery id=include.gallery caption=captionText %}
+{% endif %}
+
+{% if include.figure %}
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}{{ include.figure }}" alt="Banner Image" style="object-fit: cover;">
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% endif %}
+
+<!-- links -->
+
+<div class="project-links">
+{% if include.productlink %}
+  <span class="primary-link">
+    <b>
+      <a href="{{include.productlink}}" target="_blank" style="color:#FEEAA7;">
+      Go to project <i class="fas fa-link"></i>
+      </a>
+    </b>
+  </span>
+{% endif %}
+{% if include.productlink2 %}
+  <span class="primary-link" style="margin-left: 10px;">
+    <b>
+      <a href="{{include.productlink2}}" target="_blank" style="color:#FEEAA7;">
+      Go to project 2 <i class="fas fa-link"></i>
+      </a>
+    </b>
+  </span>
+{% endif %}
+{% if include.doclink %}
+  <span class="secondary-link">
+    <b>
+      <a href="{{include.doclink}}" target="_blank" style="color:#008054;">
+        Documentation <i class="fas fa-link"></i>
+      </a>
+    </b>
+  </span>
+  {% endif %}
+</div>
+{% if include.omitfinalhr %}
+{%- else -%}
+<br>
+<hr class="light-horizontal-rule" >
+{% endif %}
+<br>

@@ -12,7 +12,7 @@ header:
 overview: ‘Go out of Stock’ is an AR visualisation project for bike enthusiasts who want to go beyond stock offerings. Using a network of tangible AR markers, users can toggle through and modify individual parts of a bike as it takes shape. The application uses the proximity of markers and their relative orientation with each other, to help toggle between and select different parts of a bike.
 
 
-project-link:
+project-link: https://www.behance.net/gallery/184215435/AR-Bike-Customizer
 
 active: "yes"
 type: "course"
