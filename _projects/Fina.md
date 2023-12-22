@@ -4,8 +4,8 @@ excerpt: Real-Time VR Film
 layout: projects
 selected: "false"
 homepage: "false"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/fina/fina1.png
