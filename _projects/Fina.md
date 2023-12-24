@@ -9,7 +9,7 @@ active: "yes"
 
 header:
     teaser: /assets/img/projects/fina/fina1.png
-tags: AR VR Research
+tags: VR Research
 
 banner_image1: 
 banner_image1_caption:
