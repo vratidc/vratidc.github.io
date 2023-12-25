@@ -5,7 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "yes"
+active: "no"
 
 header:
     teaser: /assets/img/projects/WhenItRains/wirMain.jpeg
