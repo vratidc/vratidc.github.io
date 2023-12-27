@@ -1,6 +1,6 @@
 ---
-title:  "When it Rains: An AR storybook"
-excerpt: AR storybook
+title:  "DigiExcavator"
+excerpt: VR JCB Simulator
 layout: projects
 selected: "false"
 homepage: "false"
