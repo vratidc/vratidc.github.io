@@ -36,7 +36,12 @@ JCB Simulator is a Virtual reality simulator to help new drivers learn and pract
 
 ## Storyboard
 
-It is a simple story about two friends coming back from their school on a rainy day. It's about things they see and the little moments. Story depicts the love, kindness and friendship for each other. Story is narrated through conversation between the kids.
+The storyboard frame consists of steps involved in two major tasks of excavation process namely excavating rocks and soil and loading it to the cargo vehicle or a truck.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/storyboard_digiexcavator.jpg" alt="storyboard">
+</figure>
+
 
 ### Character Design
 
