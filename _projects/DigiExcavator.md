@@ -8,8 +8,8 @@ fullpage: "yes"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/DigiExcavator/cover_digi_excavator.jpg
-    
+    teaser: assets/img/projects/DigiExcavator/cover_digi_excavator.jpg
+
 tags: AR Research
 
 banner_image1: 
