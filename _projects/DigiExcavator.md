@@ -8,13 +8,14 @@ fullpage: "yes"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/DigiExcavator/cover.png
+    teaser: /assets/img/projects/DigiExcavator/cover_digi_excavator.jpg
+    
 tags: AR Research
 
 banner_image1: 
 banner_image1_caption:
 
-team_members: "Noopur Kumari Kashyap | Zulqarnain | Sajal Tak"
+team_members: "Noopur Kumari Kashyap, Zulqarnain, Sajal Tak"
 team_members_align: "text-left"
 
 permalink: projects/digiexcavator
@@ -23,21 +24,17 @@ permalink: projects/digiexcavator
 
 ## Introduction
 
-Augmented Reality (AR) is taking over in education. It allows for a completely new and easy method for learning. For years, bedtime stories have been every kid’s favorite memory. Interactive books for children have tons of developmental benefits. It helps with critical thinking, developmental skills, also foster love of reading and support early literacy.  With traditional books, interactions were purely based on imagination and the child could only visualize the story vicariously. Children find reading traditionally dull and boring. Kids these days spend so much time on screen. With AR, storytelling becomes fun and exciting. It makes even a simple story very much interesting with animations, sound and other alive visuals.
+This project was done as a part of a two week course 'Design for VR'. During which we ideated and prototyped VR based project. With DigiExcavator we intended to make JCB operation training easier and affordable using VR technology.
 
 <br>
 
 ## The project
 
-### What am I doing?
-
-This is an Interactive children’s storybook for ages 5-6 years. The stories come alive in front of eyes in Augmented Reality. The Illustrations in each page in the book act as a marker. It comes alive when scanned through the app. It can be used with ipad, tablets and smartphones. With the AR, the storybook gets a new dimension, where children can experience animation and sound along with the comfort of portability.
+JCB Simulator is a Virtual reality simulator to help new drivers learn and practice in a virtual environment. This JCB simulator has physical controllers that are similar to the ones present in a JCB. A virtual environment with some haptic feedback can provide a better experience of real world scenar-ios. There are two clear benefits of using this. First, a trainee can receive his/her initial training not directly on road and under different environmental conditions. Second, the training cost and the risks involved during training can be highly reduced.
 
 <br>
 
-## Narrative
-
-### About story
+## Storyboard
 
 It is a simple story about two friends coming back from their school on a rainy day. It's about things they see and the little moments. Story depicts the love, kindness and friendship for each other. Story is narrated through conversation between the kids.
 
