@@ -80,3 +80,8 @@ The following controller guide shows the list of interactions and shows how to i
 </figure>
 
 <br>
+
+{% include video id="8d---DWC8Tk" provider="youtube" %}
+<figcaption>DigiExcavator- A virtual Reality JCB Simulator</figcaption>
+
+<br> 
