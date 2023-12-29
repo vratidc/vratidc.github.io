@@ -43,9 +43,17 @@ The storyboard frame consists of steps involved in two major tasks of excavation
 </figure>
 
 
-### Character Design
+## Prototyping Process
 
-There are two main characters in the story. Sophie and Ammu are best friends. They care for each other. Both are mischievous and playful.
+### 3D Modelling
+
+We modelled and created two parts of the project to stimulate JCB operation training in VR ie. JCB Vehicle and Controllers. JCB Vehicle was used in virtual space, and controllers were then to be 3D printed.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/model_digiexcavator.jpg" alt="storyboard">
+</figure>
+
+
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir1.jpg" alt="wir1">
