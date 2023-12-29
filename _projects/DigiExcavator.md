@@ -22,11 +22,13 @@ permalink: projects/digiexcavator
 
 --- 
 
+Dragonfly is a VR Film with stereoscopic 3D and spatial audio.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="digiexcavator_cover">
 </figure>
 
+<br>
 
 ## Introduction
 
