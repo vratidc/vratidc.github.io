@@ -22,6 +22,12 @@ permalink: projects/digiexcavator
 
 --- 
 
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="digiexcavator_cover">
+</figure>
+
+
 ## Introduction
 
 This project was done as a part of a two week course 'Design for VR'. During which we ideated and prototyped VR based project. With DigiExcavator we intended to make JCB operation training easier and affordable using VR technology.
