@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  Jayesh Pillai
+title: Jayesh Pillai
 position: Associate Professor, IIT Bombay
 role: "team"
-date: 21000109
+date: 20301228
 header:
     teaser: /assets/img/people/imxd_people_jayeshpillai.jpg
 permalink: /people/jayesh

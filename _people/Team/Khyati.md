@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  Khyati Priya
+title: Khyati Priya
 position: PhD Scholar
 role: "team"
-date: 20230731
+date: 20250731
 header:
     teaser: /assets/img/people/imxd_people_khyatipriya.jpg
 permalink: /people/khyati

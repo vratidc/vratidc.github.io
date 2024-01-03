@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  Elvira Mishra
+title: Elvira Mishra
 position: PhD Scholar
 role: "team"
-date: 20230424
+date: 20240424
 header:
     teaser: /assets/img/people/imxd_people_elviramishra.jpg
 permalink: /people/khyati
