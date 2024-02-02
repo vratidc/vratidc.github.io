@@ -12,7 +12,7 @@ header:
 overview: EyeScape is an immersive VR experience of visual challenges. The user will be transported to spaces that force them to view the world through the lens of someone visually differently-abled. This experience is meant to evoke empathy as well as understanding for the people with these conditions. This experience will be helpful for those who care for individuals with these conditions as well as people who would like to understand their daily struggles.
 
 
-project-link: https://www.behance.net/gallery/185574473/EyeScape-A-Virtual-Reality-Simulation
+project-link: https://www.behance.net/gallery/185584489/VR-experience-to-the-world-of-visual-impairment
 
 active: "yes"
 type: "course"
