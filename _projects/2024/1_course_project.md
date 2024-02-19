@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 1"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Anamorph Immersive Art"
+team: "Ankita Thakur | Evana Pallivathukkal | Khushboo singh"
+tags: AR ARCore Unity
 
 video_provider: "youtube"
 video_id:

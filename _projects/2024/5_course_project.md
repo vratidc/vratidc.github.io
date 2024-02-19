@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 5"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Devanagri Text Input in VR"
+team: "Yash Kothari | Zoha Hamid | Dhairyasheel Pawar | Prajwal Kulkarni "
+tags: VR Quest Unity
 
 video_provider: "youtube"
 video_id:

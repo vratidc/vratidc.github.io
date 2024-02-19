@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 10"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Human Anatomy AR"
+team: "Madhumithan R"
+tags: AR Marker-based Unity
 
 video_provider: "youtube"
 video_id:

@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 2"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Immersive Generative Art"
+team: "Hayat Tamboli | Yashwant Rawat | Anumeha Patoria | Tanmay Kuwalekar"
+tags: VR Quest Unity
 
 video_provider: "youtube"
 video_id:

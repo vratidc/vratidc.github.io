@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 4"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "First Draft"
+team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkeye"
+tags: VR-Film Quest Mobile
 
 video_provider: "youtube"
 video_id:

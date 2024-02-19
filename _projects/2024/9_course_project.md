@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 9"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Enhancing Multitasking Functionalities in VR"
+team: "Jishnu Diwakar | Anuj Ambhore | Aditi Chintey | Satvik Srivastava"
+tags: VR Quest Unity
 
 video_provider: "youtube"
 video_id:

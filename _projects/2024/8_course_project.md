@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 8"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "3D Cousin of Chess"
+team: "Samarth Dhanuka | Raghav Samodia | Mukul Mahajan | Abhishek Kshirsagar"
+tags: VR Quest Unity
 
 video_provider: "youtube"
 video_id:

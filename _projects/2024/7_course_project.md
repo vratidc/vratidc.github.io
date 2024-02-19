@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 7"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Mann ki Bat"
+team: "Laksh Rajpal | Uday Somani | Atharva Vankundre"
+tags: VR Mobile Unity
 
 video_provider: "youtube"
 video_id:

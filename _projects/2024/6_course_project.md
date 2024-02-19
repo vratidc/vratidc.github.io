@@ -1,7 +1,7 @@
 ---
-title: "Project Title - 6"
-team: "Student name | Student name | Student name | Student name"
-tags: VR MR Quest Unity
+title: "Brainstroming in VR"
+team: "Anshika Gangwar | Riddhi Gadodia | Manu Krishnan | Anoof P K | Ahmad Hussain"
+tags: VR Quest Unity
 
 video_provider: "youtube"
 video_id:
