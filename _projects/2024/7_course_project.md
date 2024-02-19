@@ -1,5 +1,5 @@
 ---
-title: "Mann ki Bat"
+title: "Battitude"
 team: "Laksh Rajpal | Uday Somani | Atharva Vankundre"
 tags: VR Mobile Unity
 

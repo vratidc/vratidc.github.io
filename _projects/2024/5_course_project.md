@@ -1,7 +1,7 @@
 ---
-title: "Devanagri Text Input in VR"
+title: "स्VR: Devanagri Text Input in VR"
 team: "Yash Kothari | Zoha Hamid | Dhairyasheel Pawar | Prajwal Kulkarni "
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

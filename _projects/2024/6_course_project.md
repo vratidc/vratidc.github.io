@@ -1,7 +1,7 @@
 ---
-title: "Brainstroming in VR"
+title: "Locus: Brainstroming in VR"
 team: "Anshika Gangwar | Riddhi Gadodia | Manu Krishnan | Anoof P K | Ahmad Hussain"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

@@ -1,7 +1,7 @@
 ---
-title: "Anamorph Immersive Art"
+title: "Anamorphic Immersive Art"
 team: "Ankita Thakur | Evana Pallivathukkal | Khushboo singh"
-tags: AR ARCore Unity
+tags: AR AR-Core Unity
 
 video_provider: "youtube"
 video_id:

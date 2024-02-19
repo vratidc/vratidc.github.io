@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Multitasking Functionalities in VR"
 team: "Jishnu Diwakar | Anuj Ambhore | Aditi Chintey | Satvik Srivastava"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:

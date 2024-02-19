@@ -1,5 +1,5 @@
 ---
-title: "First Draft"
+title: "Majboori"
 team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkeye"
 tags: VR-Film Quest Mobile
 

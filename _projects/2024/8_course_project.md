@@ -1,7 +1,7 @@
 ---
-title: "3D Cousin of Chess"
+title: "Cubikill: 3D Cousin of Chess"
 team: "Samarth Dhanuka | Raghav Samodia | Mukul Mahajan | Abhishek Kshirsagar"
-tags: VR Quest Unity
+tags: AR AR-Core Unity
 
 video_provider: "youtube"
 video_id:

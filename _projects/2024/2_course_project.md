@@ -1,5 +1,5 @@
 ---
-title: "Immersive Generative Art"
+title: "Dive: Immersive Generative Art"
 team: "Hayat Tamboli | Yashwant Rawat | Anumeha Patoria | Tanmay Kuwalekar"
 tags: VR Quest Unity
 

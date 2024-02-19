@@ -1,5 +1,5 @@
 ---
-title: "A Stroll by the Lake"
+title: "Trebble: A Stroll by the Lake"
 team: "Nitya Vyas | Saikat Biswas | Pawan Kumar | Elvira Mishra"
 tags: VR Quest Unity
 
