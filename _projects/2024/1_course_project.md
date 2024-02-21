@@ -1,5 +1,5 @@
 ---
-title: "Anamorphic Immersive Art"
+title: "Amorphi: Discovering the story as you move"
 team: "Ankita Thakur | Evana Pallivathukkal | Khushboo singh"
 tags: AR AR-Core Unity
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_1.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+overview: Amorphi is a mobile AR application where users find four hidden pictures to reveal a story. Each picture uncovers a part of the narrative, encouraging users to explore. Through AR technology, Amorphi offers an interactive storytelling experience combining the world of perceptual art and illusions with technology to offer an accessible storytelling experience. Embark on a journey where discovery leads to revealing the narrative. The seed of this experiment is scalable to various domains of communicative design, education etc.
 
 
 project-link:
