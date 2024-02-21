@@ -1,5 +1,5 @@
 ---
-title: "Majboori"
+title: "Majboori: VR Film"
 team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkeye"
 tags: VR-Film Quest Mobile
 
@@ -9,8 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_4.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+overview: ‘Majboori’, is a 360 VR film, different from traditional storytelling. With every turn of your head, immerse yourself in the everyday routine of Ansh’s life, the protagonist, an ordinary guy with a rather not so ordinary story waiting to unfold. Little does he know, behind the scenes, Ansh’s friends are orchestrating a surprise for him.<br><br>Experience the joy, camaraderie, and unexpected moments of connection that makes Ansh’s everyday life truly special, or rather unique. All from your own unique perspective of a 360-degree virtual reality journey.
 
 project-link:
 

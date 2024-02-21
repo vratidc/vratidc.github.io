@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_8.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+overview: ‘CubiKill’ is an AR game where players strategically move king, smash, and cannon pieces on a Rubik's cube. The objective is to capture opponents' kings through thoughtful cube manipulation and strategic piece moves. With varied piece abilities, Cubikill delivers a captivating challenge in an augmented reality environment.
 
 
 project-link:
