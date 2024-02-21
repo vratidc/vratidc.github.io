@@ -1,5 +1,5 @@
 ---
-title: "Trebble: A Stroll by the Lake"
+title: "Trebbles: A VR Waterscape "
 team: "Nitya Vyas | Saikat Biswas | Pawan Kumar | Elvira Mishra"
 tags: VR Quest Unity
 
@@ -9,7 +9,8 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_3.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+overview: For years, water bodies have been a source of comfort and solace, with the rushed lives we lead - there is little time to catch a break, let alone travel to magical locations.<br><br>We present to you, a relaxing experience which reels you into the immersive environment - where you can explore the land around you and enjoy the views, and possibly ponder and contemplate.<br><br>‘Trebbles’ transports you back to a simpler time, where you would skip pebbles into lakes, with a whiff of magic and fantasy. The spatial sounds, the beautiful fireflies and the hidden Easter eggs give you opportunities to explore and discover the waterscape on your own.
+
 
 
 project-link:

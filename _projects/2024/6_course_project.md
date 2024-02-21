@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_6.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+overview: ‘LOCUS’ redefines project planning and whiteboarding in the virtual realm, providing a dynamic platform for collaborative creativity. With intuitive features such as writing tools, sticky notes, and the ability to annotate 3D objects, it empowers users to brainstorm and strategize with ease. The circular space design fosters natural engagement and fluid interactions, while functionalities like scaling and rotating objects offer flexibility in visualizing ideas. Teams can seamlessly collaborate, iterate, and transform concepts into actionable plans within the immersive environment of LOCUS.
 
 
 project-link:

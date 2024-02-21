@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Multitasking Functionalities in VR"
+title: "MULTUS : A Multitasking System for VR"
 team: "Jishnu Diwakar | Anuj Ambhore | Aditi Chintey | Satvik Srivastava"
 tags: VR MR Quest Unity
 
@@ -9,8 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2024/course_project_9.jpg
 
-overview: Brief discription of the project work goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+overview: MULTUS handles various issues in virtual reality menus. It allows for simultaneous access to multiple menus, which speeds up workflow and enhances productivity. Additionally improves menu layout to keep the user's view clear and develop immersion.<br><br>It helps interacting with multiple menus without disrupting their primary activities in the environment. Furthermore, the system has easy navigation and visual clues to help users understand menu hierarchies, resulting in a more user-friendly experience.
 
 project-link:
 
