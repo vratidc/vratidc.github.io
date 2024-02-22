@@ -1,5 +1,5 @@
 ---
-title: "Cubikill: 3D Cousin of Chess"
+title: "Cubikill"
 team: "Samarth Dhanuka | Raghav Samodia | Mukul Mahajan | Abhishek Kshirsagar"
 tags: AR AR-Core Unity
 
