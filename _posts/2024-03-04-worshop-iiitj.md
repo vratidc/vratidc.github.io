@@ -13,7 +13,7 @@ permalink: /workshop-iitj-2024
 <br>
 <small>04 - 15 Mar 2024
 <br>
-Course Instructors: Jayesh Pillai & Ananda Bathena</small> 
+Course Instructors: Jayesh Pillai &amp; Ananda Bathena</small> 
 <br><br>
 
 ## Objective
