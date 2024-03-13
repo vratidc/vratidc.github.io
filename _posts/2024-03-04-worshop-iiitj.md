@@ -113,12 +113,12 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Aankho Dekhi
+# Aankhon Dekhi
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Pragya Sachdeva, Bitihotra Karak&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
-<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_7.jpg" alt="Aankho Dekhi">
+<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_7.jpg" alt="Aankhon Dekhi">
 </figure>
 
 ### Synopsis
