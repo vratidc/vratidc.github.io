@@ -122,7 +122,7 @@ Below are the outcomes from the 2-week workshop.
 </figure>
 
 ### Synopsis
-<i>“Aankho Dekhi” follows a woman, dismissed by her husband's Vedical healing, fixating on a hideous wall. As her descent into madness accelerates, she believes a woman is trapped within it. Blurring reality, she peels off the wall, succumbing to psychosis, trapped by societal expectations.</i>
+<i>“Aankhon Dekhi” follows a woman, dismissed by her husband's Vedical healing, fixating on a hideous wall. As her descent into madness accelerates, she believes a woman is trapped within it. Blurring reality, she peels off the wall, succumbing to psychosis, trapped by societal expectations.</i>
 
 <br>
 <hr>
