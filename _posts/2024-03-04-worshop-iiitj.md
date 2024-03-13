@@ -38,7 +38,7 @@ Below are the outcomes from the 2-week workshop.
 </figure>
 
 ### Synopsis
-<i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>
+<i>You and your friends decide to confront a troublesome senior. Despite not wanting to, you end up being the chosen one who will confront him. On the confrontation day, things get crazy when you come face to face with him.</i>
 
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
@@ -52,7 +52,7 @@ Below are the outcomes from the 2-week workshop.
 </figure>
 
 ### Synopsis
-<i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>
+<i>While a patient is in coma, family and friends care for them, each with their own secret motives. Arguments over the estate escalate when a clumsy relative disrupts them, worsening the chaos.</i>
 
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
@@ -99,30 +99,30 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Chashme Baddoor
+# Nazar Battu [Far be the Evil Eye]
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Shreya Saboo, Sukanya Hari, Varsha Varalakshmi, Sneha R.&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
-<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_6.jpg" alt="Kalesh">
+<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_6.jpg" alt="Nazar Battu">
 </figure>
 
 ### Synopsis
-<i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>
+<i>In an elevator, Ameeka faces unsettling encounters, from a stranger's gaze to lewd remarks. As tension rises, she feels isolated and cries out for the lift to stop, but is met with silence. Viewers experience Ameeka's vulnerability and trauma.</i>
 
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# The Purple Wallpaper
+# Aankho Dekhi
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Pragya Sachdeva, Bitihotra Karak&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
-<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_7.jpg" alt="Kalesh">
+<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_7.jpg" alt="Aankho Dekhi">
 </figure>
 
 ### Synopsis
-<i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>
+<i>“Aankho Dekhi” follows a woman, dismissed by her husband's Vedical healing, fixating on a hideous wall. As her descent into madness accelerates, she believes a woman is trapped within it. Blurring reality, she peels off the wall, succumbing to psychosis, trapped by societal expectations.</i>
 
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 
