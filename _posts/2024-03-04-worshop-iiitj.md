@@ -85,12 +85,12 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Aam Zindagi
+# Sangharsh
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Sibisiddharth I., Tamanna Pandita, Anubhav Sircar, Samia&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
-<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_5.jpg" alt="Aam Zindagi">
+<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_5.jpg" alt="Sangharsh">
 </figure>
 
 ### Synopsis
@@ -99,12 +99,12 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Nazar Battu [Far be the Evil Eye]
+# Nazar [Far be the Evil Eye]
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Shreya Saboo, Sukanya Hari, Varsha Varalakshmi, Sneha R.&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
-<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_6.jpg" alt="Nazar Battu">
+<img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_6.jpg" alt="Nazar">
 </figure>
 
 ### Synopsis
