@@ -122,7 +122,7 @@ Below are the outcomes from the 2-week workshop.
 </figure>
 
 ### Synopsis
-<i>“Aankhon Dekhi” follows a woman, dismissed by her husband's Vedical healing, fixating on a hideous wall. As her descent into madness accelerates, she believes a woman is trapped within it. Blurring reality, she peels off the wall, succumbing to psychosis, trapped by societal expectations.</i>
+<i>“Aankhon Dekhi” follows a woman who, after having a baby, is forced by her husband and family to be confined in a room. She begins to fixate on a blank hideous wall in the room. As days go by, she starts to believe that a woman is trapped behind the wall, struggling to be free.</i>
 
 <br>
 <hr>
