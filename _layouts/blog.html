@@ -2,17 +2,88 @@
 layout: archive
 ---
 
-{{ content }}
+<style>
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #008054;
+    color: #feeaa7;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+</style>
 
-
-{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-{% for year in postsByYear %}
-<section id="{{ year.name }}" class="taxonomy__section">
-    <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% for post in year.items %}
-        {% include blog-single.html type=page.entries_layout %}
-        {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
+<button onclick="ScrollToTop()" id="back-to-top-btn" title="Go to top">
+  <i
+    style="height: 20px; width: 20px"
+    class="fa fa-arrow-up"
+    aria-hidden="true"
+  ></i>
+</button>
+{{ content }} {% assign postsByYear = site.posts | group_by_exp: 'post',
+'post.date | date: "%Y"' %} {% for year in postsByYear %}
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% for post in year.items %} {% include blog-single.html
+  type=page.entries_layout %} {% endfor %}
+</div>
 {% endfor %}
+
+<script>
+  window.onscroll = function () {
+    showScrollToTopButton();
+  };
+  back_to_top_btn = document.getElementById("back-to-top-btn");
+
+  function showScrollToTopButton() {
+    let showGotToTopButtonAtPosition = 500;
+    document.body.scrollTop > showGotToTopButtonAtPosition ||
+    document.documentElement.scrollTop > showGotToTopButtonAtPosition
+      ? (back_to_top_btn.style.display = "flex")
+      : (back_to_top_btn.style.display = "none");
+  }
+
+  function smoothScrollTo(targetPosition, duration) {
+    const startPosition = window.scrollY;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+
+    function easeInOut(t) {
+      return t < 0.5 ? 4 * t ** 3 : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    }
+
+    function scrollAnimation(currentTime) {
+      if (startTime === null) {
+        startTime = currentTime;
+      }
+
+      const elapsedTime = currentTime - startTime;
+      const scrollProgress = Math.min(elapsedTime / duration, 1);
+      const easedProgress = easeInOut(scrollProgress);
+
+      window.scrollTo(0, startPosition + distance * easedProgress);
+
+      if (elapsedTime < duration) {
+        requestAnimationFrame(scrollAnimation);
+      }
+    }
+
+    requestAnimationFrame(scrollAnimation);
+  }
+
+  // When the user clicks on the button, scroll to the top of the document in 1 second
+  function ScrollToTop() {
+    smoothScrollTo(0, 1000);
+  }
+
+  // ----------------------
+</script>
