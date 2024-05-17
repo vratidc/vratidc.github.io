@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Vinay Kumar
+title: Vinay Kumar
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20230709

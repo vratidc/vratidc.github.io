@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Hayat Tamboli
+title: Hayat Tamboli
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20231002

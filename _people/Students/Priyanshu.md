@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Priyanshu Thakur
+title: Priyanshu Thakur
 position: Research Intern (BDes, NID)
 role: "student"
 date: 20220107

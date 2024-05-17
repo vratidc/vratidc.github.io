@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Nachiket Nanoty
+title: Nachiket Nanoty
 position: Master's Student (Industrial Design)
 role: "student"
 date: 20231001

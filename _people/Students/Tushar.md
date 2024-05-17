@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Tushar Vaid
+title: Tushar Vaid
 position: Research Intern (BTech Comp.Sci., SRM Univ.)
 role: "student"
 date: 20220106

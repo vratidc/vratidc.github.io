@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Anumeha Patoria
+title: Anumeha Patoria
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20231001

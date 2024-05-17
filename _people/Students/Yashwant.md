@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Yashwant Rawat
+title: Yashwant Rawat
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20231001
