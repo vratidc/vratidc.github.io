@@ -3,7 +3,7 @@ layout: single
 title: Niya Sharma
 position: Research Intern (BArch, IGDTUW)
 role: "student"
-date: 20240520
+date: 20240527
 header:
     teaser: /assets/img/people/imxd_people_niyasharma.jpg
 permalink: /people/niya
