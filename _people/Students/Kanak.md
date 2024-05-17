@@ -3,7 +3,7 @@ layout: single
 title: Kanak Kothawale
 position: Research Intern (BArch, Univ. of Mumbai)
 role: "student"
-date: 20240527
+date: 20240520
 header:
     teaser: /assets/img/people/imxd_people_kanakkothawale.jpg
 permalink: /people/kanak
