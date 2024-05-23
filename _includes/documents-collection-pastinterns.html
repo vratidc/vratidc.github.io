@@ -1,11 +1,11 @@
 <div class="pastmembergrid">
-    {%- for link in site.data.pastmembers.main -%}
+    {%- for link in site.data.pastinterns.main -%}
 
     <div class="pastmemberholder">
         <div class="pastmemberitem">
             <a href="{{ link.url }}" target="_blank">
                 <div class="people__item-teaser" style='background-image: 
-        url({{ site.baseurl }}{{ link.photo }}); background-size: cover;background-position: center;'></div>
+            url({{ site.baseurl }}{{ link.photo }}); background-size: cover;background-position: center;'></div>
 
                 <!--            <img src="{{ site.baseurl }}{{ link.photo }}">-->
                 <h2>{{ link.title }}</h2>
