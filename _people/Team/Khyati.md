@@ -17,7 +17,7 @@ links:
       url: "mailto:khyatipriya@iitb.ac.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "#"
+      url: "https://sites.google.com/view/khyati-priya/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       #url: ""
