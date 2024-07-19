@@ -66,16 +66,15 @@
                 <h2 class="publications__item-links" itemprop="headline">
 
                     {% if post.PDF %}
+                    •
                     <a href={{post.PDF}} target="_blank">PDF</a>
                     {% endif %}
 
                     {% if post.PDF %}
-                    {% if post.website %}
-                    •
-                    {% endif %}
                     {% endif %}
 
                     {% if post.website %}
+                    •
                     <a href={{post.website}} target="_blank">Website</a>
                     {% endif %}
 
