@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Soumya Agarwal
-position: MDes by Research, Scholar
+position: MDes, Research Scholar
 role: "team"
 date: 20240102
 header:
