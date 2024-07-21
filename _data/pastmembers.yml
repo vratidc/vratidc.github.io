@@ -1,5 +1,14 @@
 # main links
 main:
+   - title: "Vinay Kumar"
+     url: https://www.linkedin.com/in/vinay-kumar-dhomne-aab910106/
+     photo: /assets/img/people/imxd_people_vinaykumar.jpg
+   - title: "Karan Tanna"
+     url: https://www.linkedin.com/in/karantanna/
+     photo: /assets/img/people/imxd_people_karantanna.jpg
+   - title: "Prafulla Chandra"
+     url: https://www.linkedin.com/in/prafullachandrags
+     photo: /assets/img/people/imxd_people_prafullachandra.jpg
    - title: "Samadrita Sarkar"
      url: https://www.linkedin.com/in/samadrita-sarkar-b169b9194/
      photo: /assets/img/people/imxd_people_samadrita.jpg

@@ -1,9 +1,9 @@
 ---
 layout: single
 title: Shiva Teja Banda
-position: Research Intern (BA	Multimedia & Gaming, Amity Univ.)
-role: "student"
-date: 20240108
+position: Research Associate
+role: "team"
+date: 20240101
 header:
     teaser: /assets/img/people/imxd_people_shivateja.jpg
 permalink: /people/shivateja
@@ -25,4 +25,4 @@ links:
 ---
 
 ## Shiva Teja Banda
-Research Intern (BA	Multimedia & Gaming, Amity Univ.)
+Research Associate

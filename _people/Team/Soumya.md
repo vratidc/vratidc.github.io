@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Soumya Agarwal
-position: MDes by Research Student
+position: MDes by Research, Scholar
 role: "team"
 date: 20240102
 header:
@@ -30,6 +30,6 @@ links:
 
 
 ## Soumya Agarwal
-MDes by Research Student
+'MDes by Research' Scholar
 
 
