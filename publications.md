@@ -1,5 +1,5 @@
 ---
-title: Publications & Activities
+title: Publications
 permalink: /publications
 layout: publicationcollection
 collection: publications
