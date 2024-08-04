@@ -39,9 +39,9 @@
                 {% if post.fullpage == "yes" %}
                 <h2 class="publications__item-title" itemprop="headline">
                     {% if post.link %}
-                    <a class="publication_linked" href="{{ post.link }}">{{ title }}</a>
+                    <a class="publication_linked" href="{{ post.link }}" target="_blank">{{ title }}</a>
                     {% else %}
-                    <a class="publication_linked" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+                    <a class="publication_linked" href="{{ post.url | relative_url }}" rel="permalink" target="_blank">{{ title }}</a>
                     {% endif %}
                 </h2>
 
