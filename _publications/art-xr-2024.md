@@ -10,8 +10,8 @@ venue: "Proceedings of the Paris Conference on Arts & Humanities 2024, France"
 excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "yes"
-link: "https://pcah.iafor.org/presentation/submission82003/"
-website: "https://pcah.iafor.org/presentation/submission82003/"
+link: "https://papers.iafor.org/submission82003/"
+website: "https://papers.iafor.org/submission82003/"
 header:
     teaser: assets/img/publications/icon-pub-pcah2024.jpg
 layout: publications    
