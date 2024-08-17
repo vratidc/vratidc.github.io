@@ -4,8 +4,8 @@ excerpt: 2-Week Workshop/Course on VR Filmmaking
 
 header:
     teaser: /assets/img/updates/icon-update-iitj-2024.jpg
-categories: Workshop
-tags: Course VR-Film IITJ
+categories: workshop
+tags: course vr-film iitj
 
 layout: single
 permalink: /workshop-iitj-2024
