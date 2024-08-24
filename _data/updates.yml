@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "DE677 - Design for VR - Autumn 2024"
+     date: "23/08/2024"
+     active: "yes"
+     content: "Course (26 Aug - 06 Sep 2024)"
+     link: /de677-course-2024
+     teaser: /assets/img/updates/icon_placeholder.jpg
+     fullpage: "yes"
    - title: "Student Project 'Fusion' showcased at Laval Virtual 2024"
      date: "12/04/2024"
      active: "yes"
@@ -24,7 +31,7 @@ main:
    - title: "Design for XR - Spring 2024"
      date: "05/02/2024"
      active: "yes"
-     content: "Course - Spring 2024 (05 - 23 Feb 2024)"
+     content: "Course (05 - 23 Feb 2024)"
      link: /de712-course-2024
      teaser: /assets/img/updates/icon_imd.jpg
      fullpage: "yes"
@@ -45,7 +52,7 @@ main:
    - title: "DE677 - Design for VR - Autumn 2023"
      date: "07/07/2023"
      active: "yes"
-     content: "Course - Autumn 2023 (28 Aug - 08 Sep 2023)"
+     content: "Course (28 Aug - 08 Sep 2023)"
      link: /de677-course-2023
      teaser: /assets/img/updates/icon_placeholder.jpg
      fullpage: "yes"
@@ -73,14 +80,14 @@ main:
    - title: "DE677 - Design for VR - Autumn 2022"
      date: "12/09/2022"
      active: "yes"
-     content: "Course - Autumn 2022 (12 Sep - 23 Sep 2022)"
+     content: "Course (12 Sep - 23 Sep 2022)"
      link: /de677-course-2022
      teaser: /assets/img/updates/icon_placeholder.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR - Autumn 2021"
      date: "23/08/2021"
      active: "yes"
-     content: "Course - Autumn 2021 (23 Aug - 3 Sep 2021)"
+     content: "Course (23 Aug - 3 Sep 2021)"
      link: /de677-course-2021
      teaser: /assets/img/updates/icon_placeholder.jpg
      fullpage: "yes"
