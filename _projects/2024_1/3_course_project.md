@@ -1,6 +1,6 @@
 ---
-title: Pallete
-team: "Arunabh Chaudhury | Nanoty Nachiket Jitendra | Soumya Agarwal | Prashin Prashanth"
+title: "Warli Immersive"
+team: "Tushar Singh | Aditya Singh | Digbijoy | Sidharth Suryanarayan"
 tags: VR Quest Unity
 
 video_provider: "youtube"
@@ -16,6 +16,6 @@ project-link:
 active: "yes"
 type: "course"
 year: "2024_1"
-date: 20240806
+date: 20240804
 
 ---

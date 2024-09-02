@@ -1,7 +1,7 @@
 ---
-title: Pallete
-team: "Arunabh Chaudhury | Nanoty Nachiket Jitendra | Soumya Agarwal | Prashin Prashanth"
-tags: VR Quest Unity
+title: "Maunaraagam"
+team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkey"
+tags: VR-Film Quest Mobile Spatial-Audio
 
 video_provider: "youtube"
 video_id:
@@ -16,6 +16,6 @@ project-link:
 active: "yes"
 type: "course"
 year: "2024_1"
-date: 20240806
+date: 20240802
 
 ---

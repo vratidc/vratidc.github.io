@@ -1,6 +1,6 @@
 ---
-title: Pallete
-team: "Arunabh Chaudhury | Nanoty Nachiket Jitendra | Soumya Agarwal | Prashin Prashanth"
+title: "VR Drone Game"
+team: "Abhiram NS | Adarsh S | Aswin S | Midhun George"
 tags: VR Quest Unity
 
 video_provider: "youtube"
@@ -16,6 +16,6 @@ project-link:
 active: "yes"
 type: "course"
 year: "2024_1"
-date: 20240806
+date: 20240803
 
 ---
