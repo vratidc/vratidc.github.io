@@ -1,5 +1,11 @@
 # main links
 main:
+   - title: "Niya Sharma"
+     url: https://www.linkedin.com/in/niya-sharma-326697139/
+     photo: /assets/img/people/imxd_people_niyasharma.jpg
+   - title: "Aditya Padmagirwar"
+     url: https://www.linkedin.com/in/adityapadmagirwar/
+     photo: /assets/img/people/imxd_people_adityapadmagirwar.jpg
    - title: "Uttham Prakash"
      url: https://www.linkedin.com/in/uttham-prakash-926024286/
      photo: /assets/img/people/imxd_people_utthamprakash.jpg
