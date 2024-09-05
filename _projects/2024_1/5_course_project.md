@@ -7,9 +7,9 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2024_1/Sample Image_2100x600.jpg
+    teaser: /assets/img/projects/2024_1/course_project_5.png
 
-overview: Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here. Provide a paragraph about your project here.
+overview: <i>Maunaraagam</i> is a 360 VR music video that immerses you in a story of separation, where distance slowly unravels the bond between two people. With spatial audio divided into three 120-degree segments, Maunaraagam will let you experience both sides of the story, painting a moving portrait of love slipping through the hands of time and space.
 
 project-link:
 
