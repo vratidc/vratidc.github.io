@@ -1,7 +1,7 @@
 ---
 title: "Cross-platform VR Maze Game"
 team: "Anumeha Patoria |  Tanmay Kuwalekar | Hayat Tamboli  | Yashwant Rawat"
-tags: VR Quest Unity
+tags: VR MR Quest Unity
 
 video_provider: "youtube"
 video_id:
