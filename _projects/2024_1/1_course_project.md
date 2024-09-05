@@ -1,5 +1,5 @@
 ---
-title: "Palette A VR Data Management Tool"
+title: "Palette : A VR Data Management Tool"
 team: "Arunabh Chaudhury | Nanoty Nachiket Jitendra | Soumya Agarwal | Prashin Prashanth"
 tags: VR Quest Unity
 
