@@ -1,6 +1,6 @@
 ---
-title:  "ManholeR"
-excerpt: Real-Time VR Film
+title:  "Manhole VR"
+excerpt: A Virtual Reality 6 DoF Narrative Experience
 layout: projects
 selected: "false"
 homepage: "false"
@@ -9,15 +9,15 @@ active: "no"
 
 header:
     teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
-tags: AR VR Research
+tags: VR Research
 
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Amarnath Murugan | Rishi Vanukuru | Amal Dev | Pratiti Sarkar | Jayesh Pillai"
+team_members: "<strong>Current Members</strong> : Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
 team_members_align: "text-left"
 
-permalink: projects/manhole
+permalink: projects/manhole-vr
 
 
 gallery1:
