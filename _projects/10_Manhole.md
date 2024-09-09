@@ -34,10 +34,10 @@ gallery1:
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_banner.jpg" alt="A remote AR session">
+  <img src="{{ site.url }}{{ site.baseurl }}assets/img/projects/ManholeVR/View from manhole.png" alt="View From Manhole">
 </figure> 
 
-Hoping to address some of the challenges imposed by the pandemic on education, we have been adapting our work on the [ScholAR](/projects/scholar){:target="_blank"} project (that focused on physical classrooms) to better support remote learning. While doing so, we have also been presented with interesting design challenges that extend beyond educational use cases, as not much research has explored the use of mobile AR to enable remote collaboration.
+<strong>Synopsis</strong>: “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
 
 <br>
 
