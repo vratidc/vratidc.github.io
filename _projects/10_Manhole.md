@@ -50,15 +50,11 @@ This project is part of a larger narrative by the manhole collective. The collec
 
 ## Introduction
 
-The COVID-19 pandemic has forced all communication online, and video conferencing is currently the primary tool for synchronous remote activities. While the medium has improved considerably over the course of the lockdown, video calls sorely lack the spatial and social dynamics of physical, in-person interactions. This problem is addressed to some extent by more immersive alternatives that make use of head-mounted Virtual and Augmented Reality displays, but such options are still quite inaccessible and unscalable at present.
-
-Mobile Augmented Reality could serve as an ideal midpoint--a medium that can support some of the spatial, immersive interactions in more high fidelity XR experiences, while also being available to many more people, given the increasing number of mobile devices that are capable of markerless AR.
-
-Through this project, we are exploring the use of mobile social AR experiences to support remote learning and collaboration. 
-
-{% include gallery id="gallery1" caption="IDC Students using our first prototype" %}
-
-As an offshoot from the ScholAR project, our first prototype focused on creating a virtual classroom where the teacher is able to control a shared AR artefact and teach concepts to students who are spatially present in the virtual space. Visual cues & spatial audio were added to give a better sense of other users' relative position. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges that arise as a consequence. 
+In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a 360-degree canvas that allows audiences to explore stories from multiple perspectives and move within the environment. This shift from passive observation to active participation poses both thrilling opportunities and intricate challenges for narrative creators. Among the vanguard projects exploring this new frontier is "Manhole VR," a pioneering work that merges the boundaries between film and interactive gaming.
+<br>
+A Deep Dive into "Manhole VR"
+<br>
+"Manhole VR" is not just a film; it's an immersive experience designed to captivate and engage through its innovative use of VR technology. Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja and Uttham Prakash, and sound design by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
 
 {% include video id="FhA2svVtDHk" provider="youtube" %}
 <figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
