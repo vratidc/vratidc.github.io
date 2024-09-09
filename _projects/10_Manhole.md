@@ -14,7 +14,7 @@ tags: VR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
+team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
 team_members_align: "text-left"
 
 permalink: projects/manholevr
