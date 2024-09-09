@@ -40,9 +40,9 @@ gallery1:
 <strong>Synopsis: </strong> “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
 
 <br>
-Official Website : manholecollective.com <br>
-Animation Film - Trailer :  https://youtu.be/NYyHxQjr3Z8 <br>
-Animation Film - IMDb Page : https://www.imdb.com/title/tt16421128<br>
+Official Website : <a herf="manholecollective.com" target="_blank"</a> <br>
+Animation Film - Trailer : <a herf="https://youtu.be/NYyHxQjr3Z8" target="_blank"</a>  <br>
+Animation Film - IMDb Page : <a herf="https://www.imdb.com/title/tt16421128" target="_blank"</a><br>
 
 This project is part of a larger narrative by the manhole collective. The collective attempts to create experiences that communicate the difficulties manual scavengers face in India and spread awareness about this topic. 
 <br>
