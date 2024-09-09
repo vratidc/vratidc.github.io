@@ -1,7 +1,7 @@
 ---
 title: "VRली"
 team: "Tushar Singh | Aditya Singh | Digbijoy | Sidharth Suryanarayan"
-tags: VR Quest Unity
+tags: VR Quest Unreal
 
 video_provider: "youtube"
 video_id:
