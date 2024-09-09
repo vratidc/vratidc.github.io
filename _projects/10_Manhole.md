@@ -17,7 +17,7 @@ banner_image1_caption:
 team_members: "<strong>Current Members</strong> : Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
 team_members_align: "text-left"
 
-permalink: projects/manhole-vr
+permalink: projects/manholevr
 
 
 gallery1:
