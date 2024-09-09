@@ -37,7 +37,7 @@ gallery1:
   <img src="{{ site.url }}{{ site.baseurl }}assets/img/projects/ManholeVR/View from manhole.png" alt="View From Manhole">
 </figure> 
 
-<strong>Synopsis</strong>: “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
+<strong>Synopsis: </strong> “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
 
 <br>
 
