@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
+    teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
 tags: VR Research
 
 banner_image1: 
@@ -18,7 +18,7 @@ team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakas
 team_members_align: "text-left"
 
 permalink: projects/manholevr
-
+ 
 
 gallery1:
   - url: 
