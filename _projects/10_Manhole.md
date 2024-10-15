@@ -52,7 +52,9 @@ This project is part of a larger narrative by the manhole collective. The collec
 
 In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a 360-degree canvas that allows audiences to explore stories from multiple perspectives and move within the environment. This shift from passive observation to active participation poses both thrilling opportunities and intricate challenges for narrative creators. Among the vanguard projects exploring this new frontier is "Manhole VR," a pioneering work that merges the boundaries between film and interactive gaming.
 <br>
+<br>
 A Deep Dive into "Manhole VR"
+<br>
 <br>
 "Manhole VR" is not just a film; it's an immersive experience designed to captivate and engage through its innovative use of VR technology. Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja and Uttham Prakash, and sound design by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
 
@@ -80,9 +82,16 @@ While there is a huge body of work on collaboration and remote communication in 
 
 </div>
 
-## Publications
+## Impact and Future Directions
 
-- Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press)
+"Manhole VR" is more than just a VR film; it's a catalyst for conversation and change. By immersing viewers in the dangerous and degrading conditions faced by manual scavengers, the project seeks to raise awareness and inspire empathy. The film stands as a testament to the power of VR storytelling, demonstrating how this medium can be used to drive social impact and provoke meaningful dialogue.
+
+Looking ahead, future explorations in VR storytelling will likely delve into optimizing resource use, enhancing narrative interactivity, and leveraging real-time data to tailor experiences. As we continue to push the boundaries of what VR can achieve, projects like "Manhole VR" will undoubtedly serve as a beacon for innovative storytelling in this immersive medium.
+
+
+## Conclusion
+
+"Manhole VR" exemplifies the potential of Virtual Reality to transform storytelling. By creating an experience that blends film and interactive elements, the project not only showcases the power of VR but also highlights important social issues. As we step into this new dimension of storytelling, "Manhole VR" stands as a pioneering example of how technology and narrative can come together to create profound and impactful experiences.
 
 
 
