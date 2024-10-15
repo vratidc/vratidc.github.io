@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
+    teaser: /assets/img/projects/ManholeVR/Viewfrommanhole.jpg
 tags: VR Research
 
 banner_image1: 
@@ -40,9 +40,13 @@ gallery1:
 <strong>Synopsis: </strong> “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
 
 <br>
-Official Website : <br>
-Animation Film - Trailer :  <br>
-Animation Film - IMDb Page :<br>
+Official Website : [manholecollective.com](https://manholecollective.com/){:target="_blank"}
+<br>
+Animation Film - Trailer : [Youtube](https://youtu.be/NYyHxQjr3Z8){:target="_blank"} 
+<br>
+Animation Film - IMDb Page : [IMDb](https://www.imdb.com/title/tt16421128){:target="_blank"}
+<br>
+<br>
 
 This project is part of a larger narrative by the manhole collective. The collective attempts to create experiences that communicate the difficulties manual scavengers face in India and spread awareness about this topic. 
 <br>
@@ -57,30 +61,32 @@ A Deep Dive into "Manhole VR"
 <br>
 <br>
 "Manhole VR" is not just a film; it's an immersive experience designed to captivate and engage through its innovative use of VR technology. Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja and Uttham Prakash, and sound design by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
+<br>
+## Design and Development
 
-{% include video id="FhA2svVtDHk" provider="youtube" %}
-<figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
-<br> 
+### 1. Ideation and Narrative Structure
 
-## Research Directions
+The genesis of "Manhole VR" lies in its meticulously crafted narrative. From the initial concept, the goal was to create a non-linear storytelling experience that fully immerses viewers in the plight of its characters. By presenting the story in a way that allows users to explore and interact with the environment, the film aims to foster a deep emotional connection and a heightened sense of empathy.
 
-While there is a huge body of work on collaboration and remote communication in mixed and virtual reality, their design ideas and findings may not be directly applicable to mobile AR, due to its lower level of immersion, and the affordances of the technology itself. From our initial tests, we have identified the following directions to focus on, in order to establish guidelines for creating better mobile social AR experiences.
+### 2. Production Insights
 
-<div class="ulist" markdown="1">
-- **Social Presence:** This refers to the extent to which a user feels that another person is actually 'present' in a shared virtual space. Higher social presence is important for the participants to establish a rapport and communicate effectively. We plan to compare the level of social presence in mobile AR and other mediums of communication.
-
-- **Representation:** The characteristics of the avatar used in a virtual space also influence the possible interactions in that space. The challenge in the case of mobile AR is that the only information available to gauge a user's pose is the handheld device's position and orientation, as opposed to their head's position & orientation when using Head Mounted Displays (which might also have individual controllers for each hand). We explore an avatar space that compares avatars that vary both in visual and behavioural fidelity to understand how they affect perception and presence.
+The production phase of "Manhole VR" was characterized by a detailed and systematic approach.
+Actors and Rehearsals: The casting process was integral to ensuring that the performances conveyed authenticity and emotional depth. Rigorous rehearsals and a talented cast brought the narrative to life, making the harrowing conditions of manual scavenging palpable. 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\socialAR\avatarspacereduced.png" alt="ScholAR School">
-  <figcaption>Proposed avatar space</figcaption>
-</figure> 
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\ManholeVR\Mocap and Facecap.jpg" alt="Mocap and Facecap">
+</figure>
+<br>
+Filming and Motion Capture: State-of-the-art motion capture technology played a crucial role in capturing nuanced performances. This technology, coupled with efficient filming workflows, allowed for a seamless integration of motion and dialogue, enhancing the immersive quality of the film.
+<br>
 
-- **Interaction techniques:** Having a shared virtual space in mobile AR brings up new challenges in handling interactions. For example, identifying metaphors for disabling audio and video, personal chat, among breakout rooms among others.
+### 3. Post-Production Excellence
 
-- **Applications to Education:** The goal of recreating a classroom through AR is central to this project, so we will be investigating the efficacy of this medium in comparison to the status quo of group video calls, and attempt to identify topics and scenarios best suited for such an AR platform.
+Data Processing and Unreal Engine Integration: Advanced processing techniques were used to refine the raw footage, and Unreal Engine was utilized to build a dynamic, interactive world. This phase was critical in turning conceptual ideas into a vivid, engaging VR experience.
+<br>
+Final Polish and Optimization: The post-production process included enriching the virtual environment with detailed visual and auditory elements. Innovative material adjustments and optimization efforts ensured that the film delivered high performance across various platforms, maintaining both quality and viewer engagement.
+<br>
 
-</div>
 
 ## Impact and Future Directions
 
