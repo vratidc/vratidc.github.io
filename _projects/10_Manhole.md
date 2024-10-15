@@ -29,9 +29,9 @@ permalink: projects/manholevr
 <br>
 Official Website : [manholecollective.com](https://manholecollective.com/){:target="_blank"}
 <br>
-Animation Film - Trailer : [Youtube](https://youtu.be/NYyHxQjr3Z8){:target="_blank"} 
+Animation Film - Trailer : [Manhole|Short Film|Trailer](https://youtu.be/NYyHxQjr3Z8){:target="_blank"} 
 <br>
-Animation Film - IMDb Page : [IMDb](https://www.imdb.com/title/tt16421128){:target="_blank"}
+Animation Film - IMDb Page : [Manhole 2021 IMDb](https://www.imdb.com/title/tt16421128){:target="_blank"}
 <br>
 <br>
 
