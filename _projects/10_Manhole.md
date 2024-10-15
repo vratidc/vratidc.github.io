@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
+    teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
 tags: VR Research
 
 banner_image1: 
