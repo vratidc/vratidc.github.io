@@ -18,22 +18,10 @@ team_members_align: "text-left"
 
 permalink: projects/manholevr
  
-
-gallery1:
-  - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen1.gif
-    alt: "Social AR 1"
-    title: "Social AR 1"
-  - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen2.gif
-    alt: "Social AR 2"
-    title: "Social AR 2"
-
-
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}assets/img/projects/ManholeVR/View from manhole.jpg" alt="View From Manhole">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ManholeVR/View from manhole.jpg" alt="View from manhole">
 </figure> 
 
 <strong>Synopsis: </strong> “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
