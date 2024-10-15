@@ -8,11 +8,10 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/ManholeVR/Viewfrommanhole.jpg
+    teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
 tags: VR Research
 
 banner_image1: 
-banner_image1_caption:
 
 team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
 team_members_align: "text-left"
@@ -85,6 +84,7 @@ Filming and Motion Capture: State-of-the-art motion capture technology played a 
 Data Processing and Unreal Engine Integration: Advanced processing techniques were used to refine the raw footage, and Unreal Engine was utilized to build a dynamic, interactive world. This phase was critical in turning conceptual ideas into a vivid, engaging VR experience.
 <br>
 Final Polish and Optimization: The post-production process included enriching the virtual environment with detailed visual and auditory elements. Innovative material adjustments and optimization efforts ensured that the film delivered high performance across various platforms, maintaining both quality and viewer engagement.
+<br>
 <br>
 
 
