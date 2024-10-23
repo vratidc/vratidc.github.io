@@ -1,6 +1,6 @@
 ---
-title:  "ManholeR"
-excerpt: Real-Time VR Film
+title:  "Manhole VR"
+excerpt: A Virtual Reality 6 DoF Narrative Experience
 layout: projects
 selected: "false"
 homepage: "false"
@@ -8,78 +8,84 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/socialAR/socialAR_thumbnail.jpg
-tags: AR VR Research
+    teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
+tags: VR Research
 
 banner_image1: 
-banner_image1_caption:
 
-team_members: "<strong>Current Members</strong> : Amarnath Murugan | Rishi Vanukuru | Amal Dev | Pratiti Sarkar | Jayesh Pillai"
+team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
 team_members_align: "text-left"
 
-permalink: projects/manhole
-
-
-gallery1:
-  - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen1.gif
-    alt: "Social AR 1"
-    title: "Social AR 1"
-  - url: 
-    image_path: /assets/img/projects/socialAR/socialAR_screen2.gif
-    alt: "Social AR 2"
-    title: "Social AR 2"
-
-
+permalink: projects/manholevr
+ 
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/socialAR/socialAR_banner.jpg" alt="A remote AR session">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ManholeVR/View from manhole.jpg" alt="View from manhole">
 </figure> 
 
-Hoping to address some of the challenges imposed by the pandemic on education, we have been adapting our work on the [ScholAR](/projects/scholar){:target="_blank"} project (that focused on physical classrooms) to better support remote learning. While doing so, we have also been presented with interesting design challenges that extend beyond educational use cases, as not much research has explored the use of mobile AR to enable remote collaboration.
+<strong>Synopsis: </strong> “Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”
 
 <br>
+Official Website : [manholecollective.com](https://manholecollective.com/){:target="_blank"}
+<br>
+Animation Film - Trailer : [Manhole|Short Film|Trailer](https://youtu.be/NYyHxQjr3Z8){:target="_blank"} 
+<br>
+Animation Film - IMDb Page : [Manhole 2021 IMDb](https://www.imdb.com/title/tt16421128){:target="_blank"}
+<br>
+<br>
+
+This project is part of a larger narrative by the manhole collective. The collective attempts to create experiences that communicate the difficulties manual scavengers face in India and spread awareness about this topic. 
+<br>
+
 
 ## Introduction
 
-The COVID-19 pandemic has forced all communication online, and video conferencing is currently the primary tool for synchronous remote activities. While the medium has improved considerably over the course of the lockdown, video calls sorely lack the spatial and social dynamics of physical, in-person interactions. This problem is addressed to some extent by more immersive alternatives that make use of head-mounted Virtual and Augmented Reality displays, but such options are still quite inaccessible and unscalable at present.
+In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a 360-degree canvas that allows audiences to explore stories from multiple perspectives and move within the environment. This shift from passive observation to active participation poses both thrilling opportunities and intricate challenges for narrative creators. Among the vanguard projects exploring this new frontier is "Manhole VR," a pioneering work that merges the boundaries between film and interactive gaming.
+<br>
+<br>
+A Deep Dive into "Manhole VR"
+<br>
+<br>
+"Manhole VR" is not just a film; it's an immersive experience designed to captivate and engage through its innovative use of VR technology. Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja and Uttham Prakash, and sound design by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
+<br>
+## Design and Development
 
-Mobile Augmented Reality could serve as an ideal midpoint--a medium that can support some of the spatial, immersive interactions in more high fidelity XR experiences, while also being available to many more people, given the increasing number of mobile devices that are capable of markerless AR.
+### 1. Ideation and Narrative Structure
 
-Through this project, we are exploring the use of mobile social AR experiences to support remote learning and collaboration. 
+The genesis of "Manhole VR" lies in its meticulously crafted narrative. From the initial concept, the goal was to create a non-linear storytelling experience that fully immerses viewers in the plight of its characters. By presenting the story in a way that allows users to explore and interact with the environment, the film aims to foster a deep emotional connection and a heightened sense of empathy.
 
-{% include gallery id="gallery1" caption="IDC Students using our first prototype" %}
+### 2. Production Insights
 
-As an offshoot from the ScholAR project, our first prototype focused on creating a virtual classroom where the teacher is able to control a shared AR artefact and teach concepts to students who are spatially present in the virtual space. Visual cues & spatial audio were added to give a better sense of other users' relative position. Depending on the active artifact, the users could place a marker or draw on top, and these interactions are reflected for everyone in the session. We had conducted preliminary tests with students from our department to better understand the opportunities and challenges that arise as a consequence. 
-
-{% include video id="FhA2svVtDHk" provider="youtube" %}
-<figcaption>Explainer video - Remote collaboration in AR - Teacher + multiple students interaction</figcaption>
-<br> 
-
-## Research Directions
-
-While there is a huge body of work on collaboration and remote communication in mixed and virtual reality, their design ideas and findings may not be directly applicable to mobile AR, due to its lower level of immersion, and the affordances of the technology itself. From our initial tests, we have identified the following directions to focus on, in order to establish guidelines for creating better mobile social AR experiences.
-
-<div class="ulist" markdown="1">
-- **Social Presence:** This refers to the extent to which a user feels that another person is actually 'present' in a shared virtual space. Higher social presence is important for the participants to establish a rapport and communicate effectively. We plan to compare the level of social presence in mobile AR and other mediums of communication.
-
-- **Representation:** The characteristics of the avatar used in a virtual space also influence the possible interactions in that space. The challenge in the case of mobile AR is that the only information available to gauge a user's pose is the handheld device's position and orientation, as opposed to their head's position & orientation when using Head Mounted Displays (which might also have individual controllers for each hand). We explore an avatar space that compares avatars that vary both in visual and behavioural fidelity to understand how they affect perception and presence.
+The production phase of "Manhole VR" was characterized by a detailed and systematic approach.
+Actors and Rehearsals: The casting process was integral to ensuring that the performances conveyed authenticity and emotional depth. Rigorous rehearsals and a talented cast brought the narrative to life, making the harrowing conditions of manual scavenging palpable. 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\socialAR\avatarspacereduced.png" alt="ScholAR School">
-  <figcaption>Proposed avatar space</figcaption>
-</figure> 
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\ManholeVR\Mocap and Facecap.jpg" alt="Mocap and Facecap">
+</figure>
+<br>
+Filming and Motion Capture: State-of-the-art motion capture technology played a crucial role in capturing nuanced performances. This technology, coupled with efficient filming workflows, allowed for a seamless integration of motion and dialogue, enhancing the immersive quality of the film.
+<br>
 
-- **Interaction techniques:** Having a shared virtual space in mobile AR brings up new challenges in handling interactions. For example, identifying metaphors for disabling audio and video, personal chat, among breakout rooms among others.
+### 3. Post-Production Excellence
 
-- **Applications to Education:** The goal of recreating a classroom through AR is central to this project, so we will be investigating the efficacy of this medium in comparison to the status quo of group video calls, and attempt to identify topics and scenarios best suited for such an AR platform.
+Data Processing and Unreal Engine Integration: Advanced processing techniques were used to refine the raw footage, and Unreal Engine was utilized to build a dynamic, interactive world. This phase was critical in turning conceptual ideas into a vivid, engaging VR experience.
+<br>
+Final Polish and Optimization: The post-production process included enriching the virtual environment with detailed visual and auditory elements. Innovative material adjustments and optimization efforts ensured that the film delivered high performance across various platforms, maintaining both quality and viewer engagement.
+<br>
+<br>
 
-</div>
 
-## Publications
+## Impact and Future Directions
 
-- Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press)
+"Manhole VR" is more than just a VR film; it's a catalyst for conversation and change. By immersing viewers in the dangerous and degrading conditions faced by manual scavengers, the project seeks to raise awareness and inspire empathy. The film stands as a testament to the power of VR storytelling, demonstrating how this medium can be used to drive social impact and provoke meaningful dialogue.
+
+Looking ahead, future explorations in VR storytelling will likely delve into optimizing resource use, enhancing narrative interactivity, and leveraging real-time data to tailor experiences. As we continue to push the boundaries of what VR can achieve, projects like "Manhole VR" will undoubtedly serve as a beacon for innovative storytelling in this immersive medium.
+
+
+## Conclusion
+
+"Manhole VR" exemplifies the potential of Virtual Reality to transform storytelling. By creating an experience that blends film and interactive elements, the project not only showcases the power of VR but also highlights important social issues. As we step into this new dimension of storytelling, "Manhole VR" stands as a pioneering example of how technology and narrative can come together to create profound and impactful experiences.
 
 
 
