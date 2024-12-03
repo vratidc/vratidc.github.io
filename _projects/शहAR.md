@@ -17,3 +17,7 @@ team_members_align: "text-left"
 permalink: projects/shahar
 
 ---
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ManholeVR/View from (shahar img pending....))" alt="View from manhole">
+</figure> 
