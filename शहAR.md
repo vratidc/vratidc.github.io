@@ -14,6 +14,6 @@ banner_image1: ...... pending
 team_members: "Saloni Shetye | Sharvil Survase | Mann Merchant | Sanat Prasad | Lakshya Ranwan"
 team_members_align: "text-left"
 
-permalink: projects/शहAR
+permalink: projects/shahar
 
 ---
