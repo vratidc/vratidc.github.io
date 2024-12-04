@@ -9,7 +9,7 @@ active: "no"
 
 header:
     teaser: /assets/img/projects/shahar/dis_sh18.png
-tags: VR AR Reaserch  
+tags: VR AR Game  
 
 banner_image1:
 banner_image1_caption:
