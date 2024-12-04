@@ -2,8 +2,8 @@
 title:  "Walking in the Present"
 excerpt: A game to invoke reflection about mindfulness
 layout: projects   
-selected: "False"
-homepage: "False"
+selected: "false"
+homepage: "false"
 fullpage: "no"
 active: "no"
 
