@@ -38,6 +38,9 @@ appreciation of its mythology and traditions.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/WOTKG_1.png" alt="art_track">
+</figure>
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_vil.png" alt="art_track">
   <figcaption>Illustration of Rakhandar, based on photographs captured during Shigmotsav
 festival along with the project journey from ideation to execution</figcaption>
 </figure>
@@ -69,7 +72,25 @@ The inclusion of audiovisual content, such as religious songs, horror stories, a
 
 <br>
 
+## Character Design
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_char.png" alt="art_track">
+  <figcaption> Character designs and textures
+</figcaption>
+</figure>
+
+We've developed a gaming experience with multiple touchpoints, each featuring unique characters characterized by diverse dynamics and traits. Our emphasis on realism extends to the lifelike appearance of these characters, and we've crafted their clothing to mirror the conventional attire of the Konkan region.
+
+<br>
+
 ## Experience
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_gameplay.png" alt="art_track">
+  <figcaption> Gameplay Screens
+</figcaption>
+</figure>
 
 An interactive digital story centered around Rakhandar is brought to a broader audience
 through the character of a fourteen-year-old city dweller, Sarvesh, returning to his
@@ -81,6 +102,8 @@ their accounts of the spirit god Rakhandar, and engage with authentic Konkani
 elements such as a local alcohol distillery, Kaavi art, among others. This journey is
 designed to be quirky, sometimes mischievous, and to reflect the subtleties of Konkani
 community interdependencies and dynamics.
+
+<br>
 
 ## Technical Details
 
@@ -100,6 +123,16 @@ elements draw inspiration from Kaavi art, a mural form prevalent in the Konkan r
 especially in the temples of Goa, coastal Maharashtra, and Karnataka.
 Currently, the game is optimized for the Windows platform, allowing character control
 through keyboard and mouse inputs.
+
+<br>
+
+## Future Scope 
+
+To enhance player engagement the game can be further developed to incorporate more control over character conversations and branching narratives.
+Extra scope for exploration, hidden incentives, and easter eggs can be incorporated to polish this game further.
+Diverse tales from various regions of India, such as the captivating lore of
+Buta Kola from the Tulu Nadu region, popularized by the movie "Kantara," and many other similar tales on the themes of protector spirit-gods, could be documented and re-imagined through games
+
 
 ## Outcomes
 
