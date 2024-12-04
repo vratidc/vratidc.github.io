@@ -24,8 +24,7 @@ permalink: projects/WOTKG
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/WOTKGB.png" alt="WHISPERS_OF_THE_KONKAN_GUARDIAN_banner">
 </figure>
 
-## Synopsis
-
+<strong>Synopsis: </strong>
 Rakhandar, the mythical protective spirit of the area, demonstrates a
 fascinating duality in his identity. He can be mischievous, unforgiving, or
 fiercely protective towards the region's residents. This multifaceted nature
