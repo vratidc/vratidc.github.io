@@ -2,11 +2,10 @@
 title:  "शहAR"
 excerpt: Exploratory AR Town Builder
 layout: projects   
-selected: "true"
-homepage: "true"
-fullpage: "yes"
-active: "yes"
-date: 20200902
+selected: "False"
+homepage: "False"
+fullpage: "no"
+active: "no"
 
 header:
     teaser: /assets/img/projects/shahar/dis_sh18.png
@@ -22,7 +21,7 @@ permalink: projects/shahar
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh18.png" alt="twma_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh18.png" alt="शहAR">
 </figure> 
 
 
@@ -33,7 +32,7 @@ permalink: projects/shahar
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_shgif.gif" alt="twma_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_shgif.gif" alt="शहAR_Testing">
 </figure> 
 
 ## Overview
@@ -41,7 +40,7 @@ permalink: projects/shahar
 This academic project was conceptualised, designed, developed and tested within a two-week timeframe. The project involved collaboration within a team of 5 and was part of a course that aimed to provide an introduction and exploration of the development and applications of Extended Reality (XR) and its various media. 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh3.png" alt="twma_narrative">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh3.png" alt="Testing and Sandbox">
   <figcaption>Game testing and Sandbox</figcaption>
 </figure> 
 
@@ -58,33 +57,33 @@ We wanted to use AR to explore how things do not directly combine in the real wo
 </figure> 
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh7.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh7.png" alt="Shahar_Markers">
 </figure>
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh9.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh9.png" alt="Shahar_Final_Concept">
 </figure>
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh11.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh11.png" alt="Shahar_Development">
 </figure>
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh12.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh12.png" alt="Shahar_Assets">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh13.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh13.png" alt="The_App">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh14.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh14.png" alt="Shahar_setup">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh15.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh15.png" alt="Shahar_Features">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh16.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh16.png" alt="Shahar_Scope">
 </figure>
