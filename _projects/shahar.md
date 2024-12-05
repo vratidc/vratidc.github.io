@@ -85,5 +85,17 @@ We wanted to use AR to explore how things do not directly combine in the real wo
 </figure>
 
 <figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh2.gif" alt="Shahar_proximity_marker">
+</figure>
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh8.gif" alt="Shahar_rotate">
+</figure>
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh10.gif" alt="Shahar_ArStructure">
+</figure>
+
+<figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh16.png" alt="Shahar_Scope">
 </figure>
