@@ -114,12 +114,6 @@ As part of a pilot study, our prototype was tested with six participants. The st
 
 The findings revealed that spatial audio cues were particularly effective in directing the viewer’s attention. Since the sculptures within the narrative remained stationary while engaging in dialogue, the lack of significant character movement reduced the reliance on visual cues, making audio cues the primary focus in certain instances.
 
-<figure class="align-center" style="width:100%;">
-  <video controls style="width:100%;">
-    <source src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/belonging/blng_shrt.mp4" type="video/mp4">
-    Testing and video output from the project
-  </video>
-</figure>
 
 Additionally, the sequencing of dialogue among the sculptures played a critical role in guiding viewers through the narrative, enabling a smooth progression toward key plot points. Most notably, post-experience feedback indicated that participants comprehended the essence of the story, affirming the success of the narrative design.
 
@@ -131,3 +125,9 @@ We believe that through this demonstration, we will be able to study how viewers
 narratives. Understanding audio-visual cues is key to understanding the evolving grammar of storytelling in VR. We
 intend to conduct an in-depth analysis of these perceptual cues and propose guidelines to help VR filmmakers in
 designing effective VR narratives.
+
+## Publications
+
+- **Jayesh Pillai**, Priyanshu THakur, and Tushar Vaid. 2023. **Belonging: Exploring Audio-Visual Cues in Real-time 6DoF VR Narrative**. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA.  
+ 
+
