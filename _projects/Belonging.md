@@ -67,6 +67,8 @@ There are three scenes in the narrative of ‘Belonging’. The various plot poi
 of the viewer, are shown in the given figure, using a top-view of the story space. The placement and timing of these plot points
 were designed to guide the viewer gradually towards specific locations in the narrative space.
 
+<br>
+
 ### Timeline and Audio-Visual Cues
 
 <figure class="align-center" style="width:100%;">
