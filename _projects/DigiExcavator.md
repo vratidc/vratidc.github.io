@@ -8,7 +8,7 @@ fullpage: "yes"
 active: "no"
 
 header:
-    teaser: assets/img/projects/DigiExcavator/cover_digi_excavator.jpg
+    teaser: assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
 
 tags: AR Research
 
@@ -20,12 +20,28 @@ team_members_align: "text-left"
 
 permalink: projects/digiexcavator
 
+gallery2:
+  - aspect: "4/3"
+    url:
+    image_path: /assets/img/projects/DigiExcavator/2-digiexcavator-a-virtual-reality-jcb-simulator.gif
+    alt: "testing"
+    title: "testing"
+  - aspect: "4/3"
+    url:
+    image_path: /assets/img/projects/DigiExcavator/testing_ixd.png
+    alt: "user testing"
+    title: "user testing"
+  - aspect: "4/3"
+    url:
+    image_path: /assets/img/projects/DigiExcavator/testing_digiE.png
+    alt: "user testing"
+    title: "user testing"
 --- 
 
 DigiExcavator is VR JCB Simulator for new drivers to learn and explore the operation of JCB.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="digiexcavator_cover">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="digiexcavator_cover">
 </figure>
 
 <br>
@@ -79,6 +95,7 @@ The controllers were then 3D printed using a FlashForge 3D printer. It included 
 
 The following controller guide shows the list of interactions and shows how to interact with controllers to achieve a specific action. It also shows the function of each controller (Right and Left) and its movement.
 
+<br>
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/controller_digiexcavator.jpg" alt="3dprinting">
@@ -87,6 +104,11 @@ The following controller guide shows the list of interactions and shows how to i
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/controllersheet_digiexcavator.jpg" alt="3dprinting">
 </figure>
+
+## Testing
+
+
+{% include gallery id="gallery2" caption="Testing with DigiExcavator" %}
 
 <br>
 
