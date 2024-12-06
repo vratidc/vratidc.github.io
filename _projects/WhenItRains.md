@@ -21,6 +21,10 @@ permalink: projects/whenitrains
 
 --- 
 
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="whenitrains_cover">
+</figure>
+
 ## Introduction
 
 Augmented Reality (AR) is taking over in education. It allows for a completely new and easy method for learning. For years, bedtime stories have been every kid’s favorite memory. Interactive books for children have tons of developmental benefits. It helps with critical thinking, developmental skills, also foster love of reading and support early literacy.  With traditional books, interactions were purely based on imagination and the child could only visualize the story vicariously. Children find reading traditionally dull and boring. Kids these days spend so much time on screen. With AR, storytelling becomes fun and exciting. It makes even a simple story very much interesting with animations, sound and other alive visuals.

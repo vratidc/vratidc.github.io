@@ -36,7 +36,7 @@ The usage of augmented reality technology is spreading at an enormous scale in o
 
 <br> 
 
-## Outcome
+## Outcomes
 
 The primary outcome of this project is a <b>Tangible AR Application</b> with inter-marker interactions.
 
