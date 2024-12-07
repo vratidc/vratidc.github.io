@@ -65,7 +65,8 @@ There are two main characters in the story. Sophie and Ammu are best friends. Th
 ### Story
 <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 10px; font-size: 16px; line-height: 1.5; background-color: #DFF2BF; scrollbar-color:  #028056 #DFF2BF; scrollbar-width: thin;">
  
-  1.<span style="color: 028056;">Ammu and Sophie are on their way back home from school enjoying the scenic scenery in the background of kerala. Passing by a flower bloomed meadow.</span>
+  1.<span style="color: #028056;">Ammu and Sophie are on their way back home from school enjoying the scenic scenery in the background of kerala. Passing by a flower bloomed meadow.</span>
+
      
 
 <br>
