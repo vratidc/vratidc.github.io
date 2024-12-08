@@ -8,7 +8,7 @@ fullpage: "yes"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/WhenItRains/wirMain.jpeg
+    teaser: /assets/img/projects/WhenItRains/thumbnail.PNG
 tags: AR Research
 
 banner_image1: 
@@ -27,7 +27,7 @@ permalink: projects/whenitrains
 
 ## Introduction
 
-Augmented Reality (AR) is taking over in education. It allows for a completely new and easy method for learning. For years, bedtime stories have been every kid’s favorite memory. Interactive books for children have tons of developmental benefits. It helps with critical thinking, developmental skills, also foster love of reading and support early literacy.  With traditional books, interactions were purely based on imagination and the child could only visualize the story vicariously. Children find reading traditionally dull and boring. Kids these days spend so much time on screen. With AR, storytelling becomes fun and exciting. It makes even a simple story very much interesting with animations, sound and other alive visuals.
+Augmented Reality (AR) is revolutionizing education, making learning fun and engaging. AR books transform storytelling with animations, sound, and vivid visuals, fostering imagination and critical skills. Unlike traditional books, AR brings stories to life, making reading exciting and nurturing a love for learning in the digital age.
 
 <br>
 
@@ -50,7 +50,7 @@ It is a simple story about two friends coming back from their school on a rainy 
 There are two main characters in the story. Sophie and Ammu are best friends. They care for each other. Both are mischievous and playful.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir1.jpg" alt="wir1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir1.png" alt="wir1">
 </figure>
 
 <br>
@@ -58,11 +58,19 @@ There are two main characters in the story. Sophie and Ammu are best friends. Th
 ### Storyboard
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir2.jpg" alt="wir2">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/group.png" alt="storyboard">
 </figure>
 <br>
 
 ### Story
+
+Simple story from childhood
+About two friends coming back from the school on a rainy day
+Things they see and little moments
+About their love, kindness and friendship for each other
+Narrated through the conversation between each other
+
+
 <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 10px; font-size: 16px; line-height: 1.5; background-color: #DFF2BF; scrollbar-color:  #028056 #DFF2BF; scrollbar-width: thin;">
  
   1.<span style="color: #028056;">Ammu and Sophie are on their way back home from school enjoying the scenic scenery in the background of kerala. Passing by a flower bloomed meadow.</span>
@@ -136,27 +144,6 @@ Sophie/Ammu: Achheeee!!(Sneeze)
 </div>
 <br>
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir3.jpg" alt="wir3">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir4.jpg" alt="wir4">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir5.jpg" alt="wir5">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir6.jpg" alt="wir6">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir7.jpg" alt="wir7">
-</figure>
-
-<br>
 
 ### Visual Development and final illustrations
 
