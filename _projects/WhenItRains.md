@@ -78,36 +78,41 @@ Sophie: They are alive? Can they see us?
 Ammu: Yeah, they will die if we pluck them. They have emotions too..
 <br>
 <br>
-2.
-Weather is changing to slightly dark cloudy- about to start rain and windy. A frog croaks next to them- it’s about to rain.
+2.<span style="color: #028056;">
+Weather is changing to slightly dark cloudy- about to start rain and windy. A frog croaks next to them- it’s about to rain.</span>
 
 <br><br>
 Sophie smiles at her best friend and leaves the flower unplucked.
 <br><br>
-3. 
-Both children are sharing one umbrella, leaving them wet on both sides anyway. 
+3.<span style="color: #028056;">
+Both children are sharing one umbrella, leaving them wet on both sides anyway.</span>
 <br><br>
 Sophie: I really really love this  fragrance of wet mud. And look at those greenery around us! Wow!
 Ammu: Yeah true! How good is that every year our school reopens on ‘Edavapathy rains’. And we get to enjoy this rain so much.
 <br><br>
-4. 
-They decide to drop the umbrella and move forward without it and actually enjoying it!
+4.<span style="color: #028056;"> 
+They decide to drop the umbrella and move forward without it and actually enjoying it!</span>
+
 <br><br>
-5.
-Both about to start a race from the hilly top to bottom.
+5.<span style="color: #028056;">
+Both about to start a race from the hilly top to bottom.</span>
+<br>
 Sophie: Who wins will buy the other ‘Mittayi’ from Dasettan’s shop, cross your heart.
 Ammu: Yippie, let’s start the race!
 <br><br>
-6.
+6.<span style="color: #028056;">
 Local fisherman catching fish. Children are both watching in wonder
+</span>
+<br>
 Ammu: I will also catch ‘Piloppi’
 Sophie: Uncle will you give us one ‘Piloppi’ so that will take it home and put it in the tank?
 <br><br>
 Uncle(Local fisherman) laughs 
 Children Laughs
 <br><br>
-7.
-Both children are about to turn in two different directions, to their homes. 
+7.<span style="color: #028056;">
+Both children are about to turn in two different directions, to their homes.</span>
+<br>
 Sophie: If Mummy finds me wet, she will surely scold me.
 Ammu: Don’t tell her. As soon as you reach home, change your clothes and wipe yourself well.
 Sophie: Yes, you too and take this ‘Piloppi’ with you.
@@ -115,13 +120,17 @@ Sophie: Yes, you too and take this ‘Piloppi’ with you.
 
 
 
-8. 
+8.<span style="color: #028056;">
 A distant discussion of friends
+</span>
+<br>
 Ammu: Don’t forget to bring ‘Morukoottan’ tomorrow for lunch
 Sophie: Yes, will tell Mummy.
 <br><br>
-9. 
+9. <span style="color: #028056;">
 A traditional home interior, where the kid is half dried with the towel.
+</span>
+<br>
 Sophie/Ammu: Achheeee!!(Sneeze)
 
 </div>
