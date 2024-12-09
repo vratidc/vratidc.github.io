@@ -201,10 +201,6 @@ Augmented reality (AR) can be defined as the overlaying of digital content (imag
 
 The illustration is kept as a marker for the content. Each layer is imported to unity as sprites and sprite animations. It is kept above the marker in the order of appearance and height. Sprite masking is also done to view it inside panels.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir15.png" alt="wir15">
-</figure>
-
 In order to view it hold the illustration in front of the webcam. The layers and animation will appear above the illustration.
 
 <figure class="align-center" style="width:100%;">
@@ -215,7 +211,25 @@ In order to view it hold the illustration in front of the webcam. The layers and
 
 Instead of uploading layer by layer, a video playback is kept by adding a video component for the marker. On viewing the marker illustration, an animated video will be playing.
 
+<video controls>
+  <source src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/WITR.mp4">
+</video>
+<figcaption>Animation playing with marker illustrations</figcaption>
+<br>
 
+## Production Process
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/char_ill.png" alt="production_process">
+  <figcaption>Final illustrations were done layer by layer from the storyboard in the procreate app in ipad. Small animations were also done along with it.</figcaption>
+</figure>
+
+Layer by layer pngs are imported to unity. Illustrations of the book are kept as image targets. Portal is implemented on a plane above image targets. Through Portal users can view animated layers with 3D parallax effect. Illustration is kept layer by layer in different depths in another place called WorldB(B is 1 to 12 for each image target). This is captured by another camera(CameraB). As the image target rotates and moves (That is, image target rotates and moves) WorldB is also moved accordingly. This is viewed through the portal plane.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/dev_1.png" alt="production_process">
+  <figcaption>Final illustrations were done layer by layer from the storyboard in the procreate app in ipad. Small animations were also done along with it.</figcaption>
+</figure>
 
 
 
