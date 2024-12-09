@@ -211,9 +211,7 @@ In order to view it hold the illustration in front of the webcam. The layers and
 
 Instead of uploading layer by layer, a video playback is kept by adding a video component for the marker. On viewing the marker illustration, an animated video will be playing.
 
-<video controls>
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/WITR.mp4">
-</video>
+{% include video.html filepath="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/WITR.mp4" filetype="video/mp4" %}
 <figcaption>Animation playing with marker illustrations</figcaption>
 <br>
 
@@ -228,9 +226,17 @@ Layer by layer pngs are imported to unity. Illustrations of the book are kept as
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/dev_1.png" alt="production_process">
-  <figcaption>Final illustrations were done layer by layer from the storyboard in the procreate app in ipad. Small animations were also done along with it.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
+PortalSetup.cs is the script to change the rotation and position of WorldB. Portal plane rendertexture is initialised as the CameraB target texture. In update, WorldB position and rotation is changed according to image target position and rotation in local space.
+<br>
+
+Along with Augmented Reality content sound is also played while viewing through the AR app. Dialogues between the characters and background sounds are added for each image target. Dialogues are recorded and mixed with background sounds in Premiere pro software and exported in mp3 format. These sounds are then taken to unity and added for each image target by adding script in  DefaultTargetEventHandler.
+
+## Challenges and Learning
+
+Portal implementation was the most challenging thing I faced in this project. Several methods were tried and finally it was achieved with the help of Prof. Jayesh Pillar and Amarnath Murugan helped me achieve the same. To find the correct positioning of layers in the space took several iterations. Through this project i have learned a lot in Unity, C# coding. I have also improved my skills in illustration. 
 
 
 
