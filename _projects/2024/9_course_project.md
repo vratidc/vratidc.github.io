@@ -11,7 +11,7 @@ header:
 
 overview: MULTUS handles various issues in virtual reality menus. It allows for simultaneous access to multiple menus, which speeds up workflow and enhances productivity. Additionally improves menu layout to keep the user's view clear and develop immersion.<br><br>It helps interacting with multiple menus without disrupting their primary activities in the environment. Furthermore, the system has easy navigation and visual clues to help users understand menu hierarchies, resulting in a more user-friendly experience.
 
-project-link:
+project-link: https://www.behance.net/gallery/207330765/Multus-6DOF-multitasking-in-VR
 
 active: "yes"
 type: "course"

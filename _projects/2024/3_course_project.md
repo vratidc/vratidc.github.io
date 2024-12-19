@@ -1,5 +1,5 @@
 ---
-title: "Trebbles: A VR Waterscape "
+title: "Trebbles: A VR Waterscape"
 team: "Nitya Vyas | Saikat Biswas | Pawan Kumar | Elvira Mishra"
 tags: VR Quest Unity
 
