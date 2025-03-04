@@ -1,7 +1,7 @@
 ---
 title: "The Truth"
 team: "Kimaya Itkarkar | Aakanksha Singh"
-tags: VR Quest Unity
+tags: AR Graphic-Novel Unity
 
 video_provider: "youtube"
 video_id:
