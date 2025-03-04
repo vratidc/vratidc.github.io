@@ -1,7 +1,7 @@
 ---
 title: "Maunaraagam"
 team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkey"
-tags: VR-Film Quest Mobile Spatial-Audio
+tags: VR-Film Quest Mobile-VR Spatial-Audio
 
 video_provider: "youtube"
 video_id:

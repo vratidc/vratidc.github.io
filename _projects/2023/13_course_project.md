@@ -1,7 +1,7 @@
 ---
 title: "Rags to Riches"
 team: "Arhan Sarkar | Sumeet Shridhar Birje | Abhishek Kushwaha | Abhishek Yadav"
-tags: VR-Film Quest Mobile
+tags: VR-Film Quest Mobile-VR
 
 video_provider: "youtube"
 video_id:

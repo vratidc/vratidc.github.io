@@ -1,7 +1,7 @@
 ---
 title: "Majboori: VR Film"
 team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkeye"
-tags: VR-Film Quest Mobile
+tags: VR-Film Quest Mobile-VR
 
 video_provider: "youtube"
 video_id:

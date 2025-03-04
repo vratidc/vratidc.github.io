@@ -1,7 +1,7 @@
 ---
 title: "Untitled"
 team: "Nebu George | Ananya Sharma | Naman Khurana"
-tags: VR-Film Quest Unity
+tags: VR-Film Quest Mobile-VR
 
 video_provider: "youtube"
 video_id:
