@@ -398,7 +398,8 @@
 
     .course__item-teaser {
 
-        height: 25vh;
+        height: 30vh;
+        min-height: 200px;
         @include breakpoint($small) {}
         @include breakpoint($medium) {}
 
