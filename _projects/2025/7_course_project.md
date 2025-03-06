@@ -7,9 +7,9 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2025/course_project_7.jpg
+    teaser: /assets/img/projects/2025/course_project_7.png
 
-overview: This is a VR game that ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... .....
+overview: Ocean Jam is a fast-paced VR game where you ride the waves and take down enemies with basketball shots! Dodge obstacles, aim with precision, and race through dynamic waters. Shoot, steer, and dominate the ocean! 🌊🏀 
 
 project-link:
 
