@@ -245,6 +245,17 @@ We conducted experiments to understand how visual and audio cues work in VR narr
 - Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
 
 <br>
+
+### ***Selections at Events & Festivals***
+
+- Selection at Animela International Animation Festival 2025, IIT Bombay
+
+- Selection at Alpavirama International Youth Film Festival 2024, NID Ahmedabad
+
+- Presented at the South Asian Conference on Gender and Sexuality 2017, IIT Bombay
+
+
+<br>
 <hr>
 <br>
 
