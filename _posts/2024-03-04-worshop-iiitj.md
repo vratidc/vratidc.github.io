@@ -16,14 +16,13 @@ permalink: /workshop-iitj-2024
 Course Instructors: Jayesh Pillai &amp; Ananda Bathena</small> 
 <br><br>
 
-## Objective
+### Objectives
 - Understanding the process of VR filmmaking.
 - Creating a live-action VR narrative that can be experienced using a headset.
 
 <br>
 
-## VR Films
-
+### VR Films
 Below are the outcomes from the 2-week workshop.
 
 <hr>
@@ -73,7 +72,7 @@ Below are the outcomes from the 2-week workshop.
 
 # Ananta
 
-<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Himanshu Raj, Vivek Kumar, Jay Singh Mandoli, Juben Basumatary.&nbsp;&nbsp;</small> </span>
+<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Himanshu Raj, Vivek Kumar, Jay Singh Mandoli, Juben Basumatary&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
 <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2024_iitj\team_4.jpg" alt="Ananta">
