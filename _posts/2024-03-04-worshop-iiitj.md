@@ -1,5 +1,5 @@
 ---
-title:  "VR Filmmaking - IIT Jodhpur"
+title:  "VR Filmmaking - IIT Jodhpur - Spring 2024"
 excerpt: 2-Week Workshop/Course on VR Filmmaking
 
 header:
