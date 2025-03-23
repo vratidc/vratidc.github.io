@@ -100,7 +100,7 @@ Below are the outcomes from the 2-week workshop.
 
 # Dilemma
 
-<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Anirudh Singh, Apurva Khandare, Kashish Singh, Sakshi Nimje&nbsp;&nbsp;</small> </span>
+<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Anirudh Singh, Apurva Khandare, Kashish Singh&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
 <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2025_iitj\team_6.jpg" alt="Nazar">
@@ -114,7 +114,7 @@ Below are the outcomes from the 2-week workshop.
 
 # Andekha Pyaar
 
-<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Arushi Soni, Jhansi G., Ravi Gupta&nbsp;&nbsp;</small> </span>
+<span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Arushi Soni, Jhansi G., Ravi Gupta, Sakshi Nimje&nbsp;&nbsp;</small> </span>
 
 <figure class="align-center" style="width:100%;">
 <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\2025_iitj\team_7.jpg" alt="Aankhon Dekhi">
@@ -126,6 +126,6 @@ Below are the outcomes from the 2-week workshop.
 <br>
 <hr>
 <br>
-See past works of students, from this course: 
+See past works of students, from this course:
 <br>• [VR Filmmaking - Spring 2024](https://imxd.in/workshop-iitj-2024){:target="_blank"}.
 
