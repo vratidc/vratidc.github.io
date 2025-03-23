@@ -11,7 +11,7 @@ layout: single
 permalink: /workshop-iitj-2025
 ---
 <br>
-<small>17 - 28 Mar 2024
+<small>17 - 28 Mar 2025
 <br>
 Course Instructors: Jayesh Pillai &amp; Ananda Bathena</small> 
 <br><br>
