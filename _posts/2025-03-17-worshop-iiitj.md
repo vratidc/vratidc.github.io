@@ -125,3 +125,7 @@ Below are the outcomes from the 2-week workshop.
 
 <br>
 <hr>
+<br>
+See past works of students, from this course: 
+<br>• [VR Filmmaking - Spring 2024](https://imxd.in/workshop-iitj-2024){:target="_blank"}.
+
