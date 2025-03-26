@@ -71,7 +71,7 @@ Below are the outcomes from the 2-week workshop.
 </figure>
 
 ### Synopsis
-<i>On the 5th anniversary of a life-altering event, two old friends, Robin and Vanya, find themselves weighed down by unresolved emotions and a fractured bond. Once inseparable, time and tragedy have left scars that have not fully healed.<br><br>As they revisit the familiar halls where their friendship began, old memories, laughter, and unspoken emotions resurface. With tensions still lingering, they must face what drove them apart and decide if healing is still possible.<br>"Ek Din" is a heartfelt tale of friendship, guilt, and the journey toward forgiveness.</i>
+<i>On the 5th anniversary of a life-altering event, two old friends, Robin and Vanya, find themselves weighed down by unresolved emotions and a fractured bond. Once inseparable, time and tragedy have left scars that have not fully healed.<br><br>As they revisit the familiar halls where their friendship began, old memories, laughter, and unspoken emotions resurface. With tensions still lingering, they must face what drove them apart and decide if healing is still possible.<br><br>"Ek Din" is a heartfelt tale of friendship, guilt, and the journey toward forgiveness.</i>
 
 <small>Experience: Sitting - Revolving Chair</small>
 
