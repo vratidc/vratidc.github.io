@@ -15,12 +15,12 @@ links:
     - label: "Email"
       icon:
       url:
-    - label: "Portfolio"
-      icon:
-      url: 
+    - label: "Artstation"
+      icon: "fab fa-fw fa-artstation"
+      url: "https://www.artstation.com/zechariasari"     
     - label: "Linkedin"
-      icon:
-      url: 
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zecharia-s-490853261/"
       
 ---
 

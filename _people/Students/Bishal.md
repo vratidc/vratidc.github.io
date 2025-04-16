@@ -19,8 +19,8 @@ links:
       icon:
       url: 
     - label: "Linkedin"
-      icon:
-      url: 
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bishal-brahma-543678312/"
       
 ---
 
