@@ -14,7 +14,7 @@ fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:eternalsirsat@gmail.com"
+      url: "mailto:adityasirsat60@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://kazuya60.github.io/Aditya_Sirsat/index.html"

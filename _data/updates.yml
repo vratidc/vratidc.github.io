@@ -1,5 +1,26 @@
 # main links
 main:
+   - title: "VR Filmmaking - IIT Jodhpur - Spring 2025"
+     date: "17/03/2025"
+     active: "yes"
+     content: "2-Week Workshop/Course on VR Filmmaking - March 2025"
+     link: /workshop-iitj-2025
+     teaser: /assets/img/updates/icon-update-iitj-2025.jpg
+     fullpage: "yes"
+   - title: "Project Showcase 2025 - Design for XR"
+     date: "06/03/2025"
+     active: "yes"
+     content: "Outcomes of the course 'Design for XR' - Spring 2025"
+     link: /de712-showcase-2025
+     teaser: /assets/img/updates/icon_showcase_3.jpg
+     fullpage: "yes"
+   - title: "Design for XR - Spring 2025"
+     date: "01/02/2025"
+     active: "yes"
+     content: "Course (10 Feb - 07 Mar 2025)"
+     link: /de712-course-2025
+     teaser: /assets/img/updates/icon_imd1.jpg
+     fullpage: "yes"     
    - title: "DE677 - Design for VR - Autumn 2024"
      date: "23/08/2024"
      active: "yes"
@@ -14,8 +35,8 @@ main:
      link: /updates/fusion-lv2024
      teaser: /assets/img/updates/lv2024/icon-update-lv2024.jpg
      fullpage: "yes"
-   - title: "VR Filmmaking - IIT Jodhpur"
-     date: "04/03/2023"
+   - title: "VR Filmmaking - IIT Jodhpur - Spring 2024"
+     date: "04/03/2024"
      active: "yes"
      content: "2-Week Workshop/Course on VR Filmmaking - March 2024"
      link: /workshop-iitj-2024
