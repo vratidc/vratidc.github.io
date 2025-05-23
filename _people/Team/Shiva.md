@@ -14,7 +14,7 @@ fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:bandashivateja@gmail.com"
+      url: "mailto:30005958@iitb.ac.in"
     - label: "Artstation"
       icon: "fab fa-fw fa-artstation"
       url: "https://www.artstation.com/bstg"      
