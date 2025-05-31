@@ -5,15 +5,15 @@ layout: single
 
 gallery1:
   - url: /projects/manhole-short-film
-    image_path: /assets/img/projects/placeholder.png
+    image_path: /assets/img/projects/manholeproject/manhole_thumbnail_1.png
     alt: "Manhole1"
     title: "Manhole1"
   - url: /projects/into-the-manhole
-    image_path: /assets/img/projects/placeholder.png
+    image_path: /assets/img/projects/manholeproject/manhole_thumbnail_2.png
     alt: "Manhole2"
     title: "Manhole2"
   - url: /projects/manhole-feature-film
-    image_path: /assets/img/projects/placeholder.png
+    image_path: /assets/img/projects/manholeproject/manhole_thumbnail_3.png
     alt: "Manhole3"
     title: "Manhole3"
 
