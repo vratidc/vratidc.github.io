@@ -1,7 +1,10 @@
 # main links
 main:
+   - title: "Arun Kumar"
+     url: https://www.linkedin.com/in/arunkumar12533/
+     photo: /assets/img/people/imxd_people_arunkumar.jpg
    - title: "Muskan Ahuja"
-     url: https://www.linkedin.com/in/muskan-ahuja-918aab222
+     url: https://www.linkedin.com/in/muskan-ahuja-918aab222/
      photo: /assets/img/people/imxd_people_muskanahuja.jpg
    - title: "Kanak Kothawale"
      url: https://www.linkedin.com/in/kanak-kothawale-135094235/
@@ -10,7 +13,7 @@ main:
      url: https://www.linkedin.com/in/niya-sharma-326697139/
      photo: /assets/img/people/imxd_people_niyasharma.jpg
    - title: "Aditya Padmagirwar"
-     url: https://www.linkedin.com/in/adityapadmagirwar/
+     url: https://www.linkedin.com/in/adityapadma/
      photo: /assets/img/people/imxd_people_adityapadmagirwar.jpg
    - title: "Uttham Prakash"
      url: https://www.linkedin.com/in/uttham-prakash-926024286/
@@ -19,7 +22,7 @@ main:
      url: https://www.linkedin.com/in/tushar-vaid-97007015a/
      photo: /assets/img/people/imxd_people_tusharvaid.jpg
    - title: "Priyanshu Thakur"
-     url: https://www.linkedin.com/in/priyanshu-thakur-854031217/
+     url: https://www.linkedin.com/in/priyanshuthakur/
      photo: /assets/img/people/imxd_people_priyanshuthakur.jpg
    - title: "Suchitra Swain"
      url: https://www.linkedin.com/in/suchitra-swain-47562ab7/
