@@ -4,8 +4,8 @@ excerpt: Feature Film
 layout: projects   
 selected: "false"
 homepage: "false"
-fullpage: "yes"
-active: "yes"
+fullpage: "no"
+active: "no"
 date: 20250102
 
 
