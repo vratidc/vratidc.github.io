@@ -1,0 +1,11 @@
+{% assign entries = site[include.collection] %}
+
+{% assign entries = entries | sort: 'date' %}
+
+
+
+{%- for post in entries -%}
+{% if post.manholeproject == "yes" and post.type != "course" %}
+  {% include projects-single-manhole.html %}
+{% endif %}
+{%- endfor -%}
