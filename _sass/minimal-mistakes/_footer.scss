@@ -106,3 +106,52 @@
         }
     }
 }
+
+/* For Manhole page footer */
+
+.page__footer-manhole {
+    @include clearfix;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+    margin-top: 3em;
+    color: $muted-text-color;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+    background-color: #443333;
+
+    footer {
+        @include clearfix;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        max-width: 100%;
+        padding: 0 1em 2em;
+
+        @include breakpoint($x-large) {
+            max-width: $x-large;
+        }
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+        
+        color: #fcd5ce;
+    }
+
+    .fas,
+    .fab,
+    .far,
+    .fal {
+        color: #fcd5ce;
+    }
+}
