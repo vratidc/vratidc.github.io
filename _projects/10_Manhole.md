@@ -13,7 +13,7 @@ tags: VR Research
 
 banner_image1: 
 
-team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Uttham Prakash | Ananda Bathena"
+team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja  | Ananda Bathena"
 team_members_align: "text-left"
 
 permalink: projects/manholevr
@@ -30,6 +30,8 @@ permalink: projects/manholevr
 Official Website : [manholecollective.com](https://manholecollective.com/){:target="_blank"}
 <br>
 Animation Film - Trailer : [Manhole|Short Film|Trailer](https://youtu.be/NYyHxQjr3Z8){:target="_blank"} 
+<br>
+VR Narrative - Trailer : [Into The Manhole](https://youtu.be/8QcyCxyaC00){:target="_blank"}
 <br>
 Animation Film - IMDb Page : [Manhole 2021 IMDb](https://www.imdb.com/title/tt16421128){:target="_blank"}
 <br>
