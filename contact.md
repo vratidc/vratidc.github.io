@@ -7,12 +7,6 @@ header:
 layout: contactsingle
 ---
 
-<!--
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/contact.jpg" alt="contact_banner">
-</figure> 
--->
-
 **VR located here:**
 
 IDC School of Design,<br>

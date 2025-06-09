@@ -1,7 +1,7 @@
 ---
 title:  "Untitled Project"
 excerpt: Feature Length Film
-layout: projects   
+layout: manholeprojectspage   
 selected: "false"
 homepage: "false"
 fullpage: "yes"
@@ -11,12 +11,14 @@ date: 20250102
 
 
 header:
-    teaser: /assets/img/projects/manholeproject/manhole_thumbnail_3.png
+    image: /assets/img/projects/manholeproject/manhole3_header.jpg
+    teaser: /assets/img/projects/manholeproject/manhole3_thumbnail.png
+
 tags: Film Animation Research
 
 banner_image1:
 
-team_members: "Abhishek Verma | .... | ...."
+team_members: "Abhishek Verma | Animesh Sharma"
 team_members_align: "text-left"
 
 permalink: projects/manhole-feature-film
@@ -29,20 +31,6 @@ This feature film is part of a [larger project](https://imxd.in/manhole-project)
 
 <br>
 
-## Synopsis
-
-Details coming soon...
-
-<br>
-
-## Process
-
-Details coming soon...
-
-<br>
-
-## Outcome
-
-Details coming soon...
+More details coming soon...
 
 <br>
