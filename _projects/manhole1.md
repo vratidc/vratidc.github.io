@@ -12,7 +12,7 @@ date: 20250102
 
 header:
     image: /assets/img/projects/manholeproject/manhole1_header.jpg
-    teaser: /assets/img/projects/manholeproject/manhole1_thumbnail.png
+    teaser: /assets/img/projects/manholeproject/manhole1_teaser.png
 
 tags: Film RealTime-Animation
 
@@ -30,7 +30,7 @@ permalink: projects/manhole-short-film
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole1_screenshot1.jpg" alt="Manhole1 Screenshot1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot1.jpg" alt="Manhole1 Screenshot1">
   <figcaption>A screenshot from the short film: The street where the story takes place.</figcaption>
 </figure> 
 <br>
@@ -55,14 +55,40 @@ IMDb Page : [Manhole (2021)](https://www.imdb.com/title/tt16421128){:target="_bl
 
 <br>
 
-## Process
+## Design Process
 
-Details coming soon...
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
 
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
+
+<br>
+
+
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot2.jpg" alt="ITM_screenshot1">
+  <figcaption>A screenshot from the experience: Amitabh and Bunty looking into the manhole.</figcaption>
+</figure> 
+<br>
+
+## Techincal Details
+
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
+
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
+
+<br>
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot3.jpg" alt="ITM_screenshot1">
+  <figcaption>A screenshot from the experience: Amitabh and Bunty looking into the manhole.</figcaption>
+</figure> 
 <br>
 
 ## Outcome
 
-Details coming soon...
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
+
+Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
 
 <br>

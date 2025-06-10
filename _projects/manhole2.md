@@ -12,7 +12,7 @@ date: 20250102
 
 header:
     image: /assets/img/projects/manholeproject/manhole2_header.gif
-    teaser: /assets/img/projects/manholeproject/manhole2_thumbnail.png
+    teaser: /assets/img/projects/manholeproject/manhole2_teaser.png
 
 tags: VR Narrative Research
 
@@ -44,7 +44,7 @@ Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda 
 <br><br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/ManholeVR/View from manhole.jpg" alt="View from manhole">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/ITM_img/ITM_screenshot1.jpg" alt="ITM_screenshot1">
   <figcaption>A screenshot from the experience: Amitabh and Bunty looking into the manhole.</figcaption>
 </figure> 
 <br>
@@ -61,7 +61,7 @@ The production phase of "Into the Manhole" was characterized by a detailed and s
 Actors and Rehearsals: The casting process was integral to ensuring that the performances conveyed authenticity and emotional depth. Rigorous rehearsals and a talented cast brought the narrative to life, making the harrowing conditions of manual scavenging palpable. 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\img\projects\ManholeVR\Mocap and Facecap.jpg" alt="Mocap and Facecap">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/ITM_img/ITM_mocap.jpg" alt="ITM - Mocap and Facecap">
 </figure>
 <br>
 Filming and Motion Capture: State-of-the-art motion capture technology played a crucial role in capturing nuanced performances. This technology, coupled with efficient filming workflows, allowed for a seamless integration of motion and dialogue, enhancing the immersive quality of the film.
@@ -82,7 +82,7 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 <br><br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole2_screenshot1.jpg" alt="Manhole2 Screenshot1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/ITM_img/ITM_screenshot2.jpg" alt="ITM_screenshot2">
   <figcaption>A screenshot from the experience: Amitabh clearing the sludge.</figcaption>
 </figure> 
 <br>

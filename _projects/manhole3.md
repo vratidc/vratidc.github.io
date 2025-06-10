@@ -12,7 +12,7 @@ date: 20250102
 
 header:
     image: /assets/img/projects/manholeproject/manhole3_header.jpg
-    teaser: /assets/img/projects/manholeproject/manhole3_thumbnail.png
+    teaser: /assets/img/projects/manholeproject/manhole3_teaser.png
 
 tags: Film Animation Research
 
