@@ -105,6 +105,8 @@ Though the experience was designed for the Meta Quest 3, it currently runs as a 
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Sound Design & Background Score</p>
   </article>
   </div>
+
+  </div>
   </div>
 
 
