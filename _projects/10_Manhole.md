@@ -69,27 +69,54 @@ Though the experience was designed for the Meta Quest 3, it currently runs as a 
 <table>
   <tr>
     <td class="align-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png" width="150"/><br>
+      <figure> <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png" width="150"/> </figure><br>
       <strong>Abhishek Verma</strong><br>
       Writer & Director
     </td>
     <td class="align-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png" width="150"/><br>
+      <figure><img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png" width="150"/></figure><br>
       <strong>Jayesh Pillai</strong><br>
       VR Director
     </td>
         <td class="align-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png" width="150"/><br>
-      <strong>Banda Shiva Teja</strong><br>
+      <figure> <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png" width="150"/></figure><br>
+      <strong>Banda Shiva Teja</strong></figure><br>
       Technical Director
     </td>
     <td class="align-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png" width="150"/><br>
+      <figure><img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png" width="150"/></figure><br>
       <strong>Ananda Bathena</strong><br>
       Sound Designer
     </td>
   </tr>
 </table>
+
+<h2>Core Team</h2>
+
+<div class="team-grid">
+  <div class="grid grid--uniform">
+    <div class="grid__item one-quarter">
+      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png' | relative_url }}" alt="Abhishek Verma" class="avatar-img">
+      <h3><strong>Abhishek Verma</strong></h3>
+      <p>Writer & Director</p>
+    </div>
+    <div class="grid__item one-quarter">
+      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png' | relative_url }}" alt="Jayesh Pillai" class="avatar-img">
+      <h3><strong>Jayesh Pillai</strong></h3>
+      <p>VR Director</p>
+    </div>
+    <div class="grid__item one-quarter">
+      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png' | relative_url }}" alt="Banda Shiva Teja" class="avatar-img">
+      <h3><strong>Banda Shiva Teja</strong></h3>
+      <p>Technical Director</p>
+    </div>
+    <div class="grid__item one-quarter">
+      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png' | relative_url }}" alt="Ananda Bathena" class="avatar-img">
+      <h3><strong>Ananda Bathena</strong></h3>
+      <p>Sound Designer</p>
+    </div>
+  </div>
+</div>
 
 
 The core team combines strengths across narrative, immersive direction, real-time technology, and sound design to deliver a deeply moving and technically advanced VR Narrative.
