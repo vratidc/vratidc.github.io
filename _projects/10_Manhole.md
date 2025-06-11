@@ -64,11 +64,33 @@ Into the Manhole forms Phase 2 of this initiative, the virtual reality component
 
 Though the experience was designed for the Meta Quest 3, it currently runs as a PC VR experience, with active plans for porting it to a standalone Meta Quest 3 build and releasing it via the Meta Store.
 
-<b>Core Team</b>
-Abhishek Verma – Writer & Director
-Jayesh Pillai – VR Director
-ShivaTeja Banda – Technical Director
-Ananda Bathena – Background Score and Sound Designer
+## Core Team
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png" width="150"/><br>
+      <strong>Abhishek Verma</strong><br>
+      Writer & Director
+    </td>
+    <td align="center">
+      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png" width="150"/><br>
+      <strong>Jayesh Pillai</strong><br>
+      VR Director
+    </td>
+        <td align="center">
+      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png" width="150"/><br>
+      <strong>Banda Shiva Teja</strong><br>
+      Technical Director
+    </td>
+    <td align="center">
+      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png" width="150"/><br>
+      <strong>Ananda Bathena</strong><br>
+      Sound Designer
+    </td>
+  </tr>
+</table>
+
 
 The core team combines strengths across narrative, immersive direction, real-time technology, and sound design to deliver a deeply moving and technically advanced VR Narrative.
 
