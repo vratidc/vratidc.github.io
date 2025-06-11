@@ -6,11 +6,11 @@ role: "team"
 date: 20240424
 header:
     teaser: /assets/img/people/imxd_people_elviramishra.jpg
-permalink: /people/khyati
+permalink:
 type: people
 fullpage: "no"
 modal: "no"
-modalname: "khyati"
+modalname: "elviramishra"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

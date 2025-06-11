@@ -6,7 +6,7 @@ role: "team"
 date: 20240101
 header:
     teaser: /assets/img/people/imxd_people_shivateja.jpg
-permalink: /people/shivateja
+permalink:
 type: people
 modal : "no"
 modalname: "shivateja"

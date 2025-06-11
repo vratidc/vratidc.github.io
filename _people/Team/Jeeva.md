@@ -7,7 +7,7 @@ role: "team"
 date: 20230220
 header:
     teaser: /assets/img/people/imxd_people_jeevanantham.jpg
-permalink: /people/jeevanantham
+permalink:
 type: people
 modal : "no"
 modalname: "jeevanantham"

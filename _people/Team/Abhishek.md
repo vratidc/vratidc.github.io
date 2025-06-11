@@ -6,11 +6,11 @@ role: "team"
 date: 20240103
 header:
     teaser: /assets/img/people/imxd_people_abhishekverma.jpg
-permalink: /people/jayesh
+permalink:
 type: people
 fullpage: "no"
 modal: "no"
-modalname: "abhishek"
+modalname: "abhishekverma"
 modaltext: ""
 links:
     - label: "Email"
