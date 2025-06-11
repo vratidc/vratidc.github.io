@@ -117,17 +117,8 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 
   {% include flexgallery id="flexgallery1" caption="" %}
 
-
-### Supported by
-
-<figure style="width:100%; max-width:200px; margin-bottom: 0px;">
-  <a href="https://www.unrealengine.com/" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/unreal.png" alt="Unreal Engine">
-  </a>
-</figure>
-
 <figure style="margin-top: 0px;">
-      <figcaption>The short film was supported by the Epic India short film program.</figcaption>
+      <figcaption>The production of the VR Narrative was supported by IRCC, IIT Bombay.</figcaption>
 </figure>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
@@ -181,28 +172,28 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-<div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
-  <h2 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank" style="color:#cc9200"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
-    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank" style="color:#cc9200;"><b>Gandharva Walavalkar</b></a> : Amitabh Ruth<br>
-    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank" style="color:#cc9200;"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
-    <a href="http://linkedin.com/in/gvsree" target="_blank" style="color:#cc9200;"><b>G V Sreekumar</b></a> : Angry Uncle<br>
-  </p>
+<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h3>
+  <p><small>
+    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Gandharva Walavalkar</b></a> : Amitabh Ruth<br>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
+    <a href="http://linkedin.com/in/gvsree" target="_blank"><b>G V Sreekumar</b></a> : Angry Uncle<br>
+  </small></p>
 </div>  
 
-<div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
-  <h2 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/artarivu/" target="_blank" style="color:#cc9200;"><b>Arivukkarasu Periyasamy</b></a> : MoCap Cleanup & Character Animation<br>
-    <a href="https://www.linkedin.com/in/harshal-yadav-125a8a195/" target="_blank" style="color:#cc9200;"><b>Harshal Yadav</b></a> : MoCap Cleanup & Character Animation<br>
-    <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank" style="color:#cc9200;"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
-    <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank" style="color:#cc9200;"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
-    <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank" style="color:#cc9200;"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
-    <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank" style="color:#cc9200;"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
-    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank" style="color:#cc9200;"><b>Pranjal Saini</b></a> : {Posters & Branding}<br>
-    <a href="" target="_blank" style="color:#cc9200;"><b>Nandini Sreekumar</b></a> : {Posters & Branding}<br>
-  </p>
+<div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h3>
+  <p><small>
+    <a href="https://www.linkedin.com/in/artarivu/" target="_blank"><b>Arivukkarasu Periyasamy</b></a> : MoCap Cleanup & Character Animation<br>
+    <a href="https://www.linkedin.com/in/harshal-yadav-125a8a195/" target="_blank"><b>Harshal Yadav</b></a> : MoCap Cleanup & Character Animation<br>
+    <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
+    <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
+    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank"><b>Pranjal Saini</b></a> : Posters & Branding<br>
+    <a href="https://www.behance.net/nandhinsreekum1" target="_blank" style="color:#cc9200;"><b>Nandhini Sreekumar</b></a> : Posters & Branding<br>
+  </small></p>
 </div>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">

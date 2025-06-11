@@ -207,7 +207,7 @@ Details coming soon...Details coming soon...Details coming soon...Details coming
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-<div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
+<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Art Team</h3>
   <p><small>
     <a href="https://www.instagram.com/art_polobhingare/" target="_blank"><b>Shubhankar Bhingare</b></a> : Concept Artist<br><br>
@@ -226,7 +226,7 @@ Details coming soon...Details coming soon...Details coming soon...Details coming
   </small></p>
 </div>
 
-<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+<div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Animation Team</h3>
   <p><small>
     <a href="https://www.linkedin.com/in/gokulcj/" target="_blank"><b>Gokul C J</b></a> : Creature (Billu) Animation<br>
@@ -248,7 +248,7 @@ Details coming soon...Details coming soon...Details coming soon...Details coming
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-<div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
+<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Voice Team</h3>
   <p><small>
     <a href="https://www.imdb.com/name/nm12151759/" target="_blank"><b>Ashish Singh</b></a> : Voice of Amitabh <br>
@@ -269,7 +269,7 @@ Details coming soon...Details coming soon...Details coming soon...Details coming
   </small></p>
 </div>
 
-<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+<div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Mo-Cap Cleanup Team</h3>
   <small> (Apple Arts Studios)</small>
   <p><small>
