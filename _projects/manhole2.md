@@ -200,8 +200,8 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
     <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank" style="color:#cc9200;"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
     <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank" style="color:#cc9200;"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
     <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank" style="color:#cc9200;"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
-    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank" style="color:#cc9200;"><b>Pranjal Saini</b></a> : {Posters & Branding}<br>
-    <a href="" target="_blank" style="color:#cc9200;"><b>Nandini Sreekumar</b></a> : {Posters & Branding}<br>
+    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank" style="color:#cc9200;"><b>Pranjal Saini</b></a> : Posters & Branding<br>
+    <a href="" target="_blank" style="color:#cc9200;"><b>Nandini Sreekumar</b></a> : Posters & Branding<br>
   </p>
 </div>
 
