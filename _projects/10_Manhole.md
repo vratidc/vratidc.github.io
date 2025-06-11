@@ -264,3 +264,66 @@ Currently, Into the Manhole has not been released through any public channels. O
 ### Full Team
 ### Collaborators
 ### Collaborators
+
+<script>
+
+function fixScrollTo(somelink) {
+    console.log('clicked');
+    event.preventDefault();
+    const targetOffset = document.querySelector(somelink).offsetTop;
+    console.log(targetOffset);
+    smoothScrollTo(targetOffset, targetOffset/3);
+  
+}
+
+function smoothScrollTo(targetPosition, duration) {
+  const startPosition = window.scrollY;
+  const distance = targetPosition - startPosition;
+  let startTime = null;
+
+  function easeInOut(t) {
+    return t < 0.5 ? 4 * t ** 3 : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function scrollAnimation(currentTime) {
+    if (startTime === null) {
+      startTime = currentTime;
+    }
+
+    const elapsedTime = currentTime - startTime;
+    const scrollProgress = Math.min(elapsedTime / duration, 1);
+    const easedProgress = easeInOut(scrollProgress);
+
+    window.scrollTo(0, startPosition + distance * easedProgress);
+
+    if (elapsedTime < duration) {
+      requestAnimationFrame(scrollAnimation);
+    }
+  }
+
+  requestAnimationFrame(scrollAnimation);
+}
+
+// ----------------------
+
+// back to top button functionality
+
+window.onscroll = function() {scrollFunction()};
+back_to_top_btn = document.getElementById("back-to-top-btn");
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    back_to_top_btn.style.display = "flex";
+  } else {
+    back_to_top_btn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function ScrollToTop() {
+  smoothScrollTo(0, 1000);
+}
+
+// ----------------------
+
+</script>
