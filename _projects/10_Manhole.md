@@ -37,6 +37,7 @@ VR Narrative - IMDb Page : [Manhole 2021 IMDb](https://www.imdb.com/title/tt1642
 This project is part of a larger narrative by the manhole collective. The collective attempts to create experiences that communicate the difficulties manual scavengers face in India and spread awareness about this topic. 
 <br>
 
+<a onclick="fixScrollTo('#Pre-Production')" style="cursor: pointer;" >1.Pre-Production</a><br>
 
 ## Introduction
 
