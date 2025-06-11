@@ -182,20 +182,6 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
   </small></p>
 </div>  
 
-<<<<<<< HEAD
-<div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
-  <h2 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/artarivu/" target="_blank" style="color:#cc9200;"><b>Arivukkarasu Periyasamy</b></a> : MoCap Cleanup & Character Animation<br>
-    <a href="https://www.linkedin.com/in/harshal-yadav-125a8a195/" target="_blank" style="color:#cc9200;"><b>Harshal Yadav</b></a> : MoCap Cleanup & Character Animation<br>
-    <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank" style="color:#cc9200;"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
-    <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank" style="color:#cc9200;"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
-    <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank" style="color:#cc9200;"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
-    <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank" style="color:#cc9200;"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
-    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank" style="color:#cc9200;"><b>Pranjal Saini</b></a> : Posters & Branding<br>
-    <a href="" target="_blank" style="color:#cc9200;"><b>Nandini Sreekumar</b></a> : Posters & Branding<br>
-  </p>
-=======
 <div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h3>
   <p><small>
@@ -208,7 +194,6 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
     <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank"><b>Pranjal Saini</b></a> : Posters & Branding<br>
     <a href="https://www.behance.net/nandhinsreekum1" target="_blank" style="color:#cc9200;"><b>Nandhini Sreekumar</b></a> : Posters & Branding<br>
   </small></p>
->>>>>>> 8cc137484f4be2373545006ef804dd6b51b65501
 </div>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
