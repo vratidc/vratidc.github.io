@@ -68,23 +68,23 @@ Though the experience was designed for the Meta Quest 3, it currently runs as a 
 
 <table>
   <tr>
-    <td align="center">
-      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png" width="150"/><br>
+    <td class="align-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png" width="150"/><br>
       <strong>Abhishek Verma</strong><br>
       Writer & Director
     </td>
-    <td align="center">
-      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png" width="150"/><br>
+    <td class="align-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png" width="150"/><br>
       <strong>Jayesh Pillai</strong><br>
       VR Director
     </td>
-        <td align="center">
-      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png" width="150"/><br>
+        <td class="align-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png" width="150"/><br>
       <strong>Banda Shiva Teja</strong><br>
       Technical Director
     </td>
-    <td align="center">
-      <img src="assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png" width="150"/><br>
+    <td class="align-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png" width="150"/><br>
       <strong>Ananda Bathena</strong><br>
       Sound Designer
     </td>
