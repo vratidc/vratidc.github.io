@@ -9,7 +9,6 @@ active: "no"
 manholeproject: "yes"
 date: 20250102
 
-
 header:
     image: /assets/img/projects/manholeproject/manhole2_header.gif
     teaser: /assets/img/projects/manholeproject/manhole2_teaser.png
@@ -23,12 +22,30 @@ team_members_align: "text-left"
 
 permalink: projects/into-the-manhole
 
+flexgallery1:
+  - aspect: "3.25"
+    url: https://imxd.in/
+    image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_imxdlab.png
+    alt: "IMXD Lab"
+    title: "IMXD Lab"
+  - aspect: "3.25"
+    url: http://www.idc.iitb.ac.in/
+    image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_idc.png
+    alt: "IDC School of Design, IIT Bombay"
+    title: "IDC School of Design, IIT Bombay"
+  - aspect: "3.25"
+    url: https://www.deckor.co/
+    image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_deckor.png
+    alt: "Deckor.co"
+    title: "Deckor.co"    
+
 ---
 
 <strong>Synopsis: </strong> <i>“Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”</i>
 <br><br>
 
-This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a [larger project](https://imxd.in/manhole-project){:target="_blank"} that aims to spread awareness about the dangers of manual scavenging in India.
+This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a
+<a href="https://imxd.in/manhole-project" target="_blank" style="color:#cc9200;">larger project</a> that aims to spread awareness about the dangers of manual scavenging in India.
 
 <br>
 {% include video id="8QcyCxyaC00" provider="youtube" %}
@@ -40,7 +57,7 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 
 In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a 360-degree canvas that allows audiences to explore stories from multiple perspectives and move within the environment. This shift from passive observation to active participation poses both thrilling opportunities and intricate challenges for narrative creators. Among the vanguard projects exploring this new frontier is "Into the Manhole" a pioneering work that merges the boundaries between film and interactive gaming.
 <br><br>
-Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja and Uttham Prakash, and sound design by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
+Directed by Jayesh Pillai and Abhishek Varma, with technical direction by Banda Shiva Teja, and sound design & background score by Ananda Bathena, this project ventures into the harsh realities faced by manual scavengers in India, blending compelling storytelling with real-time VR immersion.
 <br><br>
 
 <figure class="align-center" style="width:100%;">
@@ -67,7 +84,7 @@ Actors and Rehearsals: The casting process was integral to ensuring that the per
 Filming and Motion Capture: State-of-the-art motion capture technology played a crucial role in capturing nuanced performances. This technology, coupled with efficient filming workflows, allowed for a seamless integration of motion and dialogue, enhancing the immersive quality of the film.
 <br>
 
-### 3. Post-Production Excellence
+### 3. Post-Production
 
 Data Processing and Unreal Engine Integration: Advanced processing techniques were used to refine the raw footage, and Unreal Engine was utilized to build a dynamic, interactive world. This phase was critical in turning conceptual ideas into a vivid, engaging VR experience.
 <br>
@@ -91,4 +108,97 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 
 "Into the Manhole" exemplifies the potential of Virtual Reality to transform storytelling. By creating an experience that blends film and interactive elements, the project not only showcases the power of VR but also highlights important social issues. As we step into this new dimension of storytelling, "Manhole VR" stands as a pioneering example of how technology and narrative can come together to create profound and impactful experiences.
 <br><br>
+
+<br>
+
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+
+## Collaborators
+
+  {% include flexgallery id="flexgallery1" caption="" %}
+
+
+### Supported by
+
+<figure style="width:100%; max-width:200px; margin-bottom: 0px;">
+  <a href="https://www.unrealengine.com/" target="_blank">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/unreal.png" alt="Unreal Engine">
+  </a>
+</figure>
+
+<figure style="margin-top: 0px;">
+      <figcaption>The short film was supported by the Epic India short film program.</figcaption>
+</figure>
+
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+
+## Core Team
+
+<div class="people" style="display:grid">
+
+  <div class="entries-grid">
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_abhishek.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_jayesh.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_shiva.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_ananda.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Ananda Bathena</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Sound Design & Background Score</p>
+  </article>
+  </div>
+
+
+  </div>
+
+</div>
+
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+
+<div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h2 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h2>
+  <p>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank" style="color:#cc9200;"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
+    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank" style="color:#cc9200;"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
+    <a href="http://linkedin.com/in/gvsree" target="_blank" style="color:#cc9200;"><b>G V Sreekumar</b></a> : Angry Uncle<br>
+  </p>
+</div>  
+
+<div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h2 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h2>
+  <p>
+    <a href="https://www.linkedin.com/in/artarivu/" target="_blank" style="color:#cc9200;"><b>Arivukkarasu Periyasamy</b></a> : Character Animation<br>
+    <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank" style="color:#cc9200;"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank" style="color:#cc9200;"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
+  </p>
+</div>
+
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+
 

@@ -6,7 +6,7 @@ role: "team"
 date: 20240102
 header:
     teaser: /assets/img/people/imxd_people_soumyaagarwal.jpg
-permalink: /people/soumya
+permalink:
 type: people
 fullpage: "no"
 modal: "no"

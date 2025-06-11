@@ -6,7 +6,7 @@ role: "team"
 date: 20230210
 header:
     teaser: /assets/img/people/imxd_people_yuktabhoir.jpg
-permalink: /people/yuktabhoir
+permalink:
 type: people
 modal : "no"
 modalname: "yuktabhoir"

@@ -6,7 +6,7 @@ role: "team"
 date: 20250731
 header:
     teaser: /assets/img/people/imxd_people_khyatipriya.jpg
-permalink: /people/khyati
+permalink:
 type: people
 fullpage: "no"
 modal: "no"

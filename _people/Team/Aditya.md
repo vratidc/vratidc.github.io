@@ -6,7 +6,7 @@ role: "team"
 date: 20230507
 header:
     teaser: /assets/img/people/imxd_people_adityasirsat.jpg
-permalink: /people/adityasirsat
+permalink:
 type: people
 modal : "no"
 modalname: "adityasirsat"
