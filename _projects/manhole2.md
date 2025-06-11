@@ -184,8 +184,9 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 <div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h2 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h2>
   <p>
+    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank" style="color:#cc9200"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank" style="color:#cc9200;"><b>Gandharva Walavalkar</b></a> : Amitabh Ruth<br>
     <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank" style="color:#cc9200;"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
-    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank" style="color:#cc9200;"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
     <a href="http://linkedin.com/in/gvsree" target="_blank" style="color:#cc9200;"><b>G V Sreekumar</b></a> : Angry Uncle<br>
   </p>
 </div>  
@@ -193,9 +194,14 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 <div style="margin-top: 0px; padding-bottom: 0px; padding-right: 60px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h2 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h2>
   <p>
-    <a href="https://www.linkedin.com/in/artarivu/" target="_blank" style="color:#cc9200;"><b>Arivukkarasu Periyasamy</b></a> : Character Animation<br>
+    <a href="https://www.linkedin.com/in/artarivu/" target="_blank" style="color:#cc9200;"><b>Arivukkarasu Periyasamy</b></a> : MoCap Cleanup & Character Animation<br>
+    <a href="https://www.linkedin.com/in/harshal-yadav-125a8a195/" target="_blank" style="color:#cc9200;"><b>Harshal Yadav</b></a> : MoCap Cleanup & Character Animation<br>
     <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank" style="color:#cc9200;"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank" style="color:#cc9200;"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
     <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank" style="color:#cc9200;"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
+    <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank" style="color:#cc9200;"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
+    <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank" style="color:#cc9200;"><b>Pranjal Saini</b></a> : {Posters & Branding}<br>
+    <a href="" target="_blank" style="color:#cc9200;"><b>Nandini Sreekumar</b></a> : {Posters & Branding}<br>
   </p>
 </div>
 
