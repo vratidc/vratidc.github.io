@@ -66,32 +66,46 @@ Though the experience was designed for the Meta Quest 3, it currently runs as a 
 
 ## Core Team
 
-<h2>Core Team</h2>
+<div class="people" style="display:grid">
 
-<div class="team-grid">
-  <div class="grid grid--uniform">
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png' | relative_url }}" alt="Abhishek Verma" class="avatar-img">
-      <h3><strong>Abhishek Verma</strong></h3>
-      <p>Writer & Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png' | relative_url }}" alt="Jayesh Pillai" class="avatar-img">
-      <h3><strong>Jayesh Pillai</strong></h3>
-      <p>VR Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png' | relative_url }}" alt="Banda Shiva Teja" class="avatar-img">
-      <h3><strong>Banda Shiva Teja</strong></h3>
-      <p>Technical Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png' | relative_url }}" alt="Ananda Bathena" class="avatar-img">
-      <h3><strong>Ananda Bathena</strong></h3>
-      <p>Sound Designer</p>
-    </div>
+  <div class="entries-grid">
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_abhishek.png); background-size: cover;background-position: center;">
   </div>
-</div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_jayesh.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_shiva.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_ananda.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Ananda Bathena</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Sound Design & Background Score</p>
+  </article>
+  </div>
+  </div>
 
 
 The core team combines strengths across narrative, immersive direction, real-time technology, and sound design to deliver a deeply moving and technically advanced VR Narrative.
