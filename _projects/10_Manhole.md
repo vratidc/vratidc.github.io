@@ -37,6 +37,7 @@ VR Narrative - IMDb Page : [Manhole 2021 IMDb](https://www.imdb.com/title/tt1642
 This project is part of a larger narrative by the manhole collective. The collective attempts to create experiences that communicate the difficulties manual scavengers face in India and spread awareness about this topic. 
 <br>
 
+<a onclick="fixScrollTo('#Pre-Production')" style="cursor: pointer;" >1.Pre-Production</a><br>
 
 ## Introduction
 
@@ -66,32 +67,48 @@ Though the experience was designed for the Meta Quest 3, it currently runs as a 
 
 ## Core Team
 
-<h2>Core Team</h2>
+<div class="people" style="display:grid">
 
-<div class="team-grid">
-  <div class="grid grid--uniform">
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_abhishek.png' | relative_url }}" alt="Abhishek Verma" class="avatar-img">
-      <h3><strong>Abhishek Verma</strong></h3>
-      <p>Writer & Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_jayesh.png' | relative_url }}" alt="Jayesh Pillai" class="avatar-img">
-      <h3><strong>Jayesh Pillai</strong></h3>
-      <p>VR Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_shiva.png' | relative_url }}" alt="Banda Shiva Teja" class="avatar-img">
-      <h3><strong>Banda Shiva Teja</strong></h3>
-      <p>Technical Director</p>
-    </div>
-    <div class="grid__item one-quarter">
-      <img src="{{ 'assets\img\projects\manholeproject\manhole_img_people\manholevr_ananda.png' | relative_url }}" alt="Ananda Bathena" class="avatar-img">
-      <h3><strong>Ananda Bathena</strong></h3>
-      <p>Sound Designer</p>
-    </div>
+  <div class="entries-grid">
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_abhishek.png); background-size: cover;background-position: center;">
   </div>
-</div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_jayesh.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_shiva.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_ananda.png); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Ananda Bathena</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Sound Design & Background Score</p>
+  </article>
+  </div>
+
+  </div>
+  </div>
 
 
 The core team combines strengths across narrative, immersive direction, real-time technology, and sound design to deliver a deeply moving and technically advanced VR Narrative.
@@ -247,3 +264,66 @@ Currently, Into the Manhole has not been released through any public channels. O
 ### Full Team
 ### Collaborators
 ### Collaborators
+
+<script>
+
+function fixScrollTo(somelink) {
+    console.log('clicked');
+    event.preventDefault();
+    const targetOffset = document.querySelector(somelink).offsetTop;
+    console.log(targetOffset);
+    smoothScrollTo(targetOffset, targetOffset/3);
+  
+}
+
+function smoothScrollTo(targetPosition, duration) {
+  const startPosition = window.scrollY;
+  const distance = targetPosition - startPosition;
+  let startTime = null;
+
+  function easeInOut(t) {
+    return t < 0.5 ? 4 * t ** 3 : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function scrollAnimation(currentTime) {
+    if (startTime === null) {
+      startTime = currentTime;
+    }
+
+    const elapsedTime = currentTime - startTime;
+    const scrollProgress = Math.min(elapsedTime / duration, 1);
+    const easedProgress = easeInOut(scrollProgress);
+
+    window.scrollTo(0, startPosition + distance * easedProgress);
+
+    if (elapsedTime < duration) {
+      requestAnimationFrame(scrollAnimation);
+    }
+  }
+
+  requestAnimationFrame(scrollAnimation);
+}
+
+// ----------------------
+
+// back to top button functionality
+
+window.onscroll = function() {scrollFunction()};
+back_to_top_btn = document.getElementById("back-to-top-btn");
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    back_to_top_btn.style.display = "flex";
+  } else {
+    back_to_top_btn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function ScrollToTop() {
+  smoothScrollTo(0, 1000);
+}
+
+// ----------------------
+
+</script>
