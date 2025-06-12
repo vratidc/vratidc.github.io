@@ -723,6 +723,104 @@
 
 //SELECTED PROJECTS GRID LAYOUT - END
 
+//MANHOLE PROJECTS GRID LAYOUT - START
+
+.project_grid__item-selected-manhole {
+
+
+    margin-bottom: 1em;
+
+    float: left;
+    width: span(1 of 1);
+
+    &:nth-child(2n + 1) {
+        clear: both;
+        margin-left: 0;
+
+    }
+
+    &:nth-child(2n + 2) {
+        clear: both;
+        margin-left: 0;
+
+    }
+
+    @include breakpoint($small) {
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
+    }
+
+    @include breakpoint($medium) {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 6);
+
+        &:nth-child(3n + 1) {
+            clear: none;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+            margin-right: 0;
+        }
+
+
+    }
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-7;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
+    }
+
+    .projects__item-teaser {
+
+        aspect-ratio: 1 / 1;
+    }
+
+
+
+}
+
+//MANHOLE PROJECT GRID LAYOUT - END
+
+
 
 //CHANGE PROJECT TITLE TEXT FOR PHONES HERE
 
@@ -992,5 +1090,11 @@
     .feature__wrapper {
         display: inline-block;
     }
+}
+
+/* For Manhole page background */
+
+.layout--manholeprojectcollection {
+        background-color: #f7ecea;
 }
 

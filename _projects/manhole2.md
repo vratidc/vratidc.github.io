@@ -22,19 +22,16 @@ team_members_align: "text-left"
 
 permalink: projects/into-the-manhole
 
-flexgallery1:
-  - aspect: "3.25"
-    url: https://imxd.in/
+gallery1:
+  - url: 
     image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_imxdlab.png
     alt: "IMXD Lab"
     title: "IMXD Lab"
-  - aspect: "3.25"
-    url: http://www.idc.iitb.ac.in/
+  - url: http://www.idc.iitb.ac.in/
     image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_idc.png
     alt: "IDC School of Design, IIT Bombay"
     title: "IDC School of Design, IIT Bombay"
-  - aspect: "3.25"
-    url: https://www.deckor.co/
+  - url: https://www.deckor.co/
     image_path: /assets/img/projects/manholeproject/manhole_img/partners_logo_deckor.png
     alt: "Deckor.co"
     title: "Deckor.co"    
@@ -115,11 +112,10 @@ Looking ahead, future explorations in VR storytelling will likely delve into opt
 
 ## Collaborators
 
-  {% include flexgallery id="flexgallery1" caption="" %}
+  {% include gallery_captions id="gallery1" caption="" %}
 
-<figure style="margin-top: 0px;">
-      <figcaption>The production of the VR Narrative was supported by IRCC, IIT Bombay.</figcaption>
-</figure>
+<figcaption style="text-align: left; margin-top: 0px;">The production of the VR Narrative was supported by IRCC, IIT Bombay.</figcaption>
+
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
