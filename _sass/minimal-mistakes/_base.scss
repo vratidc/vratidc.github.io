@@ -246,12 +246,19 @@ figure {
         transition: $global-transition;
     }
 
+    > span {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
     > a {
         display: block;
+        margin-bottom: 0.5em;
     }
 
     &.single {
 
+        > span,
         > a,
         > img {
             @include breakpoint($small) {
@@ -266,6 +273,7 @@ figure {
 
     &.half {
 
+        > span,
         > a,
         > img {
             @include breakpoint($small) {
@@ -280,6 +288,7 @@ figure {
 
     &.third {
 
+        > span,
         > a,
         > img {
             @include breakpoint($small) {
@@ -294,6 +303,7 @@ figure {
 
     &.fourth {
 
+        > span,
         > a,
         > img {
             width: calc(50% - 0.5em);
@@ -328,6 +338,7 @@ figcaption {
         }
     }
 }
+
 
 
 /* Fix IE9 SVG bug */

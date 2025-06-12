@@ -34,12 +34,12 @@ flexgallery1:
 gallery2:
   - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_1.jpg
     image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_1.jpg
-    alt: "Camera rig designed for the VR Film"
-    title: "Camera rig designed for the VR Film"
+    alt: "The camera rig designed for the VR Film"
+    title: "The camera rig designed for the VR Film"
   - url: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_2.jpg
     image_path: /assets/img/projects/Dragonfly/Dragonfly_CameraRig_2.jpg
-    alt: "The rig with the cameras attached"
-    title: "The rig with the cameras attached"
+    alt: "The rig with the 10 GoPro camera setup"
+    title: "The rig with the 10 GoPro camera setup"
 
 flexgallery2:
   - aspect: "2"
@@ -120,7 +120,7 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Camera & Audio Equipment :*** As the VR film was to have stereoscopic  3D, it was decided to use hi-resolution GoPro cameras for recording the videos, which would later be stitched into equirectangular images. For this purpose, a camera rig was designed and fabricated at IDC School of Design to hold ten cameras (see images below). For recording the dialogues during the permormance, a wireless microphone system was chosen for remote monitoring.
 
-{% include gallery id="gallery2" caption="The rig designed to hold 10 GoPro cameras" %}
+{% include gallery_captions id="gallery2" %}
 
 ### 1.4. Planning the Production
 
@@ -144,7 +144,7 @@ Here’s a brief description of the process followed for creating this VR film.
 
 ***Live Feed :*** The director and crew members ideally would have to be outside the visual field of the camera, monitoring the performances remotely through a live video feed. However, the narrative structure of this film provided us with opportunities to monitor performances in-person, without the requirement of a live feed.
 
-{% include gallery id="gallery3" caption="Actors performing (left) and the crew members (right) on the opposite sides of the camera" %}
+{% include gallery_captions id="gallery3" %}
 
 ### 2.3. Reference Images
 

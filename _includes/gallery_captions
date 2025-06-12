@@ -34,10 +34,10 @@
             "{{ img.image_path | relative_url }}"
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-        {{ img.title}}
+        <figcaption>{{ img.title}}</figcaption>
       </a>
     {% else %}
-    <p>
+      <span>
       <img src=
         {% if img.image_path contains "://" %}
           "{{ img.image_path }}"
@@ -45,8 +45,8 @@
           "{{ img.image_path | relative_url }}"
         {% endif %}
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-        {{ img.title}}
-    </p>
+        <figcaption>{{ img.title}}</figcaption>
+      </span>
     {% endif %}
   {% endfor %}
   {% if include.caption %}

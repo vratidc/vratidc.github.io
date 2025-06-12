@@ -59,16 +59,17 @@ flexgallery1:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot1.jpg" alt="Manhole1 Screenshot1">
   <figcaption>A screenshot from the short film: The street where the story takes place.</figcaption>
 </figure> 
-<br>
 
 This is a real-time animation short film entirely created using the Unreal game engine. This short film is part of a
 <a href="https://imxd.in/manhole-project" target="_blank" style="color:#cc9200;">larger project</a> that aims to spread awareness about the dangers of manual scavenging in India.
 
 <br>
-Trailer : <a href="https://youtu.be/NYyHxQjr3Z8" target="_blank" style="color:#cc9200;">Manhole | Short Film | Trailer</a>
-<br>
-IMDb Page : <a href="https://www.imdb.com/title/tt16421128" target="_blank" style="color:#cc9200;">Manhole (2021)</a>
-<br>
+  <a href="https://youtu.be/NYyHxQjr3Z8" target="_blank" style="color:#cc9200;">
+  <img style="width:40px; margin-right: 10px" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/icon_youtube.png" alt="imdb page link">Trailer - Manhole Short Film</a>
+
+  <a href="https://www.imdb.com/title/tt16421128" target="_blank" style="color:#cc9200;">
+  <img style="width:40px; margin-right: 10px" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/icon_imdb.png" alt="imdb page link">IMDb page - Manhole (2021)</a>
+
 <br>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
