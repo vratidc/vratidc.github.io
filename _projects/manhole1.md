@@ -64,11 +64,12 @@ This is a real-time animation short film entirely created using the Unreal game 
 <a href="https://imxd.in/manhole-project" target="_blank" style="color:#cc9200;">larger project</a> that aims to spread awareness about the dangers of manual scavenging in India.
 
 <br>
+
   <a href="https://youtu.be/NYyHxQjr3Z8" target="_blank" style="color:#cc9200;">
-  <img style="width:40px; margin-right: 10px" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/icon_youtube.png" alt="imdb page link">Trailer - Manhole Short Film</a>
+  <i class="fa fa-youtube-square fa-xl" aria-hidden="true" style="margin-right: 0.5em;"></i>Trailer - Manhole Short Film</a>
 
   <a href="https://www.imdb.com/title/tt16421128" target="_blank" style="color:#cc9200;">
-  <img style="width:40px; margin-right: 10px" src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/icon_imdb.png" alt="imdb page link">IMDb page - Manhole (2021)</a>
+  <i class="fa fa-imdb fa-xl" aria-hidden="true" style="margin-right: 0.5em;"></i>IMDb page - Manhole (2021)</a>
 
 <br>
 
