@@ -10,7 +10,6 @@ manholeproject: "yes"
 date: 20250102
 
 header:
-    og_image: /assets/img/projects/manholeproject/manhole2_teaser.png
     image: /assets/img/projects/manholeproject/manhole2_header.gif
     teaser: /assets/img/projects/manholeproject/manhole2_teaser.png
 
