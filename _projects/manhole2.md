@@ -41,11 +41,10 @@ gallery1:
 <strong>Synopsis: </strong> <i>“Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large unsafe sewer to clear a blockage. He neither has protective gear, nor the accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”</i>
 <br><br>
 
-This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a
-<a href="https://imxd.in/manhole-project" target="_blank" style="color:#cc9200;">larger project</a> that aims to spread awareness about the dangers of manual scavenging in India.
+This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a larger project that aims to spread awareness about the dangers of manual scavenging in India.
 
 <br>
-{% include video id="8QcyCxyaC00" provider="youtube" %}
+{% include video id="-4-xjF6OTHM" provider="youtube" %}
 <figcaption>Into the Manhole - Trailer</figcaption>
 <br>
 
