@@ -5,7 +5,7 @@ layout: manholeprojectcollection
 collection: projects
 entries_layout: grid
 
-og_image: /assets/img/projects/manholeproject/manhole1_teaser.png
+og_image: /assets/img/projects/manholeproject/manhole1_header.jpg
 
 ---
 
