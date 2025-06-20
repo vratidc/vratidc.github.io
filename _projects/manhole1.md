@@ -63,7 +63,7 @@ flexgallery1:
 </figure> 
 
 This is a real-time animation short film entirely created using the Unreal game engine. This short film is part of a
-<a href="https://imxd.in/manhole-project" target="_blank" style="color:#cc9200;">larger project</a> that aims to spread awareness about the dangers of manual scavenging in India.
+<a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India.
 
 <br>
 
