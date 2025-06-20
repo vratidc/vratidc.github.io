@@ -3,7 +3,8 @@ title: About
 permalink: /about
 layout: single
 
-og_image: /assets/img/about/about.jpg
+header:
+    image: /assets/img/about/about.jpg
 
 gallery1:
   - url: 
