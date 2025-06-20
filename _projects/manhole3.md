@@ -20,7 +20,7 @@ banner_image1:
 team_members: "Abhishek Verma | Jayesh Bhosale | Animesh Sharma"
 team_members_align: "text-left"
 
-permalink: projects/manhole-feature-film
+permalink: projects/marita-jeevita
 
 ---
 
