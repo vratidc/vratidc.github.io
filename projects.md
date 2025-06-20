@@ -6,7 +6,7 @@ collection: projects
 entries_layout: grid
 
 header:
-    teaser: assets/img/project/projectsamples.jpg
+    teaser: assets/img/projects/projectsamples.jpg
 
 ---
 
