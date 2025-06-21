@@ -1,0 +1,88 @@
+
+//TIMELINE
+
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: green;
+  top: 0;
+  bottom: 20px;
+  left: 24px;
+  margin-left: -2px;
+  border-radius: 2px;
+}
+
+/* Container around content */
+.timeline_container {
+  padding: 0px 20px 20px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 60%;
+}
+
+/* The circles on the timeline */
+.timeline_container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -12px;
+  background-color: green;
+  border: 4px solid green;
+  top: 14px;
+  left: 12px;
+  border-radius: 40%;
+  z-index: 1;
+}
+
+/* Place the container to the right */
+.right {
+  left: 0;
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeline_container::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  width: 0;
+  z-index: 1;
+  top: 12px;
+  left: 42px;
+  border: medium solid #EEEEEE;
+  border-width: 14px 14px 14px 0;
+  border-color: transparent #EEEEEE transparent transparent;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 24px 2px 24px;
+  background-color: #EEEEEE;
+  position: relative;
+  border-radius: 8px;
+  left: 16px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+  /* Full-width containers */
+  .timeline_container {
+  width: 100%;
+  }
+
+
+}
