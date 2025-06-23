@@ -88,6 +88,19 @@
   padding-left: 10px;
 }
 
+.levitate {  
+    animation-name: levitate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes levitate {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0px, 15px); }
+    to   { transform: translate(0, 0px); }    
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 

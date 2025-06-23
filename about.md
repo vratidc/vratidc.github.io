@@ -11,7 +11,7 @@ header:
 The IMXD Lab is a design and research space dedicated to exploring the creative and technological possibilities of immersive media. The lab’s work spans Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), VR filmmaking, and allied emerging fields. Its activities include design and development projects, experimental studies, research initiatives, exploratory works, workshops, and academic publications. The lab aims to foster curiosity, critical thinking, and creative inquiry through immersive technologies.
 
 <figure class="align-center" style="max-width:400px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/imxd_icon.png" alt="IMXD_icon">
+  <img class="levitate" src="{{ site.url }}{{ site.baseurl }}/assets/img/about/imxd_icon.png" alt="IMXD_icon">
 </figure> 
 
 ## Timeline
