@@ -26,8 +26,8 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
       <div id="t_image"><img src="/assets/img/about/about_timeline6.jpg"></div> 
       <div id="t_text">
       <h3>2025</h3>
-      <p>• Collaboration with 'Maharashtra Drone Project'<br>
-         • Collaboration with Nanavati Hosiptal for 'VRET for MRI'<br></p>
+      <p>• Collaboration with 'Maharashtra Drone Mission Project'<br>
+         • Collaboration with Nanavati Hospital for 'VRET for MRI'<br></p>
       </div>
     </div>
   </div>
