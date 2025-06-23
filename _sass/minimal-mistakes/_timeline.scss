@@ -30,7 +30,7 @@
   padding: 0px 20px 20px 40px;
   position: relative;
   background-color: inherit;
-  width: 60%;
+  width: 80%;
 }
 
 /* The circles on the timeline */
@@ -69,11 +69,23 @@
 
 /* The actual content */
 .content {
-  padding: 10px 24px 2px 24px;
+  display: flex;
+  padding: 10px 20px 10px 10px;
   background-color: #EEEEEE;
   position: relative;
   border-radius: 8px;
   left: 16px;
+}
+
+#t_image {
+  padding: 8px;
+  width: 30%;
+  max-width: 120px;
+}
+
+#t_text {
+  flex: 1;
+  padding-left: 10px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
