@@ -58,7 +58,7 @@ flexgallery1:
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot1.jpg" alt="Manhole1 Screenshot1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screen_shot1.jpg" alt="Manhole_screenshot1">
   <figcaption>A screenshot from the film: The street where the story takes place.</figcaption>
 </figure> 
 
@@ -82,7 +82,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
 ## Official Selections
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot2.jpg" alt="ITM_screenshot1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screen_shot2.jpg" alt="Manhole_screenshot2">
   <figcaption>A screenshot from the film: Amitabh talking to a passerby.</figcaption>
 </figure> 
 
@@ -99,7 +99,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
 ## Media Coverage
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot3.jpg" alt="ITM_screenshot1">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screen_shot3.jpg" alt="Manhole_screenshot3">
   <figcaption>A screenshot from the film: Billu observing Amitabh and Bunty.</figcaption>
 </figure> 
 
