@@ -2,10 +2,10 @@
 title:  "Into the Manhole"
 excerpt: 6DoF VR Narrative
 layout: manholeprojectspage   
-selected: "false"
-homepage: "false"
+selected: "true"
+homepage: "true"
 fullpage: "yes"
-active: "no"
+active: "yes"
 manholeproject: "yes"
 date: 20250102
 
