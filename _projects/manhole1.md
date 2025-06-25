@@ -59,11 +59,14 @@ flexgallery1:
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot1.jpg" alt="Manhole1 Screenshot1">
-  <figcaption>A screenshot from the short film: The street where the story takes place.</figcaption>
+  <figcaption>A screenshot from the film: The street where the story takes place.</figcaption>
 </figure> 
 
 This is a real-time animation short film entirely created using the Unreal game engine. This short film is part of a
 <a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India.
+
+
+This short film was adjudged as one of the runners up in the <a href="https://www.unrealengine.com/en-US/blog/watch-the-top-projects-from-the-shorts-india-program" target="_blank" style="color:#cc9200;">Unreal Shorts India Program 2021</a>. The production of the film was supported by Epic Games.
 
 <br>
 
@@ -74,47 +77,81 @@ This is a real-time animation short film entirely created using the Unreal game 
   <i class="fa fa-imdb fa-xl" aria-hidden="true" style="margin-right: 0.5em;"></i>IMDb page - Manhole (2021)</a>
 
 <br>
-
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-## Design Process
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
-
-<br>
-
-
+## Official Selections
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot2.jpg" alt="ITM_screenshot1">
-  <figcaption>A screenshot from the experience: Amitabh and Bunty looking into the manhole.</figcaption>
+  <figcaption>A screenshot from the film: Amitabh talking to a passerby.</figcaption>
 </figure> 
+
+- Official Selection at the 61st Annecy International Animation Film Festival, 2022, France
+- Official Selection at the 18th Seoul Independent Animation Film Festival, 2022, South Korea
+- Official Selection at the 16th International Big Animation Festival (BFM), 2022, Moscow, Russia
+- Official Selection at the 12th International Animation Festival of Pernambuco, 2022, Brazil
+- Official Selection at the 14th International Documentary and Short Film Festival of Kerala, 2022, India
+- Official Selection at the 4th Ionian Contemporary Animation Festival ICONA, 2022, Greece
+
 <br>
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-## Techincal Details
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
-
-<br>
+## Media Coverage
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/manhole_img/manhole_screenshot3.jpg" alt="ITM_screenshot1">
-  <figcaption>A screenshot from the experience: Amitabh and Bunty looking into the manhole.</figcaption>
+  <figcaption>A screenshot from the film: Billu observing Amitabh and Bunty.</figcaption>
 </figure> 
+
+<ul>
+  <li>IDSFFK 2022
+    <ul>
+      <li><a href="https://www.linkedin.com/posts/indian-institute-of-technology-bombay_the-animated-short-film-manhole-directed-activity-6969890744702504960-gbMT/" target="_blank" style="color:#cc9200;">Manhole Short Film - Official Selection at the 14th International Documentary and Short Film Festival of Kerala, 2022 ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>Animación para adultos (2022)
+    <ul>
+      <li><a href="https://animacionparaadultos.es/2022-manhole/" target="_blank" style="color:#cc9200;">Manhole Short Film - A Review by Ray Laguna from Animación para adultos ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>Annecy Film Festival 2022
+    <ul>
+      <li><a href="https://www.annecyfestival.com/about/archives/2017/2017-programme/2017-index:film-20222210" target="_blank" style="color:#cc9200;">Manhole Short Film - Official Selection in competition at the 61st Annecy International Animation Film Festival 2022, France ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>IIT Bombay (2021)
+    <ul>
+      <li>Congrats to the team for making it to the top 3 in Unreal Engine’s Shorts India Program 2021.</li>
+      <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6877480806835605504" target="_blank"   style="color:#cc9200;">LinkedIn ▸</a> / <a href="https://www.facebook.com/iitbombay/photos/a.724347560923380/4970886549602772/" target="_blank" style="color:#cc9200;">Facebook ▸</a> / <a href="https://twitter.com/iitbombay/status/1471716585781952515?s=20" target="_blank" style="color:#cc9200;">Twitter ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>Unreal Engine (2021)
+    <ul>
+      <li><a href="https://www.unrealengine.com/en-US/blog/watch-the-top-projects-from-the-shorts-india-program" target="_blank" style="color:#cc9200;">Manhole Short Film makes it to the top 3 of the Unreal Shorts India Program ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>Indian Express (2021)
+    <ul>
+      <li><a href="https://indianexpress.com/article/entertainment/manual-scavenging-manhole-vr-animated-film-virtual-reality-7539395/" target="_blank" style="color:#cc9200;">With the Amitabh of manual scavenging, Manhole VR gives immersive view of job no one wants to do ▸</a><br /></li>
+    </ul>
+  </li>
+  <li>PC Quest (2021)
+    <ul>
+      <li><a href="https://www.pcquest.com/unreal-engine-concludes-first-ever-shorts-challenge-india-shorts-india-program/" target="_blank" style="color:#cc9200;">Unreal Engine concludes its first-ever Shorts challenge in India – Shorts India Program ▸</a><br /></li>
+    </ul>
+  </li>
+</ul>
+
 <br>
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-## Outcome
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
-
-Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...Details coming soon...
+## Director's Note
 
 <br>
+{% include video id="uziwH7sdX4I" provider="youtube" %}
+<figcaption>Directors’ Interview - Annecy Film Festival 2022</figcaption>
 
+<br>
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
 ## Collaborators
