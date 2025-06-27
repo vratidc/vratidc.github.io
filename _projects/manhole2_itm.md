@@ -47,7 +47,7 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 <br><br>
 
 <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i>
-Into the Manhole received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>. The production of the film was supported by Epic Games.
+Into the Manhole received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>. The production of the film was supported by IRCC, IIT Bombay.
 
 <br>
 {% include video id="-4-xjF6OTHM" provider="youtube" %}
@@ -59,7 +59,7 @@ Into the Manhole received the <a href="https://www.instagram.com/ficci_frames/p/
 
 ## VR Narrative
 
-In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a 360-degree space and degrees-of-freedom that allows audiences to explore stories from multiple perspectives and move within the story environment. This shift from passive observation to active participation poses both opportunities and challenges for narrative creators. Among the projects exploring this new frontier is "Into the Manhole" a work that attempts to merge the boundaries of film and interactive experience.
+In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a six degrees-of-freedom that allows audiences to explore stories from multiple perspectives and move within the story environment. This shift from passive observation to active participation poses both opportunities and challenges for narrative creators. Among the projects exploring this new frontier is "Into the Manhole" a work that attempts to merge the boundaries of film and interactive experience.
 
 A detailed documentaion of our design process and techincal pipeline will be updated soon.
 <br><br>
