@@ -64,11 +64,11 @@ flexgallery1:
 
 This is a real-time animation short film entirely created using the Unreal game engine. This short film is part of a
 <a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India.
+<br><br>
 
-
+<i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i>
 This short film was adjudged as one of the runners up in the <a href="https://www.unrealengine.com/en-US/blog/watch-the-top-projects-from-the-shorts-india-program" target="_blank" style="color:#cc9200;">Unreal Shorts India Program 2021</a>. The production of the film was supported by Epic Games.
-
-<br>
+<br><br>
 
   <a href="https://youtu.be/NYyHxQjr3Z8" target="_blank" style="color:#cc9200;">
   <i class="fa fa-youtube-square fa-xl" aria-hidden="true" style="margin-right: 0.5em;"></i>Trailer - Manhole Short Film</a>
