@@ -48,7 +48,7 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
       <div id="t_text">
       <h3>2021-2022</h3>
       <p>• Project 'Manhole' initiated<br>
-         • Procured motion captutre setup<br>
+         • Procured motion capture setup<br>
          • Course introduced: Immersive Media Design</p>
       </div>
     </div>
@@ -81,7 +81,7 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
       <div id="t_text">
       <h3>2016</h3>
       <p>• Lab established in IDC School of Design<br>
-         • In an small office room<br>
+         • In a small office room<br>
          • It was called VR@IDC</p>
       </div>
     </div>
