@@ -17,7 +17,7 @@ links:
       url: "mailto:elviramishra@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.elviramishra.com/"
+      url: "https://elviramishraa.wordpress.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       #url: ""
