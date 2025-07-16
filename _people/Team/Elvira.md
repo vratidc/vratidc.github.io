@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Elvira Mishra
-position: PhD Scholar
+position: PhD Scholar, Asha Navani Research Fellow
 role: "team"
 date: 20240424
 header:
