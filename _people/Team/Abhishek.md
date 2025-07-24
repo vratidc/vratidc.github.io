@@ -3,7 +3,7 @@ layout: single
 title: Abhishek Verma
 position: Assistant Professor, IIT Bombay
 role: "team"
-date: 20240103
+date: 20240109
 header:
     teaser: /assets/img/people/imxd_people_abhishekverma.jpg
 permalink:

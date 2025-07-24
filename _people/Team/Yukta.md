@@ -18,6 +18,9 @@ links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/yukta-bhoir-095939298/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://www.instagram.com/my._.dopamine"
       
 ---
 

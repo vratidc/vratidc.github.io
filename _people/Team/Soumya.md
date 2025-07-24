@@ -3,7 +3,7 @@ layout: single
 title: Soumya Agarwal
 position: MDes, Research Scholar
 role: "team"
-date: 20240102
+date: 20240101
 header:
     teaser: /assets/img/people/imxd_people_soumyaagarwal.jpg
 permalink:

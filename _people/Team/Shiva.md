@@ -3,7 +3,7 @@ layout: single
 title: Shiva Teja Banda
 position: Research Associate
 role: "team"
-date: 20240101
+date: 20240108
 header:
     teaser: /assets/img/people/imxd_people_shivateja.jpg
 permalink:
