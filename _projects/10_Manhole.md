@@ -52,7 +52,7 @@ permalink: projects/manholevr
 
     By blending cinematic storytelling with the spatial affordances of VR, Into the Manhole seeks to raise awareness among the general public and influence policy conversations around sanitation labor, caste inequality, and human dignity. The project uses immersion not to entertain, but to provoke empathy, reflection, and discourse around one of India’s most dehumanizing social issues.
 
-  #### Project Details (Duration, Platform, Core Team)
+  ### Project Details (Duration, Platform, Core Team)
 
     Manhole Collective is a multidisciplinary team focused on creating immersive storytelling experiences that highlight the harsh realities faced by manual scavengers in India. Through film and virtual media, the collective aims to initiate critical conversations around caste, labor, and human dignity.
 

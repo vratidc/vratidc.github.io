@@ -2,6 +2,7 @@
 
 //MANHOLE PROJECTS GRID LAYOUT - START
 
+/*
 .project_grid__item-selected-manhole {
 
 
@@ -140,9 +141,9 @@
 
 }
 
-/*
+
    Features
-   ========================================================================== */
+   ========================================================================== 
 
 .feature__wrapper {
     @include clearfix();
@@ -327,7 +328,7 @@
     }
 }
 
-/* Place inside an projects layout */
+ Place inside an projects layout 
 
 .projects {
     .feature__wrapper {
@@ -345,9 +346,9 @@
     }
 }
 
-/*
+
    Wide Pages
-   ========================================================================== */
+   ========================================================================== 
 
 .wide {
     .projects {
@@ -361,7 +362,7 @@
     }
 }
 
-/* Place inside a single layout */
+ Place inside a single layout 
 
 .layout--single {
     .feature__wrapper {
@@ -369,7 +370,7 @@
     }
 }
 
-/* For Manhole page background */
+ For Manhole page background 
 
 .layout--manholeprojectcollection {
         background-color: #f7ecea;
@@ -379,4 +380,44 @@
     font-size: .8em;
     scroll-margin-top: 1000px;
     scroll-behavior: smooth;
+} */
+ 
+
+// IMAGES ARCHIVE PAGE
+
+.archive-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.archive-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.archive-item img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  background: #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.archive-item p {
+  flex-basis: 100%;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.archive-month {
+  margin-top: 32px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
 }
