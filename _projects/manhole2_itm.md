@@ -207,5 +207,12 @@ A detailed documentaion of our design process and techincal pipeline will be upd
 </div>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+<div class="manhole-team-links" style="margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Special Thanks</h3>
+  <p><small>
+    <a href="/projects/manhole-short-film" target="_blank"><b>Manhole Short Film Team</b></a><br>
+  </small></p>
+</div>
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
 
