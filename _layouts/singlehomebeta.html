@@ -129,9 +129,9 @@ layout: default
 
         <div class="home-button">
 
-            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects ></a>
-            <a href="{{ site.baseurl }}/publications">All Publications ></a>
-            <a href="{{ site.baseurl }}/activities">All Activities ></a>
+            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects  →</a>
+            <a href="{{ site.baseurl }}/publications">All Publications  →</a>
+            <a href="{{ site.baseurl }}/activities">All Activities  →</a>
 
         </div>
 
@@ -144,25 +144,35 @@ layout: default
 
 
 <div id="main" role="main" style="margin-top: 0px; margin-bottom: 0px;">
-    <div class="publications" style="margin-top: 30px;">
-        <h1 id="page-title" class="page__title">News & Updates</h1>
+    <div class="two-column-container">
+        <div class="column-left">
+            <div class="publications" style="margin-top: 30px;">
+                <h1 id="page-title" class="page__title">Updates</h1>
+            </div>
+
+            <div class="selected-updates" style="margin-top: 0px;">
+                {% include updates-homepage.html %}
+            </div>
+            <div class="home-button" style="margin-bottom: 30px;">
+                <a href="{{ site.baseurl }}/blog">All Updates →</a>
+            </div>
+
+        </div>
+
+        <div class="column-right">
+            <div class="publications" style="margin-top: 30px;">
+                <h1 id="page-title" class="page__title">Courses</h1>
+            </div>
+
+            <div class="selected-updates" style="margin-top: 0px;">
+                {% include updates-courses-homepage.html %}
+            </div>
+
+            <div class="home-button" id="inactive" style="margin-bottom: 30px;">
+                <span id="disabled">All Courses →</span>
+            </div>
+        </div>
     </div>
-
-
-    <div class="selected-updates" style="margin-top: 0px;">
-        {% include updates-homepage.html %}
-    </div>
-
-</div>
-
-<div id="main" role="main" style="margin-top: 0px; padding-bottom: 40px;">
-
-    <div class="home-button">
-
-        <a href="{{ site.baseurl }}/blog">All Posts ></a>
-
-    </div>
-
 
 </div>
 
