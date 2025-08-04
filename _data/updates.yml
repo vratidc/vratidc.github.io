@@ -10,7 +10,7 @@ main:
    - title: "Student Project 'Fusion' showcased at Laval Virtual 2024"
      date: "12/04/2024"
      active: "yes"
-     content: "The project was invited to participate in the #ReVolutions Competitions at the event."
+     content: "Invited to participate in the #ReVolutions Competitions"
      link: /updates/fusion-lv2024
      teaser: /assets/img/updates/lv2024/icon-update-lv2024.jpg
      fullpage: "yes"
@@ -31,35 +31,35 @@ main:
    - title: "Student Project 'Fina' showcased at Laval Virtual 2023"
      date: "12/04/2023"
      active: "yes"
-     content: "The project was adjudged a finalist in the student competition."
+     content: "Adjudged finalist in the student competition"
      link: /updates/fina-lv2023
      teaser: /assets/img/updates/lv2023/icon-update-lv2023.jpg
      fullpage: "yes"
-   - title: "Workshop on VR Filmmaking - NID"
+   - title: "Intro to VR Filmmaking - NID Ahmedabad"
      date: "9/03/2023"
      active: "yes"
-     content: "We conducted a workshop on “Introduction to VR Filmmaking” for the students of the Film & Video Communication of NID Ahmedabad."
+     content: "for the students of the Film & Video Communication"
      link: /nid-pano-2023
      teaser: /assets/img/updates/icon-update-nid-2023.jpg
      fullpage: "yes"
-   - title: "Workshop on VR Filmmaking - FTII"
+   - title: "Workshop on VR Filmmaking - FTII Pune"
      date: "24/12/2022"
      active: "yes"
-     content: "We conducted a workshop on “Introduction to VR Filmmaking” for the students of the Film and Television Institute of India (FTII Pune)."
+     content: "for the students of the Film and Television Institute of India"
      link: /updates/workshop-ftii
      teaser: /assets/img/updates/icon-update-ftii-2022.jpg
      fullpage: "yes"
-   - title: "Call for Participation - ScholAR Remote Study"
+   - title: "Call for Participation - ScholAR: Remote AR Classroom"
      date: "07/02/2021"
      active: "yes"
-     content: "We're looking for teachers and schools interested to participate in a study on Remote AR Classrooms. Read this to find out more."
+     content: "Looking for teachers and schools interested in participating in the study"
      link: /calls/scholar-remote-study
      teaser: /assets/img/projects/Scholar/scholar_thumbnail.jpg
      fullpage: "yes"
    - title: "Recent Publications - Autumn 2020"
      date: "25/09/2020"
      active: "yes"
-     content: "This autumn, team IMXD will be presenting at UIST, VRST, ISS, and ISMAR!"
+     content: "This autumn, team IMXD will be presenting at UIST, VRST, ISS, and ISMAR"
      link: /updates/accepted-publications-autumn20
      teaser: /assets/img/projects/arweldingsquare.jpg
      fullpage: "yes"
@@ -69,11 +69,4 @@ main:
      content: "The IMXD Blog is finally up and running. Check it out now!"
      link: /updates/hello-world
      teaser: /assets/img/IMXD_logo_1.png
-     fullpage: "yes"
-   - title: "Tester Update"
-     date: "10/09/2020"
-     active: "no"
-     content: "This is a test post with no teaser image and an external link."
-     link: http://www.idc.iitb.ac.in/
-     #teaser: 
      fullpage: "yes"
