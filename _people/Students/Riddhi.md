@@ -5,7 +5,7 @@ position: Master's Student (Interaction Design)
 role: "student"
 date: 20251002
 header:
-    teaser: assets\img\people\placeholder.png
+    teaser: assets/img/people/placeholder_person.jpg
 permalink: /people/riddhi
 type: people
 modal : "no"

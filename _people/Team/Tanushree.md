@@ -5,7 +5,7 @@ position: MDes, Research Scholar
 role: "team"
 date: 20220101
 header:
-    teaser: assets\img\people\placeholder.png
+    teaser: assets/img/people/placeholder_person.jpg
 permalink:
 type: people
 fullpage: "no"
