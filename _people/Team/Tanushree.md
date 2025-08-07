@@ -5,7 +5,7 @@ position: MDes, Research Scholar
 role: "team"
 date: 20220101
 header:
-    teaser: assets/img/people/placeholder_person.jpg
+    teaser: assets/img/people/imxd_people_tanushreepillai.jpg
 permalink:
 type: people
 fullpage: "no"
