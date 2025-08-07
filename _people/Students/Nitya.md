@@ -1,29 +1,29 @@
 ---
 layout: single
-title: Nitya Vyas
+title: Laksh Rajpal
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20241002
 header:
-    teaser: /assets/img/people/imxd_people_nityavyas.jpg
-permalink: /people/nitya
+    teaser: assets\img\people\placeholder.png
+permalink: /people/laksh
 type: people
 modal : "no"
-modalname: "nitya"
+modalname: "laksh"
 fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:23m2248@iitb.ac.in"
+      url: 
     - label: "Portfolio"
       icon: "fab fa-fw fa-behance"
-      url: "https://www.behance.net/nityavyas13"
+      url: "https://www.behance.net/lakshrajpal"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/nitya-vyas-47ab2579/"
+      url: "https://www.linkedin.com/in/laksh-rajpal-620521191/"
       
 ---
 
-## Nitya Vyas
+## Laksh Rajpal
 Master's Student - Interaction Design
 

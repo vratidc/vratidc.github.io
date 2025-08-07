@@ -1,29 +1,29 @@
 ---
 layout: single
-title: Anumeha Patoria
+title: Utkarsha Kate
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20231001
+date: 20241001
 header:
-    teaser: /assets/img/people/imxd_people_anumehapatoria.jpg
-permalink: /people/anumeha
+    teaser: assets\img\people\placeholder.png
+permalink: /people/utkarsha
 type: people
 modal : "no"
-modalname: "anumeha"
+modalname: "utkarsha"
 fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:anumehapatoria@gmail.com"
+      url: 
     - label: "Portfolio"
       icon: "fab fa-fw fa-behance"
-      url: "https://www.behance.net/anumehapatoria"
+      url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/anumeha-patoria-b77ba1160/"
+      url: "https://www.linkedin.com/in/utkarsha-kate-3215bb340/"
       
 ---
 
-## Anumeha Patoria
+## Utkarsha Kate
 Master's Student - Interaction Design
 

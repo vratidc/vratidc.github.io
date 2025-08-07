@@ -1,5 +1,29 @@
 # main links
-main:
+main: 
+   - title: "Khushi Agrawal"
+     url: https://www.linkedin.com/in/khushi-agrawal2082/
+     photo: /assets/img/people/imxd_people_khushiagrawal.jpg
+   - title: "Pradumn Sorte"
+     url: https://www.linkedin.com/in/pradumn-sorte-0b5585199/
+     photo: /assets/img/people/imxd_people_pradumnsorte.jpg
+   - title: "Nitya Vyas"
+     url: https://www.linkedin.com/in/nitya-vyas-47ab2579/
+     photo: /assets/img/people/imxd_people_nityavyas.jpg
+   - title: "Khushboo Kumari"
+     url: https://www.linkedin.com/in/khushboo-kumari78/
+     photo: /assets/img/people/imxd_people_khushbookumari.jpg
+   - title: "Tanmay Kuwalekar"
+     url: https://www.linkedin.com/in/tanmay-kuwalekar/
+     photo: /assets/img/people/imxd_people_tanmaykuwalekar.jpg
+   - title: "Hayat Tamboli"
+     url: https://www.linkedin.com/in/hayat-tamboli/
+     photo: /assets/img/people/imxd_people_hayattamboli.jpg
+   - title: "Anumeha Patoria"
+     url: https://www.linkedin.com/in/anumeha-patoria-b77ba1160/
+     photo: /assets/img/people/imxd_people_anumehapatoria.jpg
+   - title: "Yashwant Rawat"
+     url: https://www.linkedin.com/in/yashwant-rawat/
+     photo: /assets/img/people/imxd_people_yashwantrawat.jpg
    - title: "Nachiket Nanoty"
      url: https://www.linkedin.com/in/nachiket-nanoty/
      photo: /assets/img/people/imxd_people_nachiketnanoty.jpg

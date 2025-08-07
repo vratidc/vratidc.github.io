@@ -1,32 +1,32 @@
 ---
 layout: single
-title: Yashwant Rawat
+title: Akshay R Nair
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20231001
+date: 20251001
 header:
-    teaser: /assets/img/people/imxd_people_yashwantrawat.jpg
-permalink: /people/yashwant
+    teaser: assets\img\people\placeholder.png
+permalink: /people/akshay
 type: people
 modal : "no"
-modalname: "yashwant"
+modalname: "akshay"
 fullpage: "no"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:23m2254@iitb.ac.in"
+      url: 
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://issuu.com/yashrawat976/docs/portfolio_21"
+      url: 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
-      url: "https://www.instagram.com/scriptforsanity/"
+      url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yashwant-rawat/"
+      url: 
       
 ---
 
-## Yashwant Rawat
+## Akshay R Nair
 Master's Student - Interaction Design
 
