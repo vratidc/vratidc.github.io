@@ -18,7 +18,7 @@ links:
       url: "https://www.linkedin.com/in/pillaitanushree/"
     - label: "Portfolio"
       icon: "fab fa-fw fa-behance"
-      url: "https://www.behance.net/PILLAITanushree"
+      url: 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
       url: "https://www.instagram.com/tanushreepillai/"
