@@ -12,9 +12,6 @@ modal : "no"
 modalname: "akshay"
 fullpage: "no"
 links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: 
@@ -23,7 +20,7 @@ links:
       url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: 
+      url: "https://www.linkedin.com/in/akshayyrr/"
       
 ---
 
