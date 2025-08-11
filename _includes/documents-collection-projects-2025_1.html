@@ -1,0 +1,12 @@
+{% assign entries = site[include.collection] %}
+
+{% assign entries = entries | sort: 'date' | reverse %}
+
+{%- for post in entries -%}
+{%- if post.active == "yes" -%}
+{%- if post.type == "course" -%}
+{%- if post.year == "2025_1" -%}
+  {% include course-projects-single.html %}
+{%- endif -%}
+{%- endif -%}{%- endif -%}
+{%- endfor -%}
