@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "'Starmaze' and 'Manunaraagam' at Laval Virtual 2025"
+     date: "12/04/2024"
+     active: "yes"
+     content: "The projects were in the Student Demo Competitions"
+     link: updates/starmaze-maunaraagam-lv2025/
+     teaser: /assets/img/updates/lv2025/icon-update-lv2025.jpg
+     fullpage: "yes"
    - title: "VR Filmmaking - IIT Jodhpur - Spring 2025"
      date: "17/03/2025"
      active: "yes"
