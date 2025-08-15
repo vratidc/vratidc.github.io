@@ -1,5 +1,5 @@
 ---
-title:  "'Starmaze' and 'Manunaraagam' at Laval Virtual 2025"
+title:  "'Starmaze' and 'Maunaraagam' at Laval Virtual 2025"
 excerpt: The projects were in the Student Demo Competitions.
 header:
         teaser: /assets/img/updates/lv2025/icon-update-lv2025.jpg
