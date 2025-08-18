@@ -48,7 +48,7 @@ A brief explanation of the project is presented in the video below:
 {% include video id="EXCtLHTkQno" provider="youtube" caption="Maunaraagam - A 360 VR Music Video with Spatial Audio" %}
 <figcaption>Maunaraagam – Explainer Video</figcaption>
 
-The details of the project Maunaraagam are documented here: [Maunaraagam](https://www.behance.net/gallery/213749239/Maunaraagam-a-360-VR-music-video){:target="_blank"}.
+The details of the project Maunaraagam are documented here: [Maunaraagam](https://www.behance.net/gallery/232713599/Maunaraagam-A-360-degree-VR-Music-Video){:target="_blank"}.
 
 <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i>
 Maunaraagam also received an Official Selection at Animela 2025.<br>
