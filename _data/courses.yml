@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "DE677 - Design for VR - Autumn 2025"
+     date: "23/08/2025"
+     active: "yes"
+     content: "Course (18 - 29 Aug 2025)"
+     link: /de677-course-2025
+     teaser: /assets/img/updates/icon_placeholder.jpg
+     fullpage: "yes"
    - title: "Project Showcase 2025 - Design for XR"
      date: "06/03/2025"
      active: "yes"

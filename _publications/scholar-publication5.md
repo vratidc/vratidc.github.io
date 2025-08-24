@@ -1,5 +1,5 @@
 ---
-title:  "Learners' approaches, motivation and patterns of problem-solving on lines and angles in geometry using augmented reality"
+title: "Learners' approaches, motivation and patterns of problem-solving on lines and angles in geometry using augmented reality"
 type: "Journal Article"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

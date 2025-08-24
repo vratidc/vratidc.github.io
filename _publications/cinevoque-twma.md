@@ -1,5 +1,5 @@
 ---
-title:  "Till We Meet Again: A Cinévoqué Experience"
+title: "Till We Meet Again: A Cinévoqué Experience"
 type: "Demo Presentation"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

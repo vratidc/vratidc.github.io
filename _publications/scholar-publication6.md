@@ -1,5 +1,5 @@
 ---
-title:  "Approaches for Designing Handheld Augmented Reality Learning Experiences for Mathematics Classrooms"
+title: "Approaches for Designing Handheld Augmented Reality Learning Experiences for Mathematics Classrooms"
 type: "Journal Article"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

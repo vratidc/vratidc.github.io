@@ -1,5 +1,5 @@
 ---
-title:  "Study of Augmented Reality Interaction Mediums towards Collaboratively Solving Open-Ended Problems"
+title: "Study of Augmented Reality Interaction Mediums towards Collaboratively Solving Open-Ended Problems"
 type: "Full Paper"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

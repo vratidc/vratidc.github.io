@@ -1,5 +1,5 @@
 ---
-title:  "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema"
+title: "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema"
 type: "Short Paper"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications   
 ---
 
-Placeholder Content
+Details Below:

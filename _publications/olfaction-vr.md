@@ -1,5 +1,5 @@
 ---
-title:  "Exploring Effect Of Different External Stimuli On Body Association In VR"
+title: "Exploring Effect Of Different External Stimuli On Body Association In VR"
 type: "Poster Presentation"
 publication: "yes"
 activity: "no"
@@ -17,4 +17,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

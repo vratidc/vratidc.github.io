@@ -1,5 +1,5 @@
 ---
-title:  "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies"
+title: "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies"
 type: "Poster Presentation"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

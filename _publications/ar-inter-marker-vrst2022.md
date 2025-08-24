@@ -1,5 +1,5 @@
 ---
-title:  "Exploration of inter-marker interactions in Tangible AR"
+title: "Exploration of inter-marker interactions in Tangible AR"
 type: "Poster Paper"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

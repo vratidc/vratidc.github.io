@@ -1,5 +1,5 @@
 ---
-title:  "Collaborative Approaches to Problem-Solving on Lines and Angles Using Augmented Reality"
+title: "Collaborative Approaches to Problem-Solving on Lines and Angles Using Augmented Reality"
 type: "Full Paper"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

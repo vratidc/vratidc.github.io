@@ -1,5 +1,5 @@
 ---
-title:  "Designing and Studying Social Interactions in Shared Virtual Spaces using Mobile Augmented Reality"
+title: "Designing and Studying Social Interactions in Shared Virtual Spaces using Mobile Augmented Reality"
 type: "Workshop Paper"
 publication: "yes"
 activity: "no"
@@ -18,4 +18,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

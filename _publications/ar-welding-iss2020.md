@@ -1,5 +1,5 @@
 ---
-title:  "Augmented Reality Application in Vocational Education: A Case of Welding Training"
+title: "Augmented Reality Application in Vocational Education: A Case of Welding Training"
 type: "Poster Presentation"
 publication: "yes"
 activity: "no"
@@ -9,10 +9,11 @@ date: 2020-11-08
 venue: "ISS 2020 - ACM Interactive Surfaces and Spaces, Virtual (originally Lisbon, Portugal)"
 excerpt: Excerpt to be added
 homepage: "false"
-fullpage: "no"
+fullpage: "yes"
+link: "https://dl.acm.org/doi/10.1145/3380867.3426199"
 header:
     teaser: /assets/img/publications/icon-pub-iss2020.jpg
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

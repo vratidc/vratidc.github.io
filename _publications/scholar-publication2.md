@@ -1,5 +1,5 @@
 ---
-title:  "User Expectations of Augmented Reality Experience in Indian School Education"
+title: "User Expectations of Augmented Reality Experience in Indian School Education"
 type: "Full Paper"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

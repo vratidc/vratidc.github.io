@@ -1,5 +1,5 @@
 ---
-title:  "Grammar of VR Storytelling: Visual Cues"
+title: "Grammar of VR Storytelling: Visual Cues"
 type: "Short Paper"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications   
 ---
 
-Placeholder Content
+Details Below:

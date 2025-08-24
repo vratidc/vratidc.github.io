@@ -1,5 +1,5 @@
 ---
-title:  "Belonging: Exploring Audio-Visual Cues in Real-Time 6DoF VR Narrative"
+title: "Belonging: Exploring Audio-Visual Cues in Real-Time 6DoF VR Narrative"
 type: "Short Paper - Arts Track"
 publication: "yes"
 activity: "no"
@@ -20,4 +20,4 @@ layout: publications
 
 ---
 
-Placeholder Content
+Details Below:

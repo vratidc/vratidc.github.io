@@ -1,5 +1,5 @@
 ---
-title:  "Vertical Locomotion in VR Using Full Body Gestures"
+title: "Vertical Locomotion in VR Using Full Body Gestures"
 type: "Poster Presentation"
 publication: "yes"
 activity: "no"
@@ -19,4 +19,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

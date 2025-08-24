@@ -1,5 +1,5 @@
 ---
-title:  "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies"
+title: "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies"
 type: "Short Paper"
 publication: "yes"
 activity: "no"
@@ -17,4 +17,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:

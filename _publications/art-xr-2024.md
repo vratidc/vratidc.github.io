@@ -17,4 +17,4 @@ header:
 layout: publications    
 ---
 
-Placeholder Content
+Details Below:
