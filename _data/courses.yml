@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Project Showcase 2025 - Design for VR"
+     date: "29/08/2025"
+     active: "yes"
+     content: "Outcomes of the course 'Design for VR' - Autumn 2025"
+     link: /de677-showcase-2025
+     teaser: /assets/img/updates/icon_showcase_de677_2025.jpg
+     fullpage: "yes"  
    - title: "DE677 - Design for VR - Autumn 2025"
      date: "23/08/2025"
      active: "yes"
@@ -12,7 +19,7 @@ main:
      active: "yes"
      content: "Outcomes of the course 'Design for XR' - Spring 2025"
      link: /de712-showcase-2025
-     teaser: /assets/img/updates/icon_showcase_3.jpg
+     teaser: /assets/img/updates/icon_showcase_xr_2025.jpg
      fullpage: "yes"
    - title: "Design for XR - Spring 2025"
      date: "01/02/2025"
@@ -20,6 +27,13 @@ main:
      content: "Course (10 Feb - 07 Mar 2025)"
      link: /de712-course-2025
      teaser: /assets/img/updates/icon_imd1.jpg
+     fullpage: "yes"     
+   - title: "Project Showcase 2024 - Design for VR"
+     date: "06/09/2024"
+     active: "yes"
+     content: "Outcomes of the course 'Design for VR' - Autumn 2024"
+     link: /de677-showcase-2024
+     teaser: /assets/img/updates/icon_showcase_de677_2024.jpg
      fullpage: "yes"     
    - title: "DE677 - Design for VR - Autumn 2024"
      date: "23/08/2024"
@@ -33,7 +47,7 @@ main:
      active: "yes"
      content: "Outcomes of the course 'Design for XR' - Spring 2024"
      link: /de712-showcase-2024
-     teaser: /assets/img/updates/icon_showcase_2.jpg
+     teaser: /assets/img/updates/icon_showcase_xr_2024.jpg
      fullpage: "yes"
    - title: "Design for XR - Spring 2024"
      date: "05/02/2024"
@@ -54,7 +68,7 @@ main:
      active: "yes"
      content: "Outcomes of the course 'Design for VR' - Autumn 2023"
      link: /de677-showcase-2023
-     teaser: /assets/img/updates/icon_showcase_1.jpg
+     teaser: /assets/img/updates/icon_showcase_de677_2023.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR - Autumn 2023"
      date: "07/07/2023"

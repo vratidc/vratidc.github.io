@@ -5,4 +5,8 @@ layout: showcase2024
 permalink: /de712-showcase-2024
 collection: projects
 entries_layout: grid
+
+header:
+    teaser: /assets/img/updates/icon_showcase_xr_2024.jpg
+
 ---

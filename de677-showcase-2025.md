@@ -5,4 +5,8 @@ layout: showcase2025_1
 permalink: /de677-showcase-2025
 collection: projects
 entries_layout: grid
+
+header:
+    teaser: /assets/img/updates/icon_showcase_de677_2025.jpg
+
 ---
