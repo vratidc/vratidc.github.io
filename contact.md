@@ -10,7 +10,7 @@ layout: contactsingle
 
 ## VR located here
 
-IDC School of Design,<br>
+1016, First Floor, IDC School of Design,<br>
 Rahul Bajaj Technology Innovation Centre,<br>
 IIT Bombay, Powai, Mumbai - 400076, India
 
