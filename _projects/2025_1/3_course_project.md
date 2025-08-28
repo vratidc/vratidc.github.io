@@ -1,5 +1,5 @@
 ---
-title: "Vilomah: 360° VR Narrative"
+title: "विलोमः (Vilomah) : 360° VR Narrative"
 team: "Pragya Yadav | Tarun Pandey | Kirti"
 tags: VR-Film Quest Mobile-VR
 
@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2025_1/course_project_3.jpg
 
-overview: Vilomah is an immersive 360° narrative about a grieving father haunted by visions of his lost child. The narrative immerses the viewer in the father’s grief and the haunting weight of what remains unsaid.<br><br>
+overview: Vilomah is a 360° film about a father who has lost his child. Viewers see the world from his point of view, where everyday spaces slowly fill with memories of what is gone. The film experiments with monoscopic VR, shifting points of view, and sound cues to guide the audience through his journey of grief.<br><br>
 
 project-link:
 

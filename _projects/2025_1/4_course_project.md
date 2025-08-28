@@ -1,5 +1,5 @@
 ---
-title: "Final SurviVR: A VR Survival Game"
+title: "Final SurviVR : A VR Survival Game"
 team: "Tushar Gaur | Antara Shah | Akshansh Dixit | Mukesh Jangid"
 tags: VR Quest Unity
 

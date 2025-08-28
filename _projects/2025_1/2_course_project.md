@@ -1,5 +1,5 @@
 ---
-title: "Rewind: A VR experience with time-manipulation"
+title: "Rewind : A VR Experience with Time-manipulation"
 team: "Daisy Srimayi | Rangeet Hait | Tanmay Sanwal"
 tags: VR Quest Unity
 

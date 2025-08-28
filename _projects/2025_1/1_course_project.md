@@ -1,5 +1,5 @@
 ---
-title: "Ba-AH: A Voice Based VR Game"
+title: "Ba-AH! : A Voice Based VR Game"
 team: "Laksh Rajpal | Samarth Dhanuka | Vaibhav Jangi"
 tags: VR MR Quest Unity
 
