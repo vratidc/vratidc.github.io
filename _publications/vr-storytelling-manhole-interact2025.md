@@ -1,6 +1,6 @@
 ---
 title: "Into The Manhole: An Unguided 6DoF VR Experience"
-type: "Demo Presentation [Accepted]"
+type: "Demo Presentation"
 publication: "yes"
 activity: "no"
 authors: "Abhishek Verma, Jayesh Pillai and Shiva Teja Banda"

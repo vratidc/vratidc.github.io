@@ -1,6 +1,6 @@
 ---
 title: "Gesture-Based Drone Swarm Control in Virtual Reality: A User-defined Gesture Library and Prototype"
-type: "Poster Presentation [Accepted]"
+type: "Poster Presentation"
 publication: "yes"
 activity: "no"
 authors: "Abhiram N.S. and Jayesh Pillai"

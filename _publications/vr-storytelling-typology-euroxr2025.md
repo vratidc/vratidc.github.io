@@ -1,6 +1,6 @@
 ---
 title: "Navigating Narratives: A Typology of Way-Finding Strategies for VR Storytelling"
-type: "Short Paper [Accepted]"
+type: "Short Paper"
 publication: "yes"
 activity: "no"
 authors: "Soumya Agarwal and Jayesh Pillai"
