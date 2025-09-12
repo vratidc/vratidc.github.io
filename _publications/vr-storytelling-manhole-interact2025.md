@@ -9,10 +9,10 @@ date: 2025-09-08
 venue: "INTERACT 2025 - 20th IFIP TC13 International Conference on Human-Computer Interaction, Belo Horizonte, Brazil"
 excerpt: Excerpt to be added
 homepage: "false"
-fullpage: "no"
-link: ""
+fullpage: "yes"
+link: "https://link.springer.com/chapter/10.1007/978-3-032-05008-3_24"
 PDF: 
-website:
+website: "https://link.springer.com/chapter/10.1007/978-3-032-05008-3_24"
 header:
     teaser: /assets/img/publications/icon-pub-interact2025.jpg
 layout: publications   

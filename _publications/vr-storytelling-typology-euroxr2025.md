@@ -10,9 +10,9 @@ venue: "EuroXR 2025, Winterthur, Switzerland"
 excerpt: Excerpt to be added
 homepage: "false"
 fullpage: "no"
-link: ""
+link: "https://link.springer.com/chapter/10.1007/978-3-032-03805-0_7"
 PDF: 
-website:
+website: "https://link.springer.com/chapter/10.1007/978-3-032-03805-0_7"
 header:
     teaser: /assets/img/publications/icon-pub-euroxr2025.jpg
 layout: publications   
