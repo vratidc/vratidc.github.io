@@ -9,7 +9,7 @@ date: 2025-09-03
 venue: "EuroXR 2025, Winterthur, Switzerland"
 excerpt: Excerpt to be added
 homepage: "false"
-fullpage: "no"
+fullpage: "yes"
 link: "https://link.springer.com/chapter/10.1007/978-3-032-03805-0_7"
 PDF: 
 website: "https://link.springer.com/chapter/10.1007/978-3-032-03805-0_7"
