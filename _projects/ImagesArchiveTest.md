@@ -70,10 +70,6 @@ permalink: /archive/
   </div>
 </div>
 
-
-  </div>
-</div>
-
 {% raw %}
 <script>
 (function () {
