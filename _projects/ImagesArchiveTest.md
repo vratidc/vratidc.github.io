@@ -4,7 +4,7 @@ title: "Lab Visits Archive"
 permalink: /archive/
 ---
 
-<link rel="stylesheet" href="{{ '_sass/minimal-mistakes/_archive.scss' | relative_url }}">
+<link rel="stylesheet" href="{{ 'minimal-mistakes.css' | relative_url }}">
 
 <div class="archive-container">
   {% assign groups = site.data.archive | sort: 'date' %}
