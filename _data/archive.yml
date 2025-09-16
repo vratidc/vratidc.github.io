@@ -1,0 +1,32 @@
+# _data/archive_by_date.yml
+- date: 2025-07-12
+  group_caption: "Sony Research team visit"
+  images:
+    - image: /assets/img/testimg.jpg
+      full_caption: "Dr. Rao and team discussed sensor integration and demoed prototype A."
+    - image: /assets/img/testimg.jpg
+      full_caption: "Group photo in front of the lab."
+    - image: /assets/img/testimg.jpg
+      full_caption: ""
+
+- date: 2025-07-04
+  group_caption: "Dolby visit"
+  images:
+    - image: /assets/img/testimg.jpg
+      full_caption: "Dolby engineers looked into spatial audio pipelines."
+    - image: /assets/img/testimg.jpg
+      full_caption: ""
+
+- date: 2025-06-10
+  group_caption: "Earth Sciences — LONAR meeting"
+  images:
+    - image: /assets/img/testimg.jpg
+      full_caption: ""
+    - image: /assets/img/testimg.jpg
+      full_caption: "Discussion focused on mission visualisations."
+
+- date: 2025-05-02
+  group_caption: "Aerospace Engineering meeting"
+  images:
+    - image: /assets/img/testimg.jpg
+      full_caption: "Discussed mission timeline and VR visualisation needs."
