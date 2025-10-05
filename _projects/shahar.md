@@ -52,48 +52,61 @@ We wanted to use AR to explore how things do not directly combine in the real wo
 
  
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh5.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/concept.png" alt="Shahar_Concept">
 </figure> 
+
+## Ideation for Markers
+
+We explored a number of concepts for markers as tiles and their combinations. As QR codes are very good markers for AR tracking, we considered combining structural illustrations with QR codes. But we did not like having the visual element and QR tracking element as two separate parts. Finally, we decided to make the markers hexagonal to fit well with each other and combine.
+
 
  <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh7.png" alt="Shahar_Markers">
 </figure>
 
+## Final Concept
+Hexagonal markers that combine at 3 levels to form larger buildings.
+
  <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh9.png" alt="Shahar_Final_Concept">
 </figure>
+
+### Development
+We used Unity as the development platform for our project. 
 
  <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh11.png" alt="Shahar_Development">
 </figure>
 
+## Features
+
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh12.png" alt="Shahar_Assets">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh15.png" alt="Structure">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh13.png" alt="The_App">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh2.gif" alt="The_App">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh14.png" alt="Shahar_setup">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh8.gif" alt="Shahar_setup">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh15.png" alt="Shahar_Features">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh10.gif" alt="Shahar_Features">
 </figure>
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh2.gif" alt="Shahar_proximity_marker">
-</figure>
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh8.gif" alt="Shahar_rotate">
-</figure>
+## Future Opportunities
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh10.gif" alt="Shahar_ArStructure">
-</figure>
+- Creating a third tier of inter-marker interactions, where three markers can combine to generate even larger buildings.
+- Implementing road markers to enable users to construct roads by defining the endpoints, turnings, and crossings.
+- Adding background music and sound effects and animations that accompany the AR visuals to create a more engaging experience.
+- Improving building generation parameters and constraints for a better play experience
+
+<br>
+
+## Exhibition
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh16.png" alt="Shahar_Scope">
