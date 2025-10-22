@@ -34,7 +34,7 @@ gallery1:
 
 gallery2:
   - url: 
-    image_path: /assets/img/projects/fina/fina8.svg
+    image_path: /assets/img/projects/fina/interaction_fina.png
     alt: "Fina 10"
     title: "Fina 10"
 
