@@ -11,7 +11,7 @@ header:
     teaser: /assets/img/projects/fina/fina1.png
 tags: VR Research
 
-banner_image1: 
+banner_image1: /assets/img/projects/fina/fina_thumb.png
 banner_image1_caption:
 
 team_members: "Atish Waghwase | Prafulla Chandra GS | Cherian Jeremiah Iype | Apoorv Anurag"
@@ -21,14 +21,16 @@ permalink: projects/fina
 
 
 gallery1:
-  - url: 
+  - aspect: "4/3"
+    url: 
     image_path: /assets/img/projects/fina/Hand_Tracking_Possiblities_Fina.gif
-    alt: "Fina 1"
-    title: "Fina 1"
-  - url: 
+    alt: ""
+    title: ""
+  - aspect: "4/3"
+    url:
     image_path: /assets/img/projects/fina/Ray_Casting_Kebab_Fina.gif
-    alt: "Fina 2"
-    title: "Fina 2"
+    alt: ""
+    title: ""
 
 gallery2:
   - url: 
@@ -36,11 +38,52 @@ gallery2:
     alt: "Fina 10"
     title: "Fina 10"
 
----
 
-<figure class="align-center" style="width:100%;">
-  {% include video id="_9cq1qVikcU" provider="youtube" %}
-</figure> 
+gallery3:
+  - aspect: "1/2"
+    url: 
+    image_path: /assets/img/projects/fina/fina2.gif
+    alt: "Fina 1"
+    title: "Pinch and pull an item to select it. To select multiple files, pinch and pull each one; they’ll stay on the Active Plane."
+  - aspect: "1/2"
+    url:
+    image_path: /assets/img/projects/fina/fina3.gif
+    alt: "Fina 2"
+    title: "Grab the selection on the Active Plane to stack and move it anywhere."  
+
+gallery4:
+  - aspect: "1"
+    url: 
+    image_path: /assets/img/projects/fina/fina4.gif
+    alt: "Fina 1"
+    title: "Pinch and pull the first file, then, without releasing, pinch and pull the last to select all files in between."
+  - aspect: "2"
+    url:
+    image_path: /assets/img/projects/fina/fina5.gif
+    alt: "Move the stack near the Clipboard and release to transfer the files. They’ll be removed from the parent folder."
+    title: "Move the stack near the Clipboard and release to transfer the files. They’ll be removed from the parent folder." 
+
+gallery5:
+  - aspect: "1/2"
+    url: 
+    image_path: /assets/img/projects/fina/fina6.gif
+    alt: "While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack."
+    title: "While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack."
+  - aspect: "1/2"
+    url:
+    image_path: /assets/img/projects/fina/fina7.gif
+    alt: "Look down to open the Delete Portal."
+    title: "Look down to open the Delete Portal."
+
+---
+<br>
+## Introduction
+
+Most VR headsets still use ray-casting as the default interaction method, which mimics pointer-based interactions for screen-based interfaces. In this project, we imagine, prototype, and showcase how actions like copying, moving, selecting, and deleting files can be made more appropriate for an immersive VR experience through interactions like hovering, poking, pinching, grabbing, and releasing. We showcase our ideas through a file management interface for the Meta Quest 2.
+
+
+<br>
+
 
 Given that UI in popular VR headsests still uses raycasting as the default interaction method, we imagine, prototype and showcase how interactions can be made more tangible and literal by utilising full hand tracking by designing a file management scenario.
 
@@ -49,19 +92,11 @@ Given that UI in popular VR headsests still uses raycasting as the default inter
   <figcaption> </figcaption>
 </figure>
 
-## Introduction
-
-As technology is improving, hand-tracking is getting more robust and reliable enough to be implemented on mobile standalone devices with sparse sensors such as the Meta Quest 2. Hand-tracking is a huge leap in immersion and interaction as it breaks extra layer of controller mapping; instead of the user interacting with the controller and the controller affecting the visuals, we can now directly interact and affect the visuals directly using our hands.
-
-Raycasting is the most common UI interaction technique in virtual reality in 2022. It resembles real-life pointing with a laser pointer - the user points a ray of light at the target and confirms its selection by pressing a button on the controller - not unlike a traditional computer mouse. Mouse interactions are bound by physical and technical constraints, but VR interactions don’t have to be.
-
-<br>
-
 ### Raycasting in File Management
 
 File management in the Meta Quest 2 is currently almost exactly the way it would be on a 2D touchscreen device. Notice the presence of kebab menus for basic tasks like delete and the lack of basic tasks like move or copy.
 
-{% include gallery id="gallery1" caption="The Raycasting interaction method. Source: Meta.com" %}
+{% include gallery_captions id="gallery1" caption="The Raycasting interaction method. Source: Meta.com" %}
 
 
 ## File Management
@@ -89,49 +124,29 @@ When displaying text-based interfaces, a rectilinear layout is the most practica
 
 ### Selecting individual files
 
-Pinch an item and pull it towards you to select it. To select multiple files, pinch and pull each file that you want to select. All selected files will stay on the Active Plane.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina2.gif" alt="fina4">
-</figure>
 
-Grabbing the selection on the Active Plane will collate the into a stack. You can move this stack to a new location.
+{% include gallery_captions id="gallery3" caption="" %}
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina3.gif" alt="fina5">
-</figure>
 
-### Selecting a range
+### Selecting a range and Moving files to clipboard
 
 Pinch and pull the first file of the range to be selected. Without letting go, pinch and pull the last file of the range to select all the files in between the two.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina4.gif" alt="fina6">
-</figure>
-
-### Moving files to clipboard
+{% include gallery_captions id="gallery4" %}
 
 You can move the stack near the Clipboard and release to move the files to the clipboard. The files will no longer remain in the parent folder.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina5.gif" alt="fina7">
-</figure>
 
-### Copying files to clipboard
+### Copying files to clipboard and Deleting a selection
+
+{% include gallery_captions id="gallery5" caption="" %}
 
 While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack. You can drop the copied stack onto the Clipboard and release the original stack.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina6.gif" alt="fina8">
-</figure>
-
-### Deleting a selection
 
 WLook down to open the Delete Portal. If you hover a file or a stack directly above it and let go, it will get sucked into the portal and get deleted.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina7.gif" alt="fina9">
-</figure>
 
 <br>
 
@@ -161,6 +176,10 @@ We designed an early proof of concept to experience interactions in 3D using Gra
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.gif" alt="fina12">
   <figcaption>Exhibition at IDC School of Design, September 2022.</figcaption>
 </figure>
+
+<figure class="align-center" style="width:100%;">
+  {% include video id="_9cq1qVikcU" provider="youtube" %}
+</figure> 
 
 
 
