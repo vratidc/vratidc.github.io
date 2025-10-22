@@ -82,9 +82,7 @@ gallery5:
 Most VR headsets still use ray-casting as the default interaction method, which mimics pointer-based interactions for screen-based interfaces. In this project, we imagine, prototype, and showcase how actions like copying, moving, selecting, and deleting files can be made more appropriate for an immersive VR experience through interactions like hovering, poking, pinching, grabbing, and releasing. We showcase our ideas through a file management interface for the Meta Quest 2.
 
 <br>
-<figure class="align-center" style="width:100%;">
-  {% include video id="_9cq1qVikcU" provider="youtube" %}
-</figure> 
+
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina11.jpg" alt="fina13">
@@ -149,6 +147,11 @@ We designed an early proof of concept to experience interactions in 3D using Gra
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina10.gif" alt="fina12">
   <figcaption>Exhibition at IDC School of Design, September 2022.</figcaption>
 </figure>
+
+
+<figure class="align-center" style="width:100%;">
+  {% include video id="_9cq1qVikcU" provider="youtube" %}
+</figure> 
 
 
 
