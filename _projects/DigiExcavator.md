@@ -9,12 +9,6 @@ active: "yes"
 
 header:
     teaser: /assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
-tags: AR Research 
-
-
-header:
-    teaser: assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
-
 tags: AR Research
 
 banner_image1: 
