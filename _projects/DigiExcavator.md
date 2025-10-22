@@ -36,8 +36,10 @@ gallery2:
     image_path: /assets/img/projects/DigiExcavator/testing_digiE.png
     alt: "user testing"
     title: "user testing"
+
 --- 
 
+ 
 
 
 
@@ -99,11 +101,7 @@ The following controller guide shows the list of interactions and shows how to i
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/controller_digiexcavator.jpg" alt="3dprinting">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/controllersheet_digiexcavator.jpg" alt="3dprinting">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/controller_digi.jpg" alt="Controls">
 </figure>
 
 ## Testing
