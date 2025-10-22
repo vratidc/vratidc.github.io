@@ -67,8 +67,8 @@ gallery5:
   - aspect: "1/2"
     url: 
     image_path: /assets/img/projects/fina/fina6.gif
-    alt: "While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack."
-    title: "While grabbing the stack with one hand, grab the newly created Duplicate prompt with the other hand to create a copy of the stack."
+    alt: "While holding the stack with one hand, grab the Duplicate prompt with the other to create its copy."
+    title: "While holding the stack with one hand, grab the Duplicate prompt with the other to create its copy."
   - aspect: "1/2"
     url:
     image_path: /assets/img/projects/fina/fina7.gif
@@ -108,13 +108,13 @@ When displaying text-based interfaces, a rectilinear layout is the most practica
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/fina/fina1.png" alt="fina3">
-  <figcaption>We designed a 2.5D interface — two-dimensional UI with an additional interactive plane on top</figcaption>
+  <figcaption>We designed a 2.5D interface, two-dimensional UI with an additional interactive plane on top</figcaption>
 </figure>
 
 ### Our two core interactions are —
 
 <div class="ulist" markdown="1">
-- **Pinching:** Pinching is the act of picking a single object — making a precise choice — so we used it as a metaphor for selecting and manipulating individual items.
+- **Pinching:** Pinching is the act of picking a single object making a precise choice, so we used it as a metaphor for selecting and manipulating individual items.
 
 - **Grabbing:** Grabbing is done to grasp larger objects, maybe to command objects to compress or fall together. Thus, we used grabbing as a metaphor to manipulate a group of multiple files.
 </div>
