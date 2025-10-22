@@ -14,7 +14,7 @@ tags: VR AR Game
 banner_image1:
 banner_image1_caption:
 
-team_members: " Lakshya Ranwan | Mann Merchant | Saloni Shetye | Sanat Prasad | Sharvil Survase "
+team_members: " Lakshya Ranwan | Mann Merchant | Saloni Shetye | Sanat Prasad | Sharvil Survase | Guided by  Prof. Jayesh Pillai "
 team_members_align: "text-left"
 
 permalink: projects/shahar

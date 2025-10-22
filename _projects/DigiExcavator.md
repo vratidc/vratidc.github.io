@@ -38,11 +38,8 @@ gallery2:
     title: "user testing"
 --- 
 
-DigiExcavator is VR JCB Simulator for new drivers to learn and explore the operation of JCB.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/yt_marker.png" alt="caution">
-</figure>
+
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/cover_digi_excavator.jpg" alt="digiexcavator_cover">
@@ -120,9 +117,6 @@ The following controller guide shows the list of interactions and shows how to i
 
 The video shows testing of DigiExcavator by various users. Users of various types explored and tested the prototype. As seen in the video, the controllers were assembled with arduino circuit. Also, the input from controller is mapped to the code in unity to operate virtual JCB.
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/DigiExcavator/yt_marker.png" alt="Youtube">
-</figure>
 {% include video id="8d---DWC8Tk" provider="youtube" %}
 <figcaption>DigiExcavator- A virtual Reality JCB Simulator</figcaption>
 
