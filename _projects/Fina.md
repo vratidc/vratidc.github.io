@@ -111,7 +111,7 @@ When displaying text-based interfaces, a rectilinear layout is the most practica
   <figcaption>We designed a 2.5D interface, two-dimensional UI with an additional interactive plane on top</figcaption>
 </figure>
 
-### Our two core interactions are —
+### Core interactions
 
 <div class="ulist" markdown="1">
 - **Pinching:** Pinching is the act of picking a single object making a precise choice, so we used it as a metaphor for selecting and manipulating individual items.
