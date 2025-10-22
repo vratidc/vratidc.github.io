@@ -5,7 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 
 header:
     teaser: assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
