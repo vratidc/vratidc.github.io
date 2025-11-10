@@ -99,7 +99,7 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/about1.jpg" alt="students using the VR headsets">
 </figure> 
 
-The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an XSense motion capture suit with hand trackers. These facilities support students and researchers in exploring new ideas and creating immersive applications.
+The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens and Magic Leap for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an XSense motion capture suit with hand trackers. These facilities support students and researchers in exploring new ideas and creating immersive applications.
 
 <br>
 
