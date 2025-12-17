@@ -43,15 +43,22 @@ gallery1:
 <strong>Synopsis: </strong> <i>“Compelled by the exigencies of poor economic life and caste identity, Amitabh, a young law graduate, becomes a manual scavenger. One day, to earn some extra money to support his family, he decides to get inside a large, unsafe sewer to clear a blockage. He has neither protective gear nor an accompanying engineer to check for poisonous gases. Will Amitabh come out safely?”</i>
 <br><br>
 
-This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a <a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India.
-<br><br>
-
-<i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i>
-Into the Manhole received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>. The production of the film was supported by IRCC, IIT Bombay.
+This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a <a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India. The production of the film was supported by IRCC, IIT Bombay.
 
 <br>
 {% include video id="-4-xjF6OTHM" provider="youtube" %}
 <figcaption>Into the Manhole - Trailer</figcaption>
+
+<br>
+<hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
+
+## Awards and Official Selections
+
+- <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>, India. 
+- <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the Jury Award <a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Grand Prix Réalité Virtuelle at Courant3D 2025</a> , France
+- Official Selection at Courant3D 2025, France
+- Official Selection at Miami Art-Tech Summit 2025, Florida, USA
+
 
 <br>
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
