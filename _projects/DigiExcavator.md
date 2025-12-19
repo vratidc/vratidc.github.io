@@ -7,6 +7,8 @@ homepage: "false"
 fullpage: "yes"
 active: "yes"
 
+og_image: /assets/img/projects/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
+
 header:
     teaser: /assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
 tags: AR Research
