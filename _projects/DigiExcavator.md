@@ -7,7 +7,7 @@ homepage: "false"
 fullpage: "yes"
 active: "yes"
 
-og_image: /assets/img/projects/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
+og_image: /assets/img/projects/1-og_de.jpg
 
 header:
     teaser: /assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
