@@ -2,7 +2,7 @@
 title:  "DigiExcavator"
 excerpt: VR JCB Simulator
 layout: projects
-selected: "true"
+selected: "false"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
