@@ -133,8 +133,7 @@ Instead of uploading layer by layer, a video playback is kept by adding a video 
 
 ## Challenges and Learning
 
-The most significant challenge was the Portal Parallax implementation—the complex technical setup required to create the 3D depth effect. This involved several iterative methods and required custom C# coding in Unity. (Note: Collaboration with Prof. Jayesh Pillar and Amarnath Murugan was key to achieving the final technical breakthrough.)
-<br>
+The most significant challenge was the Portal Parallax implementation, the complex technical setup required to create the 3D depth effect. This involved several iterative methods and required custom C# coding in Unity. Note: Collaboration with Prof. Jayesh Pillar and Amarnath Murugan was key to achieving the final technical breakthrough.
 
 
 
