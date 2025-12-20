@@ -4,8 +4,10 @@ excerpt: Exploratory AR Town Builder
 layout: projects   
 selected: "False"
 homepage: "False"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
+
+og_image: /assets/img/projects/shahar/og.jpg
 
 header:
     teaser: /assets/img/projects/shahar/dis_sh18.png
@@ -47,12 +49,16 @@ This academic project was conceptualised, designed, developed, and tested within
 ## Process
 
 We wanted to use AR to explore how things do not directly combine in the real world can combine in extended reality to form new things. Our idea manifested as an AR town builder.
+
+<br>
+
 ## Concept
 
 
  
  <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/concept.png" alt="Shahar_Concept">
+  <figcaption>Game Concept</figcaption>
 </figure> 
 
 ## Ideation for Markers
