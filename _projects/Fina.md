@@ -7,6 +7,8 @@ homepage: "false"
 fullpage: "yes"
 active: "no"
 
+og_image: /assets/img/projects/fina/og_ne.jpg
+
 header:
     teaser: /assets/img/projects/fina/fina1.png
 tags: VR Research
