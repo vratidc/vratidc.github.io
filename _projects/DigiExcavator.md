@@ -16,7 +16,7 @@ tags: AR Research
 banner_image1: 
 banner_image1_caption:
 
-team_members: "Noopur Kumari Kashyap, Zulqarnain, Sajal Tak"
+team_members: "Noopur Kumari Kashyap | Zulqarnain | Sajal Tak"
 team_members_align: "text-left"
 
 permalink: projects/digiexcavator

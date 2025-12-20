@@ -38,7 +38,7 @@ moving around in the environment and changing point-of-view as the story progres
 design-related aspects of narrative and associated technical challenges for creating a compelling 6DoF real-time VR experience. In this
 narrative, we focus on the audio and visual cues that would effectively guide the viewers to the plot points.
 
-ArtsTrack Film : [Belonging|IndiaHCI|ArtsTrack](https://youtu.be/GQ5aEutfYxw?feature=shared){:target="_blank"} 
+ArtsTrack Film : [Belonging | IndiaHCI | ArtsTrack](https://youtu.be/GQ5aEutfYxw?feature=shared){:target="_blank"} 
 <br>
 <br>
 
