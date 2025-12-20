@@ -33,6 +33,7 @@ plot points in a VR narrative. Previous studies have examined various methods to
 linear and non-linear narratives. In this study, we look at the grammar of storytelling in a real-time 6 degrees of freedom (6DoF) VR
 experience.
 <br>
+<br>
  We created ’Belonging’, a real-time VR narrative in which one has the freedom to experience the story by physically
 moving around in the environment and changing point-of-view as the story progresses. Through this project, we intend to explore
 design-related aspects of narrative and associated technical challenges for creating a compelling 6DoF real-time VR experience. In this
@@ -58,12 +59,16 @@ This study primarily focuses on how the various cues help the viewer navigate th
 way. The space and the timeline of the narrative were accordingly planned with careful attention to the timings of each
 plot point.
 
+<br>
+
 ### Space and Plot Points
+<br>
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/belonging/Diagrams-01.jpg" alt="belonging_Participants">
   <figcaption> Spatial representation of the narrative with plot points and ideal path of the viewer </figcaption>
 </figure>
+<br>
 
 There are three scenes in the narrative of ‘Belonging’. The various plot points, along with the ideal path and direction
 of the viewer, are shown in the given figure, using a top-view of the story space. The placement and timing of these plot points
@@ -77,6 +82,7 @@ were designed to guide the viewer gradually towards specific locations in the na
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/belonging/Diagrams-02.jpg" alt="belonging_Participants">
   <figcaption> Temporal representation of the narrative with audio and visual cues </figcaption>
 </figure>
+<br>
 
 It was essential to visualise the narrative in a temporal manner since there were multiple plot points taking place in
 parallel. The three scenes mentioned above, along with the starting and ending credits, are represented as a timeline
@@ -129,6 +135,8 @@ We believe that through this demonstration, we will be able to study how viewers
 narratives. Understanding audio-visual cues is key to understanding the evolving grammar of storytelling in VR. We
 intend to conduct an in-depth analysis of these perceptual cues and propose guidelines to help VR filmmakers in
 designing effective VR narratives.
+
+<br>
 
 ## Publications
 
