@@ -7,7 +7,7 @@ homepage: "true"
 fullpage: "yes"
 active: "yes"
 manholeproject: "yes"
-date: 20250102
+date: 20250930
 
 og_image: /assets/img/projects/manholeproject/manhole2_teaser_small.jpg
 

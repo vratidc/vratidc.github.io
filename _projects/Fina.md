@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 20230102
+date: 20220102
 
 
 og_image: /assets/img/projects/fina/og_ne.jpg

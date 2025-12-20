@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 20220102
+date: 2022-01-02
 
 header:
     teaser: /assets/img/projects/LatticeStructure/LS_thumbnail.jpg

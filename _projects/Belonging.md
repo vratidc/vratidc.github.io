@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 20230102
+date: 2024-07-01
 
 
 og_image: /assets/img/projects/belonging/og.jpg
