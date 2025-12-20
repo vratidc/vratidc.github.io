@@ -7,7 +7,6 @@ homepage: "false"
 fullpage: "yes"
 active: "yes"
 
-date: xxxxxxxx
 
 og_image: /assets/img/projects/WhenItRains/og.jpg
 header:
