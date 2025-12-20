@@ -1,5 +1,5 @@
 ---
-title:  "WHISPERS OF THE KONKAN GUARDIAN"
+title:  "Whispers of the Konkan Guardian"
 excerpt: Interactive Storytelling through Digital Game Design
 layout: projects   
 selected: "False"
