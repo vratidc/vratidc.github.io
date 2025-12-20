@@ -7,7 +7,7 @@ homepage: "False"
 fullpage: "yes"
 active: "yes"
 
-og_image: /assets/img/projects/belonging/og_be.jpg
+og_image: /assets/img/projects/belonging/og.jpg
 
 header:
     teaser: /assets/img/projects/belonging/Diagrams-00_Teaser.png
