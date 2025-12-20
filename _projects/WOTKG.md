@@ -160,4 +160,9 @@ Buta Kola from the Tulu Nadu region, popularized by the movie "Kantara," and man
 
 ## Outcomes
 
-This work and research was presented at IndiaHCI 2023.
+<div style="display: flex; align-items: center; justify-content: center; gap: 24px; margin-bottom: 16px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/belonging/hci_0.png" alt="HCI 2023" style="width:120px; height:auto;">
+  <span style="font-size: 1em; font-weight: thin; background: linear-gradient(90deg, #ff3c00ff, #ffa600ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">Runner-up India HCI 2023</span>
+</div>
+
+Presented at IndiaHCI 2023, this project received runner-up recognition in the Artworks track for its research-driven interactive narrative rooted in Konkan folklore.
