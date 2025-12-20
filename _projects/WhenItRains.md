@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 2018-01-01
 
 
 og_image: /assets/img/projects/WhenItRains/og.jpg
