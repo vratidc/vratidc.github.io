@@ -7,6 +7,8 @@ homepage: "False"
 fullpage: "no"
 active: "no"
 
+g_image: /assets/img/projects/belonging/og_be_jpg
+
 header:
     teaser: /assets/img/projects/belonging/Diagrams-00_Teaser.png
 tags: VR Film Storytelling
