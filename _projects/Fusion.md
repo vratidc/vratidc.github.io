@@ -6,14 +6,14 @@ selected: "false"
 homepage: "false"
 fullpage: "no"
 active: "no"
-date: TBU
+date: 
 
 
 og_image: /assets/img/projects/Fusion/og.jpg
 
 header:
     teaser: /assets/img/projects/Fusion/og.png
-tags: TBU
+tags: 
 
 banner_image1:
 banner_image1_caption:
