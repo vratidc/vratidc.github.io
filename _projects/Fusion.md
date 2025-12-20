@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "no"
 active: "no"
-date: 
+
 
 
 og_image: /assets/img/projects/Fusion/og.jpg
