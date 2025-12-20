@@ -20,6 +20,20 @@ team_members: " Shreyas Vernekar | Jayesh Pillai "
 team_members_align: "text-left"
 
 permalink: projects/WOTKG
+
+gallery1:
+  - url: /assets/img/projects/WOTKG/wot_grid0.png
+    image_path: /assets/img/projects/WOTKG/wot_grid0.png
+    alt: "Schrödinger’s Vada-Pav"
+    title: "Schrödinger’s Vada-Pav"
+  - url: /assets/img/projects/WOTKG/wot_grid.png
+    image_path: /assets/img/projects/WOTKG/wot_grid.png
+    alt: "Shapeshifter"
+    title: "Shapeshifter"
+  - url: /assets/img/projects/WOTKG/wot_grid1.png
+    image_path: /assets/img/projects/WOTKG/wot_grid1.png
+    alt: "Till We Meet Again"
+    title: "Till We Meet Again"
 ---
 
 <figure class="align-center" style="width:100%;">
@@ -39,14 +53,9 @@ appreciation of its mythology and traditions.
 <br>
 <br>
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/WOTKG_1.png" alt="art_track">
-</figure>
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_vil.png" alt="art_track">
-  <figcaption>Illustration of Rakhandar, based on photographs captured during Shigmotsav
-festival along with the project journey from ideation to execution</figcaption>
-</figure>
+{% include gallery id="gallery1" caption="Illustration of Rakhandar, based on photographs captured during Shigmotsav
+festival along with the project journey from ideation to execution" %}
+
 
 ## Background
 
