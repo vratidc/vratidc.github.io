@@ -10,8 +10,9 @@ date: 20200501
 header:
     teaser: /assets/img/projects/ARTWO/artwo_thumbnail.jpg
 tags: AR MR Research  
-   
 
+og_image: /assets/img/projects/
+   
 team_members: "Rishi Vanukuru | Amarnath M | Jayesh Pillai"
 team_members_align: "text-left"
    

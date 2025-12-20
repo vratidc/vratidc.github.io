@@ -4,7 +4,7 @@ excerpt: Interactive 360° Immersive Mystery Story
 layout: projects   
 selected: "False"
 homepage: "False"
-fullpage: "no"
+fullpage: "yes"
 active: "yes"
 
 og_image: /assets/img/projects/belonging/og_be.jpg

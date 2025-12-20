@@ -8,6 +8,8 @@ fullpage: "yes"
 active: "yes"
 date: 20180105
 
+og_image: /assets/img/projects/
+
 header:
     teaser: /assets/img/projects/archdeck_thumbnail.jpg
 tags: MR AR

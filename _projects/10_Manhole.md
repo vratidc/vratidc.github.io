@@ -7,6 +7,8 @@ homepage: "false"
 fullpage: "no"
 active: "no"
 
+og_image: /assets/img/projects/
+
 header:
   teaser: /assets/img/projects/ManholeVR/View from manhole.jpg
 tags: VR Research
