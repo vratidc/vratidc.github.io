@@ -24,16 +24,26 @@ permalink: projects/WOTKG
 gallery1:
   - url: /assets/img/projects/WOTKG/wot_grid0.png
     image_path: /assets/img/projects/WOTKG/wot_grid0.png
-    alt: "Schrödinger’s Vada-Pav"
-    title: "Schrödinger’s Vada-Pav"
+    alt: "Story Character"
+    title: "Story Character"
   - url: /assets/img/projects/WOTKG/wot_grid.png
     image_path: /assets/img/projects/WOTKG/wot_grid.png
-    alt: "Shapeshifter"
-    title: "Shapeshifter"
+    alt: "Story Character"
+    title: "Story Character"
   - url: /assets/img/projects/WOTKG/wot_grid1.png
     image_path: /assets/img/projects/WOTKG/wot_grid1.png
-    alt: "Till We Meet Again"
-    title: "Till We Meet Again"
+    alt: "Story Character"
+    title: "Story Character"
+
+gallery2:
+  - url: /assets/img/projects/WOTKG/wot_re.jpg
+    image_path: /assets/img/projects/WOTKG/wot_re.jpg
+    alt: "Research"
+    title: "Research"
+  - url: /assets/img/projects/WOTKG/wot_re1.png
+    image_path: /assets/img/projects/WOTKG/wot_re1.png
+    alt: "Research"
+    title: "Research"
 ---
 
 <figure class="align-center" style="width:100%;">
@@ -70,10 +80,8 @@ miscreants waiting to wreak havoc.
 
 ## Research
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_re.png" alt="reserach_work">
-  <figcaption>Research work and scriptures</figcaption>
-</figure>
+{% include gallery id="gallery2" caption="Research work and scriptures" %}
+
 
 ### Primary Research
 The primary research for this study involved firsthand accounts gathered through personal interactions with individuals who had either heard about Rakhandar or had direct experiences related to this fascinating entity. Additionally, visits were made to the Rakhandar shrines. Through these interactions and observations, a wide range of narratives surrounding Rakhandar worship were collected, encompassing both chilling and humorous anecdotes.
@@ -87,7 +95,8 @@ The inclusion of audiovisual content, such as religious songs, horror stories, a
 ## Character Design
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_char.png" alt="art_track">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_char0.jpg" alt="art_track">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/wot_char1.jpg" alt="art_track">
   <figcaption> Character designs and textures
 </figcaption>
 </figure>
@@ -145,6 +154,7 @@ Extra scope for exploration, hidden incentives, and easter eggs can be incorpora
 Diverse tales from various regions of India, such as the captivating lore of
 Buta Kola from the Tulu Nadu region, popularized by the movie "Kantara," and many other similar tales on the themes of protector spirit-gods, could be documented and re-imagined through games
 
+<br>
 
 ## Outcomes
 
