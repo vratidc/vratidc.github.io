@@ -9,7 +9,7 @@ active: "yes"
 date: 2021-10-02
 
 
-og_image: /assets/img/projects/DigiExcavator/1-og_de.jpg
+og_image: /assets/img/projects/DigiExcavator/1-og_de.png
 
 header:
     teaser: /assets/img/projects/DigiExcavator/1-digiexcavator-a-virtual-reality-jcb-simulator.jpg
