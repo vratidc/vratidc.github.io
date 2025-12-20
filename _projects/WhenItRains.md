@@ -5,8 +5,11 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 
+date: xxxxxxxx
+
+og_image: /assets/img/projects/WhenItRains/og.jpg
 header:
     teaser: /assets/img/projects/WhenItRains/thumbnail.PNG
 tags: AR Research
@@ -76,7 +79,6 @@ The story is centered around two main characters: Sophie and Ammu. They are best
 
 <div style="max-width:900px; margin:0;">
   <style>
-    /* Disable hover highlights for this table (override theme styles) */
     .no-hover-table tr,
     .no-hover-table td,
     .no-hover-table th { transition: none !important; }
