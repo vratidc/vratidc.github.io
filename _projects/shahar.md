@@ -6,6 +6,7 @@ selected: "False"
 homepage: "False"
 fullpage: "yes"
 active: "yes"
+date: 202X0102
 
 og_image: /assets/img/projects/shahar/og.jpg
 

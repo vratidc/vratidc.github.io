@@ -6,6 +6,8 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 2020102
+
 
 og_image: /assets/img/projects/DigiExcavator/1-og_de.jpg
 

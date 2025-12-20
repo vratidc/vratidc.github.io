@@ -6,6 +6,8 @@ selected: "False"
 homepage: "False"
 fullpage: "yes"
 active: "yes"
+date: 20240102
+
 
 og_image: /assets/img/projects/WOTKG/og.jpg
 
