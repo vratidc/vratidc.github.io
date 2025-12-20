@@ -12,7 +12,7 @@ date: 20220102
 og_image: /assets/img/projects/fina/og_ne.jpg
 
 header:
-    teaser: /assets/img/projects/fina/fina1.png
+    teaser: /assets/img/projects/fina/TN.jpg
 tags: VR Research
 
 banner_image1: /assets/img/projects/fina/fina_thumb.png
