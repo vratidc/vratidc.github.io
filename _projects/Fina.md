@@ -5,7 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 
 og_image: /assets/img/projects/fina/og_ne.jpg
 
