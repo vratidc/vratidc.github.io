@@ -2,8 +2,8 @@
 title:  "Belonging"
 excerpt: Interactive 360° Immersive Mystery Story
 layout: projects   
-selected: "False"
-homepage: "False"
+selected: "false"
+homepage: "false"
 fullpage: "yes"
 active: "yes"
 
