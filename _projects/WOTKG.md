@@ -4,8 +4,10 @@ excerpt: Interactive Storytelling through Digital Game Design
 layout: projects   
 selected: "False"
 homepage: "False"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
+
+og_image: /assets/img/projects/WOTKG/og.jpg
 
 header:
     teaser: /assets/img/projects/WOTKG/WOTKGB.png
@@ -24,7 +26,8 @@ permalink: projects/WOTKG
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WOTKG/WOTKGB.png" alt="WHISPERS_OF_THE_KONKAN_GUARDIAN_banner">
 </figure>
 
-<strong>Synopsis: </strong>
+## ABSTRACT
+
 Rakhandar, the mythical protective spirit of the area, demonstrates a
 fascinating duality in his identity. He can be mischievous, unforgiving, or
 fiercely protective towards the region's residents. This multifaceted nature
@@ -33,7 +36,7 @@ an enigmatic figure in local folklore. By sharing these local stories on a
 broader platform, the project aims to preserve and celebrate the cultural
 heritage of the Konkan region while fostering a deeper understanding and
 appreciation of its mythology and traditions.
-
+<br>
 <br>
 
 <figure class="align-center" style="width:100%;">
