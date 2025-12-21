@@ -11,7 +11,7 @@ date: 2018-01-01
 
 og_image: /assets/img/projects/WhenItRains/og.jpg
 header:
-    teaser: /assets/img/projects/WhenItRains/thumbnail.PNG
+    teaser: /assets/img/projects/WhenItRains/thumbnail.jpg
 tags: AR Research
 
 banner_image1: 
