@@ -58,7 +58,7 @@ We wanted to use AR to explore how things do not directly combine in the real wo
 
  
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/concept.png" alt="Shahar_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/concept.jpg" alt="Shahar_Concept">
   <figcaption>Game Concept</figcaption>
 </figure> 
 
@@ -68,14 +68,14 @@ We explored a number of concepts for markers as tiles and their combinations. As
 
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh7.png" alt="Shahar_Markers">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh7.jpg" alt="Shahar_Markers">
 </figure>
 
 ## Final Concept
 Hexagonal markers that combine at 3 levels to form larger buildings.
 
  <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh9.png" alt="Shahar_Final_Concept">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh9.jpg" alt="Shahar_Final_Concept">
 </figure>
 
 ### Development
