@@ -1,6 +1,6 @@
 {% assign entries = site[include.collection] %}
 
-{% assign entries = entries | sort: 'date' %}
+{% assign entries = entries | sort: 'date' | reverse %}
 
 {%- for post in entries -%}
 {% if post.manholeproject == "yes" and post.type != "course" %}
