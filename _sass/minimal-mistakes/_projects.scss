@@ -356,20 +356,31 @@
     }
 
     .projects__item-excerpt {
+        //display: none;
         font-size: $type-size-8;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-8;
+        }
     }
 
     .projects__item-teaser {
 
         height: 20vh;
+        
 
+        @include breakpoint($small) {
+            height: 250px;
+        }
 
-        @include breakpoint($small) {}
-
-        @include breakpoint($medium) {}
+        @include breakpoint($medium) {
+            height :200px;
+        }
 
 
     }
+    
 
 }
 
