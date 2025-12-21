@@ -98,13 +98,17 @@ We used Unity as the development platform for our project.
 
 When markers are brought into close proximity to each other, they trigger an inter-marker interaction that leads to the creation of new buildings.
 
+### Rotate to orient buildings
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh8.gif" alt="Shahar_setup">
 </figure>
+To rotate and orient the buildings the right way, the marker can be rotated to make the building point the right way.
 
+### Diversifying AR structures through randomisation
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh10.gif" alt="Shahar_Features">
 </figure>
+Randomisation occurs every time a new marker is placed, creating different versions of the buildings associated with the same physical markers, to prevent a monotonous set of repeating buildings.
 
 
 ## Future Opportunities
