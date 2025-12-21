@@ -12,7 +12,7 @@ date: 2024-07-01
 og_image: /assets/img/projects/belonging/og.jpg
 
 header:
-    teaser: /assets/img/projects/belonging/Diagrams-00_Teaser.png
+    teaser: /assets/img/projects/belonging/tearser.jpg
 tags: VR Film Storytelling
 
 banner_image1:
