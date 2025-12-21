@@ -7,7 +7,7 @@ homepage: "false"
 fullpage: "yes"
 active: "no"
 manholeproject: "yes"
-date: 20250102
+date: 2024-01-02
 
 header:
     image: /assets/img/projects/manholeproject/manhole3_header.jpg
