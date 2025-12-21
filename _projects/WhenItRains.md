@@ -36,9 +36,14 @@ Augmented Reality (AR) is rapidly gaining ground in education, offering a comple
 <br>
 
 ## Narrative
+
 ### The Narrative: Simple Moments, Lasting Bonds
 
 The story, "When it Rains," is a simple, character-driven narrative about two friends walking home from school on a rainy day. It focuses on the little moments they share and the sights they encounter. The entire story is driven by the conversation between the children, depicting themes of love, kindness, and friendship for each other.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/witr_nr.jpeg" alt="wir narrative">
+</figure>
 
 
 ### Character Design
@@ -47,30 +52,18 @@ The story is centered around two main characters: Sophie and Ammu. They are best
 
 <br>
 
-### Visual Development and final illustrations
+## Visual Development and final illustrations
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir8.jpg" alt="wir8">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/witr_1.jpg" alt="wir8">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir9.jpg" alt="wir9">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/witr_2.jpg" alt="wir9">
 </figure>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir10.jpg" alt="wir10">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir11.jpg" alt="wir11">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir12.jpg" alt="wir12">
-</figure>
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir13.jpg" alt="wir13">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/witr_3.jpg" alt="wir10">
 </figure>
 
 <br>
@@ -117,7 +110,7 @@ The story is centered around two main characters: Sophie and Ammu. They are best
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/wir16.png" alt="wir16">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WhenItRains/witr_dev.jpg" alt="wir_development">
 </figure>
 
 <figure class="align-center" style="width:100%;">
