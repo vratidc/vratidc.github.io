@@ -165,4 +165,12 @@ Buta Kola from the Tulu Nadu region, popularized by the movie "Kantara," and man
   <span style="font-size: 1em; font-weight: thin; background: linear-gradient(90deg, #ff3c00ff, #ffa600ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">Runner-up India HCI 2023</span>
 </div>
 
-Presented at IndiaHCI 2023, this project received runner-up recognition in the Artworks track for its research-driven interactive narrative rooted in Konkan folklore.
+Presented at IndiaHCI 2023, this project received runner-up recognition in the Artworks track for its research-driven interactive narrative rooted in Konkan folklore. The finished product of this project is a digital game. It vividly depicts the Konkani folklore of Rakhandar from the
+viewpoint of Sarvesh, a fourteen-year-old city dweller who visits his maternal hometown. Numerous interactions
+with the villagers reveal the rich culture that surrounds Rakhandar. These interactions together create a story that the
+user discovers as it develops. The opposing perceptions of Rakhandar—his generous, forgiving side and his imposing
+persona—emerge across two unique game levels, night and day.
+
+## Publication 
+
+Jayesh Pillai and Shreyas Vernekar. 2023. An Unusual Guardian- Interactive Storytelling through Digital Game Design. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA.
