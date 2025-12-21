@@ -13,7 +13,7 @@ og_image: /assets/img/projects/belonging/og.jpg
 
 header:
     teaser: /assets/img/projects/belonging/tearser.jpg
-tags: VR Film Storytelling
+tags: VR VR-Film Storytelling
 
 banner_image1:
 banner_image1_caption:

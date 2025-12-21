@@ -15,7 +15,7 @@ header:
     image: /assets/img/projects/manholeproject/manhole2_header.gif
     teaser: /assets/img/projects/manholeproject/manhole2_teaser.png
 
-tags: VR Narrative Research
+tags: VR VR-Film Narrative Research
 
 banner_image1: 
 
