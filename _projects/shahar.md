@@ -35,7 +35,7 @@ permalink: projects/shahar
 <br>
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_shgif.gif" alt="शहAR_Testing">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_shgf.gif" alt="शहAR_Testing">
 </figure> 
 
 ## Overview
@@ -43,7 +43,7 @@ permalink: projects/shahar
 This academic project was conceptualised, designed, developed, and tested within a two-week timeframe. The project involved collaboration within a team of 5 and was part of a course that aimed to provide an introduction and exploration of the development and applications of Extended Reality (XR) and its various media. 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh3.png" alt="Testing and Sandbox">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh3.jpg" alt="Testing and Sandbox">
   <figcaption>Game testing and Sandbox</figcaption>
 </figure> 
 
