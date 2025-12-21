@@ -91,9 +91,12 @@ We used Unity as the development platform for our project.
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh15.png" alt="Structure">
 </figure>
 
+### Proximity-based marker interactions
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh2.gif" alt="The_App">
 </figure>
+
+When markers are brought into close proximity to each other, they trigger an inter-marker interaction that leads to the creation of new buildings.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/shahar/dis_sh8.gif" alt="Shahar_setup">
