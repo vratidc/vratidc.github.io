@@ -48,6 +48,11 @@ narrative, we focus on the audio and visual cues that would effectively guide th
   <span style="font-size: 1em; font-weight: thin; background: linear-gradient(90deg, #ff3c00ff, #ffa600ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">Best Artwork Award India HCI 2023</span>
 </div>
 <br>
+<div style="display: flex; align-items: center; justify-content: center; gap: 24px; margin-bottom: 16px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/belonging/Logo_Laval_Virtual.png" alt="HCI 2023" style="width:120px; height:auto;">
+  <span style="font-size: 1em; font-weight: extra-thin;transparent; background-clip: text; text-fill-color: transparent;">Showcased in Art Exhibition 2024</span>
+</div>
+<br>
 
 ArtsTrack Film : [Belonging | IndiaHCI | ArtsTrack](https://youtu.be/GQ5aEutfYxw?feature=shared){:target="_blank"} 
 <br>
