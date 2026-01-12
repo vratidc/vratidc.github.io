@@ -204,7 +204,7 @@ A detailed documentaion of our design process and techincal pipeline will be upd
   <p><small>
     <a href="https://www.linkedin.com/in/artarivu/" target="_blank"><b>Arivukkarasu Periyasamy</b></a> : MoCap Cleanup & Character Animation<br>
     <a href="https://www.linkedin.com/in/harshal-yadav-125a8a195/" target="_blank"><b>Harshal Yadav</b></a> : MoCap Cleanup & Character Animation<br>
-    <a href="https://www.linkedin.com/in/uttham-prakash-926024286/" target="_blank"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/uttham-prakash-a-926024286/" target="_blank"><b>Uttham Prakash</b></a> : Unreal Technical Artist<br>
     <a href="https://www.linkedin.com/in/zecharia-s-490853261/" target="_blank"><b>Zechariah Sari</b></a> : Unreal Technical Artist<br>
     <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
     <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
