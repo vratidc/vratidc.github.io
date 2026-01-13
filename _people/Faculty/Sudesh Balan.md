@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Sudesh Balan
-position: Associate Professor, IIT Bombay
+position: Professor, IIT Bombay
 role: "faculty"
 date: 21000108
 header:
@@ -31,6 +31,6 @@ links:
 ---
 
 ## Sudesh Balan
-Associate Professor, IIT Bombay
+Professor, IIT Bombay
 
 
