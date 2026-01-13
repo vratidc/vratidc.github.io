@@ -5,7 +5,7 @@ position: Research Intern, B.Des (Atlas SkillTech Uni)
 role: "student"
 date: 20261101
 header:
-    teaser: assets/img/placeholder_person.jpg
+    teaser: assets/img/imxd_people_jinesha.jpg
 permalink: /people/jinesha
 type: people
 modal : "no"

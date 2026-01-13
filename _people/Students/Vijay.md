@@ -5,7 +5,7 @@ position: Research Intern, B.Des (Anant National Uni)
 role: "student"
 date: 20261201
 header:
-    teaser: assets/img/people/imxd_people_vijay.png
+    teaser: assets/img/people/imxd_people_vijay.jpg
 permalink: /people/vijay
 type: people
 modal : "no"
