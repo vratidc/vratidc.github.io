@@ -5,7 +5,7 @@ position: Assistant Professor, IIT Bombay
 role: "faculty"
 date: 21000109
 header:
-    teaser: assets/img/people/imxd_people_unnimohan.png
+    teaser: assets/img/people/imxd_people_unnimohan.jpg
 permalink: /people/unni
 type: people
 fullpage: "no"
