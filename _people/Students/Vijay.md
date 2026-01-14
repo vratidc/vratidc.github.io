@@ -3,7 +3,7 @@ layout: single
 title: Vijay Anand S
 position: Research Intern, B.Des (Anant National Uni)
 role: "student"
-date: 20260112
+date: 20260113
 header:
     teaser: assets/img/people/imxd_people_vijay.jpg
 permalink: /people/vijay

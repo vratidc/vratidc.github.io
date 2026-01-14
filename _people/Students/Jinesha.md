@@ -3,7 +3,7 @@ layout: single
 title: Jinesha Samdadia
 position: Research Intern, B.Des (Atlas SkillTech Uni)
 role: "student"
-date: 20260113
+date: 20260112
 header:
     teaser: assets/img/people/imxd_people_jinesha.jpg
 permalink: /people/jinesha
