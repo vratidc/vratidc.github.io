@@ -3,7 +3,7 @@ layout: single
 title: Prathmesh Salve
 position: Research Intern, B.Tech (GHRCE, Nagpur)
 role: "student"
-date: 20261001
+date: 20251201
 header:
     teaser: assets/img/people/imxd_people_prathmesh.jpg
 permalink: /people/prathmesh
