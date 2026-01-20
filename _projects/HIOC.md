@@ -7,6 +7,8 @@ homepage: "False"
 fullpage: "no"
 active: "no"
 
+
+
 header:
     teaser: /assets/img/projects/HIOC/og.png
 tags: VR Research  
@@ -20,9 +22,11 @@ team_members_align: "text-left"
 permalink: projects/HIOC
 ---
 
+
+
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
-  /og.png" alt="Hybridization in Organic Chemistry_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC/banner.png"
+   alt="Hybridization in Organic Chemistry_banner">
 </figure>
 
 ## Background
@@ -35,8 +39,8 @@ Students often struggle to visualize these abstract 3D structures using traditio
 __Augmented Reality (AR)__ is a technology that overlays computer-generated digital content onto the real-world environment using mobile or wearable devices. AR has strong potential in education, especially for subjects that demand high spatial visualization ability, such as chemistry.
 <br>
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
-  /banner.jpeg" alt="Hybridization in Organic Chemistry_banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC/banner.jpeg" 
+  alt="Hybridization in Organic Chemistry_banner">
   <figcaption>QR Code, Markers and AR Overlay of 3D interactable Orbital models
   </figcaption>
 </figure>
@@ -73,7 +77,6 @@ After engaging with the AR activities, these misconceptions were significantly r
 
 - Improved conceptual clarity
 - High engagement due to 3D markers and continuous tracking
-
 - Positive learning impact from haptic feedback using magnets
 - Increased interest through interactive DIY-style activities
 
