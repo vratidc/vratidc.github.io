@@ -24,3 +24,5 @@ permalink: projects/HIOC
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
   /HIOC.png" alt="Hybridization in Organic Chemistry_banner">
 </figure>
+
+### Overview
