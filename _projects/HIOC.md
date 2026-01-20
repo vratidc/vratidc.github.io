@@ -1,6 +1,6 @@
 ---
 title:  "Hybridization in Organic Chemistry"
-excerpt: Exploring Augmented Reality Interactions to Understand the Concept of Orbital Hybridisation in Organic Chemistry
+excerpt: Learning Concepts of Hybridization through AR Environments
 layout: projects   
 selected: "False"
 homepage: "False"
@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/HIOC/hioc.jpeg
+    teaser: /assets/img/projects/HIOC/og.png
 tags: VR Research  
 
 banner_image1:
@@ -22,7 +22,7 @@ permalink: projects/HIOC
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
-  /banner.png" alt="Hybridization in Organic Chemistry_banner">
+  /og.png" alt="Hybridization in Organic Chemistry_banner">
 </figure>
 
 ## Background
@@ -34,6 +34,13 @@ Students often struggle to visualize these abstract 3D structures using traditio
 
 __Augmented Reality (AR)__ is a technology that overlays computer-generated digital content onto the real-world environment using mobile or wearable devices. AR has strong potential in education, especially for subjects that demand high spatial visualization ability, such as chemistry.
 <br>
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
+  /banner.jpeg" alt="Hybridization in Organic Chemistry_banner">
+  <figcaption>QR Code, Markers and AR Overlay of 3D interactable Orbital models
+  </figcaption>
+</figure>
+
 With the widespread availability of Android smartphones in India, AR presents an accessible and affordable learning medium. This project uses marker-based AR, where physical markers are tracked by a mobile camera to display interactive 3D orbital models in real space.
 
 ## Design Approach
