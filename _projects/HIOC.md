@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/HIOC/HIOC.png
+    teaser: /assets/img/projects/HIOC/hioc.jpeg
 tags: VR Research  
 
 banner_image1:
@@ -22,7 +22,7 @@ permalink: projects/HIOC
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/HIOC
-  /HIOC.png" alt="Hybridization in Organic Chemistry_banner">
+  /banner.png" alt="Hybridization in Organic Chemistry_banner">
 </figure>
 
 ## Background
