@@ -17,6 +17,8 @@ banner_image1_caption:
 team_members: "Anoushka Shome | Jayesh Pillai"
 team_members_align: "text-left"
 
+
+
 gallery1:
   - url: 
     image_path: /assets/img/projects/lonar/1.png
@@ -49,6 +51,10 @@ gallery3:
 
 permalink: projects/lonar
 ---
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/mbnr.png" alt="Lonar Crater">
+</figure> 
+
 ## Abstract
 
 Lonar Crater is one of the world’s few meteor impact craters formed in basalt rock, holding geological, ecological, and cultural significance. Despite its scientific importance and living heritage, it remains underrepresented in public understanding and engagement.
