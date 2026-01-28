@@ -48,7 +48,9 @@ Lonar Crater is one of the world’s few meteor impact craters formed in basalt 
 This project explores how XR technologies can translate complex, layered knowledge into accessible and immersive public experiences, particularly in a museum or experience-centre context.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/dis_shgf.gif" alt="शहAR_Testing">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/map.png" alt="Google Earth map of Lonar crater marked with the town, visitors centre, existing MTDC resort and upcoming Lonar Crater Experience centre, which will host the museum and the proposed installations. ">
+  <figcaption>Google Earth map of Lonar crater marked with the town, visitors centre, existing MTDC resort and upcoming Lonar Crater Experience centre, which will host the museum and the proposed installations. 
+  </figcaption>
 </figure> 
 
 ## Design Approach
