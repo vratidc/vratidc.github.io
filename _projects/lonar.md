@@ -7,11 +7,8 @@ homepage: "false"
 fullpage: "no"
 active: "no"
 
-
-og_image: /assets/img/projects/lonar/og.jpg
-
 header:
-    teaser: /assets/img/projects/lonar/banner.png
+    teaser: /assets/img/projects/lonar/mbnr.png
 tags: 
 
 banner_image1:
@@ -32,13 +29,23 @@ gallery1:
 
 gallery2:
   - url: 
-    image_path: /assets/img/projects/lonar/map1.png
+    image_path: /assets/img/projects/lonar/nav1.png
     alt: "Design of the handheld map"
     title: "Design of the handheld map"
   - url: 
-    image_path: /assets/img/projects/lonar/map2.gif
+    image_path: /assets/img/projects/lonar/nav2.png
     alt: "Handheld map being used"
-    title: "Handheld map being used"    
+    title: "Handheld map being used"   
+    
+gallery3:
+  - url: 
+    image_path: /assets/img/projects/lonar/banner.png
+    alt: "Design of the handheld map"
+    title: "Design of the handheld map"
+  - url: 
+    image_path: /assets/img/projects/lonar/vr4.png
+    alt: "Handheld map being used"
+    title: "Handheld map being used"      
 
 permalink: projects/lonar
 ---
@@ -85,6 +92,8 @@ The project follows a research-driven, iterative design process grounded in muse
   <figcaption>
   </figcaption>
 </figure> 
+{% include gallery id="gallery2" caption="" %}
+{% include gallery id="gallery3" caption="" %}
 
 
 
