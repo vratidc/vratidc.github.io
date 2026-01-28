@@ -49,7 +49,7 @@ gallery3:
     alt: "Handheld map being used"
     title: "Handheld map being used"      
 
-permalink: projects/lonar
+permalink: projects/lonarproject
 ---
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/mbnr.png" alt="Lonar Crater">
