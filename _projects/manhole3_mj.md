@@ -9,6 +9,8 @@ active: "no"
 manholeproject: "yes"
 date: 2024-01-02
 
+og_image: /assets/img/projects/manholeproject/manhole3_teaser_small.jpg
+
 header:
     image: /assets/img/projects/manholeproject/manhole3_header.jpg
     teaser: /assets/img/projects/manholeproject/manhole3_teaser.png
