@@ -8,7 +8,7 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/WITP/FCVpfH.png
+    teaser: /assets/img/projects/WITP/hero.png
 tags: Game  
 
 banner_image1:
@@ -18,88 +18,129 @@ team_members: " Lakshya Ranwan | Jayesh Pillai "
 team_members_align: "text-left"
 
 permalink: projects/WITP
-
-gallery1:
-  - aspect: "1/2"
-    url: /assets/img/projects/WITP/pr1.png
-    image_path: /assets/img/projects/WITP/pr1.png
-    alt: "Research"
-    title: "Research"
-    
-
-  - aspect: "1/2"
-    url: /assets/img/projects/WITP/pr2.png
-    image_path: /assets/img/projects/WITP/pr2.png
-    alt: "Research"
-    title: "Research"
-
 ---
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/hero.png" alt="Walking in the present">
+</figure> 
+
+## Introduction
+
+This project explores how digital games can invoke reflection about real-life behaviour, specifically mindfulness while walking. The aim is not behaviour change, but awareness. Reflection is treated as the first step in behaviour change, relying on awareness and memorability.
+
+The project focuses on walking as a mundane, everyday activity where lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
+
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/FCVpfH.png" alt="Walking in the present">
 </figure> 
 
-## Abstract
 
-This project explores how a digital game can gently prompt people to reflect on mindfulness in everyday life. It focuses on walking, a familiar daily activity that often happens on autopilot due to distractions like overthinking, mobile phones, and constant stimulation. Instead of trying to change behavior directly, the game is designed to create awareness, which is the first step toward reflection.
-<br>
-The experience uses a simple but unusual game mechanic where movement and observation cannot happen at the same time. Players must slow down, pause, and pay attention to their surroundings to progress. By exaggerating everyday distractions inside the game, the project creates memorable moments that encourage players to notice similar patterns in real life. Through this work, the project explores how game mechanics, pacing, and interaction design can be used as tools to spark reflection beyond the screen.
+## Overview
 
-## Design Approach
+The outcome is a **2.5D digital game** that portrays a day in the life of a student. The core mechanic deliberately prevents simultaneous movement and observation. Players must stop moving in order to fully see and notice their surroundings, mirroring real-life inattentiveness during walking.
 
-The project began with research into games and interactive systems that slow users down and encourage reflection. Concepts such as the **magic circle of games** and **attention theory** informed the design.
+Through this mechanic, the project **investigates how repetition, limited agency, and altered interaction norms can break the “magic circle”** of games and cause reflection outside the game.
 
-Multiple game ideas were explored through sketches and prototypes, followed by **three iterative pilots** with users. Each iteration increased fidelity, refining mechanics, visuals, sound, and pacing based on playtesting feedback.
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/mechanics.png" alt="Walking in the present">
+</figure> 
 
-The final outcome is a **2.5D narrative game** built around a single core mechanic: **movement and observation cannot happen simultaneously**.
+## Process
 
-## Research
+- Secondary research on attention, mindfulness, and reflective games
+- Analysis of games and technologies that encourage slowing down
+- User interviews and surveys focused on walking-related distractions
+- Ideation of multiple game concepts
+- Iterative pilots and playtesting
+- Final game development and evaluation
 
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/re.png" alt="Research on existing game mechanics">
-  <figcaption> Research on existing game mechanics
-  </figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/research.png" alt="Walking in the present">
 </figure> 
 
-### Primary Research
+## Research and Insights
 
-The primary research for this project involved understanding how people experience distraction and mindfulness during everyday walking. This was done through playtesting early versions of the game with participants and conducting follow-up interviews. Players were asked about their habits while walking, such as phone usage, listening to music, and overthinking. Observations during play sessions and reflections shared after gameplay helped identify which mechanics felt relatable, memorable, and reflective of real-life behavior.
+TKey research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact.
 
-### Secondary Research
+Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
-The secondary research focused on studying existing games, interactive systems, and design literature that explore slowing down, attention, and reflection. Prior work on mindfulness, attention theory, and games designed for reflection was reviewed to understand how mechanics, pacing, and interaction can influence awareness. This research informed the design decisions by highlighting how exaggerated or constrained interactions in games can prompt players to think about their real-world actions.
 
-## Characters
+## Concept Development
+
+Multiple early game ideas were explored, including audio-led navigation with blocked vision, observation-based platformer mechanics, and work-life balance simulations across different professions.
+
+The final direction focused on walking and mindfulness due to its universality, everyday nature, and strong potential for players to draw parallels between in-game actions and real-life behaviour.
+
+
+## Ideation and Pilots
+
+Three pilot versions were tested:
+
+- A Wizard-of-Oz prototype
+- A low-fidelity coded prototype
+- A higher-fidelity prototype with sound and animation
+
+Findings showed that increased visual fidelity, animation, and sound encouraged slower play, exploration, stronger recall, and greater reflection after gameplay.
+
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/char.png" alt="Charcter design">
-  <figcaption> Charcter Design
-  </figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/pilot.png" alt="Walking in the present">
 </figure> 
 
-The game uses simple and relatable characters to support reflection rather than storytelling. The main character is a student, chosen for the familiarity of everyday routines like commuting and walking. Other characters appear naturally in the environment to make the world feel lived-in. The minimal and abstract character design helps players project themselves onto the experience and focus on awareness and observation.
+## Final Design
+
+The final game is divided into two levels representing a single day in the life of a student.
+
+**Level 1:** Morning routine, market, bus journey, school
+
+**Level 2:** Return home, playtime, playground
+
+The environments are hand-drawn using 2D sprites arranged to create depth, with frame-by-frame animation to enhance immersion and encourage observation.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/finaldesigns.png" alt="Walking in the present">
+</figure> 
+
+### Core Mechanics and Features
+
+Three pilot versions were tested:
+
+- Movement and observation are sequential, not simultaneous
+- Vision narrows while walking or engaging with phone or music
+- Items are discovered only by stopping and waiting
+- Distractions include thoughts, social media, and music
+- No loss condition; reflection is reinforced through score-based feedback
+
+These mechanics exaggerate everyday distractions to make players aware of similar behaviour in real life.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/mechanics3.png" alt="Walking in the present">
+</figure> 
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/level1.png" alt="Walking in the present">
+</figure> 
+
+## Evaluation and Outcomes
+
+Thirteen users were evaluated using interviews and Likert-scale questionnaires. Most users became aware of their lack of mindfulness during walks. While behaviour change was limited, reflection and recall were consistently reported.
+
+Key takeaways:
+
+- Limiting player agency creates memorable frustration
+- Third-person perspective enables self-reflection
+- Repetitive mechanics strengthen recall beyond gameplay
 
 
-## Objective
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/testing.png" alt="Walking in the present">
+</figure> 
 
-To make players reflect on whether they are mindful while walking in real life, by translating everyday distractions such as overthinking, phone use, and music into **exaggerated, memorable in game mechanics**.
+## Future Opportunities
 
-## Evaluation & Findings
-
-The game was evaluated with **13 participants** using pre and post game interviews and a mindfulness questionnaire.
-
-### Key findings
-
-- Almost all players drew parallels between the game and their real walking habits  
-- The blackout and distraction mechanics were highly memorable  
-- Players became more aware of their lack of mindfulness during walks  
-- Actual behavior change was minimal, but awareness persisted for some time  
-
-The results suggest that games are effective at triggering reflection, even if they do not directly alter habits.
-
-## Conclusion
-
-The project demonstrates how subtle shifts in game mechanics can question everyday behaviors and carry meaning beyond the screen. By limiting player agency and exaggerating distractions, the game creates moments of self recognition and reflection.
-
-While behavior change was not the goal, the work shows strong potential for using games as **reflective tools**, and offers a transferable framework for designing experiences that make people pause, notice, and think differently about ordinary actions.
+- Applying similar mechanics to other everyday behaviours
+- Exploring first-person versus third-person reflection
+- Extending the framework to conversations, habits, and social interactions
+- Conducting larger-scale evaluations with more participants

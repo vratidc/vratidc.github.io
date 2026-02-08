@@ -25,6 +25,7 @@ permalink: projects/lattice-structure
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/LatticeStructure/LS_Banner.png" alt="How Lattice Structure works">
 </figure> 
+
 ## Abstract
 
 Inter-marker interactions in marker based Augmented Reality mobile applications are limited to movement and placement. In this paper we explore multiple inter-marker interactions in the tangible AR space along with their use cases. We developed prototypes that demonstrate primarily five inter-marker interactions; namely, proximity of two or more markers, placement of makers over each other, flipping of markers, marker as a toggle and marker as a controller. These interactions are designed such that they would correlate with multiple contexts of application. To demonstrate their usage we have chosen lattice structures in Chemistry as the context. Using our prototypes and the insights from initial evaluations, we discuss the benefits and drawbacks of such interaction methods. We further outline the opportunities of using these interactions and extending these concepts in several other contexts.
