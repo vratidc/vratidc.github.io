@@ -1,6 +1,6 @@
 ---
 title:  "Star Maze"
-excerpt: Asymmetric Multiplayer VR Maze Experience for Outreach
+excerpt: Asymmetric Multiplayer VR Maze Experience
 layout: projects   
 selected: "false"
 homepage: "false"
