@@ -11,7 +11,7 @@ date: 2026-02-08
 og_image: /assets/img/projects/StarMaze/sm1.png
 
 header:
-    teaser: /assets/img/projects/StarMaze/smlogo.jpeg
+    teaser: /assets/img/projects/StarMaze/smteaser.jpeg
 tags: VR Multiplayer Game Storytelling 
 
 banner_image1:
