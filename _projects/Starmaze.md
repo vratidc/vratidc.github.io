@@ -6,12 +6,11 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 2026-02-08
 
-og_image: /assets/img/projects/StarMaze/sm1.png
+og_image: /assets/img/projects/Starmaze/sm1.png
 
 header:
-  teaser: /assets/img/projects/StarMaze/smteaser.jpeg
+  teaser: /assets/img/projects/Starmaze/sm1.png
 tags: VR Multiplayer Game Storytelling 
 
 banner_image1:
@@ -26,58 +25,58 @@ permalink: projects/starmaze
 flexgallery1:
   - aspect: "1.33"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_vr1.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_vr1.jpg
     alt: "Star Maze VR gameplay"
     title: "VR gameplay"
   - aspect: "1.33"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_vr2.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_vr2.jpg
     alt: "Star Maze maze environment"
     title: "Maze environment"
   - aspect: "1.33"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_vr3.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_vr3.jpg
     alt: "Star Maze obstacles"
     title: "Obstacles and traps"
 
 flexgallery2:
   - aspect: "1.00"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_mobile1.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_mobile1.jpg
     alt: "Star Maze mobile interface"
     title: "Mobile control interface"
   - aspect: "1.00"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_mobile2.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_mobile2.jpg
     alt: "Star Maze maze control view"
     title: "Maze control view"
   - aspect: "1.00"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_mobile3.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_mobile3.jpg
     alt: "Star Maze player monitoring"
     title: "Player monitoring"
 
 flexgallery3:
   - aspect: "1.77"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_setup1.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_setup1.jpg
     alt: "Star Maze setup"
     title: "VR and mobile setup"
   - aspect: "1.77"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_setup2.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_setup2.jpg
     alt: "Two player setup"
     title: "Two player setup"
   - aspect: "1.77"
     url:
-    image_path: /assets/img/projects/StarMaze/starmaze_demo.jpg
+    image_path: /assets/img/projects/Starmaze/starmaze_demo.jpg
     alt: "Outreach demo"
     title: "Outreach demo"
 
 ---
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/StarMaze/starmaze_hero.jpg" alt="Star Maze gameplay view">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Starmaze/starmaze_hero.jpg" alt="Star Maze gameplay view">
 </figure> 
 
 ## Abstract
@@ -89,7 +88,7 @@ The narrative of a stranded space traveler trying to reach a star powered energy
 ## Recognitions
 
 <figure class="align-center" style="width:20%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/StarMaze/hci.png" alt="India HCI 2024 Logo">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Starmaze/hci.png" alt="India HCI 2024 Logo">
 </figure>
 
 **Best Project Award, INDIA HCI 2024 (Arts and Installation Track)**  
@@ -98,7 +97,7 @@ Star Maze won the Best Project Award at INDIA HCI 2024 in the Arts and Installat
 <br>
 
 <figure class="align-center" style="width:30%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/StarMaze/LV2025.png" alt="Laval Virtual 2025 Logo">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Starmaze/LV2025.png" alt="Laval Virtual 2025 Logo">
 </figure>
 
 **Student Demo Competition, Laval Virtual 2025, France**  
