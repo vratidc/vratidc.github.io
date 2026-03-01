@@ -1,0 +1,66 @@
+---
+layout: showcase2026pano
+---
+
+{{ content }}
+
+
+<div>
+    <h1 id="page-title" class="page__title" style="margin-bottom: 10px;">Design for XR - Project Showcase 2026</h1>
+    <p>Here presented are the outcomes from the courses DE712 - Immersive Media Design & DE324 - Digital Media Technologies (Spring Semester 2026).<br>
+        • Course Duration: 3 weeks<br>
+        • Project Developement: 2 weeks<br><br>
+    </p>
+
+    <h3>Browse Projects:</h3>
+
+    <div class="button-group filter-button-group">
+        <a class="filter-button filter-button-active" data-filter="*">All</a>
+        <a class="filter-button" data-filter=".VR">VR</a>
+        <a class="filter-button" data-filter=".AR">AR</a>
+        <a class="filter-button" data-filter=".VR-Film">VR Film</a>
+    </div>
+
+</div>
+
+<br>
+
+<div class="all-projects">
+    {% include documents-collection-projects-2026.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+
+<p>See course outcomes from the previous years:<br>
+    • <a href="{{ site.url }}{{ site.baseurl }}\de677-showcase-2025" target="_blank">Showcase Autumn 2025</a><br>   
+    • <a href="{{ site.url }}{{ site.baseurl }}\de712-showcase-2025" target="_blank">Showcase Spring 2025</a><br>  
+    • <a href="{{ site.url }}{{ site.baseurl }}\de677-showcase-2024" target="_blank">Showcase Autumn 2024</a><br>   
+    • <a href="{{ site.url }}{{ site.baseurl }}\de712-showcase-2024" target="_blank">Showcase Spring 2024</a><br>    
+    • <a href="{{ site.url }}{{ site.baseurl }}\de677-showcase-2023" target="_blank">Showcase Autumn 2023</a><br>
+    • <a href="{{ site.url }}{{ site.baseurl }}\de677-showcase-2022" target="_blank">Showcase Autumn 2022</a><br>
+    • <a href="{{ site.url }}{{ site.baseurl }}\de677-showcase-2021" target="_blank">Showcase Autumn 2021</a><br><br>
+</p>
+
+<script>
+    // init Isotope
+    var $grid = $('.all-projects').isotope({
+        itemSelector: '.course_project_grid__item',
+        percentPosition: true,
+
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        }
+
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+
+</script>
