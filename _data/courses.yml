@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Design for XR - Spring 2026"
+     date: "09/02/2026"
+     active: "yes"
+     content: "Course (09 Feb - 06 Mar 2026)"
+     link: /de712-course-2026
+     teaser: /assets/img/updates/icon_imd1.jpg
+     fullpage: "yes"
    - title: "Project Showcase 2025 - Design for VR"
      date: "29/08/2025"
      active: "yes"
