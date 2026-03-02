@@ -7,7 +7,7 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2026/SampleImage_2100x600.jpg
+    teaser: /assets/img/projects/2026/course_project_4.png
 
 overview: Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. Your project's short synopsis goes here. </br></br>
 
