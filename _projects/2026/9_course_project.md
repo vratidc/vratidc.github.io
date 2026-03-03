@@ -1,7 +1,7 @@
 ---
 title: "VR Film"
 team: "Prathmesh Somvanshi, Aditya Joshi"
-tags: VR Quest Unity
+tags: VR-Film Quest Mobile-VR
 
 video_provider: "youtube"
 video_id:
