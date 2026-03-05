@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Project Showcase 2026 - Design for XR"
+     date: "06/03/2026"
+     active: "yes"
+     content: "Outcomes of the course 'Design for XR' - Spring 2026"
+     link: /de712-showcase-2026
+     teaser: /assets/img/updates/icon_showcase_xr_2026.jpg
+     fullpage: "yes"
    - title: "Design for XR - Spring 2026"
      date: "09/02/2026"
      active: "yes"
