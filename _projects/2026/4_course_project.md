@@ -1,7 +1,7 @@
 ---
 title: "ME'OW"
 team: "Tanushree Pillai, Ajay Babu, Shrestha Sharma, Arpit Singh"
-tags: VR Quest Unity
+tags: VR Quest Unity Arm-Swinging-Movement
 
 video_provider: "youtube"
 video_id:

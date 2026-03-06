@@ -1,7 +1,7 @@
 ---
 title: "Khat-Phat"
 team: "Snesha Roy, Megh Bora, Prajwal Dhiman, Kanak Kothawale"
-tags: VR Quest Unity
+tags: VR Quest Unity Arm-Swinging-Movement
 
 video_provider: "youtube"
 video_id:

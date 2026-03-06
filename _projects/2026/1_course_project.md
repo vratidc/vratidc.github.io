@@ -1,7 +1,7 @@
 ---
 title: "Rat Rail"
 team: "Suvid Rangile, Puru Vats, Kushagra Singh, Sharath Lotti"
-tags: VR Quest Unity
+tags: VR Quest Unreal Arm-Swinging-Movement
 
 video_provider: "youtube"
 video_id:

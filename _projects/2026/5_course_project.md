@@ -1,7 +1,7 @@
 ---
 title: "Patchwork"
 team: "Rajenshu Raut, Upasana R., Yuvraj Chauhan, Manan Soni"
-tags: VR Quest Unity
+tags: VR Quest Unity Joystick-Locomotion
 
 video_provider: "youtube"
 video_id:

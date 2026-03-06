@@ -1,7 +1,7 @@
 ---
 title: "Fae Bound"
 team: "Shubhankar Jadhav, Harshal Kalwaghe, Soumya Ramteke, Nikunj Mour"
-tags: VR Quest Unity
+tags: VR Quest Unity Room-scale-Movement
 
 video_provider: "youtube"
 video_id:

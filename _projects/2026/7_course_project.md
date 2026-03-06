@@ -1,7 +1,7 @@
 ---
 title: "Chaar Diwaari"
 team: "Akshay R Nair, Avinash Bara, Srishti Rachna, Khadiza Khasamwala, Muhammed Fuaad"
-tags: VR Quest Unity
+tags: VR Quest Unity Room-scale-Movement
 
 video_provider: "youtube"
 video_id:

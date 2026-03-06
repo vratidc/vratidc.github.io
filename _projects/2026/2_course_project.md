@@ -1,7 +1,7 @@
 ---
 title: "Zoobie Doobie"
 team: "Rohit Waghmare, Swapnanil Das, Kanishk Kamal, Riddhi Ashokkumar"
-tags: VR Quest Unity
+tags: VR Quest Unity Rowing-Movement
 
 video_provider: "youtube"
 video_id:

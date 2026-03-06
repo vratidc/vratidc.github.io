@@ -1,7 +1,7 @@
 ---
 title: "De-mon-days"
 team: "Karthikay Agrawal, Kshitij Ghag, Manasi Bansode, Spandan Nath"
-tags: VR Quest Unity
+tags: VR Quest Unity Room-scale-Movement
 
 video_provider: "youtube"
 video_id:
