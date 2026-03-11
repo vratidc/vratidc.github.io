@@ -17,7 +17,7 @@ links:
       url:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url:
+      url: "https://www.abhishekbenny.page/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/abhibny/"

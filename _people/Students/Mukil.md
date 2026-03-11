@@ -20,7 +20,7 @@ links:
       url: "https://github.com/bukil"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/automotivedesigner/"
+      url: "https://www.linkedin.com/in/mukilk/"
       
 ---
 

@@ -17,7 +17,7 @@ links:
       url:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url:
+      url: "https://vijayanands.framer.website/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vijay-anand-s-1024932a4/"
