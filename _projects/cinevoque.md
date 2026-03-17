@@ -6,7 +6,8 @@ selected: "true"
 homepage: "true"
 fullpage: "yes"
 active: "yes"
-date: 20190103
+date: 2019-01-03
+
 header:
     teaser: /assets/img/projects/Cinevoque/cinevoque_thumbnail.jpg
 tags: VR-Film Storytelling Research

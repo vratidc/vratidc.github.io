@@ -5,9 +5,9 @@ layout: manholeprojectspage
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 manholeproject: "yes"
-date: 2025-10-02
+date: 2021-12-02
 
 og_image: /assets/img/projects/manholeproject/manhole1_teaser_small.jpg
 
@@ -15,7 +15,7 @@ header:
     image: /assets/img/projects/manholeproject/manhole1_header.jpg
     teaser: /assets/img/projects/manholeproject/manhole1_teaser.png
 
-tags: Film RealTime-Animation
+tags: Film RealTime-Animation Short-Film
 
 banner_image1:
 

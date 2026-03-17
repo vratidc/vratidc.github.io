@@ -6,8 +6,7 @@ selected: "False"
 homepage: "False"
 fullpage: "no"
 active: "no"
-
-
+date: 2026-07-01
 
 header:
     teaser: /assets/img/projects/HIOC/og.png
@@ -19,7 +18,8 @@ banner_image1_caption:
 team_members: " Laksh Rajpal | Guided by Prof. Jayesh Pillai "
 team_members_align: "text-left"
 
-permalink: projects/blind
+permalink: projects/blindjustice
+
 ---
 
 

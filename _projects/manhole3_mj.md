@@ -51,5 +51,5 @@ abhishek.verma@iitb.ac.in</a> <br>
 30005548@iitb.ac.in</a>
 
 
-We are looking forward to working together on this meaningful exploration.
+We look forward to working together on this project.
 

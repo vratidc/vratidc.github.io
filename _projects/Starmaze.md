@@ -6,12 +6,13 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 2025-04-01
 
 og_image: /assets/img/projects/Starmaze/sm1.png
 
 header:
   teaser: /assets/img/projects/Starmaze/sm1.png
-tags: VR Multiplayer Game Storytelling 
+tags: VR Multiplayer Game 
 
 banner_image1:
 banner_image1_caption:

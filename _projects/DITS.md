@@ -6,7 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 20231005
+date: 2023-10-05
 
 header:
     teaser: /assets/img/projects/dits/dits_thumbnail.jpg
