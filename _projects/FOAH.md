@@ -49,7 +49,7 @@ _A VR journey through memories of a lost world_
 ## The Project
 "Fragments of a Home" is an immersive VR narrative set in a submerged future Earth, where personal memory and planetary collapse intersect.
 
-Blending environmental storytelling with interactive memory fragments, the experience places the viewer inside the perspective of a lone researcher navigating her memories. Through spatial exploration and tactile interactions, the story unfolds not just as something to watch, but something to uncover.
+Blending environmental storytelling with interactive memory fragments, the experience places the viewer inside the perspective of a lone researcher navigating her memories. Through spatial exploration and tactile interaction, it invites us not just to witness the story, but to actively uncover it, and gradually piece it together.
 
 <br>
 
