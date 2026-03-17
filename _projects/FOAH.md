@@ -69,14 +69,24 @@ Blending environmental storytelling with interactive memory fragments, the exper
 <hr style="height:2px;border-width:0;background-color:#99ccbb">
 <br>
 
+## Current Team
+
+- Jayesh Pillai : Writer & Director
+- Abhishek Verma : VR Researcher
+- Shiva Teja Banda: Techincal Director
+- Yukta Bhoir : Art Director
+- Vijay Anand: Research Intern - Unreal Developer & Interaction Designer
+- Jinesha Samdadia: Research Intern - 3D Artist & Pre-production Designer
+
+<br>
+
 ## Collaborators
 
-  {% include gallery id="gallery1" %}
-
-<figcaption style="text-align: left; margin-top: 0px;">The production of this VR narrative is currently being carried out at IMXD Lab through voluntary contributions from interested participants.</figcaption>
+{% include gallery id="gallery1" %}
+<figcaption style="text-align: left; margin-top: 0px;">The production of this VR narrative is currently being carried out at IMXD Lab through voluntary contributors.</figcaption>
 
 We seek to collaborate with students, storytellers, designers, XR developers, creative technologists and immersive media artists who are interested in contributing to this project. If this sparks your interest, please drop us an email: <a href="mailto:hello@imxd.in" target="_blank">
 hello@imxd.in</a>
 
 We look forward to working together on this project.
-
+<br>
