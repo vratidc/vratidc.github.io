@@ -6,26 +6,24 @@ selected: "False"
 homepage: "False"
 fullpage: "no"
 active: "no"
-date: 2026-07-01
+
+og_image: /assets/img/projects/blind/og.png
 
 header:
-    teaser: /assets/img/projects/HIOC/og.png
+    teaser: /assets/img/projects/blind/og.png
 tags: VR Research  
 
 banner_image1:
 banner_image1_caption:
 
-team_members: " Laksh Rajpal | Guided by Prof. Jayesh Pillai "
+team_members: "Laksh Rajpal | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/blindjustice
-
 ---
 
-
-
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/og.png"
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/header.png"
    alt="Hybridization in Organic Chemistry_banner">
 </figure>
 
@@ -158,12 +156,6 @@ Due to performance constraints, only the core structural elements were imported 
 ## Conclusion
 
 Blind Justice demonstrates how voice can function as a meaningful, embodied interaction medium in VR. By grounding vocal interaction within a narrative of trust, vulnerability, and moral tension, the project moves beyond command-based systems toward emotionally resonant design. The work highlights the potential of sound-first interaction in immersive environments and opens avenues for future exploration in accessibility-driven and narrative-centric XR experiences.
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/qr.png" alt="QR for prototype" style="width:140px; max-width:25%; height:auto; display:block; margin:0 auto;">
-  <figcaption> Working Prototype Video
-  </figcaption>
-</figure>
 
 
 
