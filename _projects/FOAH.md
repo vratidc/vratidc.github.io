@@ -73,10 +73,10 @@ Blending environmental storytelling with interactive memory fragments, the exper
 
 - Jayesh Pillai : Writer & Director
 - Abhishek Verma : VR Researcher
-- Shiva Teja Banda: Techincal Director
+- Shiva Teja Banda : Techincal Director
 - Yukta Bhoir : Art Director
-- Vijay Anand: Research Intern - Unreal Developer & Interaction Designer
-- Jinesha Samdadia: Research Intern - 3D Artist & Pre-production Designer
+- Vijay Anand : Research Intern - Unreal Developer & Interaction Designer
+- Jinesha Samdadia : Research Intern - 3D Artist & Pre-production Designer
 
 <br>
 
