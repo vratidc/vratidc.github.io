@@ -69,16 +69,79 @@ Blending environmental storytelling with interactive memory fragments, the exper
 <hr style="height:2px;border-width:0;background-color:#99ccbb">
 <br>
 
-## Current Team
+## Core Team
 
-- Jayesh Pillai : Writer & Director
-- Abhishek Verma : VR Researcher
-- Shiva Teja Banda : Techincal Director
-- Yukta Bhoir : Art Director
-- Vijay Anand : Research Intern - Unreal Developer & Interaction Designer
-- Jinesha Samdadia : Research Intern - 3D Artist & Pre-production Designer
+<div class="people" style="display:grid">
 
-<br>
+  <div class="entries-grid">
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_jayesh.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_abhishek.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Researcher</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_shiva.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_yukta.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Yukta Bhoir</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Art Director</p>
+  </article>
+  </div>
+  
+  </div>
+
+</div>
+
+## Researchers
+
+<div class="people" style="display:grid">
+
+  <div class="entries-grid">
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_vijay.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Vijay Anand</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Unreal Developer & Interaction Designer</p>
+  </article>
+  </div>
+
+  <div class="people_grid__item_4">
+  <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
+  <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_jinesha.jpg); background-size: cover;background-position: center;">
+  </div>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jinesha Samdadia</h2>
+  <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">3D Artist & Pre-production Designer</p>
+  </article>
+  </div>
+  
+  </div>
+
+</div>
 
 ## Collaborators
 
