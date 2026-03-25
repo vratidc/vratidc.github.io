@@ -19,7 +19,7 @@ tags: VR VR-Film Narrative Research
 
 banner_image1: 
 
-team_members: "Jayesh Pillai | Abhishek Verma | Banda Shiva Teja | Ananda Bathena"
+team_members: "Jayesh Pillai | Abhishek Verma | Shiva Teja Banda | Ananda Bathena"
 team_members_align: "text-left"
 
 permalink: projects/into-the-manhole
@@ -57,7 +57,10 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 - <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>, India. 
 - <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the Jury Award <a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Grand Prix Réalité Virtuelle at Courant3D 2025</a> , France
 - Official Selection at Courant3D 2025, France
-- Official Selection at Miami Art-Tech Summit 2025, Florida, USA
+- Official Invitation at First Films Fest 2026, India
+- Official Selection at Laval Virtual Experiences 2026, France
+- Official Selection at Laval Virtual Awards 2026, France
+- Official Invitation at Busan International Short Film Festival 2026, South Korea
 
 
 <br>
@@ -168,7 +171,7 @@ A detailed documentaion of our design process and techincal pipeline will be upd
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_shiva.png); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Shiva Teja Banda</h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
   </article>
   </div>

@@ -97,7 +97,7 @@ Blending environmental storytelling with interactive memory fragments, the exper
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_shiva.jpg); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Shiva Teja Banda</h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
   </article>
   </div>
