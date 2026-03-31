@@ -26,21 +26,13 @@ permalink: projects/WITP
 
 ## Introduction
 
-This project explores how digital games can invoke reflection about real-life behaviour, specifically mindfulness while walking. The aim is not behaviour change, but awareness. Reflection is treated as the first step in behaviour change, relying on awareness and memorability.
+This 2.5D digital game explores how digital play can invoke reflection on real-life mindfulness while walking. Rather than aiming for immediate behaviour change, the project focuses on awareness and memorability. The project focuses on walking as a mundane, everyday activity where lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
 
-The project focuses on walking as a mundane, everyday activity where lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
-
+The core mechanic mirrors real-life inattentiveness by preventing simultaneous movement and observation; players must stop moving to fully see their surroundings. Through this mechanic, the project **investigates how repetition, limited agency, and altered interaction norms can break the “magic circle”** of games and cause reflection outside the game.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/FCVpfH.png" alt="Walking in the present">
 </figure> 
-
-
-## Overview
-
-The outcome is a **2.5D digital game** that portrays a day in the life of a student. The core mechanic deliberately prevents simultaneous movement and observation. Players must stop moving in order to fully see and notice their surroundings, mirroring real-life inattentiveness during walking.
-
-Through this mechanic, the project **investigates how repetition, limited agency, and altered interaction norms can break the “magic circle”** of games and cause reflection outside the game.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/mechanics.png" alt="Walking in the present">
@@ -62,7 +54,7 @@ Through this mechanic, the project **investigates how repetition, limited agency
 
 ## Research and Insights
 
-TKey research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact.
+ Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact.
 
 Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
@@ -123,7 +115,7 @@ These mechanics exaggerate everyday distractions to make players aware of simila
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/level1.png" alt="Walking in the present">
 </figure> 
 
-## Evaluation and Outcomes
+## Outcome
 
 Thirteen users were evaluated using interviews and Likert-scale questionnaires. Most users became aware of their lack of mindfulness during walks. While behaviour change was limited, reflection and recall were consistently reported.
 
@@ -133,14 +125,6 @@ Key takeaways:
 - Third-person perspective enables self-reflection
 - Repetitive mechanics strengthen recall beyond gameplay
 
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/testing.png" alt="Walking in the present">
 </figure> 
-
-## Future Opportunities
-
-- Applying similar mechanics to other everyday behaviours
-- Exploring first-person versus third-person reflection
-- Extending the framework to conversations, habits, and social interactions
-- Conducting larger-scale evaluations with more participants
