@@ -29,7 +29,7 @@ permalink: projects/HIOC
    alt="Hybridization in Organic Chemistry_banner">
 </figure>
 
-## Background
+## Project Overview
 
 In organic chemistry, orbitals are three-dimensional regions around the nucleus where electrons are most likely to be found. The primary atomic orbitals: s, p, d, and f; combine through a process known as hybridisation, forming new hybrid orbitals with distinct shapes, orientations, and energy levels.
 Students often struggle to visualize these abstract 3D structures using traditional teaching methods such as textbook diagrams or chalkboard drawings. This difficulty leads to persistent misconceptions related to orbital orientation, phase, nodes, and spatial arrangement, which are critical to understanding molecular geometry and bonding.
