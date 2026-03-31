@@ -82,7 +82,7 @@ flexgallery3:
 
 ## Project Overview
 
-Star Maze is an asymmetric two player multiplayer VR experience created for outreach and public engagement. The project demonstrates how different interfaces can be combined in a single interactive system to create engaging and understandable experiences. One player navigates a maze in immersive VR using natural body movement, while the second player uses a mobile device to control and manipulate the maze environment in real time. The experience introduces audiences to concepts such as shared virtual spaces, real time interaction, and cross device collaboration in a simple and approachable way.
+Star Maze is an asymmetric two-player multiplayer VR experience created for outreach and public engagement. The project demonstrates how different interfaces can be combined in a single interactive system to create engaging and understandable experiences. One player navigates a maze in immersive VR using natural body movement, while the second player uses a mobile device to control and manipulate the maze environment in real time. The experience introduces audiences to concepts such as shared virtual spaces, real-time interaction, and cross-device collaboration in a simple and approachable way.
 
 ## Recognitions
 
@@ -112,9 +112,7 @@ The game loop is designed as a short, intense encounter lasting only a few minut
 
 ## Design Approach
 
-The design approach was guided by outreach constraints and first time user experience.
-
-The experience needed to be easy to explain in less than one minute, simple to operate without prior training, and robust enough to run repeatedly in public settings. Narrative framing was kept minimal and functional, providing context without requiring long explanations. The control scheme for the traveler uses walking in place and head direction to avoid complex controller mappings. The overseer interface was designed as a simple top down view with clear buttons for shifting walls and placing traps.
+The design approach was guided by outreach constraints and first-time user experience. The experience needed to be easy to explain in less than one minute, simple to operate without prior training, and robust enough to run repeatedly in public settings. Narrative framing was kept minimal and functional, providing context without requiring long explanations. 
 
 Playtesting with users unfamiliar with VR was used to refine onboarding, reduce confusion, and adjust pacing. Particular attention was paid to reducing motion discomfort, ensuring that movement felt intuitive and did not cause disorientation.
 
@@ -123,7 +121,9 @@ Playtesting with users unfamiliar with VR was used to refine onboarding, reduce 
 The project followed an iterative development lifecycle:
 
 **Initial Stage**: Brainstorming narrative frames and testing "walking in place" detection through early digital prototypes.
-**Mid-Stage**: Balancing gameplay by limiting the Traveler’s "wall-breaking" and "teleportation" abilities to ensure the Overseer role remained impactful.
+
+**Mid-Stage**: Balancing gameplay by limiting the Traveller’s "wall-breaking" and "teleportation" abilities to ensure the Overseer role remained impactful.
+
 **Final Stage**: Streamlining the setup for facilitators to run multiple sessions with minimal overhead and handling error states for public deployment.
 
 ## Gameplay and Roles
