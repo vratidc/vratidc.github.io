@@ -32,7 +32,7 @@ permalink: projects/blindjustice
 Voice is one of the most natural and expressive human abilities, yet in most digital systems, it is reduced to rigid, efficiency-driven commands. In immersive media like Virtual Reality, interaction remains largely visual, overlooking the emotional and spatial potential of sound.
 <br>
 
-Blind Justice is a VR game that explores voice as a primary interaction modality, not just as input, but as a narrative and spatial force. The player acts as an unseen guide for Raju, a blind man attempting to recover stolen money from Shyamlal, a fraudulent beggar. Through spoken cues, loudness, and vocal intent, voice guides characters, shapes environments, and creates tension. Rather than prioritising recognition accuracy, the project focuses on atmospheric and relational uses of sound to drive experience and story.
+Blind Justice is a VR game that explores voice as a primary interaction modality, not just as input, but as a narrative and spatial force. The player acts as an unseen guide for Raju, a blind man attempting to recover stolen money from Shyamlal, a fraudulent beggar. Through spoken cues, loudness, and intent, voice guides characters and creates tension. Rather than prioritising recognition accuracy, the project focuses on atmospheric and relational uses of sound to drive experience and story.
 
 ## Understanding the Problem Space
 
