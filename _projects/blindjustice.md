@@ -109,16 +109,6 @@ Gameplay footage is available via a linked video in the original report.
   </figcaption>
 </figure>
 
-## Technical Challenges
-
-Major challenges included:
-
-- Reliable detection of short voice commands
-- Simultaneous processing of voice commands and volume input
-- Natural character navigation within a complex space
-
-These were addressed through custom audio pipelines, AI-based navigation systems, and iterative refinement of interaction feedback.
-
 ## Outcome
 
 Blind Justice demonstrates how voice can function as a meaningful, embodied interaction medium in VR. By grounding vocal interaction within a narrative of trust, vulnerability, and moral tension, the project moves beyond command-based systems toward emotionally resonant design. The work highlights the potential of sound-first interaction in immersive environments and opens avenues for future exploration in accessibility-driven and narrative-centric XR experiences.
