@@ -24,20 +24,14 @@ permalink: projects/blindjustice
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/header.png"
-   alt="Hybridization in Organic Chemistry_banner">
+   alt="Blind Justice_banner">
 </figure>
 
-## Abstract
+## Project Overview
 
 Voice is one of the most natural and expressive human abilities, yet in most digital systems, it is reduced to rigid, efficiency-driven commands. In immersive media like Virtual Reality, interaction remains largely visual, overlooking the emotional and spatial potential of sound.
 <br>
-Blind Justice explores voice as a primary interaction modality, not just as input, but as a narrative and spatial force. Through spoken cues, loudness, and vocal intent, voice guides characters, shapes environments, and creates tension. Rather than prioritising recognition accuracy, the project focuses on atmospheric and relational uses of sound to drive experience and story.
-
-
-## Background
-
-Most existing voice-based systems prioritise command execution, pitch detection, or transcription accuracy. While technically efficient, these systems rarely engage with the emotional, cultural, and behavioural dimensions of voice. Historically, however, voice has been central to play and interaction, ranging from early mechanical toys responding to resonance to voice-controlled games, karaoke, and culturally embedded sound-play traditions. These precedents reveal that voice is inherently social, embodied, and expressive. Despite this, VR and AR experiences still rely predominantly on vision, leaving the spatial possibilities of voice underexplored. Blind Justice seeks to bridge this gap by placing voice at the 
-centre of navigation, decision-making, and narrative tension.
+Blind Justice is a VR game that explores voice as a primary interaction modality, not just as input, but as a narrative and spatial force. Through spoken cues, loudness, and vocal intent, voice guides characters, shapes environments, and creates tension. Rather than prioritising recognition accuracy, the project focuses on atmospheric and relational uses of sound to drive experience and story.
 
 ## Motivation
 
@@ -87,12 +81,6 @@ Given practical constraints, the project focused on two voice mechanics:
 <br>
 Pitch-based and conversational systems were excluded due to technical complexity and accessibility concerns. This scoping ensured that the experience remained feasible while still exploring meaningful vocal interaction.
 
-## Narrative Direction
-
-Multiple narrative concepts were explored, but one stood out for its emotional and experiential depth: guiding a blind character using voice.
-<br>
-This direction naturally justified sound as the primary interaction channel. It framed the player not as a controller, but as a companion and guide, creating a relationship built on trust, responsibility, and empathy.
-
 ## The Story: Blind Justice
 
 The narrative revolves around two characters:
@@ -114,7 +102,7 @@ This creates a dynamic loop where the player must coordinate guidance and misdir
 ### Spatial Distraction System
 Shyamlal’s attention can be redirected using volume-based sounds placed strategically within the house. Loud noises near objects such as a TV or doorway cause him to investigate that area, opening safe paths for Raju. Sound becomes a spatial strategy, not just an input.
 
-### Stealing, Timer , and Progression 
+### Stealing, Timer, and Progression 
 
 Collectible money bundles are scattered throughout the house. Stealing requires proximity and a vocal command, increasing risk and tension. A countdown timer creates urgency, while scoring rewards for calculated risk-taking. As time runs out, Shyamlal becomes more aggressive, triggering the endgame phase.
 
@@ -145,7 +133,7 @@ These were addressed through custom audio pipelines, AI-based navigation systems
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/env.png" 
   alt="3D environment">
-  <figcaption>High Fidelity Envronment 
+  <figcaption>High Fidelity Environment 
   </figcaption>
 </figure>
 
@@ -153,7 +141,7 @@ A high-fidelity environment was later developed in Blender to explore atmosphere
 <br>
 Due to performance constraints, only the core structural elements were imported into Unity, prioritising interaction over visual complexity.
 
-## Conclusion
+## Outcome
 
 Blind Justice demonstrates how voice can function as a meaningful, embodied interaction medium in VR. By grounding vocal interaction within a narrative of trust, vulnerability, and moral tension, the project moves beyond command-based systems toward emotionally resonant design. The work highlights the potential of sound-first interaction in immersive environments and opens avenues for future exploration in accessibility-driven and narrative-centric XR experiences.
 
