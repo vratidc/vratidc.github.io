@@ -120,13 +120,11 @@ Playtesting with users unfamiliar with VR was used to refine onboarding, reduce 
 
 ## Process
 
-The project followed an iterative design and development process.
+The project followed an iterative development lifecycle:
 
-Initial stages involved brainstorming narrative frames and role based mechanics, followed by paper sketches of maze layouts and role interactions. Early digital prototypes focused on testing locomotion methods in VR and verifying that walking in place could be reliably detected. Parallel prototyping of the mobile interface explored different ways to represent the maze and control walls.
-
-Mid stage iterations focused on balancing gameplay. Limits were added to wall breaking and teleportation abilities to prevent the traveler from overpowering the overseer role. Trap placement and notification mechanics were tuned to create tension without making the game feel unfair. Repeated playtests informed adjustments to time limits, maze size, and interaction feedback.
-
-Final stages focused on stability, onboarding flow, and preparing the system for outreach deployment. Instructions were simplified, error states were handled more gracefully, and the setup process was streamlined so that facilitators could run multiple sessions in sequence with minimal overhead.
+**Initial Stage**: Brainstorming narrative frames and testing "walking in place" detection through early digital prototypes.
+**Mid-Stage**: Balancing gameplay by limiting the Traveler’s "wall-breaking" and "teleportation" abilities to ensure the Overseer role remained impactful.
+**Final Stage**: Streamlining the setup for facilitators to run multiple sessions with minimal overhead and handling error states for public deployment.
 
 ## Gameplay and Roles
 
