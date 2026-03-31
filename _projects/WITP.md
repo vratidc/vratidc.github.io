@@ -64,7 +64,6 @@ Three pilot versions were tested:
 
 Findings showed that increased visual fidelity, animation, and sound encouraged slower play, exploration, stronger recall, and greater reflection after gameplay.
 
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/pilot.png" alt="Walking in the present">
 </figure> 
@@ -74,7 +73,6 @@ Findings showed that increased visual fidelity, animation, and sound encouraged 
 The final game is divided into two levels representing a single day in the life of a student.
 
 **Level 1:** Morning routine, market, bus journey, school
-
 **Level 2:** Return home, playtime, playground
 
 The environments are hand-drawn using 2D sprites arranged to create depth, with frame-by-frame animation to enhance immersion and encourage observation.
@@ -105,14 +103,4 @@ These mechanics exaggerate everyday distractions to make players aware of simila
 
 ## Outcome
 
-Thirteen users were evaluated using interviews and Likert-scale questionnaires. Most users became aware of their lack of mindfulness during walks. While behaviour change was limited, reflection and recall were consistently reported.
-
-Key takeaways:
-
-- Limiting player agency creates memorable frustration
-- Third-person perspective enables self-reflection
-- Repetitive mechanics strengthen recall beyond gameplay
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/testing.png" alt="Walking in the present">
-</figure> 
+Evaluation of thirteen users confirmed that while behaviour change was limited, the game effectively triggered self-reflection and heightened awareness of real-world mindfulness. Key findings showed that limiting player agency and using repetitive, third-person mechanics created a memorable frustration that strengthened recall beyond gameplay.
