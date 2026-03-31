@@ -110,9 +110,7 @@ The game loop is designed as a short, intense encounter lasting only a few minut
 
 ## Design Approach
 
-The design approach was guided by outreach constraints and first-time user experience. The experience needed to be easy to explain in less than one minute, simple to operate without prior training, and robust enough to run repeatedly in public settings. Narrative framing was kept minimal and functional, providing context without requiring long explanations. 
-
-Playtesting with users unfamiliar with VR was used to refine onboarding, reduce confusion, and adjust pacing. Particular attention was paid to reducing motion discomfort, ensuring that movement felt intuitive and did not cause disorientation.
+The design approach was guided by outreach constraints and first-time user experience. The experience needed to be easy to explain in less than one minute, simple to operate without prior training, and robust enough to run repeatedly in public settings. Narrative framing was kept minimal and functional, providing context without requiring long explanations. Playtesting with users unfamiliar with VR was used to refine onboarding, reduce confusion, and adjust pacing.
 
 ## Process
 
@@ -126,11 +124,11 @@ The project followed an iterative development lifecycle:
 
 ## Gameplay and Roles
 
-**Player 1: The Traveler (VR Headset)**  
-The traveler starts at the entry point of the maze. Locomotion is controlled by walking in place, with head direction determining movement direction. The player must navigate corridors, identify viable paths, and manage limited abilities. Walls can be broken by continuous punching for two to three seconds, up to three times per session. A limited teleport ability allows relocation to predefined safe points through a double clap gesture. These mechanics introduce strategic choices about when to take risks and when to conserve abilities.
+**Player 1: The Traveller (VR Headset)**  
+The traveller starts at the entry point of the maze. Locomotion is controlled by walking in place, with head direction determining movement direction. The player must navigate corridors, identify viable paths, and manage limited abilities. Walls can be broken by continuous punching for two to three seconds, up to three times per session. A limited teleport ability allows relocation to predefined safe points through a double clap gesture. These mechanics introduce strategic choices about when to take risks and when to conserve abilities.
 
 **Player 2: The Overseer (Mobile Device)**  
-The overseer views the maze from a top down perspective. Using the mobile interface, this player can shift selected walls, place traps, and observe the traveler’s movement in real time. The overseer must predict the traveler’s path and decide where to intervene to delay progress. Traps and environmental changes notify the overseer when the traveler is affected, creating feedback loops that support strategic planning.
+The overseer views the maze from a top-down perspective. Using the mobile interface, this player can shift selected walls, place traps, and observe the traveller’s movement in real time. The overseer must predict the traveller’s path and decide where to intervene to delay progress. Traps and environmental changes notify the overseer when the traveller is affected, creating feedback loops that support strategic planning.
 
 {% include flexgallery id="flexgallery1" caption="VR gameplay from the Traveler’s perspective" %}
 
