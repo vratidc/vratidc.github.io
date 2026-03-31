@@ -91,7 +91,7 @@ Star Maze is an asymmetric two player multiplayer VR experience created for outr
 </figure>
 
 **Best Project Award, INDIA HCI 2024 (Arts and Installation Track)**  
-Star Maze won the Best Project Award at INDIA HCI 2024 in the Arts and Installation track. The project was recognised for its use of immersive VR, asymmetric multiplayer interaction, and its effectiveness as an outreach focused interactive installation.
+Star Maze won the Best Project Award at INDIA HCI 2024 in the Arts and Installation track.
 
 <br>
 
@@ -100,7 +100,7 @@ Star Maze won the Best Project Award at INDIA HCI 2024 in the Arts and Installat
 </figure>
 
 **Student Demo Competition, Laval Virtual 2025, France**  
-Star Maze was presented at Laval Virtual 2025, an international XR event held in April 2025, as part of the Student Demo Competition. The project was selected for demonstration alongside other student XR works and showcased to an international audience of researchers, industry professionals, and the general public.
+Star Maze was presented at Laval Virtual 2025, an international XR event held in April 2025, as part of the Student Demo Competition.
 
 <br>
 
