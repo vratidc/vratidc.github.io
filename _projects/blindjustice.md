@@ -36,7 +36,6 @@ Blind Justice is a VR game that explores voice as a primary interaction modality
 ## Motivation
 
 The project is motivated by a belief that voice can reduce interaction barriers while increasing emotional engagement. Unlike controllers or gestures, voice allows users to respond instinctively, without learning complex interfaces. Personal observations of sound-based toys, games, and social play revealed how vocal expression changes depending on comfort, context, and system response. These insights shaped the desire to design a VR experience where speaking feels meaningful, justified, and emotionally grounded, rather than awkward or mechanical. The project also responds to a broader need for empathetic interaction design, where users feel connected to characters and consequences, not just mechanics. 
-
 <br>
 
 ## Understanding the Problem Space
