@@ -68,6 +68,7 @@ Findings showed that increased visual fidelity, animation, and sound encouraged 
 The final game is divided into two levels representing a single day in the life of a student.
 
 **Level 1:** Morning routine, market, bus journey, school
+
 **Level 2:** Return home, playtime, playground
 
 The environments are hand-drawn using 2D sprites arranged to create depth, with frame-by-frame animation to enhance immersion and encourage observation.
