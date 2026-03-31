@@ -106,8 +106,6 @@ Star Maze was presented at Laval Virtual 2025, an international XR event held in
 
 <br>
 
-**Academic Context**  
-Star Maze was conceptualised, designed, developed, and tested as part of the two week course **Design for Virtual Reality** during the Autumn 2024 semester. The project was created under the guidance of **Prof. Jayesh Pillai** and developed within a short prototyping timeframe, focusing on rapid ideation, interaction design, and real time multiplayer VR systems.
 ## Concept
 
 The central concept of Star Maze is built around asymmetric power and perspective. The traveler is physically present inside the maze and experiences tension, urgency, and spatial uncertainty. The overseer, in contrast, has an overview of the entire maze and controls the environment from a distance. This contrast creates a dynamic relationship between embodiment and control, immersion and strategy.
@@ -171,7 +169,3 @@ The system consists of a VR headset connected to the main application and a mobi
 ## Outcomes and Outreach Use
 
 Star Maze functions as both an interactive game and a demonstrator for VR based interaction design. In outreach settings, it helps audiences understand concepts such as immersive environments, asymmetric multiplayer systems, and cross device interaction. The short session length allows many participants to experience the system within a limited time window. The clear spectator value supports engagement even for those not directly playing, making it effective for public demonstrations.
-
-## Future Scope
-
-Future directions include adding cooperative modes where both players work toward a shared goal, introducing adaptive difficulty based on player performance, and incorporating accessibility options for users with limited mobility. The system can also be extended as a research platform to study collaboration, competition, and communication patterns in asymmetric VR experiences.
