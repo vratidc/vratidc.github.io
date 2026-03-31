@@ -79,15 +79,12 @@ The environments are hand-drawn using 2D sprites arranged to create depth, with 
 
 ### Core Mechanics and Features
 
-Three pilot versions were tested:
-
+These mechanics exaggerate everyday distractions to make players aware of similar behaviour in real life.
 - Movement and observation are sequential, not simultaneous
 - Vision narrows while walking or engaging with phone or music
 - Items are discovered only by stopping and waiting
 - Distractions include thoughts, social media, and music
 - No loss condition; reflection is reinforced through score-based feedback
-
-These mechanics exaggerate everyday distractions to make players aware of similar behaviour in real life.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/mechanics3.png" alt="Walking in the present">
