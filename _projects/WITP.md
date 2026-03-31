@@ -52,18 +52,11 @@ The core mechanic mirrors real-life inattentiveness by preventing simultaneous m
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/research.png" alt="Walking in the present">
 </figure> 
 
-## Research and Insights
+## Concept
 
- Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact.
+Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact. Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
-Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
-
-
-## Concept Development
-
-Multiple early game ideas were explored, including audio-led navigation with blocked vision, observation-based platformer mechanics, and work-life balance simulations across different professions.
-
-The final direction focused on walking and mindfulness due to its universality, everyday nature, and strong potential for players to draw parallels between in-game actions and real-life behaviour.
+Multiple early game ideas were explored, including audio-led navigation with blocked vision, observation-based platformer mechanics, and work-life balance simulations across different professions.The final direction focused on walking and mindfulness due to its universality, everyday nature, and strong potential for players to draw parallels between in-game actions and real-life behaviour.
 
 
 ## Ideation and Pilots
