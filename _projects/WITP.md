@@ -26,7 +26,7 @@ permalink: projects/WITP
 
 ## Introduction
 
-This 2.5D digital game explores how digital play can invoke reflection on real-life mindfulness while walking. Rather than aiming for immediate behaviour change, the project focuses on awareness and memorability. The project focuses on walking as a mundane, everyday activity where lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
+This 2.5D digital game explores how digital play can invoke reflection on real-life mindfulness while walking. Rather than aiming for immediate behaviour change, the project focuses on awareness and memorability. The project focuses on walking as a mundane, everyday activity where a lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
 
 The core mechanic mirrors real-life inattentiveness by preventing simultaneous movement and observation; players must stop moving to fully see their surroundings. Through this mechanic, the project **investigates how repetition, limited agency, and altered interaction norms can break the “magic circle”** of games and cause reflection outside the game.
 
@@ -56,7 +56,7 @@ The core mechanic mirrors real-life inattentiveness by preventing simultaneous m
 
 Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact. Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
-Multiple early game ideas were explored, including audio-led navigation with blocked vision, observation-based platformer mechanics, and work-life balance simulations across different professions.The final direction focused on walking and mindfulness due to its universality, everyday nature, and strong potential for players to draw parallels between in-game actions and real-life behaviour.
+Multiple early game ideas were explored, including audio-led navigation with blocked vision, observation-based platformer mechanics, and work-life balance simulations across different professions. The final direction focused on walking and mindfulness due to its universality, everyday nature, and strong potential for players to draw parallels between in-game actions and real-life behaviour.
 
 
 ## Ideation and Pilots
