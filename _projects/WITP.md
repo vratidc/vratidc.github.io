@@ -26,9 +26,7 @@ permalink: projects/WITP
 
 ## Introduction
 
-This 2.5D digital game explores how digital play can invoke reflection on real-life mindfulness while walking. Rather than aiming for immediate behaviour change, the project focuses on awareness and memorability. The project focuses on walking as a mundane, everyday activity where a lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking.
-
-The core mechanic mirrors real-life inattentiveness by preventing simultaneous movement and observation; players must stop moving to fully see their surroundings. Through this mechanic, the project **investigates how repetition, limited agency, and altered interaction norms can break the “magic circle”** of games and cause reflection outside the game.
+This 2.5D digital game explores how digital play can invoke reflection on real-life mindfulness while walking. Rather than aiming for immediate behaviour change, the project focuses on awareness and memorability. The project focuses on walking as a mundane, everyday activity where a lack of mindfulness is common due to distractions such as mobile phones, music, and overthinking. The core mechanic mirrors real-life inattentiveness by preventing simultaneous movement and observation; players must stop moving to fully see their surroundings. 
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/FCVpfH.png" alt="Walking in the present">
