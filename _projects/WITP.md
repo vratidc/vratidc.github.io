@@ -40,18 +40,13 @@ The core mechanic mirrors real-life inattentiveness by preventing simultaneous m
 
 ## Process
 
-- Secondary research on attention, mindfulness, and reflective games
-- Analysis of games and technologies that encourage slowing down
-- User interviews and surveys focused on walking-related distractions
-- Ideation of multiple game concepts
-- Iterative pilots and playtesting
-- Final game development and evaluation
+The project began with secondary research and user interviews on attention and walking-related distractions, followed by the ideation of multiple game concepts. These ideas were refined through iterative pilot testing and playtesting, leading to the final development and evaluation of the reflective game.
+
+Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact. Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WITP/research.png" alt="Walking in the present">
 </figure> 
-
-Key research themes included hyper attention versus deep attention, slowing down as a design strategy, and breaking the magic circle through relatability, repetition, and emotional impact. Primary research indicated that players tend to reflect on games after play when mechanics are repetitive, relatable, and create meaningful frustration rather than challenge alone.
 
 ## Ideation and Pilots
 
