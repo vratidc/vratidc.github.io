@@ -100,7 +100,14 @@ The prototype demonstrated the feasibility of integrating:
 - AI-driven character behaviour
 - Narrative tension
 
-Gameplay footage is available via a linked video in the original report
+Gameplay footage is available via a linked video in the original report.
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/env.png" 
+  alt="3D environment">
+  <figcaption>High Fidelity Environment 
+  </figcaption>
+</figure>
 
 ## Technical Challenges
 
@@ -111,19 +118,6 @@ Major challenges included:
 - Natural character navigation within a complex space
 
 These were addressed through custom audio pipelines, AI-based navigation systems, and iterative refinement of interaction feedback.
-
-## Design Detailing
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/env.png" 
-  alt="3D environment">
-  <figcaption>High Fidelity Environment 
-  </figcaption>
-</figure>
-
-A high-fidelity environment was later developed in Blender to explore atmosphere and storytelling through space. The house was designed as a worn, modest dwelling, reinforcing themes of secrecy and tension.
-<br>
-Due to performance constraints, only the core structural elements were imported into Unity, prioritising interaction over visual complexity.
 
 ## Outcome
 
