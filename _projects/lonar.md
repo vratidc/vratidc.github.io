@@ -104,9 +104,7 @@ The project follows a research-driven, iterative design process grounded in muse
 
 The prototype was evaluated in a controlled setting with users of varying familiarity with XR. These insights reinforced the importance of clarity, pacing, and physical grounding in museum-based XR experiences.
 
-This project demonstrates how Mixed Reality can bridge the gap between scientific research and public engagement without overwhelming users with technological novelty. By combining narrative, spatial exploration, and layered information, the experience presents Lonar Crater as both a scientific phenomenon and a living cultural landscape.
-
-The work lays a foundation for scalable, immersive installations that can support education, conservation, and public curiosity around complex heritage sites.
+This project demonstrates how Mixed Reality can bridge the gap between scientific research and public engagement without overwhelming users with technological novelty. By combining narrative, spatial exploration, and layered information, this XR experience supports education, conservation, and public curiosity around complex heritage sites.
 
 
 
