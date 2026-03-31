@@ -112,16 +112,6 @@ The game loop is designed as a short, intense encounter lasting only a few minut
 
 The design approach was guided by outreach constraints and first-time user experience. The experience needed to be easy to explain in less than one minute, simple to operate without prior training, and robust enough to run repeatedly in public settings. Narrative framing was kept minimal and functional, providing context without requiring long explanations. Playtesting with users unfamiliar with VR was used to refine onboarding, reduce confusion, and adjust pacing.
 
-## Process
-
-The project followed an iterative development lifecycle:
-
-**Initial Stage**: Brainstorming narrative frames and testing "walking in place" detection through early digital prototypes.
-
-**Mid-Stage**: Balancing gameplay by limiting the Traveller’s "wall-breaking" and "teleportation" abilities to ensure the Overseer role remained impactful.
-
-**Final Stage**: Streamlining the setup for facilitators to run multiple sessions with minimal overhead and handling error states for public deployment.
-
 ## Gameplay and Roles
 
 **Player 1: The Traveller (VR Headset)**  
