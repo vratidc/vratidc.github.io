@@ -65,17 +65,6 @@ Participants instinctively leaned, gestured, and modulated their voices, showing
   </figcaption>
 </figure>
 
-
-## Scoping the Project
-
-Given practical constraints, the project focused on two voice mechanics:
-<br>
-
-- Voice commands for intentional control
-- Volume-based interaction for expressive, spatial influence
-<br>
-Pitch-based and conversational systems were excluded due to technical complexity and accessibility concerns. This scoping ensured that the experience remained feasible while still exploring meaningful vocal interaction.
-
 ## The Story: Blind Justice
 
 The narrative revolves around two characters:
