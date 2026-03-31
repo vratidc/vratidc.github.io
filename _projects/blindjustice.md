@@ -42,7 +42,7 @@ Secondary research examined voice-based games across multiple decades, identifyi
 - Pitch and rhythm
 - Voice commands
 - Conversational dialogue
-<br>
+- 
 These mechanics have been used for navigation, combat, puzzle solving, companionship, and narrative progression. However, most applications treat voice as detached from space, ignoring how sound naturally carries direction, distance, and intent. Cultural practices, such as guiding blindfolded players through sound cues, demonstrate how voice has long been used for navigation, trust-building, and spatial awareness, offering valuable insight for immersive interaction design.
 
 ## Hands-On Exploration
