@@ -136,3 +136,6 @@ Star Maze is a networked system connecting a VR application and a mobile device 
 ## Outcome
 
 Star Maze functions as both an interactive game and a demonstrator for VR based interaction design. In outreach settings, it helps audiences understand concepts such as immersive environments, asymmetric multiplayer systems, and cross device interaction. The short session length allows many participants to experience the system within a limited time window. The clear spectator value supports engagement even for those not directly playing, making it effective for public demonstrations.
+
+{% include video.html id="w-pTSI1cjg0" provider="youtube" %}
+<figcaption>STARMAZE - A virtual reality game</figcaption>
