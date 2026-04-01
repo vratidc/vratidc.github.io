@@ -31,7 +31,9 @@ permalink: projects/HIOC
 
 ## Project Overview
 
-Hybridisation in organic chemistry is an AR-based learning prototype that enables students to understand the concept of orbital hybridisation intuitively through marker-based AR and to explore the effectiveness of AR in science education. In organic chemistry, orbitals are three-dimensional regions around the nucleus where electrons are most likely to be found. The primary atomic orbitals: s, p, d, and f; combine through a process known as hybridisation, forming new orbitals with distinct shapes, orientations, and energy levels.
+Hybridisation in organic chemistry is an AR-based learning prototype that enables students to understand the concept of orbital hybridisation intuitively through marker-based AR and to explore the effectiveness of AR in science education. 
+
+In organic chemistry, orbitals are three-dimensional regions around the nucleus where electrons are most likely to be found. The primary atomic orbitals: s, p, d, and f; combine through a process known as hybridisation, forming new orbitals with distinct shapes, orientations, and energy levels.
 
 ## Concept
 
