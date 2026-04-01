@@ -100,8 +100,6 @@ The prototype demonstrated the feasibility of integrating:
 - AI-driven character behaviour
 - Narrative tension
 
-Gameplay footage is available via a linked video in the original report.
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/env.png" 
   alt="3D environment">
