@@ -1,6 +1,6 @@
 ---
 title:  "Cratering in Lonar"
-excerpt: updating...
+excerpt: Interactive MR Experience to Explore the Lonar Crater
 layout: projects   
 selected: "false"
 homepage: "false"
