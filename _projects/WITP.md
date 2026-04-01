@@ -4,12 +4,12 @@ excerpt: Making a game to invoke reflection about mindfulness
 layout: projects   
 selected: "false"
 homepage: "false"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/WITP/hero.png
-tags: Game  
+tags: VR Game  
 
 banner_image1:
 banner_image1_caption:
