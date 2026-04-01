@@ -5,7 +5,7 @@ layout: projects
 selected: "false"
 homepage: "false"
 fullpage: "yes"
-active: "no"
+active: "yes"
 date: 2025-04-01
 
 og_image: /assets/img/projects/Star-Maze/sm1.png
