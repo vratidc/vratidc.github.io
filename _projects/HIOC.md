@@ -5,7 +5,7 @@ layout: projects
 selected: "False"
 homepage: "False"
 fullpage: "no"
-active: "no"
+active: "yes"
 
 
 
