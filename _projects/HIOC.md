@@ -11,12 +11,12 @@ active: "yes"
 
 header:
     teaser: /assets/img/projects/HIOC/og.png
-tags: AR 
+tags: AR Research
 
 banner_image1:
 banner_image1_caption:
 
-team_members: " Rubayat Ahmed "
+team_members: " Rubayat Ahmed | Jayesh Pillai"
 team_members_align: "text-left"
 
 permalink: projects/HIOC
