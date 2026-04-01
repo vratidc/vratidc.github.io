@@ -4,14 +4,14 @@ excerpt: Learning Concepts of Hybridisation through AR Environments
 layout: projects   
 selected: "False"
 homepage: "False"
-fullpage: "no"
+fullpage: "yes"
 active: "yes"
 
 
 
 header:
     teaser: /assets/img/projects/HIOC/og.png
-tags: AR  
+tags: AR 
 
 banner_image1:
 banner_image1_caption:
