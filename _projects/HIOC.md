@@ -11,7 +11,7 @@ active: "no"
 
 header:
     teaser: /assets/img/projects/HIOC/og.png
-tags: VR Research  
+tags: AR  
 
 banner_image1:
 banner_image1_caption:
