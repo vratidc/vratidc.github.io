@@ -1,15 +1,15 @@
 ---
 title:  "Cratering in Lonar"
-excerpt: updating...
+excerpt: Interactive MR Experience to Explore the Lonar Crater
 layout: projects   
 selected: "false"
 homepage: "false"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
 
 header:
     teaser: /assets/img/projects/lonar/mbnr.png
-tags: 
+tags: VR MR Design
 
 banner_image1:
 banner_image1_caption:
@@ -60,7 +60,7 @@ permalink: projects/lonarproject
 Lonar Crater is one of the world’s few meteor impact craters formed in basalt rock, holding geological, ecological, and cultural significance. Despite its scientific importance and living heritage, it remains underrepresented in public understanding and engagement. This project explores how XR technologies can translate complex, layered knowledge into accessible and immersive public experiences, particularly in a museum or experience centre context.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/map.png" alt="Google Earth map of Lonar crater marked with the town, visitors centre, existing MTDC resort and upcoming Lonar Crater Experience centre, which will host the museum and the proposed installations. ">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/lonar/map2.png" alt="Google Earth map of Lonar crater marked with the town, visitors centre, existing MTDC resort and upcoming Lonar Crater Experience centre, which will host the museum and the proposed installations. ">
   <figcaption>Google Earth map of Lonar crater marked with the town, visitors centre, existing MTDC resort and upcoming Lonar Crater Experience centre, which will host the museum and the proposed installations. 
   </figcaption>
 </figure> 

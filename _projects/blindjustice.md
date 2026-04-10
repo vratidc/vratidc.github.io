@@ -4,14 +4,14 @@ excerpt: Exploring Voice-Based Interaction through a Narrative VR Experience
 layout: projects   
 selected: "False"
 homepage: "False"
-fullpage: "no"
-active: "no"
+fullpage: "yes"
+active: "yes"
 
 og_image: /assets/img/projects/blind/og.png
 
 header:
     teaser: /assets/img/projects/blind/og.png
-tags: VR Research  
+tags: VR Research Game  
 
 banner_image1:
 banner_image1_caption:
@@ -100,8 +100,6 @@ The prototype demonstrated the feasibility of integrating:
 - AI-driven character behaviour
 - Narrative tension
 
-Gameplay footage is available via a linked video in the original report.
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/blind/env.png" 
   alt="3D environment">
@@ -112,6 +110,9 @@ Gameplay footage is available via a linked video in the original report.
 ## Outcome
 
 Blind Justice demonstrates how voice can function as a meaningful, embodied interaction medium in VR. By grounding vocal interaction within a narrative of trust, vulnerability, and moral tension, the project moves beyond command-based systems toward emotionally resonant design. The work highlights the potential of sound-first interaction in immersive environments and opens avenues for future exploration in accessibility-driven and narrative-centric XR experiences.
+
+{% include video id="1154674146" provider="vimeo" %}
+<figcaption>Blind Justice: A Voice-based VR Experience</figcaption>
 
 
 
