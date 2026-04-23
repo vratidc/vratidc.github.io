@@ -78,8 +78,6 @@ gallery3:
     image_path: /assets/img/projects/WildVue/fish.png
 ---
 
-WildVue is a free-roam VR experience that allows users to switch between human and animal perspectives within a shared environment.
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/logo.png">
 </figure>
@@ -92,9 +90,7 @@ The project explores VR as a medium for perceptual storytelling. Instead of expl
 
 The work functions both as an educational exploration and a personal inquiry into how immersive media can reshape understanding through perspective.
 
----
-
-## 1. Concept
+## Concept
 
 Users move freely through a shared environment inhabited by different animals, switching perspectives at any time. Each shift changes how the same space is seen, through color, distortion, scale, and field of view, supported by six degrees of freedom for a more natural sense of exploration.
 
@@ -119,9 +115,7 @@ sensitivity
 
 {% include flexgallery id="flex_fish" %}
 
----
-
-## 2. Environment Design
+## Environment Design
 
 To support all perspectives within one space, the environment was designed as a **farm and garden at golden hour**. This setting allowed different animals to coexist while offering varied zones for interaction.
 
@@ -129,9 +123,7 @@ Early ideation involved narrative sketches, spatial layouts, and top-down maps, 
 
 {% include gallery id="gallery1" caption="Environment design iterations and spatial planning" %}
 
----
-
-## 3. Interaction
+## Interaction
 
 Early prototypes tested locomotion, camera switching, and basic interactions before moving into a full Unreal Engine build using Blueprint scripting.
 
@@ -146,13 +138,10 @@ Each animal perspective includes a simple interaction:
 
 Movement was designed to feel natural while minimizing discomfort. Humans, cats, and dogs use gaze-aligned joystick movement, while bees and fish move in three dimensions using controlled acceleration and gaze-based direction. Spatial audio was integrated throughout to reinforce immersion.
 
----
-
 ## Outcome
 
 {% include video id="1034737680?h=9c27d8d19d" provider="vimeo" %}
 <figcaption>WildVue VR Experience</figcaption>
-
 
 {% include flexgallery id="flex_row1" %}
 
