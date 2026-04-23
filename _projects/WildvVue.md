@@ -47,12 +47,20 @@ gallery1:
   - url: /assets/img/projects/WildVue/sketch.png
     image_path: /assets/img/projects/WildVue/sketch.png
 
-gallery2:
-  - url: /assets/img/projects/WildVue/out1.png
-    image_path: /assets/img/projects/WildVue/out1.png
-  - url: /assets/img/projects/WildVue/out2.png
+flex_gal:
+  - aspect: "4"
+    image_path: /assets/img/projects/WildVue/unity1.png
+  - aspect: "4"
+    image_path: /assets/img/projects/WildVue/unity2.png
+
+flex_row1:
+  - aspect: "4"
     image_path: /assets/img/projects/WildVue/out2.png
-  - url: /assets/img/projects/WildVue/out3.png
+
+flex_row2:
+  - aspect: "2"
+    image_path: /assets/img/projects/WildVue/out1.png
+  - aspect: "2"
     image_path: /assets/img/projects/WildVue/out3.png
 
 gallery3:
@@ -127,7 +135,7 @@ Early ideation involved narrative sketches, spatial layouts, and top-down maps, 
 
 Early prototypes tested locomotion, camera switching, and basic interactions before moving into a full Unreal Engine build using Blueprint scripting.
 
-{% include gallery id="gallery2" caption="Interaction mechanics and movement systems across perspectives" %}
+{% include flexgallery id="flex_gal" %}
 
 Each animal perspective includes a simple interaction:
 
@@ -144,6 +152,11 @@ Movement was designed to feel natural while minimizing discomfort. Humans, cats,
 
 {% include video id="1034737680?h=9c27d8d19d" provider="vimeo" %}
 <figcaption>WildVue VR Experience</figcaption>
+
+
+{% include flexgallery id="flex_row1" %}
+
+{% include flexgallery id="flex_row2" %}
 
 WildVue is both an educational tool and an exploration into the potential of VR technology.This project offers interactive educational experience by enabling users to switch between the visual perspectives of different animals, such as insects, mammals, and aquatic creatures.
 
