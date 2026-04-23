@@ -3,7 +3,7 @@ title:  "WildVue"
 excerpt: World Through Animal Eyes
 layout: projects   
 selected: "false"
-homepage: "false"
+homepage: "true"
 fullpage: "yes"
 active: "yes"
 date: 20240101
