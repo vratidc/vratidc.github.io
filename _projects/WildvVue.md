@@ -47,19 +47,19 @@ gallery1:
   - url: /assets/img/projects/WildVue/sketch.png
     image_path: /assets/img/projects/WildVue/sketch.png
 
-flex_gal:
-  - aspect: "4"
-    image_path: /assets/img/projects/WildVue/unity1.png
-  - aspect: "4"
-    image_path: /assets/img/projects/WildVue/unity2.png
+gallery2:
+  - url: /assets/img/projects/WildVue/ue1.png
+    image_path: /assets/img/projects/WildVue/ue1.png
+  - url: /assets/img/projects/WildVue/ue2.png
+    image_path: /assets/img/projects/WildVue/ue2.png
 
 flex_row1:
   - aspect: "4"
-    image_path: /assets/img/projects/WildVue/out2.png
+    image_path: /assets/img/projects/WildVue/out1.png
 
 flex_row2:
   - aspect: "2"
-    image_path: /assets/img/projects/WildVue/out1.png
+    image_path: /assets/img/projects/WildVue/out2.png
   - aspect: "2"
     image_path: /assets/img/projects/WildVue/out3.png
 
@@ -135,7 +135,7 @@ Early ideation involved narrative sketches, spatial layouts, and top-down maps, 
 
 Early prototypes tested locomotion, camera switching, and basic interactions before moving into a full Unreal Engine build using Blueprint scripting.
 
-{% include flexgallery id="flex_gal" %}
+{% include gallery id="gallery2" caption="Development in Unreal Engine" %}
 
 Each animal perspective includes a simple interaction:
 
