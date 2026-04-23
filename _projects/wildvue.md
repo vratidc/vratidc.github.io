@@ -9,7 +9,7 @@ active: "yes"
 date: 20240101
 
 header:
-    teaser: /assets/img/projects/WildVue/wildvue_thumbnail.jpg
+    teaser: /assets/img/projects/WildVue/logo.png
 tags: VR Interaction Perception Storytelling  
 
 team_members: "Manu Krishnan | Prof. Jayesh Pillai"
