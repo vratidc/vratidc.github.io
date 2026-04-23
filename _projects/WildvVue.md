@@ -29,9 +29,11 @@ WildVue is a free-roam VR experience that allows users to switch between human a
 
 ## Project Overview
 
-WildVue explores VR as a medium for perceptual storytelling. Instead of explaining animal vision, it translates it into an embodied experience where users move, observe, and interact as different species.
+WildVue, World Through Animal Eyes, is a free-roam VR experience that allows users to switch between human and animal perspectives within a shared space. Each perspective alters how the world is perceived; through changes in color, field of view, scale, and motion. 
 
-Each perspective alters how the world is perceived through changes in color, field of view, scale, and motion.
+The project explores VR as a medium for perceptual storytelling. Instead of explaining animal vision, it translates it into an embodied experience where users move, observe, and interact as different species.
+
+The work functions both as an educational exploration and a personal inquiry into how immersive media can reshape understanding through perspective.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_overview.jpg">
@@ -41,23 +43,30 @@ Each perspective alters how the world is perceived through changes in color, fie
 
 ## Concept
 
-Users move freely through a shared environment inhabited by different animals, switching perspectives at any time.
+Users move freely through a shared environment inhabited by different animals, switching perspectives at any time. Each shift changes how the same space is seen, through color, distortion, scale, and field of view, supported by six degrees of freedom for a more natural sense of exploration.
 
-Each shift changes how the same space is seen.
+The focus is on perceptual plausibility rather than strict biological accuracy. To keep the scope manageable, the experience centers on four animals, bee, cat, dog, and fish, chosen for their clearly different ways of seeing.
+
+Research drew from academic papers, veterinary sources, online simulations, and video references. Each animal’s vision was distilled into a small set of traits that could be translated into real-time VR.
+
+- **Bee** → Wide FOV (~280°), UV sensitivity, high contrast
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_concept.jpg">
 </figure>
 
----
+- **Cat** → Low-light vision, limited color range, motion sensitivity  
 
-## Animal Perspectives
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_concept.jpg">
+</figure>
 
-The experience centers on four animals with distinct visual systems.
+- **Dog** → Broad peripheral vision (~240°), dichromatic color perception 
 
-- **Bee** → Wide FOV (~280°), UV sensitivity  
-- **Cat** → Low-light vision, motion sensitivity  
-- **Dog** → Dichromatic vision, wide peripheral  
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_concept.jpg">
+</figure>
+
 - **Fish** → Near-panoramic (~300°), underwater adaptation  
 
 <figure class="align-center" style="width:100%;">
@@ -69,31 +78,25 @@ The experience centers on four animals with distinct visual systems.
 
 ## Environment Design
 
-The environment is a **farm and garden at golden hour**, designed to support all perspectives within one space.
+To support all perspectives within one space, the environment was designed as a farm and garden at golden hour. This setting allowed different animals to coexist while offering varied zones for interaction.
+
+Early ideation involved narrative sketches, spatial layouts, and top-down maps, followed by rough 3D visualizations to test scale, flow, and boundaries.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_environment.jpg">
 </figure>
 
-Early ideation included sketches, layouts, and 3D prototypes.
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_layout.jpg">
-</figure>
+The experience is lightly narrative-driven. The narrative exists only to contextualize perspective switching. After exploring multiple directions, the final structure focused on helping animals, where each perspective enables a small, purpose-driven interaction.
 
 ---
 
-## Experience Structure
+## Interaction
 
-The experience is lightly narrative-driven — focused on **helping animals** through perspective switching.
+Early prototypes tested locomotion, camera switching, and basic interactions before moving into a full Unreal Engine build using Blueprint scripting.
 
 <figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_narrative.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_interactions.jpg">
 </figure>
-
----
-
-## Interaction Design
 
 Each animal includes a distinct interaction:
 
@@ -102,30 +105,13 @@ Each animal includes a distinct interaction:
 - Fish → Feeding  
 - Bee → Nectar collection  
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_interactions.jpg">
-</figure>
-
----
-
-## Movement System
-
-Movement was designed to feel natural and reduce discomfort.
-
-- Ground animals → joystick + gaze  
-- Flying/swimming → full 3D motion  
-
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_movement.jpg">
-</figure>
+Movement was designed to feel natural while minimizing discomfort. Humans, cats, and dogs use gaze-aligned joystick movement, while bees and fish move in three dimensions using controlled acceleration and gaze-based direction. Spatial audio was integrated throughout to reinforce immersion.
 
 ---
 
 ## Outcome
 
-WildVue functions as both:
-- An educational tool  
-- A perceptual VR exploration  
+WildVue is both an educational tool and an exploration into the potential of VR technology.This project offers interactive educational experience by enabling users to switch between the visual perspectives of different animals, such as insects, mammals, and aquatic creatures.
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/WildVue/wildvue_result.jpg">
