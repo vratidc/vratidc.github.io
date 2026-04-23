@@ -42,20 +42,32 @@ flex_fish:
     image_path: /assets/img/projects/WildVue/fishview.png
 
 gallery1:
-  - url: /assets/img/projects/WildVue/wildvue_environment.jpg
-    image_path: /assets/img/projects/WildVue/wildvue_environment.jpg
-  - url: /assets/img/projects/WildVue/wildvue_layout.jpg
-    image_path: /assets/img/projects/WildVue/wildvue_layout.jpg
+  - url: /assets/img/projects/WildVue/render.jpg
+    image_path: /assets/img/projects/WildVue/render.jpg
+  - url: /assets/img/projects/WildVue/sketch.png
+    image_path: /assets/img/projects/WildVue/sketch.png
 
 gallery2:
-  - url: /assets/img/projects/WildVue/wildvue_interactions.jpg
-    image_path: /assets/img/projects/WildVue/wildvue_interactions.jpg
-  - url: /assets/img/projects/WildVue/wildvue_movement.jpg
-    image_path: /assets/img/projects/WildVue/wildvue_movement.jpg
+  - url: /assets/img/projects/WildVue/out1.png
+    image_path: /assets/img/projects/WildVue/out1.png
+  - url: /assets/img/projects/WildVue/out2.png
+    image_path: /assets/img/projects/WildVue/out2.png
+  - url: /assets/img/projects/WildVue/out3.png
+    image_path: /assets/img/projects/WildVue/out3.png
 
 gallery3:
-  - url: /assets/img/projects/WildVue/wildvue_result.jpg
-    image_path: /assets/img/projects/WildVue/wildvue_result.jpg
+  - url: /assets/img/projects/WildVue/bee.png
+    image_path: /assets/img/projects/WildVue/bee.png
+  - url: /assets/img/projects/WildVue/dog.png
+    image_path: /assets/img/projects/WildVue/dog.png
+  - url: /assets/img/projects/WildVue/cat.png
+    image_path: /assets/img/projects/WildVue/cat.png
+  - url: /assets/img/projects/WildVue/pig.png
+    image_path: /assets/img/projects/WildVue/pig.png
+  - url: /assets/img/projects/WildVue/hen.png
+    image_path: /assets/img/projects/WildVue/hen.png
+  - url: /assets/img/projects/WildVue/fish.png
+    image_path: /assets/img/projects/WildVue/fish.png
 ---
 
 WildVue is a free-roam VR experience that allows users to switch between human and animal perspectives within a shared environment.
