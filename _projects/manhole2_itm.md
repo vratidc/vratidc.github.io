@@ -52,16 +52,18 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 <br>
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-## Awards and Official Selections
+## Awards & Recognition
 
+### Awards:
 - <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the <a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>, India
 - <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the Jury Award <a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Grand Prix Réalité Virtuelle at Courant3D 2025</a>, France
-- <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the <a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Best XR Experience for a Cause Award at Laval Virtual 2026</a>, France
+- <i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i> Received the <a href="https://laval-virtual.com/en/the-2026-laval-virtual-awards-selection/" target="_blank" style="color:#cc9200;">Laval Virtual Award 2026 for the category "XR for a Cause"</a>, France
+
+### Official Selections:
 - Official Selection at Courant3D 2025, France
 - Official Invitation at First Films Fest 2026, India
 - Official Selection at Laval Virtual Experiences 2026, France
-- Official Selection at Laval Virtual Awards 2026, France
-- Official Invitation at Busan International Short Film Festival 2026, South Korea
+- Official Invitation at <a href="https://www.bisff.org/bbs/board.php?bo_table=2026_pro093eng&wr_id=3" target="_blank" style="color:#cc9200;">Busan International Short Film Festival 2026</a>, South Korea
 
 
 <br>
@@ -102,9 +104,14 @@ A detailed documentaion of our design process and techincal pipeline will be upd
 ## Media Coverage
 
 <ul>
+  <li>IIT Bombay (2026)
+    <ul>
+      <li><a href="https://www.linkedin.com/posts/indian-institute-of-technology-bombay_the-vr-narrativeinto-the-manholecreated-activity-7387358982920646656-n6fU" target="_blank"   style="color:#cc9200;">‘Into The Manhole’ wins the Jury Award "Grand Prix Réalité Virtuelle" at Courant3D 2025, France ▸</a><br /></li>
+    </ul>
+  </li>
   <li>FICCI Frames (2025)
     <ul>
-      <li><a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=1" target="_blank" style="color:#cc9200;">Winners, Runner-Ups, and Nominees of the XR Category at the BAF Awards 2025! ▸</a><br /></li>
+      <li><a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=1" target="_blank" style="color:#cc9200;">Winners, Runner-Ups, and Nominees of the XR Category at the BAF Awards 2025 ▸</a><br /></li>
     </ul>
   </li>
   <li>IDC School of Design (2025)
@@ -114,13 +121,12 @@ A detailed documentaion of our design process and techincal pipeline will be upd
   </li>
   <li>IIT Bombay - Alumni Association (2025)
     <ul>
-      <li><a href="https://acr.iitbombay.org/news/iit-bombays-vr-film-wins-top-honour-at-ficci-baf-awards/" target="_blank" style="color:#cc9200;">IIT Bombay’s VR Film Wins Top Honour at FICCI BAF Awards ▸</a><br /></li>
+      <li><a href="https://acr.iitbombay.org/news/iit-bombays-vr-film-wins-top-honour-at-ficci-baf-awards/" target="_blank" style="color:#cc9200;">IIT Bombay’s VR film wins top honour at FICCI BAF Awards ▸</a><br /></li>
     </ul>
   </li>
   <li>IIT Bombay (2025)
     <ul>
-      <li>“Into the Manhole” has won the FICCI Best Animated Frames Award 2025</li>
-      <li><a href="https://www.linkedin.com/posts/indian-institute-of-technology-bombay_into-the-manhole-the-6dof-vr-narrative-created-activity-7313799853183066112-Rgiu/" target="_blank"   style="color:#cc9200;">LinkedIn ▸</a> / <a href="https://www.instagram.com/p/DIA3TgeoHC-/" target="_blank" style="color:#cc9200;">Instagram ▸</a> / <a href="https://x.com/iitbombay/status/1908034500073837046" target="_blank" style="color:#cc9200;">Twitter ▸</a><br /></li>
+      <li><a href="https://www.linkedin.com/posts/indian-institute-of-technology-bombay_into-the-manhole-the-6dof-vr-narrative-created-activity-7313799853183066112-Rgiu/" target="_blank"   style="color:#cc9200;">‘Into The Manhole’ wins the FICCI Best Animated Frames Award 2025 ▸</a><br /></li>
     </ul>
   </li>
 </ul>
