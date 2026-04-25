@@ -3,10 +3,10 @@ title:  "WildVue"
 excerpt: World Through Animal Eyes
 layout: projects   
 selected: "false"
-homepage: "true"
+homepage: "false"
 fullpage: "yes"
 active: "yes"
-date: 20240101
+date: 2025-06-01
 
 header:
     teaser: /assets/img/projects/WildVue/logo.png

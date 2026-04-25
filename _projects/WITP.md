@@ -6,6 +6,7 @@ selected: "false"
 homepage: "false"
 fullpage: "yes"
 active: "yes"
+date: 2025-03-01
 
 header:
     teaser: /assets/img/projects/WITP/hero.png

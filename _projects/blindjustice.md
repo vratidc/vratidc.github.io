@@ -6,6 +6,7 @@ selected: "False"
 homepage: "False"
 fullpage: "yes"
 active: "yes"
+date: 2025-12-01
 
 og_image: /assets/img/projects/blind/og.png
 
