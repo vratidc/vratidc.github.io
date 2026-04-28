@@ -31,28 +31,21 @@ layout: default
 
         <a-assets>
             <!-- Images. -->
-            <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly.jpg">
-            <img id="dragonfly_label" src="{{ site.baseurl }}/assets/img/360/360_Dragonfly_Label.png">
-
-            <img id="course" src="{{ site.baseurl }}/assets/img/360/360_Course.jpg">
-            <img id="course_label" src="{{ site.baseurl }}/assets/img/360/360_Course_Label.png">
-
-            <img id="illustration1" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Navaneeth.jpg">
-            <img id="illustration_label1" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label1.png">
-
-            <img id="illustration2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Muskan.jpg">
-            <img id="illustration_label2" src="{{ site.baseurl }}/assets/img/360/360_Illustration_Label2.png">
-
-            <img id="label1" src="{{ site.baseurl }}/assets/img/360/360_Generic_Label.png">
-
-            <img id="commonlabel" src="{{ site.baseurl }}/assets/img/360/360_imxd_icon.png">
-
+            <img id="dragonfly" src="{{ site.baseurl }}/assets/img/360/360_header_Dragonfly.jpg">
+            <img id="audi" src="{{ site.baseurl }}/assets/img/360/360_header_Audi.jpg">
+            <img id="illustration1" src="{{ site.baseurl }}/assets/img/360/360_header_Illustration_Navaneeth.jpg">
+            <img id="illustration2" src="{{ site.baseurl }}/assets/img/360/360_header_Illustration_Muskan.jpg">
+            <img id="D4VR1" src="{{ site.baseurl }}/assets/img/360/360_header_D4VR_1.jpg">
+            <img id="D4VR2" src="{{ site.baseurl }}/assets/img/360/360_header_D4VR_2.jpg">
+            <img id="D4XR1" src="{{ site.baseurl }}/assets/img/360/360_header_D4XR_1.jpg">
+            <img id="D4XR2" src="{{ site.baseurl }}/assets/img/360/360_header_D4XR_2.jpg">
+            <img id="D4XR3" src="{{ site.baseurl }}/assets/img/360/360_header_D4XR_3.jpg">
+            <img id="ITM" src="{{ site.baseurl }}/assets/img/360/360_header_ITM.jpg">
         </a-assets>
 
         <!-- 360-degree image. -->
         <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
             <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="#dragonfly"></a-sky>
-            <a-image width="1" height="1" position="0 2 -5" rotation="0 0 0" src="#dragonfly_label"></a-image>
         </a-entity>
     </a-scene>
 
@@ -129,9 +122,9 @@ layout: default
 
         <div class="home-button">
 
-            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects  →</a>
-            <a href="{{ site.baseurl }}/publications">All Publications  →</a>
-            <a href="{{ site.baseurl }}/activities">All Activities  →</a>
+            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects →</a>
+            <a href="{{ site.baseurl }}/publications">All Publications →</a>
+            <a href="{{ site.baseurl }}/activities">All Activities →</a>
 
         </div>
 
@@ -187,12 +180,11 @@ layout: default
 
         slideIndex++;
 
-        if (slideIndex > 4) {
+        if (slideIndex > 10) {
             slideIndex = 1;
         }
 
         setUpCarousel();
-
         setTimeout(ARcarousel, 7000); // Change image every few seconds
     }
 
@@ -200,7 +192,7 @@ layout: default
         slideIndex--;
 
         if (slideIndex < 1) {
-            slideIndex = 4;
+            slideIndex = 10;
         }
 
         setUpCarousel();
@@ -209,7 +201,7 @@ layout: default
     function GoRight() {
         slideIndex++;
 
-        if (slideIndex > 4) {
+        if (slideIndex > 10) {
             slideIndex = 1;
         }
 
@@ -218,36 +210,37 @@ layout: default
 
     function setUpCarousel() {
         var p = document.querySelector('a-sky');
-        var q = document.querySelector('a-image');
 
         if (slideIndex == 1) {
-            p.setAttribute('src', '#illustration2');
-            q.setAttribute('src', '#illustration_label2');
-            q.setAttribute('width', '8.40');
-            q.setAttribute('height', '2');
-            q.setAttribute('position', '0 3 -12');
+            p.setAttribute('src', '#D4XR1');
         } else
             if (slideIndex == 2) {
-                p.setAttribute('src', '#course');
-                q.setAttribute('src', '#course_label');
-                q.setAttribute('width', '9');
-                q.setAttribute('height', '2.5');
-                q.setAttribute('position', '0 2.5 -12');
+                p.setAttribute('src', '#D4VR1');
             } else
                 if (slideIndex == 3) {
-                    p.setAttribute('src', '#dragonfly');
-                    q.setAttribute('src', '#dragonfly_label');
-                    q.setAttribute('width', '11.14');
-                    q.setAttribute('height', '6');
-                    q.setAttribute('position', '0 7 -12');
+                    p.setAttribute('src', '#ITM');
                 } else
                     if (slideIndex == 4) {
-                        p.setAttribute('src', '#illustration1');
-                        q.setAttribute('src', '#illustration_label1');
-                        q.setAttribute('width', '8.40');
-                        q.setAttribute('height', '2');
-                        q.setAttribute('position', '0 3.5 -12');
-                    }
+                        p.setAttribute('src', '#illustration2');
+                    } else
+                        if (slideIndex == 5) {
+                            p.setAttribute('src', '#D4XR2');
+                        } else
+                            if (slideIndex == 6) {
+                                p.setAttribute('src', '#dragonfly');
+                            } else
+                                if (slideIndex == 7) {
+                                    p.setAttribute('src', '#D4VR2');
+                                } else
+                                    if (slideIndex == 8) {
+                                        p.setAttribute('src', '#audi');
+                                    } else
+                                        if (slideIndex == 9) {
+                                            p.setAttribute('src', '#D4XR3');
+                                        } else
+                                            if (slideIndex == 10) {
+                                                p.setAttribute('src', '#illustration1');
+                                            }
     }
 
 </script>
