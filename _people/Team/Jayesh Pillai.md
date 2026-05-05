@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Jayesh Pillai
-position: Associate Professor, IIT Bombay
+position: Professor, IIT Bombay
 role: "team"
 date: 20301228
 header:
@@ -32,6 +32,6 @@ links:
 ---
 
 ## Jayesh Pillai
-Associate Professor, IIT Bombay
+Professor, IIT Bombay
 
 

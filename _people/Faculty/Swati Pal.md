@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  Swati Pal
-position: Associate Professor, IIT Bombay
+position: Professor, IIT Bombay
 role: "faculty"
 date: 21000107
 header:
@@ -25,6 +25,6 @@ links:
 ---
 
 ## Swati Pal
-Associate Professor, IIT Bombay
+Professor, IIT Bombay
 
 
