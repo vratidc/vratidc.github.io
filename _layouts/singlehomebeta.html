@@ -41,6 +41,7 @@ layout: default
             <img id="D4XR2" src="{{ site.baseurl }}/assets/img/360/360_header_D4XR_2.jpg">
             <img id="D4XR3" src="{{ site.baseurl }}/assets/img/360/360_header_D4XR_3.jpg">
             <img id="ITM" src="{{ site.baseurl }}/assets/img/360/360_header_ITM.jpg">
+            <img id="IMXD1" src="{{ site.baseurl }}/assets/img/360/IMXD_Lab_360.jpg">
         </a-assets>
 
         <!-- 360-degree image. -->
@@ -180,7 +181,7 @@ layout: default
 
         slideIndex++;
 
-        if (slideIndex > 10) {
+        if (slideIndex > 11) {
             slideIndex = 1;
         }
 
@@ -192,7 +193,7 @@ layout: default
         slideIndex--;
 
         if (slideIndex < 1) {
-            slideIndex = 10;
+            slideIndex = 11;
         }
 
         setUpCarousel();
@@ -201,7 +202,7 @@ layout: default
     function GoRight() {
         slideIndex++;
 
-        if (slideIndex > 10) {
+        if (slideIndex > 11) {
             slideIndex = 1;
         }
 
@@ -212,35 +213,38 @@ layout: default
         var p = document.querySelector('a-sky');
 
         if (slideIndex == 1) {
-            p.setAttribute('src', '#D4XR1');
+            p.setAttribute('src', '#IMXD1');
         } else
             if (slideIndex == 2) {
-                p.setAttribute('src', '#D4VR1');
+                p.setAttribute('src', '#D4XR1');
             } else
                 if (slideIndex == 3) {
-                    p.setAttribute('src', '#ITM');
+                    p.setAttribute('src', '#D4VR1');
                 } else
                     if (slideIndex == 4) {
-                        p.setAttribute('src', '#illustration2');
+                        p.setAttribute('src', '#ITM');
                     } else
                         if (slideIndex == 5) {
-                            p.setAttribute('src', '#D4XR2');
+                            p.setAttribute('src', '#illustration2');
                         } else
                             if (slideIndex == 6) {
-                                p.setAttribute('src', '#dragonfly');
+                                p.setAttribute('src', '#D4XR2');
                             } else
                                 if (slideIndex == 7) {
-                                    p.setAttribute('src', '#D4VR2');
+                                    p.setAttribute('src', '#dragonfly');
                                 } else
                                     if (slideIndex == 8) {
-                                        p.setAttribute('src', '#audi');
+                                        p.setAttribute('src', '#D4VR2');
                                     } else
                                         if (slideIndex == 9) {
-                                            p.setAttribute('src', '#D4XR3');
+                                            p.setAttribute('src', '#audi');
                                         } else
                                             if (slideIndex == 10) {
-                                                p.setAttribute('src', '#illustration1');
-                                            }
+                                                p.setAttribute('src', '#D4XR3');
+                                            } else
+                                                if (slideIndex == 11) {
+                                                    p.setAttribute('src', '#illustration1');
+                                                }
     }
 
 </script>
