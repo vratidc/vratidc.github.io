@@ -38,7 +38,7 @@ gallery2:
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/updates/itm_updates/ITM_lv_banner.jpg" alt="Into the Manhole - Laval Virtual Awards 2026">
-  <figcaption>The project received the Laval Virtual Award 2026 for the category “XR for a Cause”</figcaption>
+  <figcaption><a href="https://imxd.in/projects/into-the-manhole" target="_blank" style="color:#cc9200;">Into The Manhole</a> project received the Laval Virtual Award 2026 for the category “XR for a Cause”</figcaption>
 </figure>
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
