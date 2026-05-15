@@ -65,6 +65,7 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 - Official Selection at Laval Virtual Experiences 2026, France
 - Official Invitation at <a href="https://www.bisff.org/bbs/board.php?bo_table=2026_pro093eng&wr_id=3" target="_blank" style="color:#cc9200;">Busan International Short Film Festival 2026</a>, South Korea
 
+'Into the Manhole' Wins Multiple Accolades: <a href="https://imxd.in/updates/ITM-accolades/" target="_blank" style="color:#cc9200;">See updates here.</a>
 
 <br>
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">

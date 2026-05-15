@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "‘Into the Manhole’ Wins Multiple Accolades"
+     date: "30/04/2026"
+     active: "yes"
+     content: "VR narrative project receives global recognition"
+     link: updates/ITM-accolades/
+     teaser: /assets/img/updates/itm_updates/icon-update-itm.jpg
+     fullpage: "yes"
    - title: "'Starmaze' and 'Maunaraagam' at Laval Virtual 2025"
      date: "20/04/2025"
      active: "yes"
