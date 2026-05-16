@@ -7,6 +7,10 @@ categories: updates
 tags: demo laval-virtual 
 
 gallery1:
+  - url: /assets/img/updates/itm_updates/ITM_c3d_1.jpg
+    image_path: /assets/img/updates/itm_updates/ITM_c3d_1.jpg
+    alt: "Into the Manhole - Courant3D 2025"
+    title: "Into the Manhole - Courant3D 2025"
   - url: /assets/img/updates/itm_updates/ITM_c3d_2.jpg
     image_path: /assets/img/updates/itm_updates/ITM_c3d_2.jpg
     alt: "Into the Manhole - Courant3D 2025"
@@ -14,11 +18,7 @@ gallery1:
   - url: /assets/img/updates/itm_updates/ITM_c3d_3.jpg
     image_path: /assets/img/updates/itm_updates/ITM_c3d_3.jpg
     alt: "Into the Manhole - Courant3D 2025"
-    title: "Into the Manhole - Courant3D 2025"
-  - url: /assets/img/updates/itm_updates/ITM_c3d_4.jpg
-    image_path: /assets/img/updates/itm_updates/ITM_c3d_4.jpg
-    alt: "Into the Manhole - Courant3D 2025"
-    title: "Into the Manhole - Courant3D 2025"   
+    title: "Into the Manhole - Courant3D 2025" 
 
 gallery2:
   - url: /assets/img/updates/itm_updates/ITM_lv_2.jpg
@@ -45,7 +45,7 @@ gallery2:
 <br>
 
 ## Awards:
-<i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025 for Best XR Short Film</a>, India
+<b><i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2" target="_blank" style="color:#cc9200;">FICCI BAF Award 2025</a></b><br>for Best XR Short Film, India
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/updates/itm_updates/ITM_ficci_1.jpg" alt="Into the Manhole - FICCI Award 2025">
@@ -54,25 +54,20 @@ gallery2:
 
 <br>
 
-<i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Grand Prix Réalité Virtuelle at Courant3D 2025</a>, France
+<b><i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s" target="_blank" style="color:#cc9200;">Grand Prix Réalité Virtuelle</a></b><br>at Courant3D 2025, France
 
-<figure class="align-center" style="width:100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/updates/itm_updates/ITM_c3d_1.jpeg" alt="Into the Manhole - Grand Prix Réalité Virtuelle at Courant3D 2025">
-  <figcaption>Jayesh receiving the Grand Prix Réalité Virtuelle at Courant3D 2025</figcaption>
-</figure>
-
-  {% include gallery id="gallery1" caption="'Into the Manhole' being presented at Courant3D 2025" %}
+  {% include gallery id="gallery1" caption="'Into the Manhole' was presented at Courant3D 2025 in the Compétition Réalité Virtuelle section" %}
 
 <br>
 
-<i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://laval-virtual.com/en/the-2026-laval-virtual-awards-selection/" target="_blank" style="color:#cc9200;">Laval Virtual Award 2026 for the category "XR for a Cause"</a>, France
+<b><i class="fa-solid fa-trophy" style="margin-right: 0.5em; color:#cc9200;"></i><a href="https://laval-virtual.com/en/the-2026-laval-virtual-awards-selection/" target="_blank" style="color:#cc9200;">Laval Virtual Award 2026</a></b><br>for the category "XR for a Cause", France
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/updates/itm_updates/ITM_lv_1.jpg" alt="Into the Manhole - Laval Virtual Awards 2026">
   <figcaption>The directors, Abhishek & Jayesh receiving the Laval Virtual Award 2026</figcaption>
 </figure>
 
-  {% include gallery id="gallery2" caption="'Into the Manhole' being presented at Laval Virtual 2026, at the #Expeirience track"%}
+  {% include gallery id="gallery2" caption="'Into the Manhole' was presented at Laval Virtual 2026 in the #Expeirience section"%}
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 <br>
