@@ -115,6 +115,7 @@ Blending environmental storytelling with interactive memory fragments, the exper
 
 </div>
 
+<!-- 
 ## Researchers
 
 <div class="people" style="display:grid">
@@ -142,6 +143,19 @@ Blending environmental storytelling with interactive memory fragments, the exper
   </div>
 
 </div>
+-->
+
+<hr style="height:2px;border-width:0;color:#fcd5ce;background-color:#99ccbb">
+
+<div class="foah-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h3>
+  <p><small>
+    <a href="https://www.linkedin.com/in/vijay-anand-s-1024932a4/" target="_blank"><b>Vijay Anand</b></a> : Unreal Technical Artist<br>
+    <a href="https://www.linkedin.com/in/jinesha-samdadia-90110025b/" target="_blank"><b>Jinesha Samdadia</b></a> : Pre-production Designer<br>
+    <a href="https://www.linkedin.com/in/devavrat-chachad-b959222b6/" target="_blank"><b>Devavrat Chachad</b></a> : Character Designer<br>
+    <a href="https://www.linkedin.com/in/shristi-ashish-1a2941307/" target="_blank"><b>Srishti Ashish</b></a> : 3D Artist<br>
+  </small></p>
+</div> 
 
 ## Collaborators
 
