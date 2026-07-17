@@ -1,12 +1,12 @@
 ---
 layout: single
 title:  Soumya Agarwal
-position: M.Des by Research(2024-26)
-role: "pastresearcher"
-date: 20240726
+position: MDes, Research Scholar
+role: "team"
+date: 20230726
 header:
     teaser: /assets/img/people/imxd_people_soumyaagarwal.jpg
-permalink: /people/soumya
+permalink: 
 type: people
 fullpage: "no"
 modal: "no"
