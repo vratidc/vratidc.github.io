@@ -1,15 +1,15 @@
 ---
 layout: single
-title: Srishti Ashish
+title: Shristi Ashish
 position: Research Intern, B.Des (Atlas SkillTech Uni)
 role: "student"
 date: 20260513
 header:
-    teaser: /assets/img/people/placeholder_person.jpg
-permalink: /people/srishti
+    teaser: /assets/img/people/imxd_people_shristiashish.jpg
+permalink: /people/shristi
 type: people
 modal : "no"
-modalname: "srishti"
+modalname: "shristi"
 fullpage: "no"
 links:
     - label: "Artstation"
@@ -23,5 +23,5 @@ links:
       url:
 ---
 
-## Srishti Ashish
+## Shristi Ashish
 Research Intern, B.Des (Atlas SkillTech Uni)
