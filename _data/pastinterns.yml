@@ -1,5 +1,14 @@
 # main links
 main:
+   - title: "Vijay Anand S"
+     url: https://www.linkedin.com/in/vijay-anand-s-1024932a4/
+     photo: /assets/img/people/imxd_people_vijayanand.jpg
+   - title: "Jinesha Samdadia"
+     url: https://www.linkedin.com/in/jinesha-samdadia-90110025b/
+     photo: /assets/img/people/imxd_people_jinesha.jpg
+   - title: "Prathmesh Salve"
+     url: https://www.linkedin.com/in/prathmesh-salve/
+     photo: /assets/img/people/imxd_people_prathmesh.jpg
    - title: "Jeevanantham Sankaran"
      url: https://www.linkedin.com/in/jeevananthamsankaran/
      photo: /assets/img/people/imxd_people_jeevanantham.jpg

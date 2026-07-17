@@ -1,5 +1,26 @@
 # main links
 main: 
+   - title: "Sarayu Sree Mandala"
+     url: https://www.linkedin.com/in/sarayu-sree-mandala-a94691275/
+     photo: /assets/img/people/imxd_people_sarayu.jpg
+   - title: "Utkarsha Kate"
+     url: https://www.linkedin.com/in/utkarsha-kate-a33442182/
+     photo: /assets/img/people/imxd_people_utkarshakate.jpg
+   - title: "Mukil Kumar"
+     url: https://www.linkedin.com/in/mukilk/
+     photo: /assets/img/people/imxd_people_mukilkumar.jpg
+   - title: "Anoushka Shome"
+     url: https://www.linkedin.com/in/anoushka-shome/
+     photo: /assets/img/people/imxd_people_anoushkashome.jpg
+   - title: "Abhishek Benny"
+     url: https://www.linkedin.com/in/abhibny/
+     photo: /assets/img/people/imxd_people_abhishekbenny.jpg
+   - title: "Laksh Rajpal"
+     url: https://www.linkedin.com/in/laksh-rajpal-620521191/
+     photo: /assets/img/people/imxd_people_lakshrajpal.jpg
+   - title: "Samarth Dhanuka"
+     url: https://www.linkedin.com/in/samarthdhanuka/
+     photo: /assets/img/people/imxd_people_samarthdhanuka.jpg
    - title: "Khushi Agrawal"
      url: https://www.linkedin.com/in/khushi-agrawal2082/
      photo: /assets/img/people/imxd_people_khushiagrawal.jpg
