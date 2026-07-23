@@ -8,25 +8,12 @@ author_profile: false
 
 # IMXD Lab
 
-Immersive Media Experience Design (IMXD) Lab conducts design and research explorations in the domains of Virtual Reality, Augmented Reality, Mixed Reality, VR filmmaking and connected emerging fields. The portfolio of works ranges from design and development projects, experimental studies, research projects, exploratory works, workshops and academic publications.
+Immersive Media Experience Design (IMXD) Lab conducts design and research explorations in the areas of Virtual Reality, Augmented Reality, Mixed Reality, VR narratives and connected emerging fields. IMXD Lab is a part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}
+, [IIT Bombay](https://www.iitb.ac.in/){:target="_blank"}.
 
-IMXD Lab is a part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}
-, IIT Bombay.
+**Vision:** To explore immersive media through a design perspective.
 
+**Key Research Domains:** XR applications, VR narratives, interaction design for XR, presence in VR, and emerging media technologies.
 
-<!--
-<div class="single-home-updates">
-    <h2>
-        Updates
-    </h2>
-    <p>
-        <b>Call for Study: 03/09/2020</b> 
-        <br>
-        We're conducting a study on using <b>Mobile Augmented Reality for Remote Learning</b>, as part of the <a href="/projects/scholar">ScholAR Project</a>, where we are testing a <b>Collaborative AR Classroom</b> that we've developed, focusing on <b>Mathematics for classes 6 to 8</b>. 
-        <br>
-        <br>
-        If you are a mathematics teacher who would like to be a part of this study along with your class, 
-        or know teachers or schools who might be interested in participating, please fill this form - <a href="https://forms.gle/h5u2yWw6EVGbp11G8" target="_blank">ScholAR Call for Participants</a> - and we'll get in touch with you to discuss further. Thanks!
-    </p>
-</div>
--->
+**Primary Activities:** Design and development projects, experimental studies, research initiatives, exploratory work, workshops, academic publications, exhibitions, and outreach initiatives related to XR.
+
