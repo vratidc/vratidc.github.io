@@ -1,15 +1,15 @@
 ---
 layout: single
-title: Akshay R Nair
+title: Devavrat Chachad
 position: Master's Student (Interaction Design)
 role: "student"
 date: 20251001
 header:
-    teaser: assets/img/people/imxd_people_akshaynair.jpg
-permalink: /people/akshay
+    teaser: assets/img/people/placeholder_person.jpg
+permalink: /people/devavrat
 type: people
 modal : "no"
-modalname: "akshay"
+modalname: "devavrat"
 fullpage: "no"
 links:
     - label: "Website"
@@ -20,10 +20,10 @@ links:
       url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/akshayyrr/"
+      url: ""
       
 ---
 
-## Akshay R Nair
+## Devavrat Chachad
 Master's Student - Interaction Design
 

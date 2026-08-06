@@ -1,15 +1,15 @@
 ---
 layout: single
-title: Kanak Kothawale
+title: Arnav Nagare 
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20241104
+date: 20261104
 header:
-    teaser: assets/img/people/imxd_people_KanakKothawale.jpg
-permalink: /people/kanak
+    teaser: assets/img/people/placeholder_person.jpg
+permalink: /people/arnav
 type: people
 modal : "no"
-modalname: "kanak"
+modalname: "arnav"
 fullpage: "no"
 links:
     - label: "Portfolio"
@@ -17,11 +17,11 @@ links:
       url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kanak-kothawale-135094235/"
+      url: ""
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
       url:
 ---
 
-## Kanak Kothawale
+## Arnav Nagare 
 Master's Student (Interaction Design)
