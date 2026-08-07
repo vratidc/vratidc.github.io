@@ -3,7 +3,7 @@ layout: single
 title: Rohit Waghmare
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20251001
+date: 20251002
 header:
     teaser: assets/img/people/placeholder_person.jpg
 permalink: /people/rohit

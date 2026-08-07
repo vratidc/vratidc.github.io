@@ -3,7 +3,7 @@ layout: single
 title: Vyanjana Uikey
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20260513
+date: 20261002
 header:
     teaser: /assets/img/placeholder_person.jpg
 permalink: /people/vyanjana
@@ -14,7 +14,7 @@ fullpage: "no"
 links:
     - label: "Artstation"
       icon: "fab fa-fw fa-artstation"
-      url: ""
+      url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: ""
