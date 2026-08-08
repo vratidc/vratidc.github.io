@@ -5,103 +5,103 @@ main:
      active: "yes"
      content: "Outcomes of the course 'Design for XR' - Spring 2026"
      link: /de712-showcase-2026
-     teaser: /assets/img/updates/icon_showcase_xr_2026.jpg
+     teaser: /assets/img/updates/course/icon_showcase_xr_2026.jpg
      fullpage: "yes"
    - title: "Design for XR - Spring 2026"
      date: "09/02/2026"
      active: "yes"
      content: "Course (09 Feb - 06 Mar 2026)"
      link: /de712-course-2026
-     teaser: /assets/img/updates/icon_imd1.jpg
+     teaser: /assets/img/updates/course/icon_course_XR_2026.jpg
      fullpage: "yes"
    - title: "Project Showcase 2025 - Design for VR"
      date: "29/08/2025"
      active: "yes"
      content: "Outcomes of the course 'Design for VR' - Autumn 2025"
      link: /de677-showcase-2025
-     teaser: /assets/img/updates/icon_showcase_de677_2025.jpg
+     teaser: /assets/img/updates/course/icon_showcase_de677_2025.jpg
      fullpage: "yes"  
    - title: "DE677 - Design for VR - Autumn 2025"
      date: "23/08/2025"
      active: "yes"
      content: "Course (18 - 29 Aug 2025)"
      link: /de677-course-2025
-     teaser: /assets/img/updates/icon_placeholder.jpg
+     teaser: /assets/img/updates/course/icon_course_VR_2025.jpg
      fullpage: "yes"
    - title: "Project Showcase 2025 - Design for XR"
      date: "06/03/2025"
      active: "yes"
      content: "Outcomes of the course 'Design for XR' - Spring 2025"
      link: /de712-showcase-2025
-     teaser: /assets/img/updates/icon_showcase_xr_2025.jpg
+     teaser: /assets/img/updates/course/icon_showcase_xr_2025.jpg
      fullpage: "yes"
    - title: "Design for XR - Spring 2025"
      date: "01/02/2025"
      active: "yes"
      content: "Course (10 Feb - 07 Mar 2025)"
      link: /de712-course-2025
-     teaser: /assets/img/updates/icon_imd1.jpg
+     teaser: /assets/img/updates/course/icon_course_XR_2025.jpg
      fullpage: "yes"     
    - title: "Project Showcase 2024 - Design for VR"
      date: "06/09/2024"
      active: "yes"
      content: "Outcomes of the course 'Design for VR' - Autumn 2024"
      link: /de677-showcase-2024
-     teaser: /assets/img/updates/icon_showcase_de677_2024.jpg
+     teaser: /assets/img/updates/course/icon_showcase_de677_2024.jpg
      fullpage: "yes"     
    - title: "DE677 - Design for VR - Autumn 2024"
      date: "23/08/2024"
      active: "yes"
      content: "Course (26 Aug - 06 Sep 2024)"
      link: /de677-course-2024
-     teaser: /assets/img/updates/icon_placeholder.jpg
+     teaser: /assets/img/updates/course/icon_course_VR_2024.jpg
      fullpage: "yes"
    - title: "Project Showcase 2024 - Design for XR"
      date: "23/02/2024"
      active: "yes"
      content: "Outcomes of the course 'Design for XR' - Spring 2024"
      link: /de712-showcase-2024
-     teaser: /assets/img/updates/icon_showcase_xr_2024.jpg
+     teaser: /assets/img/updates/course/icon_showcase_xr_2024.jpg
      fullpage: "yes"
    - title: "Design for XR - Spring 2024"
      date: "05/02/2024"
      active: "yes"
      content: "Course (05 - 23 Feb 2024)"
      link: /de712-course-2024
-     teaser: /assets/img/updates/icon_imd.jpg
+     teaser: /assets/img/updates/course/icon_course_XR_2024.jpg
      fullpage: "yes"
    - title: "DESIGN + AI - Autumn 2023"
      date: "30/11/2023"
      active: "yes"
      content: "Outcomes of the course 'Trends in IxD' - Autumn 2023"
      link: /de630-course-2023
-     teaser: /assets/img/updates/icon_ai_in_design.png
+     teaser: /assets/img/updates/course/icon_ai_in_design.jpg
      fullpage: "yes"
    - title: "Project Showcase 2023 - Design for VR"
      date: "08/09/2023"
      active: "yes"
      content: "Outcomes of the course 'Design for VR' - Autumn 2023"
      link: /de677-showcase-2023
-     teaser: /assets/img/updates/icon_showcase_de677_2023.jpg
+     teaser: /assets/img/updates/course/icon_showcase_de677_2023.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR - Autumn 2023"
      date: "07/07/2023"
      active: "yes"
      content: "Course (28 Aug - 08 Sep 2023)"
      link: /de677-course-2023
-     teaser: /assets/img/updates/icon_placeholder.jpg
+     teaser: /assets/img/updates/course/icon_course_VR_2023.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR - Autumn 2022"
      date: "12/09/2022"
      active: "yes"
      content: "Course (12 Sep - 23 Sep 2022)"
      link: /de677-course-2022
-     teaser: /assets/img/updates/icon_placeholder.jpg
+     teaser: /assets/img/updates/course/icon_course_VR_2022.jpg
      fullpage: "yes"
    - title: "DE677 - Design for VR - Autumn 2021"
      date: "23/08/2021"
      active: "yes"
      content: "Course (23 Aug - 3 Sep 2021)"
      link: /de677-course-2021
-     teaser: /assets/img/updates/icon_placeholder.jpg
+     teaser: /assets/img/updates/course/icon_course_VR_2021.jpg
      fullpage: "yes"

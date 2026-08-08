@@ -40,7 +40,7 @@ main:
      active: "yes"
      content: "Outcomes of the course 'Media Technology' - Autumn 2023"
      link: /de621-course-2023
-     teaser: /assets/img/updates/icon_media-tech.jpg
+     teaser: /assets/img/updates/course/icon_media-tech.jpg
      fullpage: "yes"
    - title: "Student Project 'Fina' showcased at Laval Virtual 2023"
      date: "12/04/2023"
