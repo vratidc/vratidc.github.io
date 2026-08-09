@@ -1,5 +1,14 @@
 # main links
 main: 
+   - title: "Megh Mallika Bora"
+     url: ttps://www.linkedin.com/in/meghmallikabora123/
+     photo: /assets/img/people/imxd_people_megh.jpg
+   - title: "Akshay R Nair"
+     url: https://www.linkedin.com/in/akshayyrr/
+     photo: /assets/img/people/imxd_people_akshaynair.jpg
+   - title: "Kanak Kothawale"
+     url: https://www.linkedin.com/in/kanak-kothawale-135094235/
+     photo: /assets/img/people/imxd_people_KanakKothawale.jpg
    - title: "Sarayu Sree Mandala"
      url: https://www.linkedin.com/in/sarayu-sree-mandala-a94691275/
      photo: /assets/img/people/imxd_people_sarayu.jpg
