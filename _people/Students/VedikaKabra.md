@@ -17,7 +17,7 @@ links:
       url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: ""
+      url: "https://www.linkedin.com/in/vedika-kabra-88914427b/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
       url:
