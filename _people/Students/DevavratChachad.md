@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Devavrat Chachad
-position: Master's Student (Interaction Design)
+position: Master's Student (Animation)
 role: "student"
 date: 20251001
 header:
@@ -20,7 +20,7 @@ links:
       url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: ""
+      url: "https://www.linkedin.com/in/devavrat-chachad-b959222b6/"
       
 ---
 

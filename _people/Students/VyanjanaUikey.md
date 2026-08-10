@@ -17,7 +17,7 @@ links:
       url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: ""
+      url: "https://www.linkedin.com/in/vyanjana/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
       url:

@@ -20,7 +20,7 @@ links:
       url: 
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: ""
+      url: "https://www.linkedin.com/in/rohit-waghmare-a47a35207/"
       
 ---
 

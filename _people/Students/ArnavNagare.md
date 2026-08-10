@@ -17,7 +17,7 @@ links:
       url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: ""
+      url: "https://www.linkedin.com/in/arnav-nagare-707b5b211/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram-square"
       url:
