@@ -25,5 +25,5 @@ links:
 ---
 
 ## Devavrat Chachad
-Master's Student - Interaction Design
+Master's Student - Animation
 
