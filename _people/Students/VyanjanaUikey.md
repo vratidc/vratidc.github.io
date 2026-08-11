@@ -5,7 +5,7 @@ position: Master's Student (Interaction Design)
 role: "student"
 date: 20261002
 header:
-    teaser: /assets/img/placeholder_person.jpg
+    teaser: assets/img/people/imxd_people_VyanjanaUikey.jpg
 permalink: /people/vyanjana
 type: people
 modal : "no"
