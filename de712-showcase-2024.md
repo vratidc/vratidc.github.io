@@ -7,6 +7,6 @@ collection: projects
 entries_layout: grid
 
 header:
-    teaser: /assets/img/updates/icon_showcase_xr_2024.jpg
+    teaser: /assets/img/updates/course/icon_showcase_xr_2024.jpg
 
 ---

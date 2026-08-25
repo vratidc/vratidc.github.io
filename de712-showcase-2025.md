@@ -10,6 +10,6 @@ categories: course
 tags: workshop xr
 
 header:
-    teaser: /assets/img/updates/icon_showcase_xr_2025.jpg
+    teaser: /assets/img/updates/course/icon_showcase_xr_2025.jpg
 
 ---
