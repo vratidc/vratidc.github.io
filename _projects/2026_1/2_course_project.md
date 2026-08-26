@@ -1,7 +1,7 @@
 ---
-title: "Project Title"
-team: "Team member, Team member, Team member, Team member"
-tags: MR Quest Unity Locomotion-Type Interaction-Type
+title: "Spatial Portfolio"
+team: "Karthiga R, Jay Panchal, Navjot Singh, Jobel Joseph"
+tags: MR Quest Unity Room-scale-Movement Application
 
 video_provider: "youtube"
 video_id:

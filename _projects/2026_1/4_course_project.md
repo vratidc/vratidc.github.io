@@ -1,7 +1,7 @@
 ---
-title: "Project Title"
-team: "Team member, Team member, Team member, Team member"
-tags: VR Quest Unity Locomotion-Type Interaction-Type
+title: "Island Toss"
+team: "Sagnik Ghosh, Kaustubh Kaushal, Yuva Gharat, Aakanksha Singh"
+tags: VR Quest Unity Room-scale-Movement Muliplayer-Game 
 
 video_provider: "youtube"
 video_id:

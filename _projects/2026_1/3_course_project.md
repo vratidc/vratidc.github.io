@@ -1,7 +1,7 @@
 ---
-title: "Project Title"
-team: "Team member, Team member, Team member, Team member"
-tags: VR Quest Unity Locomotion-Type Interaction-Type
+title: "Finders Keepers"
+team: "Abhishek Kumar, Antony Prakash, Abu Pargavi"
+tags: VR Quest Unity Teleportation Game
 
 video_provider: "youtube"
 video_id:

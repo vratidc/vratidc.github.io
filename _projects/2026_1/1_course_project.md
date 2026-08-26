@@ -1,7 +1,7 @@
 ---
-title: "Project Title"
-team: "Team member, Team member, Team member, Team member"
-tags: VR Quest Unity Locomotion-Type Interaction-Type
+title: "Anatomy of a Loss"
+team: "Aman Kumar, Devavrat Chachad, Parimal Chahande, Aiman Aslam"
+tags: VR Quest Unity Room-scale-Movement Narrative
 
 video_provider: "youtube"
 video_id:
