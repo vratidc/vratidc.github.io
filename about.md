@@ -14,7 +14,7 @@ The IMXD Lab is a design and research space dedicated to exploring the creative 
   <img class="levitate" src="{{ site.url }}{{ site.baseurl }}/assets/img/about/imxd_icon.png" alt="IMXD_icon">
 </figure> 
 
-Currently the lab is headed by [Prof. Jayesh Pillai](https://www.idc.iitb.ac.in/people/faculty/pillai-jayesh){:target="_blank"}. Know more about the reasearch team and lab members [here](/people).
+Currently the lab is headed by [Prof. Jayesh Pillai](https://www.idc.iitb.ac.in/people/faculty/pillai-jayesh){:target="_blank"}. Know more about the research team and lab members [here](/people).
 <br><br>
 
 ## Timeline

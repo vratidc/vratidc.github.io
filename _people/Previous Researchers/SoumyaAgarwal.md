@@ -1,12 +1,12 @@
 ---
 layout: single
 title:  Soumya Agarwal
-position: MDes, Research Scholar
-role: "team"
+position: M.Des by Research
+role: "pastresearcher"
 date: 20230726
 header:
     teaser: /assets/img/people/imxd_people_soumyaagarwal.jpg
-permalink: 
+permalink: /people/soumya
 type: people
 fullpage: "no"
 modal: "no"
@@ -14,9 +14,9 @@ modalname: "soumya"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:entermailhere
-    - label: "Portfolio"
-      icon: "fab fa-fw fa-behance"
+      #url: "mailto:entermailhere"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
       url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -27,6 +27,7 @@ links:
       
 ---
 
-## Soumya Agarwal
-M.Des by Research(2024-26)
+
+M.Des by Research
+
 
