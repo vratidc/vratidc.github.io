@@ -7,7 +7,7 @@ video_provider: "youtube"
 video_id:
 
 header:
-    teaser: /assets/img/projects/2026_1/course_project_1.jpg
+    teaser: /assets/img/projects/2026_1/course_project_3.jpg
 
 overview: Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. Your Project synopsis. </br></br>
 
