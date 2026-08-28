@@ -1,5 +1,5 @@
 ---
-title: "Anatomy of a Suicide"
+title: "Inheritance of Grief"
 team: "Aman Kumar, Devavrat Chachad, Parimal Chahande, Aiman Aslam"
 tags: VR Quest Unity Room-scale-Movement Narrative
 
