@@ -29,8 +29,8 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
       <div id="t_image"><img src="/assets/img/about/about_timeline6.jpg"></div> 
       <div id="t_text">
       <h3>2025</h3>
-      <p>• Collaboration with 'Maharashtra Drone Mission' Project<br>
-         • Collaboration with Nanavati Hospital for 'VRET for MRI'<br></p>
+      <p>• Collaboration with the 'Maharashtra Drone Mission' Project<br>
+         • Collaboration with Nanavati Hospital on 'VRET for MRI'<br></p>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
       <div id="t_text">
       <h3>2023-2024</h3>
       <p>• Received the lab-space<br>
-         • Lab shifted to RBTIC Building<br>
+         • Lab shifted to the RBTIC Building<br>
          • Project 'Into the Manhole' initiated</p>
       </div>
     </div>

@@ -73,9 +73,9 @@ This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the 
 
 ## VR Narrative
 
-In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers a six degrees-of-freedom that allows audiences to explore stories from multiple perspectives and move within the story environment. This shift from passive observation to active participation poses both opportunities and challenges for narrative creators. Among the projects exploring this new frontier is "Into the Manhole" a work that attempts to merge the boundaries of film and interactive experience.
+In the evolving landscape of film and storytelling, Virtual Reality (VR) is emerging as a transformative medium. Unlike traditional films constrained by a static frame, VR offers six degrees of freedom, allowing audiences to explore stories from multiple perspectives and move within the story environment. This shift from passive observation to active participation poses both opportunities and challenges for narrative creators. Among the projects exploring this new frontier is "Into the Manhole" a work that attempts to merge the boundaries of film and interactive experience.
 
-A detailed documentaion of our design process and techincal pipeline will be updated soon.
+A detailed documentation of our design process and technical pipeline will be updated soon.
 <br><br>
 
 <!-- 360-degree image embed. -->

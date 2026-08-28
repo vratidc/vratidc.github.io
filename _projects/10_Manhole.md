@@ -249,7 +249,7 @@ While we initially planned to use baked lighting for performance reasons, certai
 
 Sounds, Especially in a spatial VR experience, plays a crucial role but it also adds to performance load. We initially used 16-bit and 32-bit WAV files, but quickly realized that wasn’t sustainable for Quest-level deployment. We therefore optimized audio by compressing non-essential sound elements to 8-bit, while maintaining 16-bit quality for key audio elements like dialogue tracks from the protagonist and other narrative-critical moments. This tiered approach helped us balance quality and performance while ensuring emotional moments retained their impact.\\
 
-#### Platform-specific compromisations (Quest)
+#### Platform-specific compromises (Quest)
 
 The heaviest bottlenecks came from using MetaHumans and Megascans assets, both of which were too resource-intensive for VR. As a result, we undertook extensive asset reductions optimizing every model for real-time rendering. Several features typically used in high-end rendering such as Lumen, bloom, and complex post-process effects were selectively disabled or limited. While this affected visual fidelity, these compromises were essential for maintaining frame stability on the Quest’s mobile GPU. The current PC VR build version does reflect some visual compromises, a tradeoff we’ve accepted in favor of smoother performance.
 

@@ -25,7 +25,7 @@ drop an email to: [hello@imxd.in](mailto:hello@imxd.in?subject=Hello IMXD team!)
 
 **Internship at IMXD Lab**
 
-Each year, we accept a select number of intern students based on the ongoing projects in the lab. Prospective intern students may reach out to us through email.
+Each year, we accept a select number of student interns based on the lab's ongoing projects in the lab. Prospective interns may reach out to us by email
 
 One of the options to apply is through the [IIT Bombay Research Internship Awards](https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/){:target="_blank"} program. The interns get the opportunity to work with us during the Spring Semester (January to June). Applications for this program typically open around August to September.
 

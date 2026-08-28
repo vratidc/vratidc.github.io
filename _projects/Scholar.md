@@ -79,7 +79,7 @@ flexgallery3:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/Scholar/scholar_school2.jpg" alt="Students using ScholAR">
 </figure> 
 
-This project began as a doctoral research work in the year 2017, by Pratiti Sarkar. This project was currently funded by Tata Centre for Technology and Design, IIT Bombay, with Prof. Jayesh Pillai as the principle investigator. 
+This project began as a doctoral research work in the year 2017, by Pratiti Sarkar. This project was currently funded by Tata Centre for Technology and Design, IIT Bombay, with Prof. Jayesh Pillai as the principal investigator. 
 
 See Pratiti's PhD research journey here: [pratitisarkar.github.io/research](https://pratitisarkar.github.io/research.html){:target="_blank"}.
 

@@ -49,7 +49,7 @@ gallery2:
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/updates/itm_updates/ITM_ficci_1.jpg" alt="Into the Manhole - FICCI Award 2025">
-  <figcaption>Shiva Teja (Techincal Director) & Ananda (Sound Designer) receiving the FICCI Award 2025</figcaption>
+  <figcaption>Shiva Teja (Technical  Director) & Ananda (Sound Designer) receiving the FICCI Award 2025</figcaption>
 </figure>
 
 <br>
