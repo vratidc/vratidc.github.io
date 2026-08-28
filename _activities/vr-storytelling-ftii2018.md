@@ -7,7 +7,7 @@ authors: "Jayesh Pillai, Azif Ismail and Amal Dev"
 year: "2018"
 date: 2018-05-31
 
-venue: "Art Direction & Production Design (Workshop) & Film Appriciation course (Talk) - Film and Television Institute of India (FTII) Pune"
+venue: "Art Direction & Production Design (Workshop) & Film Appreciation course (Talk) - Film and Television Institute of India (FTII) Pune"
 excerpt: Workshop & Invited Talk at FTII
 homepage: "no"
 fullpage: "yes"
@@ -20,8 +20,8 @@ flexgallery1:
   - aspect: "0.7069"
     url: assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg
     image_path: /assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg
-    alt: "Film Appriciation course, FTII"
-    title: "Film Appriciation course, FTII"
+    alt: "Film Appreciation course, FTII"
+    title: "Film Appreciation course, FTII"
   - aspect: "2.0"
     url: /assets/img/publications/workshops/ftii2018/ftii_workshop.jpg
     image_path: /assets/img/publications/workshops/ftii2018/ftii_workshop.jpg
