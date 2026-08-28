@@ -1,5 +1,5 @@
 ---
-title: "Heisy Feisty"
+title: "Heisty Feisty"
 team: "Abhishek Kumar, Antony Prakash, Abu Pargavi"
 tags: VR Quest Unity Teleportation Game
 

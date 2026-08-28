@@ -9,7 +9,7 @@ video_id:
 header:
     teaser: /assets/img/projects/2026_1/course_project_2.jpg
 
-overview: Project explores the use of Virtual Reality (VR) as an immersive presentation tool for automotive and industrial design, where understanding form, scale, proportion, surface quality, and design details is critical to evaluating the final outcome. Traditional presentation methods and physical prototypes often limit the viewer’s ability to experience a product at its intended scale, while full-scale prototypes can be time-consuming and resource-intensive to develop. This application allows designers and viewers to experience and evaluate digital products in an immersive 1:1 environment, creating a deeper understanding of the design and its physical presence.</br></br>
+overview: Traditional portfolios for automotive and industrial design rely heavily on 2D images, renders, and physical prototypes, making it difficult to understand a product’s true scale, form, proportion, surface quality, and spatial presence.</br></br>This application provides a full-scale VR experience, enabling designers and viewers to explore and evaluate products in an immersive, realistic environment. It also helps users understand the design process, inspiration, CMF, and the thinking behind the final product.</br></br>
 
 project-link:
 
