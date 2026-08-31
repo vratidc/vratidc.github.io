@@ -128,9 +128,12 @@ entries_layout: grid
 }
 
 .site-card,
+.site-card:visited,
 .site-card:hover,
+.site-card:active,
 .site-card * {
   text-decoration: none !important;
+  color: inherit !important;
 }
 
 .site-card {
@@ -138,7 +141,6 @@ entries_layout: grid
   border-radius: 17px;
   background: #fff;
   padding: 24px 20px 20px;
-  color: inherit;
   display: grid;
   grid-template-columns: 44px 1fr;
   grid-template-rows: auto auto auto;
