@@ -2,6 +2,9 @@
    Current Openings — listing page (/currentopenings)
    ========================================================================== */
 
+/* Scoped via the `classes: openings-index` front-matter hook (see currentopenings.md).
+   #page-title is the theme's global title id, shared by every `single`-layout page —
+   overriding it unscoped here would resize every other page's title too. */
 .openings-index #page-title {
   font-size: 28px !important;
   margin-bottom: 0 !important;
@@ -15,6 +18,9 @@
   margin-bottom: 48px;
 }
 
+/* !important + explicit :visited/:active states are required here — the theme's
+   own a:visited rule (see _base.scss) is more specific than a plain .opening-card
+   rule and will otherwise underline/recolor a previously-clicked card. */
 .opening-card,
 .opening-card:visited,
 .opening-card:hover,
@@ -132,6 +138,11 @@
   margin: 0;
 }
 
+.openings-closing p a {
+  color: #087f5b;
+  font-weight: 600;
+}
+
 @media (max-width: 600px) {
   .opening-card {
     flex-wrap: wrap;
@@ -143,6 +154,9 @@
    Current Openings — detail page (/currentopenings/<slug>)
    ========================================================================== */
 
+/* Named .opening-detail (not .opening-card) deliberately — the listing page above
+   already uses .opening-card for its own, differently-structured link rows. Reusing
+   that name here would collide once both are compiled into one global stylesheet. */
 .opening-detail {
   max-width: 760px;
   border: 1px solid #e5e7e9;

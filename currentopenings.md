@@ -5,6 +5,9 @@ layout: single
 classes: openings-index
 ---
 
+<!-- Each opening is a single <a> card linking to its own detail page under /openings/.
+     To add a new opening: copy one card block below, update the href, icon, title, and
+     meta pills, then create the matching detail page in the openings/ directory. -->
 <div class="openings-list">
 
   <a class="opening-card" href="/currentopenings/3d-environment-design">
@@ -18,6 +21,7 @@ classes: openings-index
     <div class="opening-summary-text">
       <span class="opening-type-tag">Internship</span>
       <h2>3D Environment Design and Assets Creation for Real-time Virtual Reality Experience</h2>
+      <!-- Stipend / duration / apply-by, in that fixed order -->
       <div class="opening-meta">
         <span>₹15,000/month</span>
         <span>Jan – Jun 2027</span>
@@ -50,7 +54,8 @@ classes: openings-index
 
 </div>
 
+<!-- Shown regardless of whether any openings are listed above -->
 <div class="openings-closing">
   <h3>Don't see a fit?</h3>
-  <p>Reach out to us directly — we're always happy to hear from students and researchers interested in the lab's work, even outside a listed opening.</p>
+  <p><a href="/contact">Reach out to us directly</a> — we're always happy to hear from students and researchers interested in the lab's work, even outside a listed opening.</p>
 </div>

@@ -5,11 +5,15 @@ layout: single
 hidetitle: "true"
 ---
 
+<!-- hidetitle suppresses the theme's auto-rendered #page-title so we can control
+     heading placement ourselves (see .opening-title below) instead of it being
+     forced above this content by the layout. -->
 <div class="opening-detail">
 
   <span class="opening-tag">IIT Bombay Research Internship Award</span>
   <h1 class="opening-title">Developing a Real-Time Virtual Reality 6DoF Narrative</h1>
 
+  <!-- Quick-facts row: Mentor / Duration / Stipend / Apply-by, always in this order -->
   <div class="opening-stats">
     <div class="stat">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></svg>
@@ -43,8 +47,11 @@ hidetitle: "true"
 
   <p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Computer Science, Multimedia and Gaming, Animation &amp; VFX, Design or related fields.</p>
 
+  <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
   <p class="opening-portal-note">Know the full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">how to apply</a> on the official IITB Internship Award portal.</p>
 
+  <!-- HRMSRegister.jsp is the actual "New Applicants Register here" form — the real
+       start of the application, not just the portal's generic landing page. -->
   <a class="opening-apply-btn" href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HRMSRegister.jsp" target="_blank" rel="noopener">Start Your Application &rarr;</a>
 
 </div>

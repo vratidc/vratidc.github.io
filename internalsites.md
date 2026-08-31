@@ -127,6 +127,9 @@ entries_layout: grid
   gap: 47px 24px;
 }
 
+/* !important + explicit :visited/:active states are required — the theme's own
+   a:visited rule is more specific than a plain .site-card rule and will otherwise
+   underline/recolor a previously-clicked card. */
 .site-card,
 .site-card:visited,
 .site-card:hover,
