@@ -1,6 +1,6 @@
 ---
 title: Current Openings
-permalink: /currentopenings
+permalink: /openings
 layout: single
 classes: openings-index
 ---
@@ -10,7 +10,7 @@ classes: openings-index
      meta pills, then create the matching detail page in the openings/ directory. -->
 <div class="openings-list">
 
-  <a class="opening-card" href="/currentopenings/3d-environment-design">
+  <a class="opening-card" href="/openings/3d-environment-design">
     <div class="opening-icon">
       <svg viewBox="0 0 48 48" aria-hidden="true">
         <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
@@ -31,7 +31,7 @@ classes: openings-index
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
   </a>
 
-  <a class="opening-card" href="/currentopenings/6dof-narrative">
+  <a class="opening-card" href="/openings/6dof-narrative">
     <div class="opening-icon">
       <svg viewBox="0 0 48 48" aria-hidden="true">
         <rect x="7" y="17" width="34" height="16" rx="7"></rect>
@@ -56,6 +56,6 @@ classes: openings-index
 
 <!-- Shown regardless of whether any openings are listed above -->
 <div class="openings-closing">
-  <h3>Don't see a fit?</h3>
-  <p><a href="/contact">Reach out to us directly</a> — we're always happy to hear from students and researchers interested in the lab's work, even outside a listed opening.</p>
+  <h3>No Suitable Opening?</h3>
+  <p>Students and researchers interested in the lab's work are welcome to <a href="/contact">contact us directly</a>, even in the absence of a listed opening.</p>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: 3D Environment Design and Assets Creation for Real-time Virtual Reality Experience
-permalink: /currentopenings/3d-environment-design
+permalink: /openings/3d-environment-design
 layout: single
 hidetitle: "true"
 ---
@@ -33,23 +33,23 @@ hidetitle: "true"
     </div>
   </div>
 
-  <p class="opening-lede">You'll build 3D environments and real-time-ready assets for an ongoing VR narrative — low-poly, stylised worlds designed to feel immersive in six degrees of freedom, not just look good in a still render.</p>
+  <p class="opening-lede">This project involves the design, optimisation, and implementation of 3D environments and real-time-ready assets for an ongoing virtual reality narrative — low-poly, stylised worlds intended to support immersion in six degrees of freedom, rather than static visual quality alone.</p>
 
-  <h2>What you'll do</h2>
-  <p>Model, texture, and optimise 3D assets and environments for a real-time VR narrative, working closely with the project's artistic and technical direction. You'll iterate through feedback cycles, help shape how a semi-realistic, 2D-inspired look translates into a fully explorable 3D space, and see your work integrated into an actual production pipeline — not a standalone exercise.</p>
+  <h2>Role Overview</h2>
+  <p>The intern will model, texture, and optimise 3D assets and environments for a real-time VR narrative, working closely with the project's artistic and technical direction. Responsibilities include iterative refinement based on feedback, contributing to the translation of a semi-realistic, 2D-inspired visual style into a fully explorable 3D space, and integration of assets into an active production pipeline.</p>
 
-  <h2>You'll be a good fit if</h2>
+  <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
-    <li>You're comfortable in the 3D pipeline — modelling, texturing, basic animation — in Maya, Blender, or Substance Painter.</li>
-    <li>You have some familiarity with Unity or Unreal and real-time rendering.</li>
-    <li>You can sketch, draw, or work with a tablet for animatics and prototyping.</li>
-    <li>You're curious about low-poly optimisation, spatial sound, or AI-assisted 3D tools (Meshy, Claude, Creality) — even if you haven't used them yet.</li>
+    <li>Working knowledge of the 3D pipeline, including modelling, texturing, and basic animation, using tools such as Maya, Blender, or Substance Painter.</li>
+    <li>Familiarity with Unity or Unreal Engine and real-time rendering workflows.</li>
+    <li>Ability to sketch or work with a drawing tablet for animatics and prototyping.</li>
+    <li>Interest in low-poly optimisation, spatial sound design, or AI-assisted 3D tools (such as Meshy, Claude, or Creality), prior experience not required.</li>
   </ul>
 
   <p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Design, Animation &amp; VFX, or related fields.</p>
 
   <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
-  <p class="opening-portal-note">Know the full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">how to apply</a> on the official IITB Internship Award portal.</p>
+  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official IITB Internship Award portal.</p>
 
   <!-- HRMSRegister.jsp is the actual "New Applicants Register here" form — the real
        start of the application, not just the portal's generic landing page. -->

@@ -1,8 +1,8 @@
 /* ==========================================================================
-   Current Openings — listing page (/currentopenings)
+   Current Openings — listing page (/openings)
    ========================================================================== */
 
-/* Scoped via the `classes: openings-index` front-matter hook (see currentopenings.md).
+/* Scoped via the `classes: openings-index` front-matter hook (see openings.md).
    #page-title is the theme's global title id, shared by every `single`-layout page —
    overriding it unscoped here would resize every other page's title too. */
 .openings-index #page-title {
@@ -151,7 +151,7 @@
 
 
 /* ==========================================================================
-   Current Openings — detail page (/currentopenings/<slug>)
+   Current Openings — detail page (/openings/<slug>)
    ========================================================================== */
 
 /* Named .opening-detail (not .opening-card) deliberately — the listing page above
@@ -280,6 +280,17 @@
   margin: 24px 0 0;
   padding-top: 20px;
   border-top: 1px solid #eee;
+}
+
+.opening-detail .opening-portal-note {
+  font-size: 15px;
+  color: #70757a;
+  margin: 8px 0 0;
+}
+
+.opening-detail .opening-portal-note a {
+  color: #087f5b;
+  font-weight: 600;
 }
 
 .opening-apply-btn,
