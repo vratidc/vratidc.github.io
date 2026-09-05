@@ -67,7 +67,7 @@ gallery2:
   <figcaption>The directors, Abhishek & Jayesh receiving the Laval Virtual Award 2026</figcaption>
 </figure>
 
-  {% include gallery id="gallery2" caption="'Into the Manhole' was presented at Laval Virtual 2026 in the #Expeirience section"%}
+  {% include gallery id="gallery2" caption="'Into the Manhole' was presented at Laval Virtual 2026 in the #Experience section"%}
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 <br>

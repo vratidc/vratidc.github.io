@@ -13,9 +13,9 @@ tags: demo laval-virtual
   <figcaption>At Laval Virtual 2025, (From left-top clockwise) Yash Karanjavkar, Hayat Tamboli, Sidharth Goutham, Yashwant Rawat, Tanmay Kuwalekar, Anumeha Patoria, Namit Tirkey </figcaption>
 </figure>
 
-Our students presented their projects 'Starmaze' and 'Manunaraagam' at the international XR event Laval Virtual 2025, France, held in April 2025. The projects were invited to participate in the [Student Demo Competitions](https://laval-virtual.com/en/students-demo-2/){:target="_blank"} at the event.
+Our students presented their projects 'Starmaze' and 'Maunaraagam' at the international XR event Laval Virtual 2025, France, held in April 2025. The projects were invited to participate in the [Student Demo Competitions](https://laval-virtual.com/en/students-demo-2/){:target="_blank"} at the event.
 
-These academic projects was conceptualised, designed, developed and tested within a two-week timeframe. The prototypes was created during the two-week course ‘Design for Virtual Reality’, in the Autumn semester of 2024, under the guidance of [Prof. Jayesh PIllai](http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh){:target="_blank"}.
+These academic projects were conceptualised, designed, developed and tested within a two-week timeframe. The prototypes were created during the two-week course ‘Design for Virtual Reality’, in the Autumn semester of 2024, under the guidance of [Prof. Jayesh Pillai](http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh){:target="_blank"}.
 <br><br>
 
 <hr style="height:1px;border-width:0;background-color:#aaaaaa">

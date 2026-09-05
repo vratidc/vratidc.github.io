@@ -62,7 +62,7 @@ gallery1:
 
 ## Workshop
 
-The VR filmmaking workshop was an introductory workshop for the students of Art Direction & Production Design at FTII Pune. The students went through a hands-on process of creating a  360° film narrative, from pre-prodcution to experiencing.
+The VR filmmaking workshop was an introductory workshop for the students of Art Direction & Production Design at FTII Pune. The students went through a hands-on process of creating a  360° film narrative, from pre-production to experiencing.
 
 
 {% include gallery id="gallery1" layout="half" caption="Images from the Workshop" %}

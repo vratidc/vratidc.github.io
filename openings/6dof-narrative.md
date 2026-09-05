@@ -2,6 +2,7 @@
 title: Developing a Real-Time Virtual Reality 6DoF Narrative
 permalink: /openings/6dof-narrative
 layout: single
+author_profile: false
 hidetitle: "true"
 ---
 
@@ -36,7 +37,7 @@ hidetitle: "true"
   <p class="opening-lede">This project involves the design and development of an experimental virtual reality narrative, exploring storytelling with six degrees of freedom (6DoF) — an experience in which the participant is not limited to observing the story environment, but can move through it in real time.</p>
 
   <h2>Role Overview</h2>
-  <p>The intern will prototype and test a real-time 6DoF VR narrative situated at the intersection of interactive gaming and film, working alongside the lab's research team on storytelling techniques, spatial design, and interaction. Where results are substantial, the outcome may be developed into a research paper. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging/" target="_blank">Belonging</a> and <a href="/projects/manhole2_itm/" target="_blank">Into the Manhole</a>.</p>
+  <p>The intern will prototype and test a real-time 6DoF VR narrative situated at the intersection of interactive gaming and film, working alongside the lab's research team on storytelling techniques, spatial design, and interaction. Where results are substantial, the outcome may be developed into a research paper. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
 
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
@@ -48,7 +49,7 @@ hidetitle: "true"
   <p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Computer Science, Multimedia and Gaming, Animation &amp; VFX, Design or related fields.</p>
 
   <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
-  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official IITB Internship Award portal.</p>
+  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank" rel="noopener">IITB Internship Award portal</a>.</p>
 
   <!-- HRMSRegister.jsp is the actual "New Applicants Register here" form — the real
        start of the application, not just the portal's generic landing page. -->

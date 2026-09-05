@@ -2,6 +2,7 @@
 title: Current Openings
 permalink: /openings
 layout: single
+author_profile: false
 classes: openings-index
 ---
 

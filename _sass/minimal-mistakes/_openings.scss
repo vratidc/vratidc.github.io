@@ -145,7 +145,14 @@
 
 @media (max-width: 600px) {
   .opening-card {
-    flex-wrap: wrap;
+    position: relative;
+    padding-right: 44px;
+  }
+
+  .opening-chevron {
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
 }
 
@@ -328,6 +335,7 @@
 .opening-fit-list li {
   position: relative;
   padding-left: 26px;
+  font-size: 15px;
 }
 
 .opening-fit-list li::before {

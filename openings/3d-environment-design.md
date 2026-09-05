@@ -2,6 +2,7 @@
 title: 3D Environment Design and Assets Creation for Real-time Virtual Reality Experience
 permalink: /openings/3d-environment-design
 layout: single
+author_profile: false
 hidetitle: "true"
 ---
 
@@ -49,7 +50,7 @@ hidetitle: "true"
   <p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Design, Animation &amp; VFX, or related fields.</p>
 
   <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
-  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official IITB Internship Award portal.</p>
+  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank" rel="noopener">IITB Internship Award portal</a>.</p>
 
   <!-- HRMSRegister.jsp is the actual "New Applicants Register here" form — the real
        start of the application, not just the portal's generic landing page. -->
