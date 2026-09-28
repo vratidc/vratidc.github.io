@@ -26,7 +26,7 @@ classes: openings-index
       <div class="opening-meta">
         <span>₹15,000/month</span>
         <span>Jan – Jun 2027</span>
-        <span>Apply by Sep 23, 2026</span>
+        <span>Apply by Sep 29, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
@@ -47,7 +47,7 @@ classes: openings-index
       <div class="opening-meta">
         <span>₹15,000/month</span>
         <span>Jan – Jun 2027</span>
-        <span>Apply by Sep 23, 2026</span>
+        <span>Apply by Sep 29, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>

@@ -30,7 +30,7 @@ hidetitle: "true"
     </div>
     <div class="stat">
       <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4M16 3v4"></path></svg>
-      <div><span class="stat-label">Apply by</span><span class="stat-value">Sep 23, 2026</span></div>
+      <div><span class="stat-label">Apply by</span><span class="stat-value">Sep 29, 2026</span></div>
     </div>
   </div>
 
