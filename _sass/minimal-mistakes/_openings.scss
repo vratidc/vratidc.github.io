@@ -10,12 +10,27 @@
   margin-bottom: 0 !important;
 }
 
+/* Expanding a Past Openings card can push the page past the viewport
+   height, making the browser's scrollbar appear and shift the whole page
+   sideways. Reserving its space permanently avoids that jump. */
+.openings-index {
+  scrollbar-gutter: stable;
+}
+
 .openings-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 32px;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
+}
+
+.openings-past-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b7075;
+  margin: 40px 0 16px;
+  padding-top: 32px;
+  border-top: 1px solid #e5e7e9;
 }
 
 /* !important + explicit :visited/:active states are required here — the theme's
@@ -119,10 +134,105 @@
   transform: translateX(4px);
 }
 
+/* Closed openings stay listed (so the link still works and the project is
+   visible) but read as visually inactive at a glance — muted, no hover
+   lift, grayscale icon — rather than looking identical to an open one with
+   only the small status pill differing. */
+.opening-card--closed {
+  background: #fafafa;
+  border-color: #ebebeb;
+  cursor: default;
+  display: block;
+  padding: 0;
+}
+
+/* Past openings are a <details> — collapsed to just the title, expanding
+   on click to reveal the duration/stipend/deadline/status pills. */
+.opening-card--closed summary {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 24px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.opening-card--closed summary::-webkit-details-marker {
+  display: none;
+}
+
+.opening-card--closed summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  margin-left: auto;
+  color: #9aa0a6;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.opening-card--closed[open] summary::after {
+  content: "\2212";
+}
+
+.opening-card--closed .opening-summary-text h2 {
+  margin-bottom: 0;
+}
+
+.opening-card--closed .opening-meta {
+  padding: 0 24px 20px 86px;
+}
+
+@media (max-width: 600px) {
+  .opening-card--closed .opening-meta {
+    padding-left: 24px;
+  }
+}
+
+.opening-card--closed:hover {
+  transform: none;
+  border-color: #ebebeb;
+  box-shadow: none;
+}
+
+.opening-card--closed .opening-icon {
+  background: #eee;
+  color: #9aa0a6;
+}
+
+.opening-card--closed .opening-type-tag {
+  color: #8a8f94;
+  background: #eee;
+}
+
+.opening-card--closed h2 {
+  color: #6b7075;
+}
+
+.opening-card--closed .opening-chevron {
+  color: #c4c8cc;
+}
+
+.opening-card--closed:hover .opening-chevron {
+  transform: none;
+}
+
+.opening-closed-tag {
+  color: #8a3b2f !important;
+  background: #fbeae7 !important;
+  font-weight: 600;
+}
+
 .openings-closing {
   border-top: 1px solid #e5e7e9;
   padding-top: 32px;
   max-width: 680px;
+}
+
+/* Only needed when this is the very first thing on the page (no preceding
+   sibling to collapse margins with) — otherwise the gap above it is set
+   by whatever comes before (see .openings-list), not by this element. */
+.openings-closing:first-child {
+  margin-top: 24px;
 }
 
 .openings-closing h3 {
@@ -138,13 +248,21 @@
   margin: 0;
 }
 
+.openings-closing p + p {
+  margin-top: 10px;
+}
+
 .openings-closing p a {
   color: #087f5b;
   font-weight: 600;
 }
 
+.openings-closing + .openings-closing {
+  margin-top: 32px;
+}
+
 @media (max-width: 600px) {
-  .opening-card {
+  .opening-card:not(.opening-card--closed) {
     position: relative;
     padding-right: 44px;
   }
@@ -198,7 +316,7 @@
 
 .opening-stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 16px;
   padding: 20px 0;
   border-top: 1px solid #eee;
@@ -221,6 +339,20 @@
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+/* The compensation icon uses an actual ₹ glyph rather than a hand-drawn
+   path, so it needs a filled (not stroked) circle and text. */
+.stat-icon-rupee circle {
+  stroke: #087f5b;
+}
+
+.stat-icon-rupee text {
+  fill: #087f5b;
+  stroke: none;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: inherit;
 }
 
 .stat div {
@@ -318,6 +450,16 @@
   margin-top: 24px;
 }
 
+.opening-apply-note {
+  font-size: 14px;
+  color: #40474d;
+  margin: 20px 0 0;
+}
+
+.opening-apply-note + .opening-apply-btn {
+  margin-top: 10px;
+}
+
 .opening-apply-btn:hover {
   background: #066a4c;
 }
@@ -325,6 +467,26 @@
 .opening-apply-btn:focus-visible {
   outline: 2px solid #087f5b;
   outline-offset: 3px;
+}
+
+/* Closed detail pages keep the deadline visible as-is, but mute the
+   branded green tag pill and replace the apply button with a plainly
+   non-interactive notice, so the page still reads as "this one's done". */
+.opening-detail--closed .opening-tag {
+  color: #8a8f94;
+  background: #eee;
+}
+
+.opening-closed-note {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #70757a;
+  background: #f4f5f5;
+  border: 1px dashed #d8dfdc;
+  border-radius: 8px;
+  padding: 12px 22px;
+  margin-top: 24px;
 }
 
 .opening-fit-list {

@@ -12,10 +12,11 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
 <div class="ar-hero">
   <h1>Unity + Vuforia: Building Marker-Based AR</h1>
   <p>A walkthrough of how a Unity application recognises a hand-drawn marker and overlays 3D content on it in real time — the underlying concepts explained in the technology tree below, then the full build pipeline, with the reasoning behind each step. Built as a live reference for walking an audience through a practical AR demonstration.</p>
-  <nav class="ar-jumpnav">
+  <nav class="ar-jumpnav" aria-label="Page sections">
     <a href="#tree">Technology Tree</a>
+    <a href="#why-these-tools">Why Unity + Vuforia</a>
     <a href="#flow">Build Flow</a>
-    <a href="#why-these-tools">Why These Tools</a>
+    <a href="#faq">Common Issues</a>
   </nav>
 </div>
 
@@ -25,7 +26,7 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
 <div class="ar-tree-wrap">
 
   <div class="ar-tree-canvas" id="ar-tree-canvas">
-    <svg class="ar-tree-lines" id="ar-tree-lines"></svg>
+    <svg class="ar-tree-lines" id="ar-tree-lines" aria-hidden="true"></svg>
 
     <div class="ar-tree-level ar-tree-level--root">
       <button type="button" class="ar-node ar-node-root" data-id="root">AR</button>
@@ -71,9 +72,15 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
 
   <aside class="ar-detail-panel">
     <p class="ar-detail-hint">Click any node to see what it is</p>
-    <div class="ar-detail-panel-content" id="ar-detail-panel"></div>
+    <div class="ar-detail-panel-content" id="ar-detail-panel" aria-live="polite"></div>
   </aside>
 
+</div>
+
+<h2 class="ar-section-title" id="why-these-tools">Why Unity + Vuforia (and not something else)</h2>
+<div class="ar-why-tools">
+  <p>Unity's mobile-first architecture and gentler C# learning curve make it faster to get running reliably on a phone than Unreal — what matters most for a live demo.</p>
+  <p>Vuforia is one of the most established marker-tracking SDKs, predating ARKit/ARCore, and works the same way across Android and iOS from one Unity project.</p>
 </div>
 
 <h2 class="ar-section-title" id="flow">The Full Build Flow</h2>
@@ -309,53 +316,37 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
 
       <div class="ar-step">
         <div class="ar-step-body">
-          <h3>7.1 Install the Platform's Build Support Module</h3>
-          <p>In Unity Hub, under your Unity install, click the gear icon → <strong>Add Modules</strong> and install <strong>Android Build Support</strong> (which bundles the Android SDK/NDK/OpenJDK) — or <strong>iOS Build Support</strong> if targeting iPhone/iPad.</p>
-          <p class="ar-why"><strong>Why:</strong> this is a one-time install separate from Unity itself. Skipping it is the most common reason "Android" or "iOS" doesn't even appear as an option in the next step.</p>
+          <h3>7.1 Open Build Profiles and Switch Platform</h3>
+          <p>Go to <strong>File → Build Profiles</strong> (this replaced the old "Build Settings" window in Unity 6), select <strong>Android</strong> in the Platform list, and click <strong>Switch Platform</strong>.</p>
         </div>
       </div>
 
       <div class="ar-step">
         <div class="ar-step-body">
-          <h3>7.2 Open Build Profiles and Switch Platform</h3>
-          <p>Go to <strong>File → Build Profiles</strong> (this replaced the old "Build Settings" window in Unity 6), select <strong>Android</strong> (or iOS) in the Platform list, and click <strong>Switch Platform</strong>.</p>
-        </div>
-      </div>
-
-      <div class="ar-step">
-        <div class="ar-step-body">
-          <h3>7.3 Configure Player Settings</h3>
-          <p>In the Build Profiles window, click <strong>Player Settings</strong>. For Android, under <strong>Other Settings</strong>: set the Package Name, set <strong>Minimum API Level</strong> to at least <strong>API 24 (Android 7.0)</strong> — check Vuforia's current minimum, since it can require higher — and set <strong>Scripting Backend</strong> to <strong>IL2CPP</strong> with <strong>Target Architectures</strong> including <strong>ARM64</strong>. Under <strong>Icon</strong>, set the app icon; under <strong>Resolution and Presentation</strong>, set the Default Orientation.</p>
+          <h3>7.2 Configure Player Settings</h3>
+          <p>In the Build Profiles window, click <strong>Player Settings</strong>. Under <strong>Other Settings</strong>: set the Package Name, set <strong>Minimum API Level</strong> to at least <strong>API 24 (Android 7.0)</strong> — check Vuforia's current minimum, since it can require higher — and set <strong>Scripting Backend</strong> to <strong>IL2CPP</strong> with <strong>Target Architectures</strong> including <strong>ARM64</strong>. Under <strong>Icon</strong>, set the app icon; under <strong>Resolution and Presentation</strong>, set the Default Orientation.</p>
           <p class="ar-why"><strong>Why:</strong> the Play Store has required 64-bit (ARM64) support for years, and Unity's Mono scripting backend can't target it — only IL2CPP can. Newer phones (Pixel 7 and later) are 64-bit only and can't run a 32-bit build at all, so skipping this doesn't just risk a Play Store rejection — it can mean the app won't install on current hardware.</p>
         </div>
       </div>
 
       <div class="ar-step">
         <div class="ar-step-body">
-          <h3>7.4 iOS Only: Set the Camera Usage Description</h3>
-          <p>Still in Player Settings, under <strong>Other Settings → Configuration</strong>, fill in <strong>Camera Usage Description</strong> with a short sentence explaining why the app needs the camera.</p>
-          <p class="ar-why"><strong>Why:</strong> without this string in its Info.plist, iOS terminates the app the moment it requests camera access, and App Store review rejects the build outright — the Vuforia camera feed will never appear on a real iPhone/iPad without it.</p>
-        </div>
-      </div>
-
-      <div class="ar-step">
-        <div class="ar-step-body">
-          <h3>7.5 Manage Scenes in the Build</h3>
+          <h3>7.3 Manage Scenes in the Build</h3>
           <p>In the Build Profiles window's <strong>Scene List</strong>, click <strong>Add Open Scenes</strong> to add your AR scene, then select and remove (uncheck or delete) any unused or demo scenes already listed.</p>
         </div>
       </div>
 
       <div class="ar-step">
         <div class="ar-step-body">
-          <h3>7.6 Build</h3>
-          <p>For Android, click <strong>Build</strong> (or <strong>Build And Run</strong>) in the Build Profiles window and choose an output folder — Unity compiles a single <code>.apk</code> by default, or a Play Store-ready <code>.aab</code> if <strong>Build App Bundle</strong> is ticked in Player Settings. For iOS, Unity doesn't produce an installable file directly: it generates an Xcode project, which you then open in Xcode on a Mac to sign and build to a device.</p>
+          <h3>7.4 Build</h3>
+          <p>Click <strong>Build</strong> (or <strong>Build And Run</strong>) in the Build Profiles window and choose an output folder — Unity compiles a single <code>.apk</code> by default, or a Play Store-ready <code>.aab</code> if <strong>Build App Bundle</strong> is ticked in Player Settings.</p>
         </div>
       </div>
 
       <div class="ar-step">
         <div class="ar-step-body">
-          <h3>7.7 Install and Test on a Real Device</h3>
-          <p>For Android: enable <strong>Developer Options → USB Debugging</strong> on the phone, connect it by USB, and either use <strong>Build And Run</strong> to install directly, or copy the <code>.apk</code> onto the device and install it manually. For iOS: run the generated Xcode project onto a connected iPhone/iPad and trust the developer certificate on the device (<strong>Settings → General → VPN &amp; Device Management</strong>) before it will open. Point the camera at the hand-drawn marker and confirm it tracks the same way it did in the Editor.</p>
+          <h3>7.5 Install and Test on a Real Device</h3>
+          <p>Enable <strong>Developer Options → USB Debugging</strong> on the phone, connect it by USB, and either use <strong>Build And Run</strong> to install directly, or copy the <code>.apk</code> onto the device and install it manually. Point the camera at the hand-drawn marker and confirm it tracks the same way it did in the Editor.</p>
           <p class="ar-why"><strong>Why:</strong> a webcam test in the Editor only proves the marker and content work — it doesn't prove the build itself works. Device quirks (permissions, performance, camera resolution) only show up once it's actually installed and running standalone.</p>
         </div>
       </div>
@@ -365,12 +356,78 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
 
 </div>
 
+<details class="ar-term ar-term--section" id="faq">
+  <summary>Common Issues</summary>
+  <div class="ar-term-body">
+    <div class="ar-flow">
 
-<h2 class="ar-section-title" id="why-these-tools">Why Unity + Vuforia (and not something else)</h2>
-<div class="ar-why-tools">
-  <p>Unity's mobile-first architecture and gentler C# learning curve make it faster to get running reliably on a phone than Unreal — what matters most for a live demo.</p>
-  <p>Vuforia is one of the most established marker-tracking SDKs, predating ARKit/ARCore, and works the same way across Android and iOS from one Unity project.</p>
-</div>
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>Marker isn't tracking, or tracking is shaky</summary>
+        <div class="ar-term-body">
+          <p>Check the star rating on the Vuforia Target Manager page for that marker. Below 4 stars, the marker itself needs more contrast, detail, or asymmetry — redesign it rather than trying to fix tracking in Unity.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>Vuforia won't initialize, shows errors in the Console, or a watermark appears on the device</summary>
+        <div class="ar-term-body">
+          <p>All three come from the same cause: a missing or invalid license key. Open Window → Vuforia Configuration and check the App License Key field — it can sometimes go blank or reset on its own (for example after reimporting the Vuforia package), even if you set it correctly before, so it's worth rechecking even if you're fairly sure it was there. Paste the key back in from your Vuforia Developer Portal account if it's empty.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>Black screen on the device</summary>
+        <div class="ar-term-body">
+          <p>Most often the scene still has the regular <strong>Main Camera</strong> instead of the Vuforia <strong>AR Camera</strong> — a normal camera has no idea how to show the live device feed, so you get a black screen instead. Check the Hierarchy and make sure Main Camera was deleted and replaced with <strong>GameObject → Vuforia Engine → AR Camera</strong>.</p>
+          <p>If the AR Camera is already there, it's usually a missing camera permission instead. Android should prompt for camera access on first launch; if it doesn't, manually grant Camera permission to the app via the phone's Settings → Apps, or check Player Settings → Other Settings to make sure nothing's suppressing the permission request.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>The model stays visible even after the marker is removed from view</summary>
+        <div class="ar-term-body">
+          <p>This is Vuforia's <strong>Extended Tracking</strong> — select the Image Target in the Hierarchy, open its Inspector, and under the Image Target Behaviour's <strong>Advanced</strong> section you'll find an <strong>Extended Tracking</strong> checkbox. When it's on, Vuforia keeps estimating the target's position using the device's own motion sensors once the marker leaves the camera's view, so content keeps following along instead of disappearing immediately — useful for walking around an object, but surprising if you didn't expect it. Uncheck it so content only shows while the marker is actually <strong>tracked</strong> (directly visible to the camera) rather than <strong>extended-tracked</strong> (position being estimated without the marker in view).</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>3D model appears in the wrong place, rotated oddly, or way too big/small</summary>
+        <div class="ar-term-body">
+          <p>Usually the model's own pivot point isn't at its base or center the way you'd expect. Check the model's Transform values after parenting it under the Image Target, and adjust Scale/Position directly rather than assuming the import is correct.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>No camera feed in Play mode</summary>
+        <div class="ar-term-body">
+          <p>Open Window → Vuforia Configuration → Webcam section. Make sure Disable Vuforia Play Mode is unchecked and Camera Device points at your laptop's webcam.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>"Android" doesn't appear in the platform list (Build Profiles)</summary>
+        <div class="ar-term-body">
+          <p>The Android Build Support module isn't installed. Go to Unity Hub → your install → gear icon → Add Modules → check Android Build Support.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>The installed app opens into the wrong scene, or a blank/demo scene</summary>
+        <div class="ar-term-body">
+          <p>In the Build Profiles window's <strong>Scene List</strong>, make sure your AR scene is actually added (<strong>Add Open Scenes</strong>) and ticked, and that any leftover sample/demo scenes from importing packages are removed or unticked — Unity always launches whichever scene sits <strong>first</strong> in that list.</p>
+        </div>
+      </details>
+
+      <details class="ar-term ar-term--compact" name="faq">
+        <summary>Build fails or hangs</summary>
+        <div class="ar-term-body">
+          <p>Check the Console for the actual error before assuming it's stuck — IL2CPP builds take a while the first time. If it's a real failure, the error almost always names the missing piece (e.g. a missing Build Support module, or an Android SDK path issue).</p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</details>
 
 <script>
 (function () {
@@ -393,7 +450,7 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     },
     marker: {
       title: "Marker-based AR",
-      text: "Content appears when the camera recognises a specific pre-registered image or object — in Vuforia's terms, an <strong>Image Target</strong>. Once detected, the engine tracks its position and orientation continuously, even as the camera or the target moves, and uses that position as the anchor for digital content.<br><br>Under the hood, Vuforia converts the marker image to grayscale and extracts <strong>feature points</strong> — sharp, high-contrast corners and edges — then looks for that same pattern in the live camera feed. This is why Target Manager gives every uploaded marker a <strong>star rating from 0 to 5</strong> as soon as you upload it: it's scoring how trackable the image actually is, before Unity is involved at all. Deterministic and easy to follow live — show the marker, content appears, move it, content follows."
+      text: "Content appears when the camera recognises a specific pre-registered image or object — in Vuforia's terms, an <strong>Image Target</strong>. Once detected, the engine tracks its position and orientation continuously, even as the camera or the target moves, and uses that position as the anchor for digital content.<br><br>Under the hood, Vuforia converts the marker image to greyscale and extracts <strong>feature points</strong> — sharp, high-contrast corners and edges — then looks for that same pattern in the live camera feed. This is why Target Manager gives every uploaded marker a <strong>star rating from 0 to 5</strong> as soon as you upload it: it's scoring how trackable the image actually is, before Unity is involved at all. Deterministic and easy to follow live — show the marker, content appears, move it, content follows."
     },
     markerless: {
       title: "Markerless AR",
@@ -401,7 +458,7 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     },
     vuforia: {
       title: "Vuforia",
-      text: "An AR SDK from PTC that plugs directly into Unity, providing Image Target / Model Target tracking and exposing that data to Unity's scene graph, so a 3D object can simply be \"childed\" under a tracked target and follow it automatically. One of the most established marker-tracking SDKs, predating ARKit and ARCore, and works the same way across Android and iOS.<br><br>Account, license keys, and documentation live on the Vuforia Developer Portal; the Unity integration itself is distributed as a free package on the Unity Asset Store.",
+      text: "An AR SDK from PTC that plugs directly into Unity, providing Image Target / Model Target tracking and exposing that data to Unity's scene graph, so a 3D object can simply be parented under a tracked target and follow it automatically. It's one of the most established marker-tracking SDKs, predating ARKit and ARCore, and works the same way across Android and iOS.<br><br>Account, license keys, and documentation live on the Vuforia Developer Portal; the Unity integration itself is distributed as a free package on the Unity Asset Store.",
       link: { href: "https://developer.vuforia.com/", label: "Vuforia Developer Portal" }
     },
     arcore: {
@@ -414,11 +471,11 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     },
     unity: {
       title: "Unity",
-      text: "A mobile-first, cross-platform engine using C# — an estimated 60% of AR/VR content is built on it. Gentler learning curve than Unreal and typically better-optimised for entry-level and mid-range mobile hardware."
+      text: "A mobile-first, cross-platform engine using C# — an estimated 60% of AR/VR content is built on it. Gentler learning curve than Unreal and typically better optimised for entry-level and mid-range mobile hardware."
     },
     unreal: {
       title: "Unreal Engine",
-      text: "Epic's C++ engine, known for a higher graphical ceiling and used heavily in high-end VR and cinematic work. Steeper learning curve than Unity and less mobile-optimised, which matters more for a lightweight, reliably-running live demo than raw visual fidelity."
+      text: "Epic's C++ engine, known for a higher graphical ceiling and used heavily in high-end VR and cinematic work. Steeper learning curve than Unity and less optimised for mobile, which matters more for a lightweight, reliably running live demo than raw visual fidelity."
     },
   };
 
@@ -426,6 +483,9 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
   var svg = document.getElementById("ar-tree-lines");
   var panel = document.getElementById("ar-detail-panel");
   var nodes = Array.prototype.slice.call(canvas.querySelectorAll(".ar-node"));
+  nodes.forEach(function (node) {
+    node.setAttribute("aria-pressed", "false");
+  });
 
   function getParentIds(node) {
     var single = node.getAttribute("data-parent");
@@ -446,8 +506,16 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     svg.setAttribute("height", canvasRect.height);
     svg.innerHTML = "";
 
+    // On narrow screens the three branches stack into one long column, so
+    // the "used" row's connectors have to snake all the way back up past
+    // unrelated sections to reach their origin — skip just those long
+    // lines there; the row sitting right above its caption already makes
+    // the connection obvious without one.
+    var skipUsedLines = window.innerWidth <= 600;
+
     nodes.forEach(function (node) {
       var toId = node.getAttribute("data-id");
+      if (skipUsedLines && toId.indexOf("used-") === 0) return;
 
       getParentIds(node).forEach(function (parentId) {
         var parent = getNode(parentId);
@@ -496,7 +564,6 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     if (!info) return;
 
     var html = "<h3>" + info.title + "</h3>";
-    if (info.tag) html += '<span class="ar-detail-tag">' + info.tag + "</span>";
     html += "<p>" + info.text + "</p>";
     if (info.link) html += '<a href="' + info.link.href + '" target="_blank" rel="noopener">' + info.link.label + " &rarr;</a>";
 
@@ -515,7 +582,9 @@ description: "Live-demo reference for building marker-based AR with Unity and Vu
     var chain = ancestorChain(id);
 
     nodes.forEach(function (node) {
-      node.classList.toggle("is-active", chain.indexOf(node.getAttribute("data-id")) !== -1);
+      var isActive = chain.indexOf(node.getAttribute("data-id")) !== -1;
+      node.classList.toggle("is-active", isActive);
+      node.setAttribute("aria-pressed", node.getAttribute("data-id") === id ? "true" : "false");
     });
 
     Array.prototype.slice.call(svg.querySelectorAll(".ar-tree-line")).forEach(function (line) {

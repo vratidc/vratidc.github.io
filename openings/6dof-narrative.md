@@ -9,7 +9,7 @@ hidetitle: "true"
 <!-- hidetitle suppresses the theme's auto-rendered #page-title so we can control
      heading placement ourselves (see .opening-title below) instead of it being
      forced above this content by the layout. -->
-<div class="opening-detail">
+<div class="opening-detail opening-detail--closed">
 
   <span class="opening-tag">IIT Bombay Research Internship Award</span>
   <h1 class="opening-title">Developing a Real-Time Virtual Reality 6DoF Narrative</h1>
@@ -51,8 +51,6 @@ hidetitle: "true"
   <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
   <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank" rel="noopener">IITB Internship Award portal</a>.</p>
 
-  <!-- HRMSRegister.jsp is the actual "New Applicants Register here" form — the real
-       start of the application, not just the portal's generic landing page. -->
-  <a class="opening-apply-btn" href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HRMSRegister.jsp" target="_blank" rel="noopener">Start Your Application &rarr;</a>
+  <p class="opening-closed-note">Applications for this position are now closed.</p>
 
 </div>

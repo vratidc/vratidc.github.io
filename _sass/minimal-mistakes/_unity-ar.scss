@@ -2,6 +2,21 @@
    Unity + Vuforia AR (/unity-ar)
    ========================================================================== */
 
+// Color tokens — so a reused color stays the same color on reuse, instead
+// of a new close-but-not-quite hex getting picked by eye each time.
+$ar-green: #087f5b;
+$ar-green-dark: #065940;
+$ar-green-pale: #e9f4f0;
+$ar-green-pale-alt: #f1f9f6; // a second, slightly different pale green — kept distinct, not merged into $ar-green-pale
+$ar-green-ring: #c7e9dc; // hover/focus rings and the "used path" pinned tree lines
+$ar-border: #e5e7e9; // the page's one faint-border gray (step cards used a second, near-identical #edeef0 — merged in)
+$ar-line: #d8dfdc; // default (non-pinned) tree connector stroke
+$ar-text-dark: #121617;
+$ar-text-body: #40474d;
+$ar-text-muted: #70757a;
+$ar-text-faint: #9aa0a6;
+$ar-bg-card: #f8f9f8;
+
 .ar-hero {
   margin: 0 0 40px;
   max-width: 760px;
@@ -12,7 +27,7 @@
 .page__content p.ar-tree-intro {
   font-size: 15px;
   line-height: 1.6;
-  color: #70757a;
+  color: $ar-text-muted;
   max-width: 680px;
   margin: 0 0 28px;
 }
@@ -42,24 +57,24 @@
 
 .ar-tree-line {
   fill: none;
-  stroke: #d8dfdc;
+  stroke: $ar-line;
   stroke-width: 2;
   stroke-linejoin: round;
   transition: stroke 0.15s ease, stroke-width 0.15s ease;
 }
 
 .ar-tree-line.is-active {
-  stroke: #087f5b;
+  stroke: $ar-green;
   stroke-width: 2.5;
 }
 
 .ar-tree-line.is-pinned {
-  stroke: #9cd6bd;
+  stroke: $ar-green-ring;
   stroke-width: 2.25;
 }
 
 .ar-tree-line.is-pinned.is-active {
-  stroke: #087f5b;
+  stroke: $ar-green;
   stroke-width: 2.5;
 }
 
@@ -116,7 +131,7 @@
 }
 
 .ar-node:focus-visible {
-  outline: 2px solid #087f5b;
+  outline: 2px solid $ar-green;
   outline-offset: 2px;
 }
 
@@ -124,14 +139,14 @@
   font-weight: 700;
   font-size: clamp(14px, 2vw, 17px);
   color: #fff;
-  background: #087f5b;
+  background: $ar-green;
   padding: clamp(8px, 1.6vw, 12px) clamp(16px, 3vw, 28px);
   border-radius: 999px;
   white-space: nowrap;
 }
 
 .ar-node-root.is-active {
-  box-shadow: 0 0 0 4px #c7e9dc;
+  box-shadow: 0 0 0 4px $ar-green-ring;
 }
 
 .ar-node-branch {
@@ -139,36 +154,36 @@
   font-size: clamp(10px, 1.4vw, 13px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #065940;
-  background: #e9f4f0;
+  color: $ar-green-dark;
+  background: $ar-green-pale;
   border-radius: 10px;
   padding: clamp(7px, 1.2vw, 11px) clamp(10px, 1.8vw, 18px);
   white-space: nowrap;
 }
 
 .ar-node-branch.is-active {
-  background: #087f5b;
+  background: $ar-green;
   color: #fff;
 }
 
 .ar-node-leaf {
   font-weight: 600;
   font-size: clamp(9px, 1.4vw, 14px);
-  color: #121617;
+  color: $ar-text-dark;
   background: #fff;
-  border: 1px solid #e5e7e9;
+  border: 1px solid $ar-border;
   border-radius: 8px;
   padding: clamp(4px, 1vw, 10px) clamp(6px, 1.4vw, 14px);
   white-space: nowrap;
 }
 
 .ar-node-leaf:hover {
-  border-color: #c7e9dc;
+  border-color: $ar-green-ring;
 }
 
 .ar-node-leaf.is-active {
-  border-color: #087f5b;
-  box-shadow: 0 0 0 3px #e9f4f0;
+  border-color: $ar-green;
+  box-shadow: 0 0 0 3px $ar-green-pale;
 }
 
 .ar-tree-level--used {
@@ -181,7 +196,7 @@
   font-weight: 700;
   font-size: clamp(10px, 1.4vw, 13px);
   color: #fff;
-  background: #087f5b;
+  background: $ar-green;
   border-radius: 999px;
   padding: clamp(6px, 1.2vw, 10px) clamp(10px, 1.8vw, 18px);
   text-align: center;
@@ -189,18 +204,18 @@
 }
 
 .ar-node-used.is-active {
-  box-shadow: 0 0 0 4px #c7e9dc;
+  box-shadow: 0 0 0 4px $ar-green-ring;
 }
 
 .page__content p.ar-tree-caption {
   text-align: center;
   font-size: 13px;
-  color: #70757a;
+  color: $ar-text-muted;
   margin: 6px 0 0;
 }
 
 .ar-detail-panel {
-  border: 1px solid #e5e7e9;
+  border: 1px solid $ar-border;
   border-radius: 12px;
   padding: 20px;
   background: #fff;
@@ -224,21 +239,21 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #9aa0a6;
+  color: $ar-text-faint;
   margin: 0 0 10px;
 }
 
 .ar-detail-panel h3 {
   font-size: 16px;
   font-weight: 700;
-  color: #121617;
+  color: $ar-text-dark;
   margin: 0 0 8px;
 }
 
 .page__content .ar-detail-panel p {
   font-size: 14px;
   line-height: 1.6;
-  color: #40474d;
+  color: $ar-text-body;
   margin: 0 0 10px;
 }
 
@@ -246,24 +261,11 @@
   margin-bottom: 0;
 }
 
-.ar-detail-tag {
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #065940;
-  background: #e9f4f0;
-  border-radius: 999px;
-  padding: 3px 9px;
-  margin-bottom: 10px;
-}
-
 .ar-detail-panel a {
   display: inline-block;
   font-size: 13px;
   font-weight: 600;
-  color: #087f5b;
+  color: $ar-green;
 }
 
 .ar-hero h1 {
@@ -271,13 +273,13 @@
   font-weight: 700;
   line-height: 1.3;
   margin: 0 0 12px;
-  color: #121617;
+  color: $ar-text-dark;
 }
 
 .page__content .ar-hero p {
   font-size: 17px;
   line-height: 1.6;
-  color: #40474d;
+  color: $ar-text-body;
   margin: 0 0 20px;
 }
 
@@ -290,15 +292,15 @@
 .ar-jumpnav a {
   font-size: 14px;
   font-weight: 600;
-  color: #065940;
-  background: #e9f4f0;
+  color: $ar-green-dark;
+  background: $ar-green-pale;
   border-radius: 999px;
   padding: 6px 14px;
   text-decoration: none;
 }
 
 .ar-jumpnav a:hover {
-  background: #087f5b;
+  background: $ar-green;
   color: #fff;
   text-decoration: none;
 }
@@ -308,20 +310,80 @@
   font-weight: 700;
   margin: 0 0 20px;
   padding-top: 32px;
-  border-top: 1px solid #e5e7e9;
-  color: #121617;
+  border-top: 1px solid $ar-border;
+  color: $ar-text-dark;
   scroll-margin-top: 24px;
 }
 
 .ar-term {
-  border: 1px solid #e5e7e9;
+  border: 1px solid $ar-border;
   border-radius: 12px;
   background: #fff;
   overflow: hidden;
 }
 
 .ar-term[open] {
-  border-color: #087f5b;
+  border-color: $ar-green;
+}
+
+/* The "Common Issues" / FAQ section is separated from the Build Flow
+   categories above it with a bold green divider line, rather than a
+   different color scheme — everything stays in the page's established
+   green, just as a flat dividered list instead of individual cards, so
+   the whole list reads as quick-scan reference. The whole thing is one
+   collapsible, so none of it shows until it's opened. */
+.ar-term--section {
+  border: none;
+  border-top: 3px solid $ar-green;
+  border-radius: 0;
+  background: none;
+  margin: 32px 0 0;
+  padding-top: 20px;
+}
+
+details.ar-term--section > summary {
+  padding: 0 0 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $ar-text-dark;
+  scroll-margin-top: 24px;
+}
+
+.ar-term--section .ar-flow {
+  gap: 0;
+}
+
+/* FAQ entries are a flat, dividered list — not individual bordered cards —
+   so they read as quick-scan reference rather than Build Flow steps. */
+.ar-term--compact {
+  border: none;
+  border-radius: 0;
+  background: none;
+  border-bottom: 1px solid $ar-border;
+}
+
+.ar-term--compact:last-child {
+  border-bottom: none;
+}
+
+details.ar-term--compact > summary {
+  padding: 10px 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: $ar-text-dark;
+}
+
+details.ar-term--compact > summary::after {
+  font-size: 15px;
+}
+
+.ar-term--compact > .ar-term-body {
+  padding: 0 4px 12px;
+}
+
+.page__content .ar-term--compact > .ar-term-body p {
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .ar-term summary {
@@ -330,7 +392,7 @@
   padding: 16px 20px;
   font-weight: 600;
   font-size: 16px;
-  color: #121617;
+  color: $ar-text-dark;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -343,7 +405,7 @@
 
 .ar-term summary::after {
   content: "+";
-  color: #087f5b;
+  color: $ar-green;
   font-size: 20px;
   font-weight: 400;
   margin-left: 12px;
@@ -360,7 +422,7 @@
 .page__content .ar-term-body p {
   font-size: 15px;
   line-height: 1.65;
-  color: #40474d;
+  color: $ar-text-body;
   margin: 0 0 12px;
   max-width: 700px;
 }
@@ -371,7 +433,7 @@
 
 .ar-term-body p a,
 .ar-step-body p a {
-  color: #087f5b;
+  color: $ar-green;
   font-weight: 600;
 }
 
@@ -379,7 +441,7 @@
   padding-left: 20px;
   font-size: 15px;
   line-height: 1.65;
-  color: #40474d;
+  color: $ar-text-body;
   max-width: 700px;
   margin: 0 0 12px;
 }
@@ -404,8 +466,8 @@
    accordion body — shown as its own soft card rather than a numbered
    timeline, since the categories themselves are the only numbered steps. */
 .ar-step {
-  background: #f8f9f8;
-  border: 1px solid #edeef0;
+  background: $ar-bg-card;
+  border: 1px solid $ar-border;
   border-radius: 10px;
   padding: 16px 18px;
 }
@@ -416,17 +478,17 @@
 
 .ar-checkpoint {
   margin-top: 20px;
-  background: #f1f9f6;
-  border: 1px solid #087f5b;
+  background: $ar-green-pale-alt;
+  border: 1px solid $ar-green;
   border-radius: 10px;
   padding: 14px 18px;
   font-size: 14px;
   line-height: 1.6;
-  color: #065940;
+  color: $ar-green-dark;
 }
 
 .ar-checkpoint strong {
-  color: #087f5b;
+  color: $ar-green;
 }
 
 .ar-step-body {
@@ -437,13 +499,13 @@
   font-size: 17px;
   font-weight: 600;
   margin: 0 0 6px;
-  color: #121617;
+  color: $ar-text-dark;
 }
 
 .page__content .ar-step-body p {
   font-size: 15px;
   line-height: 1.6;
-  color: #40474d;
+  color: $ar-text-body;
   margin: 0 0 8px;
 }
 
@@ -453,20 +515,20 @@
 
 .ar-why {
   background: #fff;
-  border-left: 3px solid #087f5b;
+  border-left: 3px solid $ar-green;
   padding: 10px 14px;
   border-radius: 0 8px 8px 0;
   margin-top: 10px;
 }
 
 .ar-why strong {
-  color: #087f5b;
+  color: $ar-green;
 }
 
 .page__content .ar-why-tools p {
   font-size: 15px;
   line-height: 1.65;
-  color: #40474d;
+  color: $ar-text-body;
   max-width: 760px;
   margin: 0 0 14px;
 }
@@ -489,6 +551,13 @@
     gap: 24px;
   }
 
+  /* flex: 1 1 0 is for the desktop row (equal-width columns); once the
+     parent switches to flex-direction: column that same value stretches
+     each branch to equal *height* instead, leaving uneven gaps. */
+  .ar-tree-branch-col {
+    flex: 0 0 auto;
+  }
+
   .ar-tree-leaf-group {
     flex-direction: column;
     align-items: stretch;
@@ -498,6 +567,7 @@
   .ar-node-branch,
   .ar-node-used {
     font-size: 13px;
+    padding: 9px 14px;
   }
 
   .ar-tree-level--used {
