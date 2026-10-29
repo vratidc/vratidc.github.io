@@ -14,6 +14,8 @@ overview: Me'ow is a VR game told from a cat’s point of view. You play as Me, 
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Posters-Demos"
 type: "course"
 year: "2026"
 date: 20260806

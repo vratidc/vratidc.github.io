@@ -14,6 +14,10 @@ overview: Khat-Phat is a VR stealth experience inspired by a childhood memory of
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Arts-Track"
+indiahci_abstract: >-
+    VR experiences have widely been explored through new ways to look around and locomote. Not many experiences play around with auditory immersion as the primary interaction medium in a VR experience. ‘Khat-Phat’ is a first-person VR game in which a child enters a neighbour's backyard to retrieve a cricket ball without waking the sleeping uncle or alerting his dog. The player navigates a densely cluttered rural Indian backyard where ordinary objects become sources of risk through their physical and acoustic properties. Apart from visual detection, the experience accumulates disturbance from player interactions, gradually changing the state of the uncle and dog. Through this game, we intended to explore sounds as the primary interaction system itself rather than as ambient property.
 type: "course"
 year: "2026"
 date: 20260804

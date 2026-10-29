@@ -1005,3 +1005,46 @@
     }
 }
 
+
+/* ==========================================================================
+   Showcase grid — consistent spacing + responsive images
+   (opt-in via .showcase-grid; currently only the IndiaHCI 2026 page)
+   ========================================================================== */
+
+
+.showcase-grid {
+    height: auto;
+
+    .course_project_grid__item {
+        margin-bottom: 0;
+        padding: 28px 0;
+        border-bottom: 2px solid #008055;
+
+        > hr {
+            display: none;
+        }
+
+        // :last-child for the default view; .is-last-visible is set by the
+        // filter script so the last card still showing has no line under it.
+        &:last-child,
+        &.is-last-visible {
+            border-bottom: none;
+        }
+    }
+
+    .course__item-title {
+        margin-top: 0;
+    }
+
+    // Fixed 16:9 proportion instead of a screen-height-based height, so the
+    // image crops the same way on every screen size.
+    .course__item-teaser {
+        height: auto;
+        min-height: 0;
+        aspect-ratio: 16 / 9;
+    }
+
+    .course__item p:last-child {
+        margin-bottom: 0;
+    }
+}
