@@ -14,6 +14,10 @@ overview: Patchwork is a VR experience set within the shadowy, cluttered spaces 
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Posters-Demos"
+indiahci_abstract: >-
+    Virtual Reality typically maps controls 1:1 to the user’s body to avoid motion sickness. This paper presents an experimental VR framework that deliberately mismatches perceived and actual movement, using a body-horror setting where players remotely pilot detached hands from a fixed vantage point. Initially difficult, the control scheme grows rewarding with play, showing that deliberate motion mismatch is a viable way to expand VR’s interaction design space.
 type: "course"
 year: "2026"
 date: 20260805

@@ -10,7 +10,7 @@
 {% assign title = post.title %}
 {% endif %}
 
-<div class="course_project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
+<div class="course_project_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %} {{ post.indiahci_track }}">
   <article class="course__item" itemscope itemtype="https://schema.org/CreativeWork">
 
 
@@ -41,7 +41,7 @@
     {% endif %}
 
     <p>
-      {{ post.overview }}
+      {% if include.indiahci and post.indiahci_abstract %}{{ post.indiahci_abstract }}{% else %}{{ post.overview }}{% endif %}
 
     </p>
 

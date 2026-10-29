@@ -24,6 +24,12 @@
   margin-bottom: 64px;
 }
 
+/* #page-title's bottom margin is zeroed above, so the list that sits
+   directly under it needs its own gap. Past Openings has its own heading. */
+.openings-list:first-child {
+  margin-top: 32px;
+}
+
 .openings-past-title {
   font-size: 15px;
   font-weight: 600;

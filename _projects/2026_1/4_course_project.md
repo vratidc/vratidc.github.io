@@ -14,6 +14,8 @@ overview: BO!NK is a two-player VR game where players take on the roles of Minio
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Posters-Demos"
 type: "course"
 year: "2026_1"
 date: 20260801

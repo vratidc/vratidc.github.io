@@ -14,6 +14,10 @@ overview: Zoobie Doobie is an interactive VR game set inside a flooded apartment
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Arts-Track"
+indiahci_abstract: >-
+    Zoobie Doobie is an interactive virtual reality (VR) installation that explores themes of physical vulnerability, emergency situations, and improvised resourcefulness known as jugaad within a flooded domestic environment. In this experience, the player takes on the role of a young adult who is stuck due to a leg injury and wakes up to a flooded studio apartment filled with electrical dangers. Limited in mobility, the player must navigate the rising water by sitting on a pillow raft and using a crutch as an oar. This project offers a new seated 6DoF crutch-rowing experience, combined with realistic water interactions and floating hazards. By requiring physical effort and everyday props to manage the escape narrative of turning off running taps, the installation moves away from traditional gaming mechanics. It encourages players to engage in embodied roleplaying, fostering empathy and spatial resilience.
 type: "course"
 year: "2026"
 date: 20260808

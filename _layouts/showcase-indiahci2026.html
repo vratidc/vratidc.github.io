@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+
+<div id="main" role="main">
+    <div class="projects">
+
+        <div>
+            <h1 id="page-title" class="page__title" style="margin-bottom: 10px;">{{ page.title }}</h1>
+            {{ content }}
+
+            <h3>Browse Projects:</h3>
+
+            <div class="button-group filter-button-group">
+                <a class="filter-button filter-button-active" data-filter="*">All</a>
+                <a class="filter-button" data-filter=".Arts-Track">Arts Track</a>
+                <a class="filter-button" data-filter=".Posters-Demos">Posters &amp; Demos</a>
+            </div>
+        </div>
+
+        <hr style="height:2px;border-width:0;background-color:#008055;">
+
+        <div class="all-projects showcase-grid">
+            {% include documents-collection-projects-indiahci2026.html collection="projects" type="grid" %}
+
+            <!-- Not in the projects collection yet, so its card is written out by hand
+                 using the same markup as course-projects-single.html. -->
+            <div class="course_project_grid__item VR Arts-Track">
+              <article class="course__item">
+                <h2 class="course__item-title">A Celebration – a VR experience of a painting</h2>
+                <p>
+                  <a class="tag tagbox">VR</a>
+                  <a class="tag tagbox">Unreal Engine</a>
+                  <a class="tag tagbox">Installation</a>
+                </p>
+                <div class="course__item-teaser-container">
+                  <div class="course__item-teaser" style='background-image: url({{ "/assets/img/projects/indiahci2026/a_celebration.jpg" | relative_url }});'></div>
+                </div>
+                <p>This is an inter-media interactive art experience. In this exhibit, the audience get to view an original painting by the artist Nandhini Sreekumar, followed by a chance to step inside the painting and experience it spatially in a 6DoF Virtual Reality environment, with interactions and a narrative. The experience was created in Unreal engine, applying novel techniques of character scanning, stroke based texturing by the artist, and the concept of 2D art being a spatial interactive environment.</p>
+              </article>
+              <hr>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    // Every card is full width, so the cards just stack in normal flow and the
+    // filter only hides/shows them. (Isotope pinned cards at fixed pixel
+    // positions, which went stale on resize and made text overlap.)
+    var $items = $('.all-projects .course_project_grid__item');
+    $('.filter-button-group').on('click', 'a', function() {
+        var filter = $(this).attr('data-filter');
+        $items.each(function () {
+            $(this).toggle(filter === '*' || $(this).is(filter));
+        });
+        $items.removeClass('is-last-visible').filter(':visible').last().addClass('is-last-visible');
+    });
+    $('.button-group a.filter-button').on('click', function() {
+        $('.button-group a.filter-button').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+</script>

@@ -14,6 +14,10 @@ overview: ‘Twelve Steps Down’ is a dual-narrative psychological thriller sto
 project-link:
 
 active: "yes"
+indiahci2026: "yes"
+indiahci_track: "Arts-Track"
+indiahci_abstract: >-
+    Twelve Steps Down is a physical, hand-illustrated book whose story changes direction depending on how it is read. Read forward, page by page, in print, it tells the story of Nishira, a seven-year-old haunted by nightmares and unexplained occurrences following her mother’s death. Read a second time, from the last page back to the first, this time through an Augmented Reality (AR) camera, the same twelve illustrations reveal a second, hidden narrative: that Nishira herself caused her mother’s death, and that what she has taken for haunting is her own guilt returning to confront her. The project uses AR not as a decorative layer added onto a book but as the structural device that allows a single set of visuals to carry two directionally opposed narratives. It was built using Unity and the Vuforia Engine SDK for marker-based tracking, pairing illustration, and interaction design to explore what a story can do when it is allowed to be read in more than one direction.
 type: "course"
 year: "2025"
 date: 20240801
