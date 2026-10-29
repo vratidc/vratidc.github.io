@@ -46,6 +46,12 @@ gallery1:
 This is a 6 degrees-of-freedom (6DoF) VR narrative experience created using the Unreal game engine. This experience is part of a <a href="{{ site.url }}{{ site.baseurl }}/manhole-project" target="_blank" style="color:#cc9200;">larger project</a>  that aims to spread awareness about the dangers of manual scavenging in India. The production of the film was supported by IRCC, IIT Bombay.
 
 <br>
+
+<figure class="align-center" style="width:100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/manholeproject/ITM_img/ITM_Laurels.png" alt="ITM_Laurels">
+</figure> 
+
+<br>
 {% include video id="-4-xjF6OTHM" provider="youtube" %}
 <figcaption>Into the Manhole - Trailer</figcaption>
 
