@@ -5,7 +5,6 @@ publication: "yes"
 activity: "no"
 authors: "Khyati Priya, Jayesh Pillai and Avinash Shende"
 year: "2024"
-date: 2024-11-01
 venue: "8th International Congress on 3D Printing (Additive Manufacturing) Technologies and Digital Industry 2024"
 excerpt: Excerpt to be added
 homepage: "false"

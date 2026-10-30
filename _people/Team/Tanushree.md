@@ -3,7 +3,7 @@ layout: single
 title: Tanushree Pillai
 position: MDes, Research Scholar
 role: "team"
-date: 20220101
+date: 1 Jul 2025
 header:
     teaser: assets/img/people/imxd_people_tanushreepillai.jpg
 permalink:

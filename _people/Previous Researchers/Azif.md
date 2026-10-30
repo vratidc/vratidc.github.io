@@ -3,7 +3,7 @@ layout: single
 title:  Azif Ismail
 position: Research Associate
 role: "pastresearcher"
-date: 20170101
+date: 1 Jan 2017
 header:
     teaser: /assets/img/people/imxd_people_azifismail.jpg
 permalink: /people/azif

@@ -1,5 +1,12 @@
 # main links
 main:
+   - title: "Student Projects Showcase at IndiaHCI 2026"
+     date: "29/10/2026"
+     active: "yes"
+     content: "Seven student projects in the Arts Track and Posters & Demos"
+     link: /indiahci-2026-showcase
+     teaser: /assets/img/projects/2026_1/course_project_4.jpg
+     fullpage: "yes"
    - title: "‘Into the Manhole’ Wins Multiple Accolades"
      date: "30/04/2026"
      active: "yes"

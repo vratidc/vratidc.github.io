@@ -16,8 +16,12 @@
 
 {% assign entries = entries | sort: 'date' | reverse %}
 
+{% comment %} Group by year so unpublished papers (no date) stay within their year instead of jumping to the top. {% endcomment %}
+{% assign years = entries | map: 'year' | compact | uniq | sort | reverse %}
+{%- for year in years -%}
 {%- for post in entries -%}
-{% if post.publication == "yes" %}
+{% if post.publication == "yes" and post.year == year %}
   {% include publications-single.html %}
 {% endif %}
+{%- endfor -%}
 {%- endfor -%}

@@ -3,7 +3,7 @@ layout: single
 title:  Soumya Agarwal
 position: M.Des by Research
 role: "pastresearcher"
-date: 20230726
+date: 1 Jul 2024
 header:
     teaser: /assets/img/people/imxd_people_soumyaagarwal.jpg
 permalink: /people/soumya

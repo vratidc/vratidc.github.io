@@ -3,7 +3,7 @@ layout: single
 title:  Pratiti Sarkar
 position: PhD Scholar
 role: "pastresearcher"
-date: 20220801
+date: 1 Aug 2022
 header:
     teaser: /assets/img/people/imxd_people_pratitisarkar.jpg
 permalink: /people/pratiti

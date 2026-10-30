@@ -3,7 +3,7 @@ layout: single
 title:  Swati Pal
 position: Professor, IIT Bombay
 role: "faculty"
-date: 21000107
+date: 7 Jan 2100
 header:
     teaser: /assets/img/people/imxd_people_swatipal.jpg
 permalink: /people/swati

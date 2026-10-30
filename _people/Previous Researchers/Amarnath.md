@@ -3,7 +3,7 @@ layout: single
 title:  Amarnath Murugan
 position: Research Associate
 role: "pastresearcher"
-date: 20220402
+date: 2 Apr 2022
 header:
     teaser: /assets/img/people/imxd_people_amarnathmurugan.jpg
 permalink: /people/goodboy

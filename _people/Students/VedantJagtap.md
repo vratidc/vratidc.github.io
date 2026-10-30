@@ -3,7 +3,7 @@ layout: single
 title: Vedant Jagtap
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20261001
+date: 1 Oct 2026
 header:
     teaser: assets/img/people/imxd_people_VedantJagtap.jpg
 permalink: /people/vedant

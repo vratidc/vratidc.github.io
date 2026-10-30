@@ -3,7 +3,7 @@ layout: single
 title:  Sudesh Balan
 position: Professor, IIT Bombay
 role: "faculty"
-date: 21000108
+date: 8 Jan 2100
 header:
     teaser: /assets/img/people/imxd_people_sudeshbalan.jpg
 permalink: /people/sudesh

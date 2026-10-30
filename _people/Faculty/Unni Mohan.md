@@ -3,7 +3,7 @@ layout: single
 title:  Unni Mohan M
 position: Assistant Professor, IIT Bombay
 role: "faculty"
-date: 21000109
+date: 9 Jan 2100
 header:
     teaser: assets/img/people/imxd_people_unnimohan.jpg
 permalink: /people/unni

@@ -1,101 +1,134 @@
 # main links
 main: 
    - title: "Megh Mallika Bora"
+     date: 2000-12-31
      url: https://www.linkedin.com/in/meghmallikabora123/
      photo: /assets/img/people/imxd_people_megh.jpg
    - title: "Akshay R Nair"
+     date: 2000-12-30
      url: https://www.linkedin.com/in/akshayyrr/
      photo: /assets/img/people/imxd_people_akshaynair.jpg
    - title: "Kanak Kothawale"
+     date: 2000-12-29
      url: https://www.linkedin.com/in/kanak-kothawale-135094235/
      photo: /assets/img/people/imxd_people_KanakKothawale.jpg
    - title: "Sarayu Sree Mandala"
+     date: 2000-12-28
      url: https://www.linkedin.com/in/sarayu-sree-mandala-a94691275/
      photo: /assets/img/people/imxd_people_sarayu.jpg
    - title: "Utkarsha Kate"
+     date: 2000-12-27
      url: https://www.linkedin.com/in/utkarsha-kate-a33442182/
      photo: /assets/img/people/imxd_people_utkarshakate.jpg
    - title: "Mukil Kumar"
+     date: 2000-12-26
      url: https://www.linkedin.com/in/mukilk/
      photo: /assets/img/people/imxd_people_mukilkumar.jpg
    - title: "Anoushka Shome"
+     date: 2000-12-25
      url: https://www.linkedin.com/in/anoushka-shome/
      photo: /assets/img/people/imxd_people_anoushkashome.jpg
    - title: "Abhishek Benny"
+     date: 2000-12-24
      url: https://www.linkedin.com/in/abhibny/
      photo: /assets/img/people/imxd_people_abhishekbenny.jpg
    - title: "Laksh Rajpal"
+     date: 2000-12-23
      url: https://www.linkedin.com/in/laksh-rajpal-620521191/
      photo: /assets/img/people/imxd_people_lakshrajpal.jpg
    - title: "Samarth Dhanuka"
+     date: 2000-12-22
      url: https://www.linkedin.com/in/samarthdhanuka/
      photo: /assets/img/people/imxd_people_samarthdhanuka.jpg
    - title: "Khushi Agrawal"
+     date: 2000-12-21
      url: https://www.linkedin.com/in/khushi-agrawal2082/
      photo: /assets/img/people/imxd_people_khushiagrawal.jpg
    - title: "Pradumn Sorte"
+     date: 2000-12-20
      url: https://www.linkedin.com/in/pradumn-sorte-0b5585199/
      photo: /assets/img/people/imxd_people_pradumnsorte.jpg
    - title: "Nitya Vyas"
+     date: 2000-12-19
      url: https://www.linkedin.com/in/nitya-vyas-47ab2579/
      photo: /assets/img/people/imxd_people_nityavyas.jpg
    - title: "Khushboo Kumari"
+     date: 2000-12-18
      url: https://www.linkedin.com/in/khushboo-kumari78/
      photo: /assets/img/people/imxd_people_khushbookumari.jpg
    - title: "Tanmay Kuwalekar"
+     date: 2000-12-17
      url: https://www.linkedin.com/in/tanmay-kuwalekar/
      photo: /assets/img/people/imxd_people_tanmaykuwalekar.jpg
    - title: "Hayat Tamboli"
+     date: 2000-12-16
      url: https://www.linkedin.com/in/hayat-tamboli/
      photo: /assets/img/people/imxd_people_hayattamboli.jpg
    - title: "Anumeha Patoria"
+     date: 2000-12-15
      url: https://www.linkedin.com/in/anumeha-patoria-b77ba1160/
      photo: /assets/img/people/imxd_people_anumehapatoria.jpg
    - title: "Yashwant Rawat"
+     date: 2000-12-14
      url: https://www.linkedin.com/in/yashwant-rawat/
      photo: /assets/img/people/imxd_people_yashwantrawat.jpg
    - title: "Nachiket Nanoty"
+     date: 2000-12-13
      url: https://www.linkedin.com/in/nachiket-nanoty/
      photo: /assets/img/people/imxd_people_nachiketnanoty.jpg
    - title: "Vinay Kumar"
+     date: 2000-12-12
      url: https://www.linkedin.com/in/vinay-kumar-dhomne-aab910106/
      photo: /assets/img/people/imxd_people_vinaykumar.jpg
    - title: "Karan Tanna"
+     date: 2000-12-11
      url: https://www.linkedin.com/in/karantanna/
      photo: /assets/img/people/imxd_people_karantanna.jpg
    - title: "Prafulla Chandra"
+     date: 2000-12-10
      url: https://www.linkedin.com/in/prafullachandrags
      photo: /assets/img/people/imxd_people_prafullachandra.jpg
    - title: "Samadrita Sarkar"
+     date: 2000-12-09
      url: https://www.linkedin.com/in/samadrita-sarkar-b169b9194/
      photo: /assets/img/people/imxd_people_samadrita.jpg
    - title: "Neha Balasundaram"
+     date: 2000-12-08
      url: https://www.linkedin.com/in/neha-balasundaram-16b72715a/
      photo: /assets/img/people/imxd_people_nehabala.jpg
    - title: "Lokesh Kumar"
+     date: 2000-12-07
      url: https://in.linkedin.com/in/lokesh-kumar-451494124
      photo: /assets/img/people/imxd_people_lokeshkumar.jpg 
    - title: "Raaghavi Sundaram"
+     date: 2000-12-06
      url: https://www.linkedin.com/in/raaghavishan/
      photo: /assets/img/people/imxd_people_raaghavisundaram.jpg
    - title: "Noopur Kashyap"
+     date: 2000-12-05
      url: https://www.linkedin.com/in/noopur-kumari-kashyap-334692143/
      photo: /assets/img/people/imxd_people_noopurkashyap.jpg       
    - title: "Arun Babu"
+     date: 2000-12-04
      url: https://www.linkedin.com/in/arun-babu-a55a1b124/
      photo: /assets/img/people/imxd_people_arunbabu.jpg
    - title: "Vineet Kamboj"
+     date: 2000-12-03
      url: https://www.vineetkamboj.com/
      photo: /assets/img/people/imxd_people_vineetkamboj.jpg
    - title: "Angela Simon"
+     date: 2000-12-02
      url: https://in.linkedin.com/in/angelaixd
      photo: /assets/img/people/imxd_people_angelasimon.jpg
    - title: "Jonathan Mathew"
+     date: 2000-12-01
      url: https://in.linkedin.com/in/jonathan-mathew-b09b11b4
      photo: /assets/img/people/imxd_people_jonathanmathew.jpg
    - title: "Nazreen Nizam"
+     date: 2000-11-30
      url: https://www.linkedin.com/in/nazreen-nizam-22863711a
      photo: /assets/img/people/imxd_people_nazreennizam.jpg
    - title: "Herold P. C."
+     date: 2000-11-29
      url: https://www.linkedin.com/in/herold-pc/
      photo: /assets/img/people/imxd_people_heroldpc.jpg

@@ -1,5 +1,6 @@
 <div class="pastmembergrid">
-    {%- for link in site.data.pastinterns.main -%}
+    {% assign members = site.data.pastinterns.main | sort: 'date' | reverse %}
+    {%- for link in members -%}
 
     <div class="pastmemberholder">
         <div class="pastmemberitem">

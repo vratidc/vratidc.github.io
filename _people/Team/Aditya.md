@@ -3,7 +3,7 @@ layout: single
 title: Aditya Sirsat
 position: Project Technical Assistant
 role: "team"
-date: 20230507
+date: 1 Feb 2025
 header:
     teaser: /assets/img/people/imxd_people_adityasirsat.jpg
 permalink:

@@ -3,7 +3,7 @@ layout: single
 title: Khyati Priya
 position: PhD Scholar, Prime Minister's Research Fellow
 role: "team"
-date: 20250731
+date: 1 Jan 2021
 header:
     teaser: /assets/img/people/imxd_people_khyatipriya.jpg
 permalink:

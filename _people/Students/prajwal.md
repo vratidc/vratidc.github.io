@@ -3,7 +3,7 @@ layout: single
 title: Prajwal Dhiman
 position: Master's Student (Interaction Design)
 role: "student"
-date: 20251004
+date: 4 Oct 2025
 header:
     teaser: assets/img/people/imxd_people_prajwal.jpg
 permalink: /people/prajwal

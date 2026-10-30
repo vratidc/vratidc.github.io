@@ -41,7 +41,7 @@
                     {% if post.link %}
                     <a class="publication_linked" href="{{ post.link }}" target="_blank">{{ title }}</a>
                     {% else %}
-                    <a class="publication_linked" href="{{ post.url | relative_url }}" rel="permalink" target="_blank">{{ title }}</a>
+                    {{ title }}
                     {% endif %}
                 </h2>
 

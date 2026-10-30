@@ -3,7 +3,7 @@ layout: single
 title: Elvira Mishra
 position: PhD Scholar, Asha Navani Research Fellow
 role: "team"
-date: 20240424
+date: 1 Jul 2023
 header:
     teaser: /assets/img/people/imxd_people_elviramishra.jpg
 permalink:

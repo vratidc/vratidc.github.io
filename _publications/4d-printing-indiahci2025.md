@@ -5,7 +5,7 @@ publication: "yes"
 activity: "no"
 authors: "Khyati Priya, Jayesh Pillai and Avinash Shende"
 year: "2025"
-date: 2025-11-01
+date: 2025-11-07
 venue: "India HCI 2025 - Proceedings of the 16th International Conference of Human-Computer Interaction Design & Research, ACM, pp. 35-45"
 excerpt: Excerpt to be added
 homepage: "false"

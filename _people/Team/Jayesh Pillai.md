@@ -3,7 +3,7 @@ layout: single
 title: Jayesh Pillai
 position: Professor, IIT Bombay
 role: "team"
-date: 20301228
+date: 1 Dec 2015
 header:
     teaser: /assets/img/people/imxd_people_jayeshpillai.jpg
 permalink: /people/jayesh

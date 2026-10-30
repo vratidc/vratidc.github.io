@@ -3,7 +3,7 @@ layout: single
 title:  Prabodh Sakhardande
 position: Research Associate
 role: "pastresearcher"
-date: 20180101
+date: 1 Jan 2018
 header:
     teaser: /assets/img/people/imxd_people_prabodhsakhardande.jpg
 permalink: /people/prabodh

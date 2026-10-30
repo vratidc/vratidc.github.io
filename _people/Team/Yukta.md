@@ -3,7 +3,7 @@ layout: single
 title: Yukta Bhoir
 position: Project Technical Assistant
 role: "team"
-date: 20230210
+date: 7 May 2025
 header:
     teaser: /assets/img/people/imxd_people_yuktabhoir.jpg
 permalink:

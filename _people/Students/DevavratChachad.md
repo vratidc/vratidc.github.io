@@ -3,7 +3,7 @@ layout: single
 title: Devavrat Chachad
 position: Master's Student (Animation)
 role: "student"
-date: 20251001
+date: 1 Oct 2025
 header:
     teaser: assets/img/people/imxd_people_DevavratChachad.jpg
 permalink: /people/devavrat

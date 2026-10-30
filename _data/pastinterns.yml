@@ -1,65 +1,86 @@
 # main links
 main:
    - title: "Shristi Ashish"
+     date: 2026-05-01
      url: https://www.linkedin.com/in/shristi-ashish-1a2941307/
      photo: /assets/img/people/imxd_people_shristiashish.jpg
    - title: "Vijay Anand S"
+     date: 2026-01-02
      url: https://www.linkedin.com/in/vijay-anand-s-1024932a4/
      photo: /assets/img/people/imxd_people_vijayanand.jpg
    - title: "Jinesha Samdadia"
+     date: 2026-01-01
      url: https://www.linkedin.com/in/jinesha-samdadia-90110025b/
      photo: /assets/img/people/imxd_people_jinesha.jpg
    - title: "Prathmesh Salve"
+     date: 2025-12-01
      url: https://www.linkedin.com/in/prathmesh-salve/
      photo: /assets/img/people/imxd_people_prathmesh.jpg
    - title: "Jeevanantham Sankaran"
+     date: 2025-02-02
      url: https://www.linkedin.com/in/jeevananthamsankaran/
      photo: /assets/img/people/imxd_people_jeevanantham.jpg
    - title: "Zecharia Sari"
+     date: 2025-01-02
      url: https://www.linkedin.com/in/zecharia-s-490853261/
      photo: /assets/img/people/imxd_people_zhechariasari.jpg
    - title: "Bishal Brahma"
+     date: 2025-01-01
      url: https://www.linkedin.com/in/bishal-brahma-543678312/
      photo: /assets/img/people/imxd_people_bishalbrahma.jpg
    - title: "Arun Kumar"
+     date: 2025-02-01
      url: https://www.linkedin.com/in/arunkumar12533/
      photo: /assets/img/people/imxd_people_arunkumar.jpg
    - title: "Muskan Ahuja"
+     date: 2024-08-01
      url: https://www.linkedin.com/in/muskan-ahuja-918aab222/
      photo: /assets/img/people/imxd_people_muskanahuja.jpg
    - title: "Kanak Kothawale"
+     date: 2024-05-03
      url: https://www.linkedin.com/in/kanak-kothawale-135094235/
      photo: /assets/img/people/imxd_people_kanakkothawale.jpg
    - title: "Niya Sharma"
+     date: 2024-05-02
      url: https://www.linkedin.com/in/niya-sharma-326697139/
      photo: /assets/img/people/imxd_people_niyasharma.jpg
    - title: "Aditya Padmagirwar"
+     date: 2024-05-01
      url: https://www.linkedin.com/in/adityapadma/
      photo: /assets/img/people/imxd_people_adityapadmagirwar.jpg
    - title: "Uttham Prakash"
+     date: 2024-02-01
      url: https://www.linkedin.com/in/uttham-prakash-a-926024286/
      photo: /assets/img/people/imxd_people_utthamprakash.jpg
    - title: "Tushar Vaid"
+     date: 2000-12-18
      url: https://www.linkedin.com/in/tushar-vaid-97007015a/
      photo: /assets/img/people/imxd_people_tusharvaid.jpg
    - title: "Priyanshu Thakur"
+     date: 2000-12-17
      url: https://www.linkedin.com/in/priyanshuthakur/
      photo: /assets/img/people/imxd_people_priyanshuthakur.jpg
    - title: "Suchitra Swain"
+     date: 2000-12-16
      url: https://www.linkedin.com/in/suchitra-swain-47562ab7/
      photo: /assets/img/people/imxd_people_suchitra.jpg
    - title: "Rajandeep Singh"
+     date: 2000-12-15
      url: https://www.linkedin.com/in/rajandeepsingh13/
      photo: /assets/img/people/imxd_people_rajandeepsingh.jpg
    - title: "Manvi Verma"
+     date: 2000-12-14
      url: https://in.linkedin.com/in/manvi-verma-a9646212
      photo: /assets/img/people/imxd_people_manviverma.jpg
    - title: "Utsav Oza"
+     date: 2000-12-13
      url: https://www.linkedin.com/in/utsav-oza-0931b6110/
      photo: /assets/img/people/imxd_people_utsavoza.jpg
    - title: "Subaru Ouchi"
+     date: 2000-12-12
      url: https://www.linkedin.com/in/subaru-ouchi-435445146/
      photo: /assets/img/people/imxd_people_subaruouchi.jpg          
    - title: "Sanofer H."
+     date: 2000-12-11
      url: https://www.linkedin.com/in/sanofer-hyderali-60542b47/
      photo: /assets/img/people/imxd_people_sanoferh.jpg     

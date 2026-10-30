@@ -3,7 +3,7 @@ layout: single
 title:  Rishi Vanukuru
 position: Research Associate
 role: "pastresearcher"
-date: 20210404
+date: 4 Apr 2021
 header:
     teaser: /assets/img/people/imxd_people_rishivanukuru.jpg
 permalink: /people/rishi
