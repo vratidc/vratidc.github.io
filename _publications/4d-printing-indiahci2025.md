@@ -14,7 +14,7 @@ link: "https://doi.org/10.1145/3768633.3770143"
 PDF:
 website: "https://doi.org/10.1145/3768633.3770143"
 header:
-    teaser: /assets/img/publications/icon-pub-placeholder.jpg
+    teaser: /assets/img/publications/icon-pub-indiahci2025.jpg
 layout: publications
 ---
 

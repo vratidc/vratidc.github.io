@@ -14,7 +14,7 @@ link: "https://doi.org/10.1007/978-3-031-84873-5_14"
 PDF:
 website: "https://doi.org/10.1007/978-3-031-84873-5_14"
 header:
-    teaser: /assets/img/publications/icon-pub-placeholder.jpg
+    teaser: /assets/img/publications/icon-pub-springer2025.jpg
 layout: publications
 ---
 

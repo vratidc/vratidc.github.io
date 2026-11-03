@@ -13,7 +13,7 @@ link:
 PDF:
 website:
 header:
-    teaser: /assets/img/publications/icon-pub-placeholder.jpg
+    teaser: /assets/img/publications/icon-pub-interact2026.jpg
 layout: publications
 ---
 
