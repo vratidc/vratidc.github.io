@@ -7,7 +7,7 @@ permalink: /archive/
 <link rel="stylesheet" href="{{ 'minimal-mistakes.css' | relative_url }}">
 
 <div class="archive-container">
-  {% assign groups = site.data.archive | sort: 'date' %}
+  {% assign groups = site.data.archive | sort: 'date' | reverse %}
   {% assign prev_month = nil %}
   {% assign global_index = 0 %}
   {% for group in groups %}

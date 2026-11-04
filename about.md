@@ -26,6 +26,16 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
 <div class="timeline">
   <div class="timeline_container">
     <div class="content">
+      <div id="t_image"><img src="/assets/img/projects/FOAH/foah_teaser_small.jpg"></div> 
+      <div id="t_text">
+      <h3>2026</h3>
+      <p>• Project 'Fragments of A Home' initiated<br>
+         • Collaboration with ShipTech-ICON on a Boat Visualization project<br></p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline_container">
+    <div class="content">
       <div id="t_image"><img src="/assets/img/about/about_timeline6.jpg"></div> 
       <div id="t_text">
       <h3>2025</h3>

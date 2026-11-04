@@ -21,6 +21,7 @@
             {% else %}
               {{ teaser | relative_url }}
             {% endif %});'>
+                {% if post.header.teaser_hover %}<div class="activities__item-teaser-hover" style="background-image: url({{ post.header.teaser_hover | relative_url }});"></div>{% endif %}
             </div>
             {% else %}
             <div class="activities__item-teaser" style='background-image: 
@@ -38,7 +39,9 @@
 
                 {% if post.fullpage == "yes" %}
                 <h2 class="activities__item-title" itemprop="headline">
-                    {% if post.link %}
+                    {% if post.title_inactive == "yes" %}
+                    <a>{{ title }}</a>
+                    {% elsif post.link %}
                     <a class="activities_linked" href="{{ post.link }}">{{ title }}</a>
                     {% else %}
                     <a class="activities_linked" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>

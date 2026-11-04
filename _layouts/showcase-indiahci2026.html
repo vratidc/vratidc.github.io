@@ -22,8 +22,6 @@ layout: default
         <hr style="height:2px;border-width:0;background-color:#008055;">
 
         <div class="all-projects showcase-grid">
-            {% include documents-collection-projects-indiahci2026.html collection="projects" type="grid" %}
-
             <!-- Not in the projects collection yet, so its card is written out by hand
                  using the same markup as course-projects-single.html. -->
             <div class="course_project_grid__item VR Arts-Track">
@@ -34,13 +32,19 @@ layout: default
                   <a class="tag tagbox">Unreal Engine</a>
                   <a class="tag tagbox">Installation</a>
                 </p>
+                <p>
+                  <em>Creator: Elvira Mishra</em>
+                </p>
                 <div class="course__item-teaser-container">
                   <div class="course__item-teaser" style='background-image: url({{ "/assets/img/projects/indiahci2026/a_celebration.jpg" | relative_url }});'></div>
                 </div>
                 <p>This is an inter-media interactive art experience. In this exhibit, the audience get to view an original painting by the artist Nandhini Sreekumar, followed by a chance to step inside the painting and experience it spatially in a 6DoF Virtual Reality environment, with interactions and a narrative. The experience was created in Unreal engine, applying novel techniques of character scanning, stroke based texturing by the artist, and the concept of 2D art being a spatial interactive environment.</p>
+                <h3>Awards:</h3>
+                <p><svg viewBox="0 0 24 24" width="1.4em" height="1.4em" fill="#cc9200" fill-rule="evenodd" aria-hidden="true" style="margin-right: 0.4em; vertical-align: -0.3em;"><path d="M7 3h10v2h4v3a5 5 0 0 1-4.6 5 5 5 0 0 1-3.4 2.9V19h3v2H8v-2h3v-3.1A5 5 0 0 1 7.6 13 5 5 0 0 1 3 8V5h4V3zm0 4H5v1a3 3 0 0 0 2 2.8V7zm10 0v3.8A3 3 0 0 0 19 8V7h-2z"/></svg>Received the <span style="color:#cc9200;">Best Artwork Award</span> at India HCI 2026</p>
               </article>
               <hr>
             </div>
+            {% include documents-collection-projects-indiahci2026.html collection="projects" type="grid" %}
         </div>
 
     </div>

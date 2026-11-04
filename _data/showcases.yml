@@ -1,0 +1,32 @@
+# Course showcases on the Student Projects page, newest first.
+# Add a new showcase at the top. Its projects need the same `year` value.
+- year: "2026_pid"
+  url: /pid-ar-showcase-2026
+  name: "Parul AR Workshop 2026"
+- year: "2026_1"
+  url: /de677-showcase-2026
+  name: "Design for VR 2026"
+- year: "2026"
+  url: /de712-showcase-2026
+  name: "Design for XR 2026"
+- year: "2025_1"
+  url: /de677-showcase-2025
+  name: "Design for VR 2025"
+- year: "2025"
+  url: /de712-showcase-2025
+  name: "Design for XR 2025"
+- year: "2024_1"
+  url: /de677-showcase-2024
+  name: "Design for VR 2024"
+- year: "2024"
+  url: /de712-showcase-2024
+  name: "Design for XR 2024"
+- year: "2023"
+  url: /de677-showcase-2023
+  name: "Design for VR 2023"
+- year: "2022"
+  url: /de677-showcase-2022
+  name: "Design for VR 2022"
+- year: "2021"
+  url: /de677-showcase-2021
+  name: "Design for VR 2021"

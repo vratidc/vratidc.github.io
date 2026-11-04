@@ -1,0 +1,19 @@
+{% capture project_url %}{{ include.url | relative_url }}{% if include.anchor %}#project-{{ include.post.year }}-{{ include.post.slug }}{% endif %}{% endcapture %}
+<div class="project_grid__item {% for tag in include.post.tags %} {{ tag }} {% endfor %}">
+    <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <a href="{{ project_url }}">
+            <div class="projects__item-teaser-container">
+                <img class="projects__item-teaser" src="{{ include.post.header.teaser | relative_url }}" alt="{{ include.post.title | strip_html | escape }}" loading="lazy">
+            </div>
+        </a>
+        <h2 class="projects__item-title" itemprop="headline">
+            <a href="{{ project_url }}">{{ include.post.title }}</a>
+        </h2>
+        <p class="projects__item-excerpt" itemprop="description" style="margin-bottom: 0px;">{{ include.name }}</p>
+        <p class="projects__item-excerpt-tags">
+            {% for tag in include.post.tags %}
+            <a class="tag tagbox">{{ tag }}</a>
+            {% endfor %}
+        </p>
+    </article>
+</div>

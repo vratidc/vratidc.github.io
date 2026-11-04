@@ -1,25 +1,35 @@
 
-- date: 10-09-2025
+- date: 2026-10-26
+  group_caption: "Veljko Popović, award-winning Croatian animator, filmmaker, and professor at the Arts Academy in Split, visited the lab and experienced Into the Manhole."
+  images:
+    - image: assets/img/Archive/Veljko_1.jpg
+      full_caption: ""
+    - image: assets/img/Archive/Veljko_2.jpg
+      full_caption: ""
+    - image: assets/img/Archive/Veljko_3.jpg
+      full_caption: ""
+    - image: assets/img/Archive/Veljko_4.jpg
+      full_caption: ""
+
+- date: 2026-09-08
+  group_caption: "The first cohort of Kulfi Collective's Play It Forward residency visited the lab."
+  images:
+    - image: assets/img/Archive/Kulfi_1.jpg
+      full_caption: ""
+    - image: assets/img/Archive/Kulfi_2.jpg
+      full_caption: ""
+    - image: assets/img/Archive/Kulfi_3.jpg
+      full_caption: ""
+
+- date: 2025-09-10
   group_caption: "Syensqo Research and Innovation Centre scientists visited the lab."
   images:
     - image: assets/img/Archive/Syensqo.jpg
       full_caption: "Dr. Suryakant Bhosale & Dr. Prem Singh from Analytical Lab of Syensqo R&I Centre Ahmedabad."
 
 
-- date: 21-05-2025
+- date: 2025-05-21
   group_caption: "Dolby Laboratories Team visited the lab."
   images:
     - image: assets/img/Archive/Dolby.jpg
       full_caption: "Vishnu Raj, Shiv Gelhot, and Divakar Kanduri from Dolby Lab, Bengaluru."
-  
-- date: 05-05-2025
-  group_caption: "Lab members presented Maharashtra Drone Mission project's Ground Control Vehicle VR simulation to several Minister's and Employees of Maharashtra Government at Mantralaya, Mumbai."
-  images:
-    - image: assets/img/Archive/Mantralaya_1.jpg
-      full_caption: ""
-    - image: assets/img/Archive/Mantralaya_2.jpg
-      full_caption: ""
-    - image: assets/img/Archive/Mantralaya_3.jpg
-      full_caption: ""
-    - image: assets/img/Archive/Mantralaya_4.jpg
-      full_caption: ""

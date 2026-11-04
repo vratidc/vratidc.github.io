@@ -1044,7 +1044,31 @@
         aspect-ratio: 16 / 9;
     }
 
+    // Images cropped from the slide deck keep the slide's 2:1 picture band.
+    &.showcase-grid--slides .course__item-teaser {
+        aspect-ratio: 2 / 1;
+    }
+
     .course__item p:last-child {
         margin-bottom: 0;
     }
+}
+
+
+/*
+   All student projects page
+   ========================================================================== */
+
+// Same cards as All Projects, but thumbnails keep their 16:9 shape.
+.student-projects .project_grid__item .projects__item-teaser {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+// Keeps a linked project clear of the fixed masthead.
+.course_project_grid__item {
+    scroll-margin-top: 100px;
 }

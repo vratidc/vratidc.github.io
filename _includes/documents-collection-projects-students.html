@@ -1,0 +1,16 @@
+{% assign entries = site[include.collection] | where: "type", "course" | where: "active", "yes" | sort: 'date' | reverse %}
+{% assign listed_years = site.data.showcases | map: "year" %}
+
+{% comment %} Projects whose year isn't in _data/showcases.yml yet still show, first, so nothing goes missing. {% endcomment %}
+{%- for post in entries -%}
+{% unless listed_years contains post.year %}
+  {% include student-project-card.html post=post url="/student-projects" name="Course Project" %}
+{% endunless %}
+{%- endfor -%}
+
+{%- for showcase in site.data.showcases -%}
+{% assign showcase_entries = entries | where: "year", showcase.year %}
+{%- for post in showcase_entries -%}
+  {% include student-project-card.html post=post url=showcase.url name=showcase.name anchor=true %}
+{%- endfor -%}
+{%- endfor -%}

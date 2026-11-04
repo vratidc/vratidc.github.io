@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% if page.header.image %}
+<!-- Same spacing as the 360 header on the course showcases; height follows the image so nothing is trimmed. -->
+<div class="vr_home" style="height: auto;">
+    <img src="{{ page.header.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; height: auto; display: block;">
+</div>
+<br><br>
+{% endif %}
+
+<div id="main" role="main"{% if page.header.image %} style="margin-top: 1em;"{% endif %}>
+    <div class="projects"{% if page.header.image %} style="margin-top: 1em;"{% endif %}>
+
+        <div>
+            <h1 id="page-title" class="page__title" style="margin-bottom: 10px; line-height: 1.25;">{{ page.title }}</h1>
+            {{ content }}
+        </div>
+
+        <hr style="height:2px;border-width:0;background-color:#008055;">
+
+        <div class="all-projects showcase-grid showcase-grid--slides">
+            {% include documents-collection-projects-2026_pid.html collection="projects" type="grid" %}
+        </div>
+
+    </div>
+</div>

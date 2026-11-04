@@ -37,3 +37,11 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  // Showcase cards are positioned by script, so jump to a linked project once the page has settled.
+  window.addEventListener("load", function () {
+    var target = location.hash.indexOf("#project-") === 0 && document.getElementById(location.hash.slice(1));
+    if (target) { setTimeout(function () { target.scrollIntoView(); }, 300); }
+  });
+</script>

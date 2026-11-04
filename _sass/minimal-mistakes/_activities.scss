@@ -145,6 +145,22 @@ a.activities_linked {
     background-size: 120%;
 }
 
+// Original photo shown over the tinted thumbnail on hover.
+.activities__item-teaser-hover {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    // Same crop and zoom as the tinted thumbnail, so only the colour changes.
+    background-position: 50% 40%;
+    opacity: 0;
+    transition: opacity .8s ease-in-out, transform .4s;
+}
+
+.activities_holder:hover .activities__item-teaser-hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
 /*
    List view
    ========================================================================== */

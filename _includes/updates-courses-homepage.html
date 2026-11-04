@@ -1,5 +1,7 @@
 <div class="updates">
-    {%- for link in site.data.courses.main -%}
+    {% assign active_courses = site.data.courses.main | where: "active", "yes" %}
+    {% assign course_limit = include.limit | default: 8 %}
+    {%- for link in active_courses limit: course_limit -%}
 
 
     {% if link.active == "yes" %}

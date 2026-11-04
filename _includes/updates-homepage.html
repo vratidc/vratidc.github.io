@@ -1,5 +1,6 @@
 <div class="updates">
-    {%- for link in site.data.updates.main -%}
+    {% assign active_updates = site.data.updates.main | where: "active", "yes" %}
+    {%- for link in active_updates limit: 8 -%}
 
 
     {% if link.active == "yes" %}
