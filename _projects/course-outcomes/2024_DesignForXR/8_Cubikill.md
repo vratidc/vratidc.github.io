@@ -1,4 +1,5 @@
 ---
+description: "‘CubiKill’ is an AR game where players strategically move king, smash, and cannon pieces on a Rubik's cube. The objective is to capture opponents' kings..."
 permalink: /projects/2024/8_course_project/
 title: "Cubikill"
 team: "Samarth Dhanuka | Raghav Samodia | Mukul Mahajan | Abhishek Kshirsagar"

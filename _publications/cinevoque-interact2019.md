@@ -7,7 +7,7 @@ authors: "Jayesh Pillai, Amarnath Murugan and Amal Dev"
 year: "2019"
 date: 2019-09-02
 venue: "INTERACT 2019 - 17th IFIP TC.13 International Conference on Human-Computer Interaction, Paphos, Cyprus"
-excerpt: Excerpt to be added
+excerpt: "Short Paper - Jayesh Pillai, Amarnath Murugan and Amal Dev - INTERACT 2019 - 17th IFIP TC.13 International Conference on Human-Computer Interaction..."
 homepage: "false"
 fullpage: "yes"
 link: "https://link.springer.com/chapter/10.1007/978-3-030-29381-9_22"

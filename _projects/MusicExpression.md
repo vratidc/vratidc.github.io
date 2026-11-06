@@ -1,4 +1,5 @@
 ---
+description: "VEs Responsive to Music - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Music Expression in VR"
 excerpt: VEs Responsive to Music
 layout: projects   

@@ -1,4 +1,5 @@
 ---
+description: "Architectural Collaboration in Mixed Reality - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Arch Deck"
 excerpt: Architectural Collaboration in Mixed Reality
 layout: projects

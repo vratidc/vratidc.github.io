@@ -1,4 +1,5 @@
 ---
+description: "3D Environment Artist (VR) - IMXD Lab, IDC School of Design, IIT Bombay"
 title: 3D Environment Artist (VR)
 permalink: /openings/3d-environment-artist
 layout: single

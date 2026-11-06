@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-11-12
 
 venue: "VRST 2019 - The 25th ACM Symposium on Virtual Reality Software and Technology, Sydney, Australia"
-excerpt: Excerpt to be added
+excerpt: "Poster Presentation - Vineet Kamboj, Tuhin Bhuyan and Jayesh Pillai - VRST 2019 - The 25th ACM Symposium on Virtual Reality Software and Technology..."
 homepage: "false"
 fullpage: "yes"
 website: "https://dl.acm.org/doi/10.1145/3359996.3364770"

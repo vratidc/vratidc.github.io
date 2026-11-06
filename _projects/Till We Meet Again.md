@@ -1,4 +1,5 @@
 ---
+description: "A Cinévoqué Experience - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Till We Meet Again"
 excerpt: A Cinévoqué Experience
 layout: projects   

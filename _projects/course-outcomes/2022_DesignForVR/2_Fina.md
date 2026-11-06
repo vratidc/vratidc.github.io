@@ -1,4 +1,5 @@
 ---
+description: "This project deals with novel hand gesture interactions for file management in a VR environment. Most current file management interactions use ray-casting..."
 recognition: "selected"
 recognition_label: "Finalist, Student Competition, Laval Virtual 2023"
 permalink: /projects/2022/2_course_project/

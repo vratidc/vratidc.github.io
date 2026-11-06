@@ -1,4 +1,7 @@
 ---
+description: "Zoobie Doobie is an interactive VR game set inside a flooded apartment, transforming an everyday home into a playful survival adventure. Zoobie, a young..."
+recognition_highlight: "Arts Track, India HCI 2026 (Zoobie Doobie)"
+recognition_link: /de712-showcase-2026#project-2026-2_ZoobieDoobie
 recognition: "selected"
 recognition_label: "Arts Track, India HCI 2026"
 permalink: /projects/2026/2_course_project/

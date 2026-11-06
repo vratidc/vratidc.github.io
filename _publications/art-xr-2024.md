@@ -7,7 +7,7 @@ authors: "Elvira Mishra and Jayesh Pillai"
 year: "2024"
 date: 2024-04-13
 venue: "Proceedings of the Paris Conference on Arts & Humanities 2024, France"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Elvira Mishra and Jayesh Pillai - Proceedings of the Paris Conference on Arts & Humanities 2024, France"
 homepage: "false"
 fullpage: "yes"
 link: "https://papers.iafor.org/submission82003/"

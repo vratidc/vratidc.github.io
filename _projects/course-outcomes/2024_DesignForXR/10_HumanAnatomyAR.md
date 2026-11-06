@@ -1,4 +1,5 @@
 ---
+description: "Anatomy AR in an interactive AR application which uses marker based AR to help kids learn human anatomy in a fun way. Using this one can rotate, zoom and..."
 permalink: /projects/2024/10_course_project/
 title: "Human Anatomy AR"
 team: "Madhumithan R"

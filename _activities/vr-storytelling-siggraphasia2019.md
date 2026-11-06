@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-11-18
 
 venue: "Narrative Visualisation - Birds of a Feather, at SIGGRAPH Asia 2019, Brisbane, Australia"
-excerpt: Excerpt to be added
+excerpt: "Invited Talk - Jayesh Pillai - Narrative Visualisation - Birds of a Feather, at SIGGRAPH Asia 2019, Brisbane, Australia"
 homepage: "no"
 fullpage: "no"
 header:

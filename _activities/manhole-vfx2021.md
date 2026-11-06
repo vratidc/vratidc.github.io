@@ -7,7 +7,7 @@ authors: "Amarnath Murugan"
 year: "2021"
 date: 2021-11-18
 venue: "VFX Summit by Unreal Engine - Indiajoy, Hyderabad, India"
-excerpt: Excerpt to be added
+excerpt: "Invited Talk / Panel Discussion - Amarnath Murugan - VFX Summit by Unreal Engine - Indiajoy, Hyderabad, India"
 homepage: "false"
 fullpage: "no"
 header:

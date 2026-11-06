@@ -1,4 +1,7 @@
 ---
+description: "Fusion stands for file transfer and universal sync for immersive and other networks. Fusion is an exploration of novel, intuitive, one-handed interactions..."
+recognition_highlight: "ReVolutions Competitions, Laval Virtual 2024 (Fusion)"
+recognition_link: /de677-showcase-2023#project-2023-1_Fusion
 recognition: "selected"
 recognition_label: "ReVolutions Competitions, Laval Virtual 2024"
 permalink: /projects/2023/1_course_project/

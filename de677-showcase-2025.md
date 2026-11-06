@@ -1,4 +1,5 @@
 ---
+description: "Student projects from the Design for VR 2025 course at IDC School of Design, IIT Bombay, by IMXD Lab."
 showcase_folder: "2025_DesignForVR"
 title:  "Design for VR - Project Showcase 2025"
 excerpt: Project Showcase for DE677 - Design for Virtual Reality

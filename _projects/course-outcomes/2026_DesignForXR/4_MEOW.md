@@ -1,4 +1,7 @@
 ---
+description: "Me'ow is a VR game told from a cat’s point of view. You play as Me, a friend of Ow. They’ve always been together until Me is forcefully taken to a new..."
+recognition_highlight: "Posters & Demos, India HCI 2026 (ME'OW)"
+recognition_link: /de712-showcase-2026#project-2026-4_MEOW
 recognition: "selected"
 recognition_label: "Posters & Demos, India HCI 2026"
 permalink: /projects/2026/4_course_project/

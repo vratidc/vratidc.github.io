@@ -1,4 +1,5 @@
 ---
+description: "Syensqo scientists visited the lab - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Syensqo Research and Innovation Centre Visit"
 type: "Lab Visit"
 publication: "no"

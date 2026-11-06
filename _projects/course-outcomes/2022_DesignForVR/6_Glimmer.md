@@ -1,4 +1,5 @@
 ---
+description: "The world of Glimmer is post-apocalyptic. This is a globe that has endured the horrors of humanity, and as a result of nuclear wars and global warming, it..."
 permalink: /projects/2022/6_course_project/
 title:  "Glimmer"
 team: "Akshata Khare | Indubhusan Roy | Kunal Khawaskar | Shreyas Vernekar"

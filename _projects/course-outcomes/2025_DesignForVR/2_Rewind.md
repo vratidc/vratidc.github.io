@@ -1,4 +1,5 @@
 ---
+description: "REWIND is a time-bending VR puzzle game where players manipulate events by reversing time instead of acting forward. Each challenge demands non-linear..."
 permalink: /projects/2025_1/2_course_project/
 title: "Rewind : A VR Experience with Time-manipulation"
 team: "Daisy Srimayi | Rangeet Hait | Tanmay Sanwal"

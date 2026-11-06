@@ -1,4 +1,5 @@
 ---
+description: "Kill 'Em All is a virtual reality (VR) game set in an IIT Bombay hostel plagued by mosquito infestations. The objective is simple — eliminate as many..."
 permalink: /projects/2023/17_course_project/
 title: "Kill 'Em All"
 team: "Harish Hemanth D | Akashnath M. | Muhammed K Abdulla | Sangeeth Sivan M"

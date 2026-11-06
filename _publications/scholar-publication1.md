@@ -8,7 +8,7 @@ year: "2018"
 date: 2018-12-10
 
 venue: "T4E 2018 (9th IEEE International Conference on Technology for Education), IIT Madras, India"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Pratiti Sarkar, Jayesh Pillai and Ankita Gupta - T4E 2018 (9th IEEE International Conference on Technology for Education), IIT Madras, India"
 homepage: "false"
 fullpage: "yes"
 link: "https://ieeexplore.ieee.org/document/8590098"

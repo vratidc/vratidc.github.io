@@ -1,4 +1,5 @@
 ---
+description: "MULTUS handles various issues in virtual reality menus. It allows for simultaneous access to multiple menus, which speeds up workflow and enhances..."
 permalink: /projects/2024/9_course_project/
 title: "MULTUS : A Multitasking System for VR"
 team: "Jishnu Diwakar | Anuj Ambhore | Aditi Chintey | Satvik Srivastava"

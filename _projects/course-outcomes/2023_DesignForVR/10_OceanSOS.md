@@ -1,4 +1,5 @@
 ---
+description: "OceanSOS is an augmented reality (AR) experience designed to bring awareness about the pressing issue of plastic pollution in our oceans. This project..."
 permalink: /projects/2023/10_course_project/
 title: "Ocean SOS"
 team: "Puja Saha | Muskan Bagaria | Pallavi Soni | Girish Kishore"

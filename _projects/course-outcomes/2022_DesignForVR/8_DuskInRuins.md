@@ -1,4 +1,5 @@
 ---
+description: "Gamifying experience of rebulding the ruins and restoring IDC in a post apocalypse world."
 permalink: /projects/2022/8_course_project/
 title:  "Dusk in Ruins"
 team: "Rubayat Ahmed | Deepak Milind Pendam | Manit Khare | Tejaswini Rajeshwar Pundge"

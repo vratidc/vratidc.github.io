@@ -1,4 +1,7 @@
 ---
+description: "6DoF VR Narrative - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition: "award"
+recognition_label: "Laval Virtual Award 2026 + 2 more awards & 4 official selections"
 title:  "Into the Manhole"
 excerpt: 6DoF VR Narrative
 layout: manholeprojectspage   

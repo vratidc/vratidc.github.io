@@ -7,7 +7,7 @@ authors: "Soumya Agarwal and Jayesh Pillai"
 year: "2025"
 date: 2025-09-03
 venue: "EuroXR 2025, Winterthur, Switzerland"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Soumya Agarwal and Jayesh Pillai - EuroXR 2025, Winterthur, Switzerland"
 homepage: "false"
 fullpage: "yes"
 link: "https://link.springer.com/chapter/10.1007/978-3-032-03805-0_7"

@@ -1,4 +1,5 @@
 ---
+description: "Into the Manhole wins Best XR Short Film - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Into the Manhole - FICCI BAF Award 2025 for Best XR Short Film"
 type: "Award"
 publication: "no"
@@ -6,6 +7,7 @@ activity: "yes"
 authors: "Abhishek Verma and Jayesh Pillai"
 year: "2025"
 date: 2025-03-27
+recognition_short: "FICCI BAF Award 2025 (Into the Manhole)"
 
 venue: "FICCI BAF Awards 2025, Mumbai, India"
 excerpt: "Into the Manhole wins Best XR Short Film"

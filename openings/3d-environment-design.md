@@ -1,4 +1,5 @@
 ---
+description: "3D Environment Design and Assets Creation for Real-time Virtual Reality Experience - IMXD Lab, IDC School of Design, IIT Bombay"
 title: 3D Environment Design and Assets Creation for Real-time Virtual Reality Experience
 permalink: /openings/3d-environment-design
 layout: single

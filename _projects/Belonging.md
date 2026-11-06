@@ -1,4 +1,8 @@
 ---
+description: "Interactive 360° Immersive Mystery Story - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_short: "Best Artwork, India HCI 2023 (Belonging)"
+recognition: "award"
+recognition_label: "Best Artwork Award, India HCI 2023 and 1 official selection"
 title:  "Belonging"
 excerpt: Interactive 360° Immersive Mystery Story
 layout: projects   

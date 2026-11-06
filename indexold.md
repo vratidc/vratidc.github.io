@@ -1,4 +1,6 @@
 ---
+published: false
+description: "IMXD Lab - IMXD Lab, IDC School of Design, IIT Bombay"
 layout: singlehome
 title: IMXD Lab
 author_profile: false

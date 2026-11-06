@@ -1,4 +1,5 @@
 ---
+description: "Falling Apples in AR is a fun yet simple game which uses marker based augmented reality to generate 3D apples falling within the space. The objective of..."
 permalink: /projects/2021/2_ar_catch_game/
 title:  "Falling Apples: An AR Game"
 team: "Jribh Shandilya | Radhika | Arshiya Gahlot"

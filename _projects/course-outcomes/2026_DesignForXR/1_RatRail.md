@@ -1,4 +1,5 @@
 ---
+description: "Step into the fur of a cynical, ex lab-rat in this VR odyssey set in a dilapidated, disc-strewn Y2K-era apartment. After being plucked from a dumpster by..."
 permalink: /projects/2026/1_course_project/
 title: "Rat Rail"
 team: "Suvid Rangile, Puru Vats, Kushagra Singh, Sharath Lotti"

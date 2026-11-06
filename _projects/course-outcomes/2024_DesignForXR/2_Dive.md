@@ -1,4 +1,5 @@
 ---
+description: "As technology advances, so does the way we experience art. With immersive art experiences, we are no longer just observers; we are participants in the..."
 permalink: /projects/2024/2_course_project/
 title: "Dive: Immersive Generative Art"
 team: "Hayat Tamboli | Yashwant Rawat | Anumeha Patoria | Tanmay Kuwalekar"

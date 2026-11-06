@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-12-09
 
 venue: "T4E 2019 (9th IEEE International Conference on Technology for Education), Goa, India"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Pratiti Sarkar, Kapil Kadam and Jayesh Pillai - T4E 2019 (9th IEEE International Conference on Technology for Education), Goa, India"
 PDF: /assets/documents/Sarkar2019_CollaborativeApproaches_AR_T4E.pdf
 homepage: "false"
 fullpage: "yes"

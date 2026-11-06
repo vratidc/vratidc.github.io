@@ -1,4 +1,5 @@
 ---
+description: "शहAR is an interactive AR town builder. By placing dedicated markers, users can generate houses, shops, offices, roads, and many more objects to create a..."
 permalink: /projects/2023/2_course_project/
 title: "शहAR: Town Builder"
 team: "Saloni Shetye | Mann Merchant | Lakshya Ranwan | Sharvil Survase | Sanat Prasad"

@@ -1,4 +1,5 @@
 ---
+description: "Design for VR - 2022 - IMXD Lab, IDC School of Design, IIT Bombay"
 layout: panofullscreen2022
 title: "Design for VR - 2022"
 author_profile: false

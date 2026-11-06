@@ -1,4 +1,5 @@
 ---
+description: "EASE is a prototype that aims to enhance the workspace of applications by providing access to tabs and other essential options in mixed reality (MR). It..."
 permalink: /projects/2023/11_course_project/
 title: "EASE - Enhancing Application-Space Experience"
 team: "Sukesha Ghosh | Singh Suraj Dharmendra Kiran | Siva M U | Kumavat Sukhadev Taradevi"

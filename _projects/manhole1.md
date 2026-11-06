@@ -1,4 +1,9 @@
 ---
+description: "3D Animated Short Film - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight_2: "Seoul Independent Animation Film Festival 2022 (Manhole)"
+recognition_highlight: "Annecy International Animation Film Festival 2022 (Manhole)"
+recognition: "selected"
+recognition_label: "Annecy International Animation Film Festival 2022 + 5 official selections"
 title:  "Manhole"
 excerpt: 3D Animated Short Film
 layout: manholeprojectspage

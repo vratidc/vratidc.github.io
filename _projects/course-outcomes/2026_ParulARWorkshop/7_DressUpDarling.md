@@ -1,4 +1,5 @@
 ---
+description: "An AR-based interactive fashion experience that combines a physical puzzle with Augmented Reality (AR). Players must arrange the puzzle pieces to complete..."
 permalink: /projects/2026_pid/7_course_project/
 title: "Dress-up Darling"
 team: "Lucky Panchal, Ghanshyam Birua, Meet Mehta, Brendon Tshuma, Roshan Kumar"

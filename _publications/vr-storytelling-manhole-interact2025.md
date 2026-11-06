@@ -7,7 +7,7 @@ authors: "Abhishek Verma, Jayesh Pillai and Shiva Teja Banda"
 year: "2025"
 date: 2025-09-08
 venue: "INTERACT 2025 - 20th IFIP TC13 International Conference on Human-Computer Interaction, Belo Horizonte, Brazil"
-excerpt: Excerpt to be added
+excerpt: "Demo Presentation - Abhishek Verma, Jayesh Pillai and Shiva Teja Banda - INTERACT 2025 - 20th IFIP TC13 International Conference on Human-Computer..."
 homepage: "false"
 fullpage: "yes"
 link: "https://link.springer.com/chapter/10.1007/978-3-032-05008-3_24"

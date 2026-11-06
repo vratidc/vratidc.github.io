@@ -1,4 +1,5 @@
 ---
+description: "Catleap is an augmented reality (AR) experiential artwork that immerses users in the vast and fascinating realm of interactive art. Midnight, a mysterious..."
 permalink: /projects/2023/6_course_project/
 title: "CatLeap"
 team: "Pabboju Vaishnavi | Agnes Dora R | Khedekar Mansi Santosh | Pooja Kumari"

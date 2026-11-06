@@ -8,7 +8,7 @@ year: "2021"
 date: 2021-10-18
 
 venue: "Proceedings of the ACM on Human-Computer Interaction, Vol. 5, No. CSCW2, 1-25"
-excerpt: Excerpt to be added
+excerpt: "Journal Article - Pratiti Sarkar and Jayesh Pillai - Proceedings of the ACM on Human-Computer Interaction, Vol. 5, No. CSCW2, 1-25"
 PDF: "https://www.researchgate.net/publication/355404242"
 website: "https://dl.acm.org/doi/10.1145/3479605"
 homepage: "false"

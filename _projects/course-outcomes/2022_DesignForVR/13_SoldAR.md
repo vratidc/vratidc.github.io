@@ -1,4 +1,5 @@
 ---
+description: "SolidAR is a learning tool for students who are learning the basics of platonic and Archimedean solids. It goes a step beyond the usual 2d representation..."
 permalink: /projects/2022/13_course_project/
 title:  "SoldAR"
 team: "Mugdha Dengle | Susovan Gupta"

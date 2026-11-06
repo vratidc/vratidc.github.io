@@ -1,4 +1,5 @@
 ---
+description: "Palette is an VR application that transforms the way we view our digital content. Drawing inspiration from the memory technique of the mind palace..."
 permalink: /projects/2024_1/1_course_project/
 title: "Palette : A VR Data Management Tool"
 team: "Arunabh Chaudhury | Nanoty Nachiket Jitendra | Soumya Agarwal | Prashin Prashanth"

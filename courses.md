@@ -1,4 +1,5 @@
 ---
+description: "Courses - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Courses
 permalink: /courses
 layout: projectspage

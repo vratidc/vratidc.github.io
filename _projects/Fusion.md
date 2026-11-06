@@ -1,4 +1,7 @@
 ---
+description: "updating - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition: "selected"
+recognition_label: "ReVolutions Competitions, Laval Virtual 2024"
 title:  "Fusion"
 excerpt: updating
 layout: projects   

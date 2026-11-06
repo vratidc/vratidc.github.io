@@ -1,4 +1,7 @@
 ---
+description: "Patchwork is a VR experience set within the shadowy, cluttered spaces of a near-abandoned tailor's lair. Trapped inside his workshop, players must find a..."
+recognition_highlight: "Posters & Demos, India HCI 2026 (Patchwork)"
+recognition_link: /de712-showcase-2026#project-2026-5_Patchwork
 recognition: "selected"
 recognition_label: "Posters & Demos, India HCI 2026"
 permalink: /projects/2026/5_course_project/

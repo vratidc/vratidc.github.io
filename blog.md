@@ -1,6 +1,8 @@
 ---
+description: "Updates - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Updates
-permalink: blog
+permalink: /updates/
+redirect_from: /blog
 layout: blog
 ---
 

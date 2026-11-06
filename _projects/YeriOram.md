@@ -1,4 +1,5 @@
 ---
+description: "360° Music Video - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Yeri Oram"
 excerpt: 360° Music Video
 layout: projects   

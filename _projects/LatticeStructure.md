@@ -1,4 +1,5 @@
 ---
+description: "Tangible AR Application - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Lattice Structure in AR"
 excerpt: Tangible AR Application
 layout: projects

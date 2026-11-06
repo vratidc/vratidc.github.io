@@ -1,4 +1,5 @@
 ---
+description: "‘Amorphi’ is a mobile AR application where users find four hidden pictures to reveal a story. Each picture uncovers a part of the narrative, encouraging..."
 permalink: /projects/2024/1_course_project/
 title: "Amorphi: Discovering the story as you move"
 team: "Ankita Thakur | Evana Pallivathukkal | Khushboo singh"

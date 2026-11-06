@@ -1,4 +1,5 @@
 ---
+description: "Developing a Real-Time Virtual Reality 6DoF Narrative - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Developing a Real-Time Virtual Reality 6DoF Narrative
 permalink: /openings/6dof-narrative
 layout: single

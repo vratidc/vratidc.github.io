@@ -1,4 +1,5 @@
 ---
+description: "Our project transports you into the vibrant world of the Warli tribe through Virtual Reality. Dive into their stunning art and rich traditions in an..."
 permalink: /projects/2024_1/3_course_project/
 title: "VRली"
 team: "Tushar Singh | Aditya Singh | Digbijoy | Sidharth Suryanarayan"

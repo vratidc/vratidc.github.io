@@ -1,4 +1,5 @@
 ---
+description: "The Gregarian Skirmish is a 2 player marker-based AR game. The game follows a storyline where the two war chiefs (Player 1 & Player 2) from the planet of..."
 permalink: /projects/2022/3_course_project/
 title:  "The Gregarian Skirmish"
 team: "Rayaan Sheik | Mithun Murali | Zuha Asif | Annapurna Garimella"

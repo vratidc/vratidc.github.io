@@ -1,4 +1,5 @@
 ---
+description: "KILL PILL is an AR based shooting game where you have to find the targets and destroy them. It gives a fun and engaging gaming experience to the user. In..."
 permalink: /projects/2022/12_course_project/
 title:  "Kill Pill"
 team: "Rahul R. | Praveen Kuma | Vaibhav Watile | Uppili Nithin Soorya"

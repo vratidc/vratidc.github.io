@@ -1,4 +1,5 @@
 ---
+description: "A Virtual Reality 6 DoF Narrative Experience - IMXD Lab, IDC School of Design, IIT Bombay"
 title: "Manhole VR"
 excerpt: A Virtual Reality 6 DoF Narrative Experience
 layout: projects

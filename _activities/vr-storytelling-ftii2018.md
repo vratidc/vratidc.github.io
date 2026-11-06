@@ -1,4 +1,6 @@
 ---
+seo_title: "Introduction to VR Filmmaking - FTII 2018"
+description: "Workshop & Invited Talk at FTII - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Introduction to VR Filmmaking"
 type: "Workshop & Invited Talk"
 publication: "no"

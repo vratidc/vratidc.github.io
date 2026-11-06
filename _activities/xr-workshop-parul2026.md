@@ -1,4 +1,5 @@
 ---
+description: "Three-day workshop at Parul Institute of Design - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Introduction to Extended Reality: Creating Augmented Reality Experiences"
 type: "Workshop"
 publication: "no"

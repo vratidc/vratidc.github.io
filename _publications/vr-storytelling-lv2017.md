@@ -8,7 +8,7 @@ year: "2017"
 date: 2017-04-30
 
 venue: "Virtual Reality International Conference 2017, Laval, France"
-excerpt: Excerpt to be added
+excerpt: "Short Paper - Jayesh Pillai, Azif Ismail and Herold P. Charles - Virtual Reality International Conference 2017, Laval, France"
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3110292.3110300"

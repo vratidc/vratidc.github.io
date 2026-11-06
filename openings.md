@@ -1,4 +1,5 @@
 ---
+description: "Current Openings - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Current Openings
 permalink: /openings
 layout: single

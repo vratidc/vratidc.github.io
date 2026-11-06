@@ -1,4 +1,5 @@
 ---
+description: "We are using Augmented Reality to help customers better visualise the quantity of the food that is going to be ordered from a menu. The users will be able..."
 permalink: /projects/2021/4_ar_dine_ar/
 title:  "Dine-AR: Food Menu Visualization"
 team: "Shrikrishna Malji | Anurag Singh | Sumedh Narnaware | Amit Patjoshi"

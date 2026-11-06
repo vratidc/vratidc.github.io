@@ -1,4 +1,5 @@
 ---
+description: "Student projects from the Design for XR 2024 course at IDC School of Design, IIT Bombay, by IMXD Lab."
 showcase_folder: "2024_DesignForXR"
 title:  "Design for XR - Project Showcase 2024"
 excerpt: Project Showcase for DE712 - Immersive Media Design & DE324 - Digital Media Technologies

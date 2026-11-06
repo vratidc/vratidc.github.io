@@ -7,7 +7,7 @@ authors: "Khyati Priya, Jayesh Pillai and Avinash Shende"
 year: "2025"
 date: 2025-01-01
 venue: "Digitalization in Additive Manufacturing (ICPTDI 2024), Springer, pp. 167-183"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Khyati Priya, Jayesh Pillai and Avinash Shende - Digitalization in Additive Manufacturing (ICPTDI 2024), Springer, pp. 167-183"
 homepage: "false"
 fullpage: "yes"
 link: "https://doi.org/10.1007/978-3-031-84873-5_14"

@@ -1,4 +1,5 @@
 ---
+description: "Yoink Express is an immersive VR game where you join a high-speed, high-flying delivery service! With your YOINKIES (grapplers), zip through the city..."
 permalink: /projects/2025/5_course_project/
 title: "Yoink Express"
 team: "Kaustubh Kaushal | Gaurav Bisht | Kyawsaanu Mog | Devanarayan Rajeev"

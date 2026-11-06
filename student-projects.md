@@ -1,4 +1,5 @@
 ---
+description: "Projects from all IMXD Lab course showcases - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Student Projects
 excerpt: Projects from all IMXD Lab course showcases
 permalink: /student-projects

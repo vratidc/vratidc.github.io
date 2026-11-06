@@ -1,4 +1,5 @@
 ---
+description: "Responsive VR Cinema - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Cinévoqué"
 excerpt: Responsive VR Cinema
 layout: projects

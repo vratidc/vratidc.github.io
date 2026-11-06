@@ -1,6 +1,6 @@
 <div class="updates">
     {% assign active_updates = site.data.updates.main | where: "active", "yes" %}
-    {%- for link in active_updates limit: 8 -%}
+    {%- for link in active_updates limit: 4 -%}
 
 
     {% if link.active == "yes" %}
@@ -41,21 +41,21 @@
                 <div class="updates_text">
 
                     {% if link.fullpage == "yes" %}
-                    <h1 class="updates__item-title" itemprop="headline">
+                    <h2 class="as-h1 updates__item-title" itemprop="headline">
                         {% if link.link %}
                         <a class="updates_linked" href="{{ link.link }}">{{ link.title }}</a>
 
                         {% else %}
                         <a class="updates_linked" href="{{ link.url | relative_url }}" rel="permalink">{{ link.title }}</a>
                         {% endif %}
-                    </h1>
+                    </h2>
 
                     {% else %}
-                    <h1 class="updates__item-title" itemprop="headline">
+                    <h2 class="as-h1 updates__item-title" itemprop="headline">
 
                         <a>{{ link.title }}</a>
 
-                    </h1>
+                    </h2>
 
                     {% endif %}
 
@@ -63,9 +63,9 @@
                         {{ link.date }}
                     </h2>
 
-                    <h1 class="updates__item-excerpt">
+                    <h2 class="as-h1 updates__item-excerpt">
                         {{ link.content }}
-                    </h1>
+                    </h2>
 
                 </div>
 

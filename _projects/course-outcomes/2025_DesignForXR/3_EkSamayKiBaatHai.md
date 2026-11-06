@@ -1,4 +1,5 @@
 ---
+description: "A grandparent living in the age of internet, and resentful of entertainment confined to screens, wishes to lead his two grandchildren to a magical world..."
 permalink: /projects/2025/3_course_project/
 title: "Ek Samay Ki Baat Hai…"
 team: "Nebu George | Ananya Sharma | Naman Khurana"

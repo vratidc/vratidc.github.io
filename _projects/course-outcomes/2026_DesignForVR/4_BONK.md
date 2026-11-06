@@ -1,4 +1,7 @@
 ---
+description: "BO!NK is a two-player VR game where players take on the roles of Minion Kings who compete to take control of floating islands. Each player commands a set..."
+recognition_highlight: "Posters & Demos, India HCI 2026 (BO!NK)"
+recognition_link: /de677-showcase-2026#project-2026_1-4_BONK
 recognition: "selected"
 recognition_label: "Posters & Demos, India HCI 2026"
 permalink: /projects/2026_1/4_course_project/

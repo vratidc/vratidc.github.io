@@ -1,4 +1,5 @@
 ---
+description: "Space Out is a VR experience that puts you in the shoes of someone struggling to stay focused. What starts as a simple task—packing for a trip—quickly..."
 permalink: /projects/2025/2_course_project/
 title: "SPACE OUT"
 team: "Khushi Agrawal | Pradumn Sorte | Soumya Agarwal | Arindam K Dutta | Anoushka Shome"

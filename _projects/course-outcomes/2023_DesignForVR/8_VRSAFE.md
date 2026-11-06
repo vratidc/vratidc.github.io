@@ -1,4 +1,5 @@
 ---
+description: "VR SAFE is a virtual reality experience, in which users create and input passwords to unlock various elements. This project aims to explore the usability..."
 permalink: /projects/2023/8_course_project/
 title: "VR SAFE - Exploring password interactions in VR"
 team: "Shivani verma | Anisha Verma | Anjanesh Indranil | Yash H. Bharani"

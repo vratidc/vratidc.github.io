@@ -1,4 +1,5 @@
 ---
+description: "Jar is an immersive virtual reality (VR) experience. It's an attempt to explore a radicalized workspace layout moving away from the conventional 2D..."
 permalink: /projects/2023/12_course_project/
 title: "Jar - Novel interactions for memories (data) in VR"
 team: "Muddu Venkata Deva Harsha Reddy | Anmol Kashyap | Vasa Padmanabham Sreenivasa Rao Padmaja Rani | Biswajit Das"

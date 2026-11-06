@@ -1,4 +1,5 @@
 ---
+description: "Internal Sites - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Internal Sites
 permalink: /sites
 layout: single

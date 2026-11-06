@@ -1,4 +1,5 @@
 ---
+description: "Workshop on VR Filmmaking - FTII Pune - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Workshop on VR Filmmaking"
 excerpt: Workshop on VR Filmmaking - FTII Pune
 header:

@@ -1,4 +1,5 @@
 ---
+description: "Introducing ‘Batmash’, a captivating VR game that places you in the wings of a young,mischievous bat inside a mysterious cave. Players use spatial audio..."
 permalink: /projects/2024/7_course_project/
 title: "Batmash"
 team: "Laksh Rajpal | Uday Somani | Atharva Vankundre"

@@ -1,4 +1,5 @@
 ---
+description: "‘Go out of Stock’ is an AR visualisation project for bike enthusiasts who want to go beyond stock offerings. Using a network of tangible AR markers, users..."
 permalink: /projects/2023/4_course_project/
 title: "Out of Stock - Bike customization using AR"
 team: "Sarthak Sridhar Rao | Rajdeep Sutradhar | Kulkarni Vedang Uday | Paresh Baliram Bhandarkar"

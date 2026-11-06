@@ -11,7 +11,7 @@ main:
       - title: Activities
         url: /activities
    - title: "Updates"
-     url: /blog
+     url: /updates/
    - title: "People"
      url: /people
    - title: "About"

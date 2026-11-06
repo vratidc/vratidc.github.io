@@ -1,4 +1,5 @@
 ---
+description: "Architecture VR Walkthrough - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Navigation for ArchViz in VR"
 excerpt: Architecture VR Walkthrough
 layout: projects   

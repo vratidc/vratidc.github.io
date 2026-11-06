@@ -1,4 +1,5 @@
 ---
+description: "AR Guide is an innovative augmented reality (AR) application designed to elevate the tourist experience by providing a comprehensive and immersive..."
 permalink: /projects/2023/15_course_project/
 title: "AR Guide"
 team: "Piyush Talwar | Ritik Verma | Sangam Manoj Pazare | Hedaoo Mohit Vishwanath"

@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-12-02
 
 venue: "ICCE2019 - 27th International Conference on Computers in Education, Kenting, Taiwan"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Pratiti Sarkar, Prabodh Sakhardande, Utsav Oza and Jayesh Pillai - ICCE2019 - 27th International Conference on Computers in Education..."
 homepage: "false"
 fullpage: "yes"
 PDF: /assets/documents/Sarkar2019_CollaborativelySolvingAR_ICCE.pdf

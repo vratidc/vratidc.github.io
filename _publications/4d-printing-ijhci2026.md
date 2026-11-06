@@ -7,7 +7,7 @@ authors: "Khyati Priya, Niya Sharma, Aditya Padmagirwar, Jayesh Pillai and Avina
 year: "2026"
 date: 2026-02-01
 venue: "International Journal of Human-Computer Interaction, Taylor & Francis"
-excerpt: Excerpt to be added
+excerpt: "Journal Article - Khyati Priya, Niya Sharma, Aditya Padmagirwar, Jayesh Pillai and Avinash Shende - International Journal of Human-Computer Interaction..."
 homepage: "false"
 fullpage: "yes"
 link: https://doi.org/10.1080/10447318.2026.2749293

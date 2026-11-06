@@ -1,4 +1,5 @@
 ---
+description: "CAR experience is an immersive AR application in which we can view a car in its full scale using a phone or a tab. We can customise its features and drive..."
 permalink: /projects/2023/14_course_project/
 title: "CAR Experience"
 team: "Navneet Maharana | Wasim Salih T | Mahamuni Aditya Padmakar | Piyush Talwar"

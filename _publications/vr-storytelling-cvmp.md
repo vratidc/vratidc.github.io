@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-12-17
 
 venue: "CVMP 2019 - 16th ACM SIGGRAPH European Conference on Visual Media Production, London, UK"
-excerpt: Excerpt to be added
+excerpt: "Short Paper - Jayesh Pillai and Manavi Verma - CVMP 2019 - 16th ACM SIGGRAPH European Conference on Visual Media Production, London, UK"
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3359998.3369402"

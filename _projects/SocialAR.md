@@ -1,4 +1,5 @@
 ---
+description: "Remote AR Collaboration - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Mobile Social AR"
 excerpt: Remote AR Collaboration
 layout: projects

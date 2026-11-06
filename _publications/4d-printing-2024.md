@@ -7,7 +7,7 @@ authors: "Khyati Priya, Jayesh Pillai and Avinash Shende"
 year: "2024"
 date: 2024-05-20
 venue: "Proceedings of the Design Society - 18th International Design Conference (DESIGN 2024), Cavtat, Dubrovnik, Croatia"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Khyati Priya, Jayesh Pillai and Avinash Shende - Proceedings of the Design Society - 18th International Design Conference (DESIGN 2024)..."
 homepage: "false"
 fullpage: "yes"
 link: "https://doi.org/10.1017/pds.2024.13"

@@ -8,7 +8,7 @@ year: "2020"
 date: 2020-06-12
 
 venue: "Smart Learning Environments - SpringerOpen"
-excerpt: Excerpt to be added
+excerpt: "Journal Article - Pratiti Sarkar, Kapil Kadam and Jayesh Pillai - Smart Learning Environments - SpringerOpen"
 PDF: /assets/documents/Sarkar2020_LearnersApproaches_AR.pdf
 website: "https://link.springer.com/article/10.1186/s40561-020-00124-9"
 homepage: "false"

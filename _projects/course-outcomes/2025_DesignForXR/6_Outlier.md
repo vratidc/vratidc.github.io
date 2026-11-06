@@ -1,4 +1,7 @@
 ---
+description: "In Outlier, you’re an astronaut who took a very wrong turn into a black hole and made a total mess of the universe. Oops. Now, a cranky, flickering CRT..."
+recognition_highlight: "Demo & Artwork, India HCI 2025 (Outlier)"
+recognition_link: /de712-showcase-2025#project-2025-6_Outlier
 recognition: "selected"
 recognition_label: "Demo & Artwork, India HCI 2025"
 permalink: /projects/2025/6_course_project/

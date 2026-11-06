@@ -1,4 +1,5 @@
 ---
+description: "Currently no typing support exists for Indic scripts, especially for Devanagari text input. Introducing ‘Svar’, a tool designed as an attempt to..."
 permalink: /projects/2024/5_course_project/
 title: "स्VR (Svar): Devanagri Text Input in VR"
 team: "Yash Kothari | Zoha Hamid | Dhairyasheel Pawar | Prajwal Kulkarni "

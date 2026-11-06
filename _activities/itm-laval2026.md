@@ -1,4 +1,5 @@
 ---
+description: "Into the Manhole wins the XR for a Cause award - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Into the Manhole - Laval Virtual Award 2026 for \"XR for a Cause\""
 type: "Award & Official Selection"
 publication: "no"
@@ -6,6 +7,7 @@ activity: "yes"
 authors: "Abhishek Verma and Jayesh Pillai"
 year: "2026"
 date: 2026-04-09
+recognition_short: "Laval Virtual Award 2026 (Into the Manhole)"
 
 venue: "Laval Virtual 2026, France"
 excerpt: "Into the Manhole wins the XR for a Cause award"

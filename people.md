@@ -1,4 +1,5 @@
 ---
+description: "People - IMXD Lab, IDC School of Design, IIT Bombay"
 title: People
 permalink: /people
 layout: peoplecollection

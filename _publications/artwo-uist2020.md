@@ -7,7 +7,7 @@ authors: "Rishi Vanukuru, Amarnath Murugan and Jayesh Pillai"
 year: "2020"
 date: 2020-10-20
 venue: "UIST 2020 - 33rd ACM User Interface Software and Technology Symposium, Virtual (originally Minneapolis, Minnesota, USA)"
-excerpt: Excerpt to be added
+excerpt: "Demo Presentation - Rishi Vanukuru, Amarnath Murugan and Jayesh Pillai - UIST 2020 - 33rd ACM User Interface Software and Technology Symposium, Virtual..."
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3379350.3416139"

@@ -1,4 +1,5 @@
 ---
+description: "Fashion is the most creative there is, define symbolism of confidence and personality. This is the concept of visualising your outfit through AR Where you..."
 permalink: /projects/2026_pid/2_course_project/
 title: "AR Fashion Style"
 team: "Aryan Agrawal, Saloni Rokade, Parth Shrivastava, Khushi Porwal, Tanisha Kapadia"

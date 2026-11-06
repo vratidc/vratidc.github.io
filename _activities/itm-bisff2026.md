@@ -1,4 +1,6 @@
 ---
+description: "Into the Manhole presented at BISFF 2026 - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight: "Busan International Short Film Festival 2026 (Into the Manhole)"
 title:  "Into the Manhole - Official Invitation at Busan International Short Film Festival 2026"
 type: "Official Invitation"
 publication: "no"

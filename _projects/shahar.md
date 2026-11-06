@@ -1,4 +1,5 @@
 ---
+description: "Exploratory AR Town Builder - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "शहAR"
 excerpt: Exploratory AR Town Builder
 layout: projects   

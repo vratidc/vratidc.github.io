@@ -6,7 +6,9 @@
 
 {% assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' %}
 
-{%- if page.title -%}
+{%- if page.seo_title -%}
+  {%- assign seo_title = page.seo_title -%}
+{%- elsif page.title -%}
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 
@@ -142,8 +144,10 @@
     "@context": "https://schema.org",
     {% if site.social.type == "Organization" %}
       "@type": "Organization",
+      "name": {{ site.social.name | default: site.title | jsonify }},
       "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-      "logo": {{ site_og_image | jsonify }}{% endif %}
+      "logo": {{ site_og_image | jsonify }}{% endif %}{% if site.social.links %},
+      "sameAs": {{ site.social.links | jsonify }}{% endif %}
     {% else %}
       "@type": "Person",
       "name": {{ site.social.name | default: site.name | jsonify }},

@@ -1,4 +1,8 @@
 ---
+description: "Real-Time VR Film - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight: "Finalist, Laval Virtual 2023 (Fina)"
+recognition: "selected"
+recognition_label: "Finalist, Student Competition, Laval Virtual 2023"
 title:  "Fina: File Management Interactions"
 excerpt: Real-Time VR Film
 layout: projects

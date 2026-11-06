@@ -1,4 +1,7 @@
 ---
+description: "Maunaraagam is a 360 VR music video that immerses you in a story of separation, where distance slowly unravels the bond between two people. With spatial..."
+recognition_highlight: "Student Demo Competition, Laval Virtual 2025 (Maunaraagam)"
+recognition_link: /de677-showcase-2024#project-2024_1-5_Maunaraagam
 recognition: "selected"
 recognition_label: "Student Demo Competition, Laval Virtual 2025"
 permalink: /projects/2024_1/5_course_project/

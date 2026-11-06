@@ -6,7 +6,7 @@ activity: "no"
 authors: "Elvira Mishra and Jayesh Pillai"
 year: "2026"
 venue: "India HCI 2026 - 17th Indian Conference on Human-Computer Interaction, Hyderabad"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Elvira Mishra and Jayesh Pillai - India HCI 2026 - 17th Indian Conference on Human-Computer Interaction, Hyderabad"
 homepage: "false"
 fullpage: "yes"
 link:

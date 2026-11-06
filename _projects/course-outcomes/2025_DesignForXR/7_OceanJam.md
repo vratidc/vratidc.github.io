@@ -1,4 +1,5 @@
 ---
+description: "Ocean Jam is a fast-paced VR game where you ride the waves and take down enemies with basketball shots! Dodge obstacles, aim with precision, and race..."
 permalink: /projects/2025/7_course_project/
 title: "Ocean Jam"
 team: "Prateek Pal | Sahil Rohitas Choudhary | Aman Singh | Priyam Kumar Deka"

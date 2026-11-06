@@ -1,4 +1,5 @@
 ---
+description: "Pic-a-boo is an AR game in which you play as a Ghost Hunter exploring the attic of an abandoned mansion. Use your trusty Ghost-Cam to find and capture..."
 permalink: /projects/2025/4_course_project/
 title: "Pic-a-Boo"
 team: "Yuva Gharat | Manya Wahi | Arjun Chawla | Gouraang Gune"

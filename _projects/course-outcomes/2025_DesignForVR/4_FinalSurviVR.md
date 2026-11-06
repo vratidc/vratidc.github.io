@@ -1,4 +1,5 @@
 ---
+description: "After a shipwreck, you find yourself drifting in a small lifeboat. In the distance lies an island, your only hope for survival. Your mission is to row..."
 permalink: /projects/2025_1/4_course_project/
 title: "Final SurviVR : A VR Survival Game"
 team: "Tushar Gaur | Antara Shah | Akshansh Dixit | Mukesh Jangid"

@@ -1,4 +1,5 @@
 ---
+description: "Chaar Diwaari is a narrative-driven VR experience set within the confined space of a traditional Indian household after a mysterious death. Trapped inside..."
 permalink: /projects/2026/7_course_project/
 title: "Chaar Diwaari"
 team: "Akshay R Nair, Avinash Bara, Srishti Rachna, Khadiza Khasamwala, Muhammed Fuaad"

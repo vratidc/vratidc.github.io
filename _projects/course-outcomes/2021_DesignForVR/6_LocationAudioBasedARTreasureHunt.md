@@ -1,4 +1,5 @@
 ---
+description: "This is a location based treasure hunt game, where the clues are displayed in AR, and sound is used to locate the clues. The user has to start at the..."
 permalink: /projects/2021/6_ar_treasure_hunt/
 title:  "Location & Audio Based AR Treasure Hunt"
 team: "V M Lokesh Kumar | Neha Balasundaram | Suchitra Swain"

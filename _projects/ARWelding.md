@@ -1,4 +1,5 @@
 ---
+description: "Welding Training for Vocational Education - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "AR Arc Welding App"
 excerpt: Welding Training for Vocational Education
 layout: projects

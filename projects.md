@@ -1,4 +1,5 @@
 ---
+description: "Projects - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Projects
 permalink: projects
 layout: projectcollection

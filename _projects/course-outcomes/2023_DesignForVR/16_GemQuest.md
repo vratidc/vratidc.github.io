@@ -1,4 +1,5 @@
 ---
+description: "Gemquest reimagines the charm of traditional board games through AR. Designed as a single-player game (though shareable with friends), this is a mystery..."
 permalink: /projects/2023/16_course_project/
 title: "Gem Quest"
 team: "Pandit Shubham Pravin Sneha | Siladitya Samir | Aaron Chen Lepcha | Banasmita Das"

@@ -1,4 +1,5 @@
 ---
+description: "Traditional portfolios for automotive and industrial design rely heavily on 2D images, renders, and physical prototypes, making it difficult to understand..."
 permalink: /projects/2026_1/2_course_project/
 title: "Spatial Portfolio"
 team: "Karthiga R, Jay Panchal, Navjot Singh, Jobel Joseph"

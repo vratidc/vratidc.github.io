@@ -1,4 +1,5 @@
 ---
+description: "Drones of Dawn is a gripping VR game set in a post-apocalyptic world where robots have taken over. Players step into the shoes of a lone survivor..."
 permalink: /projects/2024_1/4_course_project/
 title: "Drones of Dawn"
 team: "Abhiram NS | Adarsh S | Aswin S | Midhun George"

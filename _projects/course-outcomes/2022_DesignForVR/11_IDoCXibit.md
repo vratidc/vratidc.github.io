@@ -1,4 +1,5 @@
 ---
+description: "The need to communicate one's ideas the best is a fundamental need for every designer. Being able to visualize and to show the vision to others..."
 permalink: /projects/2022/11_course_project/
 title:  "I Do C Xibit"
 team: "Akhil Krishna Pradeep | Amit Kumar | Angshuman Das | Pranay Dilip Gurumukhi"

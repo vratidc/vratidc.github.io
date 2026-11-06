@@ -1,4 +1,5 @@
 ---
+description: "Vilomah is a 360° film about a father who has lost his child. Viewers see the world from his point of view, where everyday spaces slowly fill with..."
 permalink: /projects/2025_1/3_course_project/
 title: "विलोमः (Vilomah) : 360° VR Narrative"
 team: "Pragya Yadav | Tarun Pandey | Kirti"

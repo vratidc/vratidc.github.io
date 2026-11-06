@@ -1,4 +1,5 @@
 ---
+description: "Workshop at ISMAR 2020 - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Towards Designing a Mobile Augmented Reality Learning Experience"
 type: "Workshop"
 publication: "no"
@@ -25,7 +26,8 @@ layout: publications
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/publications/ismar-workshop.png" alt="">
 </figure> 
 
-# Call for Participation
+## Call for Participation
+{: .as-h1}
 
 Augmented Reality (AR) is one of the emerging technologies in several domains including education. When adopted for classrooms, this technology holds great potential in enhancing the motivation in the students to master the course content. Studies have also claimed that there is an increase in student learning and achievement in the educational environment using an AR experience. Enhancement of certain capabilities like problem-solving skills, collaborative learning, and spatial abilities have been the stated reasons for the increased learning achievement. While the AR applications are developed to be used in classrooms using hand-held devices like mobile or tablets, certain guidelines are suggested in creating such an AR learning environment. These guidelines are drawn towards providing an enriched learning experience for the students while using the AR-based solutions in classrooms, thus challenging the traditional teaching-learning process. However, it is required to understand why and what strategies, decisions, methods lie behind the guidelines that are adopted while designing a mobile AR learning experience for K12 classrooms. 
 
@@ -69,7 +71,8 @@ Please email your submission to <a href="mailto:workshop.marle.k12@gmail.com?sub
 
 <br>
 
-# Workshop Agenda
+## Workshop Agenda
+{: .as-h1}
 
 The workshop will be held online. The one-day workshop will involve paper presentations, demonstrations, and hands-on sessions. The participants are expected to present their work involving the outlook, and/or approaches taken in providing an AR learning experience in K12 classrooms. The videos demonstrating the different types of applications or solutions can be shown and discussed. The participants will also be encouraged to ideate and create a paper prototype in designing such an experience based on certain given scenarios.
 
@@ -152,7 +155,8 @@ The workshop will be held online. The one-day workshop will involve paper presen
 
 <br>
 
-# Organizers
+## Organizers
+{: .as-h1}
 
 ## Pratiti Sarkar 
 E-mail: <a href="mailto:pratiti@iitb.ac.in?subject=Hello Pratiti!" target="_blank">pratiti@iitb.ac.in</a>
@@ -187,5 +191,6 @@ Amarnath is a researcher and developer at the IMXD Lab, IDC School of Design, II
 
 <br>
 
-# Contact
+## Contact
+{: .as-h1}
 For any queries, feel free to mail us at <a href="mailto:workshop.marle.k12@gmail.com?subject=Query regarding ISMAR 2020 Workshop" target="_blank">workshop.marle.k12@gmail.com</a>

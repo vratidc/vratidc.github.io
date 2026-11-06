@@ -1,4 +1,7 @@
 ---
+description: "The appearance of fireflies signal the changing of seasons, but the world has been stuck in a standstill for too long. Now, it’s up to you to catch the..."
+recognition_highlight: "Demo, India HCI 2025 (Jugnu)"
+recognition_link: /de712-showcase-2025#project-2025-8_Jugnu
 recognition: "selected"
 recognition_label: "Demo, India HCI 2025"
 permalink: /projects/2025/8_course_project/

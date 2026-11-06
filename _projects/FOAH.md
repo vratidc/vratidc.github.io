@@ -1,4 +1,5 @@
 ---
+description: "6DoF VR Narrative - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Fragments of a Home"
 excerpt: 6DoF VR Narrative
 layout: foahprojectpage   

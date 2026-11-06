@@ -1,4 +1,7 @@
 ---
+description: "Asymmetric Multiplayer VR Maze Experience - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition: "award"
+recognition_label: "Best Project Award, India HCI 2024 and 2 official selections"
 title:  "Star Maze"
 excerpt: Asymmetric Multiplayer VR Maze Experience
 layout: projects   

@@ -1,4 +1,5 @@
 ---
+description: "Cross the road in rush hour traffic to reach the campus gate. If you make it without getting run over, this day will go down in history. See you on the..."
 permalink: /projects/2022/7_course_project/
 title:  "Rush Road"
 team: "Manan Sharma | Manish Sharma | Midhun Mohan | Prathmesh Pedamkar"

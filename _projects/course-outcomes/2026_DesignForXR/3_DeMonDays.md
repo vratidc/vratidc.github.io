@@ -1,4 +1,5 @@
 ---
+description: "Ever wondered what it would be like to intern for the devil? In our exciting new 6DoF game, you can do just that! With armageddon right around the corner..."
 permalink: /projects/2026/3_course_project/
 title: "De-mon-days"
 team: "Karthikay Agrawal, Kshitij Ghag, Manasi Bansode, Spandan Nath"

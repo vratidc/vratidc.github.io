@@ -1,4 +1,5 @@
 ---
+description: "Contact - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Contact
 permalink: /contact
 header:

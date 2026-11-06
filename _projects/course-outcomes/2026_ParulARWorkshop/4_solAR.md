@@ -1,4 +1,5 @@
 ---
+description: "A marker based AR Solar System. An interactive and immersive AR experience of our Solar System. Used for educational purposes to share information about..."
 permalink: /projects/2026_pid/4_course_project/
 title: "solAR"
 team: "Sahim, Manas, Shravani, Pradnya, Daksh"

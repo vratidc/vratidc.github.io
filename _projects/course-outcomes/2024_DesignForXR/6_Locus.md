@@ -1,4 +1,5 @@
 ---
+description: "‘LOCUS’ redefines project planning and whiteboarding in the virtual realm, providing a dynamic platform for collaborative creativity. With intuitive..."
 permalink: /projects/2024/6_course_project/
 title: "Locus: Brainstroming in VR"
 team: "Anshika Gangwar | Riddhi Gadodia | Manu Krishnan | Anoof P K | Ahmad Hussain"

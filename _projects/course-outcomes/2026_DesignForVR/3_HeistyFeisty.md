@@ -1,4 +1,5 @@
 ---
+description: "Heisty feisty is a VR puzzle-stealth game where players take on the role of a burglar attempting a high-stakes house heist. Set during a tight ten-minute..."
 permalink: /projects/2026_1/3_course_project/
 title: "Heisty Feisty"
 team: "Abhishek Kumar, Antony Prakash, Abu Pargavi"

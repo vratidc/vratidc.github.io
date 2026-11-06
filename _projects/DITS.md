@@ -1,4 +1,5 @@
 ---
+description: "Interactive 360° Immersive Mystery Story - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Death in the Suburbs"
 excerpt: Interactive 360° Immersive Mystery Story
 layout: projects   

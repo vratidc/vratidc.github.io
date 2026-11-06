@@ -1,4 +1,8 @@
 ---
+description: "World Through Animal Eyes - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight: "Animela International Animation Festival 2025 (WildVue)"
+recognition: "selected"
+recognition_label: "Animela International Animation Festival 2025"
 title:  "WildVue"
 excerpt: World Through Animal Eyes
 layout: projects   

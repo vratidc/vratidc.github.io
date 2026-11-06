@@ -1,4 +1,5 @@
 ---
+description: "Introducing We-Are-BnB, revolutionising property booking with immersive virtual tours. Prospective guests can explore the property's layout, design, and..."
 permalink: /projects/2023/7_course_project/
 title: "We-Are-BnB"
 team: "Aparajita Prasad | Souvik Das | Prathamesh Sawant | Prince R"

@@ -8,7 +8,7 @@ year: "2019"
 date: 2019-01-09
 
 venue: "ICoRD 2019 - International Conference on Research into Design 2019, IISc Bangalore, India"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Pratiti Sarkar and Jayesh Pillai - ICoRD 2019 - International Conference on Research into Design 2019, IISc Bangalore, India"
 homepage: "false"
 fullpage: "yes"
 link: "https://www.researchgate.net/publication/330252728_User_Expectations_of_Augmented_Reality_Experience_in_Indian_School_Education_Proceedings_of_ICoRD_2019_Volume_2"

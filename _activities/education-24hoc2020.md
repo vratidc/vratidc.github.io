@@ -7,7 +7,7 @@ authors: "Jayesh Pillai"
 year: "2020"
 date: 2020-09-02
 venue: "24 Hours of Chaos 2020 by Chaos Group (virtual)"
-excerpt: Excerpt to be added
+excerpt: "Invited Talk / Panel Discussion - Jayesh Pillai - 24 Hours of Chaos 2020 by Chaos Group (virtual)"
 homepage: "false"
 fullpage: "no"
 header:

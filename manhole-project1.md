@@ -1,4 +1,5 @@
 ---
+description: "Manhole Project - IMXD Lab, IDC School of Design, IIT Bombay"
 title: Manhole Project
 permalink: /manhole-project
 layout: manholeprojectcollection

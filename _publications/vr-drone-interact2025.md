@@ -7,7 +7,7 @@ authors: "Abhiram N.S. and Jayesh Pillai"
 year: "2025"
 date: 2025-09-08
 venue: "INTERACT 2025 - 20th IFIP TC13 International Conference on Human-Computer Interaction, Belo Horizonte, Brazil"
-excerpt: Excerpt to be added
+excerpt: "Poster Presentation - Abhiram N.S. and Jayesh Pillai - INTERACT 2025 - 20th IFIP TC13 International Conference on Human-Computer Interaction, Belo..."
 homepage: "false"
 fullpage: "yes"
 link: "https://link.springer.com/chapter/10.1007/978-3-032-05008-3_48"

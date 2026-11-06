@@ -1,4 +1,5 @@
 ---
+description: "Our AR Globe is a physical globe with the world map printed on it. A person with the AR Globe app can scan their phone over this physical globe. The app’s..."
 permalink: /projects/2021/3_ar_globe/
 title:  "AR Globe"
 team: "Divya Gagnani | Shivanee Dhakate | Shamil Iqbal"

@@ -1,4 +1,5 @@
 ---
+description: "The story follows Babul, a young poet who, in a fit of frustration, discards his diary of poems. One day, his poems mysteriously resurface in an..."
 permalink: /projects/2023/13_course_project/
 title: "Rags to Riches"
 team: "Arhan Sarkar | Sumeet Shridhar Birje | Abhishek Kushwaha | Abhishek Yadav"

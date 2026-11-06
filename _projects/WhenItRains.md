@@ -1,4 +1,5 @@
 ---
+description: "AR storybook - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "When it Rains: An AR storybook"
 excerpt: AR storybook
 layout: projects

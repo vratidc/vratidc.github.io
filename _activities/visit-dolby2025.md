@@ -1,4 +1,5 @@
 ---
+description: "Dolby Laboratories team visited the lab - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Dolby Laboratories Team Visit"
 type: "Lab Visit"
 publication: "no"

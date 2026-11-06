@@ -1,4 +1,5 @@
 ---
+description: "Exploring Locomotion in VR - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Ladder Climbing Interactions"
 excerpt: Exploring Locomotion in VR
 layout: projects   

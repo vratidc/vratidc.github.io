@@ -8,7 +8,7 @@ year: "2024"
 date: 2024-08-04
 
 venue: "India HCI 2023 - 14th Indian Conference on Human-Computer Interaction, Dehradun"
-excerpt: Excerpt to be added
+excerpt: "Short Paper - Arts Track - Jayesh Pillai, Priyanshu Thakur and Tushar Vaid - India HCI 2023 - 14th Indian Conference on Human-Computer Interaction..."
 homepage: "false"
 fullpage: "yes"
 link: "https://doi.org/10.1007/978-981-97-4335-3_9"

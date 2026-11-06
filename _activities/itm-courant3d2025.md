@@ -1,4 +1,5 @@
 ---
+description: "Into the Manhole wins the Jury Award at Courant3D - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Into the Manhole - Grand Prix Réalité Virtuelle at Courant3D 2025"
 type: "Award & Official Selection"
 publication: "no"
@@ -6,6 +7,7 @@ activity: "yes"
 authors: "Abhishek Verma and Jayesh Pillai"
 year: "2025"
 date: 2025-10-08
+recognition_short: "Grand Prix Réalité Virtuelle, Courant3D 2025 (Into the Manhole)"
 
 venue: "Courant3D 2025, France"
 excerpt: "Into the Manhole wins the Jury Award at Courant3D"

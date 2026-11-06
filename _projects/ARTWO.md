@@ -1,4 +1,5 @@
 ---
+description: "Augmented Reality Interaction Methods - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Dual Phone AR"
 excerpt: Augmented Reality Interaction Methods
 layout: projects   

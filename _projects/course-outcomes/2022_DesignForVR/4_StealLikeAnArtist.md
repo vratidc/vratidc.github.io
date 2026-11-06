@@ -1,4 +1,5 @@
 ---
+description: "Steal Like an Artist is a mobile VR game designed and developed in Unity. The objective of the game is purely entertainment. In this game, the player is..."
 permalink: /projects/2022/4_course_project/
 title:  "Steal Like an Artist"
 team: "Abhinav Bansal | Alivia Chaudhuri | Anukriti Singh | Shivani Mule"

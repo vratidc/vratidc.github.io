@@ -1,4 +1,5 @@
 ---
+seo_title: "Cinévoqué at Unite India 2018"
 title:  "Cinévoqué : Cinema Evoked - Interest Driven Live-Action Cinema in Virtual Reality"
 type: "Invited talk"
 publication: "no"
@@ -7,7 +8,7 @@ authors: "Jayesh Pillai and Amarnath Murugan"
 year: "2018"
 date: 2018-12-5
 venue: "UNITE India 2018 - Unity Developer Conference, Hyderabad, India"
-excerpt: Excerpt to be added
+excerpt: "Invited talk - Jayesh Pillai and Amarnath Murugan - UNITE India 2018 - Unity Developer Conference, Hyderabad, India"
 homepage: "false"
 fullpage: "no"
 header:

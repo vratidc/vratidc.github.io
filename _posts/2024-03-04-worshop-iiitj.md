@@ -1,4 +1,5 @@
 ---
+description: "2-Week Workshop/Course on VR Filmmaking - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "VR Filmmaking - IIT Jodhpur - Spring 2024"
 excerpt: 2-Week Workshop/Course on VR Filmmaking
 
@@ -28,7 +29,8 @@ Below are the outcomes from the 2-week workshop.
 <hr>
 <br>
 
-# Kalesh
+## Kalesh
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Abhishek Manraj, Pranav Kumar, Souparna Roy, Komal C.&nbsp;&nbsp;</small> </span>
 
@@ -42,7 +44,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Coma ka Trauma
+## Coma ka Trauma
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Trishala Jain, Pradnya Mungi, Sanya Shankar, Niharika Pradeep&nbsp;&nbsp;</small> </span>
 
@@ -56,7 +59,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# The Distance Between Us
+## The Distance Between Us
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Aryamaan Mohapatra, Raj Gaurav Oraon, Kanishk Gautam, Saloni Sachan&nbsp;&nbsp;</small> </span>
 
@@ -70,7 +74,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Ananta
+## Ananta
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Himanshu Raj, Vivek Kumar, Jay Singh Mandoli, Juben Basumatary&nbsp;&nbsp;</small> </span>
 
@@ -84,7 +89,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Sangharsh
+## Sangharsh
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Sibisiddharth I., Tamanna Pandita, Anubhav Sircar, Samia&nbsp;&nbsp;</small> </span>
 
@@ -98,7 +104,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Nazar [Far be the Evil Eye]
+## Nazar [Far be the Evil Eye]
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Shreya Saboo, Sukanya Hari, Varsha Varalakshmi, Sneha R.&nbsp;&nbsp;</small> </span>
 
@@ -112,7 +119,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Aankhon Dekhi
+## Aankhon Dekhi
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Pragya Sachdeva, Bitihotra Karak&nbsp;&nbsp;</small> </span>
 

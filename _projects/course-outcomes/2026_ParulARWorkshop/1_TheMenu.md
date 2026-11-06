@@ -1,4 +1,5 @@
 ---
+description: "Tsuki is a Japanese dining experience that combines traditional Japanese cuisine with interactive Augmented Reality. The menu presents selected dishes in..."
 permalink: /projects/2026_pid/1_course_project/
 title: "The Menu"
 team: "Meet Vasoya, Om Gupta, Dhwan Vanjara, Dhvani Kakadiya, Vaishnavi More"

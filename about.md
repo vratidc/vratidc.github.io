@@ -1,4 +1,5 @@
 ---
+description: "About - IMXD Lab, IDC School of Design, IIT Bombay"
 title: About
 permalink: /about
 layout: aboutsingle

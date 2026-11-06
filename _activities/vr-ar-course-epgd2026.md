@@ -1,4 +1,5 @@
 ---
+description: "Course in the ePGD in Interaction Design - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Introduction to Virtual & Augmented Reality"
 type: "Course"
 publication: "no"

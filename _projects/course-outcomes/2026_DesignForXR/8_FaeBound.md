@@ -1,4 +1,5 @@
 ---
+description: "Fae Bound is a whimsical VR adventure set inside the enchanted house of a powerful fae. Trapped within the house, players must explore the space and..."
 permalink: /projects/2026/8_course_project/
 title: "Fae Bound"
 team: "Shubhankar Jadhav, Harshal Kalwaghe, Soumya Ramteke, Nikunj Mour"

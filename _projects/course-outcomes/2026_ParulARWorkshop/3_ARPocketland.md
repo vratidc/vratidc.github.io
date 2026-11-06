@@ -1,4 +1,5 @@
 ---
+description: "POCKETLAND is a marker-based AR experience that turns a simple image marker into a miniature interactive world. Users can scan the marker with an Android..."
 permalink: /projects/2026_pid/3_course_project/
 title: "AR Pocketland"
 team: "Raghav Sharma, Piyush Hota, Satyam Tiwari, Pragya Shukla, Shaown Roy"

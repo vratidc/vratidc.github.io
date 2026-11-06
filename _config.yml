@@ -88,13 +88,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/img/imxd-logo-nb.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Organization
+  name                   : "IMXD Lab"
+  links: # An array of links to social media profiles
+    - "https://www.linkedin.com/company/imxd-lab/"
+    - "https://www.youtube.com/channel/UCxd5Sh7w0gD1sHfzug4ChDA"
 
 # Analytics
 analytics:
@@ -283,6 +285,11 @@ compress_html:
 
 # Defaults
 defaults:
+  # Course project pages stay out of the sitemap; their showcases are the main pages.
+  - scope:
+      path: "_projects/course-outcomes"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""

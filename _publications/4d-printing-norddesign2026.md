@@ -7,7 +7,7 @@ authors: "Khyati Priya, Jayesh Pillai and Avinash Shende"
 year: "2026"
 date: 2026-01-01
 venue: "Proceedings of NordDesign 2026"
-excerpt: Excerpt to be added
+excerpt: "Full Paper - Khyati Priya, Jayesh Pillai and Avinash Shende - Proceedings of NordDesign 2026"
 homepage: "false"
 fullpage: "yes"
 link: 

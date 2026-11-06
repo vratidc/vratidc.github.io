@@ -1,4 +1,5 @@
 ---
+description: "Most people have been locked inside their homes for a long time as a result of the worldwide pandemic. Working/Studying in an online mode leads to sitting..."
 permalink: /projects/2021/9_ar_covidefeat/
 title:  "Covidefeat: AR Game"
 team: "Khyati Priya"

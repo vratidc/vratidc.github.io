@@ -1,4 +1,5 @@
 ---
+description: "Inspired by Alice Birch's 2017 play, Anatomy of a Suicide, is an inherited home shown through a narrative VR experience. Inside the quiet walls of an..."
 permalink: /projects/2026_1/1_course_project/
 title: "Inheritance of Grief"
 team: "Aman Kumar, Devavrat Chachad, Parimal Chahande, Aiman Aslam"

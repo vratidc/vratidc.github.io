@@ -1,4 +1,5 @@
 ---
+description: "For years, water bodies have been a source of comfort and solace, with the rushed lives we lead - there is little time to catch a break, let alone travel..."
 permalink: /projects/2024/3_course_project/
 title: "Trebbles: A VR Waterscape"
 team: "Nitya Vyas | Saikat Biswas | Pawan Kumar | Elvira Mishra"

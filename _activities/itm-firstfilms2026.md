@@ -1,4 +1,6 @@
 ---
+description: "Into the Manhole invited to First Films Fest - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight: "First Films Fest 2026 (Into the Manhole)"
 title:  "Into the Manhole - Official Invitation at First Films Fest 2026"
 type: "Official Invitation"
 publication: "no"

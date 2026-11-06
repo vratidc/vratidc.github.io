@@ -1,4 +1,5 @@
 ---
+description: "VR JCB Simulator - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "DigiExcavator"
 excerpt: VR JCB Simulator
 layout: projects

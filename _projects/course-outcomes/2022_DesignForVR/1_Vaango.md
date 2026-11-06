@@ -1,4 +1,5 @@
 ---
+description: "Vaango is a VR game which uses spatial audio, directing you to collectable artifacts, ending in a celebration of life and culture, an analogy for going..."
 permalink: /projects/2022/1_course_project/
 title:  "Vaango"
 team: "Nidhi Chauhan | Nidhin Joseph | Shweta Ratanpura | Vedang P."

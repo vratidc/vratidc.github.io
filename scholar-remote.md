@@ -1,4 +1,5 @@
 ---
+seo_title: "ScholAR Remote Study - Participation"
 title:  "ScholAR Remote Study - Call for Participants"
 excerpt: Would you like to participate in a study on Remote AR Classrooms? Read this post to find out more, and get in touch!
 layout: single

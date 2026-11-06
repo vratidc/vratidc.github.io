@@ -1,4 +1,7 @@
 ---
+description: "‘Twelve Steps Down’ is a dual-narrative psychological thriller storybook that unfolds in two distinct ways. The printed version presents one narrative..."
+recognition_highlight: "Arts Track, India HCI 2026 (Twelve Steps Down)"
+recognition_link: /de712-showcase-2025#project-2025-9_TwelveStepsDown
 recognition: "selected"
 recognition_label: "Arts Track, India HCI 2026"
 permalink: /projects/2025/9_course_project/

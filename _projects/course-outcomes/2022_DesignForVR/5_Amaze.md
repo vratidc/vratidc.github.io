@@ -1,4 +1,5 @@
 ---
+description: "Amaze is an interactive virtual reality game where the player is trapped in an endless simulation and the only way out is to solve the maze. As soon as..."
 permalink: /projects/2022/5_course_project/
 title:  "Amaze - A VR maze game"
 team: "Hazique Kola | Sagarika Dam | Swati Yadav | Jaanhavi SP"

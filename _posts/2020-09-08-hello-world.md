@@ -1,4 +1,5 @@
 ---
+description: "We're finally starting an IMXD Blog! - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Hello World!"
 excerpt: We're finally starting an IMXD Blog!
 header:

@@ -1,4 +1,5 @@
 ---
+description: "Re-imagining the invisible cities by Italo Calvino into a VR experiential space, where literature meets multimedia. Olinda is an open-world VR experience..."
 permalink: /projects/2022/10_course_project/
 title:  "Olinda"
 team: "Prateek Pagore | Pratik Bansode | Sanskruti Landage | Snehal Gaikwad"

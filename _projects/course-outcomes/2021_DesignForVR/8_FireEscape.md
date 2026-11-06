@@ -1,4 +1,5 @@
 ---
+description: "This project looks at navigation in a 3D space without the help of visuals, and using only spatial audio. The mobile VR game is designed such that one..."
 permalink: /projects/2021/8_vr_fire_escape/
 title:  "Fire Escape: VR Game using Spatial Audio"
 team: "Ananda Bathena"

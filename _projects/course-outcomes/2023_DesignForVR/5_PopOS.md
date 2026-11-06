@@ -1,4 +1,5 @@
 ---
+description: "PopOS is an attempt to explore amusing and playful interactions and apply them to basic functions of OS, like opening & closing applications/windows..."
 permalink: /projects/2023/5_course_project/
 title: "PopOS - Playful spatial interactions"
 team: "Sparsh Gupta | Prince Agarwal | Tarun Pahadiya | Karani Harsh Yogesh Meena"

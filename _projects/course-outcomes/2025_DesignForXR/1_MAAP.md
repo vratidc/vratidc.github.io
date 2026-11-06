@@ -1,4 +1,5 @@
 ---
+description: "MAAP is a 3D file manager for VR, offering an intuitive, gesture-based way to organize and interact with digital files. It removes rigid file trees..."
 permalink: /projects/2025/1_course_project/
 title: "MAAP: Multidimensional Archive & Access Platform"
 team: "Mukil Kumar | Payasvi Chhapola | Aditya Ranjan | Abhishek Benny"

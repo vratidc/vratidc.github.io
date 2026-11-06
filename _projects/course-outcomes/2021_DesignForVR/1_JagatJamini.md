@@ -1,4 +1,5 @@
 ---
+description: "Through VR, we wish to bring 2D static paintings to life through layered elements recreated in the painting style of Jamini Roy. Jamini Roy was an Indian..."
 permalink: /projects/2021/1_vr_jamini_painting/
 title:  "Jagat Jamini: A VR Experience"
 team: "Birendra Sing | Samadrita Sarkar | Soumyoprabho Mukherjee | Stuti Prakashkumar"

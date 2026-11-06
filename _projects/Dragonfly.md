@@ -1,4 +1,8 @@
 ---
+description: "Making of a VR Film - IMXD Lab, IDC School of Design, IIT Bombay"
+recognition_highlight: "Alpavirama International Youth Film Festival 2024 (Dragonfly)"
+recognition: "selected"
+recognition_label: "Alpavirama International Youth Film Festival 2024 + 1 official selection"
 title:  "Dragonfly"
 excerpt: Making of a VR Film
 layout: projects   

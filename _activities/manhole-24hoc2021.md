@@ -7,7 +7,7 @@ authors: "Amarnath Murugan"
 year: "2021"
 date: 2021-09-09
 venue: "24 Hours of Chaos 2021 by Chaos Group (virtual)"
-excerpt: Excerpt to be added
+excerpt: "Invited Talk / Panel Discussion - Amarnath Murugan - 24 Hours of Chaos 2021 by Chaos Group (virtual)"
 homepage: "false"
 fullpage: "no"
 header:

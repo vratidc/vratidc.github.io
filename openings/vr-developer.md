@@ -1,4 +1,5 @@
 ---
+description: "VR Developer - IMXD Lab, IDC School of Design, IIT Bombay"
 title: VR Developer
 permalink: /openings/vr-developer
 layout: single

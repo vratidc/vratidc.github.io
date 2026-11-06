@@ -1,4 +1,5 @@
 ---
+description: "Information page about the AR Check app. - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "ARCheck"
 excerpt: Information page about the AR Check app.
 layout: single

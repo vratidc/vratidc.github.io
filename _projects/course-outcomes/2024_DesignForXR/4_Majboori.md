@@ -1,4 +1,5 @@
 ---
+description: "‘Majboori’, is a 360 VR film, different from traditional storytelling. With every turn of your head, immerse yourself in the everyday routine of Ansh’s..."
 permalink: /projects/2024/4_course_project/
 title: "Majboori: VR Film"
 team: "Yash Karanjavkar | Sidharth Goutham | Namit Tirkeye"

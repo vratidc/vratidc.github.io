@@ -1,4 +1,5 @@
 ---
+description: "2-Week Workshop/Course on VR Filmmaking - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "VR Filmmaking - IIT Jodhpur - Spring 2025"
 excerpt: 2-Week Workshop/Course on VR Filmmaking
 
@@ -28,7 +29,8 @@ Below are the outcomes from the 2-week workshop.
 <hr>
 <br>
 
-# Don't Look Back
+## Don't Look Back
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Bhoomika Hegde, Komal Sriram, Meghna Adak, Swaraj Kadam&nbsp;&nbsp;</small> </span>
 
@@ -45,7 +47,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Life Goes On
+## Life Goes On
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Aakarsh Borah, Jayesh Baidya, Nischay Choudhary, Ravi Ranjan, Uttaran Gogoi&nbsp;&nbsp;</small> </span>
 
@@ -62,7 +65,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Ek Din
+## Ek Din
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Anshul Sharma, Bhavika Shukla, Nimisha Biswas, Ritwik Kar&nbsp;&nbsp;</small> </span>
 
@@ -79,7 +83,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Astitva
+## Astitva
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Jolly Basumatary, Mariya Rabbani, Mukesh Pandit, Vishakha Gehlot&nbsp;&nbsp;</small> </span>
 
@@ -96,7 +101,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Who VR
+## Who VR
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Srijith D Raj, Edwin Meleth, Nidhin Martin, Daniel Pushparaj&nbsp;&nbsp;</small> </span>
 
@@ -113,7 +119,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Dilemma
+## Dilemma
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Anirudh Singh, Apurva Khandare, Kashish Singh&nbsp;&nbsp;</small> </span>
 
@@ -130,7 +137,8 @@ Below are the outcomes from the 2-week workshop.
 <hr style="height:1px;border-width:0;background-color:lightgrey">
 <br>
 
-# Forever Mine!
+## Forever Mine!
+{: .as-h1}
 
 <span style="padding: 0px 0px 4px 0px; background-color: #eeeeee; color: #444444; border-radius: 7px;"> <small>&nbsp;&nbsp;Arushi Soni, Jhansi G., Ravi Gupta, Sakshi Nimje&nbsp;&nbsp;</small> </span>
 

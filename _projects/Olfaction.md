@@ -1,4 +1,5 @@
 ---
+description: "Study on body association in VR - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Body Association in VR"
 excerpt: Study on body association in VR
 layout: projects   

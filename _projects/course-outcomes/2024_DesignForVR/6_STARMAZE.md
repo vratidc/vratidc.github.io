@@ -1,6 +1,7 @@
 ---
+description: "You are a stranded space traveler whose spaceship has crash-landed on a mysterious planet. The only hope for escape lies in a powerful beam of energy..."
 recognition: "award"
-recognition_label: "Best Project Award, India HCI 2024 • Student Demo Competition, Laval Virtual 2025"
+recognition_label: "Best Project Award, India HCI 2024 • Student Demo Competition, Laval Virtual 2025 • Animela International Animation Festival 2025"
 permalink: /projects/2024_1/6_course_project/
 title: "STARMAZE : A Cross-platform VR Game"
 team: "Anumeha Patoria |  Tanmay Kuwalekar | Hayat Tamboli  | Yashwant Rawat"

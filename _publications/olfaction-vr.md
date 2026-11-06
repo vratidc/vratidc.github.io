@@ -7,7 +7,7 @@ authors: "Prabodh Sakhardande, Amarnath Murugan and Jayesh Pillai"
 year: "2020"
 date: 2020-03-01
 venue: "IEEE VR 2020 - 27th IEEE Conference on Virtual Reality and 3D User Interfaces, Atlanta, USA"
-excerpt: Excerpt to be added
+excerpt: "Poster Presentation - Prabodh Sakhardande, Amarnath Murugan and Jayesh Pillai - IEEE VR 2020 - 27th IEEE Conference on Virtual Reality and 3D User..."
 homepage: "false"
 fullpage: "yes"
 link: "https://ieeexplore.ieee.org/document/9090609"

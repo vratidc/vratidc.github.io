@@ -1,4 +1,5 @@
 ---
+description: "AWAKENED is an AR visualization project that brings still images to life. Transform static pictures into immersive, animated experiences where characters..."
 permalink: /projects/2026_pid/6_course_project/
 title: "AWAKENED"
 team: "Krishna Vamsi, Manideep, Avnish, Ayush Sharma, Mangerang"

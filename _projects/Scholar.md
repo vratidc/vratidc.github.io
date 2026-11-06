@@ -1,4 +1,5 @@
 ---
+description: "AR Learning Environments - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "ScholAR"
 excerpt: AR Learning Environments
 layout: projects

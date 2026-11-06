@@ -1,4 +1,5 @@
 ---
+description: "Vantage Point is a fun game designed to explore the VR experience. The game area consists of various monuments. Amongst these, a few of them are floating..."
 permalink: /projects/2022/9_course_project/
 title:  "Vantage Point"
 team: "Aamod Narkar | Parth Rathod | Ankit Anand | Sanika Deshpande"

@@ -1,4 +1,5 @@
 ---
+description: "Imagine you’re a shepherd with too many sheep and not enough hands. Every time you call out, instead of coming closer, the sheep scatter further away..."
 permalink: /projects/2025_1/1_course_project/
 title: "Ba-AH! : A Voice Based VR Game"
 team: "Laksh Rajpal | Samarth Dhanuka | Vaibhav Jangi"

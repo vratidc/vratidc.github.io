@@ -7,7 +7,7 @@ authors: "Rishi Vanukuru, Amarnath Murugan and Jayesh Pillai"
 year: "2020"
 date: 2020-11-1
 venue: "VRST 2020 - 26th ACM Symposium on Virtual Reality Software and Technology, Virtual (originally Ottawa, Canada)"
-excerpt: Excerpt to be added
+excerpt: "Poster Presentation - Rishi Vanukuru, Amarnath Murugan and Jayesh Pillai - VRST 2020 - 26th ACM Symposium on Virtual Reality Software and Technology..."
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3385956.3422113"

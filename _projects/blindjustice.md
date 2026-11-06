@@ -1,4 +1,7 @@
 ---
+recognition_highlight: "#Students Selection, Laval Virtual 2026 (Blind Justice)"
+recognition: "selected"
+recognition_label: "#Students Selection, Laval Virtual 2026"
 title:  "Blind Justice"
 excerpt: Exploring Voice-Based Interaction through a Narrative VR Experience
 layout: projects   

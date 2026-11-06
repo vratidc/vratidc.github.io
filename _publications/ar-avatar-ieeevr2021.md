@@ -7,7 +7,7 @@ authors: "Amarnath Murugan, Rishi Vanukuru and Jayesh Pillai"
 year: "2021"
 date: 2021-03-27
 venue: "IEEEVR 2021, Workshop - Virtual Humans and Crowds in Immersive Environments, Virtual (originally Lisbon, Portugal)"
-excerpt: Excerpt to be added
+excerpt: "Workshop Paper - Amarnath Murugan, Rishi Vanukuru and Jayesh Pillai - IEEEVR 2021, Workshop - Virtual Humans and Crowds in Immersive Environments, Virtual..."
 homepage: "false"
 fullpage: "yes"
 link: "https://ieeexplore.ieee.org/document/9419211"

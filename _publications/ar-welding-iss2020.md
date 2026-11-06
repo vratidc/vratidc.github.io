@@ -7,7 +7,7 @@ authors: "Richa Agrawal and Jayesh Pillai"
 year: "2020"
 date: 2020-11-08
 venue: "ISS 2020 - ACM Interactive Surfaces and Spaces, Virtual (originally Lisbon, Portugal)"
-excerpt: Excerpt to be added
+excerpt: "Poster Presentation - Richa Agrawal and Jayesh Pillai - ISS 2020 - ACM Interactive Surfaces and Spaces, Virtual (originally Lisbon, Portugal)"
 homepage: "false"
 fullpage: "yes"
 link: "https://dl.acm.org/doi/10.1145/3380867.3426199"

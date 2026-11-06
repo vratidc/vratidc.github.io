@@ -1,4 +1,5 @@
 ---
+description: "Battle Deck is a two-player AR card game where physical monster cards summon 3D creatures into the real world. Players secretly choose and reveal their..."
 permalink: /projects/2026_pid/5_course_project/
 title: "Battle Deck"
 team: "Aditya Gosai, Jai Jangid, Gungun Karhe, Nairitya Pathak, Devansh Bhatiya, Aryan Vishwakarma"

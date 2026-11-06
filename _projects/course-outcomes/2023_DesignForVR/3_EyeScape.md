@@ -1,4 +1,5 @@
 ---
+description: "EyeScape is an immersive VR experience of visual challenges. The user will be transported to spaces that force them to view the world through the lens of..."
 permalink: /projects/2023/3_course_project/
 title: "EyeScape - Simulating visual challenges"
 team: "Priyadarshi Satyam | Elvira Mishra | Rani Panit | Dhanraj Singh"

@@ -1,4 +1,5 @@
 ---
+description: "In the fast-evolving world of fashion and beauty, the AR Virtual Try-On App emerges as a groundbreaking solution, revolutionising the way consumers shop..."
 permalink: /projects/2023/9_course_project/
 title: "Virtual Try-on"
 team: "Pratyush Balaram | Shubham | Koyyana Sai Krishna | Sudhanshu Ranjan"
