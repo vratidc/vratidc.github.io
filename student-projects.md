@@ -5,9 +5,7 @@ permalink: /student-projects
 layout: projectspage
 ---
 
-<div class="publications">
-    <h1 id="page-title" class="page__title">Student Projects</h1>
-</div>
+<h1 id="page-title" class="page__title" style="margin-bottom: 10px;">Student Projects</h1>
 
 <p>Projects from all the course showcases. Select a project to see it in its showcase.</p>
 
@@ -22,6 +20,7 @@ layout: projectspage
 <hr style="height:2px;border-width:0;background-color:#008055;">
 
 <div class="all-projects student-projects">
+    <div class="gutter-sizer"></div>
     {% include documents-collection-projects-students.html collection="projects" %}
 </div>
 
@@ -32,7 +31,7 @@ layout: projectspage
         percentPosition: true,
         layoutMode: 'fitRows',
         fitRows: {
-            gutter: 10
+            gutter: '.gutter-sizer'
         }
     });
     // Titles can wrap differently once fonts load, so settle the layout again.

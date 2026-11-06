@@ -575,3 +575,27 @@ a.updates_linked {
         display: inline-block;
     }
 }
+
+
+// Homepage: both All buttons sit on the same line, whichever column is shorter.
+@media (min-width: 721px) {
+    .two-column-container {
+        display: flex;
+        justify-content: space-between;
+
+        .column-left,
+        .column-right {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 45%;
+            min-width: 0;
+            max-width: 45%;
+            margin-left: 0;
+        }
+
+        .home-button {
+            align-self: flex-start;
+            margin-top: auto;
+        }
+    }
+}

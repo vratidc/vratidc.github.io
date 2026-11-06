@@ -1,6 +1,6 @@
 ---
 title: "Student Projects Showcase at IndiaHCI 2026"
-excerpt: Student projects from IMXD Lab courses showcased at IndiaHCI 2026
+excerpt: Seven projects across the Arts Track and Posters & Demos
 header:
         teaser: /assets/img/updates/icon-update-indiahci2026.jpg
 categories: updates

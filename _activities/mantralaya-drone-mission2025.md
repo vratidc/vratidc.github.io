@@ -33,6 +33,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 Lab members presented Maharashtra Drone Mission project's Ground Control Vehicle VR simulation to several Minister's and Employees of Maharashtra Government at Mantralaya, Mumbai.
 
 {% include gallery id="gallery1" layout="half" %}

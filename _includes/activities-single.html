@@ -10,7 +10,16 @@
 {% assign title = post.title %}
 {% endif %}
 
-<div class="activities_grid__item {% for tag in post.tags %} {{ tag }} {% endfor %}">
+{% assign activity_type = post.type | downcase %}
+{% if activity_type contains "lab visit" %}{% assign activity_tag = "Lab Visit" %}
+{% elsif activity_type contains "award" %}{% assign activity_tag = "Award" %}
+{% elsif activity_type contains "official" %}{% assign activity_tag = "Official Selection" %}
+{% elsif activity_type contains "workshop" %}{% assign activity_tag = "Workshop" %}
+{% elsif activity_type contains "course" %}{% assign activity_tag = "Course" %}
+{% elsif activity_type contains "talk" %}{% assign activity_tag = "Talk" %}
+{% else %}{% assign activity_tag = "Presentation" %}{% endif %}
+
+<div class="activities_grid__item tag-{{ activity_tag | slugify }} {% for tag in post.tags %} {{ tag }} {% endfor %}">
     <article class="activities__item" itemscope itemtype="https://schema.org/CreativeWork">
         <div class="activities_holder">
             {% if include.type == "grid" or teaser %}
@@ -58,14 +67,17 @@
                 {% endif %}
 
                 <h2 class="activities__item-subtitle" itemprop="headline">
-                    {{ post.type }} • {{ post.authors }} ({{ post.year }})
+                    {{ post.type }} • {{ post.authors }} ({{ post.date | date: "%b %Y" }})
                 </h2>
 
                 <h2 class="activities__item-venue" itemprop="headline">
                     {{ post.venue }}
                 </h2>
 
+                <p class="activities__item-tag"><a class="tag tagbox">{{ activity_tag }}</a></p>
 
+
+                {% if post.PDF or post.website %}
                 <h2 class="activities__item-links" itemprop="headline">
 
                     {% if post.PDF %}
@@ -83,6 +95,7 @@
                     {% endif %}
 
                 </h2>
+                {% endif %}
 
 
             </div>

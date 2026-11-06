@@ -9,3 +9,24 @@
   {% include projects-single-homepage.html %}
 {% endif %}
 {%- endfor -%}
+
+<!-- Always the last featured item: links to all course showcase projects. -->
+<div class="project_grid__item-selected-homepage">
+    <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <a href="{{ '/student-projects' | relative_url }}">
+            <div class="projects__item-teaser-container">
+                <div class="projects__item-teaser" style='background-image: url({{ "/assets/img/projects/student_projects_thumb.jpg" | relative_url }});'></div>
+            </div>
+        </a>
+        <h2 class="projects__item-title" itemprop="headline">
+            <a href="{{ '/student-projects' | relative_url }}" rel="permalink">Student Projects</a>
+        </h2>
+        <p class="projects__item-excerpt" itemprop="description" style="margin-bottom: 0px;">Projects from all the course showcases</p>
+        <p class="projects__item-excerpt-tags">
+            <a class="tag tagbox">VR</a>
+            <a class="tag tagbox">AR</a>
+            <a class="tag tagbox">MR</a>
+            <a class="tag tagbox">VR Film</a>
+        </p>
+    </article>
+</div>

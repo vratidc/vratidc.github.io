@@ -24,6 +24,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 [Into the Manhole](/projects/into-the-manhole) received an Official Invitation at the [Busan International Short Film Festival 2026](https://www.bisff.org/bbs/board.php?bo_table=2026_pro093eng&wr_id=3){:target="_blank"}. Shiva Teja and Ananda presented the project at the festival in South Korea.
 
 <figure class="align-center" style="width:100%;">

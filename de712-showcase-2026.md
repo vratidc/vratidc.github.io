@@ -1,4 +1,5 @@
 ---
+showcase_folder: "2026_DesignForXR"
 title:  "Design for XR - Project Showcase 2026"
 excerpt: Project Showcase for DE712 - Immersive Media Design & DE324 - Digital Media Technologies
 layout: showcase2026

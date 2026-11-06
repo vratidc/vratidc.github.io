@@ -33,6 +33,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 [Into the Manhole](/projects/into-the-manhole) was an Official Selection at Laval Virtual Experiences 2026, presented in the #Experience section, and received the [Laval Virtual Award 2026](https://laval-virtual.com/en/the-2026-laval-virtual-awards-selection/){:target="_blank"} in the category "XR for a Cause". The directors, Abhishek and Jayesh, received the award.
 
 {% include gallery id="gallery1" layout="half" %}

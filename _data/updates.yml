@@ -7,6 +7,13 @@ main:
      link: /indiahci-2026-showcase
      teaser: /assets/img/updates/icon-update-indiahci2026.jpg
      fullpage: "yes"
+   - title: "AR Workshop at Parul Institute of Design"
+     date: "07/10/2026"
+     active: "yes"
+     content: "Student AR projects from the 3-day workshop - October 2026"
+     link: /pid-ar-showcase-2026
+     teaser: /assets/img/projects/course-outcomes/2026_ParulARWorkshop/pid_showcase_thumb.jpg
+     fullpage: "yes"
    - title: "‘Into the Manhole’ Wins Multiple Accolades"
      date: "30/04/2026"
      active: "yes"

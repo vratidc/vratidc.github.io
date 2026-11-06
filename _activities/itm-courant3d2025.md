@@ -30,6 +30,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 [Into the Manhole](/projects/into-the-manhole) was an Official Selection at Courant3D 2025 (8-12 October 2025), presented in the Compétition Réalité Virtuelle section, and received the Jury Award [Grand Prix Réalité Virtuelle](https://sites.google.com/courant3d.org/site/accueil/archives/festival-c3d-2025/2025-palmar%C3%A8s){:target="_blank"}.
 
 {% include gallery id="gallery1" layout="half" %}

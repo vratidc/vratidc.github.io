@@ -10,8 +10,8 @@ main:
    - title: "DE677 - Design for VR - Autumn 2026"
      date: "17/08/2026"
      active: "yes"
-     content: "Course (17 - 28 Aug 2025)"
-     link: /de677-course-2025
+     content: "Course (17 - 28 Aug 2026)"
+     link: /de677-course-2026
      teaser: /assets/img/updates/course/icon_course_VR_2026.jpg
      fullpage: "yes"
    - title: "Project Showcase 2026 - Design for XR"

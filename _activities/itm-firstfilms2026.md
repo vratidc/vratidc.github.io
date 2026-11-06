@@ -20,4 +20,6 @@ layout: publications
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 [Into the Manhole](/projects/into-the-manhole) received an Official Invitation at First Films Fest 2026, India.

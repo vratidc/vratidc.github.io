@@ -24,6 +24,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 [Into the Manhole](/projects/into-the-manhole) received the [FICCI BAF Award 2025](https://www.instagram.com/ficci_frames/p/DH5xzpVSNFE/?img_index=2){:target="_blank"} for Best XR Short Film. Shiva Teja (Technical Director) and Ananda (Sound Designer) received the award.
 
 <figure class="align-center" style="width:100%;">

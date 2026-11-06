@@ -1,0 +1,26 @@
+---
+recognition: "selected"
+recognition_label: "Finalist, Student Competition, Laval Virtual 2023"
+permalink: /projects/2022/2_course_project/
+title:  "fina : File Management Interactions"
+team: "Apoorv Anurag | Atish Waghwase | Cherian J. Iype | Prafulla Chandra"
+tags: VR Quest Unity
+
+video_provider: "youtube"
+video_id:
+
+header:
+    teaser: /assets/img/projects/course-outcomes/2022_DesignForVR/2_Fina.jpg
+
+overview: This project deals with novel hand gesture interactions for file management in a VR environment. Most current file management interactions use ray-casting either using a controller or a hand controlled pointer. We looked at different metaphors for interactions like selecting, copying, moving and deleting files. The interactions were designed around hand gestures like grabbing, hovering, poking, pinching and releasing. We prototyped our interactions into a scene based on the existing file explorer in the Oculus Quest 2. The final interactions we designed are single selection, multiple selection, range selection, copy to clipboard, move to clipboard and delete. The prototype is in the form of a tutorial guiding the user through each of the interactions.<br><br><span style="background-color:#FEEAA7; padding:10px; border-radius:15px;">This project was selected for the prestigious <a href="https://imxd.in/updates/fina-lv2023/" target="_blank" style="color:#008054;">Laval Virtual Awards 2023</a>.</span>
+
+
+project-link: https://www.behance.net/gallery/154523665/Fina-Interactions-for-VR
+
+active: "yes"
+type: "course"
+year: "2022"
+date: 20220912
+
+
+---

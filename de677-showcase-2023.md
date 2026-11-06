@@ -1,4 +1,5 @@
 ---
+showcase_folder: "2023_DesignForVR"
 title:  "Design for VR - Project Showcase 2023"
 excerpt: Project Showcase for DE677 - Design for Virtual Reality
 layout: showcase2023

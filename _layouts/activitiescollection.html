@@ -10,6 +10,34 @@ layout: projectspage
 </div>
 
 
-<div class="selected-activities">
+<div class="button-group filter-button-group">
+    <a class="filter-button filter-button-active" data-filter="*">All</a>
+    <a class="filter-button" data-filter=".tag-award, .tag-official-selection">Awards &amp; Selections</a>
+    <a class="filter-button" data-filter=".tag-talk">Talks</a>
+    <a class="filter-button" data-filter=".tag-workshop, .tag-course">Workshops &amp; Courses</a>
+    <a class="filter-button" data-filter=".tag-lab-visit">Lab Visits</a>
+</div>
+
+<div class="selected-activities activities-list">
     {% include documents-collection-activities.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
+
+<script>
+    // Same Isotope filter transition as the Student Projects page.
+    var $grid = $('.selected-activities').isotope({
+        itemSelector: '.activities_grid__item',
+        percentPosition: true,
+        layoutMode: 'fitRows'
+    });
+    // Text can wrap differently once fonts load, so settle the layout again.
+    $(window).on('load', function () {
+        $grid.isotope('layout');
+    });
+    $('.filter-button-group').on('click', 'a', function() {
+        $grid.isotope({
+            filter: $(this).attr('data-filter')
+        });
+        $('.filter-button-group a').removeClass('filter-button-active');
+        $(this).addClass('filter-button-active');
+    });
+</script>

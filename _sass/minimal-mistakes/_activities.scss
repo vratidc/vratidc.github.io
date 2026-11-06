@@ -593,3 +593,21 @@ a.activities_linked {
         display: inline-block;
     }
 }
+
+// Tag on Activities page entries.
+.activities__item-tag {
+    margin: 4px 0 0;
+}
+
+// The filter positions entries individually, so their margins no longer overlap. Keep one gap.
+.activities-list {
+    margin-top: 1.5em;
+
+    .activities_holder {
+        margin: 0;
+    }
+
+    .activities_grid__item {
+        margin-bottom: 1.5em;
+    }
+}

@@ -33,6 +33,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 Introduction to Virtual & Augmented Reality course was conducted from 12–18 June 2026 as part of the e-Postgraduate Diploma (ePGD) in Interaction Design at IDC School of Design, IIT Bombay. Led by Prof. Jayesh Pillai, the course brought together participants from diverse backgrounds to engage with the fundamentals of VR, AR, and XR through a combination of lectures, demonstrations, discussions, and hands-on learning.
 
 Over six days, participants explored the principles of immersive technologies and interaction design while reflecting on the opportunities and challenges of designing for emerging XR experiences.

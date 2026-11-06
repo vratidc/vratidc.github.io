@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: Updates
 permalink: blog
 layout: blog
 ---
 
-A page for posts, updates, events, and explorations.
+A page for posts, events, and explorations.
 

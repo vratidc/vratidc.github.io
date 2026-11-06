@@ -36,6 +36,8 @@ gallery1:
 
 ---
 
+<style>.page__title { line-height: 1.25; }</style>
+
 IMXD Lab has conducted a three-day workshop on Introduction to Extended Reality: Creating Augmented Reality Experiences from 5–7 October 2026 for Animation & VFX students at Parul Institute of Design, Parul University, Vadodara. Led by Prof. Jayesh Pillai, the workshop introduced students to Extended Reality (XR), with a focus on designing and developing Augmented Reality (AR) experiences. Working in groups, students developed AR projects exploring interactive applications of technology, design, and storytelling.
 
 See the projects: [Project Showcase](/pid-ar-showcase-2026)
