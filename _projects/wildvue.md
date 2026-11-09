@@ -1,4 +1,5 @@
 ---
+student_project: "yes"
 description: "World Through Animal Eyes - IMXD Lab, IDC School of Design, IIT Bombay"
 recognition_highlight: "Animela International Animation Festival 2025 (WildVue)"
 recognition: "selected"

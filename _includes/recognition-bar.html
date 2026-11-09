@@ -29,17 +29,23 @@
   </div>
 </div>
 <script>
-  // Fades through the awards one at a time.
+  // Fades through the awards and selections one at a time.
   (function () {
     var items = document.querySelectorAll('.home-recognition__item');
     if (items.length < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     var bar = document.querySelector('.home-recognition');
     var current = 0;
-    setInterval(function () {
+    // Awards stay up for 3.4 seconds, selections for 2.4.
+    function delay() {
+      return items[current].getAttribute('data-kind') === 'award' ? 3400 : 2400;
+    }
+    function next() {
       items[current].classList.remove('is-active');
       current = (current + 1) % items.length;
       items[current].classList.add('is-active');
       bar.setAttribute('data-kind', items[current].getAttribute('data-kind'));
-    }, 4000);
+      setTimeout(next, delay());
+    }
+    setTimeout(next, delay());
   })();
 </script>

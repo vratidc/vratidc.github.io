@@ -124,9 +124,9 @@ layout: default
 
         <div class="home-button">
 
-            <a class="home-button" href="{{ site.baseurl }}/projects">All Projects →</a>
-            <a href="{{ site.baseurl }}/publications">All Publications →</a>
-            <a href="{{ site.baseurl }}/activities">All Activities →</a>
+            <a class="home-button" href="{{ site.baseurl }}/projects"><span class="home-button__all">All </span>Projects →</a>
+            <a href="{{ site.baseurl }}/publications"><span class="home-button__all">All </span>Publications →</a>
+            <a href="{{ site.baseurl }}/activities"><span class="home-button__all">All </span>Activities →</a>
 
         </div>
 
@@ -171,6 +171,29 @@ layout: default
 
 </div>
 
+
+<script>
+    // Keep the Featured Projects buttons on one line: full text and padding when they fit,
+    // otherwise drop "All", then tighten padding, only as much as needed.
+    (function () {
+        var row = document.querySelector('#main > .home-button');
+        if (!row) return;
+        function fits() {
+            var links = row.querySelectorAll('a');
+            return links[links.length - 1].offsetTop === links[0].offsetTop;
+        }
+        function update() {
+            row.classList.remove('is-compact', 'is-tight');
+            if (fits()) return;
+            row.classList.add('is-compact');
+            if (fits()) return;
+            row.classList.add('is-tight');
+        }
+        update();
+        window.addEventListener('resize', update);
+        window.addEventListener('load', update);
+    })();
+</script>
 
 <script>
     var slideIndex = 0;

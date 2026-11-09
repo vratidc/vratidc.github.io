@@ -4,12 +4,7 @@
         <a href="{{ project_url }}">
             <div class="projects__item-teaser-container">
                 <img class="projects__item-teaser" src="{{ include.post.header.teaser | relative_url }}" alt="{{ include.post.title | strip_html | escape }}" loading="lazy">
-                {% if include.post.recognition %}
-                <span class="recognition-badge recognition-badge--{{ include.post.recognition }}" title="{{ include.post.recognition_label | escape }}" aria-label="{{ include.post.recognition_label | escape }}">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" fill-rule="evenodd" aria-hidden="true">{% if include.post.recognition == "award" %}<path d="M7 3h10v2h4v3a5 5 0 0 1-4.6 5 5 5 0 0 1-3.4 2.9V19h3v2H8v-2h3v-3.1A5 5 0 0 1 7.6 13 5 5 0 0 1 3 8V5h4V3zm0 4H5v1a3 3 0 0 0 2 2.8V7zm10 0v3.8A3 3 0 0 0 19 8V7h-2z"/>{% else %}<path d="M12 2.5l2.9 6.2 6.8.8-5 4.6 1.3 6.7-6-3.3-6 3.3 1.3-6.7-5-4.6 6.8-.8z"/>{% endif %}</svg>
-                </span>
-                <span class="recognition-caption recognition-caption--{{ include.post.recognition }}">{{ include.post.recognition_label }}</span>
-                {% endif %}
+            {% include recognition-overlay.html post=include.post %}
             </div>
         </a>
         <h2 class="projects__item-title" itemprop="headline">

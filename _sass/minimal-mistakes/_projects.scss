@@ -1235,3 +1235,8 @@
 .page__content h2.as-h1 {
     font-size: $type-size-4;
 }
+
+// A second badge sits to the left of the first, for cards showing both a star and a trophy.
+.recognition-badge--second {
+    right: 44px;
+}

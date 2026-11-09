@@ -16,6 +16,14 @@
         <a href="{{ '/student-projects' | relative_url }}">
             <div class="projects__item-teaser-container">
                 <div class="projects__item-teaser" style='background-image: url({{ "/assets/img/projects/student_projects_thumb.jpg" | relative_url }});'></div>
+                {% comment %} Counts each award and selection listed on the course projects, so a project with several counts each one. {% endcomment %}
+                {% assign award_count = 0 %}{% assign selection_count = 0 %}
+                {% assign documented_projects = site.projects | where: "student_project", "yes" | where: "active", "yes" %}{% assign course_projects = site.projects | where: "type", "course" | where: "active", "yes" | concat: documented_projects %}
+                {% for p in course_projects %}{% if p.recognition_label %}{% assign items = p.recognition_label | split: " • " %}{% for item in items %}{% if item contains "Award" or item contains "Runner-up" %}{% assign award_count = award_count | plus: 1 %}{% else %}{% assign selection_count = selection_count | plus: 1 %}{% endif %}{% endfor %}{% endif %}{% endfor %}
+                {% capture recognition_summary %}{{ award_count }} award{% if award_count != 1 %}s{% endif %} and {{ selection_count }} official selection{% if selection_count != 1 %}s{% endif %}{% endcapture %}
+                <span class="recognition-badge recognition-badge--selected recognition-badge--second" title="{{ recognition_summary }}" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.8-5 4.6 1.3 6.7-6-3.3-6 3.3 1.3-6.7-5-4.6 6.8-.8z"/></svg></span>
+                <span class="recognition-badge recognition-badge--award" title="{{ recognition_summary }}" aria-label="{{ recognition_summary }}"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" fill-rule="evenodd" aria-hidden="true"><path d="M7 3h10v2h4v3a5 5 0 0 1-4.6 5 5 5 0 0 1-3.4 2.9V19h3v2H8v-2h3v-3.1A5 5 0 0 1 7.6 13 5 5 0 0 1 3 8V5h4V3zm0 4H5v1a3 3 0 0 0 2 2.8V7zm10 0v3.8A3 3 0 0 0 19 8V7h-2z"/></svg></span>
+                <span class="recognition-caption recognition-caption--award">{{ recognition_summary }}</span>
             </div>
         </a>
         <h2 class="projects__item-title" itemprop="headline">

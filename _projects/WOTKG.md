@@ -1,4 +1,5 @@
 ---
+student_project: "yes"
 recognition_short: "Runner-up, India HCI 2023 (Whispers of the Konkan Guardian)"
 recognition: "award"
 recognition_label: "Runner-up, Artworks Track, India HCI 2023"

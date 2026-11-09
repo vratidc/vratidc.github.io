@@ -98,6 +98,16 @@ body {
 
 
 .home-button {
+    // Set by a script only when the buttons would not fit on one line.
+    &.is-compact .home-button__all {
+        display: none;
+    }
+
+    &.is-tight a {
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+    }
+
     a {
         font-weight: bold;
         color: $primary-color;
@@ -107,6 +117,10 @@ body {
         border-width: 2px;
         border-color: $primary-color;
         border-radius: 0.3em;
+        // Keeps the button whole on narrow screens instead of breaking across lines.
+        display: inline-block;
+        white-space: nowrap;
+
     }
 
     a:hover {

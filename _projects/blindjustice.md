@@ -1,4 +1,5 @@
 ---
+student_project: "yes"
 recognition_highlight: "#Students Selection, Laval Virtual 2026 (Blind Justice)"
 recognition: "selected"
 recognition_label: "#Students Selection, Laval Virtual 2026"

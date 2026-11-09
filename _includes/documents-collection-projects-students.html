@@ -3,11 +3,18 @@
   (2026_DesignForVR) gives the label, and the showcase page or post with a matching
   showcase_folder gives the link. Add a new showcase by adding its folder and page.
 {% endcomment %}
-{% assign entries = site[include.collection] | where: "type", "course" | where: "active", "yes" | sort: 'date' | reverse %}
+{% comment %} Student projects documented as full project pages (student_project: "yes") join in by date and link to their own pages. {% endcomment %}
+{% assign documented = site[include.collection] | where: "student_project", "yes" | where: "active", "yes" %}
+{% assign entries = site[include.collection] | where: "type", "course" | where: "active", "yes" | concat: documented | sort: 'date' | reverse %}
 {% assign showcase_pages = site.pages | concat: site.posts %}
+
 {% assign current_folder = "" %}
 
 {%- for post in entries -%}
+{% if post.student_project == "yes" %}
+  {% include student-project-card.html post=post url=post.url name="Student Project" %}
+  {% continue %}
+{% endif %}
 {% assign folder = post.path | split: "/" | slice: -2, 1 | first %}
 {% if folder != current_folder %}
   {% assign current_folder = folder %}
