@@ -28,7 +28,7 @@ classes: openings-index
         <span>Jan – Jun 2027</span>
         <span>Paid internship</span>
         <span>In-person</span>
-        <span>Apply by Nov 30, 2026</span>
+        <span>Apply by Nov 15, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
@@ -50,7 +50,7 @@ classes: openings-index
         <span>Jan – Jun 2027</span>
         <span>Paid internship</span>
         <span>In-person</span>
-        <span>Apply by Nov 30, 2026</span>
+        <span>Apply by Nov 15, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
