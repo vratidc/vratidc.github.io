@@ -43,8 +43,8 @@ hidetitle: "true"
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
     <li>Working knowledge of Unreal Engine (Blueprint/C++), or willingness to acquire.</li>
-    <li>Familiarity with asset management and scene setup in Unreal Engine. </li>
-    <li>Interest in how virtual reality, augmented reality, or spatial design can reshape narrative and storytelling.<li>
+    <li>Familiarity with asset management and scene setup in Unreal Engine.</li>
+    <li>Interest in how virtual reality, augmented reality, or spatial design can reshape narrative and storytelling.</li>
     <li>Interest in research that results in a tangible, experiential outcome, in addition to a written one.</li>
   </ul>
 
@@ -52,5 +52,4 @@ hidetitle: "true"
        so applicants apply directly by email rather than through the IRCC portal. -->
   <p class="opening-apply-note">Send us your resume and portfolio.</p>
   <a class="opening-apply-btn" href="mailto:hello@imxd.in?subject=VR%20Developer%20Internship">Apply via Email &rarr;</a>
-
 </div>
