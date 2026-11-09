@@ -42,8 +42,9 @@ hidetitle: "true"
 
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
-    <li>Working knowledge of Unity (C#) or Unreal Engine (Blueprint/C++), or willingness to acquire either.</li>
-    <li>Interest in how virtual reality, augmented reality, or spatial design can reshape narrative and storytelling.</li>
+    <li>Working knowledge of Unreal Engine (Blueprint/C++), or willingness to acquire.</li>
+    <li>Familiarity with asset management and scene setup in Unreal Engine. </li>
+    <li>Interest in how virtual reality, augmented reality, or spatial design can reshape narrative and storytelling.<li>
     <li>Interest in research that results in a tangible, experiential outcome, in addition to a written one.</li>
   </ul>
 

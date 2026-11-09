@@ -45,7 +45,7 @@ classes: openings-index
     </div>
     <div class="opening-summary-text">
       <span class="opening-type-tag">Internship</span>
-      <h2>VR Developer</h2>
+      <h2>VR Developer (Unreal Engine)</h2>
       <div class="opening-meta">
         <span>Jan – Jun 2027</span>
         <span>Paid internship</span>
@@ -62,7 +62,7 @@ classes: openings-index
   <h3>Internship at IMXD Lab</h3>
   <p>Each year, we accept a select number of student interns based on the lab's ongoing projects. Prospective interns may reach out to us by email.</p>
   <p>One of the options to apply is through the <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank">IIT Bombay Research Internship Awards</a> program. Interns get the opportunity to work with us during the Spring Semester (January to June). Applications for this program typically open around August to September.</p>
-  <p>To know more about the formal application process for summer internship or semester-long internship at IIT Bombay, please check this link: <a href="https://acad.iitb.ac.in/admissions/internship#:~:text=Projects/%20Summer%20Training%20for%20External%20Students" target="_blank">Internship Programmes at IITB</a>.</p>
+  <p>To know more about the formal application process for summer internship or semester-long internship at IIT Bombay, please check this link: <a href="https://acad.iitb.ac.in/admissions/internship" target="_blank">Internship Programmes at IITB</a>.</p>
 </div>
 
 <!-- Shown regardless of whether any openings are listed above -->
