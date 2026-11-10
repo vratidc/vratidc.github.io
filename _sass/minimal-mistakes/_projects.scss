@@ -1171,10 +1171,11 @@
 }
 
 .home-recognition {
+    position: relative;
     display: flex;
     align-items: baseline;
     gap: 0.6em;
-    padding: 0.7em 1em;
+    padding: 0.7em 1.8em;
     font-size: 0.85em;
     line-height: 1.4;
     background: #fbf6e9;
@@ -1239,4 +1240,40 @@
 // A second badge sits to the left of the first, for cards showing both a star and a trophy.
 .recognition-badge--second {
     right: 44px;
+}
+
+// Recognition arrows: plain arrows inside the bar, shown at both ends while it's hovered.
+.home-recognition__nav {
+    // Full height of the bar, with the arrow centred inside, so it lines up whatever the arrow glyph's shape.
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 0.2em;
+    border: none;
+    background: none;
+    color: #8a6400;
+    font-size: 1.3em;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .2s;
+
+    &:hover {
+        color: #cc9200;
+    }
+}
+
+.home-recognition__nav--prev {
+    left: 0.15em;
+}
+
+.home-recognition__nav--next {
+    right: 0.15em;
+}
+
+.home-recognition:hover .home-recognition__nav,
+.home-recognition__nav:focus {
+    opacity: 1;
 }

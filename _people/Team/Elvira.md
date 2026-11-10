@@ -1,4 +1,5 @@
 ---
+modaltext: "Her research explores art in virtual reality, including how audiences perceive art reimagined through VR. She created <a href=\"/indiahci-2026-showcase\">A Celebration</a>, an inter-media VR experience of a painting, which won the Best Artwork Award at India HCI 2026."
 layout: single
 title: Elvira Mishra
 position: PhD Scholar, Asha Navani Research Fellow
@@ -9,12 +10,12 @@ header:
 permalink:
 type: people
 fullpage: "no"
-modal: "no"
+modal: "yes"
 modalname: "elviramishra"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:elviramishra@gmail.com"
+      url: "mailto:elvira.mishra@iitb.ac.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://elviramishraa.wordpress.com/"

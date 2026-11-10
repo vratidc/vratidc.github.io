@@ -1,6 +1,6 @@
 ---
-description: "VR Developer - IMXD Lab, IDC School of Design, IIT Bombay"
-title: VR Developer
+description: "VR Developer (Unreal Engine) - IMXD Lab, IDC School of Design, IIT Bombay"
+title: VR Developer (Unreal Engine)
 permalink: /openings/vr-developer
 layout: single
 author_profile: false
@@ -13,7 +13,7 @@ hidetitle: "true"
 <div class="opening-detail">
 
   <span class="opening-tag">IMXD Lab Internship</span>
-  <h1 class="opening-title">VR Developer</h1>
+  <h1 class="opening-title">VR Developer (Unreal Engine)</h1>
 
   <!-- Quick-facts row: Duration / Compensation / Location / Apply-by, always in this order -->
   <div class="opening-stats">
@@ -35,21 +35,21 @@ hidetitle: "true"
     </div>
   </div>
 
-  <p class="opening-lede">This project involves the design and development of an experimental virtual reality narrative, exploring storytelling with six degrees of freedom (6DoF) — an experience in which the participant is not limited to observing the story environment, but can move through it in real time.</p>
+  <p class="opening-lede">This project involves the design and development of an experimental virtual reality narrative in Unreal Engine, exploring storytelling with six degrees of freedom (6DoF) — an experience in which the participant is not limited to observing the story environment, but can move through it in real time.</p>
 
   <h2>Role Overview</h2>
-  <p>You'll join the project's existing team, prototyping, developing, and testing it in person, situated at the intersection of interactive gaming and film — working alongside the lab's research team on storytelling techniques, spatial design, and interaction, and alongside the 3D environment artist also joining for this role, integrating their assets directly into the build. Where results are substantial, the outcome may be developed into a research paper. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
+  <p>You'll join the project's existing team, prototyping, developing, and testing the 6DoF narrative in Unreal Engine, in person, situated at the intersection of interactive gaming and film — working alongside the lab's research team on storytelling techniques, spatial design, and interaction, and alongside the 3D environment artist also joining this project, integrating their assets directly into the Unreal Engine build. Where results are substantial, the outcome may be developed into a research paper. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
 
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
-    <li>Working knowledge of Unreal Engine (Blueprint/C++), or willingness to acquire.</li>
-    <li>Familiarity with asset management and scene setup in Unreal Engine.</li>
-    <li>Interest in how virtual reality, augmented reality, or spatial design can reshape narrative and storytelling.</li>
-    <li>Interest in research that results in a tangible, experiential outcome, in addition to a written one.</li>
+    <li>Working knowledge of Unreal Engine and Blueprints, or a willingness to learn.</li>
+    <li>Familiarity with asset management, scene setup, and lighting in Unreal Engine.</li>
+    <li>Interest in building interactions and gameplay for a 6DoF narrative in Unreal Engine, including performance on VR headsets.</li>
+    <li>Interest in how real-time, interactive VR in Unreal Engine can reshape narrative and storytelling.</li>
   </ul>
 
   <!-- This opening isn't part of the IITB Research Internship Award programme,
        so applicants apply directly by email rather than through the IRCC portal. -->
   <p class="opening-apply-note">Send us your resume and portfolio.</p>
-  <a class="opening-apply-btn" href="mailto:hello@imxd.in?subject=VR%20Developer%20Internship">Apply via Email &rarr;</a>
+  <a class="opening-apply-btn" href="mailto:hello@imxd.in?subject=VR%20Developer%20Internship%20-%20Spring%202027">Apply via Email &rarr;</a>
 </div>

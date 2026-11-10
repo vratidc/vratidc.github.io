@@ -4,8 +4,16 @@
 
 
 
-{%- for post in entries -%}
+{% comment %} Projects marked featured_first: "yes" come first, then the rest newest first. {% endcomment %}
+{% assign pinned = entries | where: "featured_first", "yes" %}
+{%- for post in pinned -%}
 {% if post.homepage == "true" %}
+  {% include projects-single-homepage.html %}
+{% endif %}
+{%- endfor -%}
+
+{%- for post in entries -%}
+{% if post.homepage == "true" and post.featured_first != "yes" %}
   {% include projects-single-homepage.html %}
 {% endif %}
 {%- endfor -%}

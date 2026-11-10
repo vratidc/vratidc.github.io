@@ -1,51 +1,67 @@
-{% comment %} Awards come from activities or projects with recognition_short, then selections from activities or projects with recognition_highlight. Each group is newest first. {% endcomment %}
+{% comment %}
+  Awards come from activities or projects with recognition_short, then selections with recognition_highlight,
+  each group newest first. Only recognitions from 2024 onwards are shown (the year is read from the text).
+{% endcomment %}
 {% assign awards = site.activities | concat: site.projects | where_exp: "item", "item.recognition_short" | sort: "date" | reverse %}
 {% assign highlights = site.activities | concat: site.projects | where_exp: "item", "item.recognition_highlight" | sort: "date" | reverse %}
 {% assign recognitions = awards | concat: highlights %}
+{% assign shown_years = "2024 2025 2026 2027 2028 2029 2030" | split: " " %}
 <div class="home-recognition" data-kind="award">
   <svg class="home-recognition__icon home-recognition__icon--award" viewBox="0 0 24 24" width="1.3em" height="1.3em" fill="#cc9200" fill-rule="evenodd" aria-hidden="true"><path d="M7 3h10v2h4v3a5 5 0 0 1-4.6 5 5 5 0 0 1-3.4 2.9V19h3v2H8v-2h3v-3.1A5 5 0 0 1 7.6 13 5 5 0 0 1 3 8V5h4V3zm0 4H5v1a3 3 0 0 0 2 2.8V7zm10 0v3.8A3 3 0 0 0 19 8V7h-2z"/></svg>
   <svg class="home-recognition__icon home-recognition__icon--selected" viewBox="0 0 24 24" width="1.3em" height="1.3em" fill="#cc9200" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.8-5 4.6 1.3 6.7-6-3.3-6 3.3 1.3-6.7-5-4.6 6.8-.8z"/></svg>
-  <strong>Recognition:</strong>
+  <strong>Recognitions:</strong>
   <div class="home-recognition__items">
     {% assign seen = "|" %}
+    {% assign shown = 0 %}
     {% for award in recognitions %}
     {% assign recognition_text = award.recognition_short | default: award.recognition_highlight %}
+    {% assign recent = false %}
+    {% for y in shown_years %}{% if recognition_text contains y %}{% assign recent = true %}{% endif %}{% endfor %}
+    {% if recent %}
     {% assign parts = recognition_text | split: " (" %}
     {% if award.recognition_short %}
-    <span class="home-recognition__item{% if forloop.first %} is-active{% endif %}" data-kind="award">{{ parts[0] }}{% if parts[1] %} (<a href="{{ award.recognition_link | default: award.url | relative_url }}">{{ parts[1] | remove: ")" }}</a>){% endif %}</span>
+    <a class="home-recognition__item{% if shown == 0 %} is-active{% endif %}" data-kind="award" href="{{ award.recognition_link | default: award.url | relative_url }}">{{ recognition_text }}</a>
+    {% assign shown = shown | plus: 1 %}
     {% else %}
     {% assign key = "|" | append: parts[0] | append: "|" %}
     {% unless seen contains key %}
     {% assign seen = seen | append: parts[0] | append: "|" %}
-    <a class="home-recognition__item" data-kind="selected" href="{{ award.recognition_link | default: award.url | relative_url }}">{{ parts[0] }}</a>
+    <a class="home-recognition__item{% if shown == 0 %} is-active{% endif %}" data-kind="selected" href="{{ award.recognition_link | default: award.url | relative_url }}">{{ parts[0] }}</a>
+    {% assign shown = shown | plus: 1 %}
     {% endunless %}
     {% endif %}
-    {% endfor %}
-    {% assign second_highlights = site.projects | where_exp: "item", "item.recognition_highlight_2" %}
-    {% for award in second_highlights %}
-    {% assign parts = award.recognition_highlight_2 | split: " (" %}
-    <a class="home-recognition__item" data-kind="selected" href="{{ award.recognition_link | default: award.url | relative_url }}">{{ parts[0] }}</a>
+    {% endif %}
     {% endfor %}
   </div>
+  <button class="home-recognition__nav home-recognition__nav--prev" type="button" aria-label="Previous recognition">&#8249;</button>
+  <button class="home-recognition__nav home-recognition__nav--next" type="button" aria-label="Next recognition">&#8250;</button>
 </div>
 <script>
-  // Fades through the awards and selections one at a time.
+  // Fades through the recognitions one at a time. Pauses while hovered, and the arrows step back and forward.
   (function () {
-    var items = document.querySelectorAll('.home-recognition__item');
-    if (items.length < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     var bar = document.querySelector('.home-recognition');
-    var current = 0;
+    var items = bar.querySelectorAll('.home-recognition__item');
+    if (items.length < 2) return;
+    var current = 0, timer = null, paused = false;
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     // Awards stay up for 3.4 seconds, selections for 2.4.
     function delay() {
       return items[current].getAttribute('data-kind') === 'award' ? 3400 : 2400;
     }
-    function next() {
+    function show(i) {
       items[current].classList.remove('is-active');
-      current = (current + 1) % items.length;
+      current = (i + items.length) % items.length;
       items[current].classList.add('is-active');
       bar.setAttribute('data-kind', items[current].getAttribute('data-kind'));
-      setTimeout(next, delay());
     }
-    setTimeout(next, delay());
+    function schedule() {
+      clearTimeout(timer);
+      if (!paused && !still) timer = setTimeout(function () { show(current + 1); schedule(); }, delay());
+    }
+    bar.addEventListener('mouseenter', function () { paused = true; clearTimeout(timer); });
+    bar.addEventListener('mouseleave', function () { paused = false; schedule(); });
+    bar.querySelector('.home-recognition__nav--prev').addEventListener('click', function () { show(current - 1); });
+    bar.querySelector('.home-recognition__nav--next').addEventListener('click', function () { show(current + 1); });
+    schedule();
   })();
 </script>

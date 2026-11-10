@@ -16,7 +16,7 @@
     {% if post.modal == "yes" %}
 
 
-    <article class="people__item" style="cursor: pointer;" id="{{ post.modalname }}modal-trigger" itemscope itemtype="https://schema.org/CreativeWork">
+    <article class="people__item" style="cursor: pointer;" id="{{ post.modalname }}modal-trigger" data-people-modal="{{ post.modalname }}" role="button" tabindex="0" aria-haspopup="dialog" itemscope itemtype="https://schema.org/CreativeWork">
         {% if include.type == "grid" and teaser %}
         <div class="people__item-teaser" style='background-image: 
         url({% if teaser contains "://" %}
@@ -59,7 +59,7 @@
     <div id="{{ post.modalname }}" class="people-modal">
 
         <!-- Modal content -->
-        <div class="people-modal-content" id="{{ post.modalname }}">
+        <div class="people-modal-content" role="dialog" aria-modal="true" aria-label="{{ post.title | escape }}">
 
 
 
@@ -75,12 +75,13 @@
 
             <div class="modal-right">
 
-                <h1>{{ post.title }}</h1>
-                <p>{{post.modaltext}}</p>
+                <h2 class="people-modal-name">{{ post.title }}</h2>
+                {% if post.position %}<p class="people-modal-position">{{ post.position }}</p>{% endif %}
+                <p class="people-modal-bio">{{post.modaltext}}</p>
 
                 {% if post.links %}
 
-                <p>Social Links:
+                <p class="people-modal-links">
                     {% for link in post.links %}
                     {% if link.label and link.url %}
                     <a class="people__icon" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
@@ -95,7 +96,7 @@
 
             <div>
 
-                <span class="people-close" id="{{ post.modalname }}people-close">&times;</span>
+                <span class="people-close" role="button" tabindex="0" aria-label="Close">&times;</span>
 
             </div>
 
@@ -103,63 +104,6 @@
 
     </div>
 
-    <script>
-        // Get the modal
-        var {{post.modalname}}
-        modal = document.getElementById("{{ post.modalname }}");
-
-        var allmodal = document.getElementsByClassName("people-modal");
-        // Get the button that opens the modal
-        var {
-            {
-                post.modalname
-            }
-        }
-        btn = document.getElementById("{{ post.modalname }}modal-trigger");
-
-        // Get the <span> element that closes the modal
-        var {{post.modalname}}
-        span = document.getElementById("{{ post.modalname }}people-close");
-
-        // When the user clicks on the button, open the modal
-        {{post.modalname}}
-        btn.onclick = function() {
-            {{post.modalname}}
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        {{post.modalname}}
-        span.onclick = function(event) {
-
-
-            for (var i = 0; i < allmodal.length; i++) {
-
-
-                allmodal[i].style.display = "none";
-            }
-
-
-
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-
-
-            for (var i = 0; i < allmodal.length; i++) {
-
-                if (event.target == allmodal[i]) {
-                    allmodal[i].style.display = "none";
-                }
-
-            }
-
-
-
-        }
-
-    </script>
 
 
     {% else %}

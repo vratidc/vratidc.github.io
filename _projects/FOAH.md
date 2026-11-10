@@ -1,10 +1,11 @@
 ---
+featured_first: "yes"
 description: "6DoF VR Narrative - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Fragments of a Home"
-excerpt: 6DoF VR Narrative
+excerpt: "An ongoing interactive 6DoF VR narrative"
 layout: foahprojectpage   
 selected: "false"
-homepage: "false"
+homepage: "true"
 fullpage: "yes"
 active: "no"
 date: 2024-01-02
@@ -35,8 +36,8 @@ gallery1:
     title: "IDC School of Design, IIT Bombay"
   - url: mailto:hello@imxd.in
     image_path: /assets/img/projects/FOAH/collaborator_logo_placholder.png
-    alt: "Deckor.co"
-    title: "Deckor.co"  
+    alt: "Want to Collaborate?.co"
+    title: "Want to Collaborate?"  
 
 ---
 

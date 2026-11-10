@@ -4,7 +4,7 @@ title:  "Mobile Social AR"
 excerpt: Remote AR Collaboration
 layout: projects
 selected: "true"
-homepage: "true"
+homepage: "false"
 fullpage: "yes"
 active: "yes"
 date: 20200901

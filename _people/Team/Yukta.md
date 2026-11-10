@@ -1,4 +1,6 @@
 ---
+modaltext: "A 3D Artist who creates the visual worlds of the lab's immersive projects. She holds a B.Sc. in Animation and VFX from Amity University Mumbai. She is the Art Director of <a href=\"/projects/foah\">Fragments of a Home</a>, and supports the lab's XR courses and workshops."
+modal: "yes"
 layout: single
 title: Yukta Bhoir
 position: Project Technical Assistant
@@ -8,7 +10,6 @@ header:
     teaser: /assets/img/people/imxd_people_yuktabhoir.jpg
 permalink:
 type: people
-modal : "no"
 modalname: "yuktabhoir"
 fullpage: "no"
 links:

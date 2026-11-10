@@ -1,4 +1,5 @@
 ---
+modaltext: "Her research explores novel interaction for XR (extended reality), looking at new ways for people to interact with virtual, augmented and mixed reality experiences."
 layout: single
 title: Tanushree Pillai
 position: MDes, Research Scholar
@@ -9,9 +10,8 @@ header:
 permalink:
 type: people
 fullpage: "no"
-modal: "no"
+modal: "yes"
 modalname: "tanushree"
-modaltext: ""
 links:        
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"

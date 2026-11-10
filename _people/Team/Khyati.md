@@ -1,4 +1,5 @@
 ---
+modaltext: "Her research looks at 4D printing and shape-changing interfaces, and how people perceive their form and affordances. Her work has been published in the International Journal of Human-Computer Interaction and at India HCI and NordDesign."
 layout: single
 title: Khyati Priya
 position: PhD Scholar, Prime Minister's Research Fellow
@@ -9,7 +10,7 @@ header:
 permalink:
 type: people
 fullpage: "no"
-modal: "no"
+modal: "yes"
 modalname: "khyati"
 links:
     - label: "Email"

@@ -1,4 +1,5 @@
 ---
+modaltext: "Heads the IMXD Lab and teaches in the Interaction Design discipline at IDC School of Design. An academician, designer and filmmaker, his research focuses on storytelling and presence in virtual reality, including the \"Grammar of VR Storytelling\". He holds a PhD in Virtual Reality from Arts et Métiers ParisTech, France, an M.Des from IIT Kanpur, and a B.Arch from Kerala University. He has led lab projects including <a href=\"/projects/into-the-manhole\">Into the Manhole</a>, <a href=\"/projects/Belonging\">Belonging</a>, <a href=\"/projects/cinevoque\">Cinévoqué</a> and <a href=\"/projects/dragonfly\">Dragonfly</a>."
 layout: single
 title: Jayesh Pillai
 position: Professor, IIT Bombay
@@ -9,9 +10,8 @@ header:
 permalink: /people/jayesh
 type: people
 fullpage: "no"
-modal: "no"
+modal: "yes"
 modalname: "jayesh"
-modaltext: ""
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

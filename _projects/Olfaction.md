@@ -4,7 +4,7 @@ title:  "Body Association in VR"
 excerpt: Study on body association in VR
 layout: projects   
 selected: "true"
-homepage: "true"
+homepage: "false"
 fullpage: "yes"
 active: "yes"
 date: 20200102

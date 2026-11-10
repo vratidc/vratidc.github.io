@@ -38,7 +38,7 @@ hidetitle: "true"
   <p class="opening-lede">This is a 3D art internship to help build out the environments and assets for the lab's real-time VR 6DoF narrative project — real-time-ready spaces designed to support immersion.</p>
 
   <h2>Role Overview</h2>
-  <p>You'll join the project's existing team, modelling, texturing, and optimising 3D assets and environments in person alongside the rest of the production team — including the VR developer also joining for this role, who integrates finished assets directly into the build. Responsibilities include iterative refinement based on feedback and handing off finished assets for integration into the pipeline. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
+  <p>You'll join the project's existing team, modelling, texturing, and optimising 3D assets and environments in person alongside the rest of the production team — including the VR developer also joining this project, who integrates finished assets directly into the build. Responsibilities include iterative refinement based on feedback and handing off finished assets for integration into the pipeline. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
 
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
@@ -50,6 +50,6 @@ hidetitle: "true"
   <!-- This opening isn't part of the IITB Research Internship Award programme,
        so applicants apply directly by email rather than through the IRCC portal. -->
   <p class="opening-apply-note">Send us your resume and portfolio.</p>
-  <a class="opening-apply-btn" href="mailto:hello@imxd.in?subject=3D%20Environment%20Artist%20%28VR%29%20Internship">Apply via Email &rarr;</a>
+  <a class="opening-apply-btn" href="mailto:hello@imxd.in?subject=3D%20Environment%20Artist%20%28VR%29%20Internship%20-%20Spring%202027">Apply via Email &rarr;</a>
 
 </div>

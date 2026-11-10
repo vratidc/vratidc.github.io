@@ -88,3 +88,56 @@ layout: people
 
 
 {{ content }}
+
+<script>
+  // People pop-ups: one handler for every card with data-people-modal.
+  (function () {
+    // Move pop-ups to the end of the page so no card styling can offset them from the centre of the screen.
+    document.querySelectorAll('.people-modal').forEach(function (m) { document.body.appendChild(m); });
+    var lastTrigger = null;
+    var lockedY = 0;
+    function open(id, trigger) {
+      var modal = document.getElementById(id);
+      if (!modal) return;
+      lastTrigger = trigger;
+      modal.style.display = 'block';
+      // Freeze the page behind in place: the scrollbar stays visible, but the page can't scroll.
+      if (!document.body.style.position) {
+        lockedY = window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = -lockedY + 'px';
+        document.body.style.width = '100%';
+        document.body.style.overflowY = 'scroll';
+      }
+      var close = modal.querySelector('.people-close');
+      if (close) close.focus();
+    }
+    function closeAll() {
+      document.querySelectorAll('.people-modal').forEach(function (m) { m.style.display = 'none'; });
+      if (document.body.style.position === 'fixed') {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        document.body.style.overflowY = '';
+        window.scrollTo(0, lockedY);
+      }
+      if (lastTrigger) lastTrigger.focus();
+    }
+    document.querySelectorAll('[data-people-modal]').forEach(function (trigger) {
+      var id = trigger.getAttribute('data-people-modal');
+      trigger.addEventListener('click', function () { open(id, trigger); });
+      trigger.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(id, trigger); }
+      });
+    });
+    document.querySelectorAll('.people-modal').forEach(function (modal) {
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal || e.target.classList.contains('people-close')) closeAll();
+      });
+      modal.addEventListener('keydown', function (e) {
+        if (e.target.classList.contains('people-close') && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); closeAll(); }
+      });
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(); });
+  })();
+</script>

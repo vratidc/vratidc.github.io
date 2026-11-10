@@ -56,6 +56,28 @@ classes: openings-index
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
   </a>
 
+  <a class="opening-card" href="/openings/vr-designer">
+    <div class="opening-icon">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <rect x="6" y="10" width="18" height="14" rx="2"></rect>
+        <path d="M30 22l12-6v16l-12 6z"></path>
+        <path d="M30 22l-8-4 12-6 8 4"></path>
+        <path d="M24 17h4"></path>
+      </svg>
+    </div>
+    <div class="opening-summary-text">
+      <span class="opening-type-tag">Internship</span>
+      <h2>VR Designer (Unreal Engine)</h2>
+      <div class="opening-meta">
+        <span>Jan – Jun 2027</span>
+        <span>Paid internship</span>
+        <span>In-person</span>
+        <span>Apply by Nov 20, 2026</span>
+      </div>
+    </div>
+    <span class="opening-chevron" aria-hidden="true">&rarr;</span>
+  </a>
+
 </div>
 
 <div class="openings-closing">

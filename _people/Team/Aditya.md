@@ -1,4 +1,6 @@
 ---
+modaltext: "A VR Developer with a background in game programming, who blends creativity with logic to build immersive worlds. He holds a B.A. in Multimedia and Gaming from Amity University Mumbai. At the IMXD Lab, he develops the lab's immersive projects and conducts VR and AR development sessions in its courses and workshops."
+modal: "yes"
 layout: single
 title: Aditya Sirsat
 position: Project Technical Assistant
@@ -8,7 +10,6 @@ header:
     teaser: /assets/img/people/imxd_people_adityasirsat.jpg
 permalink:
 type: people
-modal : "no"
 modalname: "adityasirsat"
 fullpage: "no"
 links:
