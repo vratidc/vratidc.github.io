@@ -8,7 +8,6 @@ fullpage: "no"
 active: "no"
 
 header:
-    teaser: /assets/img/projects/TIF3DA/WOTKGB.png
 tags: VR Storytelling Game  
 
 banner_image1:

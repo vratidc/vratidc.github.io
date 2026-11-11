@@ -12,10 +12,8 @@ active: "no"
 
 
 
-og_image: /assets/img/projects/Fusion/og.jpg
 
 header:
-    teaser: /assets/img/projects/Fusion/og.png
 tags: 
 
 banner_image1:

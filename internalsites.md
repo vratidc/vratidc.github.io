@@ -8,7 +8,7 @@ entries_layout: grid
 ---
 
 <div class="accent-line"></div>
-<p class="intro-desc">Quick access to tools and resources for our team.</p>
+<p class="intro-desc">Quick access to tools and resources for our team. These sites work only on the IIT Bombay network: campus Wi-Fi, LAN, or the IIT Bombay VPN.</p>
 
 <section class="sites-grid" aria-label="Internal sites">
 
@@ -40,21 +40,6 @@ entries_layout: grid
     </div>
   </a>
 
-  <a class="site-card" href="https://cloud.imxd.in/index.php/apps/assetstore/" target="_blank" rel="noopener">
-    <div class="icon-circle">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
-        <path d="M8 15l16 9 16-9"></path>
-        <path d="M24 24v18"></path>
-      </svg>
-    </div>
-    <h2>Asset Store</h2>
-    <p>Browse &amp; download lab assets and projects</p>
-    <div class="card-action">
-      <span class="open-link">Open <span>&rarr;</span></span>
-    </div>
-  </a>
-
   <a class="site-card" href="https://license.imxd.in/" target="_blank" rel="noopener">
     <div class="icon-circle">
       <svg viewBox="0 0 48 48" aria-hidden="true">
@@ -71,7 +56,7 @@ entries_layout: grid
     </div>
   </a>
 
-  <div class="site-card disabled">
+  <a class="site-card" href="https://qmc.imxd.in/" target="_blank" rel="noopener">
     <div class="icon-circle">
       <svg viewBox="0 0 48 48" aria-hidden="true">
         <rect x="7" y="17" width="34" height="16" rx="7"></rect>
@@ -82,6 +67,22 @@ entries_layout: grid
     </div>
     <h2>Quest Monitoring</h2>
     <p>Live tracking dashboard for Meta Quest headsets</p>
+    <div class="card-action">
+      <span class="open-link">Open <span>&rarr;</span></span>
+    </div>
+  </a>
+
+
+  <div class="site-card disabled">
+    <div class="icon-circle">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
+        <path d="M8 15l16 9 16-9"></path>
+        <path d="M24 24v18"></path>
+      </svg>
+    </div>
+    <h2>Asset Store</h2>
+    <p>Browse &amp; download lab assets and projects</p>
     <div class="card-action">
       <span class="coming-soon">Available soon</span>
     </div>

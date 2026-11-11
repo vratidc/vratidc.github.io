@@ -12,7 +12,7 @@ hidetitle: "true"
      forced above this content by the layout. -->
 <div class="opening-detail opening-detail--closed">
 
-  <span class="opening-tag">IIT Bombay Research Internship Award</span>
+  <a class="opening-tag" href="{{ '/openings' | relative_url }}">IIT Bombay Research Internship Award</a>
   <h1 class="opening-title">Developing a Real-Time Virtual Reality 6DoF Narrative</h1>
 
   <!-- Quick-facts row: Mentor / Duration / Stipend / Apply-by, always in this order -->
@@ -54,4 +54,5 @@ hidetitle: "true"
 
   <p class="opening-closed-note">Applications for this position are now closed.</p>
 
+  <div class="opening-actions"><a class="opening-all-btn" href="{{ '/openings' | relative_url }}">See all openings</a></div>
 </div>

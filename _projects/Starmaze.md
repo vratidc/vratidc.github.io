@@ -26,57 +26,6 @@ team_members_align: "text-left"
 permalink: projects/starmaze
 
 
-flexgallery1:
-  - aspect: "1.33"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_vr1.jpg
-    alt: "Star Maze VR gameplay"
-    title: "VR gameplay"
-  - aspect: "1.33"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_vr2.jpg
-    alt: "Star Maze maze environment"
-    title: "Maze environment"
-  - aspect: "1.33"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_vr3.jpg
-    alt: "Star Maze obstacles"
-    title: "Obstacles and traps"
-
-flexgallery2:
-  - aspect: "1.00"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_mobile1.jpg
-    alt: "Star Maze mobile interface"
-    title: "Mobile control interface"
-  - aspect: "1.00"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_mobile2.jpg
-    alt: "Star Maze maze control view"
-    title: "Maze control view"
-  - aspect: "1.00"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_mobile3.jpg
-    alt: "Star Maze player monitoring"
-    title: "Player monitoring"
-
-flexgallery3:
-  - aspect: "1.77"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_setup1.jpg
-    alt: "Star Maze setup"
-    title: "VR and mobile setup"
-  - aspect: "1.77"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_setup2.jpg
-    alt: "Two player setup"
-    title: "Two player setup"
-  - aspect: "1.77"
-    url:
-    image_path: /assets/img/projects/Star-Maze/starmaze_demo.jpg
-    alt: "Outreach demo"
-    title: "Outreach demo"
-
 ---
 
 <figure class="align-center" style="width:100%;">
@@ -123,18 +72,12 @@ The traveller starts at the entry point of the maze. Locomotion is controlled by
 **Player 2: The Overseer (Mobile Device)**  
 The overseer views the maze from a top-down perspective. Using the mobile interface, this player can shift selected walls, place traps, and observe the traveller’s movement in real time. The overseer must predict the traveller’s path and decide where to intervene to delay progress. Traps and environmental changes notify the overseer when the traveller is affected, creating feedback loops that support strategic planning.
 
-{% include flexgallery id="flexgallery1" caption="VR gameplay from the Traveler’s perspective" %}
-
-{% include flexgallery id="flexgallery2" caption="Mobile interface for the Overseer" %}
-
 ## Development
 
 Star Maze is a networked system connecting a VR application and a mobile device in real time via a lightweight networking layer.
 - The VR application manages player embodiment and interaction, while the mobile app provides a live map and manipulation tools.
 - A modular maze system allows for various layouts without altering core logic, ensuring replayability and easy adaptation for demos.
 - Designed for classrooms and labs, the setup requires only one VR headset and one mobile phone connected over a local network.
-
-{% include flexgallery id="flexgallery3" caption="Two player setup and outreach demonstrations" %}
 
 ## Outcome
 

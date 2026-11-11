@@ -1,8 +1,8 @@
 ---
 featured_first: "yes"
-description: "6DoF VR Narrative - IMXD Lab, IDC School of Design, IIT Bombay"
+description: "An ongoing interactive VR narrative - IMXD Lab, IDC School of Design, IIT Bombay"
 title:  "Fragments of a Home"
-excerpt: "An ongoing interactive 6DoF VR narrative"
+excerpt: "An ongoing interactive VR narrative"
 layout: foahprojectpage   
 selected: "false"
 homepage: "true"
@@ -16,7 +16,7 @@ header:
     image: /assets/img/projects/FOAH/foah_header.gif
     teaser: /assets/img/projects/FOAH/foah_teaser.png
 
-tags: Film Animation Research
+tags: VR Interactive-Narrative
 
 banner_image1:
 
@@ -36,7 +36,7 @@ gallery1:
     title: "IDC School of Design, IIT Bombay"
   - url: mailto:hello@imxd.in
     image_path: /assets/img/projects/FOAH/collaborator_logo_placholder.png
-    alt: "Want to Collaborate?.co"
+    alt: "Want to Collaborate?"
     title: "Want to Collaborate?"  
 
 ---
@@ -158,6 +158,7 @@ The experience would raise questions about climate change, global warming, and o
     <a href="https://www.linkedin.com/in/jinesha-samdadia-90110025b/" target="_blank"><b>Jinesha Samdadia</b></a> : Pre-production Designer<br>
     <a href="https://www.linkedin.com/in/devavrat-chachad-b959222b6/" target="_blank"><b>Devavrat Chachad</b></a> : Character Designer<br>
     <a href="https://www.linkedin.com/in/shristi-ashish-1a2941307/" target="_blank"><b>Srishti Ashish</b></a> : 3D Artist<br>
+    <a href="https://linkedin.com/in/aditya-sirsat-7b4653258" target="_blank"><b>Aditya Sirsat</b></a> : Technical Developer<br>
   </small></p>
 </div> 
 

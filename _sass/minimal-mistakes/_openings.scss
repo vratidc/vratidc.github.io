@@ -320,10 +320,12 @@
   margin: 0 0 24px;
 }
 
+// Each fact takes the width it needs, so short ones leave room for longer ones like the location.
 .opening-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px 24px;
   padding: 20px 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -534,6 +536,72 @@
     padding: 28px 22px;
   }
   .opening-stats {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+// The tag at the top links to the openings list, but keeps its pill look.
+a.opening-tag,
+a.opening-tag:visited {
+  text-decoration: none !important;
+}
+
+a.opening-tag:hover {
+  background: #d6ebe3;
+  text-decoration: none !important;
+}
+
+// Apply on the left, a small "See all openings" on the right, lined up along the bottom.
+.opening-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+
+  .opening-apply-btn {
+    margin: 0;
+  }
+
+  // On phones, "See all openings" always sits on its own line under Apply.
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.opening-actions:only-child,
+.opening-actions a.opening-all-btn:only-child {
+  margin-left: auto;
+}
+
+a.opening-all-btn,
+a.opening-all-btn:visited {
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #087f5b;
+  background: transparent;
+  border: 1.5px solid #087f5b;
+  border-radius: 6px;
+  text-decoration: none !important;
+}
+
+a.opening-all-btn:hover {
+  color: #fff;
+  background: #087f5b;
+  text-decoration: none !important;
+}
+
+// "Applications closed" sits next to the label on collapsed past openings, so it's visible before expanding.
+.opening-summary-text .opening-closed-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 9px;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border-radius: 999px;
 }

@@ -13,6 +13,7 @@
 <div class="people_{{ include.type | default: "list" }}__item_4">
 
 
+    {% comment %} With modal: "yes", the card opens a pop-up bio (modaltext). The open/close script is in _layouts/peoplecollection.html. {% endcomment %}
     {% if post.modal == "yes" %}
 
 
@@ -76,7 +77,7 @@
             <div class="modal-right">
 
                 <h2 class="people-modal-name">{{ post.title }}</h2>
-                {% if post.position %}<p class="people-modal-position">{{ post.position }}</p>{% endif %}
+                {% if post.position and post.modal_hide_position != "yes" %}<p class="people-modal-position">{{ post.position }}</p>{% endif %}
                 <p class="people-modal-bio">{{post.modaltext}}</p>
 
                 {% if post.links %}

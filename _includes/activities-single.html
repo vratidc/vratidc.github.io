@@ -10,6 +10,7 @@
 {% assign title = post.title %}
 {% endif %}
 
+{% comment %} Map each activity's free-text type to one tag, used for the label and the Activities page filters. {% endcomment %}
 {% assign activity_type = post.type | downcase %}
 {% if activity_type contains "lab visit" %}{% assign activity_tag = "Lab Visit" %}
 {% elsif activity_type contains "award" %}{% assign activity_tag = "Award" %}

@@ -104,13 +104,15 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
 
 <br>
 
-## Facilities & Resources
+## Facilities & Resources {#facilities}
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/about/about1.jpg" alt="students using the VR headsets">
-</figure> 
+</figure>
 
-The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens and Magic Leap for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an XSense motion capture suit with hand trackers. These facilities support students and researchers in exploring new ideas and creating immersive applications.
+The lab is primarily a space for students and researchers at IDC School of Design to develop and test their projects, and to support the courses and research run from the lab.
+
+The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. This includes a dedicated testing space for 6DoF experiences, where people can move around freely within a virtual environment. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens and Magic Leap for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an Xsens motion capture suit with hand trackers. These facilities support students and researchers in exploring new ideas and creating immersive applications.
 
 <br>
 

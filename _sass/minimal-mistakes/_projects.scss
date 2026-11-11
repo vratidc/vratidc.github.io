@@ -1055,12 +1055,13 @@
 }
 
 
-/*
-   All student projects page
+/* ==========================================================================
+   Student Projects page (/student-projects)
    ========================================================================== */
 
-// Same cards as All Projects, but three columns and 2:1 thumbnails.
-// Column and row gaps match the homepage featured projects grid.
+// Same cards as All Projects, in three columns with 2:1 thumbnails.
+// Column and row gaps match the homepage Featured Projects grid; Isotope reads
+// the gap from .gutter-sizer so it can position cards by percentage.
 .student-projects .gutter-sizer {
     position: absolute;
     height: 0;
@@ -1088,7 +1089,14 @@
     }
 }
 
-// Award or official selection badge, drawn over the thumbnail on Student Projects.
+
+/* ==========================================================================
+   Recognition badges on project cards
+   Set per project with `recognition` and `recognition_label` in its front
+   matter; rendered by _includes/recognition-overlay.html.
+   ========================================================================== */
+
+// Round badge in the top-right corner of the thumbnail.
 .recognition-badge {
     position: absolute;
     top: 8px;
@@ -1106,6 +1114,11 @@
 
 .recognition-badge--award {
     color: #f2c14e;
+}
+
+// A second badge sits to the left of the first (cards showing both a star and a trophy).
+.recognition-badge--second {
+    right: 44px;
 }
 
 // Label card that slides up inside the thumbnail on hover.
@@ -1138,12 +1151,22 @@
     transform: translateY(0);
 }
 
-// Keeps a linked project clear of the fixed masthead.
+
+/* ==========================================================================
+   Course showcases
+   ========================================================================== */
+
+// Links from Student Projects jump to a card (#project-...); keep it clear of the fixed masthead.
 .course_project_grid__item {
     scroll-margin-top: 100px;
 }
 
-// Homepage intro: three focus areas and the recognition strip.
+
+/* ==========================================================================
+   Homepage intro (index.md)
+   ========================================================================== */
+
+// Research / Create / Share, three across (stacked on phones).
 .home-focus {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1170,6 +1193,7 @@
     }
 }
 
+// Rotating Recognitions bar, built by _includes/recognition-bar.html.
 .home-recognition {
     position: relative;
     display: flex;
@@ -1188,13 +1212,14 @@
         align-self: flex-start;
     }
 
+    // The script sets data-kind on the bar to match the item showing.
     &[data-kind="award"] .home-recognition__icon--selected,
     &[data-kind="selected"] .home-recognition__icon--award {
         display: none;
     }
 }
 
-// All awards share one spot, so the bar keeps its height as they fade.
+// All items share one grid cell, so the bar keeps its height as they fade.
 .home-recognition__items {
     display: grid;
     flex: 1;
@@ -1219,7 +1244,7 @@
         text-decoration: none;
     }
 
-    // Theme hover underline has an ID in its selector, so it needs !important to override.
+    // The theme's hover underline has an ID in its selector, so !important is needed to override it.
     &:is(a):hover,
     a:hover {
         color: #008055;
@@ -1227,24 +1252,9 @@
     }
 }
 
-// Headings kept at h2 for page structure, but styled exactly like the h1 they replaced.
-.as-h1 {
-    margin-top: 0;
-    font-size: $type-size-4;
-}
-
-.page__content h2.as-h1 {
-    font-size: $type-size-4;
-}
-
-// A second badge sits to the left of the first, for cards showing both a star and a trophy.
-.recognition-badge--second {
-    right: 44px;
-}
-
-// Recognition arrows: plain arrows inside the bar, shown at both ends while it's hovered.
+// Previous/next arrows at both ends of the bar, shown while it's hovered.
+// Each spans the bar's full height with the arrow centred, whatever the glyph's shape.
 .home-recognition__nav {
-    // Full height of the bar, with the arrow centred inside, so it lines up whatever the arrow glyph's shape.
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1276,4 +1286,19 @@
 .home-recognition:hover .home-recognition__nav,
 .home-recognition__nav:focus {
     opacity: 1;
+}
+
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+// Headings kept at h2 for page structure, but styled exactly like the h1 they replaced.
+.as-h1 {
+    margin-top: 0;
+    font-size: $type-size-4;
+}
+
+.page__content h2.as-h1 {
+    font-size: $type-size-4;
 }

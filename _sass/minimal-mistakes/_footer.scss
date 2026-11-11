@@ -107,3 +107,8 @@
     }
 }
 
+
+// Keeps each footer link on one line (e.g. "IIT Bombay") on narrow screens.
+.page__footer-links a {
+    white-space: nowrap;
+}

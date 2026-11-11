@@ -1,5 +1,6 @@
 ---
-modaltext: "An XR Designer and Developer focused on 6DoF VR narratives. He holds a B.A. in Multimedia and Gaming from Amity University Mumbai, where he was a gold medallist. He was the Technical Director of <a href=\"/projects/into-the-manhole\">Into the Manhole</a>, a 6DoF VR narrative built in Unreal Engine that won the Laval Virtual Award 2026, the FICCI BAF Award 2025 for Best XR Short Film, and the Jury Award at Courant3D 2025. He also works on <a href=\"/projects/foah\">Fragments of a Home</a>, and conducts VR and AR development sessions in the lab's courses and workshops."
+modal_hide_position: "yes"
+modaltext: "An XR Designer and Developer focused on 6DoF VR narratives. He holds a B.A. in Multimedia and Gaming from Amity University Mumbai, where he was a gold medallist. He works on <a href=\"/projects/foah\">Fragments of a Home</a>, and was the Technical Director of <a href=\"/projects/into-the-manhole\">Into the Manhole</a>, the lab's award-winning 6DoF VR narrative built in Unreal Engine. He also conducts VR and AR development sessions in the lab's courses and workshops."
 modal: "yes"
 layout: single
 title: Shiva Teja Banda

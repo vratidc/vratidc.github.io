@@ -1,4 +1,5 @@
 ---
+modal_hide_position: "yes"
 modaltext: "A 3D Artist who creates the visual worlds of the lab's immersive projects. She holds a B.Sc. in Animation and VFX from Amity University Mumbai. She is the Art Director of <a href=\"/projects/foah\">Fragments of a Home</a>, and supports the lab's XR courses and workshops."
 modal: "yes"
 layout: single

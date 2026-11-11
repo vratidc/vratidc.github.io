@@ -10,7 +10,7 @@ author_profile: false
 
 # IMXD Lab
 
-Immersive Media Experience Design (IMXD) Lab explores Virtual Reality, Augmented Reality, Mixed Reality and VR narratives through a design perspective. The lab is a part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}, [IIT Bombay](https://www.iitb.ac.in/){:target="_blank"}.
+Immersive Media Experience Design (IMXD) Lab explores Virtual Reality, Augmented Reality, Mixed Reality and VR narratives through a design perspective. The lab is part of [IDC School of Design](http://www.idc.iitb.ac.in/){:target="_blank"}, [IIT Bombay](https://www.iitb.ac.in/){:target="_blank"}.
 
 <div class="home-focus">
   <div><strong>Research</strong><span>XR applications, interaction design for XR and presence in VR</span></div>

@@ -45,6 +45,7 @@
 
     </p>
 
+    {% comment %} Awards and selections from the project's recognition_label; items are separated by " • ". {% endcomment %}
     {% if post.recognition %}
     {% assign recognitions = post.recognition_label | split: " • " %}
     <h3>{% if recognitions.size > 1 %}Awards &amp; Selections:{% elsif post.recognition == "award" %}Awards:{% else %}Official Selection:{% endif %}</h3>
@@ -54,8 +55,8 @@
     {% endif %}
 
     {% if post.project-link %}
-    <p> For more information, visit the <a href="{{post.project-link}}" target="_blank" style="color: #008055;">Project
-        Link</a>.</p>
+    {% if post.project-link-text %}<p><a href="{{post.project-link}}" target="_blank" style="color: #008055;">{{ post.project-link-text }}</a></p>{% else %}<p> For more information, visit the <a href="{{post.project-link}}" target="_blank" style="color: #008055;">Project
+        Link</a>.</p>{% endif %}
     {% endif %}
 
   </article>

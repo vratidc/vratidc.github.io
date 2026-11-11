@@ -1,3 +1,7 @@
+{% comment %}
+  One card on the Student Projects page. Params: post, url (showcase or project page),
+  name (showcase label shown under the title), anchor (true = jump to the card on the showcase).
+{% endcomment %}
 {% capture project_url %}{{ include.url | relative_url }}{% if include.anchor %}#project-{{ include.post.year }}-{{ include.post.slug }}{% endif %}{% endcapture %}
 <div class="project_grid__item {% for tag in include.post.tags %} {{ tag }} {% endfor %}">
     <article class="projects__item" itemscope itemtype="https://schema.org/CreativeWork">

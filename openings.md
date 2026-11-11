@@ -26,8 +26,8 @@ classes: openings-index
       <!-- Duration / compensation / location / apply-by, in that fixed order -->
       <div class="opening-meta">
         <span>Jan – Jun 2027</span>
-        <span>Paid internship</span>
-        <span>In-person</span>
+        <span>Paid stipend</span>
+        <span>In-person (IIT Bombay)</span>
         <span>Apply by Nov 15, 2026</span>
       </div>
     </div>
@@ -48,8 +48,8 @@ classes: openings-index
       <h2>VR Developer (Unreal Engine)</h2>
       <div class="opening-meta">
         <span>Jan – Jun 2027</span>
-        <span>Paid internship</span>
-        <span>In-person</span>
+        <span>Paid stipend</span>
+        <span>In-person (IIT Bombay)</span>
         <span>Apply by Nov 15, 2026</span>
       </div>
     </div>
@@ -70,8 +70,8 @@ classes: openings-index
       <h2>VR Designer (Unreal Engine)</h2>
       <div class="opening-meta">
         <span>Jan – Jun 2027</span>
-        <span>Paid internship</span>
-        <span>In-person</span>
+        <span>Paid stipend</span>
+        <span>In-person (IIT Bombay)</span>
         <span>Apply by Nov 20, 2026</span>
       </div>
     </div>
@@ -83,7 +83,7 @@ classes: openings-index
 <div class="openings-closing">
   <h3>Internship at IMXD Lab</h3>
   <p>Each year, we accept a select number of student interns based on the lab's ongoing projects. Prospective interns may reach out to us by email.</p>
-  <p>One of the options to apply is through the <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank">IIT Bombay Research Internship Awards</a> program. Interns get the opportunity to work with us during the Spring Semester (January to June). Applications for this program typically open around August to September.</p>
+  <p>One of the options to apply is through the <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank">IIT Bombay Research Internship Awards</a> program. Interns get the opportunity to work with us during the Spring Semester (January to June). Applications for this program typically open in August and close by September.</p>
   <p>To know more about the formal application process for summer internship or semester-long internship at IIT Bombay, please check this link: <a href="https://acad.iitb.ac.in/admissions/internship" target="_blank">Internship Programmes at IITB</a>.</p>
 </div>
 
@@ -111,6 +111,7 @@ classes: openings-index
       </div>
       <div class="opening-summary-text">
         <span class="opening-type-tag">IIT Bombay Research Internship Awards 2026-27</span>
+        <span class="opening-closed-tag">Applications closed</span>
         <h2>3D Environment Design and Assets Creation for Real-time Virtual Reality Experience</h2>
       </div>
     </summary>
@@ -119,7 +120,6 @@ classes: openings-index
       <span>₹15,000/month</span>
       <span>Jan – Jun 2027</span>
       <span>Apply by Sep 29, 2026</span>
-      <span class="opening-closed-tag">Applications closed</span>
     </div>
   </details>
 
@@ -135,6 +135,7 @@ classes: openings-index
       </div>
       <div class="opening-summary-text">
         <span class="opening-type-tag">IIT Bombay Research Internship Awards 2026-27</span>
+        <span class="opening-closed-tag">Applications closed</span>
         <h2>Developing a Real-Time Virtual Reality 6DoF Narrative</h2>
       </div>
     </summary>
@@ -142,7 +143,6 @@ classes: openings-index
       <span>₹15,000/month</span>
       <span>Jan – Jun 2027</span>
       <span>Apply by Sep 29, 2026</span>
-      <span class="opening-closed-tag">Applications closed</span>
     </div>
   </details>
 
