@@ -17,7 +17,7 @@ links:
       url: mailto:unnimohanm@iitb.ac.in
     - label: "Profile"
       icon: "fas fa-fw fa-user"
-      url: "https://www.idc.iitb.ac.in/people/faculty/mohan-m-unni"
+      url: "https://www.idc.iitb.ac.in/people/unni-mohan-m/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/unni-mohan-m-50340184/"

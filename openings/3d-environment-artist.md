@@ -41,6 +41,10 @@ hidetitle: "true"
   <p>You'll join the project's existing team, modelling, texturing, and optimising 3D assets and environments in person alongside the rest of the production team — including the VR developer also joining this project, who integrates finished assets directly into the build. Responsibilities include iterative refinement based on feedback and handing off finished assets for integration into the pipeline. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
   <p>You'll work from the IMXD Lab, with access to its <a href="{{ '/about#facilities' | relative_url }}">VR, mixed reality and motion capture facilities</a>.</p>
 
+  <h2>Eligibility</h2>
+  <p>Open to 3rd and 4th year Bachelor's students and 2nd year Master's students.</p>
+  <p>Open to, but not limited to, students from Animation, 3D Art, VFX, Gaming, and Design with a focus on real-time 3D environments.</p>
+
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
     <li>Working knowledge of the 3D pipeline, including modelling, texturing, and basic animation, using tools such as Maya, Blender, or Substance Painter.</li>

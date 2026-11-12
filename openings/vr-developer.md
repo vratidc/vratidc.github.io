@@ -41,6 +41,10 @@ hidetitle: "true"
   <p>You'll join the project's existing team, prototyping, developing, and testing the 6DoF narrative in Unreal Engine, in person, situated at the intersection of interactive gaming and film — working alongside the lab's research team on storytelling techniques, spatial design, and interaction, and alongside the 3D environment artist also joining this project, integrating their assets directly into the Unreal Engine build. Where results are substantial, the outcome may be developed into a research paper. This project builds on prior IMXD Lab work in 6DoF narrative design, including <a href="/projects/Belonging" target="_blank">Belonging</a> and <a href="/projects/into-the-manhole" target="_blank">Into the Manhole</a>.</p>
   <p>You'll work from the IMXD Lab, with access to its <a href="{{ '/about#facilities' | relative_url }}">VR, mixed reality and motion capture facilities</a>.</p>
 
+  <h2>Eligibility</h2>
+  <p>Open to 3rd and 4th year Bachelor's students and 2nd year Master's students.</p>
+  <p>Open to, but not limited to, students from Design, Animation, Gaming, Interaction Design, and Computer Science with a focus on Game Design or Development.</p>
+
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
     <li>Working knowledge of Unreal Engine and Blueprints, or a willingness to learn.</li>

@@ -17,7 +17,7 @@ links:
       url: mailto:prasad.bokil@iitb.ac.in
     - label: "Profile"
       icon: "fas fa-fw fa-user"
-      url: "http://www.idc.iitb.ac.in/people/faculty/bokil-prasad"
+      url: "https://www.idc.iitb.ac.in/people/prasad-bokil/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.prasadbokil.com/"

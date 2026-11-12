@@ -263,42 +263,42 @@ entries_layout: grid
 
 @media (max-width: 700px) {
   #page-title {
-    font-size: 8px;
+    font-size: 26px;
   }
   .accent-line {
-    margin-top: 22px;
+    margin-top: 16px;
   }
   .intro-desc {
-    margin-top: 18px;
-    font-size: 4px;
+    margin: 0 0 28px;
+    font-size: 17px;
   }
   .sites-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
   }
   .site-card {
-    padding: 30px 24px 26px;
-    grid-template-columns: 45px 1fr;
-    column-gap: 24px;
+    padding: 18px 18px 16px;
+    grid-template-columns: 40px 1fr;
+    column-gap: 14px;
   }
   .icon-circle {
-    width: 22px;
-    height: 22px;
+    width: 40px;
+    height: 40px;
   }
   .icon-circle svg {
-    width: 11px;
-    height: 11px;
+    width: 20px;
+    height: 20px;
   }
   .site-card h2 {
-    margin-top: 8px;
-    font-size: 6px;
+    margin-top: 4px;
+    font-size: 18px;
   }
   .site-card p {
-    font-size: 4px;
-    margin-top: 13px;
+    font-size: 14px;
+    margin-top: 6px;
   }
   .open-link {
-    font-size: 5px;
+    font-size: 14px;
   }
 }
 </style>

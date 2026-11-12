@@ -18,7 +18,7 @@ links:
       url: mailto:jay@iitb.a.cin
     - label: "Profile"
       icon: "fas fa-fw fa-user"
-      url: "http://www.idc.iitb.ac.in/people/faculty/pillai-jayesh"
+      url: "https://www.idc.iitb.ac.in/people/jayesh-pillai/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.jayeshpillai.in"

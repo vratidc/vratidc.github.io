@@ -15,7 +15,7 @@ The IMXD Lab is a design and research space dedicated to exploring the creative 
   <img class="levitate" src="{{ site.url }}{{ site.baseurl }}/assets/img/about/imxd_icon.png" alt="IMXD_icon">
 </figure> 
 
-Currently the lab is headed by [Prof. Jayesh Pillai](https://www.idc.iitb.ac.in/people/faculty/pillai-jayesh){:target="_blank"}. Know more about the research team and lab members [here](/people).
+Currently the lab is headed by [Prof. Jayesh Pillai](https://www.idc.iitb.ac.in/people/jayesh-pillai/){:target="_blank"}. Know more about the research team and lab members [here](/people).
 <br><br>
 
 ## Timeline
@@ -112,7 +112,7 @@ Since its founding in 2016, the IMXD Lab has steadily evolved through various ph
 
 The lab is primarily a space for students and researchers at IDC School of Design to develop and test their projects, and to support the courses and research run from the lab.
 
-The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. This includes a dedicated testing space for 6DoF experiences, where people can move around freely within a virtual environment. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens and Magic Leap for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an Xsens motion capture suit with hand trackers. These facilities support students and researchers in exploring new ideas and creating immersive applications.
+The IMXD Lab provides a space for developing and testing virtual and mixed reality experiences. This includes a dedicated testing space for 6DoF experiences, where people can move around freely within a virtual environment. The lab is equipped with a variety of VR headsets, including HTC Vive, Meta Quest 2, Quest 3, and Quest Pro, along with a Microsoft HoloLens and Magic Leap for mixed reality applications. It also includes devices for testing augmented reality experiences across different platforms. For projects involving character animation and movement, the lab makes use of an Xsens motion capture suit with hand trackers. The lab also has high-end workstations for real-time development and rendering, a lab server for shared storage and internal tools, and a range of sensors for building interactive experiences. These facilities support students and researchers in exploring new ideas and creating immersive applications.
 
 <br>
 

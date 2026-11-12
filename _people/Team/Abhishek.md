@@ -18,7 +18,7 @@ links:
       url: mailto:abhishek.verma@iitb.ac.in
     - label: "Profile"
       icon: "fas fa-fw fa-user"
-      url: "https://www.idc.iitb.ac.in/verma-abhishek"
+      url: "https://www.idc.iitb.ac.in/people/abhishek-verma/"
     - label: "IMDb"
       icon: "fab fa-fw fa-imdb"
       url: "https://www.imdb.com/name/nm9021840/"         

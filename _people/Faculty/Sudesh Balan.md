@@ -17,7 +17,7 @@ links:
       url: mailto:sudesh@iitb.ac.in
     - label: "Profile"
       icon: "fas fa-fw fa-user"
-      url: "http://www.idc.iitb.ac.in/people/faculty/balan-sudesh"
+      url: "https://www.idc.iitb.ac.in/people/sudesh-balan/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sudeshbalan.notion.site/sudeshbalan/Sudesh-Balan-ca6bce8382ab4ecfa682a362a3bfeadf"      

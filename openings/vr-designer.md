@@ -44,6 +44,7 @@ hidetitle: "true"
 
   <h2>Eligibility</h2>
   <p>Open to 3rd and 4th year Bachelor's students and 2nd year Master's students.</p>
+  <p>Open to, but not limited to, students from Design, Animation, Gaming, and Computer Science with a focus on Game Design or Development.</p>
 
   <h2>Desired Qualifications</h2>
   <ul class="opening-fit-list">
