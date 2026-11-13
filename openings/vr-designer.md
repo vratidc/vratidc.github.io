@@ -57,7 +57,7 @@ hidetitle: "true"
 
   <!-- This opening isn't part of the IITB Research Internship Award programme,
        so applicants apply directly by email rather than through the IRCC portal. -->
-  <p style="margin: 1.5em 0 1em; padding: 0.8em 1em; background: #fbf6e9; border-left: 3px solid #cc9200; border-radius: 5px;"><strong>Portfolio required:</strong> applications without a portfolio showing the skills above will not be considered.</p>
+  <p style="margin: 1.5em 0 1em; padding: 0.8em 1em; background: #fbf6e9; border-left: 3px solid #cc9200; border-radius: 5px;"><strong>Required:</strong> a resume and a portfolio showcasing the skills listed above. Applications without them will not be considered.</p>
 
   <p class="opening-apply-note">Send us your resume and portfolio.</p>
   <div class="opening-actions">

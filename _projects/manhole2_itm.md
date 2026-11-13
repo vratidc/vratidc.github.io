@@ -209,16 +209,6 @@ A detailed documentation of our design process and technical pipeline will be up
 
 <hr style="height:1px;border-width:0;color:#fcd5ce;background-color:#fcd5ce">
 
-<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
-  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h3>
-  <p><small>
-    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
-    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Gandharva Walavalkar</b></a> : Amitabh Ruth<br>
-    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
-    <a href="http://linkedin.com/in/gvsree" target="_blank"><b>G V Sreekumar</b></a> : Angry Uncle<br>
-  </small></p>
-</div>  
-
 <div class="manhole-team-links" style="min-width: 50%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
   <h3 id="page-title" class="page__title" style="margin-top: 20px;">Production Team</h3>
   <p><small>
@@ -229,7 +219,17 @@ A detailed documentation of our design process and technical pipeline will be up
     <a href="https://www.linkedin.com/in/muskan-ahuja-918aab222/" target="_blank"><b>Muskan Ahuja</b></a> : Additional 3D Modeling & Texturing<br>
     <a href="https://www.linkedin.com/in/bishal-brahma-543678312/" target="_blank"><b>Bishal Brahma</b></a> : Additional 3D Modeling & Texturing<br>
     <a href="https://www.linkedin.com/in/pranjal-saini-609911225/" target="_blank"><b>Pranjal Saini</b></a> : Posters & Branding<br>
-    <a href="https://www.behance.net/nandhinsreekum1" target="_blank" style="color:#cc9200;"><b>Nandhini Sreekumar</b></a> : Posters & Branding<br>
+    <a href="https://www.instagram.com/ammu_srees/" target="_blank" style="color:#cc9200;"><b>Nandhini Sreekumar</b></a> : Posters & Branding<br>
+  </small></p>
+</div>  
+
+<div class="manhole-team-links" style="min-width: 45%; margin-top: 0px; padding-bottom: 0px; padding-right: 0px;padding-left: 0; display: inline-block; vertical-align : top;">
+  <h3 id="page-title" class="page__title" style="margin-top: 20px;">Cast (Voice & Mocap)</h3>
+  <p><small>
+    <a href="https://www.linkedin.com/in/aniruddha-deodhar-040534223?" target="_blank"><b>Aniruddha Deodhar</b></a> : Bunty Ram<br>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Gandharva Walavalkar</b></a> : Amitabh Ruth<br>
+    <a href="https://www.linkedin.com/in/adarsh-kumar-85a91a272/" target="_blank"><b>Adarsh Kumar</b></a> : Amitabh Ruth<br>
+    <a href="http://linkedin.com/in/gvsree" target="_blank"><b>G V Sreekumar</b></a> : Angry Uncle<br>
   </small></p>
 </div>
 
