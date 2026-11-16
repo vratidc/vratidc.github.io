@@ -28,7 +28,7 @@ classes: openings-index
         <span>Jan – Jun 2027</span>
         <span>Paid stipend</span>
         <span>In-person (IIT Bombay)</span>
-        <span>Apply by Nov 15, 2026</span>
+        <span>Apply by Nov 17, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
@@ -50,7 +50,7 @@ classes: openings-index
         <span>Jan – Jun 2027</span>
         <span>Paid stipend</span>
         <span>In-person (IIT Bombay)</span>
-        <span>Apply by Nov 15, 2026</span>
+        <span>Apply by Nov 17, 2026</span>
       </div>
     </div>
     <span class="opening-chevron" aria-hidden="true">&rarr;</span>
