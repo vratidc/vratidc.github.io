@@ -94,7 +94,8 @@ og_image                 : "/assets/img/imxd-share.jpg" # Open Graph/Twitter def
 social:
   type                   : Organization
   name                   : "IMXD Lab"
-  links: # An array of links to social media profiles
+  links: # An array of links to social media profiles
+
     - "https://www.linkedin.com/company/imxd-lab/"
     - "https://www.youtube.com/channel/UCxd5Sh7w0gD1sHfzug4ChDA"
 
@@ -285,6 +286,12 @@ compress_html:
 
 # Defaults
 defaults:
+  # Openings (openings/*.md): title is drawn by _layouts/opening.html, not the theme.
+  - scope:
+      path: "openings"
+    values:
+      author_profile: false
+      hidetitle: "true"
   # Course project pages stay out of the sitemap; their showcases are the main pages.
   - scope:
       path: "_projects/course-outcomes"

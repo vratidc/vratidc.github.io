@@ -1,0 +1,17 @@
+{% comment %}
+  One quick fact on an opening's page: icon, label and value for
+  include.key (mentor, duration, stipend, location or apply_by).
+  To add a new kind of fact, add a `when` here and the key under `facts:`.
+{% endcomment %}
+{% case include.key %}
+{% when "mentor" %}<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></svg>
+<div><span class="stat-label">Mentor</span><span class="stat-value">{{ include.value }}</span></div>
+{% when "duration" %}<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
+<div><span class="stat-label">Duration</span><span class="stat-value">{{ include.value }}</span></div>
+{% when "stipend" %}<svg class="stat-icon-rupee" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none"></circle><text x="12" y="16" text-anchor="middle">&#8377;</text></svg>
+<div><span class="stat-label">Stipend</span><span class="stat-value">{{ include.value }}</span></div>
+{% when "location" %}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+<div><span class="stat-label">Location</span><span class="stat-value">{{ include.value }}</span></div>
+{% when "apply_by" %}<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4M16 3v4"></path></svg>
+<div><span class="stat-label">Apply by</span><span class="stat-value">{{ include.value | date: "%b %-d, %Y" }}</span></div>
+{% endcase %}

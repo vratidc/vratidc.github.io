@@ -1,0 +1,10 @@
+{% comment %}
+  Sets `opening_closed` for one opening (include.opening): true when its
+  front matter says `open: false`, or when its facts.apply_by date has passed at
+  build time. The pages also re-check the date in the browser.
+{% endcomment %}
+{% assign opening_closed = false %}
+{% if include.opening.open == false %}{% assign opening_closed = true %}{% endif %}
+{% assign _deadline = include.opening.facts.apply_by | date: "%Y%m%d" | plus: 0 %}
+{% assign _today = site.time | date: "%Y%m%d" | plus: 0 %}
+{% if _deadline > 0 and _today > _deadline %}{% assign opening_closed = true %}{% endif %}

@@ -1,0 +1,41 @@
+{% comment %}
+  One card on the Openings page, built from an opening's front matter
+  (include.opening). include.closed picks the style: a link card for current
+  openings, a collapsible <details> card for past ones.
+{% endcomment %}
+{% assign o = include.opening %}
+{% capture meta %}
+  <div class="opening-meta">
+    {% comment %} Same order as the page's facts; mentor stays on the detail page only. {% endcomment %}
+    {% for fact in o.facts %}{% if fact[1] and fact[1] != "" and fact[0] != "mentor" %}
+    {% case fact[0] %}
+    {% when "apply_by" %}<span>Apply by {{ fact[1] | date: "%b %-d, %Y" }}</span>
+    {% when "stipend" %}<span>{{ o.card_stipend | default: fact[1] }}</span>
+    {% else %}<span>{{ fact[1] }}</span>
+    {% endcase %}
+    {% endif %}{% endfor %}
+  </div>
+{% endcapture %}
+{% if include.closed %}
+  <details class="opening-card opening-card--closed">
+    <summary>
+      {% include opening-icon.html name=o.icon %}
+      <div class="opening-summary-text">
+        <span class="opening-type-tag">{{ o.tag }}</span>
+        <span class="opening-closed-tag">Applications closed</span>
+        <h2>{{ o.title }}</h2>
+      </div>
+    </summary>
+    {{ meta }}
+  </details>
+{% else %}
+  <a class="opening-card" href="{{ o.url | relative_url }}" data-apply-by="{{ o.facts.apply_by | date: '%Y-%m-%d' }}">
+    {% include opening-icon.html name=o.icon %}
+    <div class="opening-summary-text">
+      <span class="opening-type-tag">{{ o.tag }}</span>
+      <h2>{{ o.title }}</h2>
+      {{ meta }}
+    </div>
+    <span class="opening-chevron" aria-hidden="true">&rarr;</span>
+  </a>
+{% endif %}

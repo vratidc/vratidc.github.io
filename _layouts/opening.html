@@ -1,0 +1,65 @@
+---
+layout: single
+---
+{% comment %}
+  OPENING DETAIL PAGE, used by every file in openings/.
+  Front matter supplies the tag, title, quick facts, Required box, apply
+  button and open/closed state; the file's body supplies the description
+  (lede, Role Overview, Eligibility, ...). Fields: openings/_HOW-TO.md.
+
+  Sets opening_closed (open: false, or deadline passed at build time).
+  apply_email falls back to hello@imxd.in if left empty.
+{% endcomment %}
+{% include opening-state.html opening=page %}
+{% assign apply_email = page.apply_email | default: "hello@imxd.in" %}
+
+<div class="opening-detail{% if opening_closed %} opening-detail--closed{% endif %}" data-apply-by="{{ page.facts.apply_by | date: '%Y-%m-%d' }}">
+
+  <a class="opening-tag" href="{{ '/openings' | relative_url }}">{{ page.tag }}</a>
+  <h1 class="opening-title">{{ page.title }}</h1>
+
+  <!-- Quick facts, in the order they're written under `facts:`; empty ones are skipped. -->
+  <div class="opening-stats">
+    {% for fact in page.facts %}{% if fact[1] and fact[1] != "" %}
+    <div class="stat">
+      {% assign fact_key = fact[0] %}{% assign fact_value = fact[1] %}
+      {% include opening-fact.html key=fact_key value=fact_value %}
+    </div>
+    {% endif %}{% endfor %}
+  </div>
+
+  {{ content }}
+
+  <!-- "Required" box, only when require_portfolio: true -->
+  {% if page.require_portfolio %}
+  <p style="margin: 1.5em 0 1em; padding: 0.8em 1em; background: #fbf6e9; border-left: 3px solid #cc9200; border-radius: 5px;"><strong>Required:</strong> a resume and a portfolio showcasing the skills listed above. Applications without them will not be considered.</p>
+  {% endif %}
+
+  <!-- Both states are rendered; the script below swaps them once the deadline passes. -->
+  <p class="opening-closed-note"{% unless opening_closed %} hidden{% endunless %}>Applications for this position are now closed.</p>
+  {% if page.apply_subject and page.apply_subject != "" %}
+  <p class="opening-apply-note"{% if opening_closed %} hidden{% endif %}>{{ page.apply_note | default: "Send us your resume and portfolio." }}</p>
+  {% endif %}
+  <!-- Apply button (only when apply_subject is set and still open) + See all openings.
+       The subject is URL-encoded; brackets are encoded too as some mail apps drop them. -->
+  <div class="opening-actions">
+    {% if page.apply_subject and page.apply_subject != "" and opening_closed != true %}
+    <a class="opening-apply-btn" href="mailto:{{ apply_email }}?{% if page.apply_cc and page.apply_cc != "" %}cc={{ page.apply_cc }}&{% endif %}subject={{ page.apply_subject | uri_escape | replace: '(', '%28' | replace: ')', '%29' }}">Apply via Email &rarr;</a>
+    {% endif %}
+    <a class="opening-all-btn" href="{{ '/openings' | relative_url }}">See all openings</a>
+  </div>
+</div>
+
+<script>
+// Closes the page once its apply-by date has passed (end of that day, IST),
+// so a deadline takes effect even if the site isn't rebuilt that day.
+(function () {
+  var el = document.querySelector(".opening-detail[data-apply-by]");
+  if (!el || el.classList.contains("opening-detail--closed")) return;
+  if (new Date() <= new Date(el.getAttribute("data-apply-by") + "T23:59:59+05:30")) return;
+  el.classList.add("opening-detail--closed");
+  el.querySelectorAll(".opening-apply-btn, .opening-apply-note").forEach(function (n) { n.remove(); });
+  var note = el.querySelector(".opening-closed-note");
+  if (note) note.hidden = false;
+})();
+</script>

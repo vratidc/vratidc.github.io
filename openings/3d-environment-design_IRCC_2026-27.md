@@ -2,58 +2,48 @@
 description: "3D Environment Design and Assets Creation for Real-time Virtual Reality Experience - IMXD Lab, IDC School of Design, IIT Bombay"
 title: 3D Environment Design and Assets Creation for Real-time Virtual Reality Experience
 permalink: /openings/3d-environment-design
-layout: single
-author_profile: false
-hidetitle: "true"
+layout: opening                 # page template: _layouts/opening.html
+
+# --- Listing on /openings --------------------------------------------------
+# Sorted automatically by apply_by. See openings/_HOW-TO.md for all fields.
+open: false                     # true = Current Openings, false = Past Openings
+icon: 3d                        # card icon: 3d, vr or design
+tag: IIT Bombay Research Internship Awards 2026-27  # label above the title (card and page)
+
+# --- Quick facts --------------------------------------------------------
+# Shown in this line order on the page and the card; empty ones are hidden.
+# Mentor shows on the page only. apply_by (DD-MM-YYYY) is the deadline:
+# the opening closes automatically after that day.
+facts:
+  mentor: Prof. Abhishek Verma
+  duration: Jan – Jun 2027
+  stipend: ₹15,000/mo
+  location:
+  apply_by: 29-09-2026
+card_stipend: ₹15,000/month     # stipend wording on the card; empty = same as above
+
+# --- Applying -----------------------------------------------------------
+# Leave apply_subject empty for no email button (e.g. IRCC, which uses its portal).
+require_portfolio: false        # true = show the "Required: resume and portfolio" box
+apply_email:                    # where applications go (default hello@imxd.in)
+apply_subject:
+apply_cc:                       # optional CC address
 ---
 
-<!-- hidetitle suppresses the theme's auto-rendered #page-title so we can control
-     heading placement ourselves (see .opening-title below) instead of it being
-     forced above this content by the layout. -->
-<div class="opening-detail opening-detail--closed">
+<p class="opening-lede">This project involves the design, optimisation, and implementation of 3D environments and real-time-ready assets for an ongoing virtual reality narrative — low-poly, stylised worlds intended to support immersion in six degrees of freedom, rather than static visual quality alone.</p>
 
-  <a class="opening-tag" href="{{ '/openings' | relative_url }}">IIT Bombay Research Internship Award</a>
-  <h1 class="opening-title">3D Environment Design and Assets Creation for Real-time Virtual Reality Experience</h1>
+<h2>Role Overview</h2>
+<p>The intern will model, texture, and optimise 3D assets and environments for a real-time VR narrative, working closely with the project's artistic and technical direction. Responsibilities include iterative refinement based on feedback, contributing to the translation of a semi-realistic, 2D-inspired visual style into a fully explorable 3D space, and integration of assets into an active production pipeline.</p>
 
-  <!-- Quick-facts row: Mentor / Duration / Stipend / Apply-by, always in this order -->
-  <div class="opening-stats">
-    <div class="stat">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></svg>
-      <div><span class="stat-label">Mentor</span><span class="stat-value">Prof. Abhishek Verma</span></div>
-    </div>
-    <div class="stat">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
-      <div><span class="stat-label">Duration</span><span class="stat-value">Jan – Jun 2027</span></div>
-    </div>
-    <div class="stat">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9 8h5a2 2 0 0 1 0 4H9"></path><path d="M9 12h6"></path><path d="M9 8v8"></path></svg>
-      <div><span class="stat-label">Stipend</span><span class="stat-value">₹15,000/mo</span></div>
-    </div>
-    <div class="stat">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4M16 3v4"></path></svg>
-      <div><span class="stat-label">Apply by</span><span class="stat-value">Sep 29, 2026</span></div>
-    </div>
-  </div>
+<h2>Desired Qualifications</h2>
+<ul class="opening-fit-list">
+  <li>Working knowledge of the 3D pipeline, including modelling, texturing, and basic animation, using tools such as Maya, Blender, or Substance Painter.</li>
+  <li>Familiarity with Unity or Unreal Engine and real-time rendering workflows.</li>
+  <li>Ability to sketch or work with a drawing tablet for animatics and prototyping.</li>
+  <li>Interest in low-poly optimisation, spatial sound design, or AI-assisted 3D tools (such as Meshy, Claude, or Creality), prior experience not required.</li>
+</ul>
 
-  <p class="opening-lede">This project involves the design, optimisation, and implementation of 3D environments and real-time-ready assets for an ongoing virtual reality narrative — low-poly, stylised worlds intended to support immersion in six degrees of freedom, rather than static visual quality alone.</p>
+<p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Design, Animation &amp; VFX, or related fields.</p>
 
-  <h2>Role Overview</h2>
-  <p>The intern will model, texture, and optimise 3D assets and environments for a real-time VR narrative, working closely with the project's artistic and technical direction. Responsibilities include iterative refinement based on feedback, contributing to the translation of a semi-realistic, 2D-inspired visual style into a fully explorable 3D space, and integration of assets into an active production pipeline.</p>
-
-  <h2>Desired Qualifications</h2>
-  <ul class="opening-fit-list">
-    <li>Working knowledge of the 3D pipeline, including modelling, texturing, and basic animation, using tools such as Maya, Blender, or Substance Painter.</li>
-    <li>Familiarity with Unity or Unreal Engine and real-time rendering workflows.</li>
-    <li>Ability to sketch or work with a drawing tablet for animatics and prototyping.</li>
-    <li>Interest in low-poly optimisation, spatial sound design, or AI-assisted 3D tools (such as Meshy, Claude, or Creality), prior experience not required.</li>
-  </ul>
-
-  <p class="opening-eligibility-note">Open to 3rd/4th-year Bachelor's or 2nd-year Master's students in Design, Animation &amp; VFX, or related fields.</p>
-
-  <!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
-  <p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank" rel="noopener">IITB Internship Award portal</a>.</p>
-
-  <p class="opening-closed-note">Applications for this position are now closed.</p>
-
-  <div class="opening-actions"><a class="opening-all-btn" href="{{ '/openings' | relative_url }}">See all openings</a></div>
-</div>
+<!-- Links point at the IITB IRCC portal's own eligibility/how-to-apply pages, not ours -->
+<p class="opening-portal-note">Full <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/Eligibility.html" target="_blank" rel="noopener">eligibility criteria</a> and <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/HowApply.html" target="_blank" rel="noopener">application instructions</a> are available on the official <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/" target="_blank" rel="noopener">IITB Internship Award portal</a>.</p>

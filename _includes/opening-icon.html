@@ -1,0 +1,21 @@
+{% comment %} Card icon for an opening; include.name is 3d, vr or design. {% endcomment %}
+<div class="opening-icon">
+  <svg viewBox="0 0 48 48" aria-hidden="true">
+    {% case include.name %}
+    {% when "vr" %}
+    <rect x="7" y="17" width="34" height="16" rx="7"></rect>
+    <circle cx="18" cy="25" r="3"></circle>
+    <circle cx="30" cy="25" r="3"></circle>
+    <path d="M22 25h4"></path>
+    {% when "design" %}
+    <rect x="6" y="10" width="18" height="14" rx="2"></rect>
+    <path d="M30 22l12-6v16l-12 6z"></path>
+    <path d="M30 22l-8-4 12-6 8 4"></path>
+    <path d="M24 17h4"></path>
+    {% else %}
+    <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
+    <path d="M8 15l16 9 16-9"></path>
+    <path d="M24 24v18"></path>
+    {% endcase %}
+  </svg>
+</div>

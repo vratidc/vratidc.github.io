@@ -7,78 +7,76 @@ author_profile: false
 classes: openings-index
 ---
 
-<!-- Each opening is a single <a> card linking to its own detail page under /openings/.
-     To add a new opening: copy one card block below, update the href, icon, title, and
-     meta pills, then create the matching detail page in the openings/ directory. -->
-<div class="openings-list">
+<!--
+  ==========================================================================
+  OPENINGS LIST
+  ==========================================================================
 
-  <a class="opening-card" href="/openings/3d-environment-artist">
-    <div class="opening-icon">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
-        <path d="M8 15l16 9 16-9"></path>
-        <path d="M24 24v18"></path>
-      </svg>
-    </div>
-    <div class="opening-summary-text">
-      <span class="opening-type-tag">Internship</span>
-      <h2>3D Environment Artist (VR)</h2>
-      <!-- Duration / compensation / location / apply-by, in that fixed order -->
-      <div class="opening-meta">
-        <span>Jan – Jun 2027</span>
-        <span>Paid stipend</span>
-        <span>In-person (IIT Bombay)</span>
-        <span>Apply by Nov 17, 2026</span>
-      </div>
-    </div>
-    <span class="opening-chevron" aria-hidden="true">&rarr;</span>
-  </a>
+  Every card on this page is built from the files in openings/ (each uses
+  layout: opening). Nothing here is written by hand: to add, edit or close
+  an opening, edit its file in openings/ (see openings/_HOW-TO.md).
 
-  <a class="opening-card" href="/openings/vr-developer">
-    <div class="opening-icon">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <rect x="7" y="17" width="34" height="16" rx="7"></rect>
-        <circle cx="18" cy="25" r="3"></circle>
-        <circle cx="30" cy="25" r="3"></circle>
-        <path d="M22 25h4"></path>
-      </svg>
-    </div>
-    <div class="opening-summary-text">
-      <span class="opening-type-tag">Internship</span>
-      <h2>VR Developer (Unreal Engine)</h2>
-      <div class="opening-meta">
-        <span>Jan – Jun 2027</span>
-        <span>Paid stipend</span>
-        <span>In-person (IIT Bombay)</span>
-        <span>Apply by Nov 17, 2026</span>
-      </div>
-    </div>
-    <span class="opening-chevron" aria-hidden="true">&rarr;</span>
-  </a>
+    Current Openings = open: true, and the apply_by date hasn't passed
+    Past Openings    = everything else
 
-  <a class="opening-card" href="/openings/vr-designer">
-    <div class="opening-icon">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <rect x="6" y="10" width="18" height="14" rx="2"></rect>
-        <path d="M30 22l12-6v16l-12 6z"></path>
-        <path d="M30 22l-8-4 12-6 8 4"></path>
-        <path d="M24 17h4"></path>
-      </svg>
-    </div>
-    <div class="opening-summary-text">
-      <span class="opening-type-tag">Internship</span>
-      <h2>VR Designer (Unreal Engine)</h2>
-      <div class="opening-meta">
-        <span>Jan – Jun 2027</span>
-        <span>Paid stipend</span>
-        <span>In-person (IIT Bombay)</span>
-        <span>Apply by Nov 20, 2026</span>
-      </div>
-    </div>
-    <span class="opening-chevron" aria-hidden="true">&rarr;</span>
-  </a>
+  The lines in curly-brace-percent tags below are Liquid. They run once
+  when the site is built; visitors only see the HTML they produce.
+-->
 
+
+<!--
+  Step 1: Sort the openings by deadline (earliest first, then by title).
+
+  apply_by is written DD-MM-YYYY, which doesn't sort correctly as text, so:
+    a. collect every opening page
+    b. give each one a sortable key: "YYYYMMDD|title|url"
+    c. sort the keys
+    d. turn each key back into its page, using the url at the end
+-->
+{% assign opening_pages = site.pages | where: "layout", "opening" %}
+
+{% assign opening_keys = "" | split: "" %}
+{% for o in opening_pages %}
+  {% capture k %}{{ o.facts.apply_by | date: "%Y%m%d" }}|{{ o.title }}|{{ o.url }}{% endcapture %}
+  {% assign opening_keys = opening_keys | push: k %}
+{% endfor %}
+
+{% assign opening_keys = opening_keys | sort %}
+
+{% assign all_openings = "" | split: "" %}
+{% for k in opening_keys %}
+  {% assign k_url = k | split: "|" | last %}
+  {% assign o = opening_pages | where: "url", k_url | first %}
+  {% assign all_openings = all_openings | push: o %}
+{% endfor %}
+
+
+<!--
+  Step 2: Current Openings.
+
+  opening-state.html sets opening_closed for each opening; the open ones get
+  a link card. current_count decides whether the "no open positions" line
+  below is shown.
+-->
+{% assign current_count = 0 %}
+<div class="openings-list" id="openings-current">
+{%- for o in all_openings -%}
+  {%- include opening-state.html opening=o -%}
+  {%- unless opening_closed -%}
+    {%- assign current_count = current_count | plus: 1 %}
+{% include opening-card.html opening=o %}
+  {%- endunless -%}
+{%- endfor %}
 </div>
+
+<p class="openings-none" id="openings-none"{% if current_count > 0 %} hidden{% endif %}>There are no open positions right now. Past openings are listed below.</p>
+
+
+<!--
+  ==========================================================================
+  INFO BLOCKS (always shown)
+  ==========================================================================
+-->
 
 <div class="openings-closing">
   <h3>Internship at IMXD Lab</h3>
@@ -87,66 +85,68 @@ classes: openings-index
   <p>To know more about the formal application process for summer internship or semester-long internship at IIT Bombay, please check this link: <a href="https://acad.iitb.ac.in/admissions/internship" target="_blank">Internship Programmes at IITB</a>.</p>
 </div>
 
-<!-- Shown regardless of whether any openings are listed above -->
 <div class="openings-closing">
   <h3>No Suitable Opening?</h3>
   <p>Students and researchers interested in the lab's work are welcome to <a href="/contact">contact us directly</a>, even in the absence of a listed opening.</p>
 </div>
 
-<!-- Each opening is a single card linking to its own detail page under /openings/.
-     To add a new opening: copy one card block below, make it a clickable <a class="opening-card">
-     (drop opening-card--closed), update the href, icon, title, and meta pills, then create the
-     matching detail page in the openings/ directory. -->
+<!--
+  ==========================================================================
+  PAST OPENINGS
+  ==========================================================================
+
+  Closed openings (open: false, or deadline passed), as collapsible cards.
+  The whole section is hidden by the script below if there are none.
+-->
+<div id="openings-past">
 <h3 class="openings-past-title">Past Openings</h3>
 <div class="openings-list">
-
-  <details class="opening-card opening-card--closed">
-    <summary>
-      <div class="opening-icon">
-        <svg viewBox="0 0 48 48" aria-hidden="true">
-          <path d="M24 6 8 15v18l16 9 16-9V15z"></path>
-          <path d="M8 15l16 9 16-9"></path>
-          <path d="M24 24v18"></path>
-        </svg>
-      </div>
-      <div class="opening-summary-text">
-        <span class="opening-type-tag">IIT Bombay Research Internship Awards 2026-27</span>
-        <span class="opening-closed-tag">Applications closed</span>
-        <h2>3D Environment Design and Assets Creation for Real-time Virtual Reality Experience</h2>
-      </div>
-    </summary>
-    <!-- Stipend / duration / apply-by, in that fixed order -->
-    <div class="opening-meta">
-      <span>₹15,000/month</span>
-      <span>Jan – Jun 2027</span>
-      <span>Apply by Sep 29, 2026</span>
-    </div>
-  </details>
-
-  <details class="opening-card opening-card--closed">
-    <summary>
-      <div class="opening-icon">
-        <svg viewBox="0 0 48 48" aria-hidden="true">
-          <rect x="7" y="17" width="34" height="16" rx="7"></rect>
-          <circle cx="18" cy="25" r="3"></circle>
-          <circle cx="30" cy="25" r="3"></circle>
-          <path d="M22 25h4"></path>
-        </svg>
-      </div>
-      <div class="opening-summary-text">
-        <span class="opening-type-tag">IIT Bombay Research Internship Awards 2026-27</span>
-        <span class="opening-closed-tag">Applications closed</span>
-        <h2>Developing a Real-Time Virtual Reality 6DoF Narrative</h2>
-      </div>
-    </summary>
-    <div class="opening-meta">
-      <span>₹15,000/month</span>
-      <span>Jan – Jun 2027</span>
-      <span>Apply by Sep 29, 2026</span>
-    </div>
-  </details>
-
+{%- for o in all_openings -%}
+  {%- include opening-state.html opening=o -%}
+  {%- if opening_closed %}
+{% include opening-card.html opening=o closed=true %}
+  {%- endif -%}
+{%- endfor %}
 </div>
+</div>
+
+
+<!--
+  ==========================================================================
+  SCRIPTS
+  ==========================================================================
+-->
+
+<script>
+// Moves current cards whose apply-by date has passed (end of day, IST) into
+// Past Openings, so deadlines apply even if the site isn't rebuilt that day.
+// Runs before the animation script below so moved cards animate too.
+(function () {
+  var current = document.getElementById("openings-current");
+  var pastList = document.querySelector("#openings-past .openings-list");
+  if (!current || !pastList) return;
+  Array.prototype.forEach.call(current.querySelectorAll("a.opening-card[data-apply-by]"), function (card) {
+    if (new Date() <= new Date(card.getAttribute("data-apply-by") + "T23:59:59+05:30")) return;
+    var details = document.createElement("details");
+    details.className = "opening-card opening-card--closed";
+    var summary = document.createElement("summary");
+    var text = card.querySelector(".opening-summary-text");
+    var meta = text.querySelector(".opening-meta");
+    var pill = document.createElement("span");
+    pill.className = "opening-closed-tag";
+    pill.textContent = "Applications closed";
+    text.querySelector(".opening-type-tag").after(pill);
+    summary.appendChild(card.querySelector(".opening-icon"));
+    summary.appendChild(text);
+    details.appendChild(summary);
+    if (meta) details.appendChild(meta);
+    pastList.insertBefore(details, pastList.firstChild);
+    card.remove();
+  });
+  if (!current.querySelector(".opening-card")) document.getElementById("openings-none").hidden = false;
+  if (!pastList.querySelector(".opening-card")) document.getElementById("openings-past").hidden = true;
+})();
+</script>
 
 <script>
 (function () {
