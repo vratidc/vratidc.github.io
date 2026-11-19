@@ -2,7 +2,7 @@
    Current Openings — listing page (/openings)
    ========================================================================== */
 
-/* Scoped via the `classes: openings-index` front-matter hook (see openings.md).
+/* Scoped via the `classes: openings-index` front-matter hook (see _pages/main/openings.md).
    #page-title is the theme's global title id, shared by every `single`-layout page —
    overriding it unscoped here would resize every other page's title too. */
 .openings-index #page-title {
@@ -604,4 +604,46 @@ a.opening-all-btn:hover {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   border-radius: 999px;
+}
+
+
+/* Status label on opening cards and detail pages (set by `status` in each
+   opening's front matter; see _includes/opening-state.html).
+   Green = accepting, amber = selection in progress, red = closed / filled. */
+.opening-status {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 9px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-radius: 999px;
+}
+
+.opening-status--accepting {
+  color: #087f5b;
+  background: #e6f4ee;
+}
+
+.opening-status--shortlisting,
+.opening-status--interviews,
+.opening-status--interviewed {
+  color: #8a6400;
+  background: #fbf3dc;
+}
+
+.opening-status--closed,
+.opening-status--filled {
+  color: #8a3b2f;
+  background: #fbeae7;
+}
+
+/* The opening layout renders both the open and closed notes and hides one with
+   the `hidden` attribute; the display rules above would otherwise override it. */
+.opening-closed-note[hidden],
+.opening-apply-note[hidden] {
+  display: none;
 }

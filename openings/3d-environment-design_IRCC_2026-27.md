@@ -7,6 +7,17 @@ layout: opening                 # page template: _layouts/opening.html
 # --- Listing on /openings --------------------------------------------------
 # Sorted automatically by apply_by. See openings/_HOW-TO.md for all fields.
 open: false                     # true = Current Openings, false = Past Openings
+# Status label on the card and page. Leave empty for automatic:
+#   (empty)       Accepting applications while open,
+#                 Shortlisting in progress once the deadline passes,
+#                 Applications closed if open: false
+#   accepting     Accepting applications
+#   shortlisting  Shortlisting in progress
+#   interviews    Interview invitations sent
+#   interviewed   Interviews completed
+#   closed        Applications closed
+#   filled        Position filled
+status: interviewed
 icon: 3d                        # card icon: 3d, vr or design
 tag: IIT Bombay Research Internship Awards 2026-27  # label above the title (card and page)
 

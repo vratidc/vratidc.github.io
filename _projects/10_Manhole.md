@@ -78,7 +78,7 @@ permalink: projects/manholevr
     <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
       <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_abhishek.png); background-size: cover;background-position: center;">
       </div>
-      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/abhishek-verma/" target="_blank" rel="noopener">Abhishek Verma</a></h2>
       <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
     </article>
   </div>
@@ -87,7 +87,7 @@ permalink: projects/manholevr
     <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
       <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_jayesh.png); background-size: cover;background-position: center;">
       </div>
-      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/jayesh-pillai/" target="_blank" rel="noopener">Jayesh Pillai</a></h2>
       <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Director</p>
     </article>
   </div>
@@ -96,7 +96,7 @@ permalink: projects/manholevr
     <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
       <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_shiva.png); background-size: cover;background-position: center;">
       </div>
-      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Banda Shiva Teja</h2>
+      <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://homepages.iitb.ac.in/~30005958/" target="_blank" rel="noopener">Banda Shiva Teja</a></h2>
       <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
     </article>
   </div>
@@ -105,7 +105,7 @@ permalink: projects/manholevr
       <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
         <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/ITM_ananda.png); background-size: cover;background-position: center;">
         </div>
-        <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Ananda Bathena</h2>
+        <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://anandabathena.com/" target="_blank" rel="noopener">Ananda Bathena</a></h2>
         <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Sound & Background Score</p>
       </article>
   </div>

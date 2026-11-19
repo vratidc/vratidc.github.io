@@ -16,6 +16,8 @@ layout: single
 <div class="opening-detail{% if opening_closed %} opening-detail--closed{% endif %}" data-apply-by="{{ page.facts.apply_by | date: '%Y-%m-%d' }}">
 
   <a class="opening-tag" href="{{ '/openings' | relative_url }}">{{ page.tag }}</a>
+  <!-- Status label (accepting / shortlisting / interviews / closed / filled) -->
+  <span class="opening-status opening-status--{{ opening_status }}">{{ opening_status_label }}</span>
   <h1 class="opening-title">{{ page.title }}</h1>
 
   <!-- Quick facts, in the order they're written under `facts:`; empty ones are skipped. -->
@@ -59,6 +61,8 @@ layout: single
   if (new Date() <= new Date(el.getAttribute("data-apply-by") + "T23:59:59+05:30")) return;
   el.classList.add("opening-detail--closed");
   el.querySelectorAll(".opening-apply-btn, .opening-apply-note").forEach(function (n) { n.remove(); });
+  var status = el.querySelector(".opening-status--accepting");
+  if (status) { status.className = "opening-status opening-status--shortlisting"; status.textContent = "Shortlisting in progress"; }
   var note = el.querySelector(".opening-closed-note");
   if (note) note.hidden = false;
 })();

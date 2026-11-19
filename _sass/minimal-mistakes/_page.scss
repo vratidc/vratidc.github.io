@@ -903,3 +903,36 @@ Media Query
 #facilities {
     scroll-margin-top: 110px;
 }
+
+// Heading anchor links (added by assets/js/_main.js) contain a "Permalink" label
+// for screen readers with the class sr-only, which this theme version never
+// defined. Hide it visually so only the link icon shows; screen readers still read it.
+.page__content .header-link .sr-only {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden;
+}
+
+// The anchor's Font Awesome icon (<i class="fa fa-link">) uses an old class name the
+// site's Font Awesome kit doesn't draw, so the link icon is drawn here instead, in the
+// link's own colour.
+.page__content .header-link {
+    // Also hide the kit's own version if it does draw it (it swaps <i> for an <svg>).
+    i,
+    svg {
+        display: none;
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        width: 0.85em;
+        height: 0.85em;
+        vertical-align: middle;
+        background-color: currentColor;
+        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5'/%3E%3C/svg%3E") center / contain no-repeat;
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5'/%3E%3C/svg%3E") center / contain no-repeat;
+    }
+}

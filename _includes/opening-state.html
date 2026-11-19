@@ -7,4 +7,31 @@
 {% if include.opening.open == false %}{% assign opening_closed = true %}{% endif %}
 {% assign _deadline = include.opening.facts.apply_by | date: "%Y%m%d" | plus: 0 %}
 {% assign _today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% if _deadline > 0 and _today > _deadline %}{% assign opening_closed = true %}{% endif %}
+{% assign opening_deadline_passed = false %}
+{% if _deadline > 0 and _today > _deadline %}{% assign opening_closed = true %}{% assign opening_deadline_passed = true %}{% endif %}
+
+{% comment %}
+  Also sets the status label (opening_status = key, opening_status_label = text)
+  from the opening's `status` field:
+    accepting     Accepting applications   (default while open)
+    shortlisting  Shortlisting in progress (default once the deadline passes)
+    interviews    Interview invitations sent
+    interviewed   Interviews completed
+    closed        Applications closed      (default when open: false)
+    filled        Position filled
+  A closed opening never shows "accepting", even if status still says so.
+{% endcomment %}
+{% assign opening_status = include.opening.status | default: "" | strip | downcase %}
+{% if opening_status == "" or opening_status == "accepting" %}
+  {% if opening_deadline_passed %}{% assign opening_status = "shortlisting" %}
+  {% elsif opening_closed %}{% assign opening_status = "closed" %}
+  {% else %}{% assign opening_status = "accepting" %}{% endif %}
+{% endif %}
+{% case opening_status %}
+  {% when "accepting" %}{% assign opening_status_label = "Accepting applications" %}
+  {% when "shortlisting" %}{% assign opening_status_label = "Shortlisting in progress" %}
+  {% when "interviews" %}{% assign opening_status_label = "Interview invitations sent" %}
+  {% when "interviewed" %}{% assign opening_status_label = "Interviews completed" %}
+  {% when "filled" %}{% assign opening_status_label = "Position filled" %}
+  {% else %}{% assign opening_status = "closed" %}{% assign opening_status_label = "Applications closed" %}
+{% endcase %}

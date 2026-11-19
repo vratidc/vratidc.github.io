@@ -188,7 +188,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/manhole_abhishek.png); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/abhishek-verma/" target="_blank" rel="noopener">Abhishek Verma</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
   </article>
   </div>
@@ -197,7 +197,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/manhole_jayesh.png); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/jayesh-pillai/" target="_blank" rel="noopener">Jayesh Pillai</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Director</p>
   </article>
   </div>
@@ -206,7 +206,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/manhole_amarnath.png); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Amarnath Murugan</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://amarnathmurugan.github.io/" target="_blank" rel="noopener">Amarnath Murugan</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
   </article>
   </div>
@@ -215,7 +215,7 @@ This short film was adjudged as one of the runners up in the <a href="https://ww
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/manholeproject/manhole_img_people/manhole_amal.png); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Amal Dev</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.behance.net/Amaldevc" target="_blank" rel="noopener">Amal Dev</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Art Director</p>
   </article>
   </div>

@@ -4,6 +4,7 @@
   openings, a collapsible <details> card for past ones.
 {% endcomment %}
 {% assign o = include.opening %}
+{% include opening-state.html opening=o %}
 {% capture meta %}
   <div class="opening-meta">
     {% comment %} Same order as the page's facts; mentor stays on the detail page only. {% endcomment %}
@@ -22,7 +23,7 @@
       {% include opening-icon.html name=o.icon %}
       <div class="opening-summary-text">
         <span class="opening-type-tag">{{ o.tag }}</span>
-        <span class="opening-closed-tag">Applications closed</span>
+        <span class="opening-status opening-status--{{ opening_status }}">{{ opening_status_label }}</span>
         <h2>{{ o.title }}</h2>
       </div>
     </summary>
@@ -33,6 +34,7 @@
     {% include opening-icon.html name=o.icon %}
     <div class="opening-summary-text">
       <span class="opening-type-tag">{{ o.tag }}</span>
+      <span class="opening-status opening-status--{{ opening_status }}">{{ opening_status_label }}</span>
       <h2>{{ o.title }}</h2>
       {{ meta }}
     </div>

@@ -7,6 +7,17 @@ layout: opening                 # page template: _layouts/opening.html
 # --- Listing on /openings --------------------------------------------------
 # Sorted automatically by apply_by. See openings/_HOW-TO.md for all fields.
 open: true                      # true = Current Openings, false = Past Openings
+# Status label on the card and page. Leave empty for automatic:
+#   (empty)       Accepting applications while open,
+#                 Shortlisting in progress once the deadline passes,
+#                 Applications closed if open: false
+#   accepting     Accepting applications
+#   shortlisting  Shortlisting in progress
+#   interviews    Interview invitations sent
+#   interviewed   Interviews completed
+#   closed        Applications closed
+#   filled        Position filled
+status:
 icon: design                    # card icon: 3d, vr or design
 tag: IMXD Lab Internship        # label above the title (card and page)
 

@@ -185,6 +185,7 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - README.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
@@ -288,7 +289,7 @@ compress_html:
 defaults:
   # Openings (openings/*.md): title is drawn by _layouts/opening.html, not the theme.
   - scope:
-      path: "openings"
+      path: "openings/"
     values:
       author_profile: false
       hidetitle: "true"

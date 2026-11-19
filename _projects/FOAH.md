@@ -83,7 +83,7 @@ The experience would raise questions about climate change, global warming, and o
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_jayesh.jpg); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Jayesh Pillai</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/jayesh-pillai/" target="_blank" rel="noopener">Jayesh Pillai</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Writer & Director</p>
   </article>
   </div>
@@ -92,7 +92,7 @@ The experience would raise questions about climate change, global warming, and o
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_abhishek.jpg); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Abhishek Verma</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.idc.iitb.ac.in/people/abhishek-verma/" target="_blank" rel="noopener">Abhishek Verma</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">VR Researcher</p>
   </article>
   </div>
@@ -101,7 +101,7 @@ The experience would raise questions about climate change, global warming, and o
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_shiva.jpg); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Shiva Teja Banda</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://homepages.iitb.ac.in/~30005958/" target="_blank" rel="noopener">Shiva Teja Banda</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Technical Director</p>
   </article>
   </div>
@@ -110,7 +110,7 @@ The experience would raise questions about climate change, global warming, and o
   <article class="people__item" itemscope="" itemtype="https://schema.org/CreativeWork">  
   <div class="people__item-teaser" style="background-image: url(/assets/img/projects/FOAH/team/foah_people_yukta.jpg); background-size: cover;background-position: center;">
   </div>
-  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;">Yukta Bhoir</h2>
+  <h2 class="people__item-title" itemprop="headline"  style="text-align: center;"><a href="https://www.linkedin.com/in/yukta-bhoir-095939298/" target="_blank" rel="noopener">Yukta Bhoir</a></h2>
   <p style="margin-bottom: 0px; text-align: center;" class="people__item-excerpt" itemprop="description">Art Director</p>
   </article>
   </div>

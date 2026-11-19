@@ -20,6 +20,7 @@ Set `open: false`. It moves to "Past Openings" and its page shows
 ## Fields
 | Field | Meaning |
 |---|---|
+| `status` | Status label: `accepting`, `shortlisting`, `interviews`, `interviewed`, `closed` or `filled`. Empty = automatic: Accepting applications while open, Shortlisting in progress once the deadline passes, Applications closed if `open: false` |
 | `open` | `true` = current opening, `false` = past |
 | `icon` | Card icon: `3d`, `vr` or `design` |
 | `tag` | Label above the title, on the card and the opening's page |
