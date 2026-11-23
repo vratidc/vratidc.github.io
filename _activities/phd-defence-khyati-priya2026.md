@@ -13,8 +13,8 @@ homepage: "no"
 fullpage: "yes"
 permalink: workshops/phd-defence-khyati-priya2026/
 header:
-    teaser: /assets/img/activities/icon-pub-phd-defence-khyati-priya2026.jpg
-    teaser_hover: /assets/img/activities/phd/khyati_defence_1.jpg
+    teaser: /assets/img/activities/icon-pub-phd-khyati-2026.jpg
+    teaser_hover: /assets/img/activities/phd/khyati_defence_hover3.jpg
 layout: publications
 
 gallery1:

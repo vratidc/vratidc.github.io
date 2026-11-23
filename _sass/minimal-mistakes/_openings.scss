@@ -647,3 +647,122 @@ a.opening-all-btn:hover {
 .opening-apply-note[hidden] {
   display: none;
 }
+
+/* ==========================================================================
+   Openings list on phones (600px and narrower)
+   Compact cards: no icon, smaller title, and the tag and status as plain
+   text instead of pills.
+   Desktop is unchanged.
+   ========================================================================== */
+@media (max-width: 600px) {
+  .openings-list {
+    gap: 10px;
+  }
+
+  .opening-card .opening-icon {
+    display: none;
+  }
+
+  .opening-card,
+  .opening-card--closed summary {
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 10px;
+  }
+
+  .opening-card--closed {
+    padding: 0;
+  }
+
+  .opening-card--closed .opening-meta {
+    padding: 0 16px 14px;
+  }
+
+  .page__content .opening-card h2 {
+    margin: 2px 0 0;
+    padding-bottom: 0;
+    border-bottom: none; // the theme underlines content headings
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  .opening-card:not(.opening-card--closed) h2 {
+    margin-bottom: 8px;
+  }
+
+  // Tag and status: plain small text instead of pills.
+  .opening-summary-text .opening-type-tag,
+  .opening-summary-text .opening-status {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    background: none !important;
+    border-radius: 0;
+  }
+
+  .opening-summary-text .opening-type-tag {
+    color: #8a8f94;
+  }
+
+  // Tag and status share a line when they fit, separated by a little space
+  // (no dot, so a status that wraps onto the next line starts cleanly).
+  .opening-summary-text .opening-type-tag {
+    margin-right: 10px;
+  }
+
+  .opening-summary-text .opening-status {
+    white-space: nowrap; // keep "Shortlisting in progress" together if it wraps
+  }
+
+  .opening-meta span {
+    font-size: 11.5px;
+  }
+}
+
+/* An empty Current Openings list (no open positions) takes no space, so the
+   "no open positions" line sits right under the page title. */
+#openings-current:not(:has(.opening-card)) {
+  display: none;
+}
+
+.page__content p.openings-none {
+  margin: 16px 0 32px;
+}
+
+/* Phones: tighter spacing between the page sections. */
+@media (max-width: 600px) {
+  .openings-index .page__title,
+  .openings-index #page-title {
+    margin-bottom: 0.5em;
+  }
+
+  .openings-list {
+    margin-bottom: 32px;
+  }
+
+  .page__content p.openings-none {
+    margin: 12px 0 24px;
+  }
+
+  .openings-closing {
+    padding-top: 20px;
+  }
+
+  .openings-closing + .openings-closing {
+    margin-top: 20px;
+  }
+
+  .openings-closing p {
+    font-size: 14px;
+    margin-bottom: 0.6em;
+  }
+
+  .openings-past-title {
+    margin: 24px 0 12px;
+    padding-top: 20px;
+  }
+}

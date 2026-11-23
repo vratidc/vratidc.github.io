@@ -1,6 +1,6 @@
 ---
 modal_hide_position: "yes"
-modaltext: "A VR Developer with a background in game programming, who blends creativity with logic to build immersive worlds. He holds a B.A. in Multimedia and Gaming from Amity University Mumbai. At the IMXD Lab, he develops the lab's immersive projects and conducts VR and AR development sessions in its courses and workshops."
+modaltext: "An XR Developer with a background in game programming, who blends creativity with logic to build immersive worlds. He holds a B.A. in Multimedia and Gaming from Amity University Mumbai. At the IMXD Lab, he develops the lab's immersive projects and conducts VR and AR development sessions in its courses and workshops."
 modal: "yes"
 layout: single
 title: Aditya Sirsat

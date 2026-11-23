@@ -1,5 +1,5 @@
 ---
-modaltext: "Her research looks at 4D printing and shape-changing interfaces, and how people perceive their form and affordances. Her work has been published in the International Journal of Human-Computer Interaction and at India HCI and NordDesign."
+modaltext: "Her research looks at 4D printing and shape-changing interfaces, and how people perceive their form and affordances. Her work has been published in the International Journal of Human-Computer Interaction and at India HCI and NordDesign. She successfully defended her PhD <a href=\"/workshops/phd-defence-khyati-priya2026/\">thesis</a>, <i>Communicating Change through Form: Studying Perceived Affordances in 4D Printed Artefacts</i>, in November 2026."
 layout: single
 title: Khyati Priya
 position: PhD Scholar, Prime Minister's Research Fellow

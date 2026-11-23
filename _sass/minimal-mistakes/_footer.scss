@@ -132,11 +132,21 @@
         display: none;
     }
 
-    // Phones: 4 + 3 + 2 links per row, without bullets.
-    @media (max-width: 600px) {
-        column-gap: 1.4em;
+    // Openings-Contact bullet is only needed on phones (on desktop a row break sits there).
+    .footer-sep--mobile {
+        display: none;
+    }
 
-        .footer-sep,
+    // Phones: 4 + 3 + 2 links per row, with bullets between links.
+    @media (max-width: 600px) {
+        column-gap: 0.7em;
+
+        .footer-sep--mobile {
+            display: inline;
+        }
+
+        // Bullets between links on the same row; none at the start of a row.
+        .footer-break--mobile + .footer-sep,
         .footer-break--desktop {
             display: none;
         }
@@ -150,4 +160,30 @@
 // Social icons row: spacing around its separators.
 .page__footer-follow .footer-sep {
     margin: 0 0.9em;
+}
+
+// Phones: tighter footer. The blank lines between sections are dropped and
+// replaced with small margins, and the link rows sit closer together.
+@media (max-width: 600px) {
+    .page__footer {
+        margin-top: 2em;
+
+        footer {
+            margin-top: 1.25em;
+            padding-bottom: 1.25em;
+
+            > br {
+                display: none;
+            }
+        }
+    }
+
+    .page__footer-links {
+        row-gap: 0.35em;
+        margin-bottom: 0.9em;
+    }
+
+    .page__footer-follow {
+        margin-bottom: 0.9em;
+    }
 }

@@ -19,7 +19,7 @@ open: true                      # true = Current Openings, false = Past Openings
 #   filled        Position filled
 status: shortlisting
 icon: 3d                        # card icon: 3d, vr or design
-tag: IMXD Lab Internship        # label above the title (card and page)
+tag: Internship        # label above the title (card and page)
 
 # --- Quick facts --------------------------------------------------------
 # Shown in this line order on the page and the card; empty ones are hidden.
