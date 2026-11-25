@@ -16,8 +16,9 @@ open: true                      # true = Current Openings, false = Past Openings
 #   interviews    Interview invitations sent
 #   interviewed   Interviews completed
 #   closed        Applications closed
+#   announced     Selections announced (IRCC award openings, once IRCC announces results)
 #   filled        Position filled
-status: shortlisting
+status: interviews
 icon: vr                        # card icon: 3d, vr or design
 tag: Internship        # label above the title (card and page)
 

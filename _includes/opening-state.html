@@ -18,6 +18,7 @@
     interviews    Interview invitations sent
     interviewed   Interviews completed
     closed        Applications closed      (default when open: false)
+    announced     Selections announced (IRCC award openings)
     filled        Position filled
   A closed opening never shows "accepting", even if status still says so.
 {% endcomment %}
@@ -32,6 +33,7 @@
   {% when "shortlisting" %}{% assign opening_status_label = "Shortlisting in progress" %}
   {% when "interviews" %}{% assign opening_status_label = "Interview invitations sent" %}
   {% when "interviewed" %}{% assign opening_status_label = "Interviews completed" %}
+  {% when "announced" %}{% assign opening_status_label = "Selections announced" %}
   {% when "filled" %}{% assign opening_status_label = "Position filled" %}
   {% else %}{% assign opening_status = "closed" %}{% assign opening_status_label = "Applications closed" %}
 {% endcase %}

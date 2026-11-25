@@ -16,8 +16,9 @@ open: false                     # true = Current Openings, false = Past Openings
 #   interviews    Interview invitations sent
 #   interviewed   Interviews completed
 #   closed        Applications closed
+#   announced     Selections announced (IRCC award openings, once IRCC announces results)
 #   filled        Position filled
-status: interviewed
+status: announced
 icon: vr                        # card icon: 3d, vr or design
 tag: IIT Bombay Research Internship Awards 2026-27  # label above the title (card and page)
 
