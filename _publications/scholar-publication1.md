@@ -17,6 +17,9 @@ PDF: /assets/documents/Sarkar2018_ScholAR_T4E.pdf
 header:
     teaser: /assets/img/publications/icon-pub-t4e2018.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "ScholAR"
+project_url: /projects/scholar
 ---
 
 Details Below:

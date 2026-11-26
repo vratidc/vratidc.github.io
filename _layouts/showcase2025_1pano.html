@@ -50,7 +50,7 @@ layout: default
 
     <div class="projects" style="margin-top: 1em;">
 
-        {{ content }}
+        {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
     </div>
 
 </div>

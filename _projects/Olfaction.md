@@ -81,4 +81,4 @@ This work was presented as a [poster](https://ieeexplore.ieee.org/document/90906
 
 ## Publication
 
-- Sakhardande P., Murugan A. and Pillai J.S. (2020). Exploring Effect Of Different External Stimuli On Body Association In VR, in: The 27th IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), Atlanta, USA.
+- Sakhardande P., Murugan A. and Pillai J.S. (2020). Exploring Effect Of Different External Stimuli On Body Association In VR, in: The 27th IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), Atlanta, USA. [View publication](/publications/olfaction-vr/)

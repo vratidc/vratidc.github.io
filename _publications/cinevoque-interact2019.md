@@ -15,6 +15,9 @@ website: "https://link.springer.com/chapter/10.1007/978-3-030-29381-9_22"
 header:
     teaser: /assets/img/publications/icon-pub-interact2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Cinévoqué"
+project_url: /projects/cinevoque
 ---
 
 Details Below:

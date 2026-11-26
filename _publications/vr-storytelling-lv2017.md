@@ -17,6 +17,9 @@ PDF: /assets/documents/Pillai_GrammarOfVR_VRIC2017.pdf
 header:
     teaser: /assets/img/publications/icon-pub-lv2017.jpg
 layout: publications   
+# Project this paper came from; linked at the end of the page
+project_title: "Yeri Oram"
+project_url: /projects/yerioram
 ---
 
 Details Below:

@@ -1,0 +1,84 @@
+{% comment %}
+  Structured data (schema.org JSON-LD) for search engines, included from seo.html.
+  It tells Google what a page is about, beyond its text:
+    - Project pages (_projects/, including student projects): a CreativeWork,
+      with the team as creators and the lab (or the course) as the maker.
+    - Publication pages (_publications/ with publication: "yes"): a
+      ScholarlyArticle, with its authors, venue and year.
+  The site-wide ResearchOrganization (the lab itself) is in seo.html.
+  Nothing here is visible on the page.
+{% endcomment %}
+
+{%- assign sd_url = page.url | absolute_url -%}
+{%- assign sd_image = page.header.og_image | default: page.og_image | default: page.header.teaser | default: site.og_image -%}
+{%- unless sd_image contains '://' -%}{%- assign sd_image = sd_image | absolute_url -%}{%- endunless -%}
+{%- assign sd_description = page.description | default: page.overview | default: page.excerpt | markdownify | strip_html | strip_newlines | strip -%}
+
+{%- comment -%} The 360° panorama viewers also live in _projects/ but aren't projects. {%- endcomment -%}
+{%- if page.collection == "projects" and page.layout contains "panofullscreen" -%}{%- assign sd_skip = true -%}{%- else -%}{%- assign sd_skip = false -%}{%- endif -%}
+
+{%- if page.collection == "projects" and sd_skip == false -%}
+  {%- comment -%} Lab projects list their team in team_members; student projects in team. Both use "|" between names. {%- endcomment -%}
+  {%- assign sd_team = page.team_members | default: page.team | default: "" | split: "|" -%}
+  {%- assign sd_year = "" -%}
+  {%- if page.year -%}{%- assign sd_year = page.year | append: "" | slice: 0, 4 -%}{%- elsif page.date -%}{%- assign sd_year = page.date | append: "" | slice: 0, 4 -%}{%- endif -%}
+  {%- comment -%} dates here are written like 20190101, so the year is the first four digits {%- endcomment -%}
+  {%- assign sd_keywords = page.tags | join: ", " | replace: "-", " " -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": {{ page.title | strip_html | jsonify }},
+    "url": {{ sd_url | jsonify }},
+    "image": {{ sd_image | jsonify }}{% if sd_description != "" %},
+    "description": {{ sd_description | truncate: 300 | jsonify }}{% endif %}{% if sd_year != "" %},
+    "dateCreated": {{ sd_year | jsonify }}{% endif %}{% if sd_keywords != "" %},
+    "keywords": {{ sd_keywords | jsonify }}{% endif %}{% if sd_team.size > 0 %},
+    "creator": [
+      {%- for name in sd_team -%}
+      {%- assign clean = name | strip | remove: "*" -%}
+      {%- if clean != "" -%}{%- unless forloop.first -%},{%- endunless -%}
+      { "@type": "Person", "name": {{ clean | jsonify }} }
+      {%- endif -%}
+      {%- endfor -%}
+    ]{% endif %},
+    "producer": {
+      "@type": "ResearchOrganization",
+      "name": "IMXD Lab, IDC School of Design, IIT Bombay",
+      "url": {{ '/' | absolute_url | jsonify }}
+    }{% if page.type == "course" %},
+    "genre": "Student project"{% endif %}
+  }
+</script>
+{%- endif -%}
+
+{%- if page.collection == "publications" and page.publication == "yes" -%}
+  {%- comment -%} authors is one string like "A, B and C"; split it into names. {%- endcomment -%}
+  {%- assign sd_authors = page.authors | default: "" | replace: " and ", ", " | split: "," -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": {{ page.title | strip_html | truncate: 110 | jsonify }},
+    "name": {{ page.title | strip_html | jsonify }},
+    "url": {{ sd_url | jsonify }},
+    "image": {{ sd_image | jsonify }}{% if page.date %},
+    "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }}{% endif %}{% if page.venue %},
+    "isPartOf": { "@type": "CreativeWork", "name": {{ page.venue | strip_html | jsonify }} }{% endif %}{% if page.link %},
+    "sameAs": {{ page.link | jsonify }}{% endif %},
+    "author": [
+      {%- for name in sd_authors -%}
+      {%- assign clean = name | strip | remove: "*" -%}
+      {%- if clean != "" -%}{%- unless forloop.first -%},{%- endunless -%}
+      { "@type": "Person", "name": {{ clean | jsonify }} }
+      {%- endif -%}
+      {%- endfor -%}
+    ],
+    "sourceOrganization": {
+      "@type": "ResearchOrganization",
+      "name": "IMXD Lab, IDC School of Design, IIT Bombay",
+      "url": {{ '/' | absolute_url | jsonify }}
+    }
+  }
+</script>
+{%- endif -%}

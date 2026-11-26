@@ -142,15 +142,15 @@ Our work has generated interest in the annual TATA conference held at IITB every
 
 - Sarkar P., Murugan A. and Pillai J.S. (2020). Towards Designing a Mobile Augmented Reality Learning Experience, in: 19th IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2020), Porto de Galinhas, Brazil.
 
-- Sarkar P., Kadam K. and Pillai J.S. (2020). Learners’ approaches, motivation and patterns of problem-solving on lines and angles in geometry using augmented reality, in: Smart Learning Environments, SpringerOpen.
+- Sarkar P., Kadam K. and Pillai J.S. (2020). Learners’ approaches, motivation and patterns of problem-solving on lines and angles in geometry using augmented reality, in: Smart Learning Environments, SpringerOpen. [View publication](/publications/scholar-publication5/)
 
-- Sarkar P., Kadam K. and Pillai J.S. (2019). Collaborative Approaches to Problem-Solving on Lines and Angles Using Augmented Reality, in: Technology for Education (T4E 2019), Goa, India.
+- Sarkar P., Kadam K. and Pillai J.S. (2019). Collaborative Approaches to Problem-Solving on Lines and Angles Using Augmented Reality, in: Technology for Education (T4E 2019), Goa, India. [View publication](/publications/scholar-publication4/)
 
-- Sarkar P., Sakhardande P., Oza U. and Pillai, J.S. (2019). Study of Augmented Reality Interaction Mediums towards Collaboratively Solving Open-Ended Problems, in: 27th International Conference on Computers in Education (ICCE2019), Dec2019, Kenting, Taiwan.
+- Sarkar P., Sakhardande P., Oza U. and Pillai, J.S. (2019). Study of Augmented Reality Interaction Mediums towards Collaboratively Solving Open-Ended Problems, in: 27th International Conference on Computers in Education (ICCE2019), Dec2019, Kenting, Taiwan. [View publication](/publications/scholar-publication3/)
 
-- Sarkar P. and Pillai J.S. (2019). User Expectations of Augmented Reality Experience in Indian School Education, in: International Conference on Research into Design (ICoRD) 2019, IISc Bangalore, India.
+- Sarkar P. and Pillai J.S. (2019). User Expectations of Augmented Reality Experience in Indian School Education, in: International Conference on Research into Design (ICoRD) 2019, IISc Bangalore, India. [View publication](/publications/scholar-publication2/)
 
-- Sarkar P., Pillai J.S. and Gupta A., (2018). ScholAR: A Collaborative Learning Experience for Rural Schools Using Augmented Reality Application, in: Technology for Education (T4E 2018), IIT Madras, India.
+- Sarkar P., Pillai J.S. and Gupta A., (2018). ScholAR: A Collaborative Learning Experience for Rural Schools Using Augmented Reality Application, in: Technology for Education (T4E 2018), IIT Madras, India. [View publication](/publications/scholar-publication1/)
 
 
 {% include flexgallery id="flexgallery3" caption="" %}

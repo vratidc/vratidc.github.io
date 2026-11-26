@@ -16,6 +16,9 @@ link: "https://www.researchgate.net/publication/341104400_Study_of_Augmented_Rea
 header:
     teaser: /assets/img/publications/icon-pub-icce2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "ScholAR"
+project_url: /projects/scholar
 ---
 
 Details Below:

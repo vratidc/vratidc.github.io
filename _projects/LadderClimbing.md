@@ -36,4 +36,4 @@ Natural hands gestures of grabbing and releasing were used to grab and release t
 
 ## Publication
 
-<small>Vineet Kamboj, Tuhin Bhuyan, and Jayesh S. Pillai. 2019. Vertical Locomotion in VR Using Full Body Gestures. In 25th ACM Symposium on Virtual Reality Software and Technology (VRST '19). Association for Computing Machinery, New York, NY, USA, Article 98, 1–2.   <br> DOI: [https://doi.org/10.1145/3359996.3364770](https://doi.org/10.1145/3359996.3364770)</small>
+<small>Vineet Kamboj, Tuhin Bhuyan, and Jayesh S. Pillai. 2019. Vertical Locomotion in VR Using Full Body Gestures. In 25th ACM Symposium on Virtual Reality Software and Technology (VRST '19). Association for Computing Machinery, New York, NY, USA, Article 98, 1–2.   <br> DOI: [https://doi.org/10.1145/3359996.3364770](https://doi.org/10.1145/3359996.3364770)<br><a href="/publications/verical-locomotion-vrst2019/">View publication</a></small>

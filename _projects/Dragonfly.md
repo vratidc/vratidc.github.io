@@ -244,9 +244,9 @@ We conducted experiments to understand how visual and audio cues work in VR narr
 
 ### ***Publications***
 
-- Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Analysis of Perceptual Cues in VR Cinema", in: The 16th ACM SIGGRAPH European Conference on Visual Media Production, 2019, London, UK.
+- Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Analysis of Perceptual Cues in VR Cinema", in: The 16th ACM SIGGRAPH European Conference on Visual Media Production, 2019, London, UK. [View publication](/publications/vr-storytelling-cvmp/)
 
-- Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
+- Pillai J.S. and Verma M. (2019). "Grammar of VR Storytelling: Narrative Immersion and Experiential Fidelity in VR Cinema", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia. [View publication](/publications/vr-storytelling-vrcai/)
 
 <br>
 

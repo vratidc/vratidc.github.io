@@ -45,7 +45,9 @@ layout: default
                     </nav>
                 </aside>
                 {% endif %}
-                {{ content }}
+                {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
+                {% comment %} Link back to the project this paper came from (project_title / project_url in front matter). {% endcomment %}
+                {% if page.project_url %}<p>Related project: <a href="{{ page.project_url | relative_url }}">{{ page.project_title }}</a></p>{% endif %}
                 {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
             </section>
 

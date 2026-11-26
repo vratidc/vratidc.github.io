@@ -16,6 +16,9 @@ link: "https://dl.acm.org/doi/10.1145/3562939.3565642"
 header:
     teaser: /assets/img/publications/icon-pub-vrst2022.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Lattice Structure in AR"
+project_url: /projects/lattice-structure
 ---
 
 Details Below:

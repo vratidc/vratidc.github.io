@@ -17,7 +17,7 @@ layout: default
                 <h1>404</h1> 
                 Page not found!
                 <br/>:(
-                {{ content }}
+                {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
             </section>
             <footer class="page__meta">
                 {% if site.data.ui-text[site.locale].meta_label %}

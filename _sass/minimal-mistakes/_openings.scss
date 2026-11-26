@@ -609,7 +609,8 @@ a.opening-all-btn:hover {
 
 /* Status label on opening cards and detail pages (set by `status` in each
    opening's front matter; see _includes/opening-state.html).
-   Green = accepting, amber = selection in progress, red = closed / filled. */
+   Green = open (accepting), amber = selection in progress,
+   grey = finished (closed, selections announced, filled). */
 .opening-status {
   display: inline-block;
   margin-left: 6px;
@@ -635,11 +636,12 @@ a.opening-all-btn:hover {
   background: #fbf3dc;
 }
 
+// Finished: neutral grey ("done", not "something went wrong").
 .opening-status--closed,
 .opening-status--announced,
 .opening-status--filled {
-  color: #8a3b2f;
-  background: #fbeae7;
+  color: #5f6670;
+  background: #eceef0;
 }
 
 /* The opening layout renders both the open and closed notes and hides one with

@@ -17,6 +17,9 @@ PDF: /assets/documents/Kamboj_VerticalLocomotion_VRST2019.pdf
 header:
     teaser: /assets/img/publications/icon-pub-vrst2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Ladder Climbing Interactions"
+project_url: /projects/ladderclimbing
 ---
 
 Details Below:

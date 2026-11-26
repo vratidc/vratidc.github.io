@@ -17,6 +17,9 @@ link: "https://link.springer.com/article/10.1186/s40561-020-00124-9"
 header:
     teaser: /assets/img/publications/icon-pub-springeropen.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "ScholAR"
+project_url: /projects/scholar
 ---
 
 Details Below:

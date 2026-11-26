@@ -16,6 +16,9 @@ PDF: "https://rishivanukuru.com/assets/documents/papers/ieeevr2021.pdf"
 header:
     teaser: /assets/img/publications/icon-pub-ieeevr2021.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Mobile Social AR"
+project_url: /projects/mobilesocialar
 ---
 
 Details Below:

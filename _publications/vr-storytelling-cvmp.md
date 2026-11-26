@@ -17,6 +17,9 @@ website: "https://dl.acm.org/doi/10.1145/3359998.3369402"
 header:
     teaser: /assets/img/publications/icon-pub-cvmp2019.jpg
 layout: publications 
+# Project this paper came from; linked at the end of the page
+project_title: "Dragonfly"
+project_url: /projects/dragonfly
 
 ---
 

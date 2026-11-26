@@ -92,7 +92,7 @@ This work was presented as a demo at VRCAI 2019 in Brisbane, Australia.
 
 ### **Publication**
 
-- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
+- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia. [View publication](/publications/cinevoque-twma/)
 
 
 <script>

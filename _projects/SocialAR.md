@@ -80,7 +80,7 @@ While there is a huge body of work on collaboration and remote communication in 
 
 ## Publications
 
-- Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press)
+- Murugan A., Vanukuru R., and Pillai J.S. (2021). Towards Avatars for Remote Communication using Mobile Augmented Reality, in: IEEEVR 2021 (In press) [View publication](/publications/ar-avatar-ieeevr2021/)
 
 
 

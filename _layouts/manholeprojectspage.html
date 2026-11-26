@@ -53,7 +53,7 @@ layout: default-manhole
                 {% endif %}
             
 
-                {{ content }}
+                {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
 
              </section>
         </div>

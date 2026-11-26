@@ -98,6 +98,7 @@ social:
 
     - "https://www.linkedin.com/company/imxd-lab/"
     - "https://www.youtube.com/channel/UCxd5Sh7w0gD1sHfzug4ChDA"
+    - "https://github.com/vratidc"
 
 # Analytics
 analytics:
@@ -293,7 +294,8 @@ defaults:
     values:
       author_profile: false
       hidetitle: "true"
-  # Course project pages stay out of the sitemap; their showcases are the main pages.
+  # Student (course) project pages stay out of the sitemap: their content lives on the
+  # course showcase pages, which are in the sitemap, and these pages are only titles.
   - scope:
       path: "_projects/course-outcomes"
     values:

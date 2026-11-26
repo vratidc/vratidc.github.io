@@ -162,6 +162,6 @@ designing effective VR narratives.
 
 ## Publications
 
-- **Jayesh Pillai**, Priyanshu Thakur, and Tushar Vaid. 2023. **Belonging: Exploring Audio-Visual Cues in Real-time 6DoF VR Narrative**. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA.  
+- **Jayesh Pillai**, Priyanshu Thakur, and Tushar Vaid. 2023. **Belonging: Exploring Audio-Visual Cues in Real-time 6DoF VR Narrative**. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA. [View publication](/publications/vr-storytelling-indiahci2023-1/)
  
 

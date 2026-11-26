@@ -5,7 +5,7 @@ layout: default
 <div id="main" role="main">
 
     <div class="activities">
-        {{ content }}
+        {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
     </div>
 
 </div>

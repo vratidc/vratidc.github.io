@@ -15,6 +15,9 @@ website: "https://ieeexplore.ieee.org/document/9090609"
 header:
     teaser: /assets/img/publications/icon-pub-ieeevr2020.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Body Association in VR"
+project_url: /projects/bodyassociation
 ---
 
 Details Below:

@@ -97,11 +97,11 @@ This project yielded three films and publications. We also presented our work at
 
 ### Publications
 
-- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia.
+- Pillai J.S., Murugan A. and Dev A. (2019). "Till We Meet Again: A Cinévoqué Experience (Demo)", in: 17th ACM SIGGRAPH International Conference on Virtual Reality Continuum and Its Applications in Industry (VRCAI) 2019, Brisbane, Australia. [View publication](/publications/cinevoque-twma/)
 
-- Murugan A., Dev A., and Pillai J.S. (2019). "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: The 25th ACM Symposium on Virtual Reality Software and Technology, Sydney, Australia.
+- Murugan A., Dev A., and Pillai J.S. (2019). "Cinévoqué: Development of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: The 25th ACM Symposium on Virtual Reality Software and Technology, Sydney, Australia. [View publication](/publications/cinevoque-vrst2019/)
 
-- Pillai J.S., Murugan A. and Dev A. (2019). "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: 17th IFIP TC.13 International Conference on Human-Computer Interaction – INTERACT 2019, Paphos, Cyprus. 
+- Pillai J.S., Murugan A. and Dev A. (2019). "Cinévoqué: Design of a Passively Responsive Framework for Seamless Evolution of Experiences in Immersive Live-Action Movies", in: 17th IFIP TC.13 International Conference on Human-Computer Interaction – INTERACT 2019, Paphos, Cyprus. [View publication](/publications/cinevoque-interact2019/)
 
 ### ***Invited Talks***
 

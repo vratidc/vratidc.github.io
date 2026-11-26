@@ -17,6 +17,9 @@ website: "https://link.springer.com/chapter/10.1007/978-981-97-4335-3_10"
 header:
     teaser: /assets/img/publications/icon-pub-indiahci2023.jpg
 layout: publications 
+# Project this paper came from; linked at the end of the page
+project_title: "Whispers of the Konkan Guardian"
+project_url: /projects/WOTKG
 
 ---
 

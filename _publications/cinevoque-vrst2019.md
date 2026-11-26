@@ -16,6 +16,9 @@ PDF: /assets/documents/Pillai_Cinevoque_VRST2019.pdf
 header:
     teaser: /assets/img/publications/icon-pub-vrst2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Cinévoqué"
+project_url: /projects/cinevoque
 ---
 
 Details Below:

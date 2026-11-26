@@ -14,6 +14,9 @@ link: "https://dl.acm.org/doi/10.1145/3380867.3426199"
 header:
     teaser: /assets/img/publications/icon-pub-iss2020.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "AR Arc Welding App"
+project_url: /projects/ar-welding
 ---
 
 Details Below:

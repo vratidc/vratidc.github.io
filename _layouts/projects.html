@@ -56,7 +56,7 @@ layout: default
                 <img src="{{site.baseurl}}{{page.banner_image1}}" alt="banner_image1">
                 {% endif %}
 
-                {{ content }}
+                {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
 
 
                 {% if page.content_one1 %}

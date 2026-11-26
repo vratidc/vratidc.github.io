@@ -20,6 +20,6 @@ layout: default
     <div class="people">
         {% unless page.header.overlay_color or page.header.overlay_image %}
         {% endunless %}
-        {{ content }}
+        {{ content | replace: '<img ', '<img loading="lazy" ' | replace: 'loading="lazy" loading="lazy"', 'loading="lazy"' }}
     </div>
 </div>

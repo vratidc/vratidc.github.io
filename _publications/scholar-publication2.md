@@ -17,6 +17,9 @@ PDF: /assets/documents/Sarkar_ICORD2019.pdf
 header:
     teaser: /assets/img/publications/icon-pub-icord2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "ScholAR"
+project_url: /projects/scholar
 ---
 
 Details Below:

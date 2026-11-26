@@ -16,6 +16,9 @@ link: "https://dl.acm.org/doi/10.1145/3359997.3365726"
 header:
     teaser: /assets/img/publications/icon-pub-vrcai2019.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Till We Meet Again"
+project_url: /projects/twma
 ---
 
 Details Below:

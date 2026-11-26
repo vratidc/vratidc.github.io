@@ -70,6 +70,6 @@ As part of the larger research work on "Understanding the Grammar of VR Storytel
 
 ## Publication
 
-- Pillai J.S., Ismail A., and Charles H.P. (2017). "Grammar of VR Storytelling: Visual Cues", in: Virtual Reality International Conference 2017, Laval, France. 
+- Pillai J.S., Ismail A., and Charles H.P. (2017). "Grammar of VR Storytelling: Visual Cues", in: Virtual Reality International Conference 2017, Laval, France. [View publication](/publications/vr-storytelling-lv2017/)
 
 

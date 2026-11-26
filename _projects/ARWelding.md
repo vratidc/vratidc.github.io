@@ -79,5 +79,5 @@ An evaluation was conducted primarily through experts in welding. After multiple
 
 ### Publication
 
-- Richa Agrawal and Jayesh Pillai. 2020. **Augmented Reality Application in Vocational Education: A Case of Welding Training**. In Proceedings of 2020 ACM Interactive Surfaces and Spaces (ISS’20), November 8-11, Lisbon, Portugal, 4 pages. [https://doi.org/10.1145/3380867.3426199](https://doi.org/10.1145/3380867.3426199){:target="_blank"}
+- Richa Agrawal and Jayesh Pillai. 2020. **Augmented Reality Application in Vocational Education: A Case of Welding Training**. In Proceedings of 2020 ACM Interactive Surfaces and Spaces (ISS’20), November 8-11, Lisbon, Portugal, 4 pages. [https://doi.org/10.1145/3380867.3426199](https://doi.org/10.1145/3380867.3426199){:target="_blank"} [View publication](/publications/ar-welding-iss2020/)
 

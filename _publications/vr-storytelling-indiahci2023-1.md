@@ -17,6 +17,9 @@ website: "https://link.springer.com/chapter/10.1007/978-981-97-4335-3_9"
 header:
     teaser: /assets/img/publications/icon-pub-indiahci2023.jpg
 layout: publications 
+# Project this paper came from; linked at the end of the page
+project_title: "Belonging"
+project_url: /projects/Belonging
 
 ---
 

@@ -51,7 +51,7 @@ The primary outcome of this project is a <b>Tangible AR Application</b> with int
 
 ## Publications
 
-- Singh A. K. and Pillai J.S. (2022). [Exploration of inter-marker interactions in Tangible AR.](https://doi.org/10.1145/3562939.3565642){:target="_blank"} In Proceedings of the 28th ACM Symposium on Virtual Reality Software and Technology (VRST '22). Association for Computing Machinery, New York, NY, USA, Article 55, 1–2.
+- Singh A. K. and Pillai J.S. (2022). [Exploration of inter-marker interactions in Tangible AR.](https://doi.org/10.1145/3562939.3565642){:target="_blank"} In Proceedings of the 28th ACM Symposium on Virtual Reality Software and Technology (VRST '22). Association for Computing Machinery, New York, NY, USA, Article 55, 1–2. [View publication](/publications/ar-inter-marker-vrst2022/)
 
 
 

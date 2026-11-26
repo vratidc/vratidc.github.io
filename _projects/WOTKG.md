@@ -177,4 +177,4 @@ persona—emerge across two unique game levels, night and day.
 
 ## Publication 
 
-- **Jayesh Pillai** and Shreyas Vernekar. 2023. An Unusual Guardian- Interactive Storytelling through Digital Game Design. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA.
+- **Jayesh Pillai** and Shreyas Vernekar. 2023. An Unusual Guardian- Interactive Storytelling through Digital Game Design. In ACM Designing Interactive Systems (DIS) 2023, November 23-25, 2023, Dehradun, India. ACM, New York, NY, USA. [View publication](/publications/vr-storytelling-indiahci2023-2/)

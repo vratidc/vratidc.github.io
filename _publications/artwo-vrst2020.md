@@ -14,6 +14,9 @@ link: "https://dl.acm.org/doi/10.1145/3385956.3422113"
 header:
     teaser: /assets/img/publications/icon-pub-vrst2020.jpg
 layout: publications    
+# Project this paper came from; linked at the end of the page
+project_title: "Dual Phone AR"
+project_url: /projects/dualphonear
 ---
 
 Details Below:
